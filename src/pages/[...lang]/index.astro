@@ -11,7 +11,7 @@ import { getPosts, postHref } from '@/data/learn';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
 import { photoFor } from '@/data/photos';
-import { scissorsMark } from '@/data/brand-marks.mjs';
+import { kgfBlock, scissorsMark } from '@/data/brand-marks.mjs';
 import { langParams, publishedLocales, useI18n } from '@/i18n';
 import type { IconName } from '@/data/icons';
 
@@ -22,8 +22,6 @@ export function getStaticPaths() {
 const i = useI18n(Astro.url);
 const { t, c, l } = i;
 
-// The hero uses the Low Fade photo once it exists; until then, the KGF scissors mark on crimson.
-const heroPhoto = Boolean(photoFor('H07'));
 
 // Hair leads: full width on phones, a 2x2 block on wider screens.
 const tiles: { key: CategoryKey; href: string; icon: IconName; feature?: boolean; photo: { id: string; name: string; mainPhoto: 'front' | 'side' } }[] = [
@@ -57,18 +55,13 @@ const languages = 1 + publishedLocales().length;
 >
   <JsonLd slot="head" data={website(Astro.site!)} />
   <main>
-    {/* Split hero: colour-block photo panel, then the message. Side by side from tablet up. */}
+    {/* Split hero: KGF brand logo on crimson red, then the message. Side by side from tablet up. */}
     <section class="md:grid md:min-h-[38rem] md:grid-cols-2">
       <div class="relative aspect-[16/10] overflow-hidden md:aspect-auto">
-        {
-          heroPhoto ? (
-            <ItemPhoto item={{ id: 'H07', name: c('H07.name', 'Low Fade'), mainPhoto: 'side' }} size="hero" class="absolute inset-0 size-full" />
-          ) : (
-            <div class="absolute inset-0 grid place-items-center bg-brand">
-              <svg viewBox="0 0 100 100" class="h-[70%] max-h-80 w-auto" aria-hidden="true" set:html={scissorsMark()} />
-            </div>
-          )
-        }
+        <div class="absolute inset-0 flex flex-col items-center justify-center gap-5 bg-brand p-6 text-white md:gap-7">
+          <svg viewBox="0 0 100 100" class="h-28 max-h-[42%] w-auto md:h-44" aria-hidden="true" set:html={scissorsMark()} />
+          <div class="w-36 max-w-[55%] md:w-52" set:html={kgfBlock()} />
+        </div>
       </div>
       <div class="wrap flex flex-col justify-center py-10 md:max-w-xl md:px-12 md:py-20">
         <p class="tag rise">{shop.name} · {shop.area}</p>
