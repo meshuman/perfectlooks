@@ -25,7 +25,7 @@ const { t, c, l } = i;
 
 // Hair leads: full width on phones, a 2x2 block on wider screens.
 const tiles: { key: CategoryKey; href: string; icon: IconName; feature?: boolean; block?: string; photo?: { id: string; name: string; mainPhoto: 'front' | 'side' } }[] = [
-  { key: 'hair', href: '/styles', icon: 'scissors', feature: true, block: 'bg-block-sky' },
+  { key: 'hair', href: '/styles', icon: 'scissors', feature: true, photo: { id: 'H07', name: 'Low Fade', mainPhoto: 'side' } },
   { key: 'beards', href: '/beards', icon: 'beard', photo: { id: 'B04', name: 'Short Boxed Beard', mainPhoto: 'front' } },
   { key: 'moustaches', href: '/moustaches', icon: 'moustache', photo: { id: 'M09', name: 'Natural Full', mainPhoto: 'front' } },
   { key: 'colours', href: '/colours', icon: 'droplet', photo: { id: 'C02', name: 'Natural Black', mainPhoto: 'front' } },
