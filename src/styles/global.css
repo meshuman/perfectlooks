@@ -1,0 +1,377 @@
+@import "tailwindcss";
+@import "@fontsource-variable/jost";
+/* Devanagari subsets only: the browser downloads them only when Nepali or Hindi text is on the page. */
+@import "@fontsource/mukta/devanagari-400.css";
+@import "@fontsource/mukta/devanagari-600.css";
+@import "@fontsource/mukta/devanagari-700.css";
+
+/*
+ * KGF Unisex Saloon design tokens: flat, calm salon editorial.
+ * Warm off-white, true black for type and actions, KGF crimson as the one accent, colour-block photo backgrounds.
+ * Contrast notes are for text on the colour it's used against.
+ *
+ * Token names are kept from the earlier gold theme so components didn't need renaming:
+ * "gold" is now the crimson accent and "gold-fill" is the black primary fill.
+ */
+@theme {
+  --color-ink: #111111;
+  --color-ink-2: #1c1c1c;
+  --color-ink-3: #2b2b2b;
+  --color-line-dark: rgb(255 255 255 / 0.16);
+  --color-paper: #f7f4f0;
+  --color-paper-2: #ede8e2;
+  --color-card: #fbfaf8;
+  /* Option and card outlines. */
+  --color-line: #dcd7d1;
+  /* KGF crimson, from the logo block on the shop sign. White on it is 5.8:1. */
+  --color-brand: #e0284f;
+  /* Accent on dark backgrounds (lighter crimson): 6.2:1 as text on ink. */
+  --color-gold: #f2667f;
+  --color-gold-2: #e0284f;
+  --color-gold-soft: #fad4dc;
+  /* Accent for text on light backgrounds (deep crimson): 10:1 on paper. */
+  --color-gold-ink: #b0163a;
+  --color-text: #111111;
+  /* 5.1:1 on paper. */
+  --color-muted: #67625d;
+  /* 7.4:1 on ink. */
+  --color-muted-dark: #a8a39d;
+
+  /* Colour-block photo backgrounds, as in the reference photography. */
+  --color-block-orange: #ec9465;
+  --color-block-blush: #f7d9ce;
+  --color-block-sky: #a9c9e8;
+  --color-block-sage: #cadbd8;
+  --color-block-sand: #d8cdbf;
+  --color-block-plum: #b06a8f;
+
+  --font-sans: "Jost Variable", "Mukta", ui-sans-serif, system-ui, sans-serif;
+  /* Same family: titles use weight, not a second typeface. */
+  --font-display: "Jost Variable", "Mukta", ui-sans-serif, system-ui, sans-serif;
+
+  /* Square corners throughout. */
+  --radius-card: 0;
+  --radius-shell: 0;
+
+  --shadow-soft: 0 0 #0000;
+  /* Only for things that float: toast, dialog, sticky action bar. */
+  --shadow-lift: 0 18px 40px -24px rgb(17 17 17 / 0.35);
+
+  --ease-out-soft: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 0.015em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  :lang(ne),
+  :lang(hi) {
+    /* Devanagari needs more line height for vowel marks above and below. */
+    line-height: 1.7;
+    letter-spacing: 0;
+  }
+
+  h1,
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+  }
+
+  h3 {
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.3;
+  }
+
+  ::selection {
+    background: var(--color-gold-soft);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ---------- Surfaces ---------- */
+
+/* Kept as a hook; the flat theme needs no outer tray. */
+@utility shell {
+  display: block;
+}
+
+/* A flat panel: hairline outline, square corners. */
+@utility core {
+  background: var(--color-card);
+  box-shadow: inset 0 0 0 1px var(--color-line);
+}
+
+@utility shell-dark {
+  display: block;
+}
+
+@utility core-dark {
+  background: var(--color-ink);
+}
+
+/* Fixed bars. Flat, with a hairline edge. */
+@utility glass-light {
+  background: rgb(247 244 240 / 0.96);
+  box-shadow: inset 0 -1px 0 var(--color-line);
+}
+
+@utility glass-dark {
+  background: var(--color-ink);
+}
+
+/* Primary fill: solid black with white type. Inside dark areas it flips to white (see below). */
+@utility gold-fill {
+  color: #ffffff;
+  background: var(--color-ink);
+}
+
+/* Neutral photo background, used behind colour swatches. */
+@utility photo-bg {
+  background: var(--color-block-sand);
+}
+
+/* ---------- Labels ---------- */
+
+/* Small grey label above titles, like "Step 2/7". */
+@utility tag {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--color-muted);
+}
+
+@utility tag-dark {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--color-muted-dark);
+}
+
+/* Small label inside cards and rows. */
+@utility eyebrow {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-muted);
+}
+
+@utility eyebrow-dark {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-muted-dark);
+}
+
+/* Wide letter-spacing pulls Devanagari letters apart, so Nepali and Hindi text sets it tight. */
+:is(:lang(ne), :lang(hi)) :is([class*='tracking-[0.1'], [class*='tracking-[0.2'], .eyebrow) {
+  letter-spacing: 0 !important;
+}
+
+/* ---------- Layout ---------- */
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@utility wrap {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @media (width >= 48rem) {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* ---------- Theme rules outside the utility layer (they win over utilities on purpose) ---------- */
+
+/* On dark areas the primary fill flips to white with black type. */
+:is(.bg-ink, .core-dark, .glass-dark, .theme-dark) .gold-fill {
+  background: #ffffff;
+  color: var(--color-ink);
+}
+
+/* Titles carry no decorative italics or accent colour in this theme. */
+:is(h1, h2, .font-display) em {
+  font-style: normal;
+  color: inherit;
+}
+
+/* Names and titles set in the display family are medium weight. */
+.font-display {
+  font-weight: 500;
+}
+
+/* ---------- Motion ---------- */
+
+/* Fade up as content scrolls into view. Only with JavaScript, so nothing stays hidden without it. */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition:
+    opacity 0.8s var(--ease-out-soft),
+    transform 0.8s var(--ease-out-soft);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.js [data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Page-load entrance for the first screen, staggered with --rise-delay. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+}
+
+.rise {
+  animation: rise 0.8s var(--ease-out-soft) both;
+  animation-delay: var(--rise-delay, 0ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Saved heart: filled black. */
+[data-save][aria-pressed="true"] svg {
+  fill: currentColor;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+}
+
+.toast-in {
+  animation: toast-in 240ms var(--ease-out-soft);
+}
+
+/* ---------- Learn post body (rendered from Markdown) ---------- */
+
+.prose-pl {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: #3a3733;
+
+  & h2 {
+    margin: 2.5rem 0 0.75rem;
+    font-size: 1.5rem;
+    color: var(--color-text);
+  }
+
+  & p,
+  & ul,
+  & ol {
+    margin: 0.75rem 0;
+  }
+
+  & ul,
+  & ol {
+    padding-left: 1.25rem;
+  }
+
+  & ul {
+    list-style: disc;
+  }
+
+  & ol {
+    list-style: decimal;
+  }
+
+  & li {
+    margin: 0.4rem 0;
+    padding-left: 0.25rem;
+  }
+
+  & li::marker {
+    color: var(--color-text);
+  }
+
+  & strong {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  & a {
+    color: var(--color-text);
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  /* Tables scroll inside their own box, so the page never scrolls sideways. */
+  & table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 1.25rem 0;
+    background: var(--color-card);
+    box-shadow: inset 0 0 0 1px var(--color-line);
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    line-height: 1.45;
+  }
+
+  & th,
+  & td {
+    padding: 0.75rem 0.9rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--color-line);
+    min-width: 6.5rem;
+  }
+
+  & th {
+    background: var(--color-paper-2);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  & tr:last-child td {
+    border-bottom: 0;
+  }
+}

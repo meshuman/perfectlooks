@@ -1,0 +1,149 @@
+---
+// Image prompt sheet: every catalogue prompt assembled from the Image prompts document,
+// with copy buttons and photo status. Not linked from the site and not indexed.
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import prompts from '@/content/image-prompts.json';
+import { categoryList, categoryText, getAllItems, type Item } from '@/data/catalogue';
+import { i18n } from '@/i18n';
+import { photoCount, photoFor } from '@/data/photos';
+import { buildPrompt } from '@/lib/prompts';
+
+const items = await getAllItems();
+const total = items.length;
+const done = photoCount();
+
+// Each prompt gets the traits the man needs for that style, from the catalogue's suitability data.
+const build = (item: Item, clean: boolean) => {
+  const p = prompts.items[item.id as keyof typeof prompts.items];
+  return buildPrompt(prompts, item.id, p.block, clean, { category: item.category, match: item.match, older: p.older });
+};
+
+const groups = categoryList.map((category) => ({
+  category,
+  items: items
+    .filter((i) => i.category === category.key)
+    .map((i) => ({
+      id: i.id,
+      name: i.name,
+      older: prompts.items[i.id as keyof typeof prompts.items].older,
+      has: Boolean(photoFor(i.id)),
+      clean: build(i, true),
+      labelled: build(i, false),
+    })),
+}));
+
+const copyButton =
+  'h-9 px-3.5 text-xs font-semibold whitespace-nowrap transition duration-300 ease-out-soft active:scale-[0.97]';
+---
+
+<BaseLayout title="Image prompts" description="Image prompt sheet." noindex footer={false} back={{ href: '/dev/components', label: 'Dev' }}>
+  <main class="wrap max-w-3xl pt-6 pb-28">
+    <p class="tag">Images</p>
+    <h1 class="mt-4 text-[2.25rem] leading-tight">Image <em class="text-gold-ink">prompts</em></h1>
+    <p class="mt-3 text-[0.9375rem] text-muted">
+      Make the character reference first and attach it to every prompt. Save the <strong>clean</strong> version as
+      <code class="rounded bg-ink/5 px-1.5 py-0.5 text-[0.8125rem]">src/assets/catalogue/ID.jpg</code>; the site draws its own labels.
+    </p>
+
+    <div class="shell mt-6">
+      <div class="core p-4">
+        <div class="flex items-center justify-between text-sm font-semibold">
+          <span>Photos added</span>
+          <span><span class="font-display text-[1.5rem]">{done}</span> / {total}</span>
+        </div>
+        <div class="mt-2 h-2 overflow-hidden rounded-full bg-ink/[0.06]">
+          <div class="gold-fill h-full rounded-full" style={`width:${(done / total) * 100}%`}></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="mt-8">
+      <h2 class="text-[1.875rem]">1. Character reference</h2>
+      <div class="mt-4 grid gap-2 sm:grid-cols-2">
+        {
+          [
+            { label: 'Arjun, 28', text: prompts.character, note: 'Every item' },
+            { label: 'Arjun at about 50', text: prompts.older, note: 'Items marked Older' },
+          ].map((ref) => (
+            <div class="shell">
+              <div class="core flex items-center justify-between gap-3 p-4">
+                <div>
+                  <p class="font-display text-[1.375rem] leading-tight">{ref.label}</p>
+                  <p class="text-xs text-muted">{ref.note}</p>
+                </div>
+                <button type="button" data-copy={ref.text} class:list={[copyButton, 'gold-fill']}>
+                  Copy
+                </button>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    {
+      groups.map(({ category, items: list }) => (
+        <section class="mt-10">
+          <h2 class="text-[1.875rem]">
+            {categoryText(category.key, i18n('en')).label} <em class="text-muted">· {list.filter((i) => i.has).length}/{list.length}</em>
+          </h2>
+          <ul class="mt-4 space-y-2">
+            {list.map((item) => (
+              <li class="shell">
+                <div class="core p-3.5">
+                  <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+                    <span
+                      class:list={[
+                        'grid size-8 shrink-0 place-items-center rounded-full text-xs font-bold',
+                        item.has ? 'gold-fill' : 'bg-ink/[0.06] text-muted',
+                      ]}
+                      title={item.has ? 'Photo added' : 'No photo yet'}
+                    >
+                      {item.has ? '✓' : '·'}
+                    </span>
+                    <div class="min-w-0 flex-1">
+                      <p class="font-display text-[1.25rem] leading-tight">
+                        {item.id} {item.name}
+                      </p>
+                      <p class="text-xs text-muted">
+                        Save as <code>{item.id}.jpg</code>
+                        {item.older && <span class="ml-1 font-semibold text-gold-ink">· attach the older reference</span>}
+                      </p>
+                    </div>
+                    <div class="flex gap-1.5">
+                      <button type="button" data-copy={item.clean} class:list={[copyButton, 'gold-fill']}>
+                        Copy clean
+                      </button>
+                      <button type="button" data-copy={item.labelled} class:list={[copyButton, 'bg-ink/[0.05]']}>
+                        Labelled
+                      </button>
+                    </div>
+                  </div>
+                  <details class="mt-2">
+                    <summary class="cursor-pointer text-xs font-semibold text-muted">Show prompt</summary>
+                    <pre class="mt-2 max-h-64 overflow-auto bg-ink p-3 text-[0.6875rem] leading-relaxed whitespace-pre-wrap text-white/85">{item.clean}</pre>
+                  </details>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </main>
+</BaseLayout>
+
+<script>
+  import { toast } from '@/lib/ui';
+
+  document.addEventListener('click', async (event) => {
+    const button = (event.target as Element).closest<HTMLElement>('[data-copy]');
+    if (!button) return;
+    try {
+      await navigator.clipboard.writeText(button.dataset.copy!);
+      toast('Prompt copied');
+    } catch {
+      toast('Copy failed. Open "Show prompt" and copy it by hand.');
+    }
+  });
+</script>

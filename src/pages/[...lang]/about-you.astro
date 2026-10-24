@@ -1,0 +1,305 @@
+---
+// About you: one question per step, like the reference consultation screens.
+// Without JavaScript every question shows on one page and "Show styles" is always there.
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/Button.astro';
+import Icon from '@/components/Icon.astro';
+import { langParams, useI18n, type UiKey } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const { t, l } = useI18n(Astro.url);
+
+interface Option {
+  /** Stored in English, so matching works in every language. */
+  value: string;
+  help?: string;
+  /** Face outline (SVG path data, 40x48) or skin swatch colour. */
+  shape?: string;
+  swatch?: string;
+}
+
+interface Question {
+  name: string;
+  /** The label from the Overview document. */
+  label: string;
+  /** The same question, asked the way the step heading reads. */
+  question: string;
+  hint: string;
+  options: Option[];
+  layout: 'faces' | 'list' | 'swatches';
+}
+
+// Options and help text from the Overview document (Suitability options).
+const questions: Question[] = [
+  {
+    name: 'face',
+    label: t('suits.face'),
+    question: t('about.face.question'),
+    hint: t('about.face.hint'),
+    layout: 'faces',
+    options: [
+      { value: 'Oval', help: t('about.face.help.Oval'), shape: 'M20 6c7.5 0 13 7.6 13 18s-5.5 18-13 18S7 34.4 7 24 12.5 6 20 6Z' },
+      { value: 'Round', help: t('about.face.help.Round'), shape: 'M20 8a16 16 0 1 1 0 32 16 16 0 0 1 0-32Z' },
+      { value: 'Square', help: t('about.face.help.Square'), shape: 'M12 7h16a6 6 0 0 1 6 6v20a8 8 0 0 1-8 8H14a8 8 0 0 1-8-8V13a6 6 0 0 1 6-6Z' },
+      { value: 'Long', help: t('about.face.help.Long'), shape: 'M20 3c6 0 10 5 10 12v18c0 7-4 12-10 12s-10-5-10-12V15c0-7 4-12 10-12Z' },
+      { value: 'Heart', help: t('about.face.help.Heart'), shape: 'M6 14c0-6 6-9 14-9s14 3 14 9c0 12-7 24-14 29C13 38 6 26 6 14Z' },
+    ],
+  },
+  {
+    name: 'hairType',
+    label: t('suits.hairType'),
+    question: t('about.hairType.question'),
+    hint: t('about.hairType.hint'),
+    layout: 'list',
+    options: [{ value: 'Straight' }, { value: 'Wavy' }, { value: 'Curly' }],
+  },
+  {
+    name: 'hairAmount',
+    label: t('about.hairAmount.label'),
+    question: t('about.hairAmount.question'),
+    hint: t('about.hairAmount.hint'),
+    layout: 'list',
+    options: [{ value: 'Thin' }, { value: 'Normal' }, { value: 'Thick' }],
+  },
+  {
+    name: 'growth',
+    label: t('suits.growth'),
+    question: t('about.growth.question'),
+    hint: t('about.growth.hint'),
+    layout: 'list',
+    options: [
+      { value: 'Patchy', help: t('about.growth.help.Patchy') },
+      { value: 'Medium', help: t('about.growth.help.Medium') },
+      { value: 'Full', help: t('about.growth.help.Full') },
+    ],
+  },
+  {
+    name: 'skin',
+    label: t('suits.skin'),
+    question: t('about.skin.question'),
+    hint: t('about.skin.hint'),
+    layout: 'swatches',
+    options: [
+      { value: 'Light', swatch: '#e9c7a4' },
+      { value: 'Medium', swatch: '#b5804f' },
+      { value: 'Deep', swatch: '#6a4027' },
+    ],
+  },
+  {
+    name: 'grey',
+    label: t('suits.grey'),
+    question: t('about.grey.question'),
+    hint: t('about.grey.hint'),
+    layout: 'list',
+    options: [{ value: 'None' }, { value: 'Some' }, { value: 'Lots' }],
+  },
+];
+
+const total = questions.length;
+// The visible name of an answer, e.g. face.Oval -> "Oval" in the page language.
+const LABEL_PREFIX: Record<string, string> = { face: 'face', hairType: 'hairType', hairAmount: 'hairAmount', growth: 'growth', skin: 'skin', grey: 'grey' };
+const optionLabel = (q: Question, value: string) => t(`${LABEL_PREFIX[q.name]}.${value}` as UiKey);
+
+const option =
+  // Selected: a 2px black outline, as in the reference's option buttons.
+  'relative cursor-pointer bg-transparent shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_1px_var(--color-ink)] has-checked:shadow-[inset_0_0_0_2px_var(--color-ink)] has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-ink';
+---
+
+<BaseLayout
+  title={t('about.title')}
+  description={t('about.description')}
+  noindex
+  footer={false}
+  back={{ href: l('/'), label: t('site.home') }}
+>
+  <main class="wrap max-w-xl pt-4 pb-6">
+    <h1 class="sr-only">{t('about.title')}</h1>
+
+    {/* Progress: shown once the step-by-step flow is running. */}
+    <div data-progress hidden>
+      <div class="h-0.5 w-full bg-line" aria-hidden="true">
+        <div data-progress-bar class="h-full bg-ink transition-[width] duration-500 ease-out-soft" style={`width:${100 / total}%`}></div>
+      </div>
+    </div>
+    <div class="mt-3 flex items-center justify-between gap-4 text-sm text-muted">
+      <p>{t('about.intro')}</p>
+      <button type="button" data-clear class="shrink-0 font-medium text-ink underline underline-offset-4">{t('about.startOver')}</button>
+    </div>
+
+    <form data-answers data-wizard class="mt-8 space-y-12">
+      {
+        questions.map((q, i) => (
+          <fieldset data-step={i} aria-labelledby={`q-${q.name}`} class:list={[i === 0 && 'is-current']}>
+            <div class="text-center">
+              <p class="tag">
+                {t('about.step', { current: i + 1, total })}
+                <span class="sr-only">: {q.label}</span>
+              </p>
+              <h2 id={`q-${q.name}`} tabindex="-1" class="mt-2 text-[1.75rem] leading-tight outline-none">
+                {q.question}
+              </h2>
+              <p class="mt-2 text-[0.9375rem] text-muted">{q.hint}</p>
+            </div>
+
+            <div class="mx-auto mt-8 max-w-md">
+              {q.layout === 'faces' && (
+                <div class="grid grid-cols-2 gap-2 sm:grid-cols-3">
+                  {q.options.map((o) => (
+                    <label class:list={[option, 'flex flex-col gap-2 p-3.5']}>
+                      <input type="radio" name={q.name} value={o.value} class="sr-only" />
+                      <svg viewBox="0 0 40 48" class="h-10 w-8 shrink-0" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d={o.shape} />
+                      </svg>
+                      <span>
+                        <span class="block text-[0.9375rem] font-semibold">{optionLabel(q, o.value)}</span>
+                        <span class="block text-xs leading-snug text-muted">{o.help}</span>
+                      </span>
+                    </label>
+                  ))}
+                  <label class:list={[option, 'flex items-center justify-center p-3.5 text-[0.9375rem] font-medium']}>
+                    <input type="radio" name={q.name} value="" checked class="sr-only" />
+                    {t('about.notSure')}
+                  </label>
+                </div>
+              )}
+
+              {q.layout === 'list' && (
+                <div class="space-y-2.5">
+                  {[...q.options, { value: '' } as Option].map((o) => (
+                    <label class:list={[option, 'flex min-h-14 flex-col items-center justify-center px-4 py-3 text-center']}>
+                      <input type="radio" name={q.name} value={o.value} checked={o.value === ''} class="sr-only" />
+                      <span class="text-base font-medium tracking-wide">{o.value ? optionLabel(q, o.value) : t('about.notSure')}</span>
+                      {o.help && <span class="mt-0.5 text-xs text-muted">{o.help}</span>}
+                    </label>
+                  ))}
+                </div>
+              )}
+
+              {q.layout === 'swatches' && (
+                <div class="grid grid-cols-2 gap-2">
+                  {q.options.map((o) => (
+                    <label class:list={[option, 'flex flex-col items-center gap-2.5 p-4 text-[0.9375rem] font-medium']}>
+                      <input type="radio" name={q.name} value={o.value} class="sr-only" />
+                      <span class="size-14 rounded-full" style={`background:${o.swatch}`} />
+                      {optionLabel(q, o.value)}
+                    </label>
+                  ))}
+                  <label class:list={[option, 'flex items-center justify-center p-4 text-[0.9375rem] font-medium']}>
+                    <input type="radio" name={q.name} value="" checked class="sr-only" />
+                    {t('about.notSure')}
+                  </label>
+                </div>
+              )}
+            </div>
+          </fieldset>
+        ))
+      }
+
+      <div class="sticky bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 -mx-5 bg-paper/[0.97] px-5 py-3 shadow-[inset_0_1px_0_var(--color-line)] md:mx-0 md:px-0">
+        <div class="mx-auto flex max-w-md items-center justify-between gap-4">
+          <button
+            type="button"
+            data-prev
+            hidden
+            class="group inline-flex h-14 items-center gap-3 pr-2 text-[0.9375rem] font-medium tracking-wide text-muted transition-colors hover:text-ink"
+          >
+            <Icon name="arrowLeft" size={22} strokeWidth={1.25} class="transition-transform duration-300 ease-out-soft group-hover:-translate-x-1" />
+            {t('about.previous')}
+          </button>
+          <Button size="lg" data-next hidden class="ml-auto min-w-40">{t('about.next')}</Button>
+          <Button href={l('/styles')} size="lg" arrow data-show class="ml-auto min-w-40">{t('about.showStyles')}</Button>
+        </div>
+      </div>
+    </form>
+  </main>
+</BaseLayout>
+
+<style is:global>
+  /* Step by step once the script runs; every question at once without it. */
+  .js [data-wizard].is-running [data-step]:not(.is-current) {
+    display: none;
+  }
+</style>
+
+<script>
+  import { $answers } from '@/lib/stores';
+  import type { Answers } from '@/lib/match';
+
+  const form = document.querySelector<HTMLFormElement>('form[data-answers]')!;
+  const steps = Array.from(form.querySelectorAll<HTMLFieldSetElement>('[data-step]'));
+  const show = form.querySelector<HTMLAnchorElement>('[data-show]')!;
+  const prev = form.querySelector<HTMLButtonElement>('[data-prev]')!;
+  const next = form.querySelector<HTMLButtonElement>('[data-next]')!;
+  const progress = document.querySelector<HTMLElement>('[data-progress]')!;
+  const bar = document.querySelector<HTMLElement>('[data-progress-bar]')!;
+
+  // Go back to the list the customer came from. Only same-site paths are allowed.
+  const from = new URLSearchParams(location.search).get('from');
+  if (from && /^(\/(ne|hi))?\/[a-z-]+$/.test(from)) show.href = from;
+
+  for (const [name, value] of Object.entries($answers.get())) {
+    const input = form.querySelector<HTMLInputElement>(`input[name="${name}"][value="${value}"]`);
+    if (input) input.checked = true;
+  }
+
+  let current = 0;
+
+  function goTo(index: number, moveFocus = true) {
+    current = Math.max(0, Math.min(steps.length - 1, index));
+    steps.forEach((step, i) => {
+      const active = i === current;
+      step.classList.toggle('is-current', active);
+      if (active) {
+        // Replay the entrance animation for the new step.
+        step.classList.remove('rise');
+        void step.offsetWidth;
+        step.classList.add('rise');
+      }
+    });
+    const last = current === steps.length - 1;
+    prev.hidden = current === 0;
+    next.hidden = last;
+    show.hidden = !last;
+    bar.style.width = `${((current + 1) / steps.length) * 100}%`;
+    if (moveFocus) {
+      window.scrollTo({ top: 0 });
+      // Screen readers announce the new question.
+      steps[current]!.querySelector<HTMLElement>('h2')!.focus({ preventScroll: true });
+    }
+  }
+
+  form.classList.add('is-running');
+  progress.hidden = false;
+  goTo(0, false);
+
+  prev.addEventListener('click', () => goTo(current - 1));
+  next.addEventListener('click', () => goTo(current + 1));
+
+  form.addEventListener('change', () => {
+    const answers: Answers = {};
+    for (const [name, value] of new FormData(form)) {
+      if (value) answers[name as keyof Answers] = String(value);
+    }
+    $answers.set(answers);
+  });
+
+  // A tap or click on an answer moves on by itself. Keyboard selection (arrow keys) doesn't,
+  // so people can move through the options without being taken to the next step.
+  let advance: ReturnType<typeof setTimeout> | undefined;
+  form.addEventListener('click', (event) => {
+    const label = (event.target as Element).closest('label');
+    if (!label || event.detail === 0 || current === steps.length - 1) return;
+    clearTimeout(advance);
+    advance = setTimeout(() => goTo(current + 1), 320);
+  });
+
+  document.querySelector('[data-clear]')!.addEventListener('click', () => {
+    clearTimeout(advance);
+    form.reset();
+    $answers.set({});
+    goTo(0);
+  });
+</script>

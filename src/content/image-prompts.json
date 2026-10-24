@@ -1,0 +1,551 @@
+{
+  "character": "Photorealistic character reference sheet of one man, Arjun, shown four times in a row: front view, three-quarter view facing left, left side profile, and back of the head. Arjun is a 28-year-old Nepali man with medium-brown skin with warm undertones, an oval face with a clean, defined jawline, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears that sit close to the head, and a slim athletic build. Calm, confident expression, mouth closed. Natural black hair in a classic taper cut, about 4 cm on top, combed to the side. Light even stubble. Plain black crew-neck T-shirt. Soft, even studio light. Plain, flat warm sand background (#D8CDBF). No text.",
+  "older": "The same man, Arjun, at about 50: identical face shape, eyes, nose, ears and skin tone, with light lines at the eyes and slightly fuller cheeks. Natural black hair with salt-and-pepper grey at the temples and through the top. Same four views, clothing, light and background as the main reference sheet. No text.",
+  "fixed": "Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.\nCHARACTER (identical in every image): Arjun, a 28-year-old Nepali man with medium-brown skin with warm undertones, an oval face with a clean, defined jawline, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference exactly.\nLIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.\nBACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.\nLAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge. Four or five callouts on the right: a thin charcoal line (#3A3A3A) runs from a small white dot with a thin grey outline, placed on the feature, to its label. Each label has a bold title in charcoal (#1E1E1E) and one line of description below it in mid grey (#6B6B6B), in a clean modern sans-serif, left-aligned, with generous spacing. Labels never cover the face.",
+  "categories": {
+    "H": "HAIR IMAGE RULES: the beard and moustache are the same in every hair image: light even stubble, 1-2 mm, with a clean curved neck line. Main view as the item says. Second view: back of the head, showing the back of the cut and the nape. Callouts point to the top, the sides, the blend or line, the back and the nape.",
+    "B": "BEARD IMAGE RULES: the haircut is the same in every beard image unless the item says otherwise: a classic taper cut, short tapered sides, about 4 cm on top combed neatly to the side, natural black. Main view: three-quarter front facing left, showing the cheek line and chin. Second view: left side profile from chin to ear, showing the jaw and neck line. Callouts point to the cheek line, sideburn, chin, moustache and neck line.",
+    "M": "MOUSTACHE IMAGE RULES: the haircut is the same classic taper cut as in beard images. Cheeks, chin and neck are clean-shaven unless the moustache itself runs down to the jaw. Main view: straight front, head and shoulders. Second view: close-up of the mouth area at a three-quarter angle. Callouts point to the lip line, the ends, the shape and any shaved areas.",
+    "C": "COLOUR IMAGE RULES: the haircut is the same in every colour image: a classic side part, about 6 cm on top combed to the side, tapered sides, so the colour shows across the top. Face clean-shaven. Backdrop always Sand (#D8CDBF), so the shade reads true. Main view: three-quarter front facing left, in soft daylight-balanced light so the true tone shows. Second view: close-up of the top of the head in brighter light, showing the shine and the roots. Add a small round colour swatch in the top right corner with the shade name and level below it. Callouts point to the shade, grey coverage, shine and hairline.",
+    "L": "READY LOOK IMAGE RULES: show every part listed in the item, and nothing else changes. Main view: three-quarter front facing left. Second view: left side profile. One callout for each part (hair, beard, moustache, colour), plus one finishing note."
+  },
+  "avoid": "AVOID: any text other than the callout labels, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.",
+  "cleanSuffix": "No callouts, lines, dots or text.",
+  "items": {
+    "H01": {
+      "name": "Buzz Cut",
+      "block": "ITEM: H01 Buzz Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: one even length all over, machine #2 (about 6 mm); dense, uniform texture with the scalp faintly visible; soft natural hairline at the front; clean, trimmed edges around the ears; neat natural neck line.\nCALLOUTS:\n1. Even all over: Machine #2 on the whole head.\n2. Soft hairline: Natural front, not lined up.\n3. Clean around ears: Edges trimmed neat.\n4. Neat nape: Neck line cleaned with a trimmer.",
+      "older": false
+    },
+    "H02": {
+      "name": "Crew Cut",
+      "block": "ITEM: H02 Crew Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides and back machine #2, blended smoothly into a short top about 2 cm long, slightly longer at the front and pushed forward and up; ears fully clear; neat natural neck line.\nCALLOUTS:\n1. Short sides: Machine #2, even and neat.\n2. Short top: About 2 cm, scissor cut.\n3. Longer front: Pushed forward and up.\n4. Smooth blend: No line between top and sides.\n5. Tidy nape: Natural, clean neck line.",
+      "older": false
+    },
+    "H03": {
+      "name": "Ivy League",
+      "block": "ITEM: H03 Ivy League\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2 blending to #3; top about 4 cm, slightly longer at the front, combed into a soft side part above the outer left eyebrow; light cream finish with a low natural shine.\nCALLOUTS:\n1. Soft side part: Above the outer eyebrow.\n2. Longer front: Combs neatly to the side.\n3. Short sides: #2 blending to #3.\n4. Natural finish: Light cream, low shine.",
+      "older": false
+    },
+    "H04": {
+      "name": "Caesar Cut",
+      "block": "ITEM: H04 Caesar Cut\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides and back machine #2; top about 2 cm, all combed forward; a short, straight, level fringe sitting high on the forehead; matte natural finish.\nCALLOUTS:\n1. Straight fringe: Short and level.\n2. Forward top: Combed toward the face.\n3. Even sides: Machine #2.\n4. Tidy nape: Clean natural neck line.",
+      "older": false
+    },
+    "H05": {
+      "name": "French Crop",
+      "block": "ITEM: H05 French Crop\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #1 blending to #3; top about 4 cm with choppy texture, pushed forward; short, slightly uneven fringe about 2 cm above the eyebrows; matte finish.\nCALLOUTS:\n1. Rough top: Choppy, pushed forward.\n2. Short fringe: Above the eyebrows.\n3. Tight sides: #1 blending to #3.\n4. Matte finish: Dry wax, no shine.",
+      "older": false
+    },
+    "H06": {
+      "name": "Taper Cut",
+      "block": "ITEM: H06 Taper Cut\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: classic short cut; sides and back machine #3, getting gradually shorter to #1 near the ears and neck with no skin showing; top about 4 cm, combed loosely to the side; soft, natural rounded neck line.\nCALLOUTS:\n1. Gradual taper: Shorter toward ears and neck.\n2. No skin: Shortest point stays at #1.\n3. Natural top: Combed loosely to the side.\n4. Soft nape: Natural, not squared.",
+      "older": false
+    },
+    "H07": {
+      "name": "Low Fade",
+      "block": "ITEM: H07 Low Fade\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: fade line one finger above the ear; bare skin (#0) below, blending smoothly up through #1 and #2; top about 4 cm, textured and pushed up and slightly to the side; crisp, clean line around the ear; faded nape.\nCALLOUTS:\n1. Low fade line: Starts just above the ear.\n2. Smooth blend: #0 up to #2, no lines.\n3. Textured top: About 4 cm, pushed up.\n4. Clean ear line: Sharp edge around the ear.\n5. Faded nape: Skin at the neck, blended up.",
+      "older": false
+    },
+    "H08": {
+      "name": "Mid Fade",
+      "block": "ITEM: H08 Mid Fade\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nSTYLE: fade starts at the temple, halfway up the side of the head; bare skin at the bottom blending through #1, #2 and #3; top about 5 cm, pushed up and to the side; clean edges around the ears and neck.\nCALLOUTS:\n1. Mid fade line: At temple height.\n2. Even blend: #0 up to #3.\n3. Top shape: 5 cm, up and to the side.\n4. Clean edges: Around ears and neck.",
+      "older": false
+    },
+    "H09": {
+      "name": "Skin Fade",
+      "block": "ITEM: H09 Skin Fade\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: high skin fade; sides shaved to bare skin up to the top corner of the head, blending quickly through #0, #1 and #2 into a matte, textured top about 4 cm long; very clean, high-contrast outline.\nCALLOUTS:\n1. High skin fade: Bare skin up to the corner.\n2. Fast blend: Skin to #2, no lines.\n3. Matte top: About 4 cm, textured.\n4. Crisp outline: Sharp around ears and neck.",
+      "older": false
+    },
+    "H10": {
+      "name": "Classic Side Part",
+      "block": "ITEM: H10 Classic Side Part\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 6 cm combed neatly to the side from a natural part above the outer left eyebrow; soft shine from light pomade; polished and neat.\nCALLOUTS:\n1. Clear part: Above the outer eyebrow.\n2. Combed top: 6 cm, smooth and neat.\n3. Tapered sides: #3 down to #2.\n4. Soft shine: Light pomade finish.",
+      "older": false
+    },
+    "H11": {
+      "name": "Comb Over Fade",
+      "block": "ITEM: H11 Comb Over Fade\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nSTYLE: mid fade from #0 to #2 on the sides; top about 6 cm combed over to one side from a part above the outer eyebrow; a thin shaved part line; polished shine.\nCALLOUTS:\n1. Shaved part: Thin line above the eyebrow.\n2. Combed over: 6 cm swept to the side.\n3. Mid fade: #0 to #2.\n4. Clean blend: Top flows into the fade.",
+      "older": false
+    },
+    "H12": {
+      "name": "Undercut",
+      "block": "ITEM: H12 Undercut\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: sides and back cut to one length, machine #1, with a sharp disconnected line at the top corner of the head; top about 8 cm, swept back loosely; strong contrast between the long top and the short sides.\nCALLOUTS:\n1. Long top: About 8 cm, swept back.\n2. Hard line: Clear edge, no blend.\n3. Short sides: Machine #1 all round.\n4. Clean back: Tidy nape.",
+      "older": false
+    },
+    "H13": {
+      "name": "Slick Back",
+      "block": "ITEM: H13 Slick Back\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2, tapering to #1 at the neck with a smooth blend; top 8-10 cm, longest at the front, combed straight back with a smooth, shiny pomade finish; neat, tidy back; clean nape tapering naturally into the neck line.\nCALLOUTS:\n1. Keep weight on top: Enough length to comb straight back.\n2. Sides kept short: Machine #2, neat and tight.\n3. Blend smooth: No harsh line between top and sides.\n4. Back kept neat: Tidy and well blended.\n5. Nape clean: Tapers naturally into the neck line.",
+      "older": false
+    },
+    "H14": {
+      "name": "Quiff",
+      "block": "ITEM: H14 Quiff\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: sides faded from #1 to #3; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blow-dried up and back.\n2. Height at front: Longest hair at the front.\n3. Shorter crown: About 4 cm at the back.\n4. Faded sides: #1 to #3.",
+      "older": false
+    },
+    "H15": {
+      "name": "Pompadour",
+      "block": "ITEM: H15 Pompadour\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: big rounded height across the whole top, about 10 cm at the front and 6 cm at the back, swept up and back with a smooth pomade shine; sides machine #2, or faded #1 to #3.\nCALLOUTS:\n1. Big height: Rounded volume, up and back.\n2. Long front: About 10 cm.\n3. Smooth shine: Pomade finish.\n4. Short sides: Clean and tight.",
+      "older": false
+    },
+    "H16": {
+      "name": "Spiky",
+      "block": "ITEM: H16 Spiky\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2 blending to #3; top about 3 cm, pulled up into separate, defined spikes with gel; light wet-look shine.\nCALLOUTS:\n1. Defined spikes: Pulled up with gel.\n2. Short top: About 3 cm.\n3. Even sides: #2 blending to #3.\n4. Gel finish: Light wet shine.",
+      "older": false
+    },
+    "H17": {
+      "name": "Faux Hawk",
+      "block": "ITEM: H17 Faux Hawk\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides faded from #1 to #3, short but not shaved bare; a centre strip of the top, about 6 cm, pushed up into a soft ridge; the edges of the top shorter, about 4 cm.\nCALLOUTS:\n1. Centre ridge: Middle pushed up to a point.\n2. Lower edges: Top sides kept shorter.\n3. Faded sides: Short, not shaved.\n4. Clean nape: Neat neck line.",
+      "older": false
+    },
+    "H18": {
+      "name": "Two-Block",
+      "block": "ITEM: H18 Two-Block\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: lower sides and back machine #3, one length, hidden under a soft, longer top of 8-10 cm that falls over them; soft fringe to the eyebrows, slightly parted; thinned for an airy, light texture; natural matte finish.\nCALLOUTS:\n1. Soft top: Falls over the short sides.\n2. Fringe to brows: Soft, not straight.\n3. Hidden sides: #3 underneath.\n4. Airy texture: Thinned and light.",
+      "older": false
+    },
+    "H19": {
+      "name": "Middle Part",
+      "block": "ITEM: H19 Middle Part\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: medium hair, 10-12 cm on top, parted in the centre; front pieces fall to both sides at about eye level like curtains; sides scissor cut, half covering the ears; soft natural movement.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Curtain front: Falls to eye level.\n3. Soft sides: Half over the ears.\n4. Natural movement: Light layers.",
+      "older": false
+    },
+    "H20": {
+      "name": "Medium Flow",
+      "block": "ITEM: H20 Medium Flow\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: medium-length hair, 12-15 cm, pushed back, with the ends flowing behind the ears and touching the collar; natural slight wave; layered to remove weight; natural neck line.\nCALLOUTS:\n1. Pushed back: Natural, no shine.\n2. Behind the ears: Ends flow back.\n3. Collar length: Back touches the collar.\n4. Light layers: Weight removed.",
+      "older": false
+    },
+    "H21": {
+      "name": "Buzz Fade",
+      "block": "ITEM: H21 Buzz Fade\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: even buzz on top, machine #2; sides fade from bare skin one finger above the ear up through #1 to #2; clean edges around the ears and at the nape.\nCALLOUTS:\n1. Buzz top: Even machine #2.\n2. Skin fade: Starts above the ear.\n3. Smooth blend: Skin up to #2.\n4. Clean edges: Ears and nape sharp.",
+      "older": false
+    },
+    "H22": {
+      "name": "High and Tight",
+      "block": "ITEM: H22 High and Tight\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides and back machine #1, cut high up to the top corner of the head, with a short blend into a flat, even top about 2 cm long; neat military finish.\nCALLOUTS:\n1. High sides: #1 up to the corner.\n2. Flat top: Even, about 2 cm.\n3. Short blend: Small step into the top.\n4. Neat nape: Clean military finish.",
+      "older": false
+    },
+    "H23": {
+      "name": "Taper Fade",
+      "block": "ITEM: H23 Taper Fade\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3; a small fade to skin only at the sideburn and at the back of the neck, blending up to #3; top about 5 cm, combed lightly.\nCALLOUTS:\n1. Faded sideburn: Skin, small area only.\n2. Faded nape: Clean at the neck.\n3. Natural sides: Machine #3.\n4. Neat top: About 5 cm.",
+      "older": false
+    },
+    "H24": {
+      "name": "Drop Fade",
+      "block": "ITEM: H24 Drop Fade\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: fade line above the ear that curves down behind it and drops low at the back near the neck; skin below, blending through #1 to #3; textured top about 6 cm.\nCALLOUTS:\n1. Curved line: Drops behind the ear.\n2. Low at the back: Follows the head shape.\n3. Smooth blend: Skin up to #3.\n4. Textured top: About 6 cm.",
+      "older": false
+    },
+    "H25": {
+      "name": "Fade with Line Design",
+      "block": "ITEM: H25 Fade with Line Design\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: low fade; one clean straight line about 2 mm wide shaved diagonally across the side above the ear; top about 4 cm, textured.\nCALLOUTS:\n1. Shaved line: Clean, 2 mm wide.\n2. Low fade: Skin blended up.\n3. Sharp edges: Cleaned with a razor.\n4. Short top: About 4 cm.",
+      "older": false
+    },
+    "H26": {
+      "name": "Curly Top Fade",
+      "block": "ITEM: H26 Curly Top Fade\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with natural tight curls for this style.\nSTYLE: defined natural curls on top, 5-6 cm, shaped round and slightly higher in the middle; sides low-to-mid fade from #0 to #2; soft curl-cream definition, no frizz.\nCALLOUTS:\n1. Defined curls: Natural, shaped round.\n2. Higher middle: Soft rounded top.\n3. Faded sides: #0 to #2.\n4. Curl cream: Soft, no frizz.",
+      "older": false
+    },
+    "H27": {
+      "name": "Side Fringe",
+      "block": "ITEM: H27 Side Fringe\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #3; top about 8 cm; a long fringe swept across the forehead to one side, reaching the eyebrows, longer on the swept side; smooth with a light shine.\nCALLOUTS:\n1. Swept fringe: Across the forehead.\n2. Longer on one side: Falls to the brow.\n3. Short sides: Machine #3.\n4. Smooth finish: Blow-dried, light wax.",
+      "older": false
+    },
+    "H28": {
+      "name": "Wolf Cut",
+      "block": "ITEM: H28 Wolf Cut\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: shaggy layered cut; choppy short layers on the crown with volume; layered sides over the ears; longer back reaching the collar; messy fringe to the eyebrows; tousled natural wave.\nCALLOUTS:\n1. Shaggy top: Choppy layers with volume.\n2. Messy fringe: To the eyebrows.\n3. Layered sides: Over the ears.\n4. Longer back: Reaches the collar.",
+      "older": false
+    },
+    "H29": {
+      "name": "Man Bun",
+      "block": "ITEM: H29 Man Bun\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown long for this style.\nSTYLE: long hair, shoulder length when down, pulled back smoothly and tied into a neat bun at the back of the head at crown level; long sides, no undercut; soft natural texture.\nCALLOUTS:\n1. Smooth pull-back: No bumps on top.\n2. Neat bun: Back of the head.\n3. Healthy ends: Trimmed, no split ends.\n4. Soft tie: Loose, not tight.",
+      "older": false
+    },
+    "H30": {
+      "name": "Head Shave",
+      "block": "ITEM: H30 Head Shave\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with his head shaved.\nSTYLE: whole head shaved smooth with a razor; even skin tone; subtle, healthy sheen; no stubble or nicks.\nCALLOUTS:\n1. Smooth scalp: Razor close, no stubble.\n2. Even outline: Clean around the ears.\n3. Healthy sheen: Moisturised, not greasy.\n4. Smooth nape: Shaved clean.",
+      "older": false
+    },
+    "H31": {
+      "name": "Crop Fade",
+      "block": "ITEM: H31 Crop Fade\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: French crop top about 4 cm, choppy and pushed forward, with a short, slightly uneven fringe; sides mid fade from skin to #2; matte finish.\nCALLOUTS:\n1. Rough top: Choppy, pushed forward.\n2. Short fringe: Above the eyebrows.\n3. Mid skin fade: #0 to #2.\n4. Matte finish: Dry wax.",
+      "older": false
+    },
+    "H32": {
+      "name": "Burst Fade",
+      "block": "ITEM: H32 Burst Fade\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: fade curving in a half circle around the ear, bare skin at the ear blending out to #3; back of the head left longer at #4; top about 6 cm.\nCALLOUTS:\n1. Half circle: Fade curves around the ear.\n2. Longer back: Machine #4 behind.\n3. Smooth blend: Skin to #3.\n4. Top length: About 6 cm.",
+      "older": false
+    },
+    "H33": {
+      "name": "Mohawk",
+      "block": "ITEM: H33 Mohawk\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: a strip about 4 cm wide (2 fingers) from forehead to crown, about 7 cm long, standing straight up with strong gel; sides very short, #0 to #1; strip edges slightly blended.\nCALLOUTS:\n1. Standing strip: 2 fingers wide.\n2. Straight up: Strong gel hold.\n3. Very short sides: #0 to #1.\n4. Blended edges: Soft strip line.",
+      "older": false
+    },
+    "H34": {
+      "name": "Modern Mullet",
+      "block": "ITEM: H34 Modern Mullet\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: short sides with a low fade; textured top about 6 cm with a short, messy fringe; longer hair at the back of the neck, 9-10 cm, blended into the top.\nCALLOUTS:\n1. Short sides: Low fade.\n2. Textured top: About 6 cm.\n3. Long back: Blended, 4-5 fingers.\n4. Messy fringe: Short and loose.",
+      "older": false
+    },
+    "H35": {
+      "name": "Mushroom Cut",
+      "block": "ITEM: H35 Mushroom Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: rounded top about 10 cm that falls evenly all around like a cap; full fringe to the eyebrows; short #2 underneath at the lower sides and back; soft, smooth finish.\nCALLOUTS:\n1. Rounded shape: Falls evenly all round.\n2. Full fringe: To the eyebrows.\n3. Short underneath: #2 at the lower sides.\n4. Soft finish: Smooth, light spray.",
+      "older": false
+    },
+    "H36": {
+      "name": "Comma Hair",
+      "block": "ITEM: H36 Comma Hair\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: top about 9 cm; fringe parted to one side and curled inward at the end like a comma, falling to the eyebrows; sides two-block at #3; soft, glossy finish.\nCALLOUTS:\n1. Comma curl: Fringe curls inward.\n2. Side part: Fringe falls to one side.\n3. Brow length: Reaches the eyebrows.\n4. Short sides: Two-block underneath.",
+      "older": false
+    },
+    "H37": {
+      "name": "Korean Perm",
+      "block": "ITEM: H37 Korean Perm\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: two-block base; top about 9 cm with soft, loose, even S-shaped perm waves; airy volume; wavy fringe to the eyebrows.\nCALLOUTS:\n1. Soft waves: Loose perm curls.\n2. Airy volume: Light, not frizzy.\n3. Wavy fringe: To the eyebrows.\n4. Short sides: Two-block base.",
+      "older": false
+    },
+    "H38": {
+      "name": "Brush Up",
+      "block": "ITEM: H38 Brush Up\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2 blending to #3; top about 5 cm, brushed straight up evenly from the forehead; light wax hold.\nCALLOUTS:\n1. Brushed up: Even height across the top.\n2. Top length: About 5 cm.\n3. Short sides: #2 to #3.\n4. Light hold: Wax, natural shine.",
+      "older": false
+    },
+    "H39": {
+      "name": "Natural Curls",
+      "block": "ITEM: H39 Natural Curls\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with natural curls for this style.\nSTYLE: medium curls, 9-10 cm on top and about 6 cm on the sides, with a round, even outline; defined with curl cream; bulk removed.\nCALLOUTS:\n1. Defined curls: Curl cream, no frizz.\n2. Even outline: Round, balanced shape.\n3. Shorter sides: About 6 cm.\n4. Light weight: Bulk thinned out.",
+      "older": false
+    },
+    "H40": {
+      "name": "Shoulder Length",
+      "block": "ITEM: H40 Shoulder Length\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with hair grown to his shoulders.\nSTYLE: long straight-to-wavy hair worn loose to the shoulders, with light face-framing layers and healthy ends.\nCALLOUTS:\n1. Shoulder length: Worn loose.\n2. Face-framing layers: Light around the face.\n3. Healthy ends: No split ends.\n4. Natural movement: Soft and light.",
+      "older": false
+    },
+    "H41": {
+      "name": "School Cut",
+      "block": "ITEM: H41 School Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: neat, conservative short cut; sides and back machine #2; top about 3 cm, combed neatly; ears fully clear; fringe above the eyebrows; collar clear; no fade and no design.\nCALLOUTS:\n1. Ears clear: Sides short and neat.\n2. Above the brows: Front kept short.\n3. Collar clear: Tidy back.\n4. Neat top: About 3 cm, combed.",
+      "older": false
+    },
+    "H42": {
+      "name": "Pushed Back",
+      "block": "ITEM: H42 Pushed Back\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 8 cm pushed back from the forehead with a soft matte finish and natural movement; no shine.\nCALLOUTS:\n1. Pushed back: Soft and natural.\n2. Matte finish: No shine.\n3. Tapered sides: #3 to #2.\n4. Clean nape: Neat neck line.",
+      "older": false
+    },
+    "B01": {
+      "name": "Clean Shave",
+      "block": "ITEM: B01 Clean Shave\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: completely clean-shaven face with smooth skin; no stubble shadow, redness or bumps; fresh, hot-towel finish.\nCALLOUTS:\n1. Smooth cheeks: No stubble shadow.\n2. Clean jaw: Close razor finish.\n3. Smooth neck: No bumps or redness.\n4. Fresh skin: Calm after aftershave.",
+      "older": false
+    },
+    "B02": {
+      "name": "Light Stubble",
+      "block": "ITEM: B02 Light Stubble\nBACKDROP: Sage (#CADBD8).\nSTYLE: even 1-2 mm stubble across the cheeks, chin, upper lip and jaw; natural cheek line; curved neck line 2 fingers above the Adam's apple, shaved clean below.\nCALLOUTS:\n1. Even stubble: 1-2 mm all over.\n2. Natural cheek line: Stray hairs removed.\n3. Neck line: 2 fingers above the Adam's apple.\n4. Shaved below: Clean neck.",
+      "older": false
+    },
+    "B03": {
+      "name": "Heavy Stubble",
+      "block": "ITEM: B03 Heavy Stubble\nBACKDROP: Sand (#D8CDBF).\nSTYLE: even 5 mm beard, like one week of growth; clean natural cheek line; neck line 2 fingers above the Adam's apple; moustache at the same length with a clear lip line.\nCALLOUTS:\n1. Even 5 mm: About one week of growth.\n2. Clean cheek line: Follows the natural line.\n3. Neck line: 2 fingers above the Adam's apple.\n4. Lip line: Moustache kept off the lip.",
+      "older": false
+    },
+    "B04": {
+      "name": "Short Boxed Beard",
+      "block": "ITEM: B04 Short Boxed Beard\nBACKDROP: Plum (#B06A8F).\nSTYLE: short beard, 6 mm on the sides and 9 mm on the chin; sharp, straight cheek lines made with a razor; square corners at the jaw; neck line 2 fingers above the Adam's apple; moustache trimmed above the lip.\nCALLOUTS:\n1. Sharp cheek line: Straight, razor clean.\n2. Square corners: Boxed at the jaw.\n3. Fuller chin: 9 mm.\n4. Neck line: 2 fingers above the Adam's apple.",
+      "older": false
+    },
+    "B05": {
+      "name": "Full Beard",
+      "block": "ITEM: B05 Full Beard\nBACKDROP: Orange (#EC9465).\nCHARACTER NOTE: same man, with a full beard grown for this style.\nSTYLE: thick full beard, about 4 cm at the chin and 12 mm on the sides; rounded bottom; natural cheek line, cleaned; neat curved neck line; moustache trimmed over the lip; combed and lightly oiled.\nCALLOUTS:\n1. Full shape: Thick and even.\n2. Rounded bottom: Longest at the chin.\n3. Natural cheek line: Stray hairs removed.\n4. Neck line: Clean and curved.",
+      "older": false
+    },
+    "B06": {
+      "name": "Goatee",
+      "block": "ITEM: B06 Goatee\nBACKDROP: Blush (#F7D9CE).\nSTYLE: hair only on the chin, about as wide as the mouth, 6 mm, with sharp edges; cheeks, upper lip and jaw clean-shaven.\nCALLOUTS:\n1. Chin only: As wide as the mouth.\n2. Sharp edges: Trimmer clean.\n3. Shaved cheeks: Smooth.\n4. No moustache: Upper lip shaved.",
+      "older": false
+    },
+    "B07": {
+      "name": "Van Dyke",
+      "block": "ITEM: B07 Van Dyke\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: pointed chin beard, 2-4 cm long; separate moustache trimmed above the lip; clean-shaven gap between them; clean-shaven cheeks.\nCALLOUTS:\n1. Pointed chin: 1-2 fingers long.\n2. Separate moustache: Trimmed above the lip.\n3. Clean gap: Shaved between them.\n4. Shaved cheeks: Smooth.",
+      "older": false
+    },
+    "B08": {
+      "name": "Circle Beard",
+      "block": "ITEM: B08 Circle Beard\nBACKDROP: Sage (#CADBD8).\nSTYLE: moustache joined to a chin beard in a neat round shape around the mouth, 5 mm; cheeks and sides of the jaw shaved; sharp outline.\nCALLOUTS:\n1. Round shape: Circles the mouth.\n2. Joined corners: Moustache meets chin.\n3. Even 5 mm: Short and neat.\n4. Shaved cheeks: Clean outline.",
+      "older": false
+    },
+    "B09": {
+      "name": "Chin Strap",
+      "block": "ITEM: B09 Chin Strap\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile (instead of three-quarter front). Second view: three-quarter front.\nSTYLE: a thin line of beard about 2 cm wide running along the jaw from ear to ear, 3 mm; cheeks above and neck below shaved; no moustache.\nCALLOUTS:\n1. Jaw line strip: Ear to ear.\n2. One finger wide: Even width.\n3. Shaved cheeks: Above the line.\n4. Shaved neck: Below the line.",
+      "older": false
+    },
+    "B10": {
+      "name": "Faded Beard",
+      "block": "ITEM: B10 Faded Beard\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile (instead of three-quarter front). Second view: three-quarter front.\nHAIR FOR THIS ITEM: low fade (skin one finger above the ear, blending to #2, 4 cm textured top) instead of the taper cut, so the beard fade matches.\nSTYLE: beard 1 mm at the sideburns, blending smoothly down to 6 mm along the jaw and chin and flowing into the hair fade; clean cheek and neck lines.\nCALLOUTS:\n1. Faded sideburn: 1 mm at the top.\n2. Smooth blend: 1 mm to 6 mm.\n3. Fuller jaw: 6 mm on chin and jaw.\n4. Matches the haircut: Flows into the fade.",
+      "older": false
+    },
+    "B11": {
+      "name": "Balbo",
+      "block": "ITEM: B11 Balbo\nBACKDROP: Sage (#CADBD8).\nSTYLE: 6 mm beard on the chin and lower jaw only; sideburns and upper cheeks shaved; separate moustache trimmed above the lip, with small shaved gaps at the mouth corners; neat neck line.\nCALLOUTS:\n1. Chin and jaw: 6 mm, neat.\n2. No sideburns: Shaved clean.\n3. Floating moustache: Separate from the beard.\n4. Clean gaps: At the mouth corners.",
+      "older": false
+    },
+    "B12": {
+      "name": "Anchor Beard",
+      "block": "ITEM: B12 Anchor Beard\nBACKDROP: Sand (#D8CDBF).\nSTYLE: pointed chin beard about 2 cm, extending a little along the jawline in an anchor shape; thin 3 mm moustache, separate from the chin; cheeks and sideburns shaved.\nCALLOUTS:\n1. Anchor shape: Pointed chin, short jaw line.\n2. Thin moustache: 3 mm, separate.\n3. Shaved cheeks: Sideburns removed.\n4. Sharp edges: Trimmer clean.",
+      "older": false
+    },
+    "B13": {
+      "name": "Ducktail",
+      "block": "ITEM: B13 Ducktail\nBACKDROP: Plum (#B06A8F).\nCHARACTER NOTE: same man, with a full beard grown for this style.\nSTYLE: full beard with short 9 mm sides and a longer chin of 4-6 cm, shaped to a point like a duck's tail; clean cheek line; neck line 2 fingers above the Adam's apple.\nCALLOUTS:\n1. Pointed chin: Like a duck's tail.\n2. Short sides: 9 mm.\n3. Clean cheek line: Natural and tidy.\n4. Neck line: 2 fingers above the Adam's apple.",
+      "older": false
+    },
+    "B14": {
+      "name": "Long Beard",
+      "block": "ITEM: B14 Long Beard\nBACKDROP: Orange (#EC9465).\nCHARACTER NOTE: same man, with a long beard grown for this style.\nSTYLE: long, natural full beard reaching 10 cm or more below the chin; shorter sides; rounded bottom; clean cheek and neck lines; combed and conditioned; moustache trimmed off the lip.\nCALLOUTS:\n1. Long length: Well past the chin.\n2. Shorter sides: Shaped with scissors.\n3. Rounded bottom: Even outline.\n4. Clear lip: Moustache trimmed off the lip.",
+      "older": false
+    },
+    "B15": {
+      "name": "Soul Patch",
+      "block": "ITEM: B15 Soul Patch\nBACKDROP: Blush (#F7D9CE).\nSTYLE: a small, neat patch of hair just below the lower lip, about 2 cm wide, 3 mm long; the rest of the face clean-shaven; no moustache.\nCALLOUTS:\n1. Small patch: Under the lower lip.\n2. One finger wide: Neat edges.\n3. Clean face: Everything else shaved.\n4. Short length: 3 mm.",
+      "older": false
+    },
+    "B16": {
+      "name": "Mutton Chops",
+      "block": "ITEM: B16 Mutton Chops\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile (instead of three-quarter front). Second view: three-quarter front.\nSTYLE: thick, wide sideburns at 6 mm growing down the cheeks to the jaw, 4-6 cm wide at the jaw; chin and front of the jaw clean-shaven; no moustache; sharp edges.\nCALLOUTS:\n1. Wide sideburns: Down to the jaw.\n2. Shaved chin: Clean front.\n3. Sharp edges: Razor finish.\n4. Even length: 6 mm.",
+      "older": false
+    },
+    "M01": {
+      "name": "Short Trimmed",
+      "block": "ITEM: M01 Short Trimmed\nBACKDROP: Blush (#F7D9CE).\nSTYLE: neat moustache trimmed to 3 mm, bottom edge just above the lip, ends stopping at the mouth corners.\nCALLOUTS:\n1. Short length: 3 mm.\n2. Above the lip: Clean bottom edge.\n3. Mouth corners: Ends stop here.\n4. Tidy shape: Stray hairs removed.",
+      "older": false
+    },
+    "M02": {
+      "name": "Chevron",
+      "block": "ITEM: M02 Chevron\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: thick, wide moustache shaped like a roof, covering the top edge of the upper lip, ends reaching the mouth corners; full, not thinned.\nCALLOUTS:\n1. Thick and wide: Full, not thinned.\n2. Covers lip edge: Top of the lip hidden.\n3. Roof shape: Wide chevron outline.\n4. Even sides: Balanced left and right.",
+      "older": false
+    },
+    "M03": {
+      "name": "Pencil",
+      "block": "ITEM: M03 Pencil\nBACKDROP: Sage (#CADBD8).\nSTYLE: a very thin line of moustache, about 3 mm tall, just above the upper lip; small gap under the nose; skin above the line shaved clean with a razor.\nCALLOUTS:\n1. Thin line: About 3 mm tall.\n2. Just above the lip: Follows the lip.\n3. Small gap: Under the nose.\n4. Shaved above: Razor clean.",
+      "older": false
+    },
+    "M04": {
+      "name": "Handlebar",
+      "block": "ITEM: M04 Handlebar\nBACKDROP: Sand (#D8CDBF).\nSTYLE: full moustache with the middle trimmed above the lip and long ends reaching well past the mouth, waxed and curled upward into neat loops.\nCALLOUTS:\n1. Curled ends: Waxed and twisted up.\n2. Long ends: Past the mouth corners.\n3. Trimmed middle: Above the lip.\n4. Shaved around: Clean cheeks.",
+      "older": false
+    },
+    "M05": {
+      "name": "Horseshoe",
+      "block": "ITEM: M05 Horseshoe\nBACKDROP: Plum (#B06A8F).\nSTYLE: full moustache on top with two bars, about 2 cm wide, running down both sides of the mouth to the jawline, like an upside-down U, 5 mm; chin and cheeks shaved.\nCALLOUTS:\n1. Down lines: To the jaw on both sides.\n2. One finger wide: Even bars.\n3. Full top: Thick over the lip.\n4. Shaved chin: Clean between the lines.",
+      "older": false
+    },
+    "M06": {
+      "name": "English",
+      "block": "ITEM: M06 English\nBACKDROP: Orange (#EC9465).\nSTYLE: thin moustache, short in the middle above the lip, with long, narrow ends brushed straight out to the sides and waxed to fine points.\nCALLOUTS:\n1. Pointed ends: Straight out to the sides.\n2. Thin shape: Narrow and neat.\n3. Short middle: Above the lip.\n4. Wax finish: Holds the points.",
+      "older": false
+    },
+    "M07": {
+      "name": "Walrus",
+      "block": "ITEM: M07 Walrus\nBACKDROP: Blush (#F7D9CE).\nCHARACTER NOTE: same man, with a thick moustache grown for this style.\nSTYLE: big, thick, bushy moustache hanging down over the upper lip, bottom edge trimmed straight, covering most of the top lip.\nCALLOUTS:\n1. Thick and full: Bushy volume.\n2. Over the lip: Hangs down.\n3. Straight edge: Bottom trimmed level.\n4. Natural ends: Past the mouth corners.",
+      "older": false
+    },
+    "M08": {
+      "name": "Lampshade",
+      "block": "ITEM: M08 Lampshade\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: short moustache, 3 mm, narrow at the top and wider at the bottom like a lamp shade, with a straight bottom edge above the lip and straight, angled sides.\nCALLOUTS:\n1. Lamp shade shape: Narrow top, wide bottom.\n2. Straight bottom: Above the lip.\n3. Angled sides: Clean and straight.\n4. Short length: 3 mm.",
+      "older": false
+    },
+    "M09": {
+      "name": "Natural Full",
+      "block": "ITEM: M09 Natural Full\nBACKDROP: Sage (#CADBD8).\nSTYLE: medium-thick moustache in its natural shape, about 6 mm, bottom edge on the lip line, neat and tidy.\nCALLOUTS:\n1. Natural shape: Medium thickness.\n2. On the lip line: Not touching the lip.\n3. Even length: 6 mm.\n4. Tidy edges: Stray hairs removed.",
+      "older": false
+    },
+    "M10": {
+      "name": "Petite Handlebar",
+      "block": "ITEM: M10 Petite Handlebar\nBACKDROP: Blush (#F7D9CE).\nSTYLE: small handlebar; middle trimmed above the lip; ends reaching about 2 cm past the mouth corners, turned up slightly with a little wax.\nCALLOUTS:\n1. Small curl: Ends turned up a little.\n2. Short ends: Just past the mouth.\n3. Trimmed middle: Above the lip.\n4. Light wax: Natural hold.",
+      "older": false
+    },
+    "M11": {
+      "name": "Hungarian",
+      "block": "ITEM: M11 Hungarian\nBACKDROP: Sky blue (#A9C9E8).\nCHARACTER NOTE: same man, with a thick moustache grown for this style.\nSTYLE: very big, bushy moustache with the hair combed out from the middle to both sides, long ends pointing outward, lightly waxed; bottom edge trimmed off the lip.\nCALLOUTS:\n1. Big and bushy: Full volume.\n2. Combed outward: From the middle.\n3. Long ends: Pointing to the sides.\n4. Off the lip: Bottom edge trimmed.",
+      "older": false
+    },
+    "M12": {
+      "name": "Dali",
+      "block": "ITEM: M12 Dali\nBACKDROP: Sage (#CADBD8).\nSTYLE: thin moustache, short in the middle above the lip, with long, stiff waxed ends twisted into thin points and pointing straight up toward the cheekbones.\nCALLOUTS:\n1. Upward points: Ends point straight up.\n2. Strong wax: Twisted thin.\n3. Thin middle: Short above the lip.\n4. Shaved around: Clean face.",
+      "older": false
+    },
+    "C01": {
+      "name": "Jet Black",
+      "block": "ITEM: C01 Jet Black\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 1 - Jet Black\nSTYLE: deep, solid, even jet black with a glossy finish; no brown or blue tones; full grey coverage; clean hairline with no dye on the skin.\nCALLOUTS:\n1. Deep black: Level 1, even all over.\n2. Full grey cover: No grey showing.\n3. Glossy finish: Healthy shine.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C02": {
+      "name": "Natural Black",
+      "block": "ITEM: C02 Natural Black\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 2 - Natural Black\nSTYLE: soft natural black, a very dark brown that looks like natural dark hair and is slightly softer than jet black; full grey coverage; natural shine.\nCALLOUTS:\n1. Soft black: Level 2, natural look.\n2. Full grey cover: Even from roots to ends.\n3. Natural shine: Not flat.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C03": {
+      "name": "Dark Brown",
+      "block": "ITEM: C03 Dark Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 3 - Dark Brown\nSTYLE: rich dark brown that looks natural, with warm brown showing in daylight; full grey coverage.\nCALLOUTS:\n1. Rich brown: Level 3.\n2. Warm in daylight: Brown shows in the sun.\n3. Full grey cover: Even colour.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C04": {
+      "name": "Medium Brown",
+      "block": "ITEM: C04 Medium Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4 - Medium Brown\nSTYLE: medium brown that is clearly brown in daylight, with a natural tone; even colour from roots to ends.\nCALLOUTS:\n1. Medium brown: Level 4.\n2. Shows in sunlight: Clear brown tone.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C05": {
+      "name": "Burgundy",
+      "block": "ITEM: C05 Burgundy\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4 - Burgundy\nSTYLE: deep wine burgundy with red-violet tones; dark in the main view, glowing red-purple where light hits the top in the close-up; even colour.\nCALLOUTS:\n1. Wine tone: Red-violet.\n2. Glows in light: Red shine on top.\n3. Dark indoors: Deep base colour.\n4. Even colour: Roots to ends.",
+      "older": false
+    },
+    "C06": {
+      "name": "Golden Brown Highlights",
+      "block": "ITEM: C06 Golden Brown Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6-7 - Golden Brown\nSTYLE: natural black base with thin, fine golden-brown streaks woven through the top, soft and blended, not chunky; sides stay dark.\nCALLOUTS:\n1. Fine streaks: Thin, golden brown.\n2. On top only: Sides stay dark.\n3. Soft blend: Not chunky.\n4. Natural base: Black underneath.",
+      "older": false
+    },
+    "C07": {
+      "name": "Ash Grey / Silver",
+      "block": "ITEM: C07 Ash Grey / Silver\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 10 - Silver\nSTYLE: even, cool silver-grey all over, with no yellow or orange tones and a healthy shine; eyebrows stay natural black.\nCALLOUTS:\n1. Cool silver: No yellow tones.\n2. Even colour: Roots to ends.\n3. Healthy shine: Well conditioned.\n4. Natural brows: Dark contrast.",
+      "older": false
+    },
+    "C08": {
+      "name": "Grey Blending",
+      "block": "ITEM: C08 Grey Blending\nBACKDROP: Sand (#D8CDBF).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nSWATCH: Level 3-4 - Grey Blending\nSTYLE: natural salt-and-pepper look; grey softened into a natural mix, with about half the grey toned to dark brown-black; soft, gradual, no hard root line.\nCALLOUTS:\n1. Softened grey: Natural mix, not hidden.\n2. Salt and pepper: Some grey still shows.\n3. No hard line: Soft and gradual.\n4. Natural shine: Fresh, not dyed.",
+      "older": true
+    },
+    "C09": {
+      "name": "Blue-Black",
+      "block": "ITEM: C09 Blue-Black\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 1 - Blue-Black\nSTYLE: deep black with a cool blue sheen where the light hits the top; full grey coverage; glossy.\nCALLOUTS:\n1. Blue sheen: Shows in the light.\n2. Deep black: Level 1 base.\n3. Full grey cover: Even colour.\n4. Glossy finish: Rich shine.",
+      "older": false
+    },
+    "C10": {
+      "name": "Ash Brown",
+      "block": "ITEM: C10 Ash Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Ash Brown\nSTYLE: cool, soft ash brown with no red or orange tones; natural, modern Korean-style finish; even colour.\nCALLOUTS:\n1. Cool brown: Level 5, ash.\n2. No orange: Neutral, cool tone.\n3. Soft finish: Natural and modern.\n4. Even colour: Roots to ends.",
+      "older": false
+    },
+    "C11": {
+      "name": "Copper",
+      "block": "ITEM: C11 Copper\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6-7 - Copper\nSTYLE: bright, warm copper orange-brown, vivid where the light hits; even colour from roots to ends.\nCALLOUTS:\n1. Bright copper: Warm orange-brown.\n2. Vivid in light: Glows on top.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C12": {
+      "name": "Henna (Mehndi)",
+      "block": "ITEM: C12 Henna (Mehndi)\nBACKDROP: Sand (#D8CDBF).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nSWATCH: Henna - Plant colour\nSTYLE: henna on greying hair: grey strands turned warm red-orange, dark strands with a red shine; natural plant-colour look with slightly varied tone; clean scalp and hairline.\nCALLOUTS:\n1. Red-orange grey: Henna on grey hair.\n2. Red shine: On the dark strands.\n3. Natural variation: Plant colour look.\n4. Clean hairline: No stains on the skin.",
+      "older": true
+    },
+    "L01": {
+      "name": "Office Ready",
+      "block": "ITEM: L01 Office Ready\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Classic Side Part: tapered sides, about 6 cm on top combed neatly to the side, light pomade shine.\n- Beard and moustache: clean-shaven.\n- Colour: natural black.\nCALLOUTS:\n1. Side part: Neat and polished.\n2. Clean shave: Smooth face.\n3. Tapered sides: Office-ready.\n4. Soft shine: Light pomade.",
+      "older": false
+    },
+    "L02": {
+      "name": "Easy Everyday",
+      "block": "ITEM: L02 Easy Everyday\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Crew Cut: machine #2 sides, 2 cm top pushed forward.\n- Beard: Light Stubble, 1-2 mm, with a clean neck line.\nCALLOUTS:\n1. Crew cut: Short and tidy.\n2. Light stubble: 1-2 mm.\n3. Neck line: Clean and curved.\n4. Low effort: Natural finish.",
+      "older": false
+    },
+    "L03": {
+      "name": "Sharp Fade",
+      "block": "ITEM: L03 Sharp Fade\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Low Fade: skin one finger above the ear blending to #2, 4 cm textured top.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.\nCALLOUTS:\n1. Low fade: Skin above the ear.\n2. Boxed beard: Sharp cheek lines.\n3. Square corners: At the jaw.\n4. Textured top: About 4 cm.",
+      "older": false
+    },
+    "L04": {
+      "name": "Korean Style",
+      "block": "ITEM: L04 Korean Style\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: Two-Block: soft 8-10 cm top falling over #3 sides, fringe to the eyebrows.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Two-block: Soft top over short sides.\n2. Soft fringe: To the eyebrows.\n3. Clean face: No beard or moustache.\n4. Airy texture: Light and soft.",
+      "older": false
+    },
+    "L05": {
+      "name": "Gentleman",
+      "block": "ITEM: L05 Gentleman\nBACKDROP: Sand (#D8CDBF).\nCHARACTER NOTE: same man, with a full beard grown for this look.\nPARTS:\n- Hair: Slick Back: 8-10 cm top combed straight back with shine; sides #2 tapering to #1.\n- Beard: Full Beard: thick, about 4 cm at the chin, rounded, combed.\nCALLOUTS:\n1. Slick back: Combed straight back.\n2. Full beard: Thick and shaped.\n3. Smooth blend: Tapered sides.\n4. Polished finish: Pomade shine.",
+      "older": false
+    },
+    "L06": {
+      "name": "Rugged",
+      "block": "ITEM: L06 Rugged\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Buzz Cut: machine #2 all over.\n- Beard: Heavy Stubble, 5 mm.\nCALLOUTS:\n1. Buzz cut: Even #2.\n2. Heavy stubble: 5 mm.\n3. Clean neck line: Curved and tidy.\n4. No styling: Natural finish.",
+      "older": false
+    },
+    "L07": {
+      "name": "Classic Moustache",
+      "block": "ITEM: L07 Classic Moustache\nBACKDROP: Orange (#EC9465).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nPARTS:\n- Hair: Taper Cut, about 4 cm on top combed to the side.\n- Beard: clean-shaven chin and cheeks.\n- Moustache: Chevron: thick and wide, covering the top edge of the lip.\n- Colour: Natural Black (Level 2), grey fully covered on hair and moustache.\nCALLOUTS:\n1. Taper cut: Neat and classic.\n2. Chevron moustache: Thick and wide.\n3. Natural black: Grey covered.\n4. Clean shave: Cheeks and chin.",
+      "older": true
+    },
+    "L08": {
+      "name": "Clean Edge",
+      "block": "ITEM: L08 Clean Edge\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Skin Fade: high fade to bare skin, 4 cm matte top.\n- Beard: Faded Beard: 1 mm at the sideburns to 6 mm at the jaw, flowing into the hair fade.\nCALLOUTS:\n1. Skin fade: High and sharp.\n2. Faded beard: Blends with the hair.\n3. One shape: Hair and beard flow together.\n4. Crisp lines: Razor clean.",
+      "older": false
+    },
+    "L09": {
+      "name": "Fresh Taper",
+      "block": "ITEM: L09 Fresh Taper\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Taper Fade: #3 sides with skin only at the sideburns and nape, 5 cm top.\n- Beard: Light Stubble, 1-2 mm.\nCALLOUTS:\n1. Taper fade: Small fade at the edges.\n2. Light stubble: 1-2 mm.\n3. Neat top: About 5 cm.\n4. Clean neck line: Curved and tidy.",
+      "older": false
+    },
+    "L10": {
+      "name": "Curly Fade",
+      "block": "ITEM: L10 Curly Fade\nBACKDROP: Orange (#EC9465).\nCHARACTER NOTE: same man, with natural tight curls for this look.\nPARTS:\n- Hair: Curly Top Fade: defined 5-6 cm curls on top, #0 to #2 fade.\n- Beard: Heavy Stubble, 5 mm.\nCALLOUTS:\n1. Curly top: Defined curls.\n2. Faded sides: #0 to #2.\n3. Heavy stubble: 5 mm.\n4. Curl cream: Soft, no frizz.",
+      "older": false
+    },
+    "L11": {
+      "name": "Trendy Wolf",
+      "block": "ITEM: L11 Trendy Wolf\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Wolf Cut: shaggy layers, messy fringe, longer back to the collar.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Wolf cut: Shaggy layers.\n2. Messy fringe: To the eyebrows.\n3. Clean face: No beard or moustache.\n4. Longer back: Reaches the collar.",
+      "older": false
+    },
+    "L12": {
+      "name": "Bold Balbo",
+      "block": "ITEM: L12 Bold Balbo\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Undercut: 8 cm top swept back, #1 sides with a hard line.\n- Beard: Balbo: 6 mm on the chin and lower jaw, no sideburns, separate moustache.\nCALLOUTS:\n1. Undercut: Long top, short sides.\n2. Balbo beard: Chin and jaw.\n3. Floating moustache: Separate from the beard.\n4. No sideburns: Shaved clean.",
+      "older": false
+    },
+    "L13": {
+      "name": "Grey Gentleman",
+      "block": "ITEM: L13 Grey Gentleman\nBACKDROP: Sage (#CADBD8).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nPARTS:\n- Hair: Classic Side Part, about 6 cm on top.\n- Beard: Short Boxed Beard, 6 mm sides and 9 mm chin, natural salt-and-pepper.\n- Colour: Grey Blending on the hair: grey softened, not hidden.\nCALLOUTS:\n1. Side part: Neat and polished.\n2. Boxed beard: Short and sharp.\n3. Softened grey: Natural salt and pepper.\n4. Fresh look: Mature, not dyed.",
+      "older": true
+    },
+    "L14": {
+      "name": "Wedding Ready",
+      "block": "ITEM: L14 Wedding Ready\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: Quiff: front about 8 cm lifted up and back, faded sides.\n- Beard: Faded Beard with sharp cheek and neck lines.\nCALLOUTS:\n1. Quiff: Height at the front.\n2. Faded beard: Clean lines.\n3. Sharp edges: Razor finish.\n4. Photo-ready: Polished finish.",
+      "older": false
+    },
+    "L15": {
+      "name": "Bald and Bearded",
+      "block": "ITEM: L15 Bald and Bearded\nBACKDROP: Plum (#B06A8F).\nCHARACTER NOTE: same man, with his head shaved and a full beard grown for this look.\nPARTS:\n- Hair: Head Shave, smooth razor finish.\n- Beard: Full Beard, thick, rounded, about 4 cm at the chin.\nCALLOUTS:\n1. Shaved head: Smooth razor finish.\n2. Full beard: Thick and shaped.\n3. Clean outline: Neck and cheeks.\n4. Strong contrast: Bare head, full beard.",
+      "older": false
+    },
+    "L16": {
+      "name": "Soft Waves",
+      "block": "ITEM: L16 Soft Waves\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Korean Perm: soft, loose waves on a two-block, wavy fringe.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Soft waves: Loose perm.\n2. Wavy fringe: To the eyebrows.\n3. Clean face: No beard or moustache.\n4. Airy volume: Light, not frizzy.",
+      "older": false
+    },
+    "L17": {
+      "name": "Modern Moustache",
+      "block": "ITEM: L17 Modern Moustache\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Pushed Back: 8 cm top with a soft matte finish, tapered sides.\n- Beard: clean-shaven chin and cheeks.\n- Moustache: Natural Full, about 6 mm, on the lip line.\nCALLOUTS:\n1. Pushed back: Matte and natural.\n2. Natural moustache: Medium and tidy.\n3. Clean shave: Cheeks and chin.\n4. Tapered sides: #3 to #2.",
+      "older": false
+    },
+    "L18": {
+      "name": "Rider Ready",
+      "block": "ITEM: L18 Rider Ready\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Crop Fade: rough 4 cm top pushed forward, mid skin fade.\n- Beard: Heavy Stubble, 5 mm.\nCALLOUTS:\n1. Crop fade: Rough top, pushed forward.\n2. Heavy stubble: 5 mm.\n3. Mid fade: Skin to #2.\n4. Helmet-friendly: Bounces back with fingers.",
+      "older": false
+    },
+    "L19": {
+      "name": "Curl Natural",
+      "block": "ITEM: L19 Curl Natural\nBACKDROP: Sage (#CADBD8).\nCHARACTER NOTE: same man, with natural curls for this look.\nPARTS:\n- Hair: Natural Curls: medium, defined, round outline.\n- Beard: Light Stubble, 1-2 mm.\nCALLOUTS:\n1. Natural curls: Medium and defined.\n2. Light stubble: 1-2 mm.\n3. Even outline: Round and balanced.\n4. Curl cream: Soft finish.",
+      "older": false
+    },
+    "L20": {
+      "name": "Bun and Beard",
+      "block": "ITEM: L20 Bun and Beard\nBACKDROP: Blush (#F7D9CE).\nCHARACTER NOTE: same man, with long hair and a full beard grown for this look.\nPARTS:\n- Hair: Man Bun: long hair pulled back into a neat bun.\n- Beard: Full Beard, thick and rounded.\nCALLOUTS:\n1. Man bun: Neat at the back.\n2. Full beard: Thick and shaped.\n3. Smooth pull-back: No bumps.\n4. Clean cheek line: Tidy edges.",
+      "older": false
+    },
+    "L21": {
+      "name": "Silver Crop",
+      "block": "ITEM: L21 Silver Crop\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: French Crop: rough 4 cm top pushed forward, #1 to #3 sides.\n- Colour: Ash Grey / Silver: cool and even, eyebrows natural black.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Silver colour: Cool and even.\n2. French crop: Rough top, pushed forward.\n3. Clean face: No beard or moustache.\n4. Natural brows: Dark contrast.",
+      "older": false
+    },
+    "L22": {
+      "name": "Grey-Free Classic",
+      "block": "ITEM: L22 Grey-Free Classic\nBACKDROP: Sage (#CADBD8).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nPARTS:\n- Hair: Ivy League: 4 cm top with a soft side part.\n- Beard: clean-shaven.\n- Moustache: Short Trimmed, 3 mm.\n- Colour: Natural Black, grey fully covered on hair and moustache.\nCALLOUTS:\n1. Ivy League: Short, with a side part.\n2. Short moustache: 3 mm, tidy.\n3. Natural black: Grey covered.\n4. Clean shave: Cheeks and chin.",
+      "older": true
+    },
+    "L23": {
+      "name": "Festival Moustache",
+      "block": "ITEM: L23 Festival Moustache\nBACKDROP: Sand (#D8CDBF).\nCHARACTER NOTE: same man, with a thick moustache grown for this look.\nPARTS:\n- Hair: Classic Side Part, polished.\n- Beard: clean-shaven.\n- Moustache: Handlebar, with waxed ends curled up.\nCALLOUTS:\n1. Handlebar: Curled, waxed ends.\n2. Side part: Polished.\n3. Clean shave: Cheeks and chin.\n4. Festival-ready: Sharp and bold.",
+      "older": false
+    },
+    "L24": {
+      "name": "Office Beard",
+      "block": "ITEM: L24 Office Beard\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Taper Fade: small fade at the sideburns and nape.\n- Beard: Short Boxed Beard, 6 mm sides and 9 mm chin.\nCALLOUTS:\n1. Taper fade: Quiet and clean.\n2. Boxed beard: Sharp lines.\n3. Square corners: At the jaw.\n4. Office-ready: Neat finish.",
+      "older": false
+    },
+    "L25": {
+      "name": "Sharp Van Dyke",
+      "block": "ITEM: L25 Sharp Van Dyke\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Low Fade, 4 cm textured top.\n- Beard: Van Dyke: pointed chin, separate moustache, shaved cheeks.\nCALLOUTS:\n1. Low fade: Skin above the ear.\n2. Pointed chin: 1-2 fingers long.\n3. Separate moustache: Clean gap.\n4. Shaved cheeks: Smooth.",
+      "older": false
+    }
+  }
+}

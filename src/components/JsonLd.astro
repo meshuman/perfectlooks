@@ -1,0 +1,11 @@
+---
+interface Props {
+  data: object | object[];
+}
+
+const { data } = Astro.props;
+// "<" is escaped so text such as "</script>" inside a value can't end the tag early.
+const json = JSON.stringify(data).replace(/</g, '\\u003c');
+---
+
+<script type="application/ld+json" set:html={json} />

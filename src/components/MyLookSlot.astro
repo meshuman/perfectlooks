@@ -1,0 +1,39 @@
+---
+import Icon from './Icon.astro';
+import type { IconName } from '@/data/icons';
+
+interface Props {
+  slot: string;
+  icon: IconName;
+  value?: string;
+  locked?: string;
+}
+
+const { slot, icon, value, locked } = Astro.props;
+---
+
+<div class="flex items-center gap-3 border border-line bg-card p-3.5">
+  <span class:list={['grid size-11 shrink-0 place-items-center rounded-full', value ? 'bg-gold text-ink' : 'bg-paper text-muted']}>
+    <Icon name={icon} size={20} />
+  </span>
+  <div class="min-w-0 flex-1">
+    <p class="eyebrow !tracking-[0.16em]">{slot}</p>
+    <p class:list={['truncate text-[0.9375rem] font-bold', !value && !locked && 'text-muted']}>
+      {locked ?? value ?? 'No change'}
+    </p>
+  </div>
+  {
+    locked ? (
+      <span class="text-xs font-semibold text-muted">Locked</span>
+    ) : value ? (
+      <div class="flex gap-1.5">
+        <button type="button" class="h-9 border border-line px-3 text-xs font-semibold">Change</button>
+        <button type="button" class="grid size-9 place-items-center rounded-full border border-line text-muted" aria-label={`Remove ${slot}`}>
+          <Icon name="x" size={16} />
+        </button>
+      </div>
+    ) : (
+      <button type="button" class="h-9 bg-ink px-4 text-xs font-semibold text-white">Choose</button>
+    )
+  }
+</div>

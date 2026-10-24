@@ -1,0 +1,154 @@
+---
+import '@/styles/global.css';
+import TopBar from '@/components/TopBar.astro';
+import BottomBar, { type Tab } from '@/components/BottomBar.astro';
+import Footer from '@/components/Footer.astro';
+import Icon from '@/components/Icon.astro';
+import { OG_IMAGE } from '@/data/seo';
+import { defaultShop } from '@/data/shop';
+import en from '@/i18n/en.json';
+import { pagePath, pathIn, publishedLocales, useI18n, type UiKey } from '@/i18n';
+// The one Latin font file every page uses, preloaded so text doesn't swap late.
+import sansFont from '@fontsource-variable/jost/files/jost-latin-wght-normal.woff2?url';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Private pages (About you, Favourites, My Look, Barber Card) are not indexed. */
+  noindex?: boolean;
+  topBar?: 'dark' | 'light' | false;
+  back?: { href: string; label: string };
+  tab?: Tab;
+  footer?: boolean;
+  bottomBar?: boolean;
+  /** Dark page background, for the Barber Card. */
+  dark?: boolean;
+  /** Social preview image, when the page has its own (an item photo). Defaults to the brand image. */
+  image?: { src: string; width: number; height: number; alt: string };
+  /** false for pages built only in English (404, offline): no hreflang, language links go to home pages. */
+  localized?: boolean;
+}
+
+const {
+  title,
+  description,
+  noindex = false,
+  topBar = 'light',
+  back,
+  tab,
+  footer = true,
+  bottomBar = true,
+  dark = false,
+  image,
+  localized = true,
+} = Astro.props;
+
+const { locale, t } = useI18n(Astro.url);
+const canonical = new URL(pagePath(Astro.url), Astro.site).href;
+const SITE_NAME = defaultShop.name;
+const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+const og = image ?? { src: OG_IMAGE, width: 1200, height: 630, alt: t('site.ogAlt', { shop: SITE_NAME }) };
+
+// The same page in every built language, for hreflang links.
+const alternates = (['en', ...publishedLocales()] as const).map((l) => ({ lang: l, href: new URL(pathIn(l, Astro.url), Astro.site).href }));
+const OG_LOCALE = { en: 'en', ne: 'ne_NP', hi: 'hi_IN' } as const;
+
+// Screen text the browser scripts and islands need (toasts, buttons, Barber Card), in this language.
+const CLIENT_PREFIXES = ['look.', 'fav.', 'card.', 'list.', 'slot.', 'action.', 'barberLine.', 'myLook.', 'barber.', 'favourites.', 'site.'];
+const clientStrings = Object.fromEntries(
+  (Object.keys(en) as UiKey[]).filter((k) => CLIENT_PREFIXES.some((p) => k.startsWith(p))).map((k) => [k, t(k)]),
+);
+const ogImage = new URL(og.src, Astro.site).href;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
+    {
+      !noindex &&
+        localized &&
+        alternates.length > 1 && [
+          ...alternates.map((a) => <link rel="alternate" hreflang={a.lang} href={a.href} />),
+          <link rel="alternate" hreflang="x-default" href={alternates[0]!.href} />,
+        ]
+    }
+    <meta name="theme-color" content={dark ? "#111111" : "#f7f4f0"} />
+    <script is:inline>document.documentElement.classList.add('js');</script>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preload" href={sansFont} as="font" type="font/woff2" crossorigin />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content={String(og.width)} />
+    <meta property="og:image:height" content={String(og.height)} />
+    <meta property="og:image:alt" content={og.alt} />
+    <meta property="og:locale" content={OG_LOCALE[locale]} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <slot name="head" />
+  </head>
+  <body class:list={['min-h-dvh', dark && 'theme-dark !bg-ink text-white']}>
+    <a
+      href="#content"
+      class="gold-fill sr-only z-[80] px-5 py-3 text-sm font-semibold focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
+    >
+      {t('site.skip')}
+    </a>
+    {topBar && <TopBar tone={topBar} back={back} localized={localized} />}
+    <div
+      id="pl-offline"
+      role="status"
+      hidden
+      class="sticky top-[4rem] z-30 mx-auto mt-2 w-max max-w-[calc(100%-2rem)] bg-ink px-4 py-2 text-xs font-medium tracking-wide text-white"
+    >
+      <span class="mr-2 inline-block size-1.5 rounded-full bg-gold align-middle"></span>
+      {t('site.offlineBanner')}
+    </div>
+    <div id="content" tabindex="-1" class="outline-none"></div>
+    <slot />
+    {footer && <Footer />}
+    {bottomBar && <BottomBar active={tab} />}
+
+    <div
+      id="pl-toast"
+      role="status"
+      aria-live="polite"
+      hidden
+      class:list={[
+        'fixed inset-x-0 z-50 mx-auto flex w-max max-w-[calc(100%-2rem)] items-center gap-3 bg-ink py-3 pr-5 pl-4 text-sm font-medium tracking-wide text-white shadow-lift',
+        bottomBar ? 'bottom-[calc(5rem+env(safe-area-inset-bottom))]' : 'bottom-6',
+      ]}
+    >
+      <span class="grid size-5 shrink-0 place-items-center rounded-full bg-gold text-ink">
+        <Icon name="check" size={12} strokeWidth={3} />
+      </span>
+      <span data-text></span>
+    </div>
+
+    <dialog
+      id="pl-confirm"
+      class="m-auto w-[min(24rem,calc(100%-2rem))] bg-paper p-0 text-text shadow-lift backdrop:bg-ink/50"
+    >
+      <form method="dialog" class="p-6">
+        <p data-message class="text-[1.375rem] leading-snug font-semibold"></p>
+        <div class="mt-6 grid grid-cols-2 gap-2">
+          <button value="no" class="h-12 font-medium tracking-wide shadow-[inset_0_0_0_1px_var(--color-line)]">{t('site.no')}</button>
+          <button value="yes" class="gold-fill h-12 font-medium tracking-wide">{t('site.yes')}</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script type="application/json" id="pl-strings" set:html={JSON.stringify(clientStrings).replace(/</g, '\\u003c')} />
+    <script>
+      import '@/scripts/app';
+    </script>
+  </body>
+</html>

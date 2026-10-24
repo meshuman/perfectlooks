@@ -1,0 +1,39 @@
+---
+// KGF Unisex Saloon logo: the KGF block, with "Unisex Saloon" beside it where there's room.
+import { kgfBlock, scissorsMark } from '@/data/brand-marks.mjs';
+import { defaultShop as shop } from '@/data/shop';
+import { useI18n } from '@/i18n';
+const { t, l } = useI18n(Astro.url);
+
+interface Props {
+  tone?: 'dark' | 'light';
+  /** md: header. lg: footer, with the scissors mark and the full name. */
+  size?: 'md' | 'lg';
+}
+
+const { tone = 'light', size = 'md' } = Astro.props;
+// On dark backgrounds the logo is all white: the KGF block reversed, the scissors mark without its crimson square.
+const dark = tone === 'dark';
+const block = kgfBlock({ title: '', white: dark }).replace('role="img" aria-label=""', 'aria-hidden="true"');
+---
+
+<a href={l('/')} class:list={['inline-flex items-center', size === 'lg' ? 'gap-4' : 'gap-2.5']}>
+  {
+    size === 'lg' && (
+      <svg viewBox="0 0 100 100" class:list={['size-16 shrink-0', !dark && 'bg-brand']} aria-hidden="true" set:html={scissorsMark()} />
+    )
+  }
+  <span class:list={['block shrink-0', size === 'lg' ? 'w-28' : 'w-[3.75rem]']} set:html={block} />
+  <span
+    aria-hidden="true"
+    class:list={[
+      'flex-col leading-[1.05] font-semibold tracking-[0.14em] uppercase',
+      size === 'lg' ? 'flex text-[0.9375rem]' : 'hidden text-[0.625rem] sm:flex',
+      tone === 'dark' ? 'text-white' : 'text-ink',
+    ]}
+  >
+    <span>Unisex</span>
+    <span>Saloon</span>
+  </span>
+  <span class="sr-only">{t('site.homeLink', { shop: shop.name })}</span>
+</a>

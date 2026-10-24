@@ -1,0 +1,52 @@
+---
+// A catalogue photo, resized and converted for phones. Falls back to the colour swatch
+// or the "Photo coming soon" placeholder while the item has no photo yet.
+import { Picture } from 'astro:assets';
+import PhotoPlaceholder from './PhotoPlaceholder.astro';
+import { photoFor } from '@/data/photos';
+import type { IconName } from '@/data/icons';
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+
+interface Props {
+  item: { id: string; name: string; mainPhoto: 'front' | 'side'; swatch?: string };
+  /** card: grid thumbnails. hero: the large photo on the item page. */
+  size?: 'card' | 'hero';
+  icon?: IconName;
+  class?: string;
+  /** Extra classes for the swatch circle, e.g. the hover zoom on cards. */
+  swatchClass?: string;
+  /** Colour block for the placeholder, e.g. 'bg-block-orange'. */
+  block?: string;
+}
+
+const { item, size = 'card', icon = 'user', class: className, swatchClass, block } = Astro.props;
+const photo = photoFor(item.id);
+
+const SIZES = {
+  card: { widths: [240, 360, 480, 720], sizes: '(min-width: 64rem) 22vw, (min-width: 48rem) 30vw, 46vw' },
+  hero: { widths: [400, 640, 800, 1080], sizes: '(min-width: 48rem) 45vw, 92vw' },
+};
+---
+
+{
+  photo ? (
+    <Picture
+      src={photo}
+      alt={`${item.name}, ${t('card.view', { angle: t(item.mainPhoto === 'side' ? 'angle.side' : 'angle.front') }).toLowerCase()}`}
+      formats={['avif', 'webp']}
+      widths={SIZES[size].widths}
+      sizes={SIZES[size].sizes}
+      loading={size === 'hero' ? 'eager' : 'lazy'}
+      fetchpriority={size === 'hero' ? 'high' : 'auto'}
+      decoding="async"
+      class:list={['object-cover', className]}
+    />
+  ) : item.swatch ? (
+    <div class:list={['photo-bg grid place-items-center', className]}>
+      <span class:list={['size-[58%] rounded-full', swatchClass]} style={`background:${item.swatch}`} />
+    </div>
+  ) : (
+    <PhotoPlaceholder icon={icon} seed={item.id || item.name} block={block} class={className} label={size === 'hero' ? t('card.photoSoon') : ''} />
+  )
+}

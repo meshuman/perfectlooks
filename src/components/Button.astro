@@ -1,0 +1,59 @@
+---
+import Icon from './Icon.astro';
+import type { IconName } from '@/data/icons';
+
+interface Props {
+  href?: string;
+  /** gold = primary (solid black, white inside dark areas). The name is kept from the earlier theme. */
+  variant?: 'gold' | 'dark' | 'outline' | 'outline-dark';
+  size?: 'md' | 'lg';
+  /** Trailing arrow that slides on hover. */
+  arrow?: boolean;
+  icon?: IconName;
+  full?: boolean;
+  type?: 'button' | 'submit';
+  class?: string;
+  [key: string]: unknown;
+}
+
+const {
+  href,
+  variant = 'gold',
+  size = 'md',
+  arrow = false,
+  icon,
+  full = false,
+  type = 'button',
+  class: className,
+  ...rest
+} = Astro.props;
+
+const variants = {
+  gold: 'gold-fill hover:opacity-90',
+  dark: 'bg-ink text-white hover:opacity-90',
+  outline: 'bg-transparent text-text shadow-[inset_0_0_0_1px_var(--color-line)] hover:shadow-[inset_0_0_0_2px_var(--color-ink)]',
+  'outline-dark': 'bg-transparent text-white shadow-[inset_0_0_0_1px_rgb(255_255_255/0.3)] hover:shadow-[inset_0_0_0_2px_#fff]',
+};
+
+const sizes = {
+  md: 'h-12 px-6 text-[0.9375rem]',
+  lg: 'h-14 px-8 text-base',
+};
+
+const classes = [
+  'group inline-flex items-center justify-center gap-3 font-medium tracking-[0.04em] whitespace-nowrap',
+  'transition duration-300 ease-out-soft active:scale-[0.99]',
+  variants[variant],
+  sizes[size],
+  full && 'w-full',
+  className,
+];
+
+const Tag = href ? 'a' : 'button';
+---
+
+<Tag href={href} type={href ? undefined : type} class:list={classes} {...rest}>
+  {icon && <Icon name={icon} size={18} />}
+  <span><slot /></span>
+  {arrow && <Icon name="arrowRight" size={18} strokeWidth={1.25} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />}
+</Tag>

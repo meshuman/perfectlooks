@@ -1,0 +1,54 @@
+---
+import Logo from './Logo.astro';
+import { defaultShop as shop } from '@/data/shop';
+import { useI18n } from '@/i18n';
+const { t, l } = useI18n(Astro.url);
+
+const links = [
+  { href: l('/styles'), label: t('category.hair.label') },
+  { href: l('/beards'), label: t('category.beards.label') },
+  { href: l('/moustaches'), label: t('category.moustaches.label') },
+  { href: l('/colours'), label: t('category.colours.label') },
+  { href: l('/looks'), label: t('category.looks.label') },
+  { href: l('/learn'), label: t('nav.learn') },
+];
+---
+
+<footer class="bg-ink pt-14 pb-28 text-white">
+  <div class="wrap">
+    <Logo tone="dark" size="lg" />
+    <p class="mt-5 max-w-sm text-[0.9375rem] text-muted-dark">{t('site.tagline')}</p>
+
+    <div class="mt-10 grid gap-10 md:grid-cols-2">
+      <nav aria-label={t('footer.catalogue')}>
+        <h2 class="text-sm font-medium tracking-wide text-muted-dark">{t('footer.browse')}</h2>
+        <ul class="mt-4 grid grid-cols-2 gap-x-6 gap-y-3 text-[0.9375rem]">
+          {
+            links.map((link) => (
+              <li>
+                <a href={link.href} class="underline-offset-4 hover:underline">
+                  {link.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <div>
+        <h2 class="text-sm font-medium tracking-wide text-muted-dark">{t('footer.visit')}</h2>
+        <p class="mt-4 text-[1.0625rem] font-semibold">{shop.name}</p>
+        <ul class="mt-2 space-y-1.5 text-[0.9375rem] text-muted-dark">
+          <li><a href={l(`/shops/${shop.slug}`)} class="underline-offset-4 hover:text-white hover:underline">{t('shop.addressValue')}</a></li>
+          <li>{t('shop.hoursValue')}</li>
+          <li><a href={`tel:${shop.phone}`} class="underline-offset-4 hover:text-white hover:underline">{shop.phoneDisplay}</a></li>
+        </ul>
+        <a href={shop.mapUrl} target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 text-[0.9375rem] font-medium text-gold underline-offset-4 hover:underline">
+          {t('footer.directions')}
+        </a>
+      </div>
+    </div>
+
+    <p class="mt-12 border-t border-line-dark pt-5 text-xs text-muted-dark">{t('site.disclaimer')}</p>
+  </div>
+</footer>

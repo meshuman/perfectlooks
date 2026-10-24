@@ -1,0 +1,35 @@
+---
+import Icon from './Icon.astro';
+import Logo from './Logo.astro';
+import LangSwitch from './LangSwitch.astro';
+
+interface Props {
+  tone?: 'dark' | 'light';
+  /** Shows a back link on the left. */
+  back?: { href: string; label: string };
+  /** false on pages built only in English. */
+  localized?: boolean;
+}
+
+const { tone = 'light', back, localized = true } = Astro.props;
+---
+
+{/* Logo centred, as in the reference header. */}
+<header class:list={['sticky top-0 z-30', tone === 'dark' ? 'glass-dark text-white' : 'glass-light text-ink']}>
+  <div class="wrap grid h-16 grid-cols-[1fr_auto_1fr] items-center gap-3">
+    <div>
+      {
+        back && (
+          <a href={back.href} class="-ml-1 inline-flex h-11 items-center gap-2 pr-2 text-sm font-medium tracking-wide">
+            <Icon name="arrowLeft" size={18} strokeWidth={1.25} />
+            <span class="max-[22rem]:sr-only">{back.label}</span>
+          </a>
+        )
+      }
+    </div>
+    <Logo tone={tone} />
+    <div class="flex justify-end">
+      <LangSwitch tone={tone} localized={localized} />
+    </div>
+  </div>
+</header>

@@ -1,0 +1,182 @@
+---
+// Place the numbered callout dots on each catalogue photo. Tap the photo to put the next dot,
+// then copy the JSON into content-source/callout-positions.json and run `npm run import`.
+// Not linked from the site and not indexed.
+import { getImage } from 'astro:assets';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getAllItems } from '@/data/catalogue';
+import { photoFor } from '@/data/photos';
+
+const items = await Promise.all(
+  (await getAllItems())
+    .filter((i) => photoFor(i.id))
+    .map(async (i) => ({
+      id: i.id,
+      name: i.name,
+      src: (await getImage({ src: photoFor(i.id)!, width: 900, format: 'webp' })).src,
+      callouts: i.callouts.map((c) => ({ title: c.title, x: c.x, y: c.y })),
+    })),
+);
+---
+
+<BaseLayout title="Place callouts" description="Callout placement tool." noindex footer={false} back={{ href: '/dev/prompts', label: 'Prompts' }}>
+  <main class="wrap max-w-2xl pt-6 pb-28">
+    <p class="tag">Images</p>
+    <h1 class="mt-4 text-[2.25rem] leading-tight">Place <em class="text-gold-ink">callouts</em></h1>
+    <p class="mt-3 text-[0.9375rem] text-muted">
+      Tap the photo where each label points. Tap a label in the list to move its dot. Then copy the JSON into
+      <code class="rounded bg-ink/5 px-1.5 py-0.5 text-[0.8125rem]">content-source/callout-positions.json</code> and run
+      <code class="rounded bg-ink/5 px-1.5 py-0.5 text-[0.8125rem]">npm run import</code>.
+    </p>
+
+    {
+      items.length === 0 ? (
+        <div class="shell mt-8">
+          <div class="core p-6 text-center">
+            <p class="font-display text-[1.5rem]">No photos yet.</p>
+            <p class="mt-1 text-sm text-muted">Add clean photos to src/assets/catalogue first (see /dev/prompts).</p>
+          </div>
+        </div>
+      ) : (
+        <div data-tool data-items={JSON.stringify(items)}>
+          <label class="mt-6 block text-sm font-semibold">
+            Item
+            <select data-select class="mt-1.5 h-12 w-full bg-card px-4 shadow-[inset_0_0_0_1px_var(--color-line)]">
+              {items.map((i) => (
+                <option value={i.id}>
+                  {i.id} {i.name}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <div class="shell mt-4">
+            <div data-stage class="relative aspect-square cursor-crosshair overflow-hidden bg-ink/5">
+              <img data-photo alt="" class="size-full object-cover select-none" draggable="false" />
+            </div>
+          </div>
+
+          <ol data-labels class="mt-4 space-y-1.5" />
+
+          <div class="mt-4 flex flex-wrap gap-2">
+            <button type="button" data-reset class="h-10 bg-ink/[0.05] px-4 text-sm font-semibold">Clear this item</button>
+            <button type="button" data-copy class="gold-fill h-10 px-4 text-sm font-semibold">Copy JSON (all items)</button>
+          </div>
+          <pre data-output class="mt-3 max-h-72 overflow-auto bg-ink p-3 text-[0.6875rem] text-white/85" />
+        </div>
+      )
+    }
+  </main>
+</BaseLayout>
+
+<script>
+  import { toast } from '@/lib/ui';
+
+  type Item = { id: string; name: string; src: string; callouts: { title: string; x?: number; y?: number }[] };
+  type Positions = Record<string, ([number, number] | null)[]>;
+
+  const tool = document.querySelector<HTMLElement>('[data-tool]');
+  if (tool) {
+    const items = JSON.parse(tool.dataset.items!) as Item[];
+    const byId = new Map(items.map((i) => [i.id, i]));
+    const select = tool.querySelector<HTMLSelectElement>('[data-select]')!;
+    const stage = tool.querySelector<HTMLElement>('[data-stage]')!;
+    const photo = tool.querySelector<HTMLImageElement>('[data-photo]')!;
+    const labels = tool.querySelector<HTMLOListElement>('[data-labels]')!;
+    const output = tool.querySelector<HTMLElement>('[data-output]')!;
+    const STORE = 'pl-dev-callouts';
+
+    // Start from the positions already imported, plus any unsaved work in this browser.
+    const positions: Positions = Object.fromEntries(
+      items.map((i) => [i.id, i.callouts.map((c) => (c.x !== undefined && c.y !== undefined ? [c.x, c.y] : null))]),
+    );
+    try {
+      Object.assign(positions, JSON.parse(localStorage.getItem(STORE) ?? '{}'));
+    } catch {
+      // Storage unavailable: work isn't kept between visits, which is fine.
+    }
+
+    let active = 0;
+    const current = () => byId.get(select.value)!;
+
+    function save() {
+      try {
+        localStorage.setItem(STORE, JSON.stringify(positions));
+      } catch {
+        // See above.
+      }
+      // Only complete items go in the file: the importer needs one position per callout.
+      const complete = Object.fromEntries(Object.entries(positions).filter(([, list]) => list.length && list.every(Boolean)));
+      output.textContent = JSON.stringify(complete, null, 2);
+    }
+
+    function render() {
+      const item = current();
+      const list = positions[item.id]!;
+      photo.src = item.src;
+      stage.querySelectorAll('[data-dot]').forEach((d) => d.remove());
+      list.forEach((pos, i) => {
+        if (!pos) return;
+        const dot = document.createElement('span');
+        dot.dataset.dot = '';
+        dot.textContent = String(i + 1);
+        dot.className =
+          'gold-fill pointer-events-none absolute grid size-7 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full font-display text-[0.9375rem] ring-2 ring-white/80';
+        dot.style.left = `${pos[0]}%`;
+        dot.style.top = `${pos[1]}%`;
+        stage.append(dot);
+      });
+      labels.replaceChildren(
+        ...item.callouts.map((c, i) => {
+          const li = document.createElement('li');
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = `flex w-full items-center gap-3 px-3 py-2 text-left text-sm font-semibold ${
+            i === active ? 'bg-ink text-white' : 'bg-card shadow-[inset_0_0_0_1px_var(--color-line)]'
+          }`;
+          button.textContent = `${i + 1}. ${c.title}${list[i] ? '  ✓' : ''}`;
+          button.addEventListener('click', () => {
+            active = i;
+            render();
+          });
+          li.append(button);
+          return li;
+        }),
+      );
+      save();
+    }
+
+    stage.addEventListener('click', (event) => {
+      const box = stage.getBoundingClientRect();
+      const round = (n: number) => Math.round(n * 10) / 10;
+      const list = positions[current().id]!;
+      list[active] = [round(((event.clientX - box.left) / box.width) * 100), round(((event.clientY - box.top) / box.height) * 100)];
+      // Move on to the next label still without a dot.
+      const next = list.findIndex((p) => !p);
+      active = next === -1 ? active : next;
+      render();
+    });
+
+    select.addEventListener('change', () => {
+      active = Math.max(0, positions[select.value]!.findIndex((p) => !p));
+      render();
+    });
+
+    tool.querySelector('[data-reset]')!.addEventListener('click', () => {
+      positions[current().id] = current().callouts.map(() => null);
+      active = 0;
+      render();
+    });
+
+    tool.querySelector('[data-copy]')!.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(output.textContent ?? '{}');
+        toast('JSON copied');
+      } catch {
+        toast('Copy failed. Select the JSON below and copy it by hand.');
+      }
+    });
+
+    render();
+  }
+</script>

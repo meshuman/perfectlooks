@@ -1,0 +1,1165 @@
+[
+  {
+    "id": "B01",
+    "updated": "2026-10-23",
+    "slug": "clean-shave",
+    "name": "Clean Shave",
+    "shortLine": "No hair on the face. Fresh and clean.",
+    "description": "A smooth face with no beard. Fresh and clean.",
+    "pickIf": "you want the cleanest, youngest look for any job.",
+    "skipIf": "your skin gets red or bumpy after shaving.",
+    "daily": "5 min: shave, every day or every second day.",
+    "weekly": "Nothing extra.",
+    "nextVisit": "any time, for a hot-towel shave",
+    "suitsText": "All face shapes · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Smooth cheeks",
+        "text": "No stubble shadow."
+      },
+      {
+        "title": "Clean jaw",
+        "text": "Close razor finish."
+      },
+      {
+        "title": "Smooth neck",
+        "text": "No bumps or redness."
+      },
+      {
+        "title": "Fresh skin",
+        "text": "Calm after aftershave."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I avoid razor bumps?",
+        "a": "Shave with the hair growth, use a new blade and shaving cream, then rinse with cold water."
+      },
+      {
+        "q": "How often should I shave?",
+        "a": "Every day or every second day for a smooth face."
+      },
+      {
+        "q": "Is a barber shave better than shaving at home?",
+        "a": "A hot-towel barber shave is closer and gentler. It's a good choice before an event."
+      },
+      {
+        "q": "Should the barber use a new blade?",
+        "a": "Yes, always. It's fine to ask."
+      }
+    ],
+    "barberSteps": [
+      "Ask: sensitive skin?",
+      "Use a new blade.",
+      "Trim long hair first with trimmer.",
+      "Warm towel or warm water.",
+      "Shaving cream. Shave with hair growth.",
+      "Cold water, then aftershave."
+    ],
+    "length": "None",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "separate"
+  },
+  {
+    "id": "B02",
+    "updated": "2026-10-23",
+    "slug": "light-stubble",
+    "name": "Light Stubble",
+    "shortLine": "Very short, like 2–3 days of growth.",
+    "description": "A very short beard, like 2–3 days of growth. Adds shape to the jaw but still looks clean.",
+    "pickIf": "you want a little edge with almost no work. Works even with patchy growth.",
+    "skipIf": "your job needs a clean shave.",
+    "daily": "Nothing.",
+    "weekly": "Trim at home twice, trimmer at 1–2 mm.",
+    "nextVisit": "in 2–3 weeks, to clean the lines",
+    "suitsText": "All face shapes · Any beard growth",
+    "alsoCalled": [
+      "3-day beard"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Even stubble",
+        "text": "1-2 mm all over."
+      },
+      {
+        "title": "Natural cheek line",
+        "text": "Stray hairs removed."
+      },
+      {
+        "title": "Neck line",
+        "text": "2 fingers above the Adam's apple."
+      },
+      {
+        "title": "Shaved below",
+        "text": "Clean neck."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What trimmer length is light stubble?",
+        "a": "1–2 mm."
+      },
+      {
+        "q": "Does light stubble work with a patchy beard?",
+        "a": "Yes. At this length, gaps hardly show."
+      },
+      {
+        "q": "How often should I trim it?",
+        "a": "Twice a week, to keep it at the same length."
+      },
+      {
+        "q": "Does stubble need a neck line?",
+        "a": "Yes. A clean neck line keeps even short stubble neat."
+      }
+    ],
+    "barberSteps": [
+      "Whole beard: trimmer 1–2 mm.",
+      "Neck line: 2 fingers above Adam's apple.",
+      "Shave below neck line.",
+      "Cheeks: remove stray hair only."
+    ],
+    "length": "1–2 mm",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "trimmed"
+  },
+  {
+    "id": "B03",
+    "updated": "2026-10-23",
+    "slug": "heavy-stubble",
+    "name": "Heavy Stubble",
+    "shortLine": "Short and even, like one week of growth.",
+    "description": "A short, even beard, like about one week of growth. Stronger than light stubble.",
+    "pickIf": "you want a grown-up look without the care of a full beard.",
+    "skipIf": "your beard grows patchy.",
+    "daily": "Nothing.",
+    "weekly": "Trim at home once, trimmer at 5 mm.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "All face shapes · Medium or full growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Even 5 mm",
+        "text": "About one week of growth."
+      },
+      {
+        "title": "Clean cheek line",
+        "text": "Follows the natural line."
+      },
+      {
+        "title": "Neck line",
+        "text": "2 fingers above the Adam's apple."
+      },
+      {
+        "title": "Lip line",
+        "text": "Moustache kept off the lip."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What trimmer length is heavy stubble?",
+        "a": "About 5 mm."
+      },
+      {
+        "q": "What is the difference between light and heavy stubble?",
+        "a": "Light stubble is 1–2 mm, like 2–3 days of growth. Heavy stubble is about 5 mm, like a week."
+      },
+      {
+        "q": "Will heavy stubble itch?",
+        "a": "It can in the first few days of growth. Beard oil helps."
+      },
+      {
+        "q": "Is heavy stubble OK for office?",
+        "a": "Yes, if the cheek and neck lines are kept clean."
+      }
+    ],
+    "barberSteps": [
+      "Whole beard: trimmer 5 mm.",
+      "Cheek line: follow natural line. Clean.",
+      "Neck line: 2 fingers above Adam's apple.",
+      "Shave below neck line."
+    ],
+    "length": "5 mm",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "trimmed"
+  },
+  {
+    "id": "B04",
+    "updated": "2026-10-23",
+    "slug": "short-boxed-beard",
+    "name": "Short Boxed Beard",
+    "shortLine": "Short, neat beard with sharp cheek and neck lines.",
+    "description": "A short, neat beard with sharp lines on the cheeks and neck. Well kept and professional.",
+    "pickIf": "you want a beard that looks right in the office, or more shape for a round face.",
+    "skipIf": "your beard grows patchy.",
+    "daily": "1 min: a few drops of beard oil.",
+    "weekly": "Trim at home once: 6 mm on the sides, 9 mm on the chin.",
+    "nextVisit": "in 2 weeks, to sharpen the lines",
+    "suitsText": "Oval, round, long and heart face · Medium or full growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Sharp cheek line",
+        "text": "Straight, razor clean."
+      },
+      {
+        "title": "Square corners",
+        "text": "Boxed at the jaw."
+      },
+      {
+        "title": "Fuller chin",
+        "text": "9 mm."
+      },
+      {
+        "title": "Neck line",
+        "text": "2 fingers above the Adam's apple."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What length is a short boxed beard?",
+        "a": "6 mm on the sides and 9 mm on the chin."
+      },
+      {
+        "q": "Why is it called a boxed beard?",
+        "a": "The sharp cheek and neck lines give it a square, boxed shape."
+      },
+      {
+        "q": "Is a boxed beard good for a round face?",
+        "a": "Yes. The square corners add shape."
+      },
+      {
+        "q": "How often should I trim it?",
+        "a": "Once a week at home. See the barber every 2 weeks to sharpen the lines."
+      }
+    ],
+    "barberSteps": [
+      "Sides: trimmer 6 mm.",
+      "Chin: trimmer 9 mm.",
+      "Cheek line: straight and sharp. Razor.",
+      "Neck line: 2 fingers above Adam's apple.",
+      "Corners at jaw: square, not round.",
+      "Shave below neck line."
+    ],
+    "length": "6–9 mm",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "trimmed"
+  },
+  {
+    "id": "B05",
+    "updated": "2026-10-23",
+    "slug": "full-beard",
+    "name": "Full Beard",
+    "shortLine": "Thick, fuller beard, shaped and neat.",
+    "description": "A thick, full beard, shaped round or square at the bottom. Strong and mature.",
+    "pickIf": "your beard grows thick and you want a strong look.",
+    "skipIf": "your growth is patchy or medium, or you have a long face.",
+    "daily": "3 min: beard oil and comb.",
+    "weekly": "Wash with beard wash 2–3 times.",
+    "nextVisit": "in 3–4 weeks, for shaping",
+    "suitsText": "Oval, square and heart face · Full growth only",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Full shape",
+        "text": "Thick and even."
+      },
+      {
+        "title": "Rounded bottom",
+        "text": "Longest at the chin."
+      },
+      {
+        "title": "Natural cheek line",
+        "text": "Stray hairs removed."
+      },
+      {
+        "title": "Neck line",
+        "text": "Clean and curved."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does it take to grow a full beard?",
+        "a": "Usually 2–3 months, depending on how fast your beard grows."
+      },
+      {
+        "q": "Do I need beard oil?",
+        "a": "Yes. It keeps the hair soft and stops the skin underneath getting dry and itchy."
+      },
+      {
+        "q": "Round or square bottom: which is better?",
+        "a": "A round bottom softens a square face. A square bottom suits oval and heart faces. Ask your barber."
+      },
+      {
+        "q": "How do I stop a full beard looking messy?",
+        "a": "Comb it every day and get it shaped every 3–4 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Comb beard down.",
+      "Sides: trimmer 12 mm or scissors.",
+      "Chin: 2 fingers long. Longest part.",
+      "Ask: round or square bottom?",
+      "Cheek line: natural. Remove stray hair.",
+      "Neck line: 2 fingers above Adam's apple."
+    ],
+    "length": "2 fingers at chin",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Heart"
+    ],
+    "growth": [
+      "Full"
+    ],
+    "moustacheMode": "trimmed"
+  },
+  {
+    "id": "B06",
+    "updated": "2026-10-23",
+    "slug": "goatee",
+    "name": "Goatee",
+    "shortLine": "Hair on the chin only. Cheeks shaved.",
+    "description": "Hair only on the chin, with the cheeks shaved.",
+    "pickIf": "your cheeks don't grow much hair, or you want a round face to look longer.",
+    "skipIf": "you have a long face.",
+    "daily": "Nothing.",
+    "weekly": "Shave the cheeks 2–3 times. Trim the chin at 6 mm.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, round, square and heart face · Any growth, even patchy",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Chin only",
+        "text": "As wide as the mouth."
+      },
+      {
+        "title": "Sharp edges",
+        "text": "Trimmer clean."
+      },
+      {
+        "title": "Shaved cheeks",
+        "text": "Smooth."
+      },
+      {
+        "title": "No moustache",
+        "text": "Upper lip shaved."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a goatee and a Van Dyke?",
+        "a": "A goatee is chin hair only. A Van Dyke adds a separate moustache and a pointed chin."
+      },
+      {
+        "q": "Can I keep my moustache with a goatee?",
+        "a": "Yes. Pick a style in the Moustache slot, or choose a Van Dyke or Circle Beard."
+      },
+      {
+        "q": "Is a goatee good for a patchy beard?",
+        "a": "Yes. It only needs hair on the chin."
+      },
+      {
+        "q": "Does a goatee suit a round face?",
+        "a": "Yes. It makes the face look longer."
+      }
+    ],
+    "barberSteps": [
+      "Shave cheeks and sides clean.",
+      "Chin: keep width of the mouth.",
+      "Chin hair: trimmer 6 mm.",
+      "Sharp edges with trimmer.",
+      "Shave under the jaw."
+    ],
+    "length": "Chin only",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "separate"
+  },
+  {
+    "id": "B07",
+    "updated": "2026-10-23",
+    "slug": "van-dyke",
+    "name": "Van Dyke",
+    "shortLine": "Pointed chin beard with a separate moustache. Cheeks shaved.",
+    "description": "A pointed chin beard with a separate moustache and shaved cheeks. Classic, with character.",
+    "pickIf": "your cheeks grow patchy but your chin and lip grow well.",
+    "skipIf": "you have a long face.",
+    "daily": "1 min: comb the moustache, a little moustache wax if you like.",
+    "weekly": "Shave the cheeks and the gap 2–3 times.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, round, square and heart face · Any growth, even patchy",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Pointed chin",
+        "text": "1-2 fingers long."
+      },
+      {
+        "title": "Separate moustache",
+        "text": "Trimmed above the lip."
+      },
+      {
+        "title": "Clean gap",
+        "text": "Shaved between them."
+      },
+      {
+        "title": "Shaved cheeks",
+        "text": "Smooth."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How is a Van Dyke different from a circle beard?",
+        "a": "A Van Dyke has a gap between the moustache and chin beard. A circle beard joins them."
+      },
+      {
+        "q": "How long should the chin part be?",
+        "a": "1–2 fingers, shaped to a point."
+      },
+      {
+        "q": "Do I need moustache wax?",
+        "a": "It's not required, but a little wax helps the moustache keep its shape."
+      },
+      {
+        "q": "Is a Van Dyke good for a patchy beard?",
+        "a": "Yes. It only uses the chin and upper lip."
+      }
+    ],
+    "barberSteps": [
+      "Shave cheeks and sides clean.",
+      "Chin: 1–2 fingers long, pointed.",
+      "Moustache: trim above lip line.",
+      "Shave the gap between moustache and chin.",
+      "Sharp edges with trimmer."
+    ],
+    "length": "Chin and moustache",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "included"
+  },
+  {
+    "id": "B08",
+    "updated": "2026-10-23",
+    "slug": "circle-beard",
+    "name": "Circle Beard",
+    "shortLine": "Moustache and chin beard joined in a circle. Cheeks shaved.",
+    "description": "Moustache and chin beard joined in a circle around the mouth. Cheeks shaved.",
+    "pickIf": "you want a neat, grown-up look but your cheeks grow thin.",
+    "skipIf": "you have a very long face.",
+    "daily": "Nothing.",
+    "weekly": "Shave the cheeks 2–3 times. Trim at 5 mm.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, round and square face · Any growth, even patchy",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Round shape",
+        "text": "Circles the mouth."
+      },
+      {
+        "title": "Joined corners",
+        "text": "Moustache meets chin."
+      },
+      {
+        "title": "Even 5 mm",
+        "text": "Short and neat."
+      },
+      {
+        "title": "Shaved cheeks",
+        "text": "Clean outline."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a circle beard?",
+        "a": "A moustache joined to a chin beard in a round shape around the mouth."
+      },
+      {
+        "q": "Is a circle beard the same as a goatee?",
+        "a": "No. A goatee is chin hair only. A circle beard includes the moustache."
+      },
+      {
+        "q": "Is a circle beard OK for office?",
+        "a": "Yes. It looks neat and professional."
+      },
+      {
+        "q": "How do I keep the shape round?",
+        "a": "Shave the cheeks 2–3 times a week, and get the outline sharpened every 3 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Shave cheeks clean.",
+      "Keep moustache and chin joined.",
+      "Shape: round, around the mouth.",
+      "All hair: trimmer 5 mm.",
+      "Sharp outline with trimmer.",
+      "Shave under the jaw."
+    ],
+    "length": "Around the mouth",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "included"
+  },
+  {
+    "id": "B09",
+    "updated": "2026-10-23",
+    "slug": "chin-strap",
+    "name": "Chin Strap",
+    "shortLine": "Thin line of beard along the jaw, ear to ear.",
+    "description": "A thin line of beard along the jaw, ear to ear. Sharp and defined.",
+    "pickIf": "you want a sharp jaw line.",
+    "skipIf": "your beard grows patchy, or you can't shave often.",
+    "daily": "Nothing.",
+    "weekly": "Shave above and below the line 3 times.",
+    "nextVisit": "in 2 weeks",
+    "suitsText": "Oval and round face · Medium or full growth",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Jaw line strip",
+        "text": "Ear to ear."
+      },
+      {
+        "title": "One finger wide",
+        "text": "Even width."
+      },
+      {
+        "title": "Shaved cheeks",
+        "text": "Above the line."
+      },
+      {
+        "title": "Shaved neck",
+        "text": "Below the line."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How wide should a chin strap be?",
+        "a": "About 1 finger wide."
+      },
+      {
+        "q": "Does a chin strap include a moustache?",
+        "a": "No, but you can add one in the Moustache slot."
+      },
+      {
+        "q": "Is a chin strap hard to keep?",
+        "a": "Yes. The lines need shaving about 3 times a week."
+      },
+      {
+        "q": "Does a chin strap suit a round face?",
+        "a": "Yes. It gives the jaw a sharper outline."
+      }
+    ],
+    "barberSteps": [
+      "Line width: 1 finger.",
+      "Follow the jaw bone, ear to ear.",
+      "Line hair: trimmer 3 mm.",
+      "Shave cheeks above the line.",
+      "Shave neck below the line."
+    ],
+    "length": "Jaw line only",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Round"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "separate"
+  },
+  {
+    "id": "B10",
+    "updated": "2026-10-23",
+    "slug": "faded-beard",
+    "name": "Faded Beard",
+    "shortLine": "Short at the top, fuller down the jaw. Goes well with a fade haircut.",
+    "description": "The beard is short near the ears and fuller down the jaw. It blends into a fade haircut.",
+    "pickIf": "you have a fade haircut and want hair and beard to match.",
+    "skipIf": "your beard grows patchy.",
+    "daily": "1 min: beard oil.",
+    "weekly": "Trim at home once: 6 mm on the chin and jaw.",
+    "nextVisit": "in 2–3 weeks, with your haircut",
+    "suitsText": "Oval, square, round and heart face · Medium or full growth",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Faded sideburn",
+        "text": "1 mm at the top."
+      },
+      {
+        "title": "Smooth blend",
+        "text": "1 mm to 6 mm."
+      },
+      {
+        "title": "Fuller jaw",
+        "text": "6 mm on chin and jaw."
+      },
+      {
+        "title": "Matches the haircut",
+        "text": "Flows into the fade."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a faded beard?",
+        "a": "A beard that gets shorter near the ears and blends into a fade haircut."
+      },
+      {
+        "q": "Do I need a fade haircut too?",
+        "a": "It looks best with one, so hair and beard flow together."
+      },
+      {
+        "q": "How short is it at the top?",
+        "a": "About 1 mm at the sideburns, blending to 6 mm along the jaw."
+      },
+      {
+        "q": "How often should I get it re-cut?",
+        "a": "Every 2–3 weeks, together with your haircut."
+      }
+    ],
+    "barberSteps": [
+      "Chin and jaw: trimmer 6 mm.",
+      "Sideburns at top: trimmer 1 mm.",
+      "Blend down: 1, 3, then 6 mm.",
+      "Match the hair fade at the sideburns.",
+      "Cheek line: clean.",
+      "Neck line: 2 fingers above Adam's apple."
+    ],
+    "length": "1 to 6 mm",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "trimmed"
+  },
+  {
+    "id": "B11",
+    "updated": "2026-10-23",
+    "slug": "balbo",
+    "name": "Balbo",
+    "shortLine": "Chin beard along the jaw with a separate moustache. No sideburns.",
+    "description": "A short beard on the chin and lower jaw, with a separate moustache and no sideburns.",
+    "pickIf": "you want a sharp, stylish beard that shapes a round or wide face.",
+    "skipIf": "you have a long face, or your chin grows patchy.",
+    "daily": "1 min: beard oil, comb the moustache.",
+    "weekly": "Shave the sideburns and gaps twice. Trim at 6 mm.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval, round, square and heart face · Medium or full growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Chin and jaw",
+        "text": "6 mm, neat."
+      },
+      {
+        "title": "No sideburns",
+        "text": "Shaved clean."
+      },
+      {
+        "title": "Floating moustache",
+        "text": "Separate from the beard."
+      },
+      {
+        "title": "Clean gaps",
+        "text": "At the mouth corners."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a Balbo beard?",
+        "a": "A beard on the chin and lower jaw, with a separate moustache and no sideburns."
+      },
+      {
+        "q": "How is a Balbo different from a Van Dyke?",
+        "a": "A Balbo spreads wider along the jaw. A Van Dyke stays pointed at the chin."
+      },
+      {
+        "q": "Does a Balbo suit a round face?",
+        "a": "Yes. It adds shape to a round or wide face."
+      },
+      {
+        "q": "Is a Balbo hard to keep?",
+        "a": "Medium effort: shave the sideburns and gaps twice a week."
+      }
+    ],
+    "barberSteps": [
+      "Shave sideburns and upper cheeks.",
+      "Keep beard on chin and lower jaw.",
+      "Beard: trimmer 6 mm.",
+      "Moustache: trim above lip. Keep it separate.",
+      "Shave the gap at the mouth corners.",
+      "Neck line: 2 fingers above Adam's apple."
+    ],
+    "length": "Chin and jaw",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "included"
+  },
+  {
+    "id": "B12",
+    "updated": "2026-10-23",
+    "slug": "anchor-beard",
+    "name": "Anchor Beard",
+    "shortLine": "Pointed chin beard with a thin moustache, shaped like an anchor.",
+    "description": "A pointed chin beard that runs a little along the jaw, with a thin moustache. Shaped like an anchor.",
+    "pickIf": "you want a sharp style that works with patchy cheeks.",
+    "skipIf": "you have a long face, or no time to shave often.",
+    "daily": "Nothing.",
+    "weekly": "Shave the cheeks 3 times. Trim the moustache at 3 mm.",
+    "nextVisit": "in 2 weeks",
+    "suitsText": "Oval, round, square and heart face · Any growth, even patchy",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Anchor shape",
+        "text": "Pointed chin, short jaw line."
+      },
+      {
+        "title": "Thin moustache",
+        "text": "3 mm, separate."
+      },
+      {
+        "title": "Shaved cheeks",
+        "text": "Sideburns removed."
+      },
+      {
+        "title": "Sharp edges",
+        "text": "Trimmer clean."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why is it called an anchor beard?",
+        "a": "Its pointed chin and jaw line look like a ship's anchor."
+      },
+      {
+        "q": "How is it different from a Balbo?",
+        "a": "An anchor beard has a pointed chin and a thin moustache. A Balbo is wider along the jaw."
+      },
+      {
+        "q": "Does an anchor beard work with a patchy beard?",
+        "a": "Yes. It only uses the chin, jaw and lip."
+      },
+      {
+        "q": "How often do I need to shave around it?",
+        "a": "About 3 times a week."
+      }
+    ],
+    "barberSteps": [
+      "Shave cheeks and sideburns clean.",
+      "Chin: pointed, 1 finger long.",
+      "Extend chin beard a little along the jaw.",
+      "Moustache: thin, trimmer 3 mm.",
+      "Keep moustache separate from chin.",
+      "Sharp edges with trimmer."
+    ],
+    "length": "Chin and moustache",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "included"
+  },
+  {
+    "id": "B13",
+    "updated": "2026-10-23",
+    "slug": "ducktail",
+    "name": "Ducktail",
+    "shortLine": "Full beard shaped to a point at the chin.",
+    "description": "A full beard with short sides and a longer, pointed chin.",
+    "pickIf": "you have thick growth and want a full beard with a different shape.",
+    "skipIf": "you have a long face or patchy growth.",
+    "daily": "3 min: beard oil, comb into the point.",
+    "weekly": "Wash with beard wash 2–3 times.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval, round, square and heart face · Full growth only",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Pointed chin",
+        "text": "Like a duck's tail."
+      },
+      {
+        "title": "Short sides",
+        "text": "9 mm."
+      },
+      {
+        "title": "Clean cheek line",
+        "text": "Natural and tidy."
+      },
+      {
+        "title": "Neck line",
+        "text": "2 fingers above the Adam's apple."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a ducktail beard?",
+        "a": "A full beard with short sides and a longer chin shaped to a point."
+      },
+      {
+        "q": "How long does it take to grow?",
+        "a": "Usually about 3 months of full growth before it can be shaped."
+      },
+      {
+        "q": "Does a ducktail suit a round face?",
+        "a": "Yes. The point makes the face look longer."
+      },
+      {
+        "q": "How do I keep the point?",
+        "a": "Comb it down and into a point every day with a little beard oil."
+      }
+    ],
+    "barberSteps": [
+      "Comb beard down.",
+      "Sides: trimmer 9 mm.",
+      "Chin: 2–3 fingers long.",
+      "Shape the chin to a point.",
+      "Cheek line: clean and natural.",
+      "Neck line: 2 fingers above Adam's apple."
+    ],
+    "length": "Pointed, 2–3 fingers at chin",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "growth": [
+      "Full"
+    ],
+    "moustacheMode": "trimmed"
+  },
+  {
+    "id": "B14",
+    "updated": "2026-10-23",
+    "slug": "long-beard",
+    "name": "Long Beard",
+    "shortLine": "Long, full beard, trimmed to keep a clean shape.",
+    "description": "A long, natural beard grown well past the chin, with clean edges.",
+    "pickIf": "you have thick growth and the patience to grow it long.",
+    "skipIf": "you have a long face or patchy growth.",
+    "daily": "5 min: beard oil or balm, then comb.",
+    "weekly": "Wash with beard wash 2–3 times.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, round, square and heart face · Full growth only",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Long length",
+        "text": "Well past the chin."
+      },
+      {
+        "title": "Shorter sides",
+        "text": "Shaped with scissors."
+      },
+      {
+        "title": "Rounded bottom",
+        "text": "Even outline."
+      },
+      {
+        "title": "Clear lip",
+        "text": "Moustache trimmed off the lip."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does it take to grow a long beard?",
+        "a": "6 months or more, depending on how fast your beard grows."
+      },
+      {
+        "q": "Do I still need a barber while it grows?",
+        "a": "Yes. Shaping every 4 weeks keeps it looking cared for."
+      },
+      {
+        "q": "How do I stop a long beard tangling?",
+        "a": "Comb it every day with beard oil or balm."
+      },
+      {
+        "q": "Can I keep a long beard at work?",
+        "a": "Many jobs allow it if it's clean and shaped."
+      }
+    ],
+    "barberSteps": [
+      "Ask: how much length to keep?",
+      "Comb beard down. Trim ends only.",
+      "Sides: shorter than the chin. Scissors.",
+      "Ask: round or square bottom?",
+      "Cheek line and neck line: clean.",
+      "Moustache: trim off the lip."
+    ],
+    "length": "4 or more fingers at chin",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "growth": [
+      "Full"
+    ],
+    "moustacheMode": "trimmed"
+  },
+  {
+    "id": "B15",
+    "updated": "2026-10-23",
+    "slug": "soul-patch",
+    "name": "Soul Patch",
+    "shortLine": "Small patch of hair just under the lower lip.",
+    "description": "A small patch of hair just under the lower lip. The rest of the face is shaved.",
+    "pickIf": "you want a small, creative detail. Easy even with patchy growth.",
+    "skipIf": "your office has strict rules.",
+    "daily": "3 min: shave around the patch, every day or every second day.",
+    "weekly": "Trim the patch at 3 mm.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "All face shapes · Any growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Small patch",
+        "text": "Under the lower lip."
+      },
+      {
+        "title": "One finger wide",
+        "text": "Neat edges."
+      },
+      {
+        "title": "Clean face",
+        "text": "Everything else shaved."
+      },
+      {
+        "title": "Short length",
+        "text": "3 mm."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a soul patch?",
+        "a": "A small patch of hair just below the lower lip."
+      },
+      {
+        "q": "Can I add a moustache to a soul patch?",
+        "a": "Yes. Pick any style in the Moustache slot."
+      },
+      {
+        "q": "Is a soul patch good for a patchy beard?",
+        "a": "Yes. It only needs a little growth under the lip."
+      },
+      {
+        "q": "How big should the patch be?",
+        "a": "About 1 finger wide."
+      }
+    ],
+    "barberSteps": [
+      "Shave the whole beard area clean.",
+      "Keep a small patch under the lower lip.",
+      "Patch width: about 1 finger.",
+      "Patch: trimmer 3 mm.",
+      "Sharp edges with trimmer."
+    ],
+    "length": "Under the lip only",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "moustacheMode": "separate"
+  },
+  {
+    "id": "B16",
+    "updated": "2026-10-23",
+    "slug": "mutton-chops",
+    "name": "Mutton Chops",
+    "shortLine": "Thick sideburns down to the jaw, with the chin shaved.",
+    "description": "Thick sideburns down to the jaw, with the chin shaved. A bold, old-style look.",
+    "pickIf": "you have a long face and want it to look wider.",
+    "skipIf": "you have a round face or patchy cheek growth.",
+    "daily": "Nothing.",
+    "weekly": "Shave the chin 2–3 times. Trim the sideburns at 6 mm.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval and long face · Full growth only",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Wide sideburns",
+        "text": "Down to the jaw."
+      },
+      {
+        "title": "Shaved chin",
+        "text": "Clean front."
+      },
+      {
+        "title": "Sharp edges",
+        "text": "Razor finish."
+      },
+      {
+        "title": "Even length",
+        "text": "6 mm."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are mutton chops?",
+        "a": "Thick sideburns that grow down to the jaw, with the chin shaved."
+      },
+      {
+        "q": "Do mutton chops include a moustache?",
+        "a": "No. You can add one in the Moustache slot."
+      },
+      {
+        "q": "Do mutton chops suit a round face?",
+        "a": "No. They make the face look wider."
+      },
+      {
+        "q": "How do I keep them neat?",
+        "a": "Trim them at 6 mm every week and shave the chin 2–3 times a week."
+      }
+    ],
+    "barberSteps": [
+      "Keep sideburns full, down to the jaw.",
+      "Width at the jaw: 2–3 fingers.",
+      "Sideburns: trimmer 6 mm.",
+      "Shave chin and front of jaw clean.",
+      "Shave the neck.",
+      "Sharp edges with razor."
+    ],
+    "length": "Sideburns to the jaw",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Long"
+    ],
+    "growth": [
+      "Full"
+    ],
+    "moustacheMode": "separate"
+  }
+]

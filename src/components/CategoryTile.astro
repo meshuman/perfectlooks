@@ -1,0 +1,37 @@
+---
+import Icon from './Icon.astro';
+import ItemPhoto from './ItemPhoto.astro';
+import type { IconName } from '@/data/icons';
+
+interface Props {
+  href: string;
+  title: string;
+  count: string;
+  icon: IconName;
+  /** The lead tile: full width on phones, a 2x2 block on wider screens. */
+  feature?: boolean;
+  /** An item whose photo represents the category, used once that photo exists. */
+  photo?: { id: string; name: string; mainPhoto: 'front' | 'side' };
+  class?: string;
+  [key: string]: unknown;
+}
+
+const { href, title, count, icon, feature = false, photo, class: className, ...rest } = Astro.props;
+---
+
+<a href={href} class:list={['group flex flex-col', feature && 'col-span-2 md:row-span-2', className]} {...rest}>
+  <div class:list={['relative overflow-hidden', feature ? 'aspect-[16/10] md:aspect-auto md:flex-1 md:min-h-80' : 'aspect-square']}>
+    <ItemPhoto
+      item={photo ?? { id: title, name: title, mainPhoto: 'front' }}
+      icon={icon}
+      class="absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
+    />
+  </div>
+  <div class="flex items-center justify-between gap-2 pt-3">
+    <div>
+      <h3 class:list={['font-semibold', feature ? 'text-[1.375rem]' : 'text-[1.0625rem]']}>{title}</h3>
+      <p class="text-[0.8125rem] text-muted">{count}</p>
+    </div>
+    <Icon name="arrowRight" size={20} strokeWidth={1.25} class="text-ink transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+  </div>
+</a>

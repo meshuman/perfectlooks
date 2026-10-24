@@ -1,0 +1,22 @@
+---
+interface Props {
+  rows: { label: string; values: string[] }[];
+}
+
+const { rows } = Astro.props;
+---
+
+<dl class="space-y-3">
+  {
+    rows.map((row) => (
+      <div class="flex flex-col gap-1.5">
+        <dt class="eyebrow">{row.label}</dt>
+        <dd class="flex flex-wrap gap-1.5">
+          {row.values.map((value) => (
+            <span class="bg-card px-3.5 py-1.5 text-[0.8125rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line),0_1px_2px_rgb(28_24_21/0.04)]">{value}</span>
+          ))}
+        </dd>
+      </div>
+    ))
+  }
+</dl>

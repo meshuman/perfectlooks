@@ -1,0 +1,92 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumbs } from '@/data/seo';
+import { getPosts, localPost, postHref, TOPICS, topicIcon, topicLabel } from '@/data/learn';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const i = useI18n(Astro.url);
+const { t, l } = i;
+const posts = await getPosts();
+---
+
+<BaseLayout title={t('learn.title')} description={t('learn.description')} tab="learn">
+  <JsonLd slot="head" data={breadcrumbs([{ name: t('site.home'), path: l('/') }, { name: t('learn.heading'), path: l('/learn') }], Astro.site!)} />
+  <main class="wrap max-w-3xl pt-6 pb-12">
+    <p class="tag">{t('learn.kicker')}</p>
+    <h1 class="mt-4 text-[2.25rem] leading-tight">{t('learn.heading')}</h1>
+    <p class="mt-2 text-[0.9375rem] text-muted">{t('learn.intro')}</p>
+
+    <div class="-mx-4 mt-5 overflow-x-auto px-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <div class="flex w-max gap-2" role="group" aria-label={t('learn.topics')}>
+        {
+          ['All', ...TOPICS].map((topic) => (
+            <button
+              type="button"
+              data-topic={topic}
+              aria-pressed={topic === 'All' ? 'true' : 'false'}
+              class="bg-card px-4 py-2.5 text-[0.8125rem] font-semibold whitespace-nowrap shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft aria-pressed:bg-ink aria-pressed:text-white aria-pressed:shadow-none"
+            >
+              {topic === 'All' ? t('learn.all') : topicLabel(topic as (typeof TOPICS)[number], i)}
+            </button>
+          ))
+        }
+      </div>
+    </div>
+
+    <ul class="mt-8 space-y-2" data-posts>
+      {
+        posts.map((post, n) => {
+          const local = localPost(post, i);
+          return (
+            <li
+              data-post-topic={post.data.topic}
+              data-reveal
+              style={`--reveal-delay:${Math.min(n, 4) * 60}ms`}
+              class:list={[n === 0 ? 'bg-ink' : 'shell']}
+            >
+              <a
+                href={l(postHref(post))}
+                class:list={['group flex items-start gap-4 p-4 transition duration-500 ease-out-soft', n === 0 ? 'core-dark text-white' : 'core hover:shadow-lift']}
+              >
+                <span class:list={['grid size-11 shrink-0 place-items-center rounded-full', n === 0 ? 'gold-fill' : 'bg-paper-2 text-ink']}>
+                  <Icon name={topicIcon[post.data.topic]} size={20} />
+                </span>
+                <span class="min-w-0 flex-1">
+                  <span class={n === 0 ? 'eyebrow-dark' : 'eyebrow'}>{topicLabel(post.data.topic, i)}</span>
+                  <span class="mt-1.5 block font-display text-[1.4375rem] leading-[1.1]">{local.title}</span>
+                  <span class:list={['mt-1 block text-xs', n === 0 ? 'text-muted-dark' : 'text-muted']}>
+                    {t('detail.minRead', { minutes: post.data.readMinutes })}
+                  </span>
+                </span>
+                <Icon
+                  name="arrowRight"
+                  size={18}
+                  class:list={['mt-1 transition-transform group-hover:translate-x-0.5', n === 0 ? 'text-gold' : 'text-muted']}
+                />
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </main>
+</BaseLayout>
+
+<script>
+  // Topic chips filter the feed. Without JavaScript every post stays visible.
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-topic]'));
+  const rows = Array.from(document.querySelectorAll<HTMLElement>('[data-post-topic]'));
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      const topic = chip.dataset.topic!;
+      for (const c of chips) c.setAttribute('aria-pressed', String(c === chip));
+      for (const row of rows) row.hidden = topic !== 'All' && row.dataset.postTopic !== topic;
+    });
+  }
+</script>

@@ -1,0 +1,23 @@
+---
+// The image labels from the Image prompts document. Shown as a numbered list
+// for now; once photos exist, the same data can be drawn on the image.
+interface Props {
+  items: { title: string; text: string }[];
+}
+
+const { items } = Astro.props;
+---
+
+<ol class="grid gap-x-6 gap-y-3 sm:grid-cols-2">
+  {
+    items.map((item, i) => (
+      <li class="flex gap-3">
+        <span class="grid size-7 shrink-0 place-items-center rounded-full bg-ink text-[0.8125rem] font-semibold text-white">{i + 1}</span>
+        <p class="text-[0.9375rem] leading-snug">
+          <span class="font-bold">{item.title}</span>
+          <span class="block text-sm text-muted">{item.text}</span>
+        </p>
+      </li>
+    ))
+  }
+</ol>

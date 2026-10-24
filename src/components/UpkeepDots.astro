@@ -1,0 +1,29 @@
+---
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+interface Props {
+  level: 'Low' | 'Medium' | 'High';
+  tone?: 'dark' | 'light';
+  /** Hide the visible "Upkeep" word where space is tight. Screen readers still hear it. */
+  compact?: boolean;
+}
+
+const { level, tone = 'light', compact = false } = Astro.props;
+const filled = { Low: 1, Medium: 2, High: 3 }[level];
+---
+
+<span class="inline-flex items-center gap-1.5" role="img" aria-label={t('upkeep.aria', { level: t(`upkeep.${level}`) })}>
+  {!compact && <span aria-hidden="true">{t('upkeep.label')}</span>}
+  <span class="inline-flex gap-0.5" aria-hidden="true">
+    {
+      [1, 2, 3].map((i) => (
+        <span
+          class:list={[
+            'size-1.5 rounded-full',
+            i <= filled ? (tone === 'dark' ? 'bg-white' : 'bg-ink') : tone === 'dark' ? 'bg-white/20' : 'bg-line',
+          ]}
+        />
+      ))
+    }
+  </span>
+</span>

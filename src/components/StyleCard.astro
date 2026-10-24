@@ -1,0 +1,92 @@
+---
+import Icon from './Icon.astro';
+import ItemPhoto from './ItemPhoto.astro';
+import UpkeepDots from './UpkeepDots.astro';
+import type { IconName } from '@/data/icons';
+import type { AddData } from '@/lib/look';
+import type { Match, MatchCategory } from '@/lib/match';
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+
+interface Props {
+  href: string;
+  name: string;
+  shortLine: string;
+  /** Left footer text, e.g. "Short" or "Level 2". */
+  meta: string;
+  upkeep?: 'Low' | 'Medium' | 'High';
+  /** Right footer text when there is no upkeep, e.g. "45 min". */
+  aside?: string;
+  icon?: IconName;
+  /** CSS background for a colour swatch, shown until the colour has a photo. */
+  swatch?: string;
+  /** Photo angle, for the alt text. */
+  mainPhoto?: 'front' | 'side';
+  suitsYou?: boolean;
+  itemId?: string;
+  /** Suitability data and category, read by the About you filter in the browser. */
+  match?: Match;
+  category?: MatchCategory;
+  /** Adds an Add to My Look button under the card, as in "Styles in this post". */
+  add?: AddData;
+}
+
+const { href, name, shortLine, meta, upkeep, aside, icon = 'user', swatch, suitsYou = false, itemId, match, category, add, mainPhoto = 'front' } = Astro.props;
+---
+
+{/* Flat, frameless card: square photo on its colour block, label underneath. */}
+<article
+  data-item={itemId}
+  data-category={category}
+  data-match={match && JSON.stringify(match)}
+  class="group relative flex h-full flex-col"
+>
+  <div class="relative aspect-square overflow-hidden">
+    <ItemPhoto
+      item={{ id: itemId ?? '', name, mainPhoto, swatch }}
+      icon={icon}
+      class="size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
+    />
+    <span
+      data-suits-badge
+      hidden={!suitsYou}
+      class="absolute top-0 left-0 inline-flex items-center gap-1 bg-ink px-2.5 py-1.5 text-[0.6875rem] font-medium tracking-wide text-white"
+    >
+      <Icon name="check" size={11} strokeWidth={3} />
+      {t('card.suitsYou')}
+    </span>
+  </div>
+  {/* The heart sits outside the card link so it can be its own button. */}
+  <button
+    type="button"
+    data-save={itemId}
+    aria-label={t('card.save', { name })}
+    aria-pressed="false"
+    class="absolute top-2 right-2 z-10 grid size-9 place-items-center rounded-full bg-white text-ink transition duration-300 ease-out-soft active:scale-90"
+  >
+    <Icon name="heart" size={17} strokeWidth={1.5} />
+  </button>
+  <div class="flex flex-1 flex-col pt-3">
+    <h3 class="text-[1rem] leading-snug font-semibold">
+      <a href={href} class="after:absolute after:inset-0">{name}</a>
+    </h3>
+    <p class="mt-0.5 line-clamp-2 text-[0.8125rem] leading-snug text-muted">{shortLine}</p>
+    <div class="mt-auto flex items-center justify-between gap-2 pt-2.5 text-[0.75rem] text-muted">
+      <span class="truncate">{meta}</span>
+      {upkeep ? <UpkeepDots level={upkeep} compact /> : aside && <span class="whitespace-nowrap">{aside}</span>}
+    </div>
+  </div>
+  {
+    add && (
+      <button
+        type="button"
+        data-add={JSON.stringify(add)}
+        class="gold-fill group/add relative z-10 mt-3 inline-flex h-10 items-center justify-center gap-1.5 text-[0.8125rem] font-medium tracking-wide whitespace-nowrap transition duration-300 ease-out-soft active:scale-[0.99] aria-pressed:bg-transparent aria-pressed:text-ink aria-pressed:shadow-[inset_0_0_0_2px_var(--color-ink)]"
+      >
+        <Icon name="plus" size={15} strokeWidth={2} class="group-aria-pressed/add:hidden" />
+        <Icon name="check" size={15} strokeWidth={2} class="hidden group-aria-pressed/add:block" />
+        <span data-add-label>{t('card.addToLook')}</span>
+      </button>
+    )
+  }
+</article>

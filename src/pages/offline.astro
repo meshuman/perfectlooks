@@ -1,0 +1,37 @@
+---
+// Shown by the service worker when there's no connection and the page wasn't stored.
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
+import type { IconName } from '@/data/icons';
+
+const links: { href: string; label: string; icon: IconName }[] = [
+  { href: '/my-look', label: 'My Look', icon: 'user' },
+  { href: '/barber-card', label: 'Barber Card', icon: 'scissors' },
+  { href: '/favourites', label: 'Favourites', icon: 'heart' },
+  { href: '/', label: 'Home', icon: 'home' },
+];
+---
+
+<BaseLayout localized={false} title="No internet" description="No internet connection. Your saved styles still work." noindex footer={false}>
+  <main class="wrap max-w-xl py-14">
+    <p class="tag">Offline</p>
+    <h1 class="mt-5 text-[2.25rem] leading-tight">No internet. <em class="text-gold-ink">Showing saved styles.</em></h1>
+    <p class="mt-4 text-[0.9375rem] text-muted">
+      This page wasn't saved on your phone. Your look, favourites and the Barber Card still work without a connection.
+    </p>
+    <ul class="mt-8 grid grid-cols-2 gap-2">
+      {
+        links.map((link) => (
+          <li class="shell">
+            <a href={link.href} class="core group flex items-center gap-3 p-4">
+              <span class="gold-fill grid size-10 shrink-0 place-items-center rounded-full">
+                <Icon name={link.icon} size={18} strokeWidth={1.75} />
+              </span>
+              <span class="font-display text-[1.375rem] leading-tight">{link.label}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</BaseLayout>

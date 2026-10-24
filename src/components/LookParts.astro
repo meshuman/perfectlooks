@@ -1,0 +1,58 @@
+---
+import Icon from './Icon.astro';
+import type { Item, LookPart } from '@/data/catalogue';
+import type { IconName } from '@/data/icons';
+import type { SlotKey } from '@/lib/look';
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+
+interface Props {
+  parts: LookPart[];
+  items: Map<string, Item>;
+}
+
+const { parts, items } = Astro.props;
+
+const slotIcon: Record<SlotKey, IconName> = {
+  hair: 'scissors',
+  beard: 'beard',
+  moustache: 'moustache',
+  colour: 'droplet',
+};
+
+const actionText = { 'shave-off': t('action.shaveOff'), 'part-of-beard': t('action.partOfBeard') };
+---
+
+<div class="shell">
+<ul class="core divide-y divide-line/70 overflow-hidden">
+  {
+    parts.map((part) => {
+      const item = part.id ? items.get(part.id) : undefined;
+      const label = t(`slot.${part.slot}`);
+      const inner = (
+        <>
+          <span class:list={['grid size-10 shrink-0 place-items-center rounded-full', item ? 'gold-fill' : 'bg-paper text-muted']}>
+            <Icon name={slotIcon[part.slot]} size={19} />
+          </span>
+          <span class="min-w-0 flex-1">
+            <span class="eyebrow block !tracking-[0.16em]">{label}</span>
+            <span class="block truncate text-[0.9375rem] font-bold">{item?.name ?? (part.action && actionText[part.action])}</span>
+          </span>
+        </>
+      );
+      return (
+        <li>
+          {item ? (
+            <a href={item.href} class="group flex items-center gap-3 p-3.5">
+              {inner}
+              <Icon name="arrowRight" size={18} class="text-muted transition-transform group-hover:translate-x-0.5 group-hover:text-ink" />
+            </a>
+          ) : (
+            <div class="flex items-center gap-3 p-3.5">{inner}</div>
+          )}
+        </li>
+      );
+    })
+  }
+</ul>
+</div>

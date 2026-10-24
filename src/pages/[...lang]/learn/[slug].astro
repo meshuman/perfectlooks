@@ -1,0 +1,172 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Faq from '@/components/Faq.astro';
+import Icon from '@/components/Icon.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { article, breadcrumbs } from '@/data/seo';
+import ShortAnswer from '@/components/ShortAnswer.astro';
+import StyleCard from '@/components/StyleCard.astro';
+import { addDataFor, getItemMap, type Item } from '@/data/catalogue';
+import { formatDate, getPosts, localPost, postHref, topicLabel, type Post } from '@/data/learn';
+import { defaultShop as shop } from '@/data/shop';
+import { langParams, useI18n } from '@/i18n';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return langParams().flatMap(({ lang }) =>
+    posts.map((post, n) => ({
+      params: { lang, slug: post.id },
+      props: { post, next: posts[(n + 1) % posts.length]! },
+    })),
+  );
+}
+
+interface Props {
+  post: Post;
+  next: Post;
+}
+
+const { post, next } = Astro.props;
+const i = useI18n(Astro.url);
+const { t, l, locale } = i;
+const d = post.data;
+const local = localPost(post, i);
+const nextTitle = localPost(next, i).title;
+// "Updated {date}": the date goes wherever the translation puts it.
+const [updatedBefore, updatedAfter = ''] = t('learn.updated').split('{date}');
+// English renders through Astro; translated bodies come from the sheet as Markdown.
+const { Content } = await render(post);
+const items = await getItemMap(i);
+const related = d.related.map((id) => items.get(id)).filter((item): item is Item => Boolean(item));
+
+const site = Astro.site!;
+const path = l(postHref(post));
+const structured = [
+  article({ headline: local.title, description: local.description, path, updated: d.updated }, shop, site),
+  breadcrumbs(
+    [
+      { name: t('site.home'), path: l('/') },
+      { name: t('learn.heading'), path: l('/learn') },
+      { name: local.title, path },
+    ],
+    site,
+  ),
+];
+---
+
+<BaseLayout title={local.title} description={local.description} tab="learn" back={{ href: l('/learn'), label: t('learn.heading') }}>
+  <JsonLd slot="head" data={structured} />
+  <main class="wrap max-w-2xl pt-6 pb-12">
+    <article>
+      <header>
+        <p class="tag">{topicLabel(d.topic, i)} · {t('detail.minRead', { minutes: d.readMinutes })}</p>
+        <h1 class="mt-3 text-[2rem] leading-tight">{local.title}</h1>
+      </header>
+
+      <div class="mt-6">
+        <ShortAnswer text={local.shortAnswer} />
+      </div>
+
+      <div class="prose-pl mt-2">
+        {local.bodyHtml ? <Fragment set:html={local.bodyHtml} /> : <Content />}
+      </div>
+
+      <aside class="mt-10 bg-ink" data-reveal>
+        <div class="core-dark p-6 text-white">
+          <p class="tag-dark">{t('learn.fromTheChair')}</p>
+          <p class="mt-4 font-display text-[1.625rem] leading-[1.2]">“{local.fromTheChair}”</p>
+          <p class="mt-4 text-xs text-muted-dark">{shop.name}, {shop.area}</p>
+        </div>
+      </aside>
+
+      {
+        local.faq.length > 0 && (
+          <section class="mt-12" data-reveal>
+            <h2 class="mb-4 text-[1.875rem]">{t('detail.commonQuestions')}</h2>
+            <Faq items={local.faq} />
+          </section>
+        )
+      }
+
+      {
+        local.sources.length > 0 && (
+          <section class="mt-8 text-sm text-muted">
+            <h2 class="text-sm font-bold text-text">{local.sources.length > 1 ? t('learn.sources') : t('learn.source')}</h2>
+            <ul class="mt-1.5 space-y-1 [&_a]:font-semibold [&_a]:text-gold-ink [&_a]:underline [&_a]:underline-offset-2">
+              {local.sources.map((source) => <li set:html={source} />)}
+            </ul>
+          </section>
+        )
+      }
+
+      <p class="mt-6 text-xs text-muted">
+        {updatedBefore}<time datetime={d.updated.toISOString().slice(0, 10)}>{formatDate(d.updated, locale)}</time>{updatedAfter}
+      </p>
+    </article>
+
+    {
+      related.length > 0 && (
+        <section class="mt-12" data-reveal>
+          <h2 class="mb-5 text-[1.875rem]">{t('learn.stylesInPost')}</h2>
+          <ul class="grid grid-cols-2 gap-2 md:gap-3">
+            {related.map((item) => (
+              <li>
+                <StyleCard
+                  itemId={item.id}
+                  mainPhoto={item.mainPhoto}
+                  match={item.match}
+                  category={item.category}
+                  href={item.href}
+                  name={item.name}
+                  shortLine={item.shortLine}
+                  meta={item.cardMeta}
+                  upkeep={item.upkeep}
+                  aside={item.cardAside}
+                  swatch={item.swatch}
+                  add={addDataFor(item)}
+                />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <section class="shell mt-12" data-helpful>
+      <div class="core p-4">
+        <div class="flex flex-wrap items-center justify-between gap-3" data-helpful-ask>
+          <h2 class="text-[0.9375rem] font-bold">{t('learn.helpful')}</h2>
+          <div class="flex gap-2">
+            <button type="button" data-helpful-answer="yes" class="h-10 bg-ink/[0.05] px-5 text-sm font-semibold transition duration-300 hover:bg-ink hover:text-white">{t('site.yes')}</button>
+            <button type="button" data-helpful-answer="no" class="h-10 bg-ink/[0.05] px-5 text-sm font-semibold transition duration-300 hover:bg-ink hover:text-white">{t('site.no')}</button>
+          </div>
+        </div>
+        <p hidden data-helpful-thanks class="text-[0.9375rem] font-semibold">{t('learn.thanks')}</p>
+      </div>
+    </section>
+
+    <a href={l(postHref(next))} class="group mt-3 block bg-ink">
+      <span class="core-dark flex items-center justify-between gap-4 p-5 text-white">
+        <span>
+          <span class="tag-dark">{t('learn.nextPost')}</span>
+          <span class="mt-2 block font-display text-[1.5rem] leading-[1.1]">{nextTitle}</span>
+        </span>
+        <span class="gold-fill grid size-10 shrink-0 place-items-center rounded-full transition-transform duration-500 ease-out-soft group-hover:translate-x-0.5">
+          <Icon name="arrowRight" size={17} strokeWidth={2} />
+        </span>
+      </span>
+    </a>
+  </main>
+</BaseLayout>
+
+<script>
+  // Not recorded anywhere yet. Connect to analytics once the site has one.
+  for (const box of document.querySelectorAll<HTMLElement>('[data-helpful]')) {
+    box.addEventListener('click', (event) => {
+      if (!(event.target as Element).closest('[data-helpful-answer]')) return;
+      box.querySelector<HTMLElement>('[data-helpful-ask]')!.hidden = true;
+      box.querySelector<HTMLElement>('[data-helpful-thanks]')!.hidden = false;
+    });
+  }
+</script>

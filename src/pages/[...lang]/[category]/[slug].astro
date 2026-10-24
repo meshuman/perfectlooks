@@ -1,0 +1,240 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BarberSteps from '@/components/BarberSteps.astro';
+import Callouts from '@/components/Callouts.astro';
+import CareList from '@/components/CareList.astro';
+import Faq from '@/components/Faq.astro';
+import Icon from '@/components/Icon.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import ItemActions from '@/components/ItemActions.astro';
+import LookParts from '@/components/LookParts.astro';
+import ItemPhoto from '@/components/ItemPhoto.astro';
+import PickSkip from '@/components/PickSkip.astro';
+import StyleCard from '@/components/StyleCard.astro';
+import SuitsList from '@/components/SuitsList.astro';
+import { getImage } from 'astro:assets';
+import { article, breadcrumbs } from '@/data/seo';
+import { defaultShop } from '@/data/shop';
+import { photoFor } from '@/data/photos';
+import { getPosts, postHref } from '@/data/learn';
+import { addDataFor, categories, categoryText, getAllItems, getItemMap, seoDescription, seoTitle } from '@/data/catalogue';
+import { langParams, useI18n, type UiKey } from '@/i18n';
+import { barberSections, lookFromParts } from '@/lib/look';
+
+interface StepGroup {
+  title?: string;
+  steps: string[];
+  note?: string;
+}
+
+export async function getStaticPaths() {
+  const items = await getAllItems();
+  return langParams().flatMap(({ lang }) =>
+    items.map((item) => ({ params: { lang, category: categories[item.category].segment, slug: item.slug }, props: { id: item.id } })),
+  );
+}
+
+const { id } = Astro.props as { id: string };
+const i = useI18n(Astro.url);
+const { t, c, l } = i;
+const itemMap = await getItemMap(i);
+const item = itemMap.get(id)!;
+const english = (await getItemMap()).get(id)!;
+const category = categories[item.category];
+const label = categoryText(item.category, i).label;
+const capitalise = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
+const looks = [...itemMap.values()].filter((look) => look.parts?.some((p) => p.id === item.id));
+
+// Style pages link back to 1–2 Learn posts (SEO document, rule 9).
+const reads = (await getPosts())
+  .filter((p) => p.data.related.includes(item.id))
+  .slice(0, 2)
+  .map((p) => ({ href: l(postHref(p)), title: c(`${p.data.code}.title`, p.data.title), minutes: p.data.readMinutes }));
+
+// Ready Looks use the same rules as the Barber Card, minus the "No change" slots.
+const groups: StepGroup[] = item.parts
+  ? barberSections(lookFromParts(item.parts), (partId) => {
+      const part = itemMap.get(partId);
+      return part && { steps: part.barberSteps, note: part.barberNote };
+    })
+      .filter((s) => !s.noChange && (s.item || s.lines.length))
+      .map((s) => {
+        const slot = t(`slot.${s.slot}` as UiKey);
+        return {
+          title: s.item ? `${slot} · ${s.item.name}` : slot,
+          steps: s.item ? s.steps : s.lines.map((key) => t(key as UiKey)),
+          note: s.note,
+        };
+      })
+  : [{ steps: item.barberSteps, note: item.barberNote }];
+
+const photo = photoFor(item.id);
+const hasPhoto = Boolean(photo);
+const angle = t(item.mainPhoto === 'side' ? 'angle.side' : 'angle.front');
+const alt = `${item.name}, ${t('card.view', { angle }).toLowerCase()}`;
+// The item's own photo as its social preview, once it has one.
+const ogImage = photo
+  ? { src: (await getImage({ src: photo, width: 1200, height: 1200, format: 'jpg' })).src, width: 1200, height: 1200, alt }
+  : undefined;
+const site = Astro.site!;
+const structured = [
+  article({ headline: item.name, description: item.description, path: item.href, updated: item.updated, image: ogImage?.src }, defaultShop, site),
+  breadcrumbs(
+    [
+      { name: t('site.home'), path: l('/') },
+      { name: label, path: l(`/${category.segment}`) },
+      { name: item.name, path: item.href },
+    ],
+    site,
+  ),
+];
+---
+
+<BaseLayout
+  title={seoTitle(item, english.name, i)}
+  description={seoDescription(item, i)}
+  back={{ href: l(`/${category.segment}`), label }}
+  image={ogImage}
+>
+  <JsonLd slot="head" data={structured} />
+  <main class="wrap pt-4 pb-6 md:grid md:grid-cols-2 md:gap-10 md:pt-8 lg:gap-14">
+    <div class="md:sticky md:top-20 md:self-start">
+      <figure class="shell relative">
+        <div class="relative aspect-square overflow-hidden">
+          <ItemPhoto item={item} size="hero" class="size-full" />
+          {
+            // Numbered dots on the clean photo; the matching labels are in "The details".
+            hasPhoto &&
+              item.callouts.map(
+                (co, n) =>
+                  co.x !== undefined &&
+                  co.y !== undefined && (
+                    <span
+                      aria-hidden="true"
+                      class="absolute grid size-7 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-ink text-[0.8125rem] font-semibold text-white ring-2 ring-white"
+                      style={`left:${co.x}%;top:${co.y}%`}
+                    >
+                      {n + 1}
+                    </span>
+                  ),
+              )
+          }
+        </div>
+        <figcaption class="absolute bottom-4 left-4 bg-card/90 px-3 py-1.5 text-[0.625rem] font-bold tracking-[0.16em] uppercase shadow-soft">
+          {item.swatchLabel ?? t('card.view', { angle })}
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="mt-6 md:mt-0">
+      <p class="tag">{label}</p>
+      <h1 class="mt-4 text-[2.25rem] leading-tight">{item.name}</h1>
+      {item.alsoCalled.length > 0 && <p class="mt-1.5 text-sm text-muted">{t('detail.alsoCalled', { names: item.alsoCalled.join(', ') })}</p>}
+      <p class="mt-3 text-[1.0625rem] leading-relaxed">{item.description}</p>
+
+      <ul class="mt-4 flex flex-wrap gap-1.5">
+        {item.facts.map((fact) => <li class="bg-ink/[0.05] px-3.5 py-1.5 text-[0.8125rem] font-semibold">{fact}</li>)}
+      </ul>
+
+      {
+        item.parts && (
+          <section class="mt-10" data-reveal>
+            <h2 class="mb-4 text-[1.875rem]">{t('detail.inThisLook')}</h2>
+            <LookParts parts={item.parts} items={itemMap} />
+          </section>
+        )
+      }
+
+      <section class="mt-10" data-reveal>
+        <h2 class="sr-only">{t('detail.isItForYou')}</h2>
+        <PickSkip pick={capitalise(item.pickIf)} skip={capitalise(item.skipIf)} />
+      </section>
+
+      {
+        item.callouts.length > 0 && (
+          <section class="mt-10" data-reveal>
+            <h2 class="mb-4 text-[1.875rem]">{t('detail.theDetails')}</h2>
+            <Callouts items={item.callouts} />
+          </section>
+        )
+      }
+
+      <section class="mt-10" data-reveal>
+        <h2 class="mb-4 text-[1.875rem]">{t('detail.timeAndCare')}</h2>
+        <CareList daily={item.daily} weekly={item.weekly} nextVisit={item.nextVisit} atShop={item.atShop} />
+      </section>
+
+      <section class="mt-10" data-reveal>
+        <h2 class="mb-4 text-[1.875rem]">{t('detail.whoItSuits')}</h2>
+        <SuitsList rows={item.suits} />
+      </section>
+
+      {
+        item.faq.length > 0 && (
+          <section class="mt-10" data-reveal>
+            <h2 class="mb-4 text-[1.875rem]">{t('detail.commonQuestions')}</h2>
+            <Faq items={item.faq} />
+          </section>
+        )
+      }
+
+      {
+        groups.length > 0 && (
+          <section class="mt-10" data-reveal>
+            <h2 class="sr-only">{t('detail.barberSteps')}</h2>
+            <BarberSteps groups={groups} />
+          </section>
+        )
+      }
+
+      {
+        reads.length > 0 && (
+          <section class="mt-10" data-reveal>
+            <h2 class="mb-4 text-[1.875rem]">{t('detail.readMore')}</h2>
+            <ul class="core divide-y divide-line/70 overflow-hidden">
+              {reads.map((read) => (
+                <li>
+                  <a href={read.href} class="group flex items-center justify-between gap-4 p-4">
+                    <span>
+                      <span class="block text-[0.9375rem] font-semibold">{read.title}</span>
+                      <span class="text-xs text-muted">{t('detail.minRead', { minutes: read.minutes })}</span>
+                    </span>
+                    <Icon name="arrowRight" size={18} class="shrink-0 text-muted transition-transform group-hover:translate-x-0.5 group-hover:text-ink" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      <ItemActions itemId={item.id} name={item.name} add={addDataFor(item)} />
+    </div>
+  </main>
+
+  {
+    looks.length > 0 && (
+      <section class="wrap pb-12">
+        <h2 class="mb-5 text-[1.875rem]">{t('detail.looksWith', { name: item.name })}</h2>
+        <ul class="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-3">
+          {looks.slice(0, 4).map((look) => (
+            <li>
+              <StyleCard
+                itemId={look.id}
+                mainPhoto={look.mainPhoto}
+                match={look.match}
+                category={look.category}
+                href={look.href}
+                name={look.name}
+                shortLine={look.shortLine}
+                meta={look.cardMeta}
+                upkeep={look.upkeep}
+              />
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+</BaseLayout>

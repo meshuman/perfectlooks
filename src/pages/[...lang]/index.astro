@@ -1,0 +1,151 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/Button.astro';
+import CategoryTile from '@/components/CategoryTile.astro';
+import Icon from '@/components/Icon.astro';
+import ItemPhoto from '@/components/ItemPhoto.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import SectionHeader from '@/components/SectionHeader.astro';
+import { categoryText, type CategoryKey } from '@/data/catalogue';
+import { getPosts, postHref } from '@/data/learn';
+import { website } from '@/data/seo';
+import { defaultShop as shop } from '@/data/shop';
+import { photoFor } from '@/data/photos';
+import { scissorsMark } from '@/data/brand-marks.mjs';
+import { langParams, publishedLocales, useI18n } from '@/i18n';
+import type { IconName } from '@/data/icons';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const i = useI18n(Astro.url);
+const { t, c, l } = i;
+
+// The hero uses the Low Fade photo once it exists; until then, the KGF scissors mark on crimson.
+const heroPhoto = Boolean(photoFor('H07'));
+
+// Hair leads: full width on phones, a 2x2 block on wider screens.
+const tiles: { key: CategoryKey; href: string; icon: IconName; feature?: boolean; photo: { id: string; name: string; mainPhoto: 'front' | 'side' } }[] = [
+  { key: 'hair', href: '/styles', icon: 'scissors', feature: true, photo: { id: 'H07', name: 'Low Fade', mainPhoto: 'side' } },
+  { key: 'beards', href: '/beards', icon: 'beard', photo: { id: 'B04', name: 'Short Boxed Beard', mainPhoto: 'front' } },
+  { key: 'moustaches', href: '/moustaches', icon: 'moustache', photo: { id: 'M09', name: 'Natural Full', mainPhoto: 'front' } },
+  { key: 'colours', href: '/colours', icon: 'droplet', photo: { id: 'C02', name: 'Natural Black', mainPhoto: 'front' } },
+  { key: 'looks', href: '/looks', icon: 'sparkles', photo: { id: 'L03', name: 'Sharp Fade', mainPhoto: 'front' } },
+];
+
+// The first three Learn posts in the feed: the ones that help most right before a cut.
+const firstReads = (await getPosts()).slice(0, 3).map((post) => ({
+  href: l(postHref(post)),
+  title: c(`${post.data.code}.title`, post.data.title),
+  minutes: post.data.readMinutes,
+}));
+
+// Shown once a second language is published.
+const languages = 1 + publishedLocales().length;
+---
+
+<BaseLayout
+  title={t('home.title', { shop: shop.name, area: shop.area })}
+  description={t('home.description', { shop: shop.name, area: shop.area })}
+  tab="home"
+>
+  <JsonLd slot="head" data={website(Astro.site!)} />
+  <main>
+    {/* Split hero: colour-block photo panel, then the message. Side by side from tablet up. */}
+    <section class="md:grid md:min-h-[38rem] md:grid-cols-2">
+      <div class="relative aspect-[16/10] overflow-hidden md:aspect-auto">
+        {
+          heroPhoto ? (
+            <ItemPhoto item={{ id: 'H07', name: c('H07.name', 'Low Fade'), mainPhoto: 'side' }} size="hero" class="absolute inset-0 size-full" />
+          ) : (
+            <div class="absolute inset-0 grid place-items-center bg-brand">
+              <svg viewBox="0 0 100 100" class="h-[70%] max-h-80 w-auto" aria-hidden="true" set:html={scissorsMark()} />
+            </div>
+          )
+        }
+      </div>
+      <div class="wrap flex flex-col justify-center py-10 md:max-w-xl md:px-12 md:py-20">
+        <p class="tag rise">{shop.name} · {shop.area}</p>
+        <h1 class="rise mt-3 text-[2.375rem] leading-[1.1] md:text-[3.25rem]" style="--rise-delay:80ms">
+          {t('home.heading')}
+        </h1>
+        <p class="rise mt-4 max-w-md text-[0.9375rem] leading-relaxed text-muted" style="--rise-delay:160ms">
+          {t('home.intro')}
+        </p>
+        <div class="rise mt-8 flex flex-col items-start gap-5" style="--rise-delay:240ms">
+          <Button href={l('/about-you')} size="lg" class="w-full sm:w-auto">{t('home.findStyles')}</Button>
+          <a href="#browse" class="group inline-flex items-center gap-3 text-[0.9375rem] font-medium tracking-wide">
+            {t('home.browseAll')}
+            <Icon name="arrowRight" size={18} strokeWidth={1.25} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+          </a>
+        </div>
+        <dl class:list={['rise mt-10 grid max-w-sm border-t border-line pt-5', languages > 1 ? 'grid-cols-3' : 'grid-cols-2']} style="--rise-delay:320ms">
+          <div>
+            <dt class="text-xs text-muted">{t('home.stats.styles')}</dt>
+            <dd class="text-[1.75rem] leading-tight font-semibold">82</dd>
+          </div>
+          <div>
+            <dt class="text-xs text-muted">{t('home.stats.looks')}</dt>
+            <dd class="text-[1.75rem] leading-tight font-semibold">25</dd>
+          </div>
+          {
+            languages > 1 && (
+              <div>
+                <dt class="text-xs text-muted">{t('home.stats.languages')}</dt>
+                <dd class="text-[1.75rem] leading-tight font-semibold">{languages}</dd>
+              </div>
+            )
+          }
+        </dl>
+      </div>
+    </section>
+
+    <section id="browse" class="wrap scroll-mt-20 py-14 md:py-24">
+      <div data-reveal>
+        <SectionHeader eyebrow={t('home.browse')} title={t('home.chooseCategory')} align="center" />
+      </div>
+      <div class="mt-10 grid grid-cols-2 gap-x-3 gap-y-8 md:grid-cols-4 md:gap-x-5">
+        {
+          tiles.map((tile, n) => {
+            const text = categoryText(tile.key, i);
+            return (
+              <CategoryTile
+                href={l(tile.href)}
+                title={text.label}
+                count={text.tileCount}
+                icon={tile.icon}
+                feature={tile.feature}
+                photo={tile.photo}
+                data-reveal
+                style={`--reveal-delay:${n * 70}ms`}
+              />
+            );
+          })
+        }
+      </div>
+    </section>
+
+    <section class="wrap pb-16 md:pb-24" data-reveal>
+      <div class="border-t border-line pt-12">
+        <SectionHeader eyebrow={t('home.whileYouWait')} title={t('home.quickReads')} />
+        <ul class="mt-6 border-t border-line">
+          {
+            firstReads.map((post) => (
+              <li class="border-b border-line">
+                <a href={post.href} class="group flex items-center justify-between gap-4 py-4">
+                  <span>
+                    <span class="block text-[1rem] font-medium">{post.title}</span>
+                    <span class="text-xs text-muted">{t('detail.minRead', { minutes: post.minutes })}</span>
+                  </span>
+                  <Icon name="arrowRight" size={20} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <Button href={l('/learn')} variant="outline" class="mt-8" arrow>{t('home.allPosts')}</Button>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

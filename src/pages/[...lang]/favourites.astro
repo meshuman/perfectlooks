@@ -1,0 +1,26 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import FavouritesView from '@/components/islands/FavouritesView';
+import { getClientItems } from '@/data/catalogue';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const i = useI18n(Astro.url);
+const { t } = i;
+// Favourites never shows barber steps, so they're left out to keep the page small.
+const items = (await getClientItems(i, [])).map(({ barber: _barber, ...item }) => item);
+---
+
+<BaseLayout title={t('favourites.title')} description={t('favourites.description')} noindex footer={false} tab="favourites">
+  <main class="wrap max-w-2xl pt-6 pb-28">
+    <p class="tag">{t('favourites.kicker')}</p>
+    <h1 class="mt-4 text-[2.25rem] leading-tight">{t('favourites.title')}</h1>
+    <p class="mt-2 text-[0.9375rem] text-muted">{t('favourites.intro')}</p>
+    <FavouritesView client:only="preact" items={items}>
+      <div slot="fallback" class="mt-6 h-28 animate-pulse bg-paper-2"></div>
+    </FavouritesView>
+  </main>
+</BaseLayout>

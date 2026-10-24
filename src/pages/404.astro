@@ -1,0 +1,16 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/Button.astro';
+---
+
+<BaseLayout localized={false} title="Page not found" description="This page doesn't exist. Browse styles or go back home." noindex footer={false}>
+  <main class="wrap max-w-xl py-16 text-center">
+    <p class="tag">Error 404</p>
+    <h1 class="mt-5 text-[3rem] leading-none">This page has <em class="text-gold-ink">grown out.</em></h1>
+    <p class="mt-4 text-[0.9375rem] text-muted">The link may be old or mistyped. Pick up where you left off:</p>
+    <div class="mt-8 grid gap-3 sm:flex sm:justify-center">
+      <Button href="/" size="lg" arrow>Go to Home</Button>
+      <Button href="/styles" variant="outline" size="lg">Browse styles</Button>
+    </div>
+  </main>
+</BaseLayout>

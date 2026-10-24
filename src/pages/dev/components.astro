@@ -1,0 +1,209 @@
+---
+// Phase 0 component sheet. Not linked from the site and not indexed.
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/Button.astro';
+import Chips from '@/components/Chips.astro';
+import CategoryTile from '@/components/CategoryTile.astro';
+import StyleCard from '@/components/StyleCard.astro';
+import PhotoPlaceholder from '@/components/PhotoPlaceholder.astro';
+import PickSkip from '@/components/PickSkip.astro';
+import CareList from '@/components/CareList.astro';
+import SuitsList from '@/components/SuitsList.astro';
+import Faq from '@/components/Faq.astro';
+import BarberSteps from '@/components/BarberSteps.astro';
+import ShortAnswer from '@/components/ShortAnswer.astro';
+import MyLookSlot from '@/components/MyLookSlot.astro';
+import Icon from '@/components/Icon.astro';
+
+const swatches = [
+  ['ink', '#121212'],
+  ['ink-2', '#1E1E1E'],
+  ['paper', '#F4F2EE'],
+  ['card', '#FFFFFF'],
+  ['line', '#E9E5DE'],
+  ['gold', '#E6C36F'],
+  ['gold-ink', '#7A5C17'],
+  ['muted', '#6B6B6B'],
+];
+
+// Sample content: H07 Low Fade from the Hair styles document.
+const lowFade = {
+  faq: [
+    { q: 'How is a low fade different from a mid fade?', a: 'A low fade starts just above the ear. A mid fade starts higher, at the temple.' },
+    { q: 'Is a low fade OK for school or office?', a: "Usually yes. It's the most subtle fade." },
+    { q: 'What numbers are used for a low fade?', a: 'Usually #0 at the bottom, blended up through #1 to #2.' },
+  ],
+  steps: [
+    'Fade line: 1 finger above the ear.',
+    'Below the line: machine #0.',
+    'Blend up: #1, then #2.',
+    'Top: 2 fingers long. Scissors.',
+    'Blend top into sides.',
+    'Clean neck and ears.',
+  ],
+};
+---
+
+<BaseLayout title="Components" description="Component sheet." noindex back={{ href: '/', label: 'Home' }}>
+  <main class="wrap space-y-12 py-8">
+    <section>
+      <p class="eyebrow">Phase 0</p>
+      <h1 class="mt-2 text-[1.75rem]">Component sheet</h1>
+      <p class="mt-2 text-muted">Every building block at phone width, with sample content from the catalogue.</p>
+    </section>
+
+    <section class="space-y-4">
+      <h2 class="text-[1.375rem]">Colour</h2>
+      <div class="grid grid-cols-4 gap-2 sm:grid-cols-8">
+        {
+          swatches.map(([name, hex]) => (
+            <div>
+              <div class="aspect-square border border-line" style={`background:${hex}`} />
+              <p class="mt-1 text-xs font-semibold">{name}</p>
+              <p class="text-[0.6875rem] text-muted">{hex}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-[1.375rem]">Type</h2>
+      <p class="eyebrow">Eyebrow label</p>
+      <p class="text-[2.25rem] leading-[1.05] font-bold tracking-[-0.03em]">Look sharp.<br /><span class="text-gold-ink">Display 36</span></p>
+      <p class="text-[1.75rem] font-bold">Heading 28</p>
+      <p class="text-[1.375rem] font-bold">Heading 22</p>
+      <p>Body 16. Short sides with a little more length on top.</p>
+      <p class="text-sm text-muted">Small 14, muted.</p>
+      <p class="text-[1.375rem] font-bold" lang="ne">छोटो छेउ, माथि अलि लामो। <span class="text-base font-normal">(Mukta)</span></p>
+    </section>
+
+    <section class="space-y-4">
+      <h2 class="text-[1.375rem]">Buttons and chips</h2>
+      <div class="flex flex-wrap gap-3">
+        <Button arrow>Add to My Look</Button>
+        <Button variant="dark">Show to Barber</Button>
+        <Button variant="outline">Clear all</Button>
+        <Button icon="plus" size="lg">Large</Button>
+      </div>
+      <div class="flex flex-wrap gap-3 bg-ink p-4">
+        <Button arrow>On dark</Button>
+        <Button variant="outline-dark">Outline</Button>
+      </div>
+      <Chips
+        label="Topics"
+        items={[
+          { label: 'All', active: true },
+          { label: 'Face shape' },
+          { label: 'Haircuts' },
+          { label: 'Beard' },
+          { label: 'Colour' },
+          { label: 'Care' },
+          { label: 'Talk to your barber' },
+        ]}
+      />
+    </section>
+
+    <section class="space-y-4">
+      <h2 class="text-[1.375rem]">Category tiles</h2>
+      <div class="grid grid-cols-2 gap-3">
+        <CategoryTile href="#" title="Hair" count="42 styles" icon="scissors" />
+        <CategoryTile href="#" title="Beard" count="16 styles" icon="beard" />
+        <CategoryTile href="#" title="Ready Looks" count="Hair and beard sets" icon="sparkles" wide />
+      </div>
+    </section>
+
+    <section class="space-y-4">
+      <h2 class="text-[1.375rem]">Style cards</h2>
+      <div class="grid grid-cols-2 gap-3 md:grid-cols-4">
+        <StyleCard href="#" name="Low Fade" shortLine="Sides fade to skin just above the ears. Short top." meta="Short" upkeep="Medium" suitsYou />
+        <StyleCard href="#" name="Taper Cut" shortLine="Classic short cut. Gets shorter slowly near the ears and neck." meta="Short" upkeep="Low" suitsYou />
+        <StyleCard href="#" name="Slick Back" shortLine="Long top combed straight back. Smart, shiny look." meta="Medium" upkeep="High" />
+        <StyleCard href="#" name="Buzz Cut" shortLine="Very short, same length all over. Clean and easy." meta="Very short" upkeep="Low" />
+      </div>
+    </section>
+
+    <section class="space-y-4">
+      <h2 class="text-[1.375rem]">Detail page blocks</h2>
+      <PhotoPlaceholder class="aspect-square w-full" />
+      <div>
+        <p class="eyebrow">Hair · H07</p>
+        <h3 class="mt-1 text-[1.75rem] font-bold">Low Fade</h3>
+        <p class="mt-2 text-muted">Sides fade to skin just above the ears, with a short top. The easiest fade to start with.</p>
+        <p class="mt-3 text-sm font-semibold text-muted">Short · Side photo</p>
+      </div>
+      <PickSkip pick="You want a clean, modern look that is still fine for school or office." skip="You have a long face." />
+      <CareList daily="2 min: a little wax on the top." weekly="Nothing." nextVisit="in 2–3 weeks, to keep the fade clean" />
+      <SuitsList
+        rows={[
+          { label: 'Face', values: ['Oval', 'Square', 'Round', 'Heart'] },
+          { label: 'Hair type', values: ['All hair types'] },
+          { label: 'Thin hair', values: ['OK'] },
+        ]}
+      />
+      <h3 class="pt-2 text-[1.375rem] font-bold">Common questions</h3>
+      <Faq items={lowFade.faq} />
+      <BarberSteps groups={[{ steps: lowFade.steps }]} open />
+    </section>
+
+    <section class="space-y-4">
+      <h2 class="text-[1.375rem]">Learn</h2>
+      <ShortAnswer text="A fade takes the sides down to bare skin, then blends up into longer hair. A taper also gets shorter toward the ears and neck, but stops before skin. Fades look sharper and need a cut every 2–3 weeks. Tapers look softer and last 3–4 weeks." />
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-[1.375rem]">My Look</h2>
+      <MyLookSlot slot="Hair" icon="scissors" value="Low Fade" />
+      <MyLookSlot slot="Beard" icon="beard" value="Van Dyke" />
+      <MyLookSlot slot="Moustache" icon="moustache" locked="Part of your beard style" />
+      <MyLookSlot slot="Colour" icon="droplet" />
+      <Button full size="lg" arrow>Show to Barber</Button>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-[1.375rem]">Toast</h2>
+      <div role="status" class="inline-flex items-center gap-2.5 rounded-full bg-ink py-2.5 pr-5 pl-3 text-sm font-semibold text-white shadow-lift">
+        <span class="grid size-6 place-items-center rounded-full bg-gold text-ink"><Icon name="check" size={14} strokeWidth={2.75} /></span>
+        Hair changed to Low Fade
+      </div>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-[1.375rem]">Barber Card</h2>
+      <div class="bg-ink p-5 text-white">
+        <div class="flex items-center justify-between">
+          <p class="text-lg font-bold">For the Barber</p>
+          <div class="flex gap-1.5">
+            <button type="button" class="h-9 border border-line-dark px-3 text-sm font-semibold">A</button>
+            <button type="button" class="h-9 bg-gold px-3 text-sm font-bold text-ink">A+</button>
+          </div>
+        </div>
+        <PhotoPlaceholder class="mt-4 aspect-square w-full" />
+        <p class="mt-5 text-xs font-bold tracking-[0.2em] text-gold">HAIR · LOW FADE</p>
+        <ol class="mt-3 space-y-3">
+          {
+            lowFade.steps.map((step, i) => (
+              <li class="flex gap-3 text-xl leading-snug font-semibold">
+                <span class="w-6 shrink-0 text-gold">{i + 1}</span>
+                {step}
+              </li>
+            ))
+          }
+        </ol>
+        <p class="mt-5 text-xs font-bold tracking-[0.2em] text-gold">BEARD</p>
+        <p class="mt-2 text-xl font-semibold text-muted-dark">No change. Leave as it is.</p>
+        <p class="mt-6 border-t border-line-dark pt-4 text-sm text-muted-dark">Check with the customer before you start.</p>
+      </div>
+    </section>
+
+    <section class="space-y-3 pb-8">
+      <h2 class="text-[1.375rem]">Sticky action bar</h2>
+      <div class="flex items-center gap-3 border border-line bg-card/95 p-3 shadow-lift">
+        <button type="button" aria-label="Save Low Fade" class="grid size-12 shrink-0 place-items-center rounded-full border border-line">
+          <Icon name="heart" size={20} />
+        </button>
+        <Button full size="lg" icon="plus">Add to My Look</Button>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

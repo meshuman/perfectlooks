@@ -1,0 +1,33 @@
+---
+import Icon from './Icon.astro';
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+
+interface Props {
+  pick: string;
+  skip: string;
+}
+
+const { pick, skip } = Astro.props;
+---
+
+<div class="shell grid gap-1.5 sm:grid-cols-2">
+  <div class="core flex gap-3 p-4">
+    <span class="gold-fill grid size-9 shrink-0 place-items-center rounded-full">
+      <Icon name="check" size={16} strokeWidth={2.5} />
+    </span>
+    <div>
+      <h3 class="text-sm font-bold">{t('detail.pickIf')}</h3>
+      <p class="mt-0.5 text-[0.9375rem] leading-relaxed text-muted">{pick}</p>
+    </div>
+  </div>
+  <div class="core flex gap-3 p-4">
+    <span class="grid size-9 shrink-0 place-items-center rounded-full bg-paper-2 text-muted">
+      <Icon name="x" size={16} strokeWidth={2.5} />
+    </span>
+    <div>
+      <h3 class="text-sm font-bold">{t('detail.skipIf')}</h3>
+      <p class="mt-0.5 text-[0.9375rem] leading-relaxed text-muted">{skip}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BarberCardView from '@/components/islands/BarberCardView';
+import { getClientItems } from '@/data/catalogue';
+import en from '@/i18n/en.json';
+import { barberLocales, i18n, langParams, LOCALE_NAMES, useI18n, type Locale, type UiKey } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const page = useI18n(Astro.url);
+const ready = barberLocales();
+const items = (await getClientItems(page, ready)).filter((it) => it.category !== 'looks');
+
+const languages = (['en', 'ne', 'hi'] as Locale[]).map((code) => ({ code, label: LOCALE_NAMES[code], ready: ready.includes(code) }));
+
+// The card's own words in each language it can show: instructions, slot names and the footer.
+const CARD_KEYS = (Object.keys(en) as UiKey[]).filter((k) => k.startsWith('barberLine.') || k.startsWith('slot.') || k === 'barber.checkFirst');
+const barberText = Object.fromEntries(ready.map((code) => [code, Object.fromEntries(CARD_KEYS.map((k) => [k, i18n(code).t(k)]))]));
+---
+
+<BaseLayout title={page.t('barber.title')} description={page.t('barber.description')} noindex topBar={false} footer={false} bottomBar={false} dark>
+  <main>
+    <BarberCardView client:only="preact" items={items} languages={languages} barberText={barberText}>
+      <div slot="fallback" class="wrap mt-6 h-96 max-w-2xl animate-pulse bg-ink-2"></div>
+    </BarberCardView>
+  </main>
+</BaseLayout>

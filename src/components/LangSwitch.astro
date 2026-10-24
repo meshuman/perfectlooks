@@ -1,0 +1,50 @@
+---
+import { i18n, LOCALE_NAMES, pathIn, publishedLocales, useI18n, type Locale } from '@/i18n';
+const { t, locale } = useI18n(Astro.url);
+
+interface Props {
+  tone?: 'dark' | 'light';
+  /** false on pages built only in English (404, offline): languages link to their home page. */
+  localized?: boolean;
+}
+
+const { tone = 'light', localized = true } = Astro.props;
+
+// Each name in its own script. A language links to this same page once its pages are built.
+const published = publishedLocales();
+const langs = (['en', 'ne', 'hi'] as Locale[]).map((code) => ({
+  code,
+  label: LOCALE_NAMES[code],
+  ready: code === 'en' || published.includes(code as Exclude<Locale, 'en'>),
+}));
+---
+
+<nav aria-label={t('site.language')}>
+  <ul class="flex items-center gap-2.5 text-[0.75rem]">
+    {
+      langs.map((lang) => {
+        const active = lang.code === locale;
+        return (
+          <li>
+            <a
+              href={lang.ready ? (localized ? pathIn(lang.code, Astro.url) : i18n(lang.code).l('/')) : undefined}
+              hreflang={lang.ready ? lang.code : undefined}
+              lang={lang.code}
+              aria-current={active ? 'true' : undefined}
+              aria-disabled={lang.ready ? undefined : 'true'}
+              title={lang.ready ? undefined : t('site.comingSoon')}
+              class:list={[
+                'block py-1 leading-none',
+                active && 'font-semibold underline decoration-1 underline-offset-[5px]',
+                !active && (tone === 'dark' ? 'text-muted-dark' : 'text-muted'),
+                !lang.ready && 'cursor-not-allowed',
+              ]}
+            >
+              {lang.label}
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</nav>

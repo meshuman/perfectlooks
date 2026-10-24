@@ -1,0 +1,26 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import MyLookView from '@/components/islands/MyLookView';
+import { getClientItems } from '@/data/catalogue';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const i = useI18n(Astro.url);
+const { t } = i;
+// My Look never shows barber steps, so they're left out to keep the page small.
+const items = (await getClientItems(i, [])).filter((it) => it.category !== 'looks');
+---
+
+<BaseLayout title={t('myLook.title')} description={t('myLook.description')} noindex footer={false} tab="my-look">
+  <main class="wrap max-w-2xl pt-6 pb-28">
+    <p class="tag">{t('myLook.kicker')}</p>
+    <h1 class="mt-4 text-[2.25rem] leading-tight">{t('myLook.title')}</h1>
+    <p class="mt-2 text-[0.9375rem] text-muted">{t('myLook.intro')}</p>
+    <MyLookView client:only="preact" items={items}>
+      <div slot="fallback" class="mt-6 h-80 animate-pulse bg-paper-2"></div>
+    </MyLookView>
+  </main>
+</BaseLayout>

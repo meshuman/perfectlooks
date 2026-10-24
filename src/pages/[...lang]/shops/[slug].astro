@@ -1,0 +1,127 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Button from '@/components/Button.astro';
+import Icon from '@/components/Icon.astro';
+import { kgfBlock } from '@/data/brand-marks.mjs';
+import JsonLd from '@/components/JsonLd.astro';
+import SectionHeader from '@/components/SectionHeader.astro';
+import { breadcrumbs, hairSalon } from '@/data/seo';
+import { shops, type Shop } from '@/data/shop';
+import type { IconName } from '@/data/icons';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().flatMap(({ lang }) => shops.map((shop) => ({ params: { lang, slug: shop.slug }, props: { shop } })));
+}
+
+interface Props {
+  shop: Shop;
+}
+
+const { shop } = Astro.props;
+const { t, l } = useI18n(Astro.url);
+const site = Astro.site!;
+const hours = t('shop.hoursValue');
+// Shown on the page in the page language; structured data keeps the English address.
+const shownAddress = t('shop.addressValue');
+
+// The in-shop flow, from the Overview document.
+const steps: { icon: IconName; title: string; text: string }[] = [
+  { icon: 'scissors', title: t('shop.step1.title'), text: t('shop.step1.text') },
+  { icon: 'heart', title: t('shop.step2.title'), text: t('shop.step2.text') },
+  { icon: 'user', title: t('shop.step3.title'), text: t('shop.step3.text') },
+];
+---
+
+<BaseLayout
+  title={t('shop.title', { shop: shop.name, area: shop.area, city: shop.city })}
+  description={t('shop.description', { shop: shop.name, address: shownAddress, hours, phone: shop.phoneDisplay })}
+  back={{ href: l('/'), label: t('site.home') }}
+>
+  <JsonLd
+    slot="head"
+    data={[
+      hairSalon(shop, site),
+      breadcrumbs(
+        [
+          { name: t('site.home'), path: l('/') },
+          { name: shop.name, path: l(`/shops/${shop.slug}`) },
+        ],
+        site,
+      ),
+    ]}
+  />
+
+  <main>
+    {/* Split hero, as on the home page: colour block, then the shop details. */}
+    <section class="md:grid md:min-h-[30rem] md:grid-cols-2">
+      <div class="relative aspect-[5/3] overflow-hidden md:aspect-auto">
+        <div class="absolute inset-0 grid place-items-center bg-brand">
+          <span class="block w-[58%] max-w-80" set:html={kgfBlock({ title: '' }).replace('role="img" aria-label=""', 'aria-hidden="true"')} />
+        </div>
+      </div>
+      <div class="wrap flex flex-col justify-center py-10 md:max-w-xl md:px-12 md:py-16">
+        <p class="tag rise">{t('shop.kicker', { area: shop.area })}</p>
+        <h1 class="rise mt-3 text-[2.5rem] leading-[1.1] md:text-[3.25rem]" style="--rise-delay:80ms">{shop.name}</h1>
+        <p class="rise mt-3 text-[0.9375rem] text-muted" style="--rise-delay:160ms">{shownAddress}</p>
+        <div class="rise mt-8 grid gap-3 sm:flex" style="--rise-delay:240ms">
+          <Button href={`tel:${shop.phone}`} size="lg" icon="phone">{t('shop.call', { phone: shop.phoneDisplay })}</Button>
+          <Button href={shop.mapUrl} variant="outline" size="lg" icon="mapPin" target="_blank" rel="noopener">{t('footer.directions')}</Button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap py-14 md:py-20">
+      <div class="shell" data-reveal>
+        <ul class="core divide-y divide-line/70">
+          {
+            [
+              { icon: 'clock' as IconName, label: t('shop.hours'), value: hours },
+              { icon: 'mapPin' as IconName, label: t('shop.address'), value: shownAddress },
+              { icon: 'phone' as IconName, label: t('shop.phone'), value: shop.phoneDisplay, href: `tel:${shop.phone}` },
+            ].map((row) => (
+              <li class="flex items-center gap-4 p-4">
+                <span class="grid size-11 shrink-0 place-items-center rounded-full bg-paper-2 text-ink">
+                  <Icon name={row.icon} size={19} />
+                </span>
+                <div>
+                  <p class="eyebrow">{row.label}</p>
+                  <p class="mt-0.5 font-display text-[1.375rem] leading-tight">
+                    {row.href ? <a href={row.href} class="underline-offset-4 hover:underline">{row.value}</a> : row.value}
+                  </p>
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap pb-16 md:pb-24">
+      <div data-reveal>
+        <SectionHeader eyebrow={t('shop.inTheShop')} title={t('shop.flowTitle')} />
+      </div>
+      <ol class="mt-8 grid gap-2 md:grid-cols-3 md:gap-3">
+        {
+          steps.map((step, i) => (
+            <li class="shell" data-reveal style={`--reveal-delay:${i * 80}ms`}>
+              <div class="core h-full p-5">
+                <div class="flex items-center justify-between">
+                  <span class="gold-fill grid size-11 place-items-center rounded-full">
+                    <Icon name={step.icon} size={19} strokeWidth={1.75} />
+                  </span>
+                  <span aria-hidden="true" class="font-display text-[2.5rem] leading-none text-gold-ink/75">0{i + 1}</span>
+                </div>
+                <h3 class="mt-5 font-display text-[1.625rem] font-normal">{step.title}</h3>
+                <p class="mt-1.5 text-[0.9375rem] text-muted">{step.text}</p>
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+      <div class="mt-8" data-reveal>
+        <Button href={l('/about-you')} size="lg" arrow>{t('home.findStyles')}</Button>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

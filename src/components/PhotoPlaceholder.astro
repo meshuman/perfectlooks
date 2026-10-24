@@ -1,0 +1,35 @@
+---
+import Icon from './Icon.astro';
+import type { IconName } from '@/data/icons';
+import { backdropFor } from '@/lib/backdrop';
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+
+interface Props {
+  icon?: IconName;
+  label?: string;
+  /** Picks a stable colour-block background, e.g. the item ID. */
+  seed?: string;
+  /** Forces one colour block instead, e.g. 'bg-block-orange'. */
+  block?: string;
+  class?: string;
+}
+
+const { icon = 'user', label, seed = '', block: forced, class: className } = Astro.props;
+
+// The same backdrop the item's photo is generated on, so nothing shifts when the photo arrives.
+const block = forced ?? backdropFor(seed).className;
+---
+
+<div
+  class:list={[
+    'relative flex flex-col items-center justify-center gap-2',
+    block,
+    // Dark ink passes contrast on every block colour (at least 4.8:1).
+    'text-ink',
+    className,
+  ]}
+>
+  <Icon name={icon} size={40} strokeWidth={1} class="opacity-50" />
+  {(label ?? t('card.photoSoon')) && <span class="text-[0.6875rem] font-medium tracking-[0.08em]">{label ?? t('card.photoSoon')}</span>}
+</div>

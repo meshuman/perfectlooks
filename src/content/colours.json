@@ -1,0 +1,908 @@
+[
+  {
+    "id": "C01",
+    "updated": "2026-10-23",
+    "slug": "jet-black",
+    "name": "Jet Black",
+    "shortLine": "Deep, solid black. Covers all grey.",
+    "description": "The deepest black. Covers all grey with a strong, even colour.",
+    "pickIf": "you want all grey gone with a strong black.",
+    "skipIf": "you have light skin or lots of grey. Natural Black looks softer.",
+    "daily": "Nothing.",
+    "weekly": "Wash with colour-safe shampoo.",
+    "nextVisit": "in 3–4 weeks, for the roots",
+    "atShop": "45 min",
+    "suitsText": "Medium and deep skin · Some or lots of grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Deep black",
+        "text": "Level 1, even all over."
+      },
+      {
+        "title": "Full grey cover",
+        "text": "No grey showing."
+      },
+      {
+        "title": "Glossy finish",
+        "text": "Healthy shine."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does jet black cover all grey?",
+        "a": "Yes. Level 1 covers grey fully."
+      },
+      {
+        "q": "Will jet black look natural?",
+        "a": "On medium and deep skin, usually yes. On light skin or very grey hair it can look harsh, so Natural Black is softer."
+      },
+      {
+        "q": "How long does jet black last?",
+        "a": "The colour stays, but roots show in 3–4 weeks."
+      },
+      {
+        "q": "Do I need a test before dyeing?",
+        "a": "Yes. The <a href=\"https://www.nhs.uk/conditions/hair-dye-reactions\">NHS</a> advises testing the dye on a strand of hair at least 48 hours before."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Colour: Level 1, black.",
+      "Cream on hairline and ears.",
+      "Apply on roots first, then the rest.",
+      "Wait time: as on the box.",
+      "Rinse well. Conditioner."
+    ],
+    "levelTone": "1, black",
+    "coversGrey": "Fully",
+    "bleach": "No",
+    "skin": [
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "45 min",
+    "swatchLabel": "Level 1 - Jet Black"
+  },
+  {
+    "id": "C02",
+    "updated": "2026-10-23",
+    "slug": "natural-black",
+    "name": "Natural Black",
+    "shortLine": "Softer black that looks more natural. Covers all grey.",
+    "description": "A soft black that looks like natural dark hair. Covers all grey.",
+    "pickIf": "you want grey gone without looking dyed. The safe first choice.",
+    "skipIf": "you want a big change.",
+    "daily": "Nothing.",
+    "weekly": "Wash with colour-safe shampoo.",
+    "nextVisit": "in 3–4 weeks, for the roots",
+    "atShop": "45 min",
+    "suitsText": "All skin tones · Some or lots of grey",
+    "alsoCalled": [
+      "Soft black"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Soft black",
+        "text": "Level 2, natural look."
+      },
+      {
+        "title": "Full grey cover",
+        "text": "Even from roots to ends."
+      },
+      {
+        "title": "Natural shine",
+        "text": "Not flat."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between jet black and natural black?",
+        "a": "Natural black (Level 2) is a very dark brown that looks softer and more natural than jet black (Level 1)."
+      },
+      {
+        "q": "Does natural black cover grey fully?",
+        "a": "Yes."
+      },
+      {
+        "q": "Can my beard be coloured natural black too?",
+        "a": "Yes. Turn on &quot;Also colour beard and moustache&quot; in My Look."
+      },
+      {
+        "q": "How often do I need a touch-up?",
+        "a": "Every 3–4 weeks, for the roots."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Colour: Level 2, very dark brown.",
+      "Cream on hairline and ears.",
+      "Apply on roots first, then the rest.",
+      "Wait time: as on the box.",
+      "Rinse well. Conditioner."
+    ],
+    "levelTone": "2, very dark brown",
+    "coversGrey": "Fully",
+    "bleach": "No",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "45 min",
+    "swatchLabel": "Level 2 - Natural Black"
+  },
+  {
+    "id": "C03",
+    "updated": "2026-10-23",
+    "slug": "dark-brown",
+    "name": "Dark Brown",
+    "shortLine": "Rich dark brown. A natural, safe choice.",
+    "description": "A rich dark brown, natural in daylight. Softer and warmer than black.",
+    "pickIf": "you want a small, safe change that covers grey.",
+    "skipIf": "you want black.",
+    "daily": "Nothing.",
+    "weekly": "Wash with colour-safe shampoo.",
+    "nextVisit": "in 4 weeks, for the roots",
+    "atShop": "45 min",
+    "suitsText": "All skin tones · Some or lots of grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Rich brown",
+        "text": "Level 3."
+      },
+      {
+        "title": "Warm in daylight",
+        "text": "Brown shows in the sun."
+      },
+      {
+        "title": "Full grey cover",
+        "text": "Even colour."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will dark brown look brown on black hair?",
+        "a": "It looks dark and natural indoors, with a warm brown shine in daylight."
+      },
+      {
+        "q": "Does dark brown cover grey?",
+        "a": "Yes, fully."
+      },
+      {
+        "q": "Is dark brown a good first colour?",
+        "a": "Yes. It's a small, safe change."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "Roots show in about 4 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Colour: Level 3, dark brown.",
+      "Cream on hairline and ears.",
+      "Apply on roots first, then the rest.",
+      "Wait time: as on the box.",
+      "Rinse well. Conditioner."
+    ],
+    "levelTone": "3, natural",
+    "coversGrey": "Fully",
+    "bleach": "No",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "45 min",
+    "swatchLabel": "Level 3 - Dark Brown"
+  },
+  {
+    "id": "C04",
+    "updated": "2026-10-23",
+    "slug": "medium-brown",
+    "name": "Medium Brown",
+    "shortLine": "Lighter brown. Shows more in sunlight.",
+    "description": "A lighter brown that shows clearly in sunlight. Fresh and modern.",
+    "pickIf": "you want a visible but natural change.",
+    "skipIf": "your hair is very black and you want a strong change. The brown will look gentle.",
+    "daily": "Nothing.",
+    "weekly": "Wash with colour-safe shampoo.",
+    "nextVisit": "in 3–4 weeks, for the roots",
+    "atShop": "45 min",
+    "suitsText": "Light and medium skin · Some or lots of grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Medium brown",
+        "text": "Level 4."
+      },
+      {
+        "title": "Shows in sunlight",
+        "text": "Clear brown tone."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will medium brown show on very black hair?",
+        "a": "Only lightly. For a stronger brown, very black hair may need lightening first."
+      },
+      {
+        "q": "Does medium brown cover grey?",
+        "a": "Yes."
+      },
+      {
+        "q": "Which skin tones suit medium brown?",
+        "a": "Light and medium skin."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "Roots show in 3–4 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Colour: Level 4, medium brown.",
+      "Cream on hairline and ears.",
+      "Apply on roots first, then the rest.",
+      "Wait time: as on the box.",
+      "Rinse well. Conditioner."
+    ],
+    "levelTone": "4, natural",
+    "coversGrey": "Fully",
+    "bleach": "No",
+    "skin": [
+      "Light",
+      "Medium"
+    ],
+    "grey": [
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "45 min",
+    "swatchLabel": "Level 4 - Medium Brown"
+  },
+  {
+    "id": "C05",
+    "updated": "2026-10-23",
+    "slug": "burgundy",
+    "name": "Burgundy",
+    "shortLine": "Dark red-purple tone. Shows most in sunlight.",
+    "description": "A deep wine colour with red and purple tones. Dark indoors, red in the sun.",
+    "pickIf": "you want a fun, stylish change.",
+    "skipIf": "you have lots of grey or a strict office.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo.",
+    "nextVisit": "in 3–4 weeks, as it fades",
+    "atShop": "45–60 min",
+    "suitsText": "All skin tones · No grey or some grey",
+    "alsoCalled": [
+      "Wine colour"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Wine tone",
+        "text": "Red-violet."
+      },
+      {
+        "title": "Glows in light",
+        "text": "Red shine on top."
+      },
+      {
+        "title": "Dark indoors",
+        "text": "Deep base colour."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will burgundy show on black hair?",
+        "a": "It looks dark indoors and shows red-purple in sunlight."
+      },
+      {
+        "q": "Does burgundy cover grey?",
+        "a": "Mostly. Grey hair can turn brighter red than the rest."
+      },
+      {
+        "q": "How long does burgundy last?",
+        "a": "It starts to fade in 3–4 weeks. Washing with cool water helps it last."
+      },
+      {
+        "q": "Is burgundy OK for office?",
+        "a": "It may be too bold for strict offices."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Colour: Level 4, red-violet (burgundy).",
+      "Cream on hairline and ears.",
+      "Apply on roots first, then the rest.",
+      "Wait time: as on the box.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "barberNote": "On black hair, the red shows mainly in sunlight.",
+    "levelTone": "4, red-violet",
+    "coversGrey": "Mostly",
+    "bleach": "No",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "45–60 min",
+    "swatchLabel": "Level 4 - Burgundy"
+  },
+  {
+    "id": "C06",
+    "updated": "2026-10-23",
+    "slug": "golden-brown-highlights",
+    "name": "Golden Brown Highlights",
+    "shortLine": "Thin golden-brown streaks on dark hair.",
+    "description": "Thin golden-brown streaks through the top. Adds shine without colouring everything.",
+    "pickIf": "you want a light, fun change and have some length on top.",
+    "skipIf": "your hair is very short.",
+    "daily": "Nothing.",
+    "weekly": "Wash with colour-safe shampoo.",
+    "nextVisit": "in 6–8 weeks",
+    "atShop": "60–90 min",
+    "suitsText": "Light and medium skin · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Fine streaks",
+        "text": "Thin, golden brown."
+      },
+      {
+        "title": "On top only",
+        "text": "Sides stay dark."
+      },
+      {
+        "title": "Soft blend",
+        "text": "Not chunky."
+      },
+      {
+        "title": "Natural base",
+        "text": "Black underneath."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are highlights?",
+        "a": "Thin streaks, lighter than your natural hair, placed through the top."
+      },
+      {
+        "q": "Do highlights need bleach?",
+        "a": "Yes. The streaks are lightened first."
+      },
+      {
+        "q": "Do highlights work on short hair?",
+        "a": "Not really. They need some length on top to show."
+      },
+      {
+        "q": "How long do highlights last?",
+        "a": "They grow out over 6–8 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Pick thin strands on top with a comb.",
+      "Lighten strands to Level 6–7.",
+      "Use foil or highlight cap.",
+      "Check every 10 min. Stop at golden brown.",
+      "Rinse. Toner if too orange. Conditioner."
+    ],
+    "levelTone": "6–7, gold, streaks only",
+    "coversGrey": "No",
+    "bleach": "Yes, streaks only",
+    "skin": [
+      "Light",
+      "Medium"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "60–90 min",
+    "swatchLabel": "Level 6-7 - Golden Brown"
+  },
+  {
+    "id": "C07",
+    "updated": "2026-10-23",
+    "slug": "ash-grey-silver",
+    "name": "Ash Grey / Silver",
+    "shortLine": "Light grey or silver all over. Bold look.",
+    "description": "Light grey or silver all over. A bold fashion look that needs bleaching first.",
+    "pickIf": "you want the boldest colour change and have time for it.",
+    "skipIf": "your hair is damaged or your scalp is sensitive.",
+    "daily": "Nothing.",
+    "weekly": "Purple shampoo 1–2 times to keep it silver.",
+    "nextVisit": "in 2–3 weeks for toner, 3–4 weeks for roots",
+    "atShop": "2–3 hours, sometimes 2 visits",
+    "suitsText": "All skin tones · Any amount of grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Cool silver",
+        "text": "No yellow tones."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Healthy shine",
+        "text": "Well conditioned."
+      },
+      {
+        "title": "Natural brows",
+        "text": "Dark contrast."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why does silver hair need bleach?",
+        "a": "Dark hair has to be lightened almost to white before the silver toner can show."
+      },
+      {
+        "q": "Will silver hair turn yellow?",
+        "a": "Over time it can. Purple shampoo keeps it silver."
+      },
+      {
+        "q": "Does bleach damage hair?",
+        "a": "It can make hair dry and weak. Deep conditioner helps, and damaged hair should not be bleached."
+      },
+      {
+        "q": "How long does it take at the shop?",
+        "a": "2–3 hours, sometimes over 2 visits."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Check scalp: no cuts or wounds.",
+      "Bleach whole head to Level 9–10.",
+      "Check every 10 min. Stop if burning.",
+      "Rinse. Then ash or silver toner.",
+      "Rinse. Deep conditioner."
+    ],
+    "barberNote": "Best done by a colour expert. May need 2 visits. Tell the customer to use purple shampoo.",
+    "levelTone": "9–10 base, ash or silver toner",
+    "coversGrey": "Yes",
+    "bleach": "Yes, whole head",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Level 10 - Silver"
+  },
+  {
+    "id": "C08",
+    "updated": "2026-10-23",
+    "slug": "grey-blending",
+    "name": "Grey Blending",
+    "shortLine": "Softens grey without hiding it fully. Looks natural.",
+    "description": "Softens grey without hiding it fully, for a natural salt-and-pepper look.",
+    "pickIf": "you want to look fresher, not dyed, with no hard root line.",
+    "skipIf": "you want zero grey.",
+    "daily": "Nothing.",
+    "weekly": "Nothing extra.",
+    "nextVisit": "in 4–6 weeks",
+    "atShop": "15–20 min",
+    "suitsText": "All skin tones · Some or lots of grey",
+    "alsoCalled": [
+      "Salt and pepper"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Softened grey",
+        "text": "Natural mix, not hidden."
+      },
+      {
+        "title": "Salt and pepper",
+        "text": "Some grey still shows."
+      },
+      {
+        "title": "No hard line",
+        "text": "Soft and gradual."
+      },
+      {
+        "title": "Natural shine",
+        "text": "Fresh, not dyed."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is grey blending?",
+        "a": "A short, gentle colour that softens grey without hiding it fully."
+      },
+      {
+        "q": "Will people notice I coloured my hair?",
+        "a": "Usually not. It looks like you naturally have less grey."
+      },
+      {
+        "q": "Will there be a hard root line?",
+        "a": "No. It fades slowly over 4–6 weeks."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "15–20 minutes."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Colour: Level 3–4, semi-permanent.",
+      "Apply on grey areas.",
+      "Short time: 5–10 min only.",
+      "Goal: less grey, not zero grey.",
+      "Rinse well."
+    ],
+    "levelTone": "3–4, semi-permanent",
+    "coversGrey": "Partly, on purpose",
+    "bleach": "No",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "15–20 min",
+    "swatchLabel": "Level 3-4 - Grey Blending"
+  },
+  {
+    "id": "C09",
+    "updated": "2026-10-23",
+    "slug": "blue-black",
+    "name": "Blue-Black",
+    "shortLine": "Black with a cool blue shine in the light.",
+    "description": "A deep black with a cool blue shine in sunlight. Covers all grey.",
+    "pickIf": "you want a glossy black with a stylish twist.",
+    "skipIf": "you have light skin.",
+    "daily": "Nothing.",
+    "weekly": "Wash with colour-safe shampoo.",
+    "nextVisit": "in 3–4 weeks, for the roots",
+    "atShop": "45 min",
+    "suitsText": "Medium and deep skin · Any amount of grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Blue sheen",
+        "text": "Shows in the light."
+      },
+      {
+        "title": "Deep black",
+        "text": "Level 1 base."
+      },
+      {
+        "title": "Full grey cover",
+        "text": "Even colour."
+      },
+      {
+        "title": "Glossy finish",
+        "text": "Rich shine."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will blue-black look blue?",
+        "a": "Indoors it looks black. In sunlight it shows a cool blue shine."
+      },
+      {
+        "q": "Does blue-black cover grey?",
+        "a": "Yes, fully."
+      },
+      {
+        "q": "Does blue-black suit light skin?",
+        "a": "It can look harsh. Natural Black is softer."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "Roots show in 3–4 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Colour: Level 1, blue-black.",
+      "Cream on hairline and ears.",
+      "Apply on roots first, then the rest.",
+      "Wait time: as on the box.",
+      "Rinse well. Conditioner."
+    ],
+    "levelTone": "1, blue",
+    "coversGrey": "Fully",
+    "bleach": "No",
+    "skin": [
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "45 min",
+    "swatchLabel": "Level 1 - Blue-Black"
+  },
+  {
+    "id": "C10",
+    "updated": "2026-10-23",
+    "slug": "ash-brown",
+    "name": "Ash Brown",
+    "shortLine": "Cool brown with no red or orange. Soft and modern.",
+    "description": "A cool, soft brown with no red or orange. Often seen with Korean-style cuts.",
+    "pickIf": "you want a modern brown that still looks natural.",
+    "skipIf": "you have lots of grey.",
+    "daily": "Nothing.",
+    "weekly": "Purple or ash shampoo once, to keep it cool.",
+    "nextVisit": "in 4–6 weeks",
+    "atShop": "60–90 min",
+    "suitsText": "Light and medium skin · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Cool brown",
+        "text": "Level 5, ash."
+      },
+      {
+        "title": "No orange",
+        "text": "Neutral, cool tone."
+      },
+      {
+        "title": "Soft finish",
+        "text": "Natural and modern."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is ash brown?",
+        "a": "A cool brown with no red or orange in it."
+      },
+      {
+        "q": "Why can ash brown turn orange?",
+        "a": "Dark hair has warm tones underneath that show as the colour fades. Ash or purple shampoo helps."
+      },
+      {
+        "q": "Do I need bleach for ash brown?",
+        "a": "Very black hair may need light bleaching first."
+      },
+      {
+        "q": "Does ash brown cover grey?",
+        "a": "Mostly. It works best with little or no grey."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Very black hair: light bleach first, to Level 5–6.",
+      "Colour: Level 5, ash.",
+      "Wait time: as on the box.",
+      "Rinse well. Conditioner."
+    ],
+    "levelTone": "5, ash",
+    "coversGrey": "Mostly",
+    "bleach": "Sometimes, on very black hair",
+    "skin": [
+      "Light",
+      "Medium"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "60–90 min",
+    "swatchLabel": "Level 5 - Ash Brown"
+  },
+  {
+    "id": "C11",
+    "updated": "2026-10-23",
+    "slug": "copper",
+    "name": "Copper",
+    "shortLine": "Bright orange-brown. Warm and eye-catching.",
+    "description": "A bright, warm orange-brown that stands out in any light.",
+    "pickIf": "you want to be noticed.",
+    "skipIf": "you have lots of grey or a strict office.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo.",
+    "nextVisit": "in 3–4 weeks, as it fades",
+    "atShop": "90 min",
+    "suitsText": "Light and medium skin · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Bright copper",
+        "text": "Warm orange-brown."
+      },
+      {
+        "title": "Vivid in light",
+        "text": "Glows on top."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will copper show on black hair?",
+        "a": "Only after light bleaching. Without it, the colour barely shows."
+      },
+      {
+        "q": "How long does copper last?",
+        "a": "It fades in 3–4 weeks. Washing with cool water helps."
+      },
+      {
+        "q": "Is copper hard to keep?",
+        "a": "Yes. It needs regular top-ups to stay bright."
+      },
+      {
+        "q": "Does copper cover grey?",
+        "a": "Mostly. Grey hair turns bright copper."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Light bleach to Level 6–7.",
+      "Rinse. Then colour: copper.",
+      "Wait time: as on the box.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "6–7, copper",
+    "coversGrey": "Mostly",
+    "bleach": "Yes, light",
+    "skin": [
+      "Light",
+      "Medium"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "90 min",
+    "swatchLabel": "Level 6-7 - Copper"
+  },
+  {
+    "id": "C12",
+    "updated": "2026-10-23",
+    "slug": "henna-mehndi",
+    "name": "Henna (Mehndi)",
+    "shortLine": "Natural plant colour. Turns grey hair red-orange.",
+    "description": "A natural plant colour. Turns grey hair red-orange and gives dark hair a red shine.",
+    "pickIf": "you want a natural colour with no chemicals.",
+    "skipIf": "you may want a chemical colour later. It is hard to change after henna.",
+    "daily": "Nothing.",
+    "weekly": "Nothing extra.",
+    "nextVisit": "in 3–4 weeks, for the roots",
+    "atShop": "1–2 hours",
+    "suitsText": "All skin tones · Some or lots of grey",
+    "alsoCalled": [
+      "Mehndi"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Red-orange grey",
+        "text": "Henna on grey hair."
+      },
+      {
+        "title": "Red shine",
+        "text": "On the dark strands."
+      },
+      {
+        "title": "Natural variation",
+        "text": "Plant colour look."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No stains on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is henna better than hair dye?",
+        "a": "Pure henna is plant-based, but on grey it only gives red-orange, and it's hard to change later."
+      },
+      {
+        "q": "Is \"black henna\" safe?",
+        "a": "No. Its paste contains high levels of PPD, which can cause skin reactions, according to the <a href=\"https://www.nhs.uk/conditions/hair-dye-reactions\">NHS</a>. Use pure henna only."
+      },
+      {
+        "q": "How long does henna stay on?",
+        "a": "1–2 hours."
+      },
+      {
+        "q": "Can I dye my hair after henna?",
+        "a": "The result can be patchy or an unexpected colour. Tell your barber you've used henna."
+      }
+    ],
+    "barberSteps": [
+      "Use pure henna only. Never \"black henna\".",
+      "Ask: itching from henna before? If yes, stop.",
+      "Apply paste on roots first, then the rest.",
+      "Cover hair with a cap.",
+      "Wait 1–2 hours.",
+      "Rinse with water only. No shampoo for 1 day."
+    ],
+    "levelTone": "No level, plant colour",
+    "coversGrey": "Yes, as red-orange",
+    "bleach": "No",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "1–2 hours",
+    "swatchLabel": "Henna - Plant colour"
+  }
+]

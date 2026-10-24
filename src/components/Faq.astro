@@ -1,0 +1,27 @@
+---
+import Icon from './Icon.astro';
+
+interface Props {
+  items: { q: string; a: string }[];
+}
+
+const { items } = Astro.props;
+---
+
+<div class="shell">
+<div class="core divide-y divide-line/70 overflow-hidden">
+  {
+    items.map((item) => (
+      <details class="group">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-3 p-4 text-[0.9375rem] font-bold [&::-webkit-details-marker]:hidden">
+          <h3>{item.q}</h3>
+          <span class="grid size-8 shrink-0 place-items-center rounded-full bg-ink/[0.05] text-muted transition duration-500 ease-out-soft group-open:rotate-180 group-open:bg-ink group-open:text-gold">
+            <Icon name="chevronDown" size={16} strokeWidth={2} />
+          </span>
+        </summary>
+        <p class="-mt-1 px-4 pb-4 text-[0.9375rem] text-muted" set:html={item.a} />
+      </details>
+    ))
+  }
+</div>
+</div>

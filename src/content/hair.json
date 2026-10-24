@@ -1,0 +1,3132 @@
+[
+  {
+    "id": "H01",
+    "updated": "2026-10-23",
+    "slug": "buzz-cut",
+    "name": "Buzz Cut",
+    "shortLine": "Very short, same length all over. Clean and easy.",
+    "description": "One short length all over, cut with the machine. Clean, cool and no fuss.",
+    "pickIf": "you want zero styling and a cool, clean head.",
+    "skipIf": "you have a round or long face, or don't want your head shape to show.",
+    "daily": "Nothing. Just wash.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval and square face · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Machine cut",
+      "Army cut"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Even all over",
+        "text": "Machine #2 on the whole head."
+      },
+      {
+        "title": "Soft hairline",
+        "text": "Natural front, not lined up."
+      },
+      {
+        "title": "Clean around ears",
+        "text": "Edges trimmed neat."
+      },
+      {
+        "title": "Neat nape",
+        "text": "Neck line cleaned with a trimmer."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What machine number is a buzz cut?",
+        "a": "Usually #2 (6 mm). Ask for #1 if you want it shorter, or #3 for a softer look."
+      },
+      {
+        "q": "Is a buzz cut good for hot weather?",
+        "a": "Yes. With so little hair, your head stays cooler and dries in minutes."
+      },
+      {
+        "q": "Will a buzz cut show scars or bumps on my head?",
+        "a": "At #1 or #2 they can show. Choose #3 or #4 for more cover."
+      },
+      {
+        "q": "How fast does a buzz cut grow out?",
+        "a": "Hair grows about 1.25 cm a month, so a #2 buzz looks like a short crew cut after about a month."
+      }
+    ],
+    "barberSteps": [
+      "Whole head: machine #2.",
+      "Cut against hair growth.",
+      "Neck line: clean with trimmer.",
+      "Clean around ears."
+    ],
+    "barberNote": "Customer may ask for #1 or #3 instead.",
+    "length": "Very short",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H02",
+    "updated": "2026-10-23",
+    "slug": "crew-cut",
+    "name": "Crew Cut",
+    "shortLine": "Short sides, a little longer on top. Neat and simple.",
+    "description": "Short sides with a little more length on top. Neat at work, college or a family function.",
+    "pickIf": "you want a safe, tidy cut that looks fine everywhere.",
+    "skipIf": "you have a very long face.",
+    "daily": "1 min: push the top forward or up with your hand.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square and round face · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Short cut"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Short sides",
+        "text": "Machine #2, even and neat."
+      },
+      {
+        "title": "Short top",
+        "text": "About 2 cm, scissor cut."
+      },
+      {
+        "title": "Longer front",
+        "text": "Pushed forward and up."
+      },
+      {
+        "title": "Smooth blend",
+        "text": "No line between top and sides."
+      },
+      {
+        "title": "Tidy nape",
+        "text": "Natural, clean neck line."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a crew cut and a buzz cut?",
+        "a": "A buzz cut is one length all over. A crew cut keeps the top a little longer than the sides."
+      },
+      {
+        "q": "What number is a crew cut?",
+        "a": "Usually machine #2 on the sides and about 1 finger (2 cm) on top, cut with scissors."
+      },
+      {
+        "q": "Is a crew cut good for office?",
+        "a": "Yes. It's one of the safest cuts for any office, school or family event."
+      },
+      {
+        "q": "Can I get a crew cut with curly hair?",
+        "a": "Yes. The short length keeps curls neat and easy."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #2.",
+      "Top: 1 finger long. Scissors.",
+      "Front of top: a little longer.",
+      "Blend sides into top.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H03",
+    "updated": "2026-10-23",
+    "slug": "ivy-league",
+    "name": "Ivy League",
+    "shortLine": "A longer crew cut. Top can be combed to the side.",
+    "description": "A longer crew cut with enough top to comb into a side part. Smart but still easy.",
+    "pickIf": "you want an office-ready look that is still short.",
+    "skipIf": "you have a round face.",
+    "daily": "2 min: comb to the side with a little cream or wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Soft side part",
+        "text": "Above the outer eyebrow."
+      },
+      {
+        "title": "Longer front",
+        "text": "Combs neatly to the side."
+      },
+      {
+        "title": "Short sides",
+        "text": "#2 blending to #3."
+      },
+      {
+        "title": "Natural finish",
+        "text": "Light cream, low shine."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a crew cut and an Ivy League?",
+        "a": "An Ivy League keeps the top longer, about 2 fingers, so it can be combed into a side part."
+      },
+      {
+        "q": "Is the Ivy League good for thin hair?",
+        "a": "Yes. The short sides make the top look fuller."
+      },
+      {
+        "q": "Can I wear an Ivy League without a part?",
+        "a": "Yes. Push it forward or up with your fingers for a relaxed look."
+      },
+      {
+        "q": "How do I keep the side part neat?",
+        "a": "Comb it while your hair is still a little damp, then add a little cream."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #2, blend to #3.",
+      "Top: 2 fingers long. Scissors.",
+      "Front: a little longer than back.",
+      "Ask: part on left or right?",
+      "Comb top to that side.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H04",
+    "updated": "2026-10-23",
+    "slug": "caesar-cut",
+    "name": "Caesar Cut",
+    "shortLine": "Short all over with a short straight fringe in front.",
+    "description": "Short all over, with a short straight fringe combed forward.",
+    "pickIf": "you want to cover a high forehead or thin hair at the front.",
+    "skipIf": "you have a round face.",
+    "daily": "1 min: comb forward. No product needed.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, square, long and heart face · All hair types · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Straight fringe",
+        "text": "Short and level."
+      },
+      {
+        "title": "Forward top",
+        "text": "Combed toward the face."
+      },
+      {
+        "title": "Even sides",
+        "text": "Machine #2."
+      },
+      {
+        "title": "Tidy nape",
+        "text": "Clean natural neck line."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does a Caesar cut hide a receding hairline?",
+        "a": "Yes. The short fringe sits over the front and covers a high or thin hairline."
+      },
+      {
+        "q": "How is a Caesar cut different from a French crop?",
+        "a": "A Caesar has a straight, flat fringe. A French crop has a rougher top."
+      },
+      {
+        "q": "Is a Caesar cut good for curly hair?",
+        "a": "Yes. Short curls lie forward easily and need no styling."
+      },
+      {
+        "q": "Do I need product for a Caesar cut?",
+        "a": "No. Just comb it forward. A little wax is optional."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #2.",
+      "Top: 1 finger long. Scissors.",
+      "Comb all top hair forward.",
+      "Fringe: cut straight across, short.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H05",
+    "updated": "2026-10-23",
+    "slug": "french-crop",
+    "name": "French Crop",
+    "shortLine": "Short sides. Rough top pushed forward with a short fringe.",
+    "description": "Short sides and a rough top pushed forward into a short fringe. Modern and easy.",
+    "pickIf": "you want a modern look with almost no work, or to hide a thin front.",
+    "skipIf": "you have a round face.",
+    "daily": "1 min: a little dry wax (clay) through the top, or nothing.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square, long and heart face · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Crop"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Rough top",
+        "text": "Choppy, pushed forward."
+      },
+      {
+        "title": "Short fringe",
+        "text": "Above the eyebrows."
+      },
+      {
+        "title": "Tight sides",
+        "text": "#1 blending to #3."
+      },
+      {
+        "title": "Matte finish",
+        "text": "Dry wax, no shine."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is a French crop good for a receding hairline?",
+        "a": "Yes. The fringe pushed forward covers the front."
+      },
+      {
+        "q": "What product is best for a French crop?",
+        "a": "Dry wax (clay), for a matte, slightly messy finish."
+      },
+      {
+        "q": "What is the difference between a French crop and a crop fade?",
+        "a": "The top is the same, but on a crop fade the sides go down to skin."
+      },
+      {
+        "q": "Can I get a French crop with wavy hair?",
+        "a": "Yes. Waves add natural movement to the top."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #1, blend to #3.",
+      "Top: 2 fingers long. Scissors.",
+      "Comb top forward.",
+      "Fringe: short and straight.",
+      "Top: make texture (point cut).",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H06",
+    "updated": "2026-10-23",
+    "slug": "taper-cut",
+    "name": "Taper Cut",
+    "shortLine": "Classic short cut. Gets shorter slowly near the ears and neck.",
+    "description": "The classic barber cut. Hair gets shorter slowly toward the ears and neck, with no skin showing.",
+    "pickIf": "you want the safest choice for any face, age or job.",
+    "skipIf": "you want a bold, fashion look.",
+    "daily": "2 min: comb with a little cream.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "All face shapes · All hair types · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Gradual taper",
+        "text": "Shorter toward ears and neck."
+      },
+      {
+        "title": "No skin",
+        "text": "Shortest point stays at #1."
+      },
+      {
+        "title": "Natural top",
+        "text": "Combed loosely to the side."
+      },
+      {
+        "title": "Soft nape",
+        "text": "Natural, not squared."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a taper and a fade?",
+        "a": "A taper gets shorter but stops before skin. A fade goes down to bare skin."
+      },
+      {
+        "q": "Is a taper cut good for office?",
+        "a": "Yes. It's the most office-safe cut in the catalogue."
+      },
+      {
+        "q": "How long does a taper last?",
+        "a": "It still looks neat after 3–4 weeks, because it grows out gently."
+      },
+      {
+        "q": "Does a taper suit older men?",
+        "a": "Yes. It suits every age, face shape and hair type."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #3.",
+      "Near ears and neck: machine #1.",
+      "Blend slowly. No skin showing.",
+      "Top: 2 fingers long. Scissors.",
+      "Neck line: natural, not square."
+    ],
+    "length": "Short",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H07",
+    "updated": "2026-10-23",
+    "slug": "low-fade",
+    "name": "Low Fade",
+    "shortLine": "Sides fade to skin just above the ears. Short top.",
+    "description": "Sides fade to skin just above the ears, with a short top. The easiest fade to start with.",
+    "pickIf": "you want a clean, modern look that is still fine for school or office.",
+    "skipIf": "you have a long face.",
+    "daily": "2 min: a little wax on the top.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks, to keep the fade clean",
+    "suitsText": "Oval, square, round and heart face · All hair types · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Low fade line",
+        "text": "Starts just above the ear."
+      },
+      {
+        "title": "Smooth blend",
+        "text": "#0 up to #2, no lines."
+      },
+      {
+        "title": "Textured top",
+        "text": "About 4 cm, pushed up."
+      },
+      {
+        "title": "Clean ear line",
+        "text": "Sharp edge around the ear."
+      },
+      {
+        "title": "Faded nape",
+        "text": "Skin at the neck, blended up."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How is a low fade different from a mid fade?",
+        "a": "A low fade starts just above the ear. A mid fade starts higher, at the temple."
+      },
+      {
+        "q": "Is a low fade OK for school or office?",
+        "a": "Usually yes. It's the most subtle fade."
+      },
+      {
+        "q": "What numbers are used for a low fade?",
+        "a": "Usually #0 at the bottom, blended up through #1 to #2."
+      },
+      {
+        "q": "How often does a low fade need a touch-up?",
+        "a": "Every 2–3 weeks to keep the fade clean."
+      }
+    ],
+    "barberSteps": [
+      "Fade line: 1 finger above the ear.",
+      "Below the line: machine #0.",
+      "Blend up: #1, then #2.",
+      "Top: 2 fingers long. Scissors.",
+      "Blend top into sides.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H08",
+    "updated": "2026-10-23",
+    "slug": "mid-fade",
+    "name": "Mid Fade",
+    "shortLine": "Fade starts at the middle of the side. Clean and modern.",
+    "description": "The fade starts halfway up the side, near the temple. Sharper than a low fade.",
+    "pickIf": "you want a sharp, modern look with clean sides.",
+    "skipIf": "you have a long face.",
+    "daily": "2 min: a little wax on the top.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks, to keep the fade clean",
+    "suitsText": "Oval, square, round and heart face · All hair types · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Mid fade line",
+        "text": "At temple height."
+      },
+      {
+        "title": "Even blend",
+        "text": "#0 up to #3."
+      },
+      {
+        "title": "Top shape",
+        "text": "5 cm, up and to the side."
+      },
+      {
+        "title": "Clean edges",
+        "text": "Around ears and neck."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where does a mid fade start?",
+        "a": "Halfway up the side of the head, around the temple."
+      },
+      {
+        "q": "Is a mid fade good for a round face?",
+        "a": "Yes. Shorter sides with some height on top make the face look longer."
+      },
+      {
+        "q": "What top goes best with a mid fade?",
+        "a": "A top of 2–3 fingers, pushed up or to the side."
+      },
+      {
+        "q": "How long does a mid fade stay sharp?",
+        "a": "About 2–3 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Fade line: middle of the side, at the temple.",
+      "Below the line: machine #0.",
+      "Blend up: #1, #2, #3.",
+      "Top: 2–3 fingers long. Scissors.",
+      "Blend top into sides.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H09",
+    "updated": "2026-10-23",
+    "slug": "skin-fade",
+    "name": "Skin Fade",
+    "shortLine": "Sides go to bare skin, high up. Very sharp look.",
+    "description": "Sides shaved to bare skin, fading up high. The sharpest, cleanest sides in the catalogue.",
+    "pickIf": "you want the boldest, cleanest sides and don't mind frequent cuts.",
+    "skipIf": "you have a long face, or can't visit every 2 weeks.",
+    "daily": "2 min: a little dry wax (clay) on the top.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2 weeks",
+    "suitsText": "Oval, square and round face · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Bald fade",
+      "Zero fade",
+      "High fade"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "High skin fade",
+        "text": "Bare skin up to the corner."
+      },
+      {
+        "title": "Fast blend",
+        "text": "Skin to #2, no lines."
+      },
+      {
+        "title": "Matte top",
+        "text": "About 4 cm, textured."
+      },
+      {
+        "title": "Crisp outline",
+        "text": "Sharp around ears and neck."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is a skin fade the same as a bald fade?",
+        "a": "Yes. Both take the sides down to bare skin with a razor or shaver."
+      },
+      {
+        "q": "How long does a skin fade stay sharp?",
+        "a": "About 1–2 weeks. Book a touch-up every 2 weeks."
+      },
+      {
+        "q": "Will a skin fade irritate my skin?",
+        "a": "It shouldn't. Tell the barber if your skin is sensitive, so they shave gently."
+      },
+      {
+        "q": "Is a skin fade OK for office?",
+        "a": "It depends on the office. A low fade or taper fade is the safer choice."
+      }
+    ],
+    "barberSteps": [
+      "Fade line: high, at the top corner of the head.",
+      "Bottom: razor or shaver to skin.",
+      "Blend up: #0, #1, #2.",
+      "Smooth blend. No hard lines.",
+      "Top: 2 fingers long. Scissors.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H10",
+    "updated": "2026-10-23",
+    "slug": "classic-side-part",
+    "name": "Classic Side Part",
+    "shortLine": "Neat cut with a clear part on one side. Good for office.",
+    "description": "A clear part on one side with the top combed neatly over. Polished and timeless.",
+    "pickIf": "you want to look smart for office, interviews or weddings.",
+    "skipIf": "you have curly hair.",
+    "daily": "3 min: comb into place with a little shiny wax (pomade) or cream.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, round and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [
+      "Side partition",
+      "Office cut"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Clear part",
+        "text": "Above the outer eyebrow."
+      },
+      {
+        "title": "Combed top",
+        "text": "6 cm, smooth and neat."
+      },
+      {
+        "title": "Tapered sides",
+        "text": "#3 down to #2."
+      },
+      {
+        "title": "Soft shine",
+        "text": "Light pomade finish."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which side should my part be on?",
+        "a": "Usually where your hair already splits naturally. The barber can check."
+      },
+      {
+        "q": "Is a side part good for job interviews?",
+        "a": "Yes. It's one of the smartest, most classic looks."
+      },
+      {
+        "q": "Pomade or cream for a side part?",
+        "a": "Shiny wax (pomade) for a polished look, cream for a softer, natural look."
+      },
+      {
+        "q": "Can I get a side part with curly hair?",
+        "a": "It's hard to keep neat. A Taper Cut or Curly Top Fade works better."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #3.",
+      "Neck: machine #2, blend up.",
+      "Top: 3 fingers long. Scissors.",
+      "Ask: part on left or right?",
+      "Part line: above the outer eyebrow.",
+      "Comb top to the side."
+    ],
+    "length": "Short to medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H11",
+    "updated": "2026-10-23",
+    "slug": "comb-over-fade",
+    "name": "Comb Over Fade",
+    "shortLine": "Side part on top, faded sides. Clean and modern.",
+    "description": "A side part on top with faded sides. Smart, with a modern edge.",
+    "pickIf": "you want office-smart with a modern touch.",
+    "skipIf": "you have curly or thin hair.",
+    "daily": "3 min: comb to the side with shiny wax (pomade).",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, square, round and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Side part fade"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Shaved part",
+        "text": "Thin line above the eyebrow."
+      },
+      {
+        "title": "Combed over",
+        "text": "6 cm swept to the side."
+      },
+      {
+        "title": "Mid fade",
+        "text": "#0 to #2."
+      },
+      {
+        "title": "Clean blend",
+        "text": "Top flows into the fade."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is a comb over fade the same as an old-style comb over?",
+        "a": "No. It's a modern side part with faded sides, not hair combed over a thin patch."
+      },
+      {
+        "q": "How is it different from a classic side part?",
+        "a": "A comb over fade has faded sides. A classic side part has longer, tapered sides."
+      },
+      {
+        "q": "Should I get a shaved part line?",
+        "a": "Only if you want a sharper look. It grows out in about 2 weeks."
+      },
+      {
+        "q": "What product holds a comb over fade?",
+        "a": "Shiny wax (pomade) or a medium-hold cream."
+      }
+    ],
+    "barberSteps": [
+      "Sides: mid fade, #0 to #2.",
+      "Top: 3 fingers long. Scissors.",
+      "Ask: part on left or right?",
+      "Part line: above the outer eyebrow.",
+      "Shaved part line only if customer asks.",
+      "Comb top over to the side."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H12",
+    "updated": "2026-10-23",
+    "slug": "undercut",
+    "name": "Undercut",
+    "shortLine": "Very short sides, long top. Clear line between them.",
+    "description": "Very short sides with a long top and a clear line between them. Wear the top back, to the side or forward.",
+    "pickIf": "you want long hair on top that you can style different ways.",
+    "skipIf": "you have a long face or thin hair.",
+    "daily": "5 min: style the top with wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, square, round and heart face · Straight or wavy hair",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Long top",
+        "text": "About 8 cm, swept back."
+      },
+      {
+        "title": "Hard line",
+        "text": "Clear edge, no blend."
+      },
+      {
+        "title": "Short sides",
+        "text": "Machine #1 all round."
+      },
+      {
+        "title": "Clean back",
+        "text": "Tidy nape."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between an undercut and a fade?",
+        "a": "An undercut has one short length on the sides with a clear line. A fade blends from short to long with no line."
+      },
+      {
+        "q": "How long should the top be for an undercut?",
+        "a": "At least 4 fingers (about 8 cm)."
+      },
+      {
+        "q": "Can I hide an undercut at work?",
+        "a": "Yes. Let the long top fall over the sides."
+      },
+      {
+        "q": "How often do the sides need cutting?",
+        "a": "Every 3 weeks, before the line softens."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #1.",
+      "One length. No blend.",
+      "Line: at the top corner of the head.",
+      "Top: 4 fingers long. Scissors.",
+      "Do not cut the top short.",
+      "Clean neck and ears."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H13",
+    "updated": "2026-10-23",
+    "slug": "slick-back",
+    "name": "Slick Back",
+    "shortLine": "Long top combed straight back. Smart, shiny look.",
+    "description": "Long top combed straight back with a shiny finish. Confident and smart.",
+    "pickIf": "you want a strong, classy look for events and business.",
+    "skipIf": "you have a long or heart face, or thin hair.",
+    "daily": "5 min: comb back with shiny wax (pomade) or gel.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
+    "alsoCalled": [
+      "Back brush"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Keep weight on top",
+        "text": "Enough length to comb straight back."
+      },
+      {
+        "title": "Sides kept short",
+        "text": "Machine #2, neat and tight."
+      },
+      {
+        "title": "Blend smooth",
+        "text": "No harsh line between top and sides."
+      },
+      {
+        "title": "Back kept neat",
+        "text": "Tidy and well blended."
+      },
+      {
+        "title": "Nape clean",
+        "text": "Tapers naturally into the neck line."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pomade or gel for a slick back?",
+        "a": "Shiny wax (pomade) for a classic shine, gel for a stronger, wet look."
+      },
+      {
+        "q": "How long does hair need to be for a slick back?",
+        "a": "About 4–5 fingers (8–10 cm) on top."
+      },
+      {
+        "q": "Is a slick back good for thin hair?",
+        "a": "No. Combing it back separates the hair and shows the scalp."
+      },
+      {
+        "q": "Will it stay back all day?",
+        "a": "Yes, if you style it while slightly damp and use enough product."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #2.",
+      "Neck: machine #1, blend up.",
+      "Top: 4–5 fingers long. Scissors.",
+      "Front longest, back shorter.",
+      "Comb top straight back.",
+      "Finish with pomade or gel."
+    ],
+    "length": "Medium",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H14",
+    "updated": "2026-10-23",
+    "slug": "quiff",
+    "name": "Quiff",
+    "shortLine": "Short sides, front hair lifted up and back.",
+    "description": "Short sides with the front lifted up and back. Often called the \"puff\".",
+    "pickIf": "you want height that looks great in photos, or more shape for a round face.",
+    "skipIf": "you have a long face or thin hair, or no time to blow dry.",
+    "daily": "5 min: blow dry the front up, then wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square, round and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Puff"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Lifted front",
+        "text": "Blow-dried up and back."
+      },
+      {
+        "title": "Height at front",
+        "text": "Longest hair at the front."
+      },
+      {
+        "title": "Shorter crown",
+        "text": "About 4 cm at the back."
+      },
+      {
+        "title": "Faded sides",
+        "text": "#1 to #3."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a quiff and a pompadour?",
+        "a": "A quiff lifts mainly the front. A pompadour has more height across the whole top."
+      },
+      {
+        "q": "Do I need a blow dryer for a quiff?",
+        "a": "Yes, for height that lasts. Blow dry the front up and back."
+      },
+      {
+        "q": "What product holds a quiff?",
+        "a": "Wax, or dry wax (clay) for a more natural finish."
+      },
+      {
+        "q": "Is a quiff good for a round face?",
+        "a": "Yes. Height on top makes a round face look longer."
+      }
+    ],
+    "barberSteps": [
+      "Sides: fade, #1 to #3.",
+      "Top front: 4 fingers long.",
+      "Top back: 2 fingers long.",
+      "Blow dry front up and back.",
+      "Finish with wax.",
+      "Clean neck and ears."
+    ],
+    "length": "Medium",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H15",
+    "updated": "2026-10-23",
+    "slug": "pompadour",
+    "name": "Pompadour",
+    "shortLine": "Big height on top, combed up and back. Bold look.",
+    "description": "Big height on top, swept up and back. Bold and classic.",
+    "pickIf": "you want to stand out at a wedding or party.",
+    "skipIf": "you have a long face or thin hair, or want a quick morning.",
+    "daily": "10 min: blow dry up and back, shape with shiny wax (pomade).",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
+    "alsoCalled": [
+      "Big puff"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Big height",
+        "text": "Rounded volume, up and back."
+      },
+      {
+        "title": "Long front",
+        "text": "About 10 cm."
+      },
+      {
+        "title": "Smooth shine",
+        "text": "Pomade finish."
+      },
+      {
+        "title": "Short sides",
+        "text": "Clean and tight."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long should hair be for a pompadour?",
+        "a": "About 5 fingers (10 cm) at the front."
+      },
+      {
+        "q": "How do I keep a pompadour up all day?",
+        "a": "Blow dry it up and back, then shape it with shiny wax (pomade) and a comb."
+      },
+      {
+        "q": "Is a pompadour too much for office?",
+        "a": "It can be. Ask for a smaller version, or choose a Quiff."
+      },
+      {
+        "q": "Does a pompadour suit a long face?",
+        "a": "No. The height makes a long face look even longer."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #2, or fade #1 to #3.",
+      "Top front: 5 fingers long.",
+      "Top back: 3 fingers long.",
+      "Trim tips only. Keep length.",
+      "Blow dry top up and back.",
+      "Shape with pomade and comb."
+    ],
+    "length": "Medium to long",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H16",
+    "updated": "2026-10-23",
+    "slug": "spiky",
+    "name": "Spiky",
+    "shortLine": "Short top with hair standing up in spikes.",
+    "description": "Short top pulled up into spikes with gel. Young and sporty.",
+    "pickIf": "you want a fun, energetic look that is quick to style.",
+    "skipIf": "you have curly hair or a long face.",
+    "daily": "2 min: gel, then pull the hair up into spikes.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, square and round face · Straight hair · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Defined spikes",
+        "text": "Pulled up with gel."
+      },
+      {
+        "title": "Short top",
+        "text": "About 3 cm."
+      },
+      {
+        "title": "Even sides",
+        "text": "#2 blending to #3."
+      },
+      {
+        "title": "Gel finish",
+        "text": "Light wet shine."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best product for spiky hair?",
+        "a": "Strong gel or strong wax."
+      },
+      {
+        "q": "Does spiky hair work with curly hair?",
+        "a": "Not well. Curls won't stand up in spikes. Try a Curly Top Fade."
+      },
+      {
+        "q": "How long should the top be for spikes?",
+        "a": "1–2 fingers (2–4 cm)."
+      },
+      {
+        "q": "Will daily gel damage my hair?",
+        "a": "Not if you wash it out at the end of each day."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #2, blend to #3.",
+      "Top: 1–2 fingers long. Scissors.",
+      "Top: make texture (point cut).",
+      "Apply gel. Pull hair up in spikes.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H17",
+    "updated": "2026-10-23",
+    "slug": "faux-hawk",
+    "name": "Faux Hawk",
+    "shortLine": "Middle of the top pushed up. Sides short.",
+    "description": "Short sides with the middle of the top pushed up into a soft ridge. A mohawk look without shaved sides.",
+    "pickIf": "you want something bold that you can comb flat for work.",
+    "skipIf": "you have a long face, curly hair or thin hair.",
+    "daily": "3 min: push the middle up with wax or gel.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
+    "alsoCalled": [
+      "Fohawk"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Centre ridge",
+        "text": "Middle pushed up to a point."
+      },
+      {
+        "title": "Lower edges",
+        "text": "Top sides kept shorter."
+      },
+      {
+        "title": "Faded sides",
+        "text": "Short, not shaved."
+      },
+      {
+        "title": "Clean nape",
+        "text": "Neat neck line."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a faux hawk and a mohawk?",
+        "a": "A faux hawk keeps the sides short but not shaved. A mohawk takes the sides very short or bare."
+      },
+      {
+        "q": "Can I wear a faux hawk to work?",
+        "a": "Yes. Comb the top flat and it looks like a normal short cut."
+      },
+      {
+        "q": "What product holds a faux hawk?",
+        "a": "Wax or gel, pushed up toward the middle."
+      },
+      {
+        "q": "Does a faux hawk suit a round face?",
+        "a": "Yes. The height makes the face look longer."
+      }
+    ],
+    "barberSteps": [
+      "Sides: fade, #1 to #3.",
+      "Top middle strip: 3 fingers long.",
+      "Top edges: 2 fingers long.",
+      "Push middle hair up to a point.",
+      "Finish with wax.",
+      "Clean neck and ears."
+    ],
+    "length": "Short to medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H18",
+    "updated": "2026-10-23",
+    "slug": "two-block",
+    "name": "Two-Block",
+    "shortLine": "Short sides hidden under longer top hair. Soft fringe.",
+    "description": "Korean-style cut: short sides hidden under longer, soft top hair, with a fringe toward the eyebrows.",
+    "pickIf": "you want a soft, young Korean look.",
+    "skipIf": "you have a round face, curly hair or thin hair.",
+    "daily": "5 min: blow dry, then a little light wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Korean cut",
+      "K-pop cut"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Soft top",
+        "text": "Falls over the short sides."
+      },
+      {
+        "title": "Fringe to brows",
+        "text": "Soft, not straight."
+      },
+      {
+        "title": "Hidden sides",
+        "text": "#3 underneath."
+      },
+      {
+        "title": "Airy texture",
+        "text": "Thinned and light."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does \"two-block\" mean?",
+        "a": "The hair is cut in two blocks: short sides underneath, and longer top hair that falls over them."
+      },
+      {
+        "q": "Is a two-block the same as an undercut?",
+        "a": "It's similar, but the soft top falls over the sides, so no line shows."
+      },
+      {
+        "q": "Does a two-block work with thick hair?",
+        "a": "Yes. Thick, straight hair is ideal. The barber thins out the top so it sits flat."
+      },
+      {
+        "q": "How do I style a two-block?",
+        "a": "Blow dry the fringe forward and down, then add a little light wax."
+      }
+    ],
+    "barberSteps": [
+      "Lower sides and back: machine #3.",
+      "One length. No fade.",
+      "Top: 4–5 fingers long. Scissors.",
+      "Top hair falls over short sides.",
+      "Fringe: to the eyebrows. Soft, not straight.",
+      "Thin out top with thinning scissors."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H19",
+    "updated": "2026-10-23",
+    "slug": "middle-part",
+    "name": "Middle Part",
+    "shortLine": "Medium hair parted in the middle, falling to both sides.",
+    "description": "Medium hair parted in the centre, falling to both sides like curtains.",
+    "pickIf": "you are growing your hair and want a relaxed, trendy look.",
+    "skipIf": "you have a round face, curly hair or thin hair.",
+    "daily": "5 min: blow dry, part in the middle, a little cream.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4–5 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Curtain hair",
+      "Centre part"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Centre part",
+        "text": "Even on both sides."
+      },
+      {
+        "title": "Curtain front",
+        "text": "Falls to eye level."
+      },
+      {
+        "title": "Soft sides",
+        "text": "Half over the ears."
+      },
+      {
+        "title": "Natural movement",
+        "text": "Light layers."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does hair need to be for a middle part?",
+        "a": "About 5–6 fingers on top, with the front reaching eye level."
+      },
+      {
+        "q": "Is a middle part the same as curtain hair?",
+        "a": "Yes. Curtain hair is another name for it."
+      },
+      {
+        "q": "How do I stop my middle part going flat?",
+        "a": "Blow dry the roots up and out to each side, then add a little cream."
+      },
+      {
+        "q": "Does a middle part suit a round face?",
+        "a": "Not really. It adds width at the sides."
+      }
+    ],
+    "barberSteps": [
+      "Sides: scissors, half the ear covered.",
+      "Top: 5–6 fingers long.",
+      "Front: down to eye level.",
+      "Part in the middle.",
+      "Front pieces: longer at the sides.",
+      "Thin out with thinning scissors."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H20",
+    "updated": "2026-10-23",
+    "slug": "medium-flow",
+    "name": "Medium Flow",
+    "shortLine": "Medium length hair pushed back, ends behind the ears.",
+    "description": "Medium-length hair pushed back, flowing behind the ears. Natural and easygoing.",
+    "pickIf": "you want longer hair with few barber visits.",
+    "skipIf": "you have a round face or thin hair.",
+    "daily": "2 min: push back with your fingers, a little cream if needed.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 6–8 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Flow"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Pushed back",
+        "text": "Natural, no shine."
+      },
+      {
+        "title": "Behind the ears",
+        "text": "Ends flow back."
+      },
+      {
+        "title": "Collar length",
+        "text": "Back touches the collar."
+      },
+      {
+        "title": "Light layers",
+        "text": "Weight removed."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does it take to grow a medium flow?",
+        "a": "About 6–9 months from a short cut, since hair grows about 1.25 cm a month."
+      },
+      {
+        "q": "How do I get through the awkward growing stage?",
+        "a": "Keep the sides and back trimmed every 6–8 weeks while the top grows."
+      },
+      {
+        "q": "Is a medium flow OK for office?",
+        "a": "Yes, if it's clean and pushed back."
+      },
+      {
+        "q": "Does a flow work with wavy hair?",
+        "a": "Yes. Waves make it look fuller and more natural."
+      }
+    ],
+    "barberSteps": [
+      "Keep length. Trim tips only.",
+      "Sides: behind the ears. Not short.",
+      "Back: down to the collar.",
+      "Remove weight with thinning scissors.",
+      "Neck line: natural, not sharp."
+    ],
+    "length": "Medium to long",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H21",
+    "updated": "2026-10-23",
+    "slug": "buzz-fade",
+    "name": "Buzz Fade",
+    "shortLine": "Buzz cut on top with the sides faded to skin.",
+    "description": "A buzz cut on top with the sides faded to skin. All the ease of a buzz, with a sharper finish.",
+    "pickIf": "you want zero styling but a sharper look than a plain buzz.",
+    "skipIf": "you have a round or long face.",
+    "daily": "Nothing. Just wash.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks, to keep the fade clean",
+    "suitsText": "Oval and square face · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Faded buzz"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Buzz top",
+        "text": "Even machine #2."
+      },
+      {
+        "title": "Skin fade",
+        "text": "Starts above the ear."
+      },
+      {
+        "title": "Smooth blend",
+        "text": "Skin up to #2."
+      },
+      {
+        "title": "Clean edges",
+        "text": "Ears and nape sharp."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a buzz cut and a buzz fade?",
+        "a": "The top is the same short length, but on a buzz fade the sides fade down to skin."
+      },
+      {
+        "q": "What numbers are used for a buzz fade?",
+        "a": "Usually #2 on top and #0 at the bottom of the sides, blended through #1."
+      },
+      {
+        "q": "Does a buzz fade need styling?",
+        "a": "No. Just wash."
+      },
+      {
+        "q": "How often should I re-cut a buzz fade?",
+        "a": "Every 2–3 weeks to keep the fade clean."
+      }
+    ],
+    "barberSteps": [
+      "Top: machine #2.",
+      "Fade line: 1 finger above the ear.",
+      "Below the line: machine #0.",
+      "Blend up: #1, then #2.",
+      "Clean neck and ears."
+    ],
+    "length": "Very short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H22",
+    "updated": "2026-10-23",
+    "slug": "high-and-tight",
+    "name": "High and Tight",
+    "shortLine": "Very short sides cut high, with a short, flat top.",
+    "description": "Very short sides cut high, with a short, flat top. Clean military style.",
+    "pickIf": "you want a strong, disciplined look with no styling.",
+    "skipIf": "you have a long face.",
+    "daily": "Nothing. Just wash.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval and square face · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Military cut"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "High sides",
+        "text": "#1 up to the corner."
+      },
+      {
+        "title": "Flat top",
+        "text": "Even, about 2 cm."
+      },
+      {
+        "title": "Short blend",
+        "text": "Small step into the top."
+      },
+      {
+        "title": "Neat nape",
+        "text": "Clean military finish."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is a high and tight the same as an army cut?",
+        "a": "It's the classic military version: very short sides cut high, with a short, flat top."
+      },
+      {
+        "q": "Is a high and tight good for sport and the gym?",
+        "a": "Yes. Very short hair stays cool and needs no styling."
+      },
+      {
+        "q": "What number is used on the sides?",
+        "a": "Usually #1, cut high up the head."
+      },
+      {
+        "q": "Does a high and tight suit a long face?",
+        "a": "Not really. High, short sides make a long face look longer."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #1, cut high.",
+      "Line: at the top corner of the head.",
+      "Small blend into the top.",
+      "Top: 1 finger long. Scissors or machine #4.",
+      "Top: flat and even.",
+      "Clean neck and ears."
+    ],
+    "length": "Very short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H23",
+    "updated": "2026-10-23",
+    "slug": "taper-fade",
+    "name": "Taper Fade",
+    "shortLine": "Neat cut with a small fade only at the sideburns and neck.",
+    "description": "A small fade only at the sideburns and back of the neck. Cleaner than a taper, softer than a full fade.",
+    "pickIf": "you want clean edges that are still fine for strict offices and schools.",
+    "skipIf": "you want a bold fade.",
+    "daily": "2 min: a little cream or wax on top.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "All face shapes · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Low taper"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Faded sideburn",
+        "text": "Skin, small area only."
+      },
+      {
+        "title": "Faded nape",
+        "text": "Clean at the neck."
+      },
+      {
+        "title": "Natural sides",
+        "text": "Machine #3."
+      },
+      {
+        "title": "Neat top",
+        "text": "About 5 cm."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a taper fade?",
+        "a": "A taper with a small fade to skin only at the sideburns and the back of the neck."
+      },
+      {
+        "q": "How is a taper fade different from a low fade?",
+        "a": "A low fade goes all around the head. A taper fade only touches the sideburns and neck."
+      },
+      {
+        "q": "Is a taper fade OK for strict schools and offices?",
+        "a": "Usually yes. It's the quietest fade."
+      },
+      {
+        "q": "How often should I re-cut a taper fade?",
+        "a": "Every 3 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #3.",
+      "Sideburns: fade to skin, small area only.",
+      "Back of neck: fade to skin, small area only.",
+      "Blend up to #3.",
+      "Top: 2–3 fingers long. Scissors.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H24",
+    "updated": "2026-10-23",
+    "slug": "drop-fade",
+    "name": "Drop Fade",
+    "shortLine": "Fade that curves down behind the ear.",
+    "description": "A fade that curves down behind the ear, following the head shape. Smooth from every side.",
+    "pickIf": "you want a fade that looks good from the back and sides too.",
+    "skipIf": "you have a long face.",
+    "daily": "3 min: style the top with wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval, square, round and heart face · All hair types · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Curved line",
+        "text": "Drops behind the ear."
+      },
+      {
+        "title": "Low at the back",
+        "text": "Follows the head shape."
+      },
+      {
+        "title": "Smooth blend",
+        "text": "Skin up to #3."
+      },
+      {
+        "title": "Textured top",
+        "text": "About 6 cm."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a drop fade?",
+        "a": "A fade whose line curves down behind the ear, following the shape of the head."
+      },
+      {
+        "q": "How is a drop fade different from a low fade?",
+        "a": "A low fade stays at one height all around. A drop fade dips lower at the back."
+      },
+      {
+        "q": "Does a drop fade work with curly hair?",
+        "a": "Yes. It suits all hair types."
+      },
+      {
+        "q": "How often does a drop fade need a touch-up?",
+        "a": "Every 2–3 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Fade line: above the ear, then curve down behind it.",
+      "Line at the back: low, near the neck.",
+      "Below the line: machine #0.",
+      "Blend up: #1, #2, #3.",
+      "Top: 3 fingers long. Scissors.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H25",
+    "updated": "2026-10-23",
+    "slug": "fade-with-line-design",
+    "name": "Fade with Line Design",
+    "shortLine": "A fade with one or two shaved lines on the side.",
+    "description": "A fade with one or two lines shaved into the side. Fun and personal.",
+    "pickIf": "you want a small, eye-catching detail.",
+    "skipIf": "your school or office has strict hair rules.",
+    "daily": "2 min: a little wax on the top.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2 weeks, before the lines grow out",
+    "suitsText": "Oval, square, round and heart face · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Design cut",
+      "Hair tattoo"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Shaved line",
+        "text": "Clean, 2 mm wide."
+      },
+      {
+        "title": "Low fade",
+        "text": "Skin blended up."
+      },
+      {
+        "title": "Sharp edges",
+        "text": "Cleaned with a razor."
+      },
+      {
+        "title": "Short top",
+        "text": "About 4 cm."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I choose my own design?",
+        "a": "Yes. Simple straight or curved lines work best. Ask your barber what they can do."
+      },
+      {
+        "q": "How long do the lines last?",
+        "a": "About 1–2 weeks before they grow in."
+      },
+      {
+        "q": "Is a line design allowed at school?",
+        "a": "Many schools don't allow designs. Check your school's rules first."
+      },
+      {
+        "q": "Does cutting the line hurt?",
+        "a": "No. The trimmer may feel a little scratchy, but it doesn't hurt."
+      }
+    ],
+    "barberSteps": [
+      "First: cut a low or mid fade.",
+      "Ask: which design, and which side?",
+      "Mark the line lightly with trimmer.",
+      "Cut the line with trimmer, no guard.",
+      "Line width: about 2 mm.",
+      "Clean the edges with razor."
+    ],
+    "length": "Short",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H26",
+    "updated": "2026-10-23",
+    "slug": "curly-top-fade",
+    "name": "Curly Top Fade",
+    "shortLine": "Natural curls on top with short, faded sides.",
+    "description": "Natural curls kept on top, with short faded sides. Shows off curly hair.",
+    "pickIf": "you have curly or wavy hair and want it to look neat.",
+    "skipIf": "you have straight hair or a long face.",
+    "daily": "2 min: a little curl cream with your fingers. Don't comb.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, square, round and heart face · Curly or wavy hair · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Defined curls",
+        "text": "Natural, shaped round."
+      },
+      {
+        "title": "Higher middle",
+        "text": "Soft rounded top."
+      },
+      {
+        "title": "Faded sides",
+        "text": "#0 to #2."
+      },
+      {
+        "title": "Curl cream",
+        "text": "Soft, no frizz."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should curly hair be cut wet or dry?",
+        "a": "Dry, so the barber can see where each curl sits."
+      },
+      {
+        "q": "What product is best for curls?",
+        "a": "Curl cream, worked in with your fingers."
+      },
+      {
+        "q": "How do I stop my curls from frizzing?",
+        "a": "Don't brush them when dry, and use conditioner 2–3 times a week."
+      },
+      {
+        "q": "Can I get a curly top fade with wavy hair?",
+        "a": "Yes. Waves look fuller on top with faded sides."
+      }
+    ],
+    "barberSteps": [
+      "Sides: low or mid fade, #0 to #2.",
+      "Top: 2–3 fingers long. Cut curls dry.",
+      "Cut each curl. Not straight across.",
+      "Top shape: round, a little higher in the middle.",
+      "Blend top into sides.",
+      "Apply curl cream with fingers."
+    ],
+    "length": "Short to medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Curly",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H27",
+    "updated": "2026-10-23",
+    "slug": "side-fringe",
+    "name": "Side Fringe",
+    "shortLine": "Longer fringe swept to one side across the forehead.",
+    "description": "A longer fringe swept to one side across the forehead. Soft and young.",
+    "pickIf": "you want to soften your face or cover a wide forehead.",
+    "skipIf": "you have a round face, curly hair or thin hair.",
+    "daily": "3 min: blow dry the fringe to the side, a little light wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, long and heart face · Straight hair",
+    "alsoCalled": [
+      "Side bangs"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Swept fringe",
+        "text": "Across the forehead."
+      },
+      {
+        "title": "Longer on one side",
+        "text": "Falls to the brow."
+      },
+      {
+        "title": "Short sides",
+        "text": "Machine #3."
+      },
+      {
+        "title": "Smooth finish",
+        "text": "Blow-dried, light wax."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which side should my fringe go?",
+        "a": "Usually the side your hair already falls to. The barber can check."
+      },
+      {
+        "q": "Does a side fringe cover a big forehead?",
+        "a": "Yes. It sweeps across and hides part of the forehead."
+      },
+      {
+        "q": "How do I keep the fringe in place?",
+        "a": "Blow dry it to the side, then add a little light wax."
+      },
+      {
+        "q": "Is a side fringe good for curly hair?",
+        "a": "No. Curls won't lie flat across the forehead."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3 or scissors.",
+      "Top: 4 fingers long.",
+      "Fringe: down to the eyebrows.",
+      "Ask: sweep to left or right?",
+      "Fringe: longer on that side.",
+      "Blow dry fringe to that side."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H28",
+    "updated": "2026-10-23",
+    "slug": "wolf-cut",
+    "name": "Wolf Cut",
+    "shortLine": "Shaggy, layered cut with volume on top and length at the back.",
+    "description": "Shaggy, layered cut with volume on top and longer hair at the back. Wild and trendy.",
+    "pickIf": "you want a bold, messy fashion look and have some natural wave.",
+    "skipIf": "you have a round face or thin hair, or a strict office.",
+    "daily": "2 min: a little salt spray or light wax, then ruffle with your fingers.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 6 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Shaggy cut"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Shaggy top",
+        "text": "Choppy layers with volume."
+      },
+      {
+        "title": "Messy fringe",
+        "text": "To the eyebrows."
+      },
+      {
+        "title": "Layered sides",
+        "text": "Over the ears."
+      },
+      {
+        "title": "Longer back",
+        "text": "Reaches the collar."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a wolf cut and a mullet?",
+        "a": "A wolf cut is layered and shaggy all over. A mullet is short at the front and sides, and long only at the back."
+      },
+      {
+        "q": "Does a wolf cut work with straight hair?",
+        "a": "Yes, but it looks best with some wave. Salt spray adds texture."
+      },
+      {
+        "q": "How long does hair need to be for a wolf cut?",
+        "a": "At least to the bottom of the ears at the back."
+      },
+      {
+        "q": "Is a wolf cut OK for office?",
+        "a": "Not in strict offices. It suits college and creative jobs."
+      }
+    ],
+    "barberSteps": [
+      "Back: keep length, to the collar.",
+      "Top: short layers, 3–4 fingers.",
+      "Sides: layers, over the ears.",
+      "Ends: choppy. Razor or point cut.",
+      "Fringe: messy, to the eyebrows.",
+      "Remove weight with thinning scissors."
+    ],
+    "length": "Medium to long",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H29",
+    "updated": "2026-10-23",
+    "slug": "man-bun",
+    "name": "Man Bun",
+    "shortLine": "Long hair tied up in a bun at the back of the head.",
+    "description": "Long hair pulled back and tied in a bun. Relaxed, and it keeps hair off your face.",
+    "pickIf": "your hair already reaches past your chin and you want to keep it long.",
+    "skipIf": "your hair is shorter than your chin, or thin.",
+    "daily": "2 min: brush back and tie with a soft hair tie.",
+    "weekly": "Conditioner 2–3 times.",
+    "nextVisit": "in 8 weeks, for a trim",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Top knot"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Smooth pull-back",
+        "text": "No bumps on top."
+      },
+      {
+        "title": "Neat bun",
+        "text": "Back of the head."
+      },
+      {
+        "title": "Healthy ends",
+        "text": "Trimmed, no split ends."
+      },
+      {
+        "title": "Soft tie",
+        "text": "Loose, not tight."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does hair need to be for a man bun?",
+        "a": "Long enough to reach past your chin, so it can be tied back."
+      },
+      {
+        "q": "Can tying my hair every day damage it?",
+        "a": "Pulling it very tight every day can damage the roots over time. Keep the bun loose and use a soft hair tie."
+      },
+      {
+        "q": "Can I get short sides with a man bun?",
+        "a": "Yes. Ask for machine #2 on the sides, with the top kept long."
+      },
+      {
+        "q": "How often should I trim a man bun?",
+        "a": "Every 8 weeks, to remove split ends."
+      }
+    ],
+    "barberSteps": [
+      "Keep all the length.",
+      "Trim ends only: 1 finger or less.",
+      "Remove split ends.",
+      "Ask: short sides too? If yes: machine #2.",
+      "Comb back. Tie a bun to check."
+    ],
+    "length": "Long",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H30",
+    "updated": "2026-10-23",
+    "slug": "head-shave",
+    "name": "Head Shave",
+    "shortLine": "Whole head shaved smooth with a razor.",
+    "description": "The whole head shaved smooth with a razor. Fresh and bold, and also chosen for rituals.",
+    "pickIf": "you want the cleanest look, have hair loss, or need it for a ritual.",
+    "skipIf": "you have a sensitive scalp.",
+    "daily": "1 min: moisturiser, and sun cream outdoors.",
+    "weekly": "Shave at home 2–3 times to stay smooth.",
+    "nextVisit": "any time, for a smooth barber shave",
+    "suitsText": "Oval and square face · All hair types · Good for thin hair and hair loss",
+    "alsoCalled": [
+      "Bald shave"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Smooth scalp",
+        "text": "Razor close, no stubble."
+      },
+      {
+        "title": "Even outline",
+        "text": "Clean around the ears."
+      },
+      {
+        "title": "Healthy sheen",
+        "text": "Moisturised, not greasy."
+      },
+      {
+        "title": "Smooth nape",
+        "text": "Shaved clean."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How often do I need to shave my head?",
+        "a": "Every 2–3 days to keep it smooth."
+      },
+      {
+        "q": "How do I avoid razor bumps on my head?",
+        "a": "Shave with the hair growth, use a new blade, and moisturise afterwards."
+      },
+      {
+        "q": "Do I need sun cream on a shaved head?",
+        "a": "Yes, when you're outdoors. A bare scalp burns easily."
+      },
+      {
+        "q": "Can I keep a tupi (small tuft) for a ritual?",
+        "a": "Yes. Tell the barber before they start."
+      }
+    ],
+    "barberSteps": [
+      "Ask: keep a small tuft (tupi) at the back?",
+      "Ask: sensitive skin or cuts on the scalp?",
+      "Whole head: machine #0 first.",
+      "Warm towel, then shaving cream.",
+      "New blade. Shave with hair growth.",
+      "Cold water, then moisturiser."
+    ],
+    "length": "No hair",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H31",
+    "updated": "2026-10-23",
+    "slug": "crop-fade",
+    "name": "Crop Fade",
+    "shortLine": "Short, rough top pushed forward, with faded sides.",
+    "description": "A French crop with skin-faded sides: a rough top pushed forward into a short fringe.",
+    "pickIf": "you want one of the most popular modern cuts with almost no styling.",
+    "skipIf": "you have a round face.",
+    "daily": "1 min: a little dry wax (clay) through the top.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval, square, long and heart face · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Textured crop"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Rough top",
+        "text": "Choppy, pushed forward."
+      },
+      {
+        "title": "Short fringe",
+        "text": "Above the eyebrows."
+      },
+      {
+        "title": "Mid skin fade",
+        "text": "#0 to #2."
+      },
+      {
+        "title": "Matte finish",
+        "text": "Dry wax."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a French crop and a crop fade?",
+        "a": "The top is the same, but on a crop fade the sides go down to skin."
+      },
+      {
+        "q": "Is a crop fade good for thin hair?",
+        "a": "Yes. The fringe covers the front, and short sides make the top look fuller."
+      },
+      {
+        "q": "What product works best?",
+        "a": "Dry wax (clay), for a matte, slightly messy look."
+      },
+      {
+        "q": "How often should I re-cut a crop fade?",
+        "a": "Every 2–3 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Sides: mid fade, #0 to #2.",
+      "Top: 2 fingers long. Scissors.",
+      "Comb top forward.",
+      "Fringe: short, a little rough.",
+      "Top: make texture (point cut).",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H32",
+    "updated": "2026-10-23",
+    "slug": "burst-fade",
+    "name": "Burst Fade",
+    "shortLine": "Fade that curves around the ear in a half circle.",
+    "description": "A fade that curves around the ear in a half circle, with a longer back.",
+    "pickIf": "you want a bold, different fade, often with curls or a mohawk.",
+    "skipIf": "you have a long face or a strict office.",
+    "daily": "3 min: style the top with wax or curl cream.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2 weeks",
+    "suitsText": "Oval, square, round and heart face · All hair types · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Half circle",
+        "text": "Fade curves around the ear."
+      },
+      {
+        "title": "Longer back",
+        "text": "Machine #4 behind."
+      },
+      {
+        "title": "Smooth blend",
+        "text": "Skin to #3."
+      },
+      {
+        "title": "Top length",
+        "text": "About 6 cm."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a burst fade?",
+        "a": "A fade that curves around the ear in a half circle, leaving the back longer."
+      },
+      {
+        "q": "Does a burst fade work with curly hair?",
+        "a": "Yes. It's often paired with curls or a mohawk."
+      },
+      {
+        "q": "Is a burst fade OK for office?",
+        "a": "Usually not. It's a bold, fashion fade."
+      },
+      {
+        "q": "How often does a burst fade need a touch-up?",
+        "a": "Every 2 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Fade shape: half circle around the ear.",
+      "Around the ear: machine #0.",
+      "Blend out: #1, #2, #3.",
+      "Back of head: keep longer, #4.",
+      "Top: 3 fingers long. Scissors.",
+      "Clean the edges around the ear."
+    ],
+    "length": "Short",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H33",
+    "updated": "2026-10-23",
+    "slug": "mohawk",
+    "name": "Mohawk",
+    "shortLine": "Strip of hair standing up in the middle. Sides very short.",
+    "description": "A strip of hair standing up from front to back, with very short sides.",
+    "pickIf": "you want the boldest look in the shop.",
+    "skipIf": "you have a long face or thin hair, or school or office rules.",
+    "daily": "5 min: strong gel or wax, push the strip straight up.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval, square and round face · All hair types",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Standing strip",
+        "text": "2 fingers wide."
+      },
+      {
+        "title": "Straight up",
+        "text": "Strong gel hold."
+      },
+      {
+        "title": "Very short sides",
+        "text": "#0 to #1."
+      },
+      {
+        "title": "Blended edges",
+        "text": "Soft strip line."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a mohawk and a faux hawk?",
+        "a": "A mohawk takes the sides very short or bare. A faux hawk keeps them short but not shaved."
+      },
+      {
+        "q": "How wide should the strip be?",
+        "a": "About 2 fingers, but you can ask for wider."
+      },
+      {
+        "q": "How do I make my mohawk stand up?",
+        "a": "Blow dry it upward, then use strong gel or wax."
+      },
+      {
+        "q": "Can I wear a mohawk down?",
+        "a": "Yes. Without product, the strip falls to one side."
+      }
+    ],
+    "barberSteps": [
+      "Strip width: 2 fingers, front to back.",
+      "Mark the strip lines first.",
+      "Sides: machine #0 or #1.",
+      "Strip: 3–4 fingers long. Scissors.",
+      "Blend the strip edges a little.",
+      "Gel the strip straight up."
+    ],
+    "length": "Medium strip",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H34",
+    "updated": "2026-10-23",
+    "slug": "modern-mullet",
+    "name": "Modern Mullet",
+    "shortLine": "Short front and sides, longer hair at the back.",
+    "description": "Short front and sides, with longer hair at the back of the neck. Softer than the old-style mullet.",
+    "pickIf": "you want a fun fashion look.",
+    "skipIf": "you have a round face or thin hair, or a strict office.",
+    "daily": "2 min: a little light wax, messy on top.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4–5 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Short sides",
+        "text": "Low fade."
+      },
+      {
+        "title": "Textured top",
+        "text": "About 6 cm."
+      },
+      {
+        "title": "Long back",
+        "text": "Blended, 4-5 fingers."
+      },
+      {
+        "title": "Messy fringe",
+        "text": "Short and loose."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a mullet and a wolf cut?",
+        "a": "A mullet is short at the front and sides and long only at the back. A wolf cut is layered all over."
+      },
+      {
+        "q": "How long does the back need to be?",
+        "a": "At least 4–5 fingers."
+      },
+      {
+        "q": "Can I get a mullet with a fade?",
+        "a": "Yes. Many modern mullets have faded sides."
+      },
+      {
+        "q": "Is a mullet OK for office?",
+        "a": "Not in strict offices."
+      }
+    ],
+    "barberSteps": [
+      "Sides: low fade or machine #2.",
+      "Top: 3 fingers long. Make texture.",
+      "Back: keep long, 4–5 fingers.",
+      "Blend top into the back.",
+      "Fringe: short and messy.",
+      "Neck: clean the edges. Keep the length."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H35",
+    "updated": "2026-10-23",
+    "slug": "mushroom-cut",
+    "name": "Mushroom Cut",
+    "shortLine": "Rounded fringe all around the head, like a mushroom cap.",
+    "description": "Korean-style rounded top that falls evenly all around, with a full fringe.",
+    "pickIf": "you want a soft, neat, young look.",
+    "skipIf": "you have a round face, curly hair or thin hair.",
+    "daily": "3 min: blow dry down and round, a little light spray.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, long and heart face · Straight hair",
+    "alsoCalled": [
+      "Modern bowl cut"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Rounded shape",
+        "text": "Falls evenly all round."
+      },
+      {
+        "title": "Full fringe",
+        "text": "To the eyebrows."
+      },
+      {
+        "title": "Short underneath",
+        "text": "#2 at the lower sides."
+      },
+      {
+        "title": "Soft finish",
+        "text": "Smooth, light spray."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is a mushroom cut the same as a bowl cut?",
+        "a": "It's a modern, softer version, with soft edges and short sides underneath."
+      },
+      {
+        "q": "Does a mushroom cut work with curly hair?",
+        "a": "No. It needs straight hair that falls evenly."
+      },
+      {
+        "q": "How do I style a mushroom cut?",
+        "a": "Blow dry the hair down and slightly round, then add a little light spray."
+      },
+      {
+        "q": "Does a mushroom cut suit a round face?",
+        "a": "Not really. The rounded shape adds width."
+      }
+    ],
+    "barberSteps": [
+      "Lower sides and back: machine #2.",
+      "Top: 5 fingers long.",
+      "Comb top down all around.",
+      "Cut a rounded line all around.",
+      "Fringe: to the eyebrows.",
+      "Thin out with thinning scissors."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H36",
+    "updated": "2026-10-23",
+    "slug": "comma-hair",
+    "name": "Comma Hair",
+    "shortLine": "Korean fringe curled inward like a comma.",
+    "description": "Korean fringe parted to one side and curled inward like a comma.",
+    "pickIf": "you want a popular Korean style and don't mind morning styling.",
+    "skipIf": "you have a round face, curly hair or thin hair, or no time in the morning.",
+    "daily": "5 min: blow dry the fringe inward with a round brush, a little light wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight hair",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Comma curl",
+        "text": "Fringe curls inward."
+      },
+      {
+        "title": "Side part",
+        "text": "Fringe falls to one side."
+      },
+      {
+        "title": "Brow length",
+        "text": "Reaches the eyebrows."
+      },
+      {
+        "title": "Short sides",
+        "text": "Two-block underneath."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why is it called comma hair?",
+        "a": "The fringe curls inward at the end, like a comma."
+      },
+      {
+        "q": "How do I make the comma shape?",
+        "a": "Blow dry the fringe inward with a round brush, or use a small curling iron."
+      },
+      {
+        "q": "How long should the fringe be?",
+        "a": "Down to the eyebrows."
+      },
+      {
+        "q": "Can I get comma hair with a perm?",
+        "a": "Yes. A soft perm on the fringe holds the curl with less daily styling."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, or two-block.",
+      "Top: 4–5 fingers long.",
+      "Ask: part on left or right?",
+      "Fringe: to the eyebrows, longer on one side.",
+      "Blow dry fringe inward with a round brush.",
+      "Curl the fringe end inward."
+    ],
+    "length": "Medium",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H37",
+    "updated": "2026-10-23",
+    "slug": "korean-perm",
+    "name": "Korean Perm",
+    "shortLine": "Soft, loose waves added to the top with a perm.",
+    "description": "Soft, loose waves added to straight top hair with a perm. Volume without daily styling.",
+    "pickIf": "your hair is straight and flat and you want easy volume for months.",
+    "skipIf": "your hair is damaged or already curly, or your scalp is sensitive.",
+    "daily": "2 min: a little curl cream, squeeze with your fingers.",
+    "weekly": "Mild shampoo and conditioner. No hair straightener.",
+    "nextVisit": "in 4 weeks for a trim. The perm lasts 2–3 months.",
+    "atShop": "2–3 hours",
+    "suitsText": "Oval, square, long and heart face · Straight hair · Thin hair OK",
+    "alsoCalled": [
+      "Wavy perm",
+      "Men's perm"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Soft waves",
+        "text": "Loose perm curls."
+      },
+      {
+        "title": "Airy volume",
+        "text": "Light, not frizzy."
+      },
+      {
+        "title": "Wavy fringe",
+        "text": "To the eyebrows."
+      },
+      {
+        "title": "Short sides",
+        "text": "Two-block base."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does a Korean perm last?",
+        "a": "About 2–3 months."
+      },
+      {
+        "q": "Does a perm damage hair?",
+        "a": "It can make hair drier. Use mild shampoo and conditioner, and skip the perm if your hair is already damaged."
+      },
+      {
+        "q": "How long does a perm take at the shop?",
+        "a": "2–3 hours."
+      },
+      {
+        "q": "When can I wash my hair after a perm?",
+        "a": "Wait 2 days before using shampoo."
+      }
+    ],
+    "barberSteps": [
+      "Ask: scalp problems or allergy? If yes, stop.",
+      "Cut first: two-block or comma shape.",
+      "Roll top hair on medium perm rods.",
+      "Apply perm lotion. Wait as on the box.",
+      "Rinse. Apply neutraliser. Wait as on the box.",
+      "Remove rods. Rinse. No shampoo for 2 days."
+    ],
+    "barberNote": "Best done by someone trained in perms.",
+    "length": "Medium",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H38",
+    "updated": "2026-10-23",
+    "slug": "brush-up",
+    "name": "Brush Up",
+    "shortLine": "Short sides with the top brushed straight up.",
+    "description": "Short sides with the top brushed straight up. Fresh, with some height.",
+    "pickIf": "you want a little height without the work of a quiff.",
+    "skipIf": "you have a long face.",
+    "daily": "2 min: blow dry up, a little wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square, round and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Brushed up",
+        "text": "Even height across the top."
+      },
+      {
+        "title": "Top length",
+        "text": "About 5 cm."
+      },
+      {
+        "title": "Short sides",
+        "text": "#2 to #3."
+      },
+      {
+        "title": "Light hold",
+        "text": "Wax, natural shine."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a brush up and a quiff?",
+        "a": "A brush up has even height across the top. A quiff has more height at the front."
+      },
+      {
+        "q": "How long should the top be?",
+        "a": "2–3 fingers."
+      },
+      {
+        "q": "What product holds a brush up?",
+        "a": "Wax, after blow drying the top straight up."
+      },
+      {
+        "q": "Is a brush up OK for school and office?",
+        "a": "Yes. It's neat and not too tall."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #2, blend to #3.",
+      "Top: 2–3 fingers long. Scissors.",
+      "Front: same length as the top.",
+      "Blow dry top straight up.",
+      "Finish with wax.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H39",
+    "updated": "2026-10-23",
+    "slug": "natural-curls",
+    "name": "Natural Curls",
+    "shortLine": "Curly hair kept at medium length, shaped evenly all over.",
+    "description": "Curls kept at medium length, shaped evenly so they look full and tidy.",
+    "pickIf": "you have curly hair and want to show it off.",
+    "skipIf": "you have straight hair, a round face or thin hair.",
+    "daily": "2 min: curl cream with your fingers. Don't brush when dry.",
+    "weekly": "Conditioner 2–3 times.",
+    "nextVisit": "in 6 weeks",
+    "suitsText": "Oval, square, long and heart face · Curly or wavy hair",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Defined curls",
+        "text": "Curl cream, no frizz."
+      },
+      {
+        "title": "Even outline",
+        "text": "Round, balanced shape."
+      },
+      {
+        "title": "Shorter sides",
+        "text": "About 6 cm."
+      },
+      {
+        "title": "Light weight",
+        "text": "Bulk thinned out."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I stop my curls from frizzing?",
+        "a": "Use conditioner, don't brush them when dry, and use curl cream."
+      },
+      {
+        "q": "How often should curly hair be trimmed?",
+        "a": "Every 6 weeks to keep the shape."
+      },
+      {
+        "q": "Should curly hair be cut wet or dry?",
+        "a": "Dry, so the barber can see each curl."
+      },
+      {
+        "q": "Can straight hair be made curly?",
+        "a": "Only with a perm. See H37 Korean Perm."
+      }
+    ],
+    "barberSteps": [
+      "Cut curls dry, one by one.",
+      "Top: 4–5 fingers long.",
+      "Sides: 3 fingers long. Shorter than top.",
+      "Shape the outline: round and even.",
+      "Remove bulk with thinning scissors.",
+      "Apply curl cream with fingers."
+    ],
+    "length": "Medium",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Curly",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H40",
+    "updated": "2026-10-23",
+    "slug": "shoulder-length",
+    "name": "Shoulder Length",
+    "shortLine": "Long hair worn down, reaching the shoulders.",
+    "description": "Long hair worn loose to the shoulders, with light layers.",
+    "pickIf": "you want long hair that looks cared for, not messy.",
+    "skipIf": "you have a long face or thin hair, or a strict office.",
+    "daily": "3 min: brush, a little hair cream on the ends.",
+    "weekly": "Conditioner 2–3 times.",
+    "nextVisit": "in 8 weeks, for a trim",
+    "suitsText": "Oval, square and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Long hair"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Shoulder length",
+        "text": "Worn loose."
+      },
+      {
+        "title": "Face-framing layers",
+        "text": "Light around the face."
+      },
+      {
+        "title": "Healthy ends",
+        "text": "No split ends."
+      },
+      {
+        "title": "Natural movement",
+        "text": "Soft and light."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does it take to grow hair to the shoulders?",
+        "a": "About 1.5–2 years from a short cut, since hair grows about 1.25 cm a month."
+      },
+      {
+        "q": "Do I need trims while it grows?",
+        "a": "Yes. Small trims every 8 weeks keep the ends healthy."
+      },
+      {
+        "q": "How do I keep long hair neat?",
+        "a": "Brush it daily, use conditioner, and put a little hair cream on the ends."
+      },
+      {
+        "q": "Is long hair OK for office?",
+        "a": "Not in every office. Tying it in a bun can help."
+      }
+    ],
+    "barberSteps": [
+      "Ask: how much length to keep?",
+      "Trim ends only: 1–2 fingers.",
+      "Light layers around the face.",
+      "Remove split ends.",
+      "Remove weight with thinning scissors.",
+      "Neck line: natural, not sharp."
+    ],
+    "length": "Long",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H41",
+    "updated": "2026-10-23",
+    "slug": "school-cut",
+    "name": "School Cut",
+    "shortLine": "Short, neat cut that meets most school rules.",
+    "description": "Short and tidy: ears clear, collar clear and the front above the eyebrows.",
+    "pickIf": "you need a cut that meets school rules.",
+    "skipIf": "you want a fashion style.",
+    "daily": "1 min: comb.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "All face shapes · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Student cut"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Ears clear",
+        "text": "Sides short and neat."
+      },
+      {
+        "title": "Above the brows",
+        "text": "Front kept short."
+      },
+      {
+        "title": "Collar clear",
+        "text": "Tidy back."
+      },
+      {
+        "title": "Neat top",
+        "text": "About 3 cm, combed."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What hair rules do schools usually have?",
+        "a": "Rules differ by school. Many ask for the ears and collar clear and the front above the eyebrows."
+      },
+      {
+        "q": "How short is a school cut?",
+        "a": "Usually machine #2 on the sides and 1–2 fingers on top."
+      },
+      {
+        "q": "How often does a school cut need a trim?",
+        "a": "Every 3–4 weeks."
+      },
+      {
+        "q": "Does a school cut need any product?",
+        "a": "No. Just comb it."
+      }
+    ],
+    "barberSteps": [
+      "Ask: any school rules for hair?",
+      "Sides and back: machine #2.",
+      "Ears: fully clear.",
+      "Top: 1–2 fingers long. Scissors.",
+      "Front: above the eyebrows. Back: above the collar.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H42",
+    "updated": "2026-10-23",
+    "slug": "pushed-back",
+    "name": "Pushed Back",
+    "shortLine": "Medium top pushed back with a natural, matte finish.",
+    "description": "Medium top pushed back with a soft, natural finish. Not shiny like a slick back.",
+    "pickIf": "you want smart but relaxed hair for office and weekends.",
+    "skipIf": "you have a long face or thin hair.",
+    "daily": "3 min: blow dry back, a little matte cream.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, round and heart face · Straight or wavy hair",
+    "alsoCalled": [],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Pushed back",
+        "text": "Soft and natural."
+      },
+      {
+        "title": "Matte finish",
+        "text": "No shine."
+      },
+      {
+        "title": "Tapered sides",
+        "text": "#3 to #2."
+      },
+      {
+        "title": "Clean nape",
+        "text": "Neat neck line."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between pushed back and slicked back hair?",
+        "a": "Pushed back hair has a soft, matte finish. A slick back is shiny and combed flat."
+      },
+      {
+        "q": "What product should I use?",
+        "a": "Matte cream or matte paste."
+      },
+      {
+        "q": "How long should the top be?",
+        "a": "About 4 fingers."
+      },
+      {
+        "q": "Does pushed back hair suit a long face?",
+        "a": "Not really. It shows more forehead, which makes the face look longer."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, taper to #2 at neck.",
+      "Top: 4 fingers long. Scissors.",
+      "Front: a little longer than back.",
+      "Blow dry top back.",
+      "Finish with matte paste.",
+      "Clean neck and ears."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  }
+]

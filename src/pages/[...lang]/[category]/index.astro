@@ -1,0 +1,83 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Chips from '@/components/Chips.astro';
+import Icon from '@/components/Icon.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import StyleCard from '@/components/StyleCard.astro';
+import { breadcrumbs } from '@/data/seo';
+import { categoryList, categoryText, getItems, type Category } from '@/data/catalogue';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().flatMap(({ lang }) =>
+    categoryList.map((category) => ({ params: { lang, category: category.segment }, props: { category } })),
+  );
+}
+
+interface Props {
+  category: Category;
+}
+
+const { category } = Astro.props;
+const i = useI18n(Astro.url);
+const { t, l } = i;
+const text = categoryText(category.key, i);
+const items = await getItems(category.key, i);
+---
+
+<BaseLayout title={text.seoTitle} description={text.seoDescription}>
+  <JsonLd
+    slot="head"
+    data={breadcrumbs([{ name: t('site.home'), path: l('/') }, { name: text.label, path: l(`/${category.segment}`) }], Astro.site!)}
+  />
+  <main class="wrap pt-5 pb-12">
+    <Chips
+      label={t('list.categories')}
+      items={categoryList.map((c) => ({ label: categoryText(c.key, i).label, href: l(`/${c.segment}`), active: c.key === category.key }))}
+    />
+
+    <header class="mt-6">
+      <p class="tag">{t('list.browse')}</p>
+      <h1 class="mt-2 text-[2.25rem] leading-tight">
+        {text.label} <span class="font-normal whitespace-nowrap text-muted">· {items.length} {text.unit}</span>
+      </h1>
+      <p class="mt-2 max-w-xl text-[0.9375rem] text-muted">{text.intro}</p>
+      <a
+        href={`${l('/about-you')}?from=${l(`/${category.segment}`)}`}
+        data-answers-link
+        class="mt-5 inline-flex h-11 items-center gap-2 bg-card px-4 text-[0.8125rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line),var(--shadow-soft)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_1px_rgb(28_24_21/0.25)]"
+      >
+        <Icon name="sliders" size={16} />
+        <span data-answers-label>{t('list.findWhatSuits')}</span>
+      </a>
+    </header>
+    {/* Shown by the About you filter. */}
+    <p data-sorted-note hidden class="mt-3 text-sm font-semibold text-gold-ink">{t('list.sortedNote')}</p>
+    <div data-no-results hidden class="core mt-4 flex flex-wrap items-center justify-between gap-3 p-4">
+      <p class="text-[0.9375rem] font-semibold">{t('list.noResults')}</p>
+      <button type="button" data-clear-answers class="h-10 bg-ink px-4 text-sm font-semibold text-white">{t('list.clearAnswers')}</button>
+    </div>
+
+    <ul class="mt-8 grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-3 lg:grid-cols-4" data-item-list={category.key}>
+      {
+        items.map((item, n) => (
+          <li data-reveal style={`--reveal-delay:${(n % 4) * 60}ms`}>
+            <StyleCard
+              itemId={item.id}
+              mainPhoto={item.mainPhoto}
+              match={item.match}
+              category={item.category}
+              href={item.href}
+              name={item.name}
+              shortLine={item.shortLine}
+              meta={item.cardMeta}
+              upkeep={item.upkeep}
+              aside={item.cardAside}
+              swatch={item.swatch}
+            />
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</BaseLayout>
