@@ -27,13 +27,12 @@ const block = kgfBlock({ title: '', white: dark }).replace('role="img" aria-labe
   <span
     aria-hidden="true"
     class:list={[
-      'flex-col leading-[1.05] font-semibold tracking-[0.14em] uppercase',
-      size === 'lg' ? 'flex text-[0.9375rem]' : 'hidden text-[0.625rem] sm:flex',
+      'font-semibold tracking-[0.16em] uppercase leading-none',
+      size === 'lg' ? 'text-[0.9375rem]' : 'text-[0.75rem] sm:text-[0.8125rem]',
       tone === 'dark' ? 'text-white' : 'text-ink',
     ]}
   >
-    <span>Unisex</span>
-    <span>Saloon</span>
+    Saloon
   </span>
   <span class="sr-only">{t('site.homeLink', { shop: shop.name })}</span>
 </a>

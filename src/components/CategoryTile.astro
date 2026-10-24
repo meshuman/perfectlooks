@@ -1,7 +1,6 @@
 ---
 import Icon from './Icon.astro';
 import ItemPhoto from './ItemPhoto.astro';
-import { photoFor } from '@/data/photos';
 import type { IconName } from '@/data/icons';
 
 interface Props {
@@ -18,35 +17,21 @@ interface Props {
 }
 
 const { href, title, count, icon, feature = false, photo, class: className, ...rest } = Astro.props;
-
-// With a real photo the label needs a shade to stay readable; on a colour block dark text does the job.
-const hasPhoto = Boolean(photo && photoFor(photo.id));
 ---
 
-{/* Phones: a compact colour block with the title, count and arrow set on it, sized from the screen height so the whole grid fits one screen. md and up: the block with the label underneath. */}
-<a href={href} class:list={['group relative flex flex-col active:opacity-90', feature && 'col-span-2 md:row-span-2', className]} {...rest}>
-  <div class:list={['relative overflow-hidden', feature ? 'h-[clamp(5.5rem,16svh,9rem)] md:h-auto md:flex-1 md:min-h-80' : 'h-[clamp(5rem,14svh,7rem)] md:h-auto md:aspect-square']}>
+<a href={href} class:list={['group flex flex-col', feature && 'col-span-2 md:row-span-2', className]} {...rest}>
+  <div class:list={['relative overflow-hidden', feature ? 'aspect-[16/10] md:aspect-auto md:flex-1 md:min-h-80' : 'aspect-square']}>
     <ItemPhoto
       item={photo ?? { id: title, name: title, mainPhoto: 'front' }}
       icon={icon}
-      class:list={[
-        'absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]',
-        // The icon moves to the top corner so it never sits behind the label.
-        !hasPhoto && 'max-md:items-end max-md:justify-start max-md:p-3',
-      ]}
+      class="absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
     />
-    {hasPhoto && <div class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-ink/70 to-transparent md:hidden" aria-hidden="true" />}
   </div>
-  <div
-    class:list={[
-      'flex items-end justify-between gap-2 max-md:absolute max-md:inset-x-0 max-md:bottom-0 max-md:p-3 md:items-center md:pt-3',
-      hasPhoto ? 'max-md:text-white' : 'max-md:text-ink',
-    ]}
-  >
-    <div class="min-w-0">
-      <h3 class:list={['leading-tight font-semibold', feature ? 'text-[1.25rem] md:text-[1.375rem]' : 'text-[1rem] md:text-[1.0625rem]']}>{title}</h3>
-      <p class="mt-0.5 text-[0.75rem] leading-snug md:text-[0.8125rem] md:text-muted">{count}</p>
+  <div class="flex items-center justify-between gap-2 pt-3">
+    <div>
+      <h3 class:list={['font-semibold', feature ? 'text-[1.375rem]' : 'text-[1.0625rem]']}>{title}</h3>
+      <p class="text-[0.8125rem] text-muted">{count}</p>
     </div>
-    <Icon name="arrowRight" size={20} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+    <Icon name="arrowRight" size={20} strokeWidth={1.25} class="text-ink transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
   </div>
 </a>
