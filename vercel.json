@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/hair",
+      "destination": "/styles",
+      "permanent": true
+    },
+    {
+      "source": "/hair/:path*",
+      "destination": "/styles/:path*",
+      "permanent": true
+    }
+  ]
+}
