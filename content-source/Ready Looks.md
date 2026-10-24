@@ -1,6 +1,6 @@
 # Ready Looks
 
-25 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
+31 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
 
 - "—" means no change for that slot.
 - **Suits face** lists only the shapes that suit every part of the look.
@@ -35,6 +35,12 @@
 | L23 Festival Moustache | H10 Classic Side Part | B01 Clean Shave | M04 Handlebar | — | Oval, Heart | Full | High |
 | L24 Office Beard | H23 Taper Fade | B04 Short Boxed Beard | — | — | Oval, Round, Long, Heart | Medium, Full | Medium |
 | L25 Sharp Van Dyke | H07 Low Fade | B07 Van Dyke | Part of beard | — | Oval, Square, Round, Heart | Any | Medium |
+| L26 Soft Dandy | H43 Dandy Cut | B01 Clean Shave | Shave off | — | Oval, Square, Round, Heart | Any | Medium |
+| L27 Wispy Bangs | H44 See-Through Bangs | B01 Clean Shave | Shave off | — | Oval, Square, Long, Heart | Any | Medium |
+| L28 Korean Gentleman | H47 Regent Cut | B02 Light Stubble | — | — | Oval, Square | Any | High |
+| L29 Soft Layers | H48 Hush Cut | B01 Clean Shave | Shave off | — | Oval, Round, Square, Heart | Any | Medium |
+| L30 Sharp Edgar | H49 Edgar Cut | B03 Heavy Stubble | — | — | Oval, Square, Long, Heart | Medium, Full | High |
+| L31 Ash Brown Perm | H37 Korean Perm | B01 Clean Shave | Shave off | C10 Ash Brown | Oval, Square, Long, Heart | Any | Medium |
 
 ## L01 Office Ready
 
@@ -387,3 +393,88 @@ Low fade with a pointed Van Dyke beard.
 - **Weekly:** Shave the cheeks and the gap 2–3 times.
 - **Next barber visit:** in 2–3 weeks
 - **Suits:** Oval, square, round and heart face · All hair types · Any beard growth, even patchy
+
+## L26 Soft Dandy
+
+Soft side-swept Korean hair with a fresh, clean face.
+
+**Description:** A Korean dandy cut with soft volume and a fully clean-shaven face. Polished but gentle, for office, college and dates.
+
+- **Pick this if:** you want a soft, polished look that is easy to wear every day.
+- **Skip if:** you have very thin hair, or no time to blow dry.
+- **Includes:** H43 Dandy Cut · B01 Clean Shave · Moustache: Shave off
+- **Daily:** 9 min: shave, then blow dry the top up and to the side.
+- **Weekly:** Nothing extra.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Any beard growth
+
+## L27 Wispy Bangs
+
+Light see-through fringe with a clean face.
+
+**Description:** Thin, wispy bangs over short, tidy sides, with a fully clean-shaven face. Soft, youthful and easy.
+
+- **Pick this if:** you want a soft, youthful Korean look without a heavy fringe.
+- **Skip if:** you have very curly hair, or want a bold look.
+- **Includes:** H44 See-Through Bangs · B01 Clean Shave · Moustache: Shave off
+- **Daily:** 8 min: shave, then blow dry the fringe down.
+- **Weekly:** Nothing extra.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L28 Korean Gentleman
+
+Swept-back Korean hair with light stubble.
+
+**Description:** A Regent Cut with a long, soft top swept back, and light stubble. Grown-up and smart without looking stiff.
+
+- **Pick this if:** you want a smart, grown-up Korean look for work and evenings.
+- **Skip if:** you have thin hair, or your job needs a clean shave.
+- **Includes:** H47 Regent Cut · B02 Light Stubble
+- **Daily:** 7 min: blow dry back, a little light pomade.
+- **Weekly:** Trim the stubble twice at 1–2 mm.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval and square face · Straight or wavy hair · Any beard growth
+
+## L29 Soft Layers
+
+Feathery layers with a fresh, clean face.
+
+**Description:** A Hush Cut with soft layers around the face, and a fully clean-shaven face. Light, soft and cared for.
+
+- **Pick this if:** you want longer hair that looks soft and neat.
+- **Skip if:** you have very short or curly hair, or a strict office.
+- **Includes:** H48 Hush Cut · B01 Clean Shave · Moustache: Shave off
+- **Daily:** 9 min: shave, then blow dry with a little light cream.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 6 weeks
+- **Suits:** Oval, round, square and heart face · Straight or wavy hair · Any beard growth
+
+## L30 Sharp Edgar
+
+Blunt fringe over a skin fade, with heavy stubble.
+
+**Description:** An Edgar Cut with a blunt fringe over a mid skin fade, and about a week of stubble. Bold, sharp and modern.
+
+- **Pick this if:** you want a bold, modern cut and can visit every 2 weeks.
+- **Skip if:** you have a round face, or your beard grows patchy.
+- **Includes:** H49 Edgar Cut · B03 Heavy Stubble
+- **Daily:** 3 min: comb the fringe forward, a little dry wax (clay).
+- **Weekly:** Trim the stubble once at 5 mm.
+- **Next barber visit:** in 2 weeks
+- **Suits:** Oval, square, long and heart face · All hair types · Medium or full beard growth
+
+## L31 Ash Brown Perm
+
+Soft Korean perm waves in cool ash brown.
+
+**Description:** A Korean perm with soft waves, coloured cool ash brown, and a fully clean-shaven face. A popular modern Korean look.
+
+- **Pick this if:** you want a soft, modern look with colour and have a few hours.
+- **Skip if:** your hair is damaged, your scalp is sensitive, or your office is strict.
+- **Includes:** H37 Korean Perm · B01 Clean Shave · Moustache: Shave off · C10 Ash Brown
+- **Daily:** 9 min: shave, then a little curl cream.
+- **Weekly:** Mild shampoo and conditioner. Purple shampoo once.
+- **Next barber visit:** in 4 weeks for a trim. The perm lasts 2–3 months.
+- **At the shop:** 3–4 hours on perm and colour day
+- **Suits:** Oval, square, long and heart face · Straight hair · Any beard growth

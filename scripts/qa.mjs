@@ -19,6 +19,11 @@ const PAGES = [
   '/shops/kgf-unisex-saloon',
   '/offline',
   // Nepali and Hindi: longer words and Devanagari can break layouts that English doesn't.
+  '/styles/dandy-cut',
+  '/looks/soft-dandy',
+  '/hi/looks/ash-brown-perm',
+  '/ne/styles/hush-cut',
+  '/hi/styles/down-perm',
   '/ne',
   '/ne/styles/low-fade',
   '/ne/about-you',

@@ -34,23 +34,23 @@ category.beards.intro,Screen text: category,"For beards, growth matters more tha
 category.moustaches.intro,Screen text: category,"Pairs with any beard except Van Dyke, Circle Beard, Balbo and Anchor Beard, which have their own moustache.","Van Dyke, Circle Beard, Balbo और Anchor Beard को छोड़कर हर दाढ़ी के साथ चलती है। इन चारों में अपनी मूंछ होती है।",draft,
 category.colours.intro,Screen text: category,The level number tells the barber which shade to use from any brand. Every colour starts with an allergy question.,लेवल नंबर से बार्बर को पता चलता है कि किसी भी ब्रांड का कौन सा शेड लगाना है। हर रंग एलर्जी के सवाल से शुरू होता है।,draft,
 category.looks.intro,Screen text: category,Complete hair and beard sets. Pick one and it fills My Look in one tap.,"बाल और दाढ़ी के पूरे सेट। एक चुनें, एक टैप में मेरा लुक भर जाएगा।",draft,
-category.hair.seoTitle,Screen text: category,Men's haircuts: 42 styles and how to ask your barber,पुरुषों के हेयरकट: 42 स्टाइल और बार्बर से कैसे कहें,draft,
+category.hair.seoTitle,Screen text: category,Men's haircuts: 51 styles and how to ask your barber,पुरुषों के हेयरकट: 51 स्टाइल और बार्बर से कैसे कहें,draft,
 category.beards.seoTitle,Screen text: category,Beard styles: 16 shapes and how to ask your barber,दाढ़ी के स्टाइल: 16 आकार और बार्बर से कैसे कहें,draft,
 category.moustaches.seoTitle,Screen text: category,Moustache styles: 12 shapes and how to ask your barber,मूंछ के स्टाइल: 12 आकार और बार्बर से कैसे कहें,draft,
 category.colours.seoTitle,Screen text: category,"Men's hair colours: 12 shades, grey cover and care","पुरुषों के बालों के रंग: 12 शेड, सफ़ेद बाल छिपाना और देखभाल",draft,
-category.looks.seoTitle,Screen text: category,Ready Looks: 25 hair and beard combinations,रेडी लुक्स: बाल और दाढ़ी के 25 कॉम्बिनेशन,draft,
-category.hair.seoDescription,Screen text: category,"42 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज़ कट से कंधे तक के बालों तक, पुरुषों के 42 हेयरकट। देखें कौन सा किस पर जंचता है, रोज़ स्टाइल में कितना समय लगता है और बार्बर को दिखाने के सटीक स्टेप।",draft,
+category.looks.seoTitle,Screen text: category,Ready Looks: 31 hair and beard combinations,रेडी लुक्स: बाल और दाढ़ी के 31 कॉम्बिनेशन,draft,
+category.hair.seoDescription,Screen text: category,"51 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज़ कट से कंधे तक के बालों तक, पुरुषों के 51 हेयरकट। देखें कौन सा किस पर जंचता है, रोज़ स्टाइल में कितना समय लगता है और बार्बर को दिखाने के सटीक स्टेप।",draft,
 category.beards.seoDescription,Screen text: category,"16 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लीन शेव से लंबी दाढ़ी तक 16 दाढ़ी के स्टाइल। देखें कौन सा कम, मध्यम या घनी दाढ़ी पर जंचता है, ट्रिमर की लंबाई और बार्बर के स्टेप।",draft,
 category.moustaches.seoDescription,Screen text: category,"12 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटी ट्रिम से हैंडलबार और डाली तक 12 मूंछ के स्टाइल। देखें कितनी बढ़नी चाहिए, रोज़ की स्टाइलिंग और बार्बर के सटीक स्टेप।",draft,
 category.colours.seoDescription,Screen text: category,"12 men's hair colours from jet black to silver and henna. See grey coverage, time at the shop, skin tones that suit and how to stay safe.","जेट ब्लैक से सिल्वर और मेहंदी तक पुरुषों के 12 बालों के रंग। देखें सफ़ेद बाल कितने छिपते हैं, दुकान पर समय, कौन सी त्वचा पर जंचता है और सुरक्षित कैसे रहें।",draft,
-category.looks.seoDescription,Screen text: category,"25 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","ऑफ़िस, शादी, त्योहार और रोज़ के लिए बाल, दाढ़ी, मूंछ और रंग के 25 तैयार कॉम्बिनेशन। एक चुनें और बार्बर को दिखाएं।",draft,
-category.hair.tileCount,Screen text: category,42 styles,42 स्टाइल,draft,
+category.looks.seoDescription,Screen text: category,"31 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","ऑफ़िस, शादी, त्योहार और रोज़ के लिए बाल, दाढ़ी, मूंछ और रंग के 31 तैयार कॉम्बिनेशन। एक चुनें और बार्बर को दिखाएं।",draft,
+category.hair.tileCount,Screen text: category,51 styles,51 स्टाइल,draft,
 category.beards.tileCount,Screen text: category,16 styles,16 स्टाइल,draft,
 category.moustaches.tileCount,Screen text: category,12 styles,12 स्टाइल,draft,
 category.colours.tileCount,Screen text: category,12 colours,12 रंग,draft,
 category.looks.tileCount,Screen text: category,Hair and beard sets,बाल और दाढ़ी के सेट,draft,
 home.title,Screen text: home,"{shop}, {area}: pick your style and show the barber","{shop}, {area}: अपना स्टाइल चुनें और बार्बर को दिखाएं",draft,Keep the {words in braces}: the app fills them in.
-home.description,Screen text: home,"Browse 42 haircuts, 16 beards, 12 moustaches, 12 hair colours and 25 ready looks at {shop}, {area}. Save your pick and show the barber.","{shop}, {area} में 42 हेयरकट, 16 दाढ़ी, 12 मूंछ, 12 बालों के रंग और 25 रेडी लुक्स देखें। अपनी पसंद सेव करें और बार्बर को दिखाएं।",draft,Keep the {words in braces}: the app fills them in.
+home.description,Screen text: home,"Browse 51 haircuts, 16 beards, 12 moustaches, 12 hair colours and 31 ready looks at {shop}, {area}. Save your pick and show the barber.","{shop}, {area} में 51 हेयरकट, 16 दाढ़ी, 12 मूंछ, 12 बालों के रंग और 31 रेडी लुक्स देखें। अपनी पसंद सेव करें और बार्बर को दिखाएं।",draft,Keep the {words in braces}: the app fills them in.
 home.heading,Screen text: home,Pick your style. Show it to the barber.,अपना स्टाइल चुनें। बार्बर को दिखाएं।,draft,
 home.intro,Screen text: home,"Browse haircuts, beards, moustaches and colours. Save what you like, then hand the barber one clear card.","हेयरकट, दाढ़ी, मूंछ और रंग देखें। जो पसंद आए उसे सेव करें, फिर बार्बर को एक साफ़ कार्ड दें।",draft,
 home.findStyles,Screen text: home,Find styles that suit you,आप पर जंचने वाले स्टाइल खोजें,draft,
@@ -258,7 +258,7 @@ shop.hoursValue,Screen text: shop,"Open daily, 7 am – 8 pm","रोज़ ख�
 shop.inTheShop,Screen text: shop,In the shop,दुकान में,draft,
 shop.flowTitle,Screen text: shop,Know what you want before you sit down.,कुर्सी पर बैठने से पहले ही जानें कि आपको क्या चाहिए।,draft,
 shop.step1.title,Screen text: shop,Pick your style,अपना स्टाइल चुनें,draft,
-shop.step1.text,Screen text: shop,"Browse 42 haircuts, 16 beards, 12 moustaches, 12 colours and 25 Ready Looks.","42 हेयरकट, 16 दाढ़ी, 12 मूंछ, 12 रंग और 25 रेडी लुक्स देखें।",draft,
+shop.step1.text,Screen text: shop,"Browse 51 haircuts, 16 beards, 12 moustaches, 12 colours and 31 Ready Looks.","51 हेयरकट, 16 दाढ़ी, 12 मूंछ, 12 रंग और 31 रेडी लुक्स देखें।",draft,
 shop.step2.title,Screen text: shop,Build My Look,मेरा लुक बनाएं,draft,
 shop.step2.text,Screen text: shop,"Save favourites, then choose one hair, beard, moustache and colour.","पसंदीदा सेव करें, फिर एक बाल, दाढ़ी, मूंछ और रंग चुनें।",draft,
 shop.step3.title,Screen text: shop,Show the barber,बार्बर को दिखाएं,draft,
@@ -1591,6 +1591,296 @@ H42.callout.3.title,H42 Pushed Back,Tapered sides,टेपर साइड,draf
 H42.callout.3.text,H42 Pushed Back,#3 to #2.,#3 से #2।,draft,Photo label line.
 H42.callout.4.title,H42 Pushed Back,Clean nape,साफ़ गर्दन,draft,Photo label title.
 H42.callout.4.text,H42 Pushed Back,Neat neck line.,साफ़ गर्दन की लाइन।,draft,Photo label line.
+H43.name,H43 Dandy Cut,Dandy Cut,Dandy Cut,draft,"Catalogue name. Keep it, or write the name customers use."
+H43.shortLine,H43 Dandy Cut,"Soft, side-swept top with volume and tidy tapered sides.","नरम, साइड में किया हुआ ऊपर वॉल्यूम के साथ और साफ़ टेपर साइड।",draft,
+H43.description,H43 Dandy Cut,"Korean dandy cut: a soft top swept to one side with natural volume and a light fringe, over short, tidy sides. Gentle and neat.","कोरियन डैंडी कट: छोटी, साफ़ साइड के ऊपर प्राकृतिक वॉल्यूम और हल्की फ्रिंज के साथ एक तरफ़ किया नरम ऊपर। नरम और साफ़।",draft,
+H43.pickIf,H43 Dandy Cut,"you want a soft, polished look for office, college or a date.","आप ऑफ़िस, कॉलेज या डेट के लिए नरम, निखरा लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+H43.skipIf,H43 Dandy Cut,"you have very thin hair, or no time to blow dry in the morning.","आपके बाल बहुत पतले हैं, या सुबह ड्रायर चलाने का समय नहीं।",draft,"Follows ""Skip if""."
+H43.daily,H43 Dandy Cut,"4 min: blow dry the top up and to the side, a little light wax.","4 मिनट: ड्रायर से ऊपर के बाल ऊपर और साइड में सुखाएं, थोड़ा हल्का वैक्स।",draft,
+H43.weekly,H43 Dandy Cut,Nothing.,कुछ नहीं।,draft,
+H43.nextVisit,H43 Dandy Cut,in 4 weeks,4 हफ़्ते में,draft,
+H43.alsoCalled,H43 Dandy Cut,"Korean dandy, Dandy hair","कोरियन डैंडी, डैंडी हेयर",draft,Comma-separated names.
+H43.length,H43 Dandy Cut,Medium,मध्यम,draft,
+H43.faq.1.q,H43 Dandy Cut,What is a dandy cut?,Dandy cut क्या है?,draft,
+H43.faq.1.a,H43 Dandy Cut,"A Korean style with a soft top swept to one side, a light fringe and short, tidy sides. It looks neat but not stiff.","एक तरफ़ किए नरम ऊपर के बाल, हल्की फ्रिंज और छोटी, साफ़ साइड वाला कोरियन स्टाइल। साफ़ दिखता है पर सख़्त नहीं।",draft,"Keep any <a href=""...""> link tags as they are."
+H43.faq.2.q,H43 Dandy Cut,How is a dandy cut different from a side part?,Dandy cut और Side part में क्या फ़र्क है?,draft,
+H43.faq.2.a,H43 Dandy Cut,A dandy cut is softer and has more natural volume. A classic side part is combed flat and polished.,Dandy cut नरम होता है और उसमें नेचुरल वॉल्यूम ज़्यादा होता है। Classic side part सपाट कंघी किया और निखरा होता है।,draft,"Keep any <a href=""...""> link tags as they are."
+H43.faq.3.q,H43 Dandy Cut,How long should the top be?,ऊपर कितने लंबे होने चाहिए?,draft,
+H43.faq.3.a,H43 Dandy Cut,"About 6–8 cm, with the fringe to the eyebrows.","लगभग 6–8 cm, फ्रिंज भौंहों तक।",draft,"Keep any <a href=""...""> link tags as they are."
+H43.faq.4.q,H43 Dandy Cut,Do I need a blow dryer?,क्या ड्रायर चाहिए?,draft,
+H43.faq.4.a,H43 Dandy Cut,"Yes, for a few minutes. Blow drying lifts the roots and sets the sweep.","हां, कुछ मिनट के लिए। ड्रायर जड़ें उठाता है और बालों की दिशा सेट करता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H43.step.1,H43 Dandy Cut,"Sides and back: machine #3, taper to #2 at neck.","साइड और पीछे: मशीन #3, गर्दन पर #2 तक टेपर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H43.step.2,H43 Dandy Cut,Top: 3 fingers long. Scissors.,ऊपर: 3 उंगली लंबे। कैंची।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H43.step.3,H43 Dandy Cut,Ask: part on left or right?,पूछें: मांग बाएं या दाएं?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H43.step.4,H43 Dandy Cut,"Fringe: soft, to the eyebrows.","आगे के बाल: नरम, भौंहों तक।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H43.step.5,H43 Dandy Cut,Blow dry top up and to the side.,ड्रायर से ऊपर के बाल ऊपर और साइड में सुखाएं।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H43.step.6,H43 Dandy Cut,Finish with light wax.,हल्के वैक्स से फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H43.callout.1.title,H43 Dandy Cut,Soft sweep,नरम झुकाव,draft,Photo label title.
+H43.callout.1.text,H43 Dandy Cut,Top swept to one side.,ऊपर के बाल एक तरफ़।,draft,Photo label line.
+H43.callout.2.title,H43 Dandy Cut,Light fringe,हल्की फ्रिंज,draft,Photo label title.
+H43.callout.2.text,H43 Dandy Cut,To the eyebrows.,भौंहों तक।,draft,Photo label line.
+H43.callout.3.title,H43 Dandy Cut,Tapered sides,टेपर साइड,draft,Photo label title.
+H43.callout.3.text,H43 Dandy Cut,#3 to #2.,#3 से #2।,draft,Photo label line.
+H43.callout.4.title,H43 Dandy Cut,Natural volume,नेचुरल वॉल्यूम,draft,Photo label title.
+H43.callout.4.text,H43 Dandy Cut,Lifted at the roots.,जड़ों से उठे हुए।,draft,Photo label line.
+H44.name,H44 See-Through Bangs,See-Through Bangs,See-Through Bangs,draft,"Catalogue name. Keep it, or write the name customers use."
+H44.shortLine,H44 See-Through Bangs,"Thin, wispy fringe that lets a little forehead show.","पतली, हल्की फ्रिंज जिससे माथा थोड़ा दिखता है।",draft,
+H44.description,H44 See-Through Bangs,"A Korean fringe cut thin and light so the forehead shows through the strands. Soft and airy, with short, tidy sides.","पतली और हल्की काटी गई कोरियन फ्रिंज, जिसकी लटों से माथा दिखता है। नरम और हल्की, छोटी, साफ़ साइड के साथ।",draft,
+H44.pickIf,H44 See-Through Bangs,"you want a soft fringe that doesn't look heavy, or want to cover a high forehead lightly.","आप भारी न दिखने वाली नरम फ्रिंज चाहते हैं, या ऊंचा माथा हल्का ढकना चाहते हैं।",draft,"Follows ""Pick this if""."
+H44.skipIf,H44 See-Through Bangs,"you have very curly hair, or don't want hair on your forehead.","आपके बाल बहुत घुंघराले हैं, या माथे पर बाल पसंद नहीं।",draft,"Follows ""Skip if""."
+H44.daily,H44 See-Through Bangs,"3 min: blow dry the fringe down, a little light wax.","3 मिनट: ड्रायर से फ्रिंज नीचे सुखाएं, थोड़ा हल्का वैक्स।",draft,
+H44.weekly,H44 See-Through Bangs,Nothing.,कुछ नहीं।,draft,
+H44.nextVisit,H44 See-Through Bangs,in 4 weeks,4 हफ़्ते में,draft,
+H44.alsoCalled,H44 See-Through Bangs,"See-through fringe, Wispy bangs","सी-थ्रू फ्रिंज, विस्पी बैंग्स",draft,Comma-separated names.
+H44.length,H44 See-Through Bangs,Medium,मध्यम,draft,
+H44.faq.1.q,H44 See-Through Bangs,What are see-through bangs?,See-through bangs क्या हैं?,draft,
+H44.faq.1.a,H44 See-Through Bangs,"A thin, wispy fringe where the forehead shows through the strands. It is lighter than a full fringe.","पतली, हल्की फ्रिंज जिसकी लटों से माथा दिखता है। यह पूरी फ्रिंज से हल्की होती है।",draft,"Keep any <a href=""...""> link tags as they are."
+H44.faq.2.q,H44 See-Through Bangs,Do see-through bangs suit thin hair?,क्या See-through bangs पतले बालों पर जंचती हैं?,draft,
+H44.faq.2.a,H44 See-Through Bangs,"Yes. The fringe is meant to be light, so thin hair looks natural.","हां। फ्रिंज वैसे भी हल्की रखी जाती है, इसलिए पतले बाल नेचुरल दिखते हैं।",draft,"Keep any <a href=""...""> link tags as they are."
+H44.faq.3.q,H44 See-Through Bangs,How do I stop the fringe splitting?,फ्रिंज को बंटने से कैसे रोकें?,draft,
+H44.faq.3.a,H44 See-Through Bangs,"Blow dry it down and a little to the side, then use a little light wax, not heavy gel.","ड्रायर से नीचे और थोड़ा साइड में सुखाएं, फिर भारी जेल नहीं, थोड़ा हल्का वैक्स लगाएं।",draft,"Keep any <a href=""...""> link tags as they are."
+H44.faq.4.q,H44 See-Through Bangs,How long is the fringe?,फ्रिंज कितनी लंबी होती है?,draft,
+H44.faq.4.a,H44 See-Through Bangs,"To the eyebrows, thinned out with thinning scissors.","भौंहों तक, थिनिंग कैंची से हल्की की हुई।",draft,"Keep any <a href=""...""> link tags as they are."
+H44.step.1,H44 See-Through Bangs,"Sides: machine #3, or two-block.","साइड: मशीन #3, या टू-ब्लॉक।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H44.step.2,H44 See-Through Bangs,Top: 3 fingers long. Scissors.,ऊपर: 3 उंगली लंबे। कैंची।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H44.step.3,H44 See-Through Bangs,Fringe: to the eyebrows.,आगे के बाल: भौंहों तक।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H44.step.4,H44 See-Through Bangs,Thin the fringe with thinning scissors.,थिनिंग कैंची से फ्रिंज हल्की करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H44.step.5,H44 See-Through Bangs,Blow dry fringe down.,ड्रायर से फ्रिंज नीचे सुखाएं।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H44.step.6,H44 See-Through Bangs,Finish with light wax.,हल्के वैक्स से फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H44.callout.1.title,H44 See-Through Bangs,Wispy fringe,पतली फ्रिंज,draft,Photo label title.
+H44.callout.1.text,H44 See-Through Bangs,Forehead shows through.,माथा दिखता है।,draft,Photo label line.
+H44.callout.2.title,H44 See-Through Bangs,Brow length,भौंहों तक लंबाई,draft,Photo label title.
+H44.callout.2.text,H44 See-Through Bangs,Reaches the eyebrows.,भौंहों को छूती है।,draft,Photo label line.
+H44.callout.3.title,H44 See-Through Bangs,Airy texture,हल्का टेक्सचर,draft,Photo label title.
+H44.callout.3.text,H44 See-Through Bangs,Thinned and light.,हल्का किया हुआ।,draft,Photo label line.
+H44.callout.4.title,H44 See-Through Bangs,Short sides,छोटी साइड,draft,Photo label title.
+H44.callout.4.text,H44 See-Through Bangs,Neat and tidy.,साफ़ और सलीकेदार।,draft,Photo label line.
+H45.name,H45 Leaf Cut,Leaf Cut,Leaf Cut,draft,"Catalogue name. Keep it, or write the name customers use."
+H45.shortLine,H45 Leaf Cut,Centre part with layered pieces that flick out like leaves.,बीच की मांग और पत्तों की तरह बाहर मुड़ती लेयर।,draft,
+H45.description,H45 Leaf Cut,"A Korean layered cut with a centre part. The fringe falls in two soft pieces that flick slightly outward at the ends, like leaves.","बीच में मांग वाला कोरियन लेयर कट। फ्रिंज दो नरम हिस्सों में गिरती है, जिनके सिरे पत्तों की तरह थोड़ा बाहर मुड़ते हैं।",draft,
+H45.pickIf,H45 Leaf Cut,"you want a soft, trendy look with face-framing pieces.","आप चेहरे को घेरने वाली लटों के साथ नरम, ट्रेंडी लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+H45.skipIf,H45 Leaf Cut,"you have very short hair or curly hair, or a strict office.","आपके बाल बहुत छोटे या घुंघराले हैं, या ऑफ़िस सख़्त है।",draft,"Follows ""Skip if""."
+H45.daily,H45 Leaf Cut,"5 min: blow dry the fringe outward with a round brush, a little light wax.","5 मिनट: गोल ब्रश से फ्रिंज बाहर की ओर सुखाएं, थोड़ा हल्का वैक्स।",draft,
+H45.weekly,H45 Leaf Cut,Nothing.,कुछ नहीं।,draft,
+H45.nextVisit,H45 Leaf Cut,in 5 weeks,5 हफ़्ते में,draft,
+H45.alsoCalled,H45 Leaf Cut,"Leaf hair, Korean leaf cut","लीफ़ हेयर, कोरियन लीफ़ कट",draft,Comma-separated names.
+H45.length,H45 Leaf Cut,Medium,मध्यम,draft,
+H45.faq.1.q,H45 Leaf Cut,Why is it called a leaf cut?,इसे Leaf cut क्यों कहते हैं?,draft,
+H45.faq.1.a,H45 Leaf Cut,"The fringe splits in the middle and each side flicks outward at the end, like the edge of a leaf.",फ्रिंज बीच से बंटती है और हर तरफ़ का सिरा पत्ते के किनारे की तरह बाहर मुड़ता है।,draft,"Keep any <a href=""...""> link tags as they are."
+H45.faq.2.q,H45 Leaf Cut,How long does hair need to be?,बाल कितने लंबे चाहिए?,draft,
+H45.faq.2.a,H45 Leaf Cut,"About 8–10 cm on top, with the fringe reaching the cheekbones.","ऊपर लगभग 8–10 cm, फ्रिंज गालों की हड्डी तक पहुंचती हुई।",draft,"Keep any <a href=""...""> link tags as they are."
+H45.faq.3.q,H45 Leaf Cut,Is a leaf cut the same as a middle part?,क्या Leaf cut और Middle part एक ही हैं?,draft,
+H45.faq.3.a,H45 Leaf Cut,"It is similar, but a leaf cut has more layers and the ends flick outward.","मिलते-जुलते हैं, लेकिन Leaf cut में ज़्यादा लेयर होती हैं और सिरे बाहर मुड़ते हैं।",draft,"Keep any <a href=""...""> link tags as they are."
+H45.faq.4.q,H45 Leaf Cut,Does a leaf cut need a perm?,क्या Leaf cut के लिए पर्म चाहिए?,draft,
+H45.faq.4.a,H45 Leaf Cut,"No, but a soft perm on the fringe makes the outward flick last longer.","नहीं, लेकिन फ्रिंज पर नरम पर्म बाहर मुड़ाव को ज़्यादा टिकाता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H45.step.1,H45 Leaf Cut,"Sides: machine #3, or scissors.","साइड: मशीन #3, या कैंची।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H45.step.2,H45 Leaf Cut,Top: 4 fingers long. Add layers.,ऊपर: 4 उंगली लंबे। लेयर जोड़ें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H45.step.3,H45 Leaf Cut,Part in the middle.,बीच में मांग।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H45.step.4,H45 Leaf Cut,"Fringe: to the cheekbones, in two pieces.","आगे के बाल: गालों की हड्डी तक, दो हिस्सों में।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H45.step.5,H45 Leaf Cut,Point cut the ends so they flick out.,सिरों पर पॉइंट कट करें ताकि वे बाहर मुड़ें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H45.step.6,H45 Leaf Cut,Blow dry fringe outward.,ड्रायर से फ्रिंज बाहर की ओर सुखाएं।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H45.callout.1.title,H45 Leaf Cut,Centre part,बीच की मांग,draft,Photo label title.
+H45.callout.1.text,H45 Leaf Cut,Even on both sides.,दोनों तरफ़ बराबर।,draft,Photo label line.
+H45.callout.2.title,H45 Leaf Cut,Leaf flick,पत्ते जैसा मुड़ाव,draft,Photo label title.
+H45.callout.2.text,H45 Leaf Cut,Ends curl outward.,सिरे बाहर की ओर मुड़ते हैं।,draft,Photo label line.
+H45.callout.3.title,H45 Leaf Cut,Face-framing,चेहरे को घेरती,draft,Photo label title.
+H45.callout.3.text,H45 Leaf Cut,Falls to the cheekbones.,गालों की हड्डी तक गिरती है।,draft,Photo label line.
+H45.callout.4.title,H45 Leaf Cut,Light layers,हल्की लेयर,draft,Photo label title.
+H45.callout.4.text,H45 Leaf Cut,Soft and airy.,नरम और हल्की।,draft,Photo label line.
+H46.name,H46 Down Perm,Down Perm,Down Perm,draft,"Catalogue name. Keep it, or write the name customers use."
+H46.shortLine,H46 Down Perm,Perm that keeps the sides flat and the top natural.,पर्म जो साइड को सपाट और ऊपर को नेचुरल रखता है।,draft,
+H46.description,H46 Down Perm,"A Korean perm used on the sides to keep them flat against the head, so the top looks fuller and the hair stays neat without daily styling.","साइड को सिर से चिपकाकर सपाट रखने के लिए इस्तेमाल होने वाला कोरियन पर्म, जिससे ऊपर के बाल घने दिखते हैं और बिना रोज़ की स्टाइलिंग के बाल साफ़ रहते हैं।",draft,
+H46.pickIf,H46 Down Perm,"your hair puffs out at the sides and you want a neat, slim shape for months.","आपके बाल साइड में फूलते हैं और आप महीनों तक साफ़, पतला आकार चाहते हैं।",draft,"Follows ""Pick this if""."
+H46.skipIf,H46 Down Perm,"your hair is damaged or very thin, or your scalp is sensitive.","आपके बाल ख़राब या बहुत पतले हैं, या सिर की त्वचा संवेदनशील है।",draft,"Follows ""Skip if""."
+H46.daily,H46 Down Perm,1 min: a little light wax on top.,1 मिनट: ऊपर थोड़ा हल्का वैक्स।,draft,
+H46.weekly,H46 Down Perm,Mild shampoo and conditioner.,हल्का शैम्पू और कंडीशनर।,draft,
+H46.nextVisit,H46 Down Perm,in 4 weeks for a trim. The perm lasts 2–3 months.,ट्रिम के लिए 4 हफ़्ते में। पर्म 2–3 महीने चलता है।,draft,
+H46.atShop,H46 Down Perm,2 hours,2 घंटे,draft,
+H46.alsoCalled,H46 Down Perm,"Side-down perm, Flat-side perm","साइड-डाउन पर्म, फ़्लैट-साइड पर्म",draft,Comma-separated names.
+H46.length,H46 Down Perm,Short to medium,छोटे से मध्यम,draft,
+H46.faq.1.q,H46 Down Perm,What does a down perm do?,Down perm क्या करता है?,draft,
+H46.faq.1.a,H46 Down Perm,"It makes the hair on the sides lie flat against the head, so the top looks fuller and the shape stays neat.","यह साइड के बालों को सिर से सपाट बिठा देता है, जिससे ऊपर के बाल घने दिखते हैं और आकार साफ़ रहता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H46.faq.2.q,H46 Down Perm,Does a down perm make hair curly?,क्या Down perm से बाल घुंघराले हो जाते हैं?,draft,
+H46.faq.2.a,H46 Down Perm,No. It only calms the volume at the sides. The top stays natural.,नहीं। यह सिर्फ़ साइड का वॉल्यूम घटाता है। ऊपर के बाल नेचुरल रहते हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+H46.faq.3.q,H46 Down Perm,How long does a down perm last?,Down perm कितना चलता है?,draft,
+H46.faq.3.a,H46 Down Perm,About 2–3 months.,लगभग 2–3 महीने।,draft,"Keep any <a href=""...""> link tags as they are."
+H46.faq.4.q,H46 Down Perm,Is a down perm good for a round face?,क्या Down perm गोल चेहरे के लिए अच्छा है?,draft,
+H46.faq.4.a,H46 Down Perm,"Yes. Flat sides slim the face, and the top adds height.","हां। सपाट साइड से चेहरा पतला दिखता है, और ऊपर ऊंचाई जोड़ता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H46.step.1,H46 Down Perm,"Ask: scalp problems or allergy? If yes, stop.","पूछें: सिर की त्वचा में समस्या या एलर्जी? हां तो, न करें।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H46.step.2,H46 Down Perm,"Cut first: sides #3, top 3 fingers.","पहले काटें: साइड #3, ऊपर 3 उंगली।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H46.step.3,H46 Down Perm,Apply down-perm lotion to the sides only.,सिर्फ़ साइड पर डाउन-पर्म लोशन लगाएं।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H46.step.4,H46 Down Perm,Comb the sides down and back. Wait as on the box.,साइड के बाल नीचे और पीछे कंघी करें। डिब्बे पर लिखे अनुसार रुकें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H46.step.5,H46 Down Perm,Rinse. Apply neutraliser. Wait as on the box.,धोएं। न्यूट्रलाइज़र लगाएं। डिब्बे पर लिखे अनुसार रुकें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H46.step.6,H46 Down Perm,Rinse. No shampoo for 2 days.,धोएं। 2 दिन शैम्पू नहीं।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H46.barberNote,H46 Down Perm,Best done by someone trained in perms.,पर्म की ट्रेनिंग वाले व्यक्ति से करवाना बेहतर।,draft,Barber note.
+H46.callout.1.title,H46 Down Perm,Flat sides,सपाट साइड,draft,Photo label title.
+H46.callout.1.text,H46 Down Perm,Lie close to the head.,सिर से चिपकी हुई।,draft,Photo label line.
+H46.callout.2.title,H46 Down Perm,Full top,घना ऊपर,draft,Photo label title.
+H46.callout.2.text,H46 Down Perm,Natural volume.,नेचुरल वॉल्यूम।,draft,Photo label line.
+H46.callout.3.title,H46 Down Perm,Neat shape,साफ़ आकार,draft,Photo label title.
+H46.callout.3.text,H46 Down Perm,"Slim, no puff.","पतला, फूला नहीं।",draft,Photo label line.
+H46.callout.4.title,H46 Down Perm,Easy daily,रोज़ आसान,draft,Photo label title.
+H46.callout.4.text,H46 Down Perm,Almost no styling.,लगभग स्टाइलिंग नहीं।,draft,Photo label line.
+H47.name,H47 Regent Cut,Regent Cut,Regent Cut,draft,"Catalogue name. Keep it, or write the name customers use."
+H47.shortLine,H47 Regent Cut,"Long top swept back from a soft part, with tapered sides.","नरम मांग से पीछे की ओर किया लंबा ऊपर, टेपर साइड के साथ।",draft,
+H47.description,H47 Regent Cut,"A Korean cut with a long top swept back and slightly to the sides, a little lift at the front and short tapered sides. Smart and elegant.","लंबे ऊपर के बाल पीछे और थोड़ा साइड में किए हुए, आगे थोड़ी ऊंचाई और छोटी टेपर साइड वाला कोरियन कट। स्मार्ट और शालीन।",draft,
+H47.pickIf,H47 Regent Cut,"you want a smart, grown-up Korean look with some length.","आप थोड़ी लंबाई के साथ स्मार्ट, परिपक्व कोरियन लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+H47.skipIf,H47 Regent Cut,"you have thin hair, or want a quick morning.","आपके बाल पतले हैं, या सुबह जल्दी तैयार होना चाहते हैं।",draft,"Follows ""Skip if""."
+H47.daily,H47 Regent Cut,"6 min: blow dry back, then a little pomade or light wax.","6 मिनट: ड्रायर से पीछे सुखाएं, फिर थोड़ा पोमेड या हल्का वैक्स।",draft,
+H47.weekly,H47 Regent Cut,Nothing.,कुछ नहीं।,draft,
+H47.nextVisit,H47 Regent Cut,in 4 weeks,4 हफ़्ते में,draft,
+H47.alsoCalled,H47 Regent Cut,"Korean slick back, Regent hair","कोरियन स्लिक बैक, रीजेंट हेयर",draft,Comma-separated names.
+H47.length,H47 Regent Cut,Medium to long,मध्यम से लंबे,draft,
+H47.faq.1.q,H47 Regent Cut,What is a regent cut?,Regent cut क्या है?,draft,
+H47.faq.1.a,H47 Regent Cut,"A Korean cut with a long top swept back from a soft part, a little lift at the front and short tapered sides.","नरम मांग से पीछे की ओर किया लंबा ऊपर, आगे थोड़ी ऊंचाई और छोटी टेपर साइड वाला कोरियन कट।",draft,"Keep any <a href=""...""> link tags as they are."
+H47.faq.2.q,H47 Regent Cut,How is a regent cut different from a slick back?,Regent cut और Slick back में क्या फ़र्क है?,draft,
+H47.faq.2.a,H47 Regent Cut,"A regent cut has a soft, natural finish with some volume. A slick back is flat and shiny.","Regent cut में नरम, नेचुरल फ़िनिश और कुछ वॉल्यूम होता है। Slick back सपाट और चमकदार होता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H47.faq.3.q,H47 Regent Cut,How long should the top be?,ऊपर कितने लंबे होने चाहिए?,draft,
+H47.faq.3.a,H47 Regent Cut,About 8–10 cm.,लगभग 8–10 cm।,draft,"Keep any <a href=""...""> link tags as they are."
+H47.faq.4.q,H47 Regent Cut,Which product should I use?,कौन सा प्रोडक्ट इस्तेमाल करें?,draft,
+H47.faq.4.a,H47 Regent Cut,"A light pomade or wax, for a soft hold with a little shine.","हल्का पोमेड या वैक्स, नरम पकड़ और थोड़ी चमक के लिए।",draft,"Keep any <a href=""...""> link tags as they are."
+H47.step.1,H47 Regent Cut,"Sides: machine #3, taper to #2 at neck.","साइड: मशीन #3, गर्दन पर #2 तक टेपर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H47.step.2,H47 Regent Cut,Top: 4–5 fingers long. Scissors.,ऊपर: 4–5 उंगली लंबे। कैंची।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H47.step.3,H47 Regent Cut,Ask: part on left or right?,पूछें: मांग बाएं या दाएं?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H47.step.4,H47 Regent Cut,Front: a little longer than back.,आगे: पीछे से थोड़ा लंबा।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H47.step.5,H47 Regent Cut,Blow dry top back.,ड्रायर से ऊपर के बाल पीछे सुखाएं।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H47.step.6,H47 Regent Cut,Finish with pomade or gel.,पोमेड या जेल से फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H47.callout.1.title,H47 Regent Cut,Swept back,पीछे की ओर,draft,Photo label title.
+H47.callout.1.text,H47 Regent Cut,"Soft part, natural lift.","नरम मांग, नेचुरल उठान।",draft,Photo label line.
+H47.callout.2.title,H47 Regent Cut,Front lift,आगे की ऊंचाई,draft,Photo label title.
+H47.callout.2.text,H47 Regent Cut,A little volume.,थोड़ा वॉल्यूम।,draft,Photo label line.
+H47.callout.3.title,H47 Regent Cut,Tapered sides,टेपर साइड,draft,Photo label title.
+H47.callout.3.text,H47 Regent Cut,#3 to #2.,#3 से #2।,draft,Photo label line.
+H47.callout.4.title,H47 Regent Cut,Soft shine,हल्की चमक,draft,Photo label title.
+H47.callout.4.text,H47 Regent Cut,Light pomade.,हल्का पोमेड।,draft,Photo label line.
+H48.name,H48 Hush Cut,Hush Cut,Hush Cut,draft,"Catalogue name. Keep it, or write the name customers use."
+H48.shortLine,H48 Hush Cut,"Soft, feathery layers around the face.","चेहरे के आसपास नरम, पंख जैसी लेयर।",draft,
+H48.description,H48 Hush Cut,"A soft layered cut for medium to long hair, with feathery layers around the face and lightly thinned ends. A gentler version of the wolf cut.","मध्यम से लंबे बालों के लिए नरम लेयर कट, चेहरे के आसपास पंख जैसी लेयर और हल्के पतले किए सिरों के साथ। Wolf cut का नरम रूप।",draft,
+H48.pickIf,H48 Hush Cut,"you want longer hair that looks soft and cared for, without a messy shag.",आप बिखरे शैग के बिना नरम और देखभाल किए हुए दिखने वाले लंबे बाल चाहते हैं।,draft,"Follows ""Pick this if""."
+H48.skipIf,H48 Hush Cut,"you have very short or curly hair, or a strict office.","आपके बाल बहुत छोटे या घुंघराले हैं, या ऑफ़िस सख़्त है।",draft,"Follows ""Skip if""."
+H48.daily,H48 Hush Cut,"4 min: blow dry, a little light cream on the ends.","4 मिनट: ड्रायर से सुखाएं, सिरों पर थोड़ी हल्की क्रीम।",draft,
+H48.weekly,H48 Hush Cut,Conditioner 2–3 times.,2–3 बार कंडीशनर।,draft,
+H48.nextVisit,H48 Hush Cut,in 6 weeks,6 हफ़्ते में,draft,
+H48.alsoCalled,H48 Hush Cut,Feathered layers,फ़ेदर्ड लेयर,draft,Comma-separated names.
+H48.length,H48 Hush Cut,Medium to long,मध्यम से लंबे,draft,
+H48.faq.1.q,H48 Hush Cut,What is a hush cut?,Hush cut क्या है?,draft,
+H48.faq.1.a,H48 Hush Cut,"A medium-length layered cut with soft, feathery layers around the face and lightly thinned ends. It looks soft and natural.","चेहरे के आसपास नरम, पंख जैसी लेयर और हल्के पतले किए सिरों वाला मध्यम लंबाई का लेयर कट। नरम और नेचुरल दिखता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H48.faq.2.q,H48 Hush Cut,How is a hush cut different from a wolf cut?,Hush cut और Wolf cut में क्या फ़र्क है?,draft,
+H48.faq.2.a,H48 Hush Cut,"A wolf cut is choppy and messy. A hush cut is softer, with smoother layers.","Wolf cut कटा-कटा और बिखरा होता है। Hush cut नरम होता है, चिकनी लेयर के साथ।",draft,"Keep any <a href=""...""> link tags as they are."
+H48.faq.3.q,H48 Hush Cut,How long does hair need to be?,बाल कितने लंबे चाहिए?,draft,
+H48.faq.3.a,H48 Hush Cut,"At least to the ears at the sides, and to the collar or longer at the back.","साइड पर कम से कम कानों तक, और पीछे कॉलर तक या उससे लंबे।",draft,"Keep any <a href=""...""> link tags as they are."
+H48.faq.4.q,H48 Hush Cut,Is a hush cut good for a round face?,क्या Hush cut गोल चेहरे के लिए अच्छा है?,draft,
+H48.faq.4.a,H48 Hush Cut,Yes. Layers around the face slim it.,हां। चेहरे के आसपास की लेयर चेहरे को पतला दिखाती हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+H48.step.1,H48 Hush Cut,Ask: how much length to keep?,पूछें: कितनी लंबाई रखनी है?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H48.step.2,H48 Hush Cut,"Back: keep length, to the collar.","पीछे: लंबाई रखें, कॉलर तक।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H48.step.3,H48 Hush Cut,"Top: soft layers, 4–5 fingers.","ऊपर: नरम लेयर, 4–5 उंगली।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H48.step.4,H48 Hush Cut,Face layers: down to the cheeks.,चेहरे के आसपास की लेयर: गालों तक।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H48.step.5,H48 Hush Cut,Thin the ends with thinning scissors.,थिनिंग कैंची से सिरे हल्के करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H48.step.6,H48 Hush Cut,Blow dry. Finish with light cream.,ड्रायर से सुखाएं। हल्की क्रीम से फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H48.callout.1.title,H48 Hush Cut,Soft layers,नरम लेयर,draft,Photo label title.
+H48.callout.1.text,H48 Hush Cut,"Feathery, not choppy.","पंख जैसी, कटी-कटी नहीं।",draft,Photo label line.
+H48.callout.2.title,H48 Hush Cut,Face-framing,चेहरे को घेरती,draft,Photo label title.
+H48.callout.2.text,H48 Hush Cut,Falls to the cheeks.,गालों तक गिरती है।,draft,Photo label line.
+H48.callout.3.title,H48 Hush Cut,Light ends,हल्के सिरे,draft,Photo label title.
+H48.callout.3.text,H48 Hush Cut,Thinned and airy.,पतले और हल्के।,draft,Photo label line.
+H48.callout.4.title,H48 Hush Cut,Natural flow,नेचुरल बहाव,draft,Photo label title.
+H48.callout.4.text,H48 Hush Cut,Easy movement.,आसान चाल।,draft,Photo label line.
+H49.name,H49 Edgar Cut,Edgar Cut,Edgar Cut,draft,"Catalogue name. Keep it, or write the name customers use."
+H49.shortLine,H49 Edgar Cut,"Blunt, straight fringe over a skin fade.","स्किन फ़ेड के ऊपर सीधी, कड़ी फ्रिंज।",draft,
+H49.description,H49 Edgar Cut,"A short, thick fringe cut straight across the forehead, over sides faded to skin. Bold, sharp and modern.","माथे पर सीधी कटी छोटी, घनी फ्रिंज, त्वचा तक फ़ेड की गई साइड के ऊपर। बोल्ड, शार्प और मॉडर्न।",draft,
+H49.pickIf,H49 Edgar Cut,"you want a bold cut with a clean, blunt edge.","आप साफ़, कड़े किनारे वाला बोल्ड कट चाहते हैं।",draft,"Follows ""Pick this if""."
+H49.skipIf,H49 Edgar Cut,"you have a round face, or can't visit every 2 weeks.","आपका चेहरा गोल है, या हर 2 हफ़्ते में नहीं आ सकते।",draft,"Follows ""Skip if""."
+H49.daily,H49 Edgar Cut,"2 min: comb the fringe forward, a little dry wax (clay).","2 मिनट: फ्रिंज आगे कंघी करें, थोड़ा ड्राई वैक्स (क्ले)।",draft,
+H49.weekly,H49 Edgar Cut,Nothing.,कुछ नहीं।,draft,
+H49.nextVisit,H49 Edgar Cut,in 2 weeks,2 हफ़्ते में,draft,
+H49.alsoCalled,H49 Edgar Cut,"Edgar, Blunt fringe fade","एडगर, ब्लंट फ्रिंज फ़ेड",draft,Comma-separated names.
+H49.length,H49 Edgar Cut,Short,छोटे,draft,
+H49.faq.1.q,H49 Edgar Cut,What is an Edgar cut?,Edgar cut क्या है?,draft,
+H49.faq.1.a,H49 Edgar Cut,"A short, blunt fringe cut straight across the forehead, over sides faded to skin.","माथे पर सीधी कटी छोटी, कड़ी फ्रिंज, त्वचा तक फ़ेड की गई साइड के ऊपर।",draft,"Keep any <a href=""...""> link tags as they are."
+H49.faq.2.q,H49 Edgar Cut,Does an Edgar cut work with curly hair?,क्या घुंघराले बालों में Edgar cut बनता है?,draft,
+H49.faq.2.a,H49 Edgar Cut,"Yes. The top is kept short and the fringe is cut straight, so curls sit forward neatly.","हां। ऊपर के बाल छोटे रखे जाते हैं और फ्रिंज सीधी काटी जाती है, इसलिए घुंघर साफ़ तरीक़े से आगे बैठते हैं।",draft,"Keep any <a href=""...""> link tags as they are."
+H49.faq.3.q,H49 Edgar Cut,How long is the fringe?,फ्रिंज कितनी लंबी होती है?,draft,
+H49.faq.3.a,H49 Edgar Cut,"About 2–3 cm, just above the eyebrows.","लगभग 2–3 cm, भौंहों के ठीक ऊपर।",draft,"Keep any <a href=""...""> link tags as they are."
+H49.faq.4.q,H49 Edgar Cut,How often does it need a touch-up?,कितने दिन में ठीक करवाना पड़ता है?,draft,
+H49.faq.4.a,H49 Edgar Cut,"Every 2 weeks, to keep the fade and the fringe line sharp.","हर 2 हफ़्ते में, फ़ेड और फ्रिंज की लाइन शार्प रखने के लिए।",draft,"Keep any <a href=""...""> link tags as they are."
+H49.step.1,H49 Edgar Cut,"Fade line: middle of the side, at the temple.","फ़ेड लाइन: साइड के बीच में, कनपटी पर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H49.step.2,H49 Edgar Cut,Below the line: machine #0.,लाइन के नीचे: मशीन #0।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H49.step.3,H49 Edgar Cut,"Blend up: #1, #2, #3.","ऊपर की ओर ब्लेंड: #1, #2, #3।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H49.step.4,H49 Edgar Cut,Top: 3 fingers long. Scissors.,ऊपर: 3 उंगली लंबे। कैंची।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H49.step.5,H49 Edgar Cut,Comb top forward.,ऊपर के बाल आगे कंघी करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H49.step.6,H49 Edgar Cut,"Fringe: cut straight across, short.","आगे के बाल: छोटे, सीधे काटें।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H49.callout.1.title,H49 Edgar Cut,Blunt fringe,कड़ी फ्रिंज,draft,Photo label title.
+H49.callout.1.text,H49 Edgar Cut,Straight across.,"सीधी, एक ही लाइन में।",draft,Photo label line.
+H49.callout.2.title,H49 Edgar Cut,Mid skin fade,मिड स्किन फ़ेड,draft,Photo label title.
+H49.callout.2.text,H49 Edgar Cut,#0 to #3.,#0 से #3।,draft,Photo label line.
+H49.callout.3.title,H49 Edgar Cut,Thick top,घना ऊपर,draft,Photo label title.
+H49.callout.3.text,H49 Edgar Cut,Full and even.,भरा हुआ और बराबर।,draft,Photo label line.
+H49.callout.4.title,H49 Edgar Cut,Sharp edges,शार्प किनारे,draft,Photo label title.
+H49.callout.4.text,H49 Edgar Cut,Cleaned with a razor.,रेज़र से साफ़।,draft,Photo label line.
+H50.name,H50 Flat Top,Flat Top,Flat Top,draft,"Catalogue name. Keep it, or write the name customers use."
+H50.shortLine,H50 Flat Top,"Short top cut perfectly flat, with tight sides.","बिल्कुल सपाट कटा छोटा ऊपर, टाइट साइड के साथ।",draft,
+H50.description,H50 Flat Top,"A classic cut with the top trimmed flat like a table and the sides cut very short. Strong, neat and old-school.","ऊपर से मेज़ की तरह सपाट कटा और साइड बहुत छोटी रखा क्लासिक कट। मज़बूत, साफ़ और पुराने अंदाज़ का।",draft,
+H50.pickIf,H50 Flat Top,"you have thick, straight or curly hair and want a strong, classic look.","आपके बाल घने, सीधे या घुंघराले हैं और आप मज़बूत, क्लासिक लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+H50.skipIf,H50 Flat Top,"you have thin or fine hair, or a long face.","आपके बाल पतले या बारीक हैं, या चेहरा लंबा है।",draft,"Follows ""Skip if""."
+H50.daily,H50 Flat Top,"2 min: brush the top up, a little firm wax.","2 मिनट: ऊपर ब्रश करें, थोड़ा सख़्त वैक्स।",draft,
+H50.weekly,H50 Flat Top,Nothing.,कुछ नहीं।,draft,
+H50.nextVisit,H50 Flat Top,in 2–3 weeks,2–3 हफ़्ते में,draft,
+H50.alsoCalled,H50 Flat Top,Flattop,फ़्लैटटॉप,draft,Comma-separated names.
+H50.length,H50 Flat Top,Short,छोटे,draft,
+H50.faq.1.q,H50 Flat Top,What is a flat top?,Flat top क्या है?,draft,
+H50.faq.1.a,H50 Flat Top,"A short cut where the top stands up and is trimmed perfectly flat, with very short sides.","ऐसा छोटा कट जिसमें ऊपर के बाल खड़े रहते हैं और बिल्कुल सपाट काटे जाते हैं, साइड बहुत छोटी।",draft,"Keep any <a href=""...""> link tags as they are."
+H50.faq.2.q,H50 Flat Top,What hair does a flat top need?,Flat top के लिए कैसे बाल चाहिए?,draft,
+H50.faq.2.a,H50 Flat Top,Thick hair that stands up on its own. Fine or thin hair won't hold the shape.,घने बाल जो अपने आप खड़े रहें। बारीक या पतले बाल आकार नहीं थामते।,draft,"Keep any <a href=""...""> link tags as they are."
+H50.faq.3.q,H50 Flat Top,How long is the top?,ऊपर कितने लंबे होते हैं?,draft,
+H50.faq.3.a,H50 Flat Top,"About 3 cm, brushed straight up before cutting.","लगभग 3 cm, काटने से पहले सीधे ऊपर ब्रश किए हुए।",draft,"Keep any <a href=""...""> link tags as they are."
+H50.faq.4.q,H50 Flat Top,How often should I get it trimmed?,कितने दिन में ट्रिम करवाएं?,draft,
+H50.faq.4.a,H50 Flat Top,"Every 2–3 weeks, to keep the top flat and the sides tight.","हर 2–3 हफ़्ते में, ऊपर सपाट और साइड टाइट रखने के लिए।",draft,"Keep any <a href=""...""> link tags as they are."
+H50.step.1,H50 Flat Top,Sides and back: machine #1.,साइड और पीछे: मशीन #1।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H50.step.2,H50 Flat Top,Small blend into the top.,ऊपर की ओर हल्का ब्लेंड।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H50.step.3,H50 Flat Top,Brush the top straight up.,ऊपर के बाल सीधे ऊपर ब्रश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H50.step.4,H50 Flat Top,Cut the top flat with comb and scissors.,कंघी और कैंची से ऊपर सपाट काटें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H50.step.5,H50 Flat Top,Check the top is level from every side.,जांचें कि ऊपर चारों तरफ़ से बराबर है।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H50.step.6,H50 Flat Top,Clean neck and ears.,गर्दन और कान साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H50.callout.1.title,H50 Flat Top,Flat top,सपाट ऊपर,draft,Photo label title.
+H50.callout.1.text,H50 Flat Top,Level like a table.,मेज़ की तरह बराबर।,draft,Photo label line.
+H50.callout.2.title,H50 Flat Top,Tight sides,टाइट साइड,draft,Photo label title.
+H50.callout.2.text,H50 Flat Top,Machine #1.,मशीन #1।,draft,Photo label line.
+H50.callout.3.title,H50 Flat Top,Square corners,चौकोर कोने,draft,Photo label title.
+H50.callout.3.text,H50 Flat Top,Sharp at the top edge.,ऊपर के किनारे पर शार्प।,draft,Photo label line.
+H50.callout.4.title,H50 Flat Top,Clean nape,साफ़ गर्दन,draft,Photo label title.
+H50.callout.4.text,H50 Flat Top,Neat neck line.,साफ़ गर्दन की लाइन।,draft,Photo label line.
+H51.name,H51 Natural Afro,Natural Afro,Natural Afro,draft,"Catalogue name. Keep it, or write the name customers use."
+H51.shortLine,H51 Natural Afro,"Full, round curls grown out and shaped evenly.","बढ़ाए और बराबर आकार दिए भरे, गोल घुंघर।",draft,
+H51.description,H51 Natural Afro,"Tight natural curls grown out into a full, round shape, with a neat edge-up and an even outline. Strong and confident.","बढ़ाए गए कसे नेचुरल घुंघर, भरे, गोल आकार में, साफ़ किनारे और बराबर बाहरी लाइन के साथ। मज़बूत और आत्मविश्वासी।",draft,
+H51.pickIf,H51 Natural Afro,you have tight curly hair and want to show off its volume.,आपके बाल कसे घुंघराले हैं और आप उनका वॉल्यूम दिखाना चाहते हैं।,draft,"Follows ""Pick this if""."
+H51.skipIf,H51 Natural Afro,"your hair is straight or thin, or you want a low-effort short cut.","आपके बाल सीधे या पतले हैं, या कम मेहनत का छोटा कट चाहते हैं।",draft,"Follows ""Skip if""."
+H51.daily,H51 Natural Afro,"3 min: pick the curls out, a little curl cream.","3 मिनट: घुंघर खोलें, थोड़ी कर्ल क्रीम।",draft,
+H51.weekly,H51 Natural Afro,Conditioner 2–3 times.,2–3 बार कंडीशनर।,draft,
+H51.nextVisit,H51 Natural Afro,in 4–6 weeks,4–6 हफ़्ते में,draft,
+H51.alsoCalled,H51 Natural Afro,"Afro, Natural","अफ़्रो, नेचुरल",draft,Comma-separated names.
+H51.length,H51 Natural Afro,Medium to long,मध्यम से लंबे,draft,
+H51.faq.1.q,H51 Natural Afro,How long does hair need to be for an afro?,Afro के लिए बाल कितने लंबे चाहिए?,draft,
+H51.faq.1.a,H51 Natural Afro,"At least 8–10 cm of curls, which takes about 8–12 months from a short cut.","कम से कम 8–10 cm लंबे घुंघर, जिसमें छोटे कट से लगभग 8–12 महीने लगते हैं।",draft,"Keep any <a href=""...""> link tags as they are."
+H51.faq.2.q,H51 Natural Afro,How do I keep an afro healthy?,Afro को स्वस्थ कैसे रखें?,draft,
+H51.faq.2.a,H51 Natural Afro,"Use conditioner 2–3 times a week and curl cream, and don't brush it dry.","हफ़्ते में 2–3 बार कंडीशनर और कर्ल क्रीम इस्तेमाल करें, और सूखे बालों में ब्रश न करें।",draft,"Keep any <a href=""...""> link tags as they are."
+H51.faq.3.q,H51 Natural Afro,How do I get a round shape?,गोल आकार कैसे बनाएं?,draft,
+H51.faq.3.a,H51 Natural Afro,"Pick the curls out with a wide comb, then have the barber shape the outline evenly.","चौड़ी कंघी से घुंघर खोलें, फिर बार्बर से बाहरी लाइन बराबर करवाएं।",draft,"Keep any <a href=""...""> link tags as they are."
+H51.faq.4.q,H51 Natural Afro,Can an afro have faded sides?,क्या Afro के साथ फ़ेड वाली साइड रख सकते हैं?,draft,
+H51.faq.4.a,H51 Natural Afro,Yes. A low fade on the sides keeps it neat and makes the top look fuller.,हां। साइड पर लो फ़ेड इसे साफ़ रखता है और ऊपर के बाल ज़्यादा भरे दिखते हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+H51.step.1,H51 Natural Afro,"Cut curls dry, one by one.","घुंघराले बाल सूखे, एक-एक करके काटें।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H51.step.2,H51 Natural Afro,Pick out the curls with a wide comb.,चौड़ी कंघी से घुंघर खोलें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H51.step.3,H51 Natural Afro,Shape the outline: round and even.,बाहरी आकार: गोल और बराबर।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H51.step.4,H51 Natural Afro,Edge up the hairline with a trimmer.,ट्रिमर से हेयरलाइन के किनारे साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H51.step.5,H51 Natural Afro,Remove bulk with thinning scissors.,थिनिंग कैंची से घनापन कम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H51.step.6,H51 Natural Afro,Apply curl cream with fingers.,उंगलियों से कर्ल क्रीम लगाएं।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H51.callout.1.title,H51 Natural Afro,Full curls,भरे घुंघर,draft,Photo label title.
+H51.callout.1.text,H51 Natural Afro,Round and even.,गोल और बराबर।,draft,Photo label line.
+H51.callout.2.title,H51 Natural Afro,Neat edges,साफ़ किनारे,draft,Photo label title.
+H51.callout.2.text,H51 Natural Afro,Hairline lined up.,हेयरलाइन मिली हुई।,draft,Photo label line.
+H51.callout.3.title,H51 Natural Afro,Even outline,बराबर बाहरी लाइन,draft,Photo label title.
+H51.callout.3.text,H51 Natural Afro,Balanced shape.,संतुलित आकार।,draft,Photo label line.
+H51.callout.4.title,H51 Natural Afro,Curl cream,कर्ल क्रीम,draft,Photo label title.
+H51.callout.4.text,H51 Natural Afro,"Soft, no frizz.","नरम, फ़्रिज़ नहीं।",draft,Photo label line.
 B01.name,B01 Clean Shave,Clean Shave,Clean Shave,draft,"Catalogue name. Keep it, or write the name customers use."
 B01.shortLine,B01 Clean Shave,No hair on the face. Fresh and clean.,चेहरे पर कोई बाल नहीं। ताज़ा और साफ़।,draft,
 B01.description,B01 Clean Shave,A smooth face with no beard. Fresh and clean.,बिना दाढ़ी का चिकना चेहरा। ताज़ा और साफ़।,draft,
@@ -3277,6 +3567,103 @@ L25.callout.3.title,L25 Sharp Van Dyke,Separate moustache,अलग मूंछ
 L25.callout.3.text,L25 Sharp Van Dyke,Clean gap.,साफ़ खाली जगह।,draft,Photo label line.
 L25.callout.4.title,L25 Sharp Van Dyke,Shaved cheeks,शेव किए गाल,draft,Photo label title.
 L25.callout.4.text,L25 Sharp Van Dyke,Smooth.,चिकने।,draft,Photo label line.
+L26.name,L26 Soft Dandy,Soft Dandy,सॉफ़्ट डैंडी,draft,"Catalogue name. Keep it, or write the name customers use."
+L26.shortLine,L26 Soft Dandy,"Soft side-swept Korean hair with a fresh, clean face.","नरम, साइड में किए कोरियन बाल और ताज़ा, साफ़ चेहरा।",draft,
+L26.description,L26 Soft Dandy,"A Korean dandy cut with soft volume and a fully clean-shaven face. Polished but gentle, for office, college and dates.","नरम वॉल्यूम वाला कोरियन डैंडी कट और पूरा साफ़ शेव किया चेहरा। ऑफ़िस, कॉलेज और डेट के लिए निखरा लेकिन नरम।",draft,
+L26.pickIf,L26 Soft Dandy,"you want a soft, polished look that is easy to wear every day.","आप ऐसा नरम, निखरा लुक चाहते हैं जो रोज़ आसानी से चले।",draft,"Follows ""Pick this if""."
+L26.skipIf,L26 Soft Dandy,"you have very thin hair, or no time to blow dry.","आपके बाल बहुत पतले हैं, या ड्रायर चलाने का समय नहीं।",draft,"Follows ""Skip if""."
+L26.daily,L26 Soft Dandy,"9 min: shave, then blow dry the top up and to the side.","9 मिनट: शेव करें, फिर ड्रायर से ऊपर के बाल ऊपर और साइड में सुखाएं।",draft,
+L26.weekly,L26 Soft Dandy,Nothing extra.,और कुछ नहीं।,draft,
+L26.nextVisit,L26 Soft Dandy,in 4 weeks,4 हफ़्ते में,draft,
+L26.callout.1.title,L26 Soft Dandy,Dandy cut,Dandy cut,draft,Photo label title.
+L26.callout.1.text,L26 Soft Dandy,Soft sweep to one side.,एक तरफ़ नरम झुकाव।,draft,Photo label line.
+L26.callout.2.title,L26 Soft Dandy,Light fringe,हल्की फ्रिंज,draft,Photo label title.
+L26.callout.2.text,L26 Soft Dandy,To the eyebrows.,भौंहों तक।,draft,Photo label line.
+L26.callout.3.title,L26 Soft Dandy,Clean face,साफ़ चेहरा,draft,Photo label title.
+L26.callout.3.text,L26 Soft Dandy,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L26.callout.4.title,L26 Soft Dandy,Tapered sides,टेपर साइड,draft,Photo label title.
+L26.callout.4.text,L26 Soft Dandy,#3 to #2.,#3 से #2।,draft,Photo label line.
+L27.name,L27 Wispy Bangs,Wispy Bangs,हल्की बैंग्स,draft,"Catalogue name. Keep it, or write the name customers use."
+L27.shortLine,L27 Wispy Bangs,Light see-through fringe with a clean face.,"साफ़ चेहरे के साथ हल्की, पतली फ्रिंज।",draft,
+L27.description,L27 Wispy Bangs,"Thin, wispy bangs over short, tidy sides, with a fully clean-shaven face. Soft, youthful and easy.","छोटी, साफ़ साइड के ऊपर पतली, हल्की बैंग्स, और पूरा साफ़ शेव किया चेहरा। नरम, जवां और आसान।",draft,
+L27.pickIf,L27 Wispy Bangs,"you want a soft, youthful Korean look without a heavy fringe.","आप भारी फ्रिंज के बिना नरम, जवां कोरियन लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+L27.skipIf,L27 Wispy Bangs,"you have very curly hair, or want a bold look.","आपके बाल बहुत घुंघराले हैं, या बोल्ड लुक चाहते हैं।",draft,"Follows ""Skip if""."
+L27.daily,L27 Wispy Bangs,"8 min: shave, then blow dry the fringe down.","8 मिनट: शेव करें, फिर ड्रायर से फ्रिंज नीचे सुखाएं।",draft,
+L27.weekly,L27 Wispy Bangs,Nothing extra.,और कुछ नहीं।,draft,
+L27.nextVisit,L27 Wispy Bangs,in 4 weeks,4 हफ़्ते में,draft,
+L27.callout.1.title,L27 Wispy Bangs,See-through bangs,See-through bangs,draft,Photo label title.
+L27.callout.1.text,L27 Wispy Bangs,Forehead shows through.,माथा दिखता है।,draft,Photo label line.
+L27.callout.2.title,L27 Wispy Bangs,Clean face,साफ़ चेहरा,draft,Photo label title.
+L27.callout.2.text,L27 Wispy Bangs,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L27.callout.3.title,L27 Wispy Bangs,Airy texture,हल्का टेक्सचर,draft,Photo label title.
+L27.callout.3.text,L27 Wispy Bangs,Thinned and light.,हल्का किया हुआ।,draft,Photo label line.
+L27.callout.4.title,L27 Wispy Bangs,Short sides,छोटी साइड,draft,Photo label title.
+L27.callout.4.text,L27 Wispy Bangs,Neat and tidy.,साफ़ और सलीकेदार।,draft,Photo label line.
+L28.name,L28 Korean Gentleman,Korean Gentleman,कोरियन जेंटलमैन,draft,"Catalogue name. Keep it, or write the name customers use."
+L28.shortLine,L28 Korean Gentleman,Swept-back Korean hair with light stubble.,हल्की दाढ़ी के साथ पीछे किए कोरियन बाल।,draft,
+L28.description,L28 Korean Gentleman,"A Regent Cut with a long, soft top swept back, and light stubble. Grown-up and smart without looking stiff.","पीछे की ओर किया लंबा, नरम ऊपर वाला Regent cut और हल्की दाढ़ी। सख़्त दिखे बिना परिपक्व और स्मार्ट।",draft,
+L28.pickIf,L28 Korean Gentleman,"you want a smart, grown-up Korean look for work and evenings.","आप काम और शाम के लिए स्मार्ट, परिपक्व कोरियन लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+L28.skipIf,L28 Korean Gentleman,"you have thin hair, or your job needs a clean shave.","आपके बाल पतले हैं, या आपके काम के लिए क्लीन शेव ज़रूरी है।",draft,"Follows ""Skip if""."
+L28.daily,L28 Korean Gentleman,"7 min: blow dry back, a little light pomade.","7 मिनट: ड्रायर से पीछे सुखाएं, थोड़ा हल्का पोमेड।",draft,
+L28.weekly,L28 Korean Gentleman,Trim the stubble twice at 1–2 mm.,दाढ़ी दो बार 1–2 mm पर ट्रिम।,draft,
+L28.nextVisit,L28 Korean Gentleman,in 4 weeks,4 हफ़्ते में,draft,
+L28.callout.1.title,L28 Korean Gentleman,Regent cut,Regent cut,draft,Photo label title.
+L28.callout.1.text,L28 Korean Gentleman,"Swept back, soft finish.","पीछे की ओर, नरम फ़िनिश।",draft,Photo label line.
+L28.callout.2.title,L28 Korean Gentleman,Light stubble,हल्की दाढ़ी,draft,Photo label title.
+L28.callout.2.text,L28 Korean Gentleman,1-2 mm.,1-2 mm।,draft,Photo label line.
+L28.callout.3.title,L28 Korean Gentleman,Tapered sides,टेपर साइड,draft,Photo label title.
+L28.callout.3.text,L28 Korean Gentleman,#3 to #2.,#3 से #2।,draft,Photo label line.
+L28.callout.4.title,L28 Korean Gentleman,Soft shine,हल्की चमक,draft,Photo label title.
+L28.callout.4.text,L28 Korean Gentleman,Light pomade.,हल्का पोमेड।,draft,Photo label line.
+L29.name,L29 Soft Layers,Soft Layers,सॉफ़्ट लेयर,draft,"Catalogue name. Keep it, or write the name customers use."
+L29.shortLine,L29 Soft Layers,"Feathery layers with a fresh, clean face.","ताज़ा, साफ़ चेहरे के साथ पंख जैसी लेयर।",draft,
+L29.description,L29 Soft Layers,"A Hush Cut with soft layers around the face, and a fully clean-shaven face. Light, soft and cared for.","चेहरे के आसपास नरम लेयर वाला Hush cut और पूरा साफ़ शेव किया चेहरा। हल्का, नरम और देखभाल किया हुआ।",draft,
+L29.pickIf,L29 Soft Layers,you want longer hair that looks soft and neat.,आप नरम और साफ़ दिखने वाले लंबे बाल चाहते हैं।,draft,"Follows ""Pick this if""."
+L29.skipIf,L29 Soft Layers,"you have very short or curly hair, or a strict office.","आपके बाल बहुत छोटे या घुंघराले हैं, या ऑफ़िस सख़्त है।",draft,"Follows ""Skip if""."
+L29.daily,L29 Soft Layers,"9 min: shave, then blow dry with a little light cream.","9 मिनट: शेव करें, फिर थोड़ी हल्की क्रीम लगाकर ड्रायर से सुखाएं।",draft,
+L29.weekly,L29 Soft Layers,Conditioner 2–3 times.,2–3 बार कंडीशनर।,draft,
+L29.nextVisit,L29 Soft Layers,in 6 weeks,6 हफ़्ते में,draft,
+L29.callout.1.title,L29 Soft Layers,Hush cut,Hush cut,draft,Photo label title.
+L29.callout.1.text,L29 Soft Layers,Feathery layers.,पंख जैसी लेयर।,draft,Photo label line.
+L29.callout.2.title,L29 Soft Layers,Face-framing,चेहरे को घेरती,draft,Photo label title.
+L29.callout.2.text,L29 Soft Layers,Falls to the cheeks.,गालों तक गिरती है।,draft,Photo label line.
+L29.callout.3.title,L29 Soft Layers,Clean face,साफ़ चेहरा,draft,Photo label title.
+L29.callout.3.text,L29 Soft Layers,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L29.callout.4.title,L29 Soft Layers,Light ends,हल्के सिरे,draft,Photo label title.
+L29.callout.4.text,L29 Soft Layers,Thinned and airy.,पतले और हल्के।,draft,Photo label line.
+L30.name,L30 Sharp Edgar,Sharp Edgar,शार्प Edgar,draft,"Catalogue name. Keep it, or write the name customers use."
+L30.shortLine,L30 Sharp Edgar,"Blunt fringe over a skin fade, with heavy stubble.","स्किन फ़ेड के ऊपर कड़ी फ्रिंज, घनी दाढ़ी के साथ।",draft,
+L30.description,L30 Sharp Edgar,"An Edgar Cut with a blunt fringe over a mid skin fade, and about a week of stubble. Bold, sharp and modern.","मिड स्किन फ़ेड के ऊपर कड़ी फ्रिंज वाला Edgar cut और लगभग एक हफ़्ते की दाढ़ी। बोल्ड, शार्प और मॉडर्न।",draft,
+L30.pickIf,L30 Sharp Edgar,"you want a bold, modern cut and can visit every 2 weeks.","आप बोल्ड, मॉडर्न कट चाहते हैं और हर 2 हफ़्ते में आ सकते हैं।",draft,"Follows ""Pick this if""."
+L30.skipIf,L30 Sharp Edgar,"you have a round face, or your beard grows patchy.","आपका चेहरा गोल है, या दाढ़ी कहीं-कहीं आती है।",draft,"Follows ""Skip if""."
+L30.daily,L30 Sharp Edgar,"3 min: comb the fringe forward, a little dry wax (clay).","3 मिनट: फ्रिंज आगे कंघी करें, थोड़ा ड्राई वैक्स (क्ले)।",draft,
+L30.weekly,L30 Sharp Edgar,Trim the stubble once at 5 mm.,दाढ़ी एक बार 5 mm पर ट्रिम।,draft,
+L30.nextVisit,L30 Sharp Edgar,in 2 weeks,2 हफ़्ते में,draft,
+L30.callout.1.title,L30 Sharp Edgar,Edgar cut,Edgar cut,draft,Photo label title.
+L30.callout.1.text,L30 Sharp Edgar,Blunt fringe.,कड़ी फ्रिंज।,draft,Photo label line.
+L30.callout.2.title,L30 Sharp Edgar,Mid skin fade,मिड स्किन फ़ेड,draft,Photo label title.
+L30.callout.2.text,L30 Sharp Edgar,#0 to #3.,#0 से #3।,draft,Photo label line.
+L30.callout.3.title,L30 Sharp Edgar,Heavy stubble,Heavy stubble,draft,Photo label title.
+L30.callout.3.text,L30 Sharp Edgar,5 mm.,5 mm।,draft,Photo label line.
+L30.callout.4.title,L30 Sharp Edgar,Sharp edges,शार्प किनारे,draft,Photo label title.
+L30.callout.4.text,L30 Sharp Edgar,Cleaned with a razor.,रेज़र से साफ़।,draft,Photo label line.
+L31.name,L31 Ash Brown Perm,Ash Brown Perm,ऐश ब्राउन पर्म,draft,"Catalogue name. Keep it, or write the name customers use."
+L31.shortLine,L31 Ash Brown Perm,Soft Korean perm waves in cool ash brown.,ठंडे ऐश ब्राउन रंग में नरम कोरियन पर्म की लहरें।,draft,
+L31.description,L31 Ash Brown Perm,"A Korean perm with soft waves, coloured cool ash brown, and a fully clean-shaven face. A popular modern Korean look.","नरम लहरों वाला कोरियन पर्म, ठंडा ऐश ब्राउन रंग और पूरा साफ़ शेव किया चेहरा। लोकप्रिय मॉडर्न कोरियन लुक।",draft,
+L31.pickIf,L31 Ash Brown Perm,"you want a soft, modern look with colour and have a few hours.","आप रंग के साथ नरम, मॉडर्न लुक चाहते हैं और कुछ घंटे का समय है।",draft,"Follows ""Pick this if""."
+L31.skipIf,L31 Ash Brown Perm,"your hair is damaged, your scalp is sensitive, or your office is strict.","आपके बाल ख़राब हैं, सिर की त्वचा संवेदनशील है, या ऑफ़िस सख़्त है।",draft,"Follows ""Skip if""."
+L31.daily,L31 Ash Brown Perm,"9 min: shave, then a little curl cream.","9 मिनट: शेव करें, फिर थोड़ी कर्ल क्रीम।",draft,
+L31.weekly,L31 Ash Brown Perm,Mild shampoo and conditioner. Purple shampoo once.,हल्का शैम्पू और कंडीशनर। एक बार पर्पल शैम्पू।,draft,
+L31.nextVisit,L31 Ash Brown Perm,in 4 weeks for a trim. The perm lasts 2–3 months.,ट्रिम के लिए 4 हफ़्ते में। पर्म 2–3 महीने चलता है।,draft,
+L31.atShop,L31 Ash Brown Perm,3–4 hours on perm and colour day,पर्म और रंग वाले दिन 3–4 घंटे,draft,
+L31.callout.1.title,L31 Ash Brown Perm,Ash brown,ऐश ब्राउन,draft,Photo label title.
+L31.callout.1.text,L31 Ash Brown Perm,Cool and even.,ठंडा और बराबर।,draft,Photo label line.
+L31.callout.2.title,L31 Ash Brown Perm,Soft waves,नरम लहरें,draft,Photo label title.
+L31.callout.2.text,L31 Ash Brown Perm,Loose perm.,ढीला पर्म।,draft,Photo label line.
+L31.callout.3.title,L31 Ash Brown Perm,Clean face,साफ़ चेहरा,draft,Photo label title.
+L31.callout.3.text,L31 Ash Brown Perm,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L31.callout.4.title,L31 Ash Brown Perm,Airy volume,हल्का वॉल्यूम,draft,Photo label title.
+L31.callout.4.text,L31 Ash Brown Perm,"Light, not frizzy.","हल्का, फ़्रिज़ी नहीं।",draft,Photo label line.
 P01.title,P01 What is my face shape? A 30-second guide for men,What is my face shape? A 30-second guide for men,मेरे चेहरे का आकार क्या है? पुरुषों के लिए 30 सेकंड की गाइड,draft,"Page title: the question people search, about 60 characters."
 P01.description,P01 What is my face shape? A 30-second guide for men,"Find your face shape in 30 seconds with a mirror: oval, round, square, long or heart. See which haircuts and beards suit each one.","आईने से 30 सेकंड में अपने चेहरे का आकार जानें: अंडाकार, गोल, चौकोर, लंबा या दिल के आकार का। देखें किस पर कौन सा हेयरकट और दाढ़ी जंचती है।",draft,Search snippet: up to 155 characters.
 P01.shortAnswer,P01 What is my face shape? A 30-second guide for men,"Look straight into a mirror with your hair pulled back. Compare the width of your forehead, cheekbones and jaw, then compare length with width. Most men are oval, round, square, long or heart-shaped. Your shape decides where a haircut should add height, width or softness.","बाल पीछे करके आईने में सीधे देखें। माथे, गालों की हड्डी और जबड़े की चौड़ाई की तुलना करें, फिर लंबाई और चौड़ाई की। ज़्यादातर पुरुषों का चेहरा अंडाकार, गोल, चौकोर, लंबा या दिल के आकार का होता है। आपका आकार तय करता है कि हेयरकट कहां ऊंचाई, चौड़ाई या नरमी जोड़े।",draft,40–60 words that make sense on their own.

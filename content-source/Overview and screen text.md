@@ -4,7 +4,7 @@ Oct 19, 2026 · @Istemlab
 
 ## How this doc works
 
-This doc holds the English text for every screen and every item in the app: 42 hair styles, 16 beards, 12 moustaches, 12 hair colours and 25 Ready Looks, plus 13 Learn posts. Nepali and Hindi come after the English is approved, so we only translate text that is final.
+This doc holds the English text for every screen and every item in the app: 51 hair styles, 16 beards, 12 moustaches, 12 hair colours and 31 Ready Looks, plus 13 Learn posts. Nepali and Hindi come after the English is approved, so we only translate text that is final.
 
 - **This tab:** writing rules, photos, suitability options, Favourites, My Look and all screen text.
 - **Catalogue tabs:** one per category. Every item uses the same fields, so the content can be turned straight into app data for the prototype. Each item has a short line for the list card, then a short description, Pick this if and Skip if lines, daily and weekly care, and the next barber visit for the detail screen.
@@ -162,7 +162,7 @@ Every label, button and message in the app, screen by screen. Text in \[brackets
 | --- | --- |
 | Title | \[Shop name\] |
 | Line under title | Pick your style. Show it to the barber. |
-| Tile: Hair | Hair · 42 styles |
+| Tile: Hair | Hair · 51 styles |
 | Tile: Beard | Beard · 16 styles |
 | Tile: Moustache | Moustache · 12 styles |
 | Tile: Colour | Colour · 12 colours |

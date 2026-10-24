@@ -1,7 +1,7 @@
 [
   {
     "id": "H01",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "buzz-cut",
     "name": "Buzz Cut",
     "shortLine": "Very short, same length all over. Clean and easy.",
@@ -75,7 +75,7 @@
   },
   {
     "id": "H02",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "crew-cut",
     "name": "Crew Cut",
     "shortLine": "Short sides, a little longer on top. Neat and simple.",
@@ -153,7 +153,7 @@
   },
   {
     "id": "H03",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "ivy-league",
     "name": "Ivy League",
     "shortLine": "A longer crew cut. Top can be combed to the side.",
@@ -226,7 +226,7 @@
   },
   {
     "id": "H04",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "caesar-cut",
     "name": "Caesar Cut",
     "shortLine": "Short all over with a short straight fringe in front.",
@@ -299,7 +299,7 @@
   },
   {
     "id": "H05",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "french-crop",
     "name": "French Crop",
     "shortLine": "Short sides. Rough top pushed forward with a short fringe.",
@@ -375,7 +375,7 @@
   },
   {
     "id": "H06",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "taper-cut",
     "name": "Taper Cut",
     "shortLine": "Classic short cut. Gets shorter slowly near the ears and neck.",
@@ -449,7 +449,7 @@
   },
   {
     "id": "H07",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "low-fade",
     "name": "Low Fade",
     "shortLine": "Sides fade to skin just above the ears. Short top.",
@@ -527,7 +527,7 @@
   },
   {
     "id": "H08",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "mid-fade",
     "name": "Mid Fade",
     "shortLine": "Fade starts at the middle of the side. Clean and modern.",
@@ -601,7 +601,7 @@
   },
   {
     "id": "H09",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "skin-fade",
     "name": "Skin Fade",
     "shortLine": "Sides go to bare skin, high up. Very sharp look.",
@@ -678,7 +678,7 @@
   },
   {
     "id": "H10",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "classic-side-part",
     "name": "Classic Side Part",
     "shortLine": "Neat cut with a clear part on one side. Good for office.",
@@ -754,7 +754,7 @@
   },
   {
     "id": "H11",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "comb-over-fade",
     "name": "Comb Over Fade",
     "shortLine": "Side part on top, faded sides. Clean and modern.",
@@ -829,7 +829,7 @@
   },
   {
     "id": "H12",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "undercut",
     "name": "Undercut",
     "shortLine": "Very short sides, long top. Clear line between them.",
@@ -902,7 +902,7 @@
   },
   {
     "id": "H13",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "slick-back",
     "name": "Slick Back",
     "shortLine": "Long top combed straight back. Smart, shiny look.",
@@ -980,7 +980,7 @@
   },
   {
     "id": "H14",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "quiff",
     "name": "Quiff",
     "shortLine": "Short sides, front hair lifted up and back.",
@@ -1055,7 +1055,7 @@
   },
   {
     "id": "H15",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "pompadour",
     "name": "Pompadour",
     "shortLine": "Big height on top, combed up and back. Bold look.",
@@ -1129,7 +1129,7 @@
   },
   {
     "id": "H16",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "spiky",
     "name": "Spiky",
     "shortLine": "Short top with hair standing up in spikes.",
@@ -1199,7 +1199,7 @@
   },
   {
     "id": "H17",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "faux-hawk",
     "name": "Faux Hawk",
     "shortLine": "Middle of the top pushed up. Sides short.",
@@ -1273,7 +1273,7 @@
   },
   {
     "id": "H18",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "two-block",
     "name": "Two-Block",
     "shortLine": "Short sides hidden under longer top hair. Soft fringe.",
@@ -1349,7 +1349,7 @@
   },
   {
     "id": "H19",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "middle-part",
     "name": "Middle Part",
     "shortLine": "Medium hair parted in the middle, falling to both sides.",
@@ -1425,7 +1425,7 @@
   },
   {
     "id": "H20",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "medium-flow",
     "name": "Medium Flow",
     "shortLine": "Medium length hair pushed back, ends behind the ears.",
@@ -1499,7 +1499,7 @@
   },
   {
     "id": "H21",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "buzz-fade",
     "name": "Buzz Fade",
     "shortLine": "Buzz cut on top with the sides faded to skin.",
@@ -1572,7 +1572,7 @@
   },
   {
     "id": "H22",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "high-and-tight",
     "name": "High and Tight",
     "shortLine": "Very short sides cut high, with a short, flat top.",
@@ -1646,7 +1646,7 @@
   },
   {
     "id": "H23",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "taper-fade",
     "name": "Taper Fade",
     "shortLine": "Neat cut with a small fade only at the sideburns and neck.",
@@ -1723,7 +1723,7 @@
   },
   {
     "id": "H24",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "drop-fade",
     "name": "Drop Fade",
     "shortLine": "Fade that curves down behind the ear.",
@@ -1797,7 +1797,7 @@
   },
   {
     "id": "H25",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "fade-with-line-design",
     "name": "Fade with Line Design",
     "shortLine": "A fade with one or two shaved lines on the side.",
@@ -1874,7 +1874,7 @@
   },
   {
     "id": "H26",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "curly-top-fade",
     "name": "Curly Top Fade",
     "shortLine": "Natural curls on top with short, faded sides.",
@@ -1947,7 +1947,7 @@
   },
   {
     "id": "H27",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "side-fringe",
     "name": "Side Fringe",
     "shortLine": "Longer fringe swept to one side across the forehead.",
@@ -2020,7 +2020,7 @@
   },
   {
     "id": "H28",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "wolf-cut",
     "name": "Wolf Cut",
     "shortLine": "Shaggy, layered cut with volume on top and length at the back.",
@@ -2095,7 +2095,7 @@
   },
   {
     "id": "H29",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "man-bun",
     "name": "Man Bun",
     "shortLine": "Long hair tied up in a bun at the back of the head.",
@@ -2169,7 +2169,7 @@
   },
   {
     "id": "H30",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "head-shave",
     "name": "Head Shave",
     "shortLine": "Whole head shaved smooth with a razor.",
@@ -2243,7 +2243,7 @@
   },
   {
     "id": "H31",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "crop-fade",
     "name": "Crop Fade",
     "shortLine": "Short, rough top pushed forward, with faded sides.",
@@ -2319,7 +2319,7 @@
   },
   {
     "id": "H32",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "burst-fade",
     "name": "Burst Fade",
     "shortLine": "Fade that curves around the ear in a half circle.",
@@ -2393,7 +2393,7 @@
   },
   {
     "id": "H33",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "mohawk",
     "name": "Mohawk",
     "shortLine": "Strip of hair standing up in the middle. Sides very short.",
@@ -2466,7 +2466,7 @@
   },
   {
     "id": "H34",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "modern-mullet",
     "name": "Modern Mullet",
     "shortLine": "Short front and sides, longer hair at the back.",
@@ -2539,7 +2539,7 @@
   },
   {
     "id": "H35",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "mushroom-cut",
     "name": "Mushroom Cut",
     "shortLine": "Rounded fringe all around the head, like a mushroom cap.",
@@ -2612,7 +2612,7 @@
   },
   {
     "id": "H36",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "comma-hair",
     "name": "Comma Hair",
     "shortLine": "Korean fringe curled inward like a comma.",
@@ -2684,7 +2684,7 @@
   },
   {
     "id": "H37",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "korean-perm",
     "name": "Korean Perm",
     "shortLine": "Soft, loose waves added to the top with a perm.",
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "H38",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "brush-up",
     "name": "Brush Up",
     "shortLine": "Short sides with the top brushed straight up.",
@@ -2834,7 +2834,7 @@
   },
   {
     "id": "H39",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "natural-curls",
     "name": "Natural Curls",
     "shortLine": "Curly hair kept at medium length, shaped evenly all over.",
@@ -2907,7 +2907,7 @@
   },
   {
     "id": "H40",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "shoulder-length",
     "name": "Shoulder Length",
     "shortLine": "Long hair worn down, reaching the shoulders.",
@@ -2981,7 +2981,7 @@
   },
   {
     "id": "H41",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "school-cut",
     "name": "School Cut",
     "shortLine": "Short, neat cut that meets most school rules.",
@@ -3058,7 +3058,7 @@
   },
   {
     "id": "H42",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "pushed-back",
     "name": "Pushed Back",
     "shortLine": "Medium top pushed back with a natural, matte finish.",
@@ -3126,6 +3126,685 @@
     "hairType": [
       "Straight",
       "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H43",
+    "updated": "2026-10-24",
+    "slug": "dandy-cut",
+    "name": "Dandy Cut",
+    "shortLine": "Soft, side-swept top with volume and tidy tapered sides.",
+    "description": "Korean dandy cut: a soft top swept to one side with natural volume and a light fringe, over short, tidy sides. Gentle and neat.",
+    "pickIf": "you want a soft, polished look for office, college or a date.",
+    "skipIf": "you have very thin hair, or no time to blow dry in the morning.",
+    "daily": "4 min: blow dry the top up and to the side, a little light wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, round and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Korean dandy",
+      "Dandy hair"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Soft sweep",
+        "text": "Top swept to one side."
+      },
+      {
+        "title": "Light fringe",
+        "text": "To the eyebrows."
+      },
+      {
+        "title": "Tapered sides",
+        "text": "#3 to #2."
+      },
+      {
+        "title": "Natural volume",
+        "text": "Lifted at the roots."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a dandy cut?",
+        "a": "A Korean style with a soft top swept to one side, a light fringe and short, tidy sides. It looks neat but not stiff."
+      },
+      {
+        "q": "How is a dandy cut different from a side part?",
+        "a": "A dandy cut is softer and has more natural volume. A classic side part is combed flat and polished."
+      },
+      {
+        "q": "How long should the top be?",
+        "a": "About 6–8 cm, with the fringe to the eyebrows."
+      },
+      {
+        "q": "Do I need a blow dryer?",
+        "a": "Yes, for a few minutes. Blow drying lifts the roots and sets the sweep."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #3, taper to #2 at neck.",
+      "Top: 3 fingers long. Scissors.",
+      "Ask: part on left or right?",
+      "Fringe: soft, to the eyebrows.",
+      "Blow dry top up and to the side.",
+      "Finish with light wax."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H44",
+    "updated": "2026-10-24",
+    "slug": "see-through-bangs",
+    "name": "See-Through Bangs",
+    "shortLine": "Thin, wispy fringe that lets a little forehead show.",
+    "description": "A Korean fringe cut thin and light so the forehead shows through the strands. Soft and airy, with short, tidy sides.",
+    "pickIf": "you want a soft fringe that doesn't look heavy, or want to cover a high forehead lightly.",
+    "skipIf": "you have very curly hair, or don't want hair on your forehead.",
+    "daily": "3 min: blow dry the fringe down, a little light wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [
+      "See-through fringe",
+      "Wispy bangs"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Wispy fringe",
+        "text": "Forehead shows through."
+      },
+      {
+        "title": "Brow length",
+        "text": "Reaches the eyebrows."
+      },
+      {
+        "title": "Airy texture",
+        "text": "Thinned and light."
+      },
+      {
+        "title": "Short sides",
+        "text": "Neat and tidy."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are see-through bangs?",
+        "a": "A thin, wispy fringe where the forehead shows through the strands. It is lighter than a full fringe."
+      },
+      {
+        "q": "Do see-through bangs suit thin hair?",
+        "a": "Yes. The fringe is meant to be light, so thin hair looks natural."
+      },
+      {
+        "q": "How do I stop the fringe splitting?",
+        "a": "Blow dry it down and a little to the side, then use a little light wax, not heavy gel."
+      },
+      {
+        "q": "How long is the fringe?",
+        "a": "To the eyebrows, thinned out with thinning scissors."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, or two-block.",
+      "Top: 3 fingers long. Scissors.",
+      "Fringe: to the eyebrows.",
+      "Thin the fringe with thinning scissors.",
+      "Blow dry fringe down.",
+      "Finish with light wax."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H45",
+    "updated": "2026-10-24",
+    "slug": "leaf-cut",
+    "name": "Leaf Cut",
+    "shortLine": "Centre part with layered pieces that flick out like leaves.",
+    "description": "A Korean layered cut with a centre part. The fringe falls in two soft pieces that flick slightly outward at the ends, like leaves.",
+    "pickIf": "you want a soft, trendy look with face-framing pieces.",
+    "skipIf": "you have very short hair or curly hair, or a strict office.",
+    "daily": "5 min: blow dry the fringe outward with a round brush, a little light wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 5 weeks",
+    "suitsText": "Oval and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Leaf hair",
+      "Korean leaf cut"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Centre part",
+        "text": "Even on both sides."
+      },
+      {
+        "title": "Leaf flick",
+        "text": "Ends curl outward."
+      },
+      {
+        "title": "Face-framing",
+        "text": "Falls to the cheekbones."
+      },
+      {
+        "title": "Light layers",
+        "text": "Soft and airy."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why is it called a leaf cut?",
+        "a": "The fringe splits in the middle and each side flicks outward at the end, like the edge of a leaf."
+      },
+      {
+        "q": "How long does hair need to be?",
+        "a": "About 8–10 cm on top, with the fringe reaching the cheekbones."
+      },
+      {
+        "q": "Is a leaf cut the same as a middle part?",
+        "a": "It is similar, but a leaf cut has more layers and the ends flick outward."
+      },
+      {
+        "q": "Does a leaf cut need a perm?",
+        "a": "No, but a soft perm on the fringe makes the outward flick last longer."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, or scissors.",
+      "Top: 4 fingers long. Add layers.",
+      "Part in the middle.",
+      "Fringe: to the cheekbones, in two pieces.",
+      "Point cut the ends so they flick out.",
+      "Blow dry fringe outward."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H46",
+    "updated": "2026-10-24",
+    "slug": "down-perm",
+    "name": "Down Perm",
+    "shortLine": "Perm that keeps the sides flat and the top natural.",
+    "description": "A Korean perm used on the sides to keep them flat against the head, so the top looks fuller and the hair stays neat without daily styling.",
+    "pickIf": "your hair puffs out at the sides and you want a neat, slim shape for months.",
+    "skipIf": "your hair is damaged or very thin, or your scalp is sensitive.",
+    "daily": "1 min: a little light wax on top.",
+    "weekly": "Mild shampoo and conditioner.",
+    "nextVisit": "in 4 weeks for a trim. The perm lasts 2–3 months.",
+    "atShop": "2 hours",
+    "suitsText": "Oval, round, square and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Side-down perm",
+      "Flat-side perm"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Flat sides",
+        "text": "Lie close to the head."
+      },
+      {
+        "title": "Full top",
+        "text": "Natural volume."
+      },
+      {
+        "title": "Neat shape",
+        "text": "Slim, no puff."
+      },
+      {
+        "title": "Easy daily",
+        "text": "Almost no styling."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does a down perm do?",
+        "a": "It makes the hair on the sides lie flat against the head, so the top looks fuller and the shape stays neat."
+      },
+      {
+        "q": "Does a down perm make hair curly?",
+        "a": "No. It only calms the volume at the sides. The top stays natural."
+      },
+      {
+        "q": "How long does a down perm last?",
+        "a": "About 2–3 months."
+      },
+      {
+        "q": "Is a down perm good for a round face?",
+        "a": "Yes. Flat sides slim the face, and the top adds height."
+      }
+    ],
+    "barberSteps": [
+      "Ask: scalp problems or allergy? If yes, stop.",
+      "Cut first: sides #3, top 3 fingers.",
+      "Apply down-perm lotion to the sides only.",
+      "Comb the sides down and back. Wait as on the box.",
+      "Rinse. Apply neutraliser. Wait as on the box.",
+      "Rinse. No shampoo for 2 days."
+    ],
+    "barberNote": "Best done by someone trained in perms.",
+    "length": "Short to medium",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H47",
+    "updated": "2026-10-24",
+    "slug": "regent-cut",
+    "name": "Regent Cut",
+    "shortLine": "Long top swept back from a soft part, with tapered sides.",
+    "description": "A Korean cut with a long top swept back and slightly to the sides, a little lift at the front and short tapered sides. Smart and elegant.",
+    "pickIf": "you want a smart, grown-up Korean look with some length.",
+    "skipIf": "you have thin hair, or want a quick morning.",
+    "daily": "6 min: blow dry back, then a little pomade or light wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval and square face · Straight or wavy hair",
+    "alsoCalled": [
+      "Korean slick back",
+      "Regent hair"
+    ],
+    "mainPhoto": "side",
+    "callouts": [
+      {
+        "title": "Swept back",
+        "text": "Soft part, natural lift."
+      },
+      {
+        "title": "Front lift",
+        "text": "A little volume."
+      },
+      {
+        "title": "Tapered sides",
+        "text": "#3 to #2."
+      },
+      {
+        "title": "Soft shine",
+        "text": "Light pomade."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a regent cut?",
+        "a": "A Korean cut with a long top swept back from a soft part, a little lift at the front and short tapered sides."
+      },
+      {
+        "q": "How is a regent cut different from a slick back?",
+        "a": "A regent cut has a soft, natural finish with some volume. A slick back is flat and shiny."
+      },
+      {
+        "q": "How long should the top be?",
+        "a": "About 8–10 cm."
+      },
+      {
+        "q": "Which product should I use?",
+        "a": "A light pomade or wax, for a soft hold with a little shine."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, taper to #2 at neck.",
+      "Top: 4–5 fingers long. Scissors.",
+      "Ask: part on left or right?",
+      "Front: a little longer than back.",
+      "Blow dry top back.",
+      "Finish with pomade or gel."
+    ],
+    "length": "Medium to long",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H48",
+    "updated": "2026-10-24",
+    "slug": "hush-cut",
+    "name": "Hush Cut",
+    "shortLine": "Soft, feathery layers around the face.",
+    "description": "A soft layered cut for medium to long hair, with feathery layers around the face and lightly thinned ends. A gentler version of the wolf cut.",
+    "pickIf": "you want longer hair that looks soft and cared for, without a messy shag.",
+    "skipIf": "you have very short or curly hair, or a strict office.",
+    "daily": "4 min: blow dry, a little light cream on the ends.",
+    "weekly": "Conditioner 2–3 times.",
+    "nextVisit": "in 6 weeks",
+    "suitsText": "Oval, round, square and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Feathered layers"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Soft layers",
+        "text": "Feathery, not choppy."
+      },
+      {
+        "title": "Face-framing",
+        "text": "Falls to the cheeks."
+      },
+      {
+        "title": "Light ends",
+        "text": "Thinned and airy."
+      },
+      {
+        "title": "Natural flow",
+        "text": "Easy movement."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a hush cut?",
+        "a": "A medium-length layered cut with soft, feathery layers around the face and lightly thinned ends. It looks soft and natural."
+      },
+      {
+        "q": "How is a hush cut different from a wolf cut?",
+        "a": "A wolf cut is choppy and messy. A hush cut is softer, with smoother layers."
+      },
+      {
+        "q": "How long does hair need to be?",
+        "a": "At least to the ears at the sides, and to the collar or longer at the back."
+      },
+      {
+        "q": "Is a hush cut good for a round face?",
+        "a": "Yes. Layers around the face slim it."
+      }
+    ],
+    "barberSteps": [
+      "Ask: how much length to keep?",
+      "Back: keep length, to the collar.",
+      "Top: soft layers, 4–5 fingers.",
+      "Face layers: down to the cheeks.",
+      "Thin the ends with thinning scissors.",
+      "Blow dry. Finish with light cream."
+    ],
+    "length": "Medium to long",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H49",
+    "updated": "2026-10-24",
+    "slug": "edgar-cut",
+    "name": "Edgar Cut",
+    "shortLine": "Blunt, straight fringe over a skin fade.",
+    "description": "A short, thick fringe cut straight across the forehead, over sides faded to skin. Bold, sharp and modern.",
+    "pickIf": "you want a bold cut with a clean, blunt edge.",
+    "skipIf": "you have a round face, or can't visit every 2 weeks.",
+    "daily": "2 min: comb the fringe forward, a little dry wax (clay).",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2 weeks",
+    "suitsText": "Oval, square, long and heart face · All hair types · Thin hair OK",
+    "alsoCalled": [
+      "Edgar",
+      "Blunt fringe fade"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Blunt fringe",
+        "text": "Straight across."
+      },
+      {
+        "title": "Mid skin fade",
+        "text": "#0 to #3."
+      },
+      {
+        "title": "Thick top",
+        "text": "Full and even."
+      },
+      {
+        "title": "Sharp edges",
+        "text": "Cleaned with a razor."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an Edgar cut?",
+        "a": "A short, blunt fringe cut straight across the forehead, over sides faded to skin."
+      },
+      {
+        "q": "Does an Edgar cut work with curly hair?",
+        "a": "Yes. The top is kept short and the fringe is cut straight, so curls sit forward neatly."
+      },
+      {
+        "q": "How long is the fringe?",
+        "a": "About 2–3 cm, just above the eyebrows."
+      },
+      {
+        "q": "How often does it need a touch-up?",
+        "a": "Every 2 weeks, to keep the fade and the fringe line sharp."
+      }
+    ],
+    "barberSteps": [
+      "Fade line: middle of the side, at the temple.",
+      "Below the line: machine #0.",
+      "Blend up: #1, #2, #3.",
+      "Top: 3 fingers long. Scissors.",
+      "Comb top forward.",
+      "Fringe: cut straight across, short."
+    ],
+    "length": "Short",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H50",
+    "updated": "2026-10-24",
+    "slug": "flat-top",
+    "name": "Flat Top",
+    "shortLine": "Short top cut perfectly flat, with tight sides.",
+    "description": "A classic cut with the top trimmed flat like a table and the sides cut very short. Strong, neat and old-school.",
+    "pickIf": "you have thick, straight or curly hair and want a strong, classic look.",
+    "skipIf": "you have thin or fine hair, or a long face.",
+    "daily": "2 min: brush the top up, a little firm wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval, square and round face · Straight or curly hair",
+    "alsoCalled": [
+      "Flattop"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Flat top",
+        "text": "Level like a table."
+      },
+      {
+        "title": "Tight sides",
+        "text": "Machine #1."
+      },
+      {
+        "title": "Square corners",
+        "text": "Sharp at the top edge."
+      },
+      {
+        "title": "Clean nape",
+        "text": "Neat neck line."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a flat top?",
+        "a": "A short cut where the top stands up and is trimmed perfectly flat, with very short sides."
+      },
+      {
+        "q": "What hair does a flat top need?",
+        "a": "Thick hair that stands up on its own. Fine or thin hair won't hold the shape."
+      },
+      {
+        "q": "How long is the top?",
+        "a": "About 3 cm, brushed straight up before cutting."
+      },
+      {
+        "q": "How often should I get it trimmed?",
+        "a": "Every 2–3 weeks, to keep the top flat and the sides tight."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #1.",
+      "Small blend into the top.",
+      "Brush the top straight up.",
+      "Cut the top flat with comb and scissors.",
+      "Check the top is level from every side.",
+      "Clean neck and ears."
+    ],
+    "length": "Short",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Curly"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H51",
+    "updated": "2026-10-24",
+    "slug": "natural-afro",
+    "name": "Natural Afro",
+    "shortLine": "Full, round curls grown out and shaped evenly.",
+    "description": "Tight natural curls grown out into a full, round shape, with a neat edge-up and an even outline. Strong and confident.",
+    "pickIf": "you have tight curly hair and want to show off its volume.",
+    "skipIf": "your hair is straight or thin, or you want a low-effort short cut.",
+    "daily": "3 min: pick the curls out, a little curl cream.",
+    "weekly": "Conditioner 2–3 times.",
+    "nextVisit": "in 4–6 weeks",
+    "suitsText": "Oval, square, long and heart face · Curly hair",
+    "alsoCalled": [
+      "Afro",
+      "Natural"
+    ],
+    "mainPhoto": "front",
+    "callouts": [
+      {
+        "title": "Full curls",
+        "text": "Round and even."
+      },
+      {
+        "title": "Neat edges",
+        "text": "Hairline lined up."
+      },
+      {
+        "title": "Even outline",
+        "text": "Balanced shape."
+      },
+      {
+        "title": "Curl cream",
+        "text": "Soft, no frizz."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does hair need to be for an afro?",
+        "a": "At least 8–10 cm of curls, which takes about 8–12 months from a short cut."
+      },
+      {
+        "q": "How do I keep an afro healthy?",
+        "a": "Use conditioner 2–3 times a week and curl cream, and don't brush it dry."
+      },
+      {
+        "q": "How do I get a round shape?",
+        "a": "Pick the curls out with a wide comb, then have the barber shape the outline evenly."
+      },
+      {
+        "q": "Can an afro have faded sides?",
+        "a": "Yes. A low fade on the sides keeps it neat and makes the top look fuller."
+      }
+    ],
+    "barberSteps": [
+      "Cut curls dry, one by one.",
+      "Pick out the curls with a wide comb.",
+      "Shape the outline: round and even.",
+      "Edge up the hairline with a trimmer.",
+      "Remove bulk with thinning scissors.",
+      "Apply curl cream with fingers."
+    ],
+    "length": "Medium to long",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Curly"
     ],
     "thinHairOk": false
   }

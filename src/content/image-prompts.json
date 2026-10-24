@@ -222,6 +222,51 @@
       "block": "ITEM: H42 Pushed Back\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 8 cm pushed back from the forehead with a soft matte finish and natural movement; no shine.\nCALLOUTS:\n1. Pushed back: Soft and natural.\n2. Matte finish: No shine.\n3. Tapered sides: #3 to #2.\n4. Clean nape: Neat neck line.",
       "older": false
     },
+    "H43": {
+      "name": "Dandy Cut",
+      "block": "ITEM: H43 Dandy Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 7 cm swept softly to one side with natural volume at the roots; light fringe falling to the eyebrows; soft matte finish.\nCALLOUTS:\n1. Soft sweep: Top swept to one side.\n2. Light fringe: To the eyebrows.\n3. Tapered sides: #3 to #2.\n4. Natural volume: Lifted at the roots.",
+      "older": false
+    },
+    "H44": {
+      "name": "See-Through Bangs",
+      "block": "ITEM: H44 See-Through Bangs\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3, clean and tidy; top about 7 cm; thin, wispy see-through fringe to the eyebrows with the forehead showing through the strands; airy, soft texture; light matte finish.\nCALLOUTS:\n1. Wispy fringe: Forehead shows through.\n2. Brow length: Reaches the eyebrows.\n3. Airy texture: Thinned and light.\n4. Short sides: Neat and tidy.",
+      "older": false
+    },
+    "H45": {
+      "name": "Leaf Cut",
+      "block": "ITEM: H45 Leaf Cut\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: top about 9 cm, layered and parted in the centre; fringe in two soft pieces falling to the cheekbones with the ends flicking outward like leaves; sides short and tidy at #3; soft, airy finish.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Leaf flick: Ends curl outward.\n3. Face-framing: Falls to the cheekbones.\n4. Light layers: Soft and airy.",
+      "older": false
+    },
+    "H46": {
+      "name": "Down Perm",
+      "block": "ITEM: H46 Down Perm\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides about 1.5 cm lying flat and smooth against the head after a down perm; top about 7 cm, natural and full, pushed slightly up and back; slim, neat head shape with no puffy sides; soft matte finish.\nCALLOUTS:\n1. Flat sides: Lie close to the head.\n2. Full top: Natural volume.\n3. Neat shape: Slim, no puff.\n4. Easy daily: Almost no styling.",
+      "older": false
+    },
+    "H47": {
+      "name": "Regent Cut",
+      "block": "ITEM: H47 Regent Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 9 cm swept back and slightly to the sides from a soft part; a little lift at the front; soft natural shine from light pomade; tidy nape.\nCALLOUTS:\n1. Swept back: Soft part, natural lift.\n2. Front lift: A little volume.\n3. Tapered sides: #3 to #2.\n4. Soft shine: Light pomade.",
+      "older": false
+    },
+    "H48": {
+      "name": "Hush Cut",
+      "block": "ITEM: H48 Hush Cut\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: medium-length layered cut; soft feathery layers around the face falling to the cheeks; top about 10 cm with light layers; back reaching the collar; ends lightly thinned; sides over the ears; smooth, airy, natural finish.\nCALLOUTS:\n1. Soft layers: Feathery, not choppy.\n2. Face-framing: Falls to the cheeks.\n3. Light ends: Thinned and airy.\n4. Natural flow: Easy movement.",
+      "older": false
+    },
+    "H49": {
+      "name": "Edgar Cut",
+      "block": "ITEM: H49 Edgar Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: mid skin fade on the sides, #0 up to #3; top about 6 cm, thick and even, combed forward; blunt fringe cut dead straight across the forehead, just above the eyebrows; sharp, clean edges; matte finish.\nCALLOUTS:\n1. Blunt fringe: Straight across.\n2. Mid skin fade: #0 to #3.\n3. Thick top: Full and even.\n4. Sharp edges: Cleaned with a razor.",
+      "older": false
+    },
+    "H50": {
+      "name": "Flat Top",
+      "block": "ITEM: H50 Flat Top\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: top about 3 cm brushed straight up and trimmed perfectly flat and level; sides and back machine #1, short and tight; sharp square corners where the top meets the sides; clean neck line; matte finish.\nCALLOUTS:\n1. Flat top: Level like a table.\n2. Tight sides: Machine #1.\n3. Square corners: Sharp at the top edge.\n4. Clean nape: Neat neck line.",
+      "older": false
+    },
+    "H51": {
+      "name": "Natural Afro",
+      "block": "ITEM: H51 Natural Afro\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: tight, natural curls about 9 cm long on top and sides, picked out into a full, round, even shape; neatly edged hairline and sideburns; defined curls with no frizz; soft sheen.\nCALLOUTS:\n1. Full curls: Round and even.\n2. Neat edges: Hairline lined up.\n3. Even outline: Balanced shape.\n4. Curl cream: Soft, no frizz.",
+      "older": false
+    },
     "B01": {
       "name": "Clean Shave",
       "block": "ITEM: B01 Clean Shave\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: completely clean-shaven face with smooth skin; no stubble shadow, redness or bumps; fresh, hot-towel finish.\nCALLOUTS:\n1. Smooth cheeks: No stubble shadow.\n2. Clean jaw: Close razor finish.\n3. Smooth neck: No bumps or redness.\n4. Fresh skin: Calm after aftershave.",
@@ -545,6 +590,36 @@
     "L25": {
       "name": "Sharp Van Dyke",
       "block": "ITEM: L25 Sharp Van Dyke\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Low Fade, 4 cm textured top.\n- Beard: Van Dyke: pointed chin, separate moustache, shaved cheeks.\nCALLOUTS:\n1. Low fade: Skin above the ear.\n2. Pointed chin: 1-2 fingers long.\n3. Separate moustache: Clean gap.\n4. Shaved cheeks: Smooth.",
+      "older": false
+    },
+    "L26": {
+      "name": "Soft Dandy",
+      "block": "ITEM: L26 Soft Dandy\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Dandy Cut: soft 7 cm top swept to one side with natural volume, light fringe to the eyebrows, #3 sides tapering to #2.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Dandy cut: Soft sweep to one side.\n2. Light fringe: To the eyebrows.\n3. Clean face: No beard or moustache.\n4. Tapered sides: #3 to #2.",
+      "older": false
+    },
+    "L27": {
+      "name": "Wispy Bangs",
+      "block": "ITEM: L27 Wispy Bangs\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: See-Through Bangs: thin wispy fringe to the eyebrows with the forehead showing through, 7 cm top, tidy #3 sides.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. See-through bangs: Forehead shows through.\n2. Clean face: No beard or moustache.\n3. Airy texture: Thinned and light.\n4. Short sides: Neat and tidy.",
+      "older": false
+    },
+    "L28": {
+      "name": "Korean Gentleman",
+      "block": "ITEM: L28 Korean Gentleman\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: Regent Cut: about 9 cm top swept back from a soft part, a little lift at the front, light natural shine, #3 sides tapering to #2.\n- Beard: Light Stubble, 1-2 mm.\nCALLOUTS:\n1. Regent cut: Swept back, soft finish.\n2. Light stubble: 1-2 mm.\n3. Tapered sides: #3 to #2.\n4. Soft shine: Light pomade.",
+      "older": false
+    },
+    "L29": {
+      "name": "Soft Layers",
+      "block": "ITEM: L29 Soft Layers\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: Hush Cut: soft feathery layers falling to the cheeks, about 10 cm top, back reaching the collar, ends lightly thinned.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Hush cut: Feathery layers.\n2. Face-framing: Falls to the cheeks.\n3. Clean face: No beard or moustache.\n4. Light ends: Thinned and airy.",
+      "older": false
+    },
+    "L30": {
+      "name": "Sharp Edgar",
+      "block": "ITEM: L30 Sharp Edgar\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Edgar Cut: blunt 6 cm fringe cut straight across the forehead over a mid skin fade, #0 to #3.\n- Beard: Heavy Stubble, 5 mm.\nCALLOUTS:\n1. Edgar cut: Blunt fringe.\n2. Mid skin fade: #0 to #3.\n3. Heavy stubble: 5 mm.\n4. Sharp edges: Cleaned with a razor.",
+      "older": false
+    },
+    "L31": {
+      "name": "Ash Brown Perm",
+      "block": "ITEM: L31 Ash Brown Perm\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: Korean Perm: soft, loose waves on a 9 cm top, wavy fringe to the eyebrows, #3 sides.\n- Colour: Ash Brown: cool, even brown with no orange or red.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Ash brown: Cool and even.\n2. Soft waves: Loose perm.\n3. Clean face: No beard or moustache.\n4. Airy volume: Light, not frizzy.",
       "older": false
     }
   }

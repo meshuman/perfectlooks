@@ -1,6 +1,6 @@
 # Hair styles
 
-42 hair styles, from a shaved head to long hair. 25 use a front photo. 17 use a side photo because the cut only shows clearly from the side.
+51 hair styles, from a shaved head to long hair, including Korean styles. 32 use a front photo. 19 use a side photo because the cut only shows clearly from the side.
 
 ## At a glance
 
@@ -48,6 +48,15 @@
 | H40 Shoulder Length | Long | Medium | Oval, Square, Heart | Straight, Wavy | No | Front |
 | H41 School Cut | Short | Low | All | All | Yes | Front |
 | H42 Pushed Back | Medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | No | Side |
+| H43 Dandy Cut | Medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | No | Front |
+| H44 See-Through Bangs | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H45 Leaf Cut | Medium | Medium | Oval, Heart | Straight, Wavy | No | Front |
+| H46 Down Perm | Short to medium | Low | Oval, Round, Square, Heart | Straight, Wavy | No | Side |
+| H47 Regent Cut | Medium to long | High | Oval, Square | Straight, Wavy | No | Side |
+| H48 Hush Cut | Medium to long | Medium | Oval, Round, Square, Heart | Straight, Wavy | No | Front |
+| H49 Edgar Cut | Short | High | Oval, Square, Long, Heart | All | Yes | Front |
+| H50 Flat Top | Short | High | Oval, Square, Round | Straight, Curly | No | Front |
+| H51 Natural Afro | Medium to long | Medium | Oval, Square, Long, Heart | Curly | No | Front |
 
 ## H01 Buzz Cut
 
@@ -1330,3 +1339,285 @@ Medium top pushed back with a natural, matte finish.
 4. Blow dry top back.
 5. Finish with matte paste.
 6. Clean neck and ears.
+
+## H43 Dandy Cut
+
+Soft, side-swept top with volume and tidy tapered sides.
+
+**Description:** Korean dandy cut: a soft top swept to one side with natural volume and a light fringe, over short, tidy sides. Gentle and neat.
+
+- **Pick this if:** you want a soft, polished look for office, college or a date.
+- **Skip if:** you have very thin hair, or no time to blow dry in the morning.
+- **Daily:** 4 min: blow dry the top up and to the side, a little light wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair
+- **Also called:** Korean dandy, Dandy hair
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a dandy cut?** A Korean style with a soft top swept to one side, a light fringe and short, tidy sides. It looks neat but not stiff.
+- **How is a dandy cut different from a side part?** A dandy cut is softer and has more natural volume. A classic side part is combed flat and polished.
+- **How long should the top be?** About 6–8 cm, with the fringe to the eyebrows.
+- **Do I need a blow dryer?** Yes, for a few minutes. Blow drying lifts the roots and sets the sweep.
+
+**Barber steps**
+
+1. Sides and back: machine #3, taper to #2 at neck.
+2. Top: 3 fingers long. Scissors.
+3. Ask: part on left or right?
+4. Fringe: soft, to the eyebrows.
+5. Blow dry top up and to the side.
+6. Finish with light wax.
+
+## H44 See-Through Bangs
+
+Thin, wispy fringe that lets a little forehead show.
+
+**Description:** A Korean fringe cut thin and light so the forehead shows through the strands. Soft and airy, with short, tidy sides.
+
+- **Pick this if:** you want a soft fringe that doesn't look heavy, or want to cover a high forehead lightly.
+- **Skip if:** you have very curly hair, or don't want hair on your forehead.
+- **Daily:** 3 min: blow dry the fringe down, a little light wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** See-through fringe, Wispy bangs
+- **Main photo:** Front
+
+**FAQ**
+
+- **What are see-through bangs?** A thin, wispy fringe where the forehead shows through the strands. It is lighter than a full fringe.
+- **Do see-through bangs suit thin hair?** Yes. The fringe is meant to be light, so thin hair looks natural.
+- **How do I stop the fringe splitting?** Blow dry it down and a little to the side, then use a little light wax, not heavy gel.
+- **How long is the fringe?** To the eyebrows, thinned out with thinning scissors.
+
+**Barber steps**
+
+1. Sides: machine #3, or two-block.
+2. Top: 3 fingers long. Scissors.
+3. Fringe: to the eyebrows.
+4. Thin the fringe with thinning scissors.
+5. Blow dry fringe down.
+6. Finish with light wax.
+
+## H45 Leaf Cut
+
+Centre part with layered pieces that flick out like leaves.
+
+**Description:** A Korean layered cut with a centre part. The fringe falls in two soft pieces that flick slightly outward at the ends, like leaves.
+
+- **Pick this if:** you want a soft, trendy look with face-framing pieces.
+- **Skip if:** you have very short hair or curly hair, or a strict office.
+- **Daily:** 5 min: blow dry the fringe outward with a round brush, a little light wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 5 weeks
+- **Suits:** Oval and heart face · Straight or wavy hair
+- **Also called:** Leaf hair, Korean leaf cut
+- **Main photo:** Front
+
+**FAQ**
+
+- **Why is it called a leaf cut?** The fringe splits in the middle and each side flicks outward at the end, like the edge of a leaf.
+- **How long does hair need to be?** About 8–10 cm on top, with the fringe reaching the cheekbones.
+- **Is a leaf cut the same as a middle part?** It is similar, but a leaf cut has more layers and the ends flick outward.
+- **Does a leaf cut need a perm?** No, but a soft perm on the fringe makes the outward flick last longer.
+
+**Barber steps**
+
+1. Sides: machine #3, or scissors.
+2. Top: 4 fingers long. Add layers.
+3. Part in the middle.
+4. Fringe: to the cheekbones, in two pieces.
+5. Point cut the ends so they flick out.
+6. Blow dry fringe outward.
+
+## H46 Down Perm
+
+Perm that keeps the sides flat and the top natural.
+
+**Description:** A Korean perm used on the sides to keep them flat against the head, so the top looks fuller and the hair stays neat without daily styling.
+
+- **Pick this if:** your hair puffs out at the sides and you want a neat, slim shape for months.
+- **Skip if:** your hair is damaged or very thin, or your scalp is sensitive.
+- **Daily:** 1 min: a little light wax on top.
+- **Weekly:** Mild shampoo and conditioner.
+- **Next barber visit:** in 4 weeks for a trim. The perm lasts 2–3 months.
+- **At the shop:** 2 hours
+- **Suits:** Oval, round, square and heart face · Straight or wavy hair
+- **Also called:** Side-down perm, Flat-side perm
+- **Main photo:** Side
+
+**FAQ**
+
+- **What does a down perm do?** It makes the hair on the sides lie flat against the head, so the top looks fuller and the shape stays neat.
+- **Does a down perm make hair curly?** No. It only calms the volume at the sides. The top stays natural.
+- **How long does a down perm last?** About 2–3 months.
+- **Is a down perm good for a round face?** Yes. Flat sides slim the face, and the top adds height.
+
+**Barber steps**
+
+1. Ask: scalp problems or allergy? If yes, stop.
+2. Cut first: sides #3, top 3 fingers.
+3. Apply down-perm lotion to the sides only.
+4. Comb the sides down and back. Wait as on the box.
+5. Rinse. Apply neutraliser. Wait as on the box.
+6. Rinse. No shampoo for 2 days.
+
+Best done by someone trained in perms.
+
+## H47 Regent Cut
+
+Long top swept back from a soft part, with tapered sides.
+
+**Description:** A Korean cut with a long top swept back and slightly to the sides, a little lift at the front and short tapered sides. Smart and elegant.
+
+- **Pick this if:** you want a smart, grown-up Korean look with some length.
+- **Skip if:** you have thin hair, or want a quick morning.
+- **Daily:** 6 min: blow dry back, then a little pomade or light wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval and square face · Straight or wavy hair
+- **Also called:** Korean slick back, Regent hair
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a regent cut?** A Korean cut with a long top swept back from a soft part, a little lift at the front and short tapered sides.
+- **How is a regent cut different from a slick back?** A regent cut has a soft, natural finish with some volume. A slick back is flat and shiny.
+- **How long should the top be?** About 8–10 cm.
+- **Which product should I use?** A light pomade or wax, for a soft hold with a little shine.
+
+**Barber steps**
+
+1. Sides: machine #3, taper to #2 at neck.
+2. Top: 4–5 fingers long. Scissors.
+3. Ask: part on left or right?
+4. Front: a little longer than back.
+5. Blow dry top back.
+6. Finish with pomade or gel.
+
+## H48 Hush Cut
+
+Soft, feathery layers around the face.
+
+**Description:** A soft layered cut for medium to long hair, with feathery layers around the face and lightly thinned ends. A gentler version of the wolf cut.
+
+- **Pick this if:** you want longer hair that looks soft and cared for, without a messy shag.
+- **Skip if:** you have very short or curly hair, or a strict office.
+- **Daily:** 4 min: blow dry, a little light cream on the ends.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 6 weeks
+- **Suits:** Oval, round, square and heart face · Straight or wavy hair
+- **Also called:** Feathered layers
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a hush cut?** A medium-length layered cut with soft, feathery layers around the face and lightly thinned ends. It looks soft and natural.
+- **How is a hush cut different from a wolf cut?** A wolf cut is choppy and messy. A hush cut is softer, with smoother layers.
+- **How long does hair need to be?** At least to the ears at the sides, and to the collar or longer at the back.
+- **Is a hush cut good for a round face?** Yes. Layers around the face slim it.
+
+**Barber steps**
+
+1. Ask: how much length to keep?
+2. Back: keep length, to the collar.
+3. Top: soft layers, 4–5 fingers.
+4. Face layers: down to the cheeks.
+5. Thin the ends with thinning scissors.
+6. Blow dry. Finish with light cream.
+
+## H49 Edgar Cut
+
+Blunt, straight fringe over a skin fade.
+
+**Description:** A short, thick fringe cut straight across the forehead, over sides faded to skin. Bold, sharp and modern.
+
+- **Pick this if:** you want a bold cut with a clean, blunt edge.
+- **Skip if:** you have a round face, or can't visit every 2 weeks.
+- **Daily:** 2 min: comb the fringe forward, a little dry wax (clay).
+- **Weekly:** Nothing.
+- **Next barber visit:** in 2 weeks
+- **Suits:** Oval, square, long and heart face · All hair types · Thin hair OK
+- **Also called:** Edgar, Blunt fringe fade
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is an Edgar cut?** A short, blunt fringe cut straight across the forehead, over sides faded to skin.
+- **Does an Edgar cut work with curly hair?** Yes. The top is kept short and the fringe is cut straight, so curls sit forward neatly.
+- **How long is the fringe?** About 2–3 cm, just above the eyebrows.
+- **How often does it need a touch-up?** Every 2 weeks, to keep the fade and the fringe line sharp.
+
+**Barber steps**
+
+1. Fade line: middle of the side, at the temple.
+2. Below the line: machine #0.
+3. Blend up: #1, #2, #3.
+4. Top: 3 fingers long. Scissors.
+5. Comb top forward.
+6. Fringe: cut straight across, short.
+
+## H50 Flat Top
+
+Short top cut perfectly flat, with tight sides.
+
+**Description:** A classic cut with the top trimmed flat like a table and the sides cut very short. Strong, neat and old-school.
+
+- **Pick this if:** you have thick, straight or curly hair and want a strong, classic look.
+- **Skip if:** you have thin or fine hair, or a long face.
+- **Daily:** 2 min: brush the top up, a little firm wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 2–3 weeks
+- **Suits:** Oval, square and round face · Straight or curly hair
+- **Also called:** Flattop
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a flat top?** A short cut where the top stands up and is trimmed perfectly flat, with very short sides.
+- **What hair does a flat top need?** Thick hair that stands up on its own. Fine or thin hair won't hold the shape.
+- **How long is the top?** About 3 cm, brushed straight up before cutting.
+- **How often should I get it trimmed?** Every 2–3 weeks, to keep the top flat and the sides tight.
+
+**Barber steps**
+
+1. Sides and back: machine #1.
+2. Small blend into the top.
+3. Brush the top straight up.
+4. Cut the top flat with comb and scissors.
+5. Check the top is level from every side.
+6. Clean neck and ears.
+
+## H51 Natural Afro
+
+Full, round curls grown out and shaped evenly.
+
+**Description:** Tight natural curls grown out into a full, round shape, with a neat edge-up and an even outline. Strong and confident.
+
+- **Pick this if:** you have tight curly hair and want to show off its volume.
+- **Skip if:** your hair is straight or thin, or you want a low-effort short cut.
+- **Daily:** 3 min: pick the curls out, a little curl cream.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 4–6 weeks
+- **Suits:** Oval, square, long and heart face · Curly hair
+- **Also called:** Afro, Natural
+- **Main photo:** Front
+
+**FAQ**
+
+- **How long does hair need to be for an afro?** At least 8–10 cm of curls, which takes about 8–12 months from a short cut.
+- **How do I keep an afro healthy?** Use conditioner 2–3 times a week and curl cream, and don't brush it dry.
+- **How do I get a round shape?** Pick the curls out with a wide comb, then have the barber shape the outline evenly.
+- **Can an afro have faded sides?** Yes. A low fade on the sides keeps it neat and makes the top look fuller.
+
+**Barber steps**
+
+1. Cut curls dry, one by one.
+2. Pick out the curls with a wide comb.
+3. Shape the outline: round and even.
+4. Edge up the hairline with a trimmer.
+5. Remove bulk with thinning scissors.
+6. Apply curl cream with fingers.

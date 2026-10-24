@@ -49,6 +49,10 @@ Word choices used in the Nepali drafts (`ne.csv`). If a reviewer changes one, ch
 - Customers: polite form (तपाईं, -नुहोस्).
 - Barber steps: short commands, the same polite form, 6 words or fewer where possible.
 
+## Korean and new style words (Nepali)
+
+Style names (Dandy Cut, See-Through Bangs, Leaf Cut, Down Perm, Regent Cut, Hush Cut, Edgar Cut, Flat Top, Natural Afro) stay in English. In the text: लेयर (layer), पर्म (perm), फ्रिन्ज (fringe), प्वाँखजस्ता (feathery), चेप्टो (flat), भोल्युम (volume).
+
 # Hindi glossary
 
 Word choices used in the Hindi drafts (`hi.csv`). Same rules as Nepali: barber words stay as barbers say them, style names stay in English, Ready Look names are translated.
@@ -79,3 +83,7 @@ Word choices used in the Hindi drafts (`hi.csv`). Same rules as Nepali: barber w
 | upkeep | देखभाल | |
 
 Tone: आप with -एं / -इए. Spelling uses the nukta (फ़ेड, ज़्यादा, रेज़र); keep it consistent.
+
+## Korean and new style words (Hindi)
+
+Style names stay in English. In the text: लेयर (layer), पर्म (perm), फ्रिंज (fringe), पंख जैसी (feathery), सपाट (flat), वॉल्यूम (volume).
