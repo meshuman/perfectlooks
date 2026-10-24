@@ -71,6 +71,10 @@ list.edit,Screen text: list,Edit,बदलें,draft,
 list.sortedNote,Screen text: list,Styles that suit you are shown first.,आप पर जंचने वाले स्टाइल पहले दिखाए गए हैं।,draft,
 list.noResults,Screen text: list,No styles match. Try fewer answers.,कोई स्टाइल मेल नहीं खाया। कम जवाब देकर देखें।,draft,
 list.clearAnswers,Screen text: list,Clear answers,जवाब हटाएं,draft,
+list.faceShape,Screen text: list,Face shape,चेहरे का आकार,draft,
+list.allFaces,Screen text: list,All,सभी,draft,
+list.faceNote,Screen text: list,Showing styles that suit a {face} face.,चेहरे का आकार: {face}। इस पर जंचने वाले स्टाइल दिखाए जा रहे हैं।,draft,Keep the {words in braces}: the app fills them in.
+list.countOf,Screen text: list,{shown} of {total} {unit},{total} {unit} में से {shown},draft,Keep the {words in braces}: the app fills them in.
 card.suitsYou,Screen text: card,Suits you,आप पर जंचेगा,draft,
 card.save,Screen text: card,Save {name},{name} सेव करें,draft,Keep the {words in braces}: the app fills them in.
 card.addToLook,Screen text: card,Add to My Look,मेरे लुक में जोड़ें,draft,

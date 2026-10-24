@@ -31,6 +31,8 @@ function sessionAtom<T>(key: string, initial: T): WritableAtom<T> {
 export const $favourites = sessionAtom<string[]>('pl:favourites', []);
 export const $look = sessionAtom<Look>('pl:look', emptyLook());
 export const $answers = sessionAtom<Answers>('pl:answers', {});
+/** The face shape picked in the Hair, Beard and Moustache lists. Empty means all. Separate from the About you answers. */
+export const $faceFilter = sessionAtom<string>('pl:face-filter', '');
 export const $cardTextSize = sessionAtom<'normal' | 'large'>('pl:card-text', 'normal');
 /** The Barber Card's language, chosen by the barber. Empty means the page language. */
 export const $barberLang = sessionAtom<'' | 'en' | 'ne' | 'hi'>('pl:barber-lang', '');

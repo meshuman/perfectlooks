@@ -119,6 +119,28 @@ await check('No results offers to clear answers', async () => {
   await page.locator('[data-no-results][hidden]').waitFor({ state: 'attached', timeout: 3000 });
 });
 
+// The face shape filter hides styles that don't suit the picked shape, and carries across the three lists.
+await check('Face shape filter hides styles that do not suit it', async () => {
+  await page.evaluate(() => sessionStorage.clear());
+  await go('/styles');
+  const rows = page.locator('[data-item-list] > li');
+  const total = await rows.count();
+  await page.click('[data-face-chip="Round"]');
+  await page.locator('[data-face-note]:not([hidden])').waitFor({ timeout: 3000 });
+  const shown = await page.locator('[data-item-list] > li:not([hidden])').count();
+  if (!(shown > 0 && shown < total)) throw new Error(`Round shows ${shown} of ${total}`);
+  const bad = await page.$$eval('[data-item-list] > li:not([hidden]) [data-match]', (cards) => cards.filter((c) => !JSON.parse(c.dataset.match).face.includes('Round')).length);
+  if (bad) throw new Error(`${bad} visible style(s) do not suit a round face`);
+  await expectText(page.locator('[data-count]'), `${shown} of ${total}`);
+  if ((await page.getAttribute('[data-face-chip="Round"]', 'aria-pressed')) !== 'true') throw new Error('chip not pressed');
+  // Carries to the other lists, then clears with All.
+  await go('/beards');
+  if ((await page.getAttribute('[data-face-chip="Round"]', 'aria-pressed')) !== 'true') throw new Error('filter lost on /beards');
+  await page.click('[data-face-chip=""]');
+  const after = await page.locator('[data-item-list] > li:not([hidden])').count();
+  if (after !== (await page.locator('[data-item-list] > li').count())) throw new Error('All does not show every style');
+});
+
 await check('Keeps working offline after the first visit', async () => {
   await go('/');
   await page.evaluate(() => navigator.serviceWorker.ready);

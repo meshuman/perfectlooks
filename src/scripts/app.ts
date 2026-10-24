@@ -2,7 +2,7 @@
 // tab counters, hearts, Add to My Look buttons, and "Suits you" sorting on lists.
 import { filledCount, inLook, type AddData } from '@/lib/look';
 import { answeredCount, suits, type Match, type MatchCategory } from '@/lib/match';
-import { $answers, $favourites, $look, addItem, toggleFavourite, useReadyLook } from '@/lib/stores';
+import { $answers, $faceFilter, $favourites, $look, addItem, toggleFavourite, useReadyLook } from '@/lib/stores';
 import { text } from '@/lib/ui';
 
 const all = <T extends Element>(selector: string) => Array.from(document.querySelectorAll<T>(selector));
@@ -99,6 +99,45 @@ $answers.subscribe((answers) => {
 
   for (const link of all<HTMLElement>('[data-answers-label]')) {
     link.textContent = answered ? text('list.edit') : text('list.findWhatSuits');
+  }
+});
+
+// ---------- Face shape filter (Hair, Beard and Moustache lists) ----------
+
+// Hides the styles that don't suit the picked face shape. The pick is shared by the three lists.
+for (const chip of all<HTMLElement>('[data-face-chip]')) {
+  chip.addEventListener('click', () => $faceFilter.set(chip.dataset.faceChip && $faceFilter.get() !== chip.dataset.faceChip ? chip.dataset.faceChip : ''));
+}
+
+$faceFilter.subscribe((face) => {
+  let label = '';
+  for (const chip of all<HTMLElement>('[data-face-chip]')) {
+    const on = (chip.dataset.faceChip ?? '') === face;
+    chip.setAttribute('aria-pressed', String(on));
+    if (on && face) label = chip.textContent?.trim() ?? face;
+  }
+
+  for (const list of all<HTMLElement>('[data-item-list][data-face-filterable]')) {
+    let shown = 0;
+    const rows = Array.from(list.children) as HTMLElement[];
+    for (const row of rows) {
+      const match = row.querySelector<HTMLElement>('[data-match]')?.dataset.match;
+      const faces = (match ? (JSON.parse(match) as Match).face : undefined) ?? [];
+      const ok = !face || faces.length === 0 || faces.includes(face);
+      row.hidden = !ok;
+      if (ok) shown += 1;
+    }
+    const count = document.querySelector<HTMLElement>('[data-count]');
+    if (count) {
+      const { total = String(rows.length), unit = '' } = count.dataset;
+      count.textContent = `· ${face ? text('list.countOf', { shown: String(shown), total, unit }) : `${total} ${unit}`}`;
+    }
+  }
+
+  const note = document.querySelector<HTMLElement>('[data-face-note]');
+  if (note) {
+    note.hidden = !face;
+    note.textContent = face ? text('list.faceNote', { face: label }) : '';
   }
 });
 
