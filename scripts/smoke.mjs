@@ -168,6 +168,33 @@ await check('Face shape on the home page filters the list', async () => {
   if (!(shown > 0 && shown < total)) throw new Error(`Round shows ${shown} of ${total}`);
 });
 
+// The feedback form needs a rating, then hands one readable message to WhatsApp, addressed to the shop.
+await check('Feedback form sends the answers to the shop on WhatsApp', async () => {
+  await go('/feedback');
+  await page.click('[data-feedback-submit]');
+  await page.locator('[data-feedback-status]:not([hidden])').waitFor({ timeout: 3000 });
+  await page.locator('label:has(input[name="rating"][value="4"])').click();
+  await page.locator('label:has(input[name="goal"][value="barber"])').click();
+  await page.locator('label:has(input[name="helped"][value="some"])').click();
+  await page.locator('label:has(input[name="better"][value="photos"])').click();
+  await page.fill('[name="comment"]', 'Please add prices');
+  await page.fill('[name="name"]', 'Test');
+  // Catch the request the new tab makes to wa.me (no real WhatsApp needed) and read the message from it.
+  let sent = '';
+  await page.context().route('https://wa.me/**', (route) => {
+    sent = route.request().url();
+    return route.fulfill({ status: 200, contentType: 'text/html', body: 'ok' });
+  });
+  const [popup] = await Promise.all([page.waitForEvent('popup'), page.click('[data-feedback-submit]')]);
+  await popup.waitForLoadState('load').catch(() => {});
+  const url = decodeURIComponent(sent);
+  await popup.close().catch(() => {});
+  await page.context().unroute('https://wa.me/**');
+  for (const part of ['wa.me/9779818879895', 'Rating: 4/5', 'Hoping to: Show my barber', 'Helped me decide: A little', 'Could be better: More photos', 'Comment: Please add prices', 'Reply to: Test'])
+    if (!url.includes(part)) throw new Error(`message is missing "${part}"`);
+  await page.locator('[data-feedback-done]:not([hidden])').waitFor({ timeout: 3000 });
+});
+
 await check('Keeps working offline after the first visit', async () => {
   await go('/');
   await page.evaluate(() => navigator.serviceWorker.ready);

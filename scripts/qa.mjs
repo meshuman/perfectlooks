@@ -20,6 +20,8 @@ const PAGES = [
   '/offline',
   // Nepali and Hindi: longer words and Devanagari can break layouts that English doesn't.
   '/beards',
+  '/feedback',
+  '/hi/feedback',
   '/hi/moustaches',
   '/styles/dandy-cut',
   '/looks/soft-dandy',

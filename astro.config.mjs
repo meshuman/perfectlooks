@@ -21,7 +21,7 @@ export default defineConfig({
   integrations: [
     preact(),
     sitemap({
-      filter: (page) => !/\/(about-you|favourites|my-look|barber-card|offline|dev)(\/|$)/.test(page),
+      filter: (page) => !/\/(about-you|favourites|my-look|barber-card|feedback|offline|dev)(\/|$)/.test(page),
       // Language versions (/ne/..., /hi/...) are linked to each other in the sitemap.
       i18n: { defaultLocale: 'en', locales: { en: 'en', ne: 'ne-NP', hi: 'hi-IN' } },
     }),

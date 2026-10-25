@@ -1,0 +1,214 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
+import { feedbackEndpoint, whatsappNumber } from '@/data/feedback';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const i = useI18n(Astro.url);
+const { t, l, locale } = i;
+
+// `en` is the label that goes into the message, so the shop reads the same words whatever the page language.
+const ratings = [
+  { v: '1', en: 'Poor', label: t('feedback.ratingPoor') },
+  { v: '2', en: 'Fair', label: t('feedback.ratingFair') },
+  { v: '3', en: 'Good', label: t('feedback.ratingGood') },
+  { v: '4', en: 'Very good', label: t('feedback.ratingVeryGood') },
+  { v: '5', en: 'Great', label: t('feedback.ratingGreat') },
+];
+const goals = [
+  { v: 'pick', en: 'Pick a style', label: t('feedback.goalPick') },
+  { v: 'suit', en: 'See what suits me', label: t('feedback.goalSuit') },
+  { v: 'barber', en: 'Show my barber', label: t('feedback.goalBarber') },
+  { v: 'learn', en: 'Learn about hair care', label: t('feedback.goalLearn') },
+  { v: 'colour', en: 'Choose a colour', label: t('feedback.goalColour') },
+  { v: 'other', en: 'Something else', label: t('feedback.goalOther') },
+];
+const helped = [
+  { v: 'yes', en: 'Yes', label: t('feedback.helpedYes') },
+  { v: 'some', en: 'A little', label: t('feedback.helpedSome') },
+  { v: 'no', en: 'Not really', label: t('feedback.helpedNo') },
+];
+const better = [
+  { v: 'styles', en: 'More styles', label: t('feedback.betterStyles') },
+  { v: 'photos', en: 'More photos', label: t('feedback.betterPhotos') },
+  { v: 'faster', en: 'Faster to use', label: t('feedback.betterFaster') },
+  { v: 'easier', en: 'Easier to understand', label: t('feedback.betterEasier') },
+  { v: 'prices', en: 'Show prices', label: t('feedback.betterPrices') },
+  { v: 'booking', en: 'Book a visit', label: t('feedback.betterBooking') },
+  { v: 'languages', en: 'More languages', label: t('feedback.betterLanguages') },
+];
+
+const chip =
+  'flex min-h-11 items-center justify-center bg-card px-4 text-center text-[0.875rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft peer-checked:bg-ink peer-checked:text-white peer-checked:shadow-none peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-ink';
+const field =
+  'block h-12 w-full bg-card px-4 text-base shadow-[inset_0_0_0_1px_var(--color-line)] placeholder:text-muted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink';
+---
+
+<BaseLayout title={t('feedback.title')} description={t('feedback.description')} noindex back={{ href: l('/'), label: t('nav.home') }}>
+  <main class="wrap max-w-2xl pt-6 pb-24">
+    <p class="tag text-gold-ink">{t('feedback.kicker')}</p>
+    <h1 class="mt-3 text-[2.25rem] leading-tight">{t('feedback.heading')}</h1>
+    <p class="mt-3 text-[1.0625rem] text-muted">{t('feedback.intro')}</p>
+
+    <form
+      data-feedback-form
+      novalidate
+      class="mt-9 space-y-9"
+      data-endpoint={feedbackEndpoint}
+      data-whatsapp={whatsappNumber}
+      data-lang={locale}
+      data-msg-sending={t('feedback.sending')}
+      data-msg-need-rating={t('feedback.needRating')}
+      data-msg-error={t('feedback.error')}
+    >
+      {/* Only bots fill this in. */}
+      <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="hidden" />
+
+      <fieldset data-rating-group>
+        <legend class="text-[1.125rem] font-semibold">{t('feedback.ratingQ')}</legend>
+        <div class="mt-3 grid grid-cols-5 gap-1.5">
+          {
+            ratings.map((r) => (
+              <label class="relative">
+                <input type="radio" name="rating" value={r.v} data-en={r.v} class="peer sr-only" />
+                <span class:list={[chip, 'h-[4.25rem] flex-col gap-1 px-0.5 text-[0.6875rem] leading-tight']}>
+                  <Icon name="star" size={20} strokeWidth={1.75} />
+                  <span>{r.label}</span>
+                </span>
+              </label>
+            ))
+          }
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="text-[1.125rem] font-semibold">{t('feedback.goalQ')}</legend>
+        <div class="mt-3 grid grid-cols-2 gap-1.5">
+          {
+            goals.map((g) => (
+              <label class="relative">
+                <input type="checkbox" name="goal" value={g.v} data-en={g.en} class="peer sr-only" />
+                <span class={chip}>{g.label}</span>
+              </label>
+            ))
+          }
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="text-[1.125rem] font-semibold">{t('feedback.helpedQ')}</legend>
+        <div class="mt-3 grid grid-cols-3 gap-1.5">
+          {
+            helped.map((h) => (
+              <label class="relative">
+                <input type="radio" name="helped" value={h.v} data-en={h.en} class="peer sr-only" />
+                <span class={chip}>{h.label}</span>
+              </label>
+            ))
+          }
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="text-[1.125rem] font-semibold">{t('feedback.betterQ')}</legend>
+        <div class="mt-3 flex flex-wrap gap-1.5">
+          {
+            better.map((b) => (
+              <label class="relative">
+                <input type="checkbox" name="better" value={b.v} data-en={b.en} class="peer sr-only" />
+                <span class={chip}>{b.label}</span>
+              </label>
+            ))
+          }
+        </div>
+      </fieldset>
+
+      <div>
+        <label for="feedback-comment" class="text-[1.125rem] font-semibold">{t('feedback.commentLabel')}</label>
+        <textarea
+          id="feedback-comment"
+          name="comment"
+          rows="5"
+          maxlength="800"
+          placeholder={t('feedback.commentHint')}
+          class="mt-3 block w-full bg-card p-4 text-base shadow-[inset_0_0_0_1px_var(--color-line)] placeholder:text-muted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+        ></textarea>
+      </div>
+
+      <fieldset>
+        <legend class="text-[1.125rem] font-semibold">{t('feedback.contactLegend')}</legend>
+        <p class="mt-1 text-sm text-muted">{t('feedback.contactNote')}</p>
+        <div class="mt-3 grid gap-2 sm:grid-cols-2">
+          <label class="block">
+            <span class="sr-only">{t('feedback.name')}</span>
+            <input type="text" name="name" autocomplete="name" placeholder={t('feedback.name')} class={field} />
+          </label>
+          <label class="block">
+            <span class="sr-only">{t('feedback.phone')}</span>
+            <input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder={t('feedback.phone')} class={field} />
+          </label>
+        </div>
+      </fieldset>
+
+      <div>
+        <p data-feedback-status hidden role="status" class="mb-3 text-[0.9375rem] font-semibold data-[error=true]:text-gold-ink"></p>
+        <a
+          data-wa-link
+          data-wa-fallback
+          hidden
+          target="_blank"
+          rel="noopener"
+          class="mb-3 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-semibold underline decoration-brand decoration-2 underline-offset-[5px]"
+        >
+          <Icon name="message" size={18} />
+          {t('feedback.whatsappAgain')}
+        </a>
+        <button
+          type="submit"
+          data-feedback-submit
+          class="gold-fill group inline-flex h-14 w-full items-center justify-center gap-2 text-base font-medium tracking-[0.04em] transition duration-300 ease-out-soft active:scale-[0.99] disabled:opacity-60"
+        >
+          {t('feedback.send')}
+          <Icon name="arrowRight" size={18} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+        </button>
+      </div>
+    </form>
+
+    <section data-feedback-done hidden tabindex="-1" class="mt-9 outline-none" aria-live="polite">
+      <div class="bg-brand p-6 text-white">
+        <span class="grid size-12 place-items-center rounded-full bg-white text-brand">
+          <Icon name="check" size={24} strokeWidth={3} />
+        </span>
+        <h2 class="mt-5 text-[1.75rem] leading-tight">{t('feedback.thanks')}</h2>
+        <p class="mt-2 text-[1.0625rem] text-white/90">{t('feedback.thanksText')}</p>
+      </div>
+      <div class="mt-4 space-y-2">
+        <p data-done-whatsapp-note hidden class="text-[0.9375rem] text-muted">{t('feedback.whatsappNote')}</p>
+        <a
+          data-wa-link
+          hidden
+          target="_blank"
+          rel="noopener"
+          class="inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-semibold underline decoration-brand decoration-2 underline-offset-[5px]"
+        >
+          <Icon name="message" size={18} />
+          {t('feedback.whatsappAgain')}
+        </a>
+        <div>
+          <a href={l('/')} class="inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-semibold">
+            <Icon name="arrowLeft" size={16} />
+            {t('nav.home')}
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    import '@/scripts/feedback';
+  </script>
+</BaseLayout>
