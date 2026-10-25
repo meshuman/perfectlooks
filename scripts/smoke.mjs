@@ -119,6 +119,25 @@ await check('No results offers to clear answers', async () => {
   await page.locator('[data-no-results][hidden]').waitFor({ state: 'attached', timeout: 3000 });
 });
 
+await check('Reset clears the preferences next to Edit', async () => {
+  await page.evaluate(() => sessionStorage.clear());
+  await go('/beards');
+  const reset = page.locator('[data-answers-reset]').first();
+  if (await reset.isVisible()) throw new Error('Reset shows before any preference is set');
+  await page.evaluate(() => sessionStorage.setItem('pl:answers', JSON.stringify({ face: 'Round' })));
+  await go('/beards');
+  await reset.waitFor({ state: 'visible', timeout: 3000 });
+  await reset.click();
+  await reset.waitFor({ state: 'hidden', timeout: 3000 });
+  await expectText(page.locator('[data-answers-label]'), 'Find what suits you');
+  if ((await page.evaluate(() => sessionStorage.getItem('pl:answers'))) !== '{}') throw new Error('answers were not cleared');
+  // The same button sits in the verdict on a detail page.
+  await page.evaluate(() => sessionStorage.setItem('pl:answers', JSON.stringify({ face: 'Round' })));
+  await go('/styles/quiff');
+  await page.locator('[data-verdict] [data-state-for="yes"] [data-answers-reset]').click();
+  await page.locator('[data-verdict] [data-state-for="ask"]:not([hidden])').waitFor({ timeout: 3000 });
+});
+
 // The face shape filter hides styles that don't suit the picked shape, and carries across the three lists.
 await check('Face shape filter hides styles that do not suit it', async () => {
   await page.evaluate(() => sessionStorage.clear());

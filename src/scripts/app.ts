@@ -100,7 +100,15 @@ $answers.subscribe((answers) => {
   for (const link of all<HTMLElement>('[data-answers-label]')) {
     link.textContent = answered ? text('list.edit') : text('list.findWhatSuits');
   }
+  // Reset sits next to Edit once there is a preference to clear. The ones inside a verdict show with its states.
+  for (const button of all<HTMLElement>('[data-answers-reset]')) {
+    if (!button.closest('[data-verdict]')) button.hidden = !answered;
+  }
 });
+
+for (const button of all<HTMLElement>('[data-answers-reset]')) {
+  button.addEventListener('click', () => $answers.set({}));
+}
 
 // ---------- Personal verdict on a detail page ----------
 
