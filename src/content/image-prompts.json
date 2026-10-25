@@ -267,6 +267,46 @@
       "block": "ITEM: H51 Natural Afro\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: tight, natural curls about 9 cm long on top and sides, picked out into a full, round, even shape; neatly edged hairline and sideburns; defined curls with no frizz; soft sheen.\nCALLOUTS:\n1. Full curls: Round and even.\n2. Neat edges: Hairline lined up.\n3. Even outline: Balanced shape.\n4. Curl cream: Soft, no frizz.",
       "older": false
     },
+    "H52": {
+      "name": "Textured Fringe",
+      "block": "ITEM: H52 Textured Fringe\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: low taper on the sides, #1 at the bottom blending to #3; top about 6 cm, choppy and textured, pushed forward into an uneven fringe that covers the upper forehead; matte finish.\nCALLOUTS:\n1. Textured fringe: Choppy, pushed forward.\n2. Low taper: #1 to #3.\n3. Messy top: Matte texture.\n4. Clean neck: Tidy nape.",
+      "older": false
+    },
+    "H53": {
+      "name": "Hard Part",
+      "block": "ITEM: H53 Hard Part\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2, tapering to #1 at the neck; top about 6 cm combed neatly to the side; a thin, clean line shaved along the side parting; light pomade shine.\nCALLOUTS:\n1. Shaved part: Thin, sharp line.\n2. Side-combed top: Neat and smart.\n3. Tapered sides: #2 to #1.\n4. Light shine: Pomade.",
+      "older": false
+    },
+    "H54": {
+      "name": "Temple Fade",
+      "block": "ITEM: H54 Temple Fade\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: top about 4 cm and sides about 2 cm, at natural length; a small fade from skin to #2 only around the temples, sideburns and nape; sharp lined-up hairline at the forehead and temples; square sideburns; matte finish.\nCALLOUTS:\n1. Temple fade: Skin to #2.\n2. Line-up: Sharp hairline.\n3. Square sideburns: Clean edges.\n4. Faded nape: Neat back.",
+      "older": false
+    },
+    "H55": {
+      "name": "V-Cut",
+      "block": "ITEM: H55 V-Cut\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2, tapering down; top about 5 cm combed back; the hairline at the back of the neck cut into a sharp V pointing down at the centre, with clean shaved skin below it; tidy, matte finish.\nCALLOUTS:\n1. V neckline: Sharp point at the back.\n2. Clean below: Shaved with a razor.\n3. Tapered sides: Short and neat.\n4. Easy top: Combed back.",
+      "older": false
+    },
+    "H56": {
+      "name": "Ponytail",
+      "block": "ITEM: H56 Ponytail\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown to the shoulders for this style.\nSTYLE: shoulder-length hair pulled back smoothly and tied low at the nape, the ponytail hanging to the upper back; long sides, no undercut; soft natural texture.\nCALLOUTS:\n1. Low tie: At the nape.\n2. Smooth pull-back: No bumps on top.\n3. Healthy ends: Trimmed, no split ends.\n4. Soft tie: Loose, not tight.",
+      "older": false
+    },
+    "H57": {
+      "name": "Top Knot",
+      "block": "ITEM: H57 Top Knot\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with long hair on top for this style.\nSTYLE: sides and back machine #1 with a clean line where they meet the top; top hair about 18 cm, pulled back smoothly and tied into a neat knot at the crown; soft natural texture.\nCALLOUTS:\n1. Crown knot: Tied high.\n2. Short sides: Machine #1.\n3. Clean line: Where sides meet the top.\n4. Smooth pull-back: No bumps.",
+      "older": false
+    },
+    "H58": {
+      "name": "Half Bun",
+      "block": "ITEM: H58 Half Bun\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown past the chin for this style.\nSTYLE: hair between chin and shoulder length; the top half, from the temples up, gathered back and tied into a small bun at the back of the crown; the lower half hangs loose over the ears and neck; light layers; soft natural texture.\nCALLOUTS:\n1. Half bun: Top half tied up.\n2. Hair down: Lower half loose.\n3. Light layers: Soft movement.\n4. Healthy ends: Trimmed.",
+      "older": false
+    },
+    "H59": {
+      "name": "Dreadlocks",
+      "block": "ITEM: H59 Dreadlocks\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with mature dreadlocks grown for this style.\nSTYLE: neat, even dreadlocks about 1 cm thick, reaching the shoulders; tidy roots in even square sections; clean hairline; healthy, matte locks.\nCALLOUTS:\n1. Even locks: About 1 cm thick.\n2. Neat roots: Square sections.\n3. Clean hairline: Tidy edges.\n4. Shoulder length: Healthy ends.",
+      "older": false
+    },
     "B01": {
       "name": "Clean Shave",
       "block": "ITEM: B01 Clean Shave\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: completely clean-shaven face with smooth skin; no stubble shadow, redness or bumps; fresh, hot-towel finish.\nCALLOUTS:\n1. Smooth cheeks: No stubble shadow.\n2. Clean jaw: Close razor finish.\n3. Smooth neck: No bumps or redness.\n4. Fresh skin: Calm after aftershave.",
@@ -620,6 +660,36 @@
     "L31": {
       "name": "Ash Brown Perm",
       "block": "ITEM: L31 Ash Brown Perm\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: Korean Perm: soft, loose waves on a 9 cm top, wavy fringe to the eyebrows, #3 sides.\n- Colour: Ash Brown: cool, even brown with no orange or red.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Ash brown: Cool and even.\n2. Soft waves: Loose perm.\n3. Clean face: No beard or moustache.\n4. Airy volume: Light, not frizzy.",
+      "older": false
+    },
+    "L32": {
+      "name": "Campus Fringe",
+      "block": "ITEM: L32 Campus Fringe\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: Textured Fringe: choppy 6 cm top pushed forward over a low taper, #1 to #3.\n- Beard: Light Stubble, 1-2 mm.\nCALLOUTS:\n1. Textured fringe: Choppy, pushed forward.\n2. Light stubble: 1-2 mm.\n3. Low taper: #1 to #3.\n4. Matte finish: Dry wax.",
+      "older": false
+    },
+    "L33": {
+      "name": "Sharp Part",
+      "block": "ITEM: L33 Sharp Part\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Hard Part: 6 cm top combed to the side along a thin shaved part line, #2 sides tapering to #1.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.\nCALLOUTS:\n1. Shaved part: Thin, sharp line.\n2. Boxed beard: Sharp cheek lines.\n3. Tapered sides: #2 to #1.\n4. Light shine: Pomade.",
+      "older": false
+    },
+    "L34": {
+      "name": "Clean Line-Up",
+      "block": "ITEM: L34 Clean Line-Up\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Temple Fade: small fade from skin to #2 at the temples and nape, sharp lined-up hairline, 4 cm top.\n- Beard: Goatee: hair only on the chin, about as wide as the mouth, 6 mm, sharp edges.\n- Moustache: clean-shaven upper lip.\nCALLOUTS:\n1. Temple fade: Skin to #2.\n2. Line-up: Sharp hairline.\n3. Goatee: Chin only.\n4. Clean cheeks: Shaved.",
+      "older": false
+    },
+    "L35": {
+      "name": "Sharp V",
+      "block": "ITEM: L35 Sharp V\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: V-Cut: #2 sides, 5 cm top combed back, the back hairline cut into a sharp V.\n- Beard: Heavy Stubble, 5 mm.\nCALLOUTS:\n1. V neckline: Sharp point at the back.\n2. Heavy stubble: 5 mm.\n3. Tapered sides: Short and neat.\n4. Easy top: Combed back.",
+      "older": false
+    },
+    "L36": {
+      "name": "Half-Up Casual",
+      "block": "ITEM: L36 Half-Up Casual\nBACKDROP: Sky blue (#A9C9E8).\nCHARACTER NOTE: same man, with hair grown past the chin for this look.\nPARTS:\n- Hair: Half Bun: top half tied in a small bun at the back, lower half hanging loose.\n- Beard: Heavy Stubble, 5 mm.\nCALLOUTS:\n1. Half bun: Top half tied up.\n2. Heavy stubble: 5 mm.\n3. Hair down: Lower half loose.\n4. Relaxed finish: Soft texture.",
+      "older": false
+    },
+    "L37": {
+      "name": "Knot and Fade",
+      "block": "ITEM: L37 Knot and Fade\nBACKDROP: Sage (#CADBD8).\nCHARACTER NOTE: same man, with long hair on top for this look.\nPARTS:\n- Hair: Top Knot: long top tied in a knot at the crown, #1 sides and back.\n- Beard: Faded Beard: 1 mm at the sideburns to 6 mm at the jaw, flowing into the short sides.\nCALLOUTS:\n1. Crown knot: Tied high.\n2. Faded beard: Blends into the sides.\n3. Short sides: Machine #1.\n4. Clean cheek line: Tidy edges.",
       "older": false
     }
   }

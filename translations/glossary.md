@@ -87,3 +87,11 @@ Tone: आप with -एं / -इए. Spelling uses the nukta (फ़ेड, ज�
 ## Korean and new style words (Hindi)
 
 Style names stay in English. In the text: लेयर (layer), पर्म (perm), फ्रिंज (fringe), पंख जैसी (feathery), सपाट (flat), वॉल्यूम (volume).
+
+## More style words (Nepali)
+
+Style names (Textured Fringe, Hard Part, Temple Fade, V-Cut, Ponytail, Top Knot, Half Bun, Dreadlocks) stay in English. In the text: टेक्स्चर्ड फ्रिन्ज (textured fringe), खौरिएको सिउँदो (shaved part), कन्चट (temple), लाइन-अप (line-up), गाँठो (knot), जुरो (bun), लटा (locks), बटार्नु (twist).
+
+## More style words (Hindi)
+
+Style names stay in English. In the text: टेक्सचर्ड फ्रिंज (textured fringe), शेव्ड मांग (shaved part), कनपटी (temple), लाइन-अप (line-up), गांठ (knot), जूड़ा (bun), लटें (locks), मरोड़ना (twist).

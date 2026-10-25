@@ -34,23 +34,23 @@ category.beards.intro,Screen text: category,"For beards, growth matters more tha
 category.moustaches.intro,Screen text: category,"Pairs with any beard except Van Dyke, Circle Beard, Balbo and Anchor Beard, which have their own moustache.","Van Dyke, Circle Beard, Balbo र Anchor Beard बाहेक सबै दाह्रीसँग मिल्छ। ती चारवटामा आफ्नै जुँगा हुन्छ।",draft,
 category.colours.intro,Screen text: category,The level number tells the barber which shade to use from any brand. Every colour starts with an allergy question.,लेभल नम्बरले बार्बरलाई कुनै पनि ब्रान्डको कुन सेड प्रयोग गर्ने भनेर बताउँछ। हरेक रङ एलर्जीको प्रश्नबाट सुरु हुन्छ।,draft,
 category.looks.intro,Screen text: category,Complete hair and beard sets. Pick one and it fills My Look in one tap.,"कपाल र दाह्रीका पूरा सेट। एउटा छान्नुहोस्, एकै ट्यापमा मेरो लुक भरिन्छ।",draft,
-category.hair.seoTitle,Screen text: category,Men's haircuts: 51 styles and how to ask your barber,पुरुषको कपाल काटाइ: 51 स्टाइल र बार्बरलाई कसरी भन्ने,draft,
+category.hair.seoTitle,Screen text: category,Men's haircuts: 59 styles and how to ask your barber,पुरुषको कपाल काटाइ: 59 स्टाइल र बार्बरलाई कसरी भन्ने,draft,
 category.beards.seoTitle,Screen text: category,Beard styles: 16 shapes and how to ask your barber,दाह्रीका स्टाइल: 16 आकार र बार्बरलाई कसरी भन्ने,draft,
 category.moustaches.seoTitle,Screen text: category,Moustache styles: 12 shapes and how to ask your barber,जुँगाका स्टाइल: 12 आकार र बार्बरलाई कसरी भन्ने,draft,
 category.colours.seoTitle,Screen text: category,"Men's hair colours: 12 shades, grey cover and care","पुरुषको कपालको रङ: 12 सेड, फुलेको कपाल ढाक्ने र हेरचाह",draft,
-category.looks.seoTitle,Screen text: category,Ready Looks: 31 hair and beard combinations,रेडी लुक्स: कपाल र दाह्रीका 31 संयोजन,draft,
-category.hair.seoDescription,Screen text: category,"51 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज कटदेखि काँधसम्मको कपालसम्म पुरुषका 51 हेयरकट। कसलाई सुहाउँछ, दैनिक स्टाइल गर्न कति समय लाग्छ र बार्बरलाई देखाउने ठ्याक्कै चरणहरू हेर्नुहोस्।",draft,
+category.looks.seoTitle,Screen text: category,Ready Looks: 37 hair and beard combinations,रेडी लुक्स: कपाल र दाह्रीका 37 संयोजन,draft,
+category.hair.seoDescription,Screen text: category,"59 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज कटदेखि काँधसम्मको कपालसम्म पुरुषका 59 हेयरकट। कसलाई सुहाउँछ, दैनिक स्टाइल गर्न कति समय लाग्छ र बार्बरलाई देखाउने ठ्याक्कै चरणहरू हेर्नुहोस्।",draft,
 category.beards.seoDescription,Screen text: category,"16 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लिन सेभदेखि लामो दाह्रीसम्म 16 दाह्रीका स्टाइल। कुन स्टाइल कम, मध्यम वा बाक्लो दाह्रीलाई सुहाउँछ, ट्रिमरको लम्बाइ र बार्बरका चरण हेर्नुहोस्।",draft,
 category.moustaches.seoDescription,Screen text: category,"12 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटो ट्रिमदेखि ह्यान्डलबार र डालीसम्म 12 जुँगाका स्टाइल। कति उम्रनुपर्छ, दैनिक स्टाइल र बार्बरका ठ्याक्कै चरण हेर्नुहोस्।",draft,
 category.colours.seoDescription,Screen text: category,"12 men's hair colours from jet black to silver and henna. See grey coverage, time at the shop, skin tones that suit and how to stay safe.","जेट ब्ल्याकदेखि सिल्भर र मेहन्दीसम्म पुरुषका 12 कपालको रङ। फुलेको कपाल कति ढाक्छ, पसलमा लाग्ने समय, सुहाउने छालाको रङ र सुरक्षित कसरी रहने हेर्नुहोस्।",draft,
-category.looks.seoDescription,Screen text: category,"31 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","अफिस, बिहे, चाडपर्व र दैनिकका लागि कपाल, दाह्री, जुँगा र रङका 31 तयारी संयोजन। एउटा छान्नुहोस् र बार्बरलाई देखाउनुहोस्।",draft,
-category.hair.tileCount,Screen text: category,51 styles,51 स्टाइल,draft,
+category.looks.seoDescription,Screen text: category,"37 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","अफिस, बिहे, चाडपर्व र दैनिकका लागि कपाल, दाह्री, जुँगा र रङका 37 तयारी संयोजन। एउटा छान्नुहोस् र बार्बरलाई देखाउनुहोस्।",draft,
+category.hair.tileCount,Screen text: category,59 styles,59 स्टाइल,draft,
 category.beards.tileCount,Screen text: category,16 styles,16 स्टाइल,draft,
 category.moustaches.tileCount,Screen text: category,12 styles,12 स्टाइल,draft,
 category.colours.tileCount,Screen text: category,12 colours,12 रङ,draft,
-category.looks.tileCount,Screen text: category,Hair and beard sets,कपाल र दाह्रीका सेट,draft,
+category.looks.tileCount,Screen text: category,37 looks,37 लुक,draft,
 home.title,Screen text: home,"{shop}, {area}: pick your style and show the barber","{shop}, {area}: आफ्नो स्टाइल छान्नुहोस् र बार्बरलाई देखाउनुहोस्",draft,Keep the {words in braces}: the app fills them in.
-home.description,Screen text: home,"Browse 51 haircuts, 16 beards, 12 moustaches, 12 hair colours and 31 ready looks at {shop}, {area}. Save your pick and show the barber.","{shop}, {area} मा 51 हेयरकट, 16 दाह्री, 12 जुँगा, 12 कपालको रङ र 31 रेडी लुक्स हेर्नुहोस्। आफ्नो रोजाइ सेभ गर्नुहोस् र बार्बरलाई देखाउनुहोस्।",draft,Keep the {words in braces}: the app fills them in.
+home.description,Screen text: home,"Browse 59 haircuts, 16 beards, 12 moustaches, 12 hair colours and 37 ready looks at {shop}, {area}. Save your pick and show the barber.","{shop}, {area} मा 59 हेयरकट, 16 दाह्री, 12 जुँगा, 12 कपालको रङ र 37 रेडी लुक्स हेर्नुहोस्। आफ्नो रोजाइ सेभ गर्नुहोस् र बार्बरलाई देखाउनुहोस्।",draft,Keep the {words in braces}: the app fills them in.
 home.heading,Screen text: home,Pick your style. Show it to the barber.,आफ्नो स्टाइल छान्नुहोस्। बार्बरलाई देखाउनुहोस्।,draft,
 home.intro,Screen text: home,"Browse haircuts, beards, moustaches and colours. Save what you like, then hand the barber one clear card.","हेयरकट, दाह्री, जुँगा र रङ हेर्नुहोस्। मन परेको सेभ गर्नुहोस्, अनि बार्बरलाई एउटै स्पष्ट कार्ड दिनुहोस्।",draft,
 home.findStyles,Screen text: home,Find styles that suit you,तपाईंलाई सुहाउने स्टाइल खोज्नुहोस्,draft,
@@ -329,7 +329,7 @@ shop.hoursValue,Screen text: shop,"Open daily, 7 am – 8 pm","दैनिक �
 shop.inTheShop,Screen text: shop,In the shop,पसलमा,draft,
 shop.flowTitle,Screen text: shop,Know what you want before you sit down.,कुर्सीमा बस्नुअघि नै के चाहिन्छ थाहा पाउनुहोस्।,draft,
 shop.step1.title,Screen text: shop,Pick your style,आफ्नो स्टाइल छान्नुहोस्,draft,
-shop.step1.text,Screen text: shop,"Browse 51 haircuts, 16 beards, 12 moustaches, 12 colours and 31 Ready Looks.","51 हेयरकट, 16 दाह्री, 12 जुँगा, 12 रङ र 31 रेडी लुक्स हेर्नुहोस्।",draft,
+shop.step1.text,Screen text: shop,"Browse 59 haircuts, 16 beards, 12 moustaches, 12 colours and 37 Ready Looks.","59 हेयरकट, 16 दाह्री, 12 जुँगा, 12 रङ र 37 रेडी लुक्स हेर्नुहोस्।",draft,
 shop.step2.title,Screen text: shop,Build My Look,मेरो लुक बनाउनुहोस्,draft,
 shop.step2.text,Screen text: shop,"Save favourites, then choose one hair, beard, moustache and colour.","मनपर्ने सेभ गर्नुहोस्, अनि एउटा कपाल, दाह्री, जुँगा र रङ छान्नुहोस्।",draft,
 shop.step3.title,Screen text: shop,Show the barber,बार्बरलाई देखाउनुहोस्,draft,
@@ -1228,7 +1228,7 @@ H29.skipIf,H29 Man Bun,"your hair is shorter than your chin, or thin, or you hav
 H29.daily,H29 Man Bun,2 min: brush back and tie with a soft hair tie.,2 मिनेट: पछाडितिर ब्रस गरेर नरम रबरले बाँध्नुहोस्।,draft,
 H29.weekly,H29 Man Bun,Conditioner 2–3 times.,2–3 पटक कन्डिसनर।,draft,
 H29.nextVisit,H29 Man Bun,"in 8 weeks, for a trim","8 हप्तामा, ट्रिमका लागि",draft,
-H29.alsoCalled,H29 Man Bun,Top knot,टप नट,draft,Comma-separated names.
+H29.alsoCalled,H29 Man Bun,Bun,जुरो,draft,Comma-separated names.
 H29.length,H29 Man Bun,Long,लामो,draft,
 H29.faq.1.q,H29 Man Bun,How long does hair need to be for a man bun?,Man bun का लागि कपाल कति लामो चाहिन्छ?,draft,
 H29.faq.1.a,H29 Man Bun,"Long enough to reach past your chin, so it can be tied back.",पछाडि बाँध्न मिल्ने गरी चिउँडोभन्दा तलसम्म।,draft,"Keep any <a href=""...""> link tags as they are."
@@ -1952,6 +1952,262 @@ H51.callout.3.title,H51 Natural Afro,Even outline,बराबर बाहि�
 H51.callout.3.text,H51 Natural Afro,Balanced shape.,सन्तुलित आकार।,draft,Photo label line.
 H51.callout.4.title,H51 Natural Afro,Curl cream,कर्ल क्रिम,draft,Photo label title.
 H51.callout.4.text,H51 Natural Afro,"Soft, no frizz.","नरम, फुस्रो छैन।",draft,Photo label line.
+H52.name,H52 Textured Fringe,Textured Fringe,Textured Fringe,draft,"Catalogue name. Keep it, or write the name customers use."
+H52.shortLine,H52 Textured Fringe,"Messy, textured fringe over a low taper.","लो टेपरमाथि अस्तव्यस्त, टेक्स्चर्ड फ्रिन्ज।",draft,
+H52.description,H52 Textured Fringe,"A short, choppy top pushed forward into a textured fringe, over a low taper on the sides. Easy, young and very popular.","छेउमा लो टेपर, र माथिको छोटो, टुक्रे कपाल अगाडि धकेलेर बनाइएको टेक्स्चर्ड फ्रिन्ज। सजिलो, जवान र निकै लोकप्रिय।",draft,
+H52.pickIf,H52 Textured Fringe,"you want an easy, modern cut that looks good a little messy.","तपाईं अलि अस्तव्यस्त हुँदा पनि राम्रो देखिने सजिलो, आधुनिक कट चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H52.skipIf,H52 Textured Fringe,"you have a round face, or want your forehead to show.","तपाईंको अनुहार गोलो छ, वा निधार देखाउन चाहनुहुन्छ।",draft,"Follows ""Skip if""."
+H52.daily,H52 Textured Fringe,"2 min: towel dry, then push a little dry wax (clay) forward through the top.","2 मिनेट: तौलियाले सुकाउनुहोस्, अनि थोरै ड्राई वाक्स (क्ले) माथिको कपालमा अगाडितिर लगाउनुहोस्।",draft,
+H52.weekly,H52 Textured Fringe,Nothing.,केही पनि होइन।,draft,
+H52.nextVisit,H52 Textured Fringe,in 3–4 weeks,3–4 हप्तामा,draft,
+H52.alsoCalled,H52 Textured Fringe,"Low taper fringe, Textured crop","लो टेपर फ्रिन्ज, टेक्स्चर्ड क्रप",draft,Comma-separated names.
+H52.length,H52 Textured Fringe,Short,छोटो,draft,
+H52.faq.1.q,H52 Textured Fringe,What is a textured fringe?,Textured fringe भनेको के हो?,draft,
+H52.faq.1.a,H52 Textured Fringe,"A short top cut choppy and pushed forward, so the fringe falls over the forehead in uneven pieces.","माथिको छोटो कपाल टुक्रे गरी काटेर अगाडि धकेलिन्छ, र फ्रिन्ज निधारमा असमान टुक्रामा झर्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H52.faq.2.q,H52 Textured Fringe,How is it different from a French crop?,यो French crop भन्दा कसरी फरक छ?,draft,
+H52.faq.2.a,H52 Textured Fringe,"A French crop has a blunt, straight fringe. A textured fringe is choppy and messy, and usually a little longer.","French crop मा सिधा, एकनास फ्रिन्ज हुन्छ। Textured fringe टुक्रे र अस्तव्यस्त हुन्छ, र प्रायः अलि लामो हुन्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H52.faq.3.q,H52 Textured Fringe,Does it hide a high forehead?,के यसले अग्लो निधार ढाक्छ?,draft,
+H52.faq.3.a,H52 Textured Fringe,"Yes. The fringe covers part of the forehead, so it suits a long face or a high hairline.","हो। फ्रिन्जले निधारको केही भाग ढाक्छ, त्यसैले लामो अनुहार वा माथि सरेको हेयरलाइनलाई सुहाउँछ।",draft,"Keep any <a href=""...""> link tags as they are."
+H52.faq.4.q,H52 Textured Fringe,Which product should I use?,कुन प्रोडक्ट प्रयोग गर्ने?,draft,
+H52.faq.4.a,H52 Textured Fringe,"A dry wax (clay) or sea salt spray, for a matte, textured finish.","म्याट, टेक्स्चर्ड फिनिसका लागि ड्राई वाक्स (क्ले) वा सी साल्ट स्प्रे।",draft,"Keep any <a href=""...""> link tags as they are."
+H52.step.1,H52 Textured Fringe,"Sides: low taper, #1 to #3.","छेउ: लो टेपर, #1 देखि #3।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H52.step.2,H52 Textured Fringe,Top: 3–4 fingers long. Scissors.,माथि: 3–4 औंला लामो। कैंची।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H52.step.3,H52 Textured Fringe,Comb the top forward.,माथिको कपाल अगाडितिर कोर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H52.step.4,H52 Textured Fringe,Fringe: point cut for a choppy edge.,फ्रिन्ज: टुक्रे किनाराका लागि पोइन्ट कट।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H52.step.5,H52 Textured Fringe,Add texture with thinning scissors.,थिनिङ कैंचीले टेक्स्चर थप्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H52.step.6,H52 Textured Fringe,"Finish with dry wax, pushed forward.",ड्राई वाक्सले अगाडि धकेलेर फिनिस गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H52.callout.1.title,H52 Textured Fringe,Textured fringe,टेक्स्चर्ड फ्रिन्ज,draft,Photo label title.
+H52.callout.1.text,H52 Textured Fringe,"Choppy, pushed forward.","टुक्रे, अगाडि धकेलिएको।",draft,Photo label line.
+H52.callout.2.title,H52 Textured Fringe,Low taper,लो टेपर,draft,Photo label title.
+H52.callout.2.text,H52 Textured Fringe,#1 to #3.,#1 देखि #3।,draft,Photo label line.
+H52.callout.3.title,H52 Textured Fringe,Messy top,अस्तव्यस्त माथि,draft,Photo label title.
+H52.callout.3.text,H52 Textured Fringe,Matte texture.,म्याट टेक्स्चर।,draft,Photo label line.
+H52.callout.4.title,H52 Textured Fringe,Clean neck,सफा गर्दन,draft,Photo label title.
+H52.callout.4.text,H52 Textured Fringe,Tidy nape.,मिलेको नेप।,draft,Photo label line.
+H53.name,H53 Hard Part,Hard Part,Hard Part,draft,"Catalogue name. Keep it, or write the name customers use."
+H53.shortLine,H53 Hard Part,Side part with a thin shaved line.,पातलो खौरिएको रेखासहितको छेउको सिउँदो।,draft,
+H53.description,H53 Hard Part,"A classic side part with the parting line shaved in with a trimmer, over short tapered sides. Sharp and smart.","ट्रिमरले सिउँदोको रेखा खौरिएको क्लासिक छेउको सिउँदो, छोटा टेपर गरिएका छेउसहित। धारिलो र स्मार्ट।",draft,
+H53.pickIf,H53 Hard Part,you like a side part and want it sharp and clear all day.,"तपाईंलाई छेउको सिउँदो मन पर्छ र दिनभर धारिलो, स्पष्ट राख्न चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H53.skipIf,H53 Hard Part,"you have a cowlick where the part goes, or can't visit every 3 weeks.","सिउँदो पर्ने ठाउँमा कपाल घुमेको (भौँरी) छ, वा हरेक 3 हप्तामा आउन सक्नुहुन्न।",draft,"Follows ""Skip if""."
+H53.daily,H53 Hard Part,"4 min: comb to the side along the line, a little pomade.","4 मिनेट: रेखाअनुसार छेउतिर कोर्नुहोस्, थोरै पोमेड।",draft,
+H53.weekly,H53 Hard Part,Nothing.,केही पनि होइन।,draft,
+H53.nextVisit,H53 Hard Part,in 3 weeks,3 हप्तामा,draft,
+H53.alsoCalled,H53 Hard Part,"Shaved part, Side part with a line","खौरिएको सिउँदो, रेखासहितको साइड पार्ट",draft,Comma-separated names.
+H53.length,H53 Hard Part,Short to medium,छोटोदेखि मध्यम,draft,
+H53.faq.1.q,H53 Hard Part,What is a hard part?,Hard part भनेको के हो?,draft,
+H53.faq.1.a,H53 Hard Part,"A side part where the barber shaves a thin line along the parting, so it stays sharp without combing.","बार्बरले सिउँदोमा पातलो रेखा खौरिदिने छेउको सिउँदो, जसले गर्दा कोर्नै नपरी धारिलो रहन्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H53.faq.2.q,H53 Hard Part,How long does the line last?,रेखा कति दिन टिक्छ?,draft,
+H53.faq.2.a,H53 Hard Part,About 1–2 weeks. Then it grows back and needs a touch-up.,करिब 1–2 हप्ता। त्यसपछि कपाल उम्रन्छ र फेरि मिलाउनुपर्छ।,draft,"Keep any <a href=""...""> link tags as they are."
+H53.faq.3.q,H53 Hard Part,Which side should the part go on?,सिउँदो कुन छेउमा पार्ने?,draft,
+H53.faq.3.a,H53 Hard Part,The side where your hair falls naturally. The barber finds it by combing wet hair straight back.,जुन छेउमा तपाईंको कपाल स्वाभाविक रूपमा झर्छ। बार्बरले भिजेको कपाल सिधा पछाडि कोरेर पत्ता लगाउँछन्।,draft,"Keep any <a href=""...""> link tags as they are."
+H53.faq.4.q,H53 Hard Part,Is a hard part OK for the office?,के Hard part अफिसका लागि ठीक छ?,draft,
+H53.faq.4.a,H53 Hard Part,"Yes. It looks neat and smart, as long as the line is thin.",हो। रेखा पातलो भएसम्म यो सफा र स्मार्ट देखिन्छ।,draft,"Keep any <a href=""...""> link tags as they are."
+H53.step.1,H53 Hard Part,"Sides: machine #2, taper to #1 at neck.","छेउ: मेसिन #2, गर्दनतिर #1 सम्म टेपर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H53.step.2,H53 Hard Part,Top: 3–4 fingers long. Scissors.,माथि: 3–4 औंला लामो। कैंची।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H53.step.3,H53 Hard Part,Ask: part on left or right?,सोध्नुहोस्: सिउँदो देब्रे कि दाहिने?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H53.step.4,H53 Hard Part,Find the natural part line.,स्वाभाविक सिउँदोको रेखा पत्ता लगाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H53.step.5,H53 Hard Part,Shave a thin line along the part with a trimmer.,ट्रिमरले सिउँदोमा पातलो रेखा खौर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H53.step.6,H53 Hard Part,Comb to the side. Finish with pomade.,छेउतिर कोर्नुहोस्। पोमेडले फिनिस गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H53.callout.1.title,H53 Hard Part,Shaved part,खौरिएको सिउँदो,draft,Photo label title.
+H53.callout.1.text,H53 Hard Part,"Thin, sharp line.","पातलो, धारिलो रेखा।",draft,Photo label line.
+H53.callout.2.title,H53 Hard Part,Side-combed top,छेउतिर कोरिएको माथि,draft,Photo label title.
+H53.callout.2.text,H53 Hard Part,Neat and smart.,सफा र स्मार्ट।,draft,Photo label line.
+H53.callout.3.title,H53 Hard Part,Tapered sides,टेपर गरिएका छेउ,draft,Photo label title.
+H53.callout.3.text,H53 Hard Part,#2 to #1.,#2 देखि #1।,draft,Photo label line.
+H53.callout.4.title,H53 Hard Part,Light shine,हल्का चमक,draft,Photo label title.
+H53.callout.4.text,H53 Hard Part,Pomade.,पोमेड।,draft,Photo label line.
+H54.name,H54 Temple Fade,Temple Fade,Temple Fade,draft,"Catalogue name. Keep it, or write the name customers use."
+H54.shortLine,H54 Temple Fade,"Small fade at the temples and nape, with a sharp line-up.","कन्चट र नेपमा सानो फेड, धारिलो लाइन-अपसहित।",draft,
+H54.description,H54 Temple Fade,"A small fade around the temples, sideburns and nape, with the hairline lined up sharp. The rest of the hair keeps its length.","कन्चट, कल्ली र नेप वरिपरि सानो फेड, र हेयरलाइन धारिलो गरी लाइन-अप। बाँकी कपालको लम्बाइ जस्ताको तस्तै रहन्छ।",draft,
+H54.pickIf,H54 Temple Fade,"you want clean, sharp edges without short sides.","तपाईं छेउ छोटो नगरी सफा, धारिला किनारा चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H54.skipIf,H54 Temple Fade,you can't visit every 2 weeks.,तपाईं हरेक 2 हप्तामा आउन सक्नुहुन्न।,draft,"Follows ""Skip if""."
+H54.daily,H54 Temple Fade,"2 min: brush or comb the top, a little wax.","2 मिनेट: माथिको कपाल ब्रस वा कोर्नुहोस्, थोरै वाक्स।",draft,
+H54.weekly,H54 Temple Fade,Nothing.,केही पनि होइन।,draft,
+H54.nextVisit,H54 Temple Fade,in 2 weeks,2 हप्तामा,draft,
+H54.alsoCalled,H54 Temple Fade,"Temp fade, Brooklyn fade","टेम्प फेड, ब्रुकलिन फेड",draft,Comma-separated names.
+H54.length,H54 Temple Fade,Short,छोटो,draft,
+H54.faq.1.q,H54 Temple Fade,What is a temple fade?,Temple fade भनेको के हो?,draft,
+H54.faq.1.a,H54 Temple Fade,"A small fade around the temples, sideburns and nape, with a sharp line-up. The rest of the sides stays longer.","कन्चट, कल्ली र नेप वरिपरि धारिलो लाइन-अपसहितको सानो फेड। बाँकी छेउ लामै रहन्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H54.faq.2.q,H54 Temple Fade,How is it different from a taper fade?,यो Taper fade भन्दा कसरी फरक छ?,draft,
+H54.faq.2.a,H54 Temple Fade,Both are small fades. A temple fade adds a sharp line-up at the hairline and temples.,दुवै साना फेड हुन्। Temple fade मा हेयरलाइन र कन्चटमा धारिलो लाइन-अप थपिन्छ।,draft,"Keep any <a href=""...""> link tags as they are."
+H54.faq.3.q,H54 Temple Fade,Does it work with curly hair?,के यो घुम्रिएको कपालमा मिल्छ?,draft,
+H54.faq.3.a,H54 Temple Fade,"Yes. It's popular with curly and wavy hair, because it keeps the edges neat.",हो। किनारा सफा राख्ने भएकाले घुम्रिएको र लहरे कपालमा यो लोकप्रिय छ।,draft,"Keep any <a href=""...""> link tags as they are."
+H54.faq.4.q,H54 Temple Fade,How often does it need a touch-up?,कति पटक मिलाउनुपर्छ?,draft,
+H54.faq.4.a,H54 Temple Fade,"Every 2 weeks, to keep the line-up sharp.",लाइन-अप धारिलो राख्न हरेक 2 हप्तामा।,draft,"Keep any <a href=""...""> link tags as they are."
+H54.step.1,H54 Temple Fade,Temples: fade from #0 to #2.,कन्चट: #0 देखि #2 सम्म फेड।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H54.step.2,H54 Temple Fade,Nape: fade from #0 to #2.,नेप: #0 देखि #2 सम्म फेड।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H54.step.3,H54 Temple Fade,Sides: keep the length. Blend into the fade.,छेउ: लम्बाइ राख्नुहोस्। फेडसँग मिलाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H54.step.4,H54 Temple Fade,Line up the hairline with a trimmer.,ट्रिमरले हेयरलाइन लाइन-अप गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H54.step.5,H54 Temple Fade,Shape the sideburns square.,कल्ली चारकुने आकारमा मिलाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H54.step.6,H54 Temple Fade,Clean the edges with a razor.,रेजरले किनारा सफा गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H54.callout.1.title,H54 Temple Fade,Temple fade,टेम्पल फेड,draft,Photo label title.
+H54.callout.1.text,H54 Temple Fade,Skin to #2.,छालादेखि #2।,draft,Photo label line.
+H54.callout.2.title,H54 Temple Fade,Line-up,लाइन-अप,draft,Photo label title.
+H54.callout.2.text,H54 Temple Fade,Sharp hairline.,धारिलो हेयरलाइन।,draft,Photo label line.
+H54.callout.3.title,H54 Temple Fade,Square sideburns,चारकुने कल्ली,draft,Photo label title.
+H54.callout.3.text,H54 Temple Fade,Clean edges.,सफा किनारा।,draft,Photo label line.
+H54.callout.4.title,H54 Temple Fade,Faded nape,फेड गरिएको नेप,draft,Photo label title.
+H54.callout.4.text,H54 Temple Fade,Neat back.,मिलेको पछाडि।,draft,Photo label line.
+H55.name,H55 V-Cut,V-Cut,V-Cut,draft,"Catalogue name. Keep it, or write the name customers use."
+H55.shortLine,H55 V-Cut,Neat cut with the back of the neck shaped into a V.,गर्दनको पछाडि V आकार दिइएको सफा कट।,draft,
+H55.description,H55 V-Cut,"A short to medium cut with the hairline at the back of the neck cut into a sharp V. Simple at the front, a sharp detail at the back.","गर्दनको पछाडिको हेयरलाइन धारिलो V आकारमा काटिएको छोटोदेखि मध्यम कट। अगाडि सामान्य, पछाडि एउटा धारिलो विवरण।",draft,
+H55.pickIf,H55 V-Cut,"you want something a little different at the back, without a bold top.",तपाईं बोल्ड माथि नराखी पछाडि अलि फरक केही चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
+H55.skipIf,H55 V-Cut,"your office needs a plain, square neck line.","तपाईंको अफिसमा सादा, चारकुने गर्दन रेखा चाहिन्छ।",draft,"Follows ""Skip if""."
+H55.daily,H55 V-Cut,"2 min: comb or brush, a little wax.","2 मिनेट: कोर्नुहोस् वा ब्रस गर्नुहोस्, थोरै वाक्स।",draft,
+H55.weekly,H55 V-Cut,Nothing.,केही पनि होइन।,draft,
+H55.nextVisit,H55 V-Cut,in 3 weeks,3 हप्तामा,draft,
+H55.alsoCalled,H55 V-Cut,"V-shape neckline, V-shape back","V-आकारको गर्दन रेखा, V-आकारको पछाडि",draft,Comma-separated names.
+H55.length,H55 V-Cut,Short to medium,छोटोदेखि मध्यम,draft,
+H55.faq.1.q,H55 V-Cut,What is a V-cut?,V-cut भनेको के हो?,draft,
+H55.faq.1.a,H55 V-Cut,"A haircut where the hairline at the back of the neck is cut into a sharp V, pointing down.",गर्दनको पछाडिको हेयरलाइन तलतिर फर्केको धारिलो V आकारमा काटिने कट।,draft,"Keep any <a href=""...""> link tags as they are."
+H55.faq.2.q,H55 V-Cut,Can I get a V-cut with any style on top?,के माथि जुनसुकै स्टाइलसँग V-cut गर्न मिल्छ?,draft,
+H55.faq.2.a,H55 V-Cut,"Yes. The V is only at the back, so it works with a taper, a fade or a longer top.","हो। V पछाडि मात्र हुन्छ, त्यसैले टेपर, फेड वा लामो माथि सबैसँग मिल्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H55.faq.3.q,H55 V-Cut,How long does the V stay sharp?,V कति दिन धारिलो रहन्छ?,draft,
+H55.faq.3.a,H55 V-Cut,About 2–3 weeks. Then the edges grow out.,करिब 2–3 हप्ता। त्यसपछि किनारा उम्रन्छन्।,draft,"Keep any <a href=""...""> link tags as they are."
+H55.faq.4.q,H55 V-Cut,Does a V-cut make the neck look longer?,के V-cut ले गर्दन लामो देखाउँछ?,draft,
+H55.faq.4.a,H55 V-Cut,"Yes. The point draws the eye down, so the neck looks slimmer.","हो। टुप्पोले आँखा तलतिर तान्छ, त्यसैले गर्दन पातलो देखिन्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H55.step.1,H55 V-Cut,"Ask: which style on top, and how deep a V?","सोध्नुहोस्: माथि कुन स्टाइल, र V कति गहिरो?",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H55.step.2,H55 V-Cut,Cut the top and sides as asked.,भनेअनुसार माथि र छेउ काट्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H55.step.3,H55 V-Cut,Back: comb the nape down.,पछाडि: नेपको कपाल तलतिर कोर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H55.step.4,H55 V-Cut,Mark the V point at the centre of the neck.,गर्दनको बीचमा V को टुप्पो चिन्ह लगाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H55.step.5,H55 V-Cut,Cut both sides of the V with a trimmer.,ट्रिमरले V का दुवै छेउ काट्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H55.step.6,H55 V-Cut,Clean below the V with a razor.,रेजरले V मुनि सफा गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H55.callout.1.title,H55 V-Cut,V neckline,V गर्दन रेखा,draft,Photo label title.
+H55.callout.1.text,H55 V-Cut,Sharp point at the back.,पछाडि धारिलो टुप्पो।,draft,Photo label line.
+H55.callout.2.title,H55 V-Cut,Clean below,मुनि सफा,draft,Photo label title.
+H55.callout.2.text,H55 V-Cut,Shaved with a razor.,रेजरले खौरिएको।,draft,Photo label line.
+H55.callout.3.title,H55 V-Cut,Tapered sides,टेपर गरिएका छेउ,draft,Photo label title.
+H55.callout.3.text,H55 V-Cut,Short and neat.,छोटो र सफा।,draft,Photo label line.
+H55.callout.4.title,H55 V-Cut,Easy top,सजिलो माथि,draft,Photo label title.
+H55.callout.4.text,H55 V-Cut,Combed back.,पछाडितिर कोरिएको।,draft,Photo label line.
+H56.name,H56 Ponytail,Ponytail,Ponytail,draft,"Catalogue name. Keep it, or write the name customers use."
+H56.shortLine,H56 Ponytail,Long hair tied back low at the neck.,लामो कपाल गर्दनमा तल पछाडि बाँधिएको।,draft,
+H56.description,H56 Ponytail,"Long hair pulled back and tied low at the back of the neck. Easy, relaxed, and it keeps hair off your face.","लामो कपाल पछाडि तानेर गर्दनको पछाडि तल बाँधिएको। सजिलो, आरामदायी, र कपाल अनुहारमा आउँदैन।",draft,
+H56.pickIf,H56 Ponytail,your hair reaches your shoulders and you want the easiest way to wear it.,तपाईंको कपाल काँधसम्म पुग्छ र राख्ने सबैभन्दा सजिलो तरिका चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
+H56.skipIf,H56 Ponytail,"your hair is shorter than your shoulders, or thin, or you have a round face.","तपाईंको कपाल काँधभन्दा छोटो वा पातलो छ, वा अनुहार गोलो छ।",draft,"Follows ""Skip if""."
+H56.daily,H56 Ponytail,2 min: brush back and tie with a soft hair tie.,2 मिनेट: पछाडितिर ब्रस गरेर नरम रबरले बाँध्नुहोस्।,draft,
+H56.weekly,H56 Ponytail,Conditioner 2–3 times.,2–3 पटक कन्डिसनर।,draft,
+H56.nextVisit,H56 Ponytail,"in 8 weeks, for a trim","8 हप्तामा, ट्रिमका लागि",draft,
+H56.alsoCalled,H56 Ponytail,Low ponytail,तल बाँधिएको पोनिटेल,draft,Comma-separated names.
+H56.length,H56 Ponytail,Long,लामो,draft,
+H56.faq.1.q,H56 Ponytail,How long does hair need to be for a ponytail?,पोनिटेलका लागि कपाल कति लामो हुनुपर्छ?,draft,
+H56.faq.1.a,H56 Ponytail,"At least to the shoulders, so it can be tied at the neck.",गर्दनमा बाँध्न मिल्ने गरी कम्तीमा काँधसम्म।,draft,"Keep any <a href=""...""> link tags as they are."
+H56.faq.2.q,H56 Ponytail,How is it different from a man bun?,यो Man bun भन्दा कसरी फरक छ?,draft,
+H56.faq.2.a,H56 Ponytail,A ponytail hangs down from a low tie. A man bun is twisted and tied up at the back of the head.,पोनिटेल तल बाँधेर झुन्डिन्छ। Man bun बटारेर टाउकोको पछाडि माथि बाँधिन्छ।,draft,"Keep any <a href=""...""> link tags as they are."
+H56.faq.3.q,H56 Ponytail,Will a ponytail damage my hair?,के पोनिटेलले कपाल बिगार्छ?,draft,
+H56.faq.3.a,H56 Ponytail,Not if you tie it loosely with a soft hair tie and change the spot now and then.,नरम रबरले खुकुलो गरी बाँध्नुभयो र बेलाबेला ठाउँ फेर्नुभयो भने बिगार्दैन।,draft,"Keep any <a href=""...""> link tags as they are."
+H56.faq.4.q,H56 Ponytail,How often should I trim it?,कति पटक ट्रिम गर्ने?,draft,
+H56.faq.4.a,H56 Ponytail,"Every 8 weeks, to remove split ends.",फुटेका टुप्पा हटाउन हरेक 8 हप्तामा।,draft,"Keep any <a href=""...""> link tags as they are."
+H56.step.1,H56 Ponytail,Keep all the length.,पूरै लम्बाइ राख्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H56.step.2,H56 Ponytail,Trim ends only: 1 finger or less.,टुप्पा मात्र ट्रिम: 1 औंला वा कम।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H56.step.3,H56 Ponytail,Remove split ends.,फुटेका टुप्पा हटाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H56.step.4,H56 Ponytail,Thin bulky areas at the back.,पछाडिको बाक्लो भाग पातलो गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H56.step.5,H56 Ponytail,Ask: shorter layers at the front?,सोध्नुहोस्: अगाडि छोटा लेयर?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H56.step.6,H56 Ponytail,Comb back. Tie low to check.,पछाडि कोर्नुहोस्। तल बाँधेर हेर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H56.callout.1.title,H56 Ponytail,Low tie,तल बाँधिएको,draft,Photo label title.
+H56.callout.1.text,H56 Ponytail,At the nape.,नेपमा।,draft,Photo label line.
+H56.callout.2.title,H56 Ponytail,Smooth pull-back,चिल्लो गरी पछाडि,draft,Photo label title.
+H56.callout.2.text,H56 Ponytail,No bumps on top.,माथि कतै उठेको छैन।,draft,Photo label line.
+H56.callout.3.title,H56 Ponytail,Healthy ends,स्वस्थ टुप्पा,draft,Photo label title.
+H56.callout.3.text,H56 Ponytail,"Trimmed, no split ends.","ट्रिम गरिएको, फुटेका टुप्पा छैनन्।",draft,Photo label line.
+H56.callout.4.title,H56 Ponytail,Soft tie,नरम बन्धन,draft,Photo label title.
+H56.callout.4.text,H56 Ponytail,"Loose, not tight.","खुकुलो, कसिलो होइन।",draft,Photo label line.
+H57.name,H57 Top Knot,Top Knot,Top Knot,draft,"Catalogue name. Keep it, or write the name customers use."
+H57.shortLine,H57 Top Knot,"Long top tied in a knot, with short sides.","छोटा छेउसहित, लामो माथिको कपाल गाँठोमा बाँधिएको।",draft,
+H57.description,H57 Top Knot,"The hair on top is grown long and tied in a knot at the crown, with the sides and back cut short. Bold and modern.","माथिको कपाल लामो पालेर टाउकोको टुप्पोमा गाँठो बाँधिन्छ, छेउ र पछाडि छोटो काटिन्छ। बोल्ड र आधुनिक।",draft,
+H57.pickIf,H57 Top Knot,"you want long hair on top but short, clean sides.","तपाईं माथि लामो कपाल तर छोटा, सफा छेउ चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H57.skipIf,H57 Top Knot,"your top is shorter than 15 cm, your hair is thin, or you have a long face.","माथिको कपाल 15 cm भन्दा छोटो छ, कपाल पातलो छ, वा अनुहार लामो छ।",draft,"Follows ""Skip if""."
+H57.daily,H57 Top Knot,3 min: brush the top back and tie a knot.,3 मिनेट: माथिको कपाल पछाडि ब्रस गरेर गाँठो बाँध्नुहोस्।,draft,
+H57.weekly,H57 Top Knot,Conditioner 2–3 times.,2–3 पटक कन्डिसनर।,draft,
+H57.nextVisit,H57 Top Knot,"in 3 weeks, for the sides","3 हप्तामा, छेउका लागि",draft,
+H57.alsoCalled,H57 Top Knot,"Undercut bun, Samurai knot","अन्डरकट बन, समुराई नट",draft,Comma-separated names.
+H57.length,H57 Top Knot,Long,लामो,draft,
+H57.faq.1.q,H57 Top Knot,How is a top knot different from a man bun?,Top knot र Man bun मा के फरक छ?,draft,
+H57.faq.1.a,H57 Top Knot,"A top knot is tied higher, at the crown, and the sides are short. A man bun keeps the sides long.","Top knot अझ माथि, टाउकोको टुप्पोमा बाँधिन्छ र छेउ छोटा हुन्छन्। Man bun मा छेउ लामै रहन्छन्।",draft,"Keep any <a href=""...""> link tags as they are."
+H57.faq.2.q,H57 Top Knot,How long does the top need to be?,माथिको कपाल कति लामो हुनुपर्छ?,draft,
+H57.faq.2.a,H57 Top Knot,"At least 15 cm, so it reaches the crown when pulled back.",पछाडि तान्दा टुप्पोसम्म पुग्ने गरी कम्तीमा 15 cm।,draft,"Keep any <a href=""...""> link tags as they are."
+H57.faq.3.q,H57 Top Knot,Can I wear it down?,के खुला छाड्न मिल्छ?,draft,
+H57.faq.3.a,H57 Top Knot,"Yes. Down, it looks like a long undercut.",मिल्छ। खुला छाड्दा यो लामो अन्डरकटजस्तो देखिन्छ।,draft,"Keep any <a href=""...""> link tags as they are."
+H57.faq.4.q,H57 Top Knot,How often do the sides need cutting?,छेउ कति पटक काट्नुपर्छ?,draft,
+H57.faq.4.a,H57 Top Knot,"Every 3 weeks, to keep them short and neat.",छोटो र सफा राख्न हरेक 3 हप्तामा।,draft,"Keep any <a href=""...""> link tags as they are."
+H57.step.1,H57 Top Knot,Sides and back: machine #1 or #2.,छेउ र पछाडि: मेसिन #1 वा #2।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H57.step.2,H57 Top Knot,Ask: hard line or blended?,सोध्नुहोस्: कडा रेखा कि मिलाएर?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H57.step.3,H57 Top Knot,Top: keep all the length.,माथि: पूरै लम्बाइ राख्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H57.step.4,H57 Top Knot,Trim top ends only.,माथिको टुप्पा मात्र ट्रिम।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H57.step.5,H57 Top Knot,Clean neck and ears.,गर्दन र कान सफा गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H57.step.6,H57 Top Knot,Tie the knot at the crown to check.,टुप्पोमा गाँठो बाँधेर हेर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H57.callout.1.title,H57 Top Knot,Crown knot,टुप्पोमा गाँठो,draft,Photo label title.
+H57.callout.1.text,H57 Top Knot,Tied high.,माथि बाँधिएको।,draft,Photo label line.
+H57.callout.2.title,H57 Top Knot,Short sides,छोटा छेउ,draft,Photo label title.
+H57.callout.2.text,H57 Top Knot,Machine #1.,मेसिन #1।,draft,Photo label line.
+H57.callout.3.title,H57 Top Knot,Clean line,सफा रेखा,draft,Photo label title.
+H57.callout.3.text,H57 Top Knot,Where sides meet the top.,छेउ र माथि मिल्ने ठाउँमा।,draft,Photo label line.
+H57.callout.4.title,H57 Top Knot,Smooth pull-back,चिल्लो गरी पछाडि,draft,Photo label title.
+H57.callout.4.text,H57 Top Knot,No bumps.,कतै उठेको छैन।,draft,Photo label line.
+H58.name,H58 Half Bun,Half Bun,Half Bun,draft,"Catalogue name. Keep it, or write the name customers use."
+H58.shortLine,H58 Half Bun,"Top half tied in a small bun, the rest left down.","माथिको आधा कपाल सानो जुरोमा, बाँकी खुला।",draft,
+H58.description,H58 Half Bun,"The top half of medium to long hair is tied in a small bun at the back, and the rest hangs loose. Relaxed and easy.","मध्यमदेखि लामो कपालको माथिल्लो आधा भाग पछाडि सानो जुरोमा बाँधिन्छ, बाँकी खुला झर्छ। आरामदायी र सजिलो।",draft,
+H58.pickIf,H58 Half Bun,"your hair reaches your chin or longer, and you want it off your face but still down.","तपाईंको कपाल चिउँडोसम्म वा लामो छ, र अनुहारबाट हटाएर पनि खुला राख्न चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H58.skipIf,H58 Half Bun,"your hair is shorter than your chin, or thin.",तपाईंको कपाल चिउँडोभन्दा छोटो वा पातलो छ।,draft,"Follows ""Skip if""."
+H58.daily,H58 Half Bun,2 min: gather the top half and tie a small bun.,2 मिनेट: माथिको आधा कपाल समातेर सानो जुरो बाँध्नुहोस्।,draft,
+H58.weekly,H58 Half Bun,Conditioner 2–3 times.,2–3 पटक कन्डिसनर।,draft,
+H58.nextVisit,H58 Half Bun,"in 6–8 weeks, for a trim","6–8 हप्तामा, ट्रिमका लागि",draft,
+H58.alsoCalled,H58 Half Bun,"Half-up bun, Half-up","हाफ-अप बन, हाफ-अप",draft,Comma-separated names.
+H58.length,H58 Half Bun,Medium to long,मध्यमदेखि लामो,draft,
+H58.faq.1.q,H58 Half Bun,How long does hair need to be for a half bun?,Half bun का लागि कपाल कति लामो हुनुपर्छ?,draft,
+H58.faq.1.a,H58 Half Bun,"At least to the chin, so the top half can be tied back.",माथिको आधा भाग पछाडि बाँध्न मिल्ने गरी कम्तीमा चिउँडोसम्म।,draft,"Keep any <a href=""...""> link tags as they are."
+H58.faq.2.q,H58 Half Bun,How is it different from a man bun?,यो Man bun भन्दा कसरी फरक छ?,draft,
+H58.faq.2.a,H58 Half Bun,A man bun ties all the hair up. A half bun ties only the top half and leaves the rest down.,"Man bun मा सबै कपाल माथि बाँधिन्छ। Half bun मा माथिको आधा मात्र बाँधिन्छ, बाँकी खुला रहन्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H58.faq.3.q,H58 Half Bun,Does it suit layered hair?,के लेयर भएको कपालमा मिल्छ?,draft,
+H58.faq.3.a,H58 Half Bun,Yes. Layers make the hair that hangs down look fuller.,हो। लेयरले झरेको कपाललाई अझ बाक्लो देखाउँछ।,draft,"Keep any <a href=""...""> link tags as they are."
+H58.faq.4.q,H58 Half Bun,How often should I trim it?,कति पटक ट्रिम गर्ने?,draft,
+H58.faq.4.a,H58 Half Bun,"Every 6–8 weeks, to keep the ends healthy.",टुप्पा स्वस्थ राख्न हरेक 6–8 हप्तामा।,draft,"Keep any <a href=""...""> link tags as they are."
+H58.step.1,H58 Half Bun,Keep the length.,लम्बाइ राख्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H58.step.2,H58 Half Bun,Trim ends only: 1 finger or less.,टुप्पा मात्र ट्रिम: 1 औंला वा कम।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H58.step.3,H58 Half Bun,Add light layers at the back.,पछाडि हल्का लेयर थप्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H58.step.4,H58 Half Bun,Remove split ends.,फुटेका टुप्पा हटाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H58.step.5,H58 Half Bun,Ask: shorter at the front?,सोध्नुहोस्: अगाडि छोटो?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H58.step.6,H58 Half Bun,Tie the top half to check.,माथिको आधा बाँधेर हेर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H58.callout.1.title,H58 Half Bun,Half bun,हाफ बन,draft,Photo label title.
+H58.callout.1.text,H58 Half Bun,Top half tied up.,माथिको आधा बाँधिएको।,draft,Photo label line.
+H58.callout.2.title,H58 Half Bun,Hair down,खुला कपाल,draft,Photo label title.
+H58.callout.2.text,H58 Half Bun,Lower half loose.,तल्लो आधा खुला।,draft,Photo label line.
+H58.callout.3.title,H58 Half Bun,Light layers,हल्का लेयर,draft,Photo label title.
+H58.callout.3.text,H58 Half Bun,Soft movement.,नरम चाल।,draft,Photo label line.
+H58.callout.4.title,H58 Half Bun,Healthy ends,स्वस्थ टुप्पा,draft,Photo label title.
+H58.callout.4.text,H58 Half Bun,Trimmed.,ट्रिम गरिएको।,draft,Photo label line.
+H59.name,H59 Dreadlocks,Dreadlocks,Dreadlocks,draft,"Catalogue name. Keep it, or write the name customers use."
+H59.shortLine,H59 Dreadlocks,"Hair formed into neat, rope-like locks.","कपाललाई सफा, डोरीजस्ता लटामा बनाइएको।",draft,
+H59.description,H59 Dreadlocks,"Hair twisted into sections and left to lock into rope-like strands, kept neat by retwisting the roots. A long-term style that takes months to form.","कपाल भाग-भाग गरी बटारेर डोरीजस्ता लटा बन्न छाडिन्छ, र जरा फेरि बटारेर सफा राखिन्छ। बन्न महिनौँ लाग्ने दीर्घकालीन स्टाइल।",draft,
+H59.pickIf,H59 Dreadlocks,you want a long-term style and are ready for months of patience.,तपाईं दीर्घकालीन स्टाइल चाहनुहुन्छ र महिनौँ धैर्य गर्न तयार हुनुहुन्छ।,draft,"Follows ""Pick this if""."
+H59.skipIf,H59 Dreadlocks,you like to change your look often. Locks are hard to undo without cutting.,तपाईं बेलाबेला लुक फेर्न रुचाउनुहुन्छ। लटा नकाटी फुकाउन गाह्रो हुन्छ।,draft,"Follows ""Skip if""."
+H59.daily,H59 Dreadlocks,2 min: tie back or let hang. No combing.,2 मिनेट: पछाडि बाँध्नुहोस् वा झुन्डिन दिनुहोस्। कोर्नु पर्दैन।,draft,
+H59.weekly,H59 Dreadlocks,"Wash once with a residue-free shampoo, then dry fully.","अवशेष नछोड्ने सेम्पुले एक पटक धुनुहोस्, अनि पूरै सुकाउनुहोस्।",draft,
+H59.nextVisit,H59 Dreadlocks,"in 4–6 weeks, to retwist the roots","4–6 हप्तामा, जरा फेरि बटार्न",draft,
+H59.alsoCalled,H59 Dreadlocks,"Locs, Dreads","लक्स, ड्रेड्स",draft,Comma-separated names.
+H59.length,H59 Dreadlocks,Long,लामो,draft,
+H59.faq.1.q,H59 Dreadlocks,How long do dreadlocks take to form?,Dreadlocks बन्न कति समय लाग्छ?,draft,
+H59.faq.1.a,H59 Dreadlocks,"About 6–12 months for the locks to set fully, depending on your hair.",कपालअनुसार लटा पूरै बस्न करिब 6–12 महिना।,draft,"Keep any <a href=""...""> link tags as they are."
+H59.faq.2.q,H59 Dreadlocks,Can straight hair form locks?,के सिधा कपालमा लटा बन्छ?,draft,
+H59.faq.2.a,H59 Dreadlocks,"It can, but it takes longer and needs more twisting. Curly hair locks most easily.","बन्छ, तर बढी समय र बढी बटार्नुपर्छ। घुम्रिएको कपालमा सबैभन्दा सजिलै बन्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H59.faq.3.q,H59 Dreadlocks,How do I wash dreadlocks?,Dreadlocks कसरी धुने?,draft,
+H59.faq.3.a,H59 Dreadlocks,Once a week with a residue-free shampoo. Dry them fully so they don't smell.,हप्तामा एक पटक अवशेष नछोड्ने सेम्पुले। गन्हाउन नदिन पूरै सुकाउनुहोस्।,draft,"Keep any <a href=""...""> link tags as they are."
+H59.faq.4.q,H59 Dreadlocks,Can I take them out later?,पछि फुकाउन मिल्छ?,draft,
+H59.faq.4.a,H59 Dreadlocks,"Only with long, careful work, and it often means cutting most of the length.","लामो, होसियार कामपछि मात्र, र प्रायः धेरैजसो लम्बाइ काट्नुपर्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H59.step.1,H59 Dreadlocks,Wash and dry the hair fully.,कपाल धोएर पूरै सुकाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H59.step.2,H59 Dreadlocks,Part the hair into even squares.,कपाललाई बराबर चारकुने भागमा बाँड्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H59.step.3,H59 Dreadlocks,Twist each section from root to end.,हरेक भाग जरादेखि टुप्पासम्म बटार्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H59.step.4,H59 Dreadlocks,Tighten the roots with a crochet hook or palm rolling.,क्रोसे हुक वा हत्केलाले घुमाएर जरा कस्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H59.step.5,H59 Dreadlocks,Neaten the hairline.,हेयरलाइन मिलाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H59.step.6,H59 Dreadlocks,Ask: book a retwist in 4–6 weeks.,सोध्नुहोस्: 4–6 हप्तामा फेरि बटार्न बुक गर्ने?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H59.callout.1.title,H59 Dreadlocks,Even locks,बराबर लटा,draft,Photo label title.
+H59.callout.1.text,H59 Dreadlocks,About 1 cm thick.,करिब 1 cm बाक्लो।,draft,Photo label line.
+H59.callout.2.title,H59 Dreadlocks,Neat roots,सफा जरा,draft,Photo label title.
+H59.callout.2.text,H59 Dreadlocks,Square sections.,चारकुने भाग।,draft,Photo label line.
+H59.callout.3.title,H59 Dreadlocks,Clean hairline,सफा हेयरलाइन,draft,Photo label title.
+H59.callout.3.text,H59 Dreadlocks,Tidy edges.,मिलेका किनारा।,draft,Photo label line.
+H59.callout.4.title,H59 Dreadlocks,Shoulder length,काँधसम्म,draft,Photo label title.
+H59.callout.4.text,H59 Dreadlocks,Healthy ends.,स्वस्थ टुप्पा।,draft,Photo label line.
 B01.name,B01 Clean Shave,Clean Shave,Clean Shave,draft,"Catalogue name. Keep it, or write the name customers use."
 B01.shortLine,B01 Clean Shave,No hair on the face. Fresh and clean.,अनुहारमा रौं छैन। ताजा र सफा।,draft,
 B01.description,B01 Clean Shave,A smooth face with no beard. Fresh and clean.,दाह्रीबिनाको चिल्लो अनुहार। ताजा र सफा।,draft,
@@ -3735,6 +3991,102 @@ L31.callout.3.title,L31 Ash Brown Perm,Clean face,सफा अनुहार,d
 L31.callout.3.text,L31 Ash Brown Perm,No beard or moustache.,दाह्री वा जुँगा छैन।,draft,Photo label line.
 L31.callout.4.title,L31 Ash Brown Perm,Airy volume,हल्का भोल्युम,draft,Photo label title.
 L31.callout.4.text,L31 Ash Brown Perm,"Light, not frizzy.","हल्का, फुस्रो होइन।",draft,Photo label line.
+L32.name,L32 Campus Fringe,Campus Fringe,क्याम्पस फ्रिन्ज,draft,"Catalogue name. Keep it, or write the name customers use."
+L32.shortLine,L32 Campus Fringe,Textured fringe with light stubble.,हल्का दाह्रीसँग टेक्स्चर्ड फ्रिन्ज।,draft,
+L32.description,L32 Campus Fringe,"A messy textured fringe over a low taper, with light stubble. Young and easy for college and weekends.",लो टेपरमाथि अस्तव्यस्त टेक्स्चर्ड फ्रिन्ज र हल्का दाह्री। कलेज र बिदाका लागि जवान र सजिलो।,draft,
+L32.pickIf,L32 Campus Fringe,"you want a young, easy look that takes little time.","तपाईं थोरै समय लाग्ने जवान, सजिलो लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L32.skipIf,L32 Campus Fringe,"you have a round face, or your job needs a clean shave.","तपाईंको अनुहार गोलो छ, वा कामका लागि क्लिन सेभ चाहिन्छ।",draft,"Follows ""Skip if""."
+L32.daily,L32 Campus Fringe,3 min: push a little dry wax forward through the fringe.,3 मिनेट: थोरै ड्राई वाक्स फ्रिन्जमा अगाडितिर लगाउनुहोस्।,draft,
+L32.weekly,L32 Campus Fringe,Trim the stubble twice at 1–2 mm.,दाह्री दुई पटक 1–2 mm मा ट्रिम।,draft,
+L32.nextVisit,L32 Campus Fringe,in 3–4 weeks,3–4 हप्तामा,draft,
+L32.callout.1.title,L32 Campus Fringe,Textured fringe,टेक्स्चर्ड फ्रिन्ज,draft,Photo label title.
+L32.callout.1.text,L32 Campus Fringe,"Choppy, pushed forward.","टुक्रे, अगाडि धकेलिएको।",draft,Photo label line.
+L32.callout.2.title,L32 Campus Fringe,Light stubble,हल्का दाह्री,draft,Photo label title.
+L32.callout.2.text,L32 Campus Fringe,1-2 mm.,1-2 mm।,draft,Photo label line.
+L32.callout.3.title,L32 Campus Fringe,Low taper,लो टेपर,draft,Photo label title.
+L32.callout.3.text,L32 Campus Fringe,#1 to #3.,#1 देखि #3।,draft,Photo label line.
+L32.callout.4.title,L32 Campus Fringe,Matte finish,म्याट फिनिस,draft,Photo label title.
+L32.callout.4.text,L32 Campus Fringe,Dry wax.,ड्राई वाक्स।,draft,Photo label line.
+L33.name,L33 Sharp Part,Sharp Part,धारिलो सिउँदो,draft,"Catalogue name. Keep it, or write the name customers use."
+L33.shortLine,L33 Sharp Part,Shaved side part with a short boxed beard.,छोटो बक्स दाह्रीसँग खौरिएको छेउको सिउँदो।,draft,
+L33.description,L33 Sharp Part,"A hard part with a thin shaved line, and a short boxed beard with sharp cheek lines. Smart and well kept.","पातलो खौरिएको रेखासहितको Hard part, र धारिला गालाका रेखासहितको छोटो बक्स दाह्री। स्मार्ट र राम्ररी मिलाइएको।",draft,
+L33.pickIf,L33 Sharp Part,"you want a sharp, groomed look for work and functions.","तपाईं काम र समारोहका लागि धारिलो, मिलेको लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L33.skipIf,L33 Sharp Part,"your beard grows patchy, or you can't visit every 3 weeks.","तपाईंको दाह्री ठाउँ-ठाउँमा उम्रन्छ, वा हरेक 3 हप्तामा आउन सक्नुहुन्न।",draft,"Follows ""Skip if""."
+L33.daily,L33 Sharp Part,"6 min: comb along the part, a little pomade, then beard oil.","6 मिनेट: सिउँदोअनुसार कोर्नुहोस्, थोरै पोमेड, अनि बियर्ड आयल।",draft,
+L33.weekly,L33 Sharp Part,Trim the beard to 6–9 mm and clean the cheek lines.,दाह्री 6–9 mm मा ट्रिम गरी गालाका रेखा सफा गर्नुहोस्।,draft,
+L33.nextVisit,L33 Sharp Part,in 3 weeks,3 हप्तामा,draft,
+L33.callout.1.title,L33 Sharp Part,Shaved part,खौरिएको सिउँदो,draft,Photo label title.
+L33.callout.1.text,L33 Sharp Part,"Thin, sharp line.","पातलो, धारिलो रेखा।",draft,Photo label line.
+L33.callout.2.title,L33 Sharp Part,Boxed beard,बक्स दाह्री,draft,Photo label title.
+L33.callout.2.text,L33 Sharp Part,Sharp cheek lines.,धारिला गालाका रेखा।,draft,Photo label line.
+L33.callout.3.title,L33 Sharp Part,Tapered sides,टेपर गरिएका छेउ,draft,Photo label title.
+L33.callout.3.text,L33 Sharp Part,#2 to #1.,#2 देखि #1।,draft,Photo label line.
+L33.callout.4.title,L33 Sharp Part,Light shine,हल्का चमक,draft,Photo label title.
+L33.callout.4.text,L33 Sharp Part,Pomade.,पोमेड।,draft,Photo label line.
+L34.name,L34 Clean Line-Up,Clean Line-Up,सफा लाइन-अप,draft,"Catalogue name. Keep it, or write the name customers use."
+L34.shortLine,L34 Clean Line-Up,Temple fade with a sharp goatee.,धारिलो गोटीसँग टेम्पल फेड।,draft,
+L34.description,L34 Clean Line-Up,"A temple fade with a sharp line-up, and a neat goatee on the chin. Clean edges everywhere.","धारिलो लाइन-अपसहितको Temple fade, र चिउँडोमा सफा गोटी। जताततै सफा किनारा।",draft,
+L34.pickIf,L34 Clean Line-Up,"you like sharp, clean edges and visit the barber often.","तपाईंलाई धारिला, सफा किनारा मन पर्छ र बार्बरकहाँ बारम्बार जानुहुन्छ।",draft,"Follows ""Pick this if""."
+L34.skipIf,L34 Clean Line-Up,you can't visit every 2 weeks.,तपाईं हरेक 2 हप्तामा आउन सक्नुहुन्न।,draft,"Follows ""Skip if""."
+L34.daily,L34 Clean Line-Up,"5 min: shave the cheeks and upper lip, brush the top.","5 मिनेट: गाला र माथिल्लो ओठ खौर्नुहोस्, माथिको कपाल ब्रस गर्नुहोस्।",draft,
+L34.weekly,L34 Clean Line-Up,Trim the goatee to 6 mm.,गोटी 6 mm मा ट्रिम।,draft,
+L34.nextVisit,L34 Clean Line-Up,in 2 weeks,2 हप्तामा,draft,
+L34.callout.1.title,L34 Clean Line-Up,Temple fade,टेम्पल फेड,draft,Photo label title.
+L34.callout.1.text,L34 Clean Line-Up,Skin to #2.,छालादेखि #2।,draft,Photo label line.
+L34.callout.2.title,L34 Clean Line-Up,Line-up,लाइन-अप,draft,Photo label title.
+L34.callout.2.text,L34 Clean Line-Up,Sharp hairline.,धारिलो हेयरलाइन।,draft,Photo label line.
+L34.callout.3.title,L34 Clean Line-Up,Goatee,गोटी,draft,Photo label title.
+L34.callout.3.text,L34 Clean Line-Up,Chin only.,चिउँडोमा मात्र।,draft,Photo label line.
+L34.callout.4.title,L34 Clean Line-Up,Clean cheeks,सफा गाला,draft,Photo label title.
+L34.callout.4.text,L34 Clean Line-Up,Shaved.,खौरिएको।,draft,Photo label line.
+L35.name,L35 Sharp V,Sharp V,धारिलो V,draft,"Catalogue name. Keep it, or write the name customers use."
+L35.shortLine,L35 Sharp V,V-cut neckline with heavy stubble.,बाक्लो दाह्रीसँग V-cut गर्दन रेखा।,draft,
+L35.description,L35 Sharp V,"A neat cut with a sharp V at the back of the neck, and heavy stubble. Simple at the front, one sharp detail at the back.","गर्दनको पछाडि धारिलो V भएको सफा कट, र बाक्लो छोटो दाह्री। अगाडि सामान्य, पछाडि एउटा धारिलो विवरण।",draft,
+L35.pickIf,L35 Sharp V,you want an easy everyday look with one sharp detail.,तपाईं एउटा धारिलो विवरणसहितको सजिलो दैनिक लुक चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
+L35.skipIf,L35 Sharp V,your office needs a plain neck line and a clean shave.,तपाईंको अफिसमा सादा गर्दन रेखा र क्लिन सेभ चाहिन्छ।,draft,"Follows ""Skip if""."
+L35.daily,L35 Sharp V,"2 min: comb, a little wax.","2 मिनेट: कोर्नुहोस्, थोरै वाक्स।",draft,
+L35.weekly,L35 Sharp V,Trim the stubble to 5 mm.,दाह्री 5 mm मा ट्रिम।,draft,
+L35.nextVisit,L35 Sharp V,in 3 weeks,3 हप्तामा,draft,
+L35.callout.1.title,L35 Sharp V,V neckline,V गर्दन रेखा,draft,Photo label title.
+L35.callout.1.text,L35 Sharp V,Sharp point at the back.,पछाडि धारिलो टुप्पो।,draft,Photo label line.
+L35.callout.2.title,L35 Sharp V,Heavy stubble,बाक्लो छोटो दाह्री,draft,Photo label title.
+L35.callout.2.text,L35 Sharp V,5 mm.,5 mm।,draft,Photo label line.
+L35.callout.3.title,L35 Sharp V,Tapered sides,टेपर गरिएका छेउ,draft,Photo label title.
+L35.callout.3.text,L35 Sharp V,Short and neat.,छोटो र सफा।,draft,Photo label line.
+L35.callout.4.title,L35 Sharp V,Easy top,सजिलो माथि,draft,Photo label title.
+L35.callout.4.text,L35 Sharp V,Combed back.,पछाडितिर कोरिएको।,draft,Photo label line.
+L36.name,L36 Half-Up Casual,Half-Up Casual,हाफ-अप क्याजुअल,draft,"Catalogue name. Keep it, or write the name customers use."
+L36.shortLine,L36 Half-Up Casual,Half bun with heavy stubble.,बाक्लो छोटो दाह्रीसँग हाफ बन।,draft,
+L36.description,L36 Half-Up Casual,"Medium to long hair with the top half in a small bun, and heavy stubble. Relaxed and easy for days off.","माथिको आधा सानो जुरोमा बाँधिएको मध्यमदेखि लामो कपाल, र बाक्लो छोटो दाह्री। बिदाका दिनका लागि आरामदायी र सजिलो।",draft,
+L36.pickIf,L36 Half-Up Casual,you have medium to long hair and want a relaxed look.,तपाईंको कपाल मध्यमदेखि लामो छ र आरामदायी लुक चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
+L36.skipIf,L36 Half-Up Casual,"your hair is shorter than your chin, or your office is strict.","तपाईंको कपाल चिउँडोभन्दा छोटो छ, वा अफिस कडा छ।",draft,"Follows ""Skip if""."
+L36.daily,L36 Half-Up Casual,"3 min: tie the top half, brush the rest.","3 मिनेट: माथिको आधा बाँध्नुहोस्, बाँकी ब्रस गर्नुहोस्।",draft,
+L36.weekly,L36 Half-Up Casual,Trim the stubble to 5 mm. Conditioner 2–3 times.,दाह्री 5 mm मा ट्रिम। 2–3 पटक कन्डिसनर।,draft,
+L36.nextVisit,L36 Half-Up Casual,in 6–8 weeks,6–8 हप्तामा,draft,
+L36.callout.1.title,L36 Half-Up Casual,Half bun,हाफ बन,draft,Photo label title.
+L36.callout.1.text,L36 Half-Up Casual,Top half tied up.,माथिको आधा बाँधिएको।,draft,Photo label line.
+L36.callout.2.title,L36 Half-Up Casual,Heavy stubble,बाक्लो छोटो दाह्री,draft,Photo label title.
+L36.callout.2.text,L36 Half-Up Casual,5 mm.,5 mm।,draft,Photo label line.
+L36.callout.3.title,L36 Half-Up Casual,Hair down,खुला कपाल,draft,Photo label title.
+L36.callout.3.text,L36 Half-Up Casual,Lower half loose.,तल्लो आधा खुला।,draft,Photo label line.
+L36.callout.4.title,L36 Half-Up Casual,Relaxed finish,आरामदायी फिनिस,draft,Photo label title.
+L36.callout.4.text,L36 Half-Up Casual,Soft texture.,नरम टेक्स्चर।,draft,Photo label line.
+L37.name,L37 Knot and Fade,Knot and Fade,नट र फेड,draft,"Catalogue name. Keep it, or write the name customers use."
+L37.shortLine,L37 Knot and Fade,Top knot with a faded beard.,फेड गरिएको दाह्रीसँग टप नट।,draft,
+L37.description,L37 Knot and Fade,"A top knot over short sides, with a beard that fades up into the sides. Bold and modern.","छोटा छेउमाथि टप नट, र छेउमा मिसिँदै फेड हुने दाह्री। बोल्ड र आधुनिक।",draft,
+L37.pickIf,L37 Knot and Fade,"you have long hair on top and want a bold, modern look.","तपाईंको माथिको कपाल लामो छ र बोल्ड, आधुनिक लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L37.skipIf,L37 Knot and Fade,"your top is shorter than 15 cm, or your office is strict.","माथिको कपाल 15 cm भन्दा छोटो छ, वा अफिस कडा छ।",draft,"Follows ""Skip if""."
+L37.daily,L37 Knot and Fade,"5 min: tie the knot, a little beard oil.","5 मिनेट: गाँठो बाँध्नुहोस्, थोरै बियर्ड आयल।",draft,
+L37.weekly,L37 Knot and Fade,Trim the beard and keep the fade even.,दाह्री ट्रिम गरी फेड बराबर राख्नुहोस्।,draft,
+L37.nextVisit,L37 Knot and Fade,"in 3 weeks, for the sides and beard","3 हप्तामा, छेउ र दाह्रीका लागि",draft,
+L37.callout.1.title,L37 Knot and Fade,Crown knot,टुप्पोमा गाँठो,draft,Photo label title.
+L37.callout.1.text,L37 Knot and Fade,Tied high.,माथि बाँधिएको।,draft,Photo label line.
+L37.callout.2.title,L37 Knot and Fade,Faded beard,फेड गरिएको दाह्री,draft,Photo label title.
+L37.callout.2.text,L37 Knot and Fade,Blends into the sides.,छेउसँग मिसिन्छ।,draft,Photo label line.
+L37.callout.3.title,L37 Knot and Fade,Short sides,छोटा छेउ,draft,Photo label title.
+L37.callout.3.text,L37 Knot and Fade,Machine #1.,मेसिन #1।,draft,Photo label line.
+L37.callout.4.title,L37 Knot and Fade,Clean cheek line,सफा गालाको रेखा,draft,Photo label title.
+L37.callout.4.text,L37 Knot and Fade,Tidy edges.,मिलेका किनारा।,draft,Photo label line.
 P01.title,P01 What is my face shape? A 30-second guide for men,What is my face shape? A 30-second guide for men,मेरो अनुहारको आकार कस्तो हो? पुरुषका लागि 30 सेकेन्डको गाइड,draft,"Page title: the question people search, about 60 characters."
 P01.description,P01 What is my face shape? A 30-second guide for men,"Find your face shape in 30 seconds with a mirror: oval, round, square, long or heart. See which haircuts and beards suit each one.","ऐना हेरेर 30 सेकेन्डमै आफ्नो अनुहारको आकार पत्ता लगाउनुहोस्: अण्डाकार, गोलो, चौकोस, लाम्चो वा मुटु आकार। हरेकलाई कुन हेयरकट र दाह्री सुहाउँछ हेर्नुहोस्।",draft,Search snippet: up to 155 characters.
 P01.shortAnswer,P01 What is my face shape? A 30-second guide for men,"Look straight into a mirror with your hair pulled back. Compare the width of your forehead, cheekbones and jaw, then compare length with width. Most men are oval, round, square, long or heart-shaped. Your shape decides where a haircut should add height, width or softness.","कपाल पछाडि सारेर ऐनामा सिधा हेर्नुहोस्। निधार, गालाको हड्डी र बङ्गाराको चौडाइ तुलना गर्नुहोस्, अनि लम्बाइ र चौडाइ तुलना गर्नुहोस्। धेरैजसो पुरुषको अनुहार अण्डाकार, गोलो, चौकोस, लाम्चो वा मुटु आकारको हुन्छ। तपाईंको आकारले हेयरकटले कहाँ उचाइ, चौडाइ वा नरमपन थप्नुपर्छ भन्ने तय गर्छ।",draft,40–60 words that make sense on their own.

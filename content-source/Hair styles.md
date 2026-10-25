@@ -1,6 +1,6 @@
 # Hair styles
 
-51 hair styles, from a shaved head to long hair, including Korean styles. 32 use a front photo. 19 use a side photo because the cut only shows clearly from the side.
+59 hair styles, from a shaved head to long hair, including Korean styles. 35 use a front photo. 24 use a side photo because the cut only shows clearly from the side.
 
 ## At a glance
 
@@ -57,6 +57,14 @@
 | H49 Edgar Cut | Short | High | Oval, Square, Long, Heart | All | Yes | Front |
 | H50 Flat Top | Short | High | Oval, Square, Round | Straight, Curly | No | Front |
 | H51 Natural Afro | Medium to long | Medium | Oval, Square, Long, Heart | Curly | No | Front |
+| H52 Textured Fringe | Short | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H53 Hard Part | Short to medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | Yes | Front |
+| H54 Temple Fade | Short | High | Oval, Square, Round, Heart | All | Yes | Side |
+| H55 V-Cut | Short to medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | Yes | Side |
+| H56 Ponytail | Long | Low | Oval, Square, Long, Heart | Straight, Wavy | No | Side |
+| H57 Top Knot | Long | Medium | Oval, Square, Round | Straight, Wavy | No | Side |
+| H58 Half Bun | Medium to long | Low | Oval, Square, Heart | Straight, Wavy | No | Side |
+| H59 Dreadlocks | Long | Medium | Oval, Square, Long, Heart | Curly, Wavy | No | Front |
 
 ## H01 Buzz Cut
 
@@ -923,7 +931,7 @@ Long hair tied up in a bun at the back of the head.
 - **Weekly:** Conditioner 2–3 times.
 - **Next barber visit:** in 8 weeks, for a trim
 - **Suits:** Oval, square and round face · Straight or wavy hair
-- **Also called:** Top knot
+- **Also called:** Bun
 - **Main photo:** Side
 
 **FAQ**
@@ -1621,3 +1629,251 @@ Full, round curls grown out and shaped evenly.
 4. Edge up the hairline with a trimmer.
 5. Remove bulk with thinning scissors.
 6. Apply curl cream with fingers.
+
+## H52 Textured Fringe
+
+Messy, textured fringe over a low taper.
+
+**Description:** A short, choppy top pushed forward into a textured fringe, over a low taper on the sides. Easy, young and very popular.
+
+- **Pick this if:** you want an easy, modern cut that looks good a little messy.
+- **Skip if:** you have a round face, or want your forehead to show.
+- **Daily:** 2 min: towel dry, then push a little dry wax (clay) forward through the top.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Low taper fringe, Textured crop
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a textured fringe?** A short top cut choppy and pushed forward, so the fringe falls over the forehead in uneven pieces.
+- **How is it different from a French crop?** A French crop has a blunt, straight fringe. A textured fringe is choppy and messy, and usually a little longer.
+- **Does it hide a high forehead?** Yes. The fringe covers part of the forehead, so it suits a long face or a high hairline.
+- **Which product should I use?** A dry wax (clay) or sea salt spray, for a matte, textured finish.
+
+**Barber steps**
+
+1. Sides: low taper, #1 to #3.
+2. Top: 3–4 fingers long. Scissors.
+3. Comb the top forward.
+4. Fringe: point cut for a choppy edge.
+5. Add texture with thinning scissors.
+6. Finish with dry wax, pushed forward.
+
+## H53 Hard Part
+
+Side part with a thin shaved line.
+
+**Description:** A classic side part with the parting line shaved in with a trimmer, over short tapered sides. Sharp and smart.
+
+- **Pick this if:** you like a side part and want it sharp and clear all day.
+- **Skip if:** you have a cowlick where the part goes, or can't visit every 3 weeks.
+- **Daily:** 4 min: comb to the side along the line, a little pomade.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Shaved part, Side part with a line
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a hard part?** A side part where the barber shaves a thin line along the parting, so it stays sharp without combing.
+- **How long does the line last?** About 1–2 weeks. Then it grows back and needs a touch-up.
+- **Which side should the part go on?** The side where your hair falls naturally. The barber finds it by combing wet hair straight back.
+- **Is a hard part OK for the office?** Yes. It looks neat and smart, as long as the line is thin.
+
+**Barber steps**
+
+1. Sides: machine #2, taper to #1 at neck.
+2. Top: 3–4 fingers long. Scissors.
+3. Ask: part on left or right?
+4. Find the natural part line.
+5. Shave a thin line along the part with a trimmer.
+6. Comb to the side. Finish with pomade.
+
+## H54 Temple Fade
+
+Small fade at the temples and nape, with a sharp line-up.
+
+**Description:** A small fade around the temples, sideburns and nape, with the hairline lined up sharp. The rest of the hair keeps its length.
+
+- **Pick this if:** you want clean, sharp edges without short sides.
+- **Skip if:** you can't visit every 2 weeks.
+- **Daily:** 2 min: brush or comb the top, a little wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 2 weeks
+- **Suits:** Oval, square, round and heart face · All hair types · Thin hair OK
+- **Also called:** Temp fade, Brooklyn fade
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a temple fade?** A small fade around the temples, sideburns and nape, with a sharp line-up. The rest of the sides stays longer.
+- **How is it different from a taper fade?** Both are small fades. A temple fade adds a sharp line-up at the hairline and temples.
+- **Does it work with curly hair?** Yes. It's popular with curly and wavy hair, because it keeps the edges neat.
+- **How often does it need a touch-up?** Every 2 weeks, to keep the line-up sharp.
+
+**Barber steps**
+
+1. Temples: fade from #0 to #2.
+2. Nape: fade from #0 to #2.
+3. Sides: keep the length. Blend into the fade.
+4. Line up the hairline with a trimmer.
+5. Shape the sideburns square.
+6. Clean the edges with a razor.
+
+## H55 V-Cut
+
+Neat cut with the back of the neck shaped into a V.
+
+**Description:** A short to medium cut with the hairline at the back of the neck cut into a sharp V. Simple at the front, a sharp detail at the back.
+
+- **Pick this if:** you want something a little different at the back, without a bold top.
+- **Skip if:** your office needs a plain, square neck line.
+- **Daily:** 2 min: comb or brush, a little wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** V-shape neckline, V-shape back
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a V-cut?** A haircut where the hairline at the back of the neck is cut into a sharp V, pointing down.
+- **Can I get a V-cut with any style on top?** Yes. The V is only at the back, so it works with a taper, a fade or a longer top.
+- **How long does the V stay sharp?** About 2–3 weeks. Then the edges grow out.
+- **Does a V-cut make the neck look longer?** Yes. The point draws the eye down, so the neck looks slimmer.
+
+**Barber steps**
+
+1. Ask: which style on top, and how deep a V?
+2. Cut the top and sides as asked.
+3. Back: comb the nape down.
+4. Mark the V point at the centre of the neck.
+5. Cut both sides of the V with a trimmer.
+6. Clean below the V with a razor.
+
+## H56 Ponytail
+
+Long hair tied back low at the neck.
+
+**Description:** Long hair pulled back and tied low at the back of the neck. Easy, relaxed, and it keeps hair off your face.
+
+- **Pick this if:** your hair reaches your shoulders and you want the easiest way to wear it.
+- **Skip if:** your hair is shorter than your shoulders, or thin, or you have a round face.
+- **Daily:** 2 min: brush back and tie with a soft hair tie.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 8 weeks, for a trim
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Also called:** Low ponytail
+- **Main photo:** Side
+
+**FAQ**
+
+- **How long does hair need to be for a ponytail?** At least to the shoulders, so it can be tied at the neck.
+- **How is it different from a man bun?** A ponytail hangs down from a low tie. A man bun is twisted and tied up at the back of the head.
+- **Will a ponytail damage my hair?** Not if you tie it loosely with a soft hair tie and change the spot now and then.
+- **How often should I trim it?** Every 8 weeks, to remove split ends.
+
+**Barber steps**
+
+1. Keep all the length.
+2. Trim ends only: 1 finger or less.
+3. Remove split ends.
+4. Thin bulky areas at the back.
+5. Ask: shorter layers at the front?
+6. Comb back. Tie low to check.
+
+## H57 Top Knot
+
+Long top tied in a knot, with short sides.
+
+**Description:** The hair on top is grown long and tied in a knot at the crown, with the sides and back cut short. Bold and modern.
+
+- **Pick this if:** you want long hair on top but short, clean sides.
+- **Skip if:** your top is shorter than 15 cm, your hair is thin, or you have a long face.
+- **Daily:** 3 min: brush the top back and tie a knot.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 3 weeks, for the sides
+- **Suits:** Oval, square and round face · Straight or wavy hair
+- **Also called:** Undercut bun, Samurai knot
+- **Main photo:** Side
+
+**FAQ**
+
+- **How is a top knot different from a man bun?** A top knot is tied higher, at the crown, and the sides are short. A man bun keeps the sides long.
+- **How long does the top need to be?** At least 15 cm, so it reaches the crown when pulled back.
+- **Can I wear it down?** Yes. Down, it looks like a long undercut.
+- **How often do the sides need cutting?** Every 3 weeks, to keep them short and neat.
+
+**Barber steps**
+
+1. Sides and back: machine #1 or #2.
+2. Ask: hard line or blended?
+3. Top: keep all the length.
+4. Trim top ends only.
+5. Clean neck and ears.
+6. Tie the knot at the crown to check.
+
+## H58 Half Bun
+
+Top half tied in a small bun, the rest left down.
+
+**Description:** The top half of medium to long hair is tied in a small bun at the back, and the rest hangs loose. Relaxed and easy.
+
+- **Pick this if:** your hair reaches your chin or longer, and you want it off your face but still down.
+- **Skip if:** your hair is shorter than your chin, or thin.
+- **Daily:** 2 min: gather the top half and tie a small bun.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 6–8 weeks, for a trim
+- **Suits:** Oval, square and heart face · Straight or wavy hair
+- **Also called:** Half-up bun, Half-up
+- **Main photo:** Side
+
+**FAQ**
+
+- **How long does hair need to be for a half bun?** At least to the chin, so the top half can be tied back.
+- **How is it different from a man bun?** A man bun ties all the hair up. A half bun ties only the top half and leaves the rest down.
+- **Does it suit layered hair?** Yes. Layers make the hair that hangs down look fuller.
+- **How often should I trim it?** Every 6–8 weeks, to keep the ends healthy.
+
+**Barber steps**
+
+1. Keep the length.
+2. Trim ends only: 1 finger or less.
+3. Add light layers at the back.
+4. Remove split ends.
+5. Ask: shorter at the front?
+6. Tie the top half to check.
+
+## H59 Dreadlocks
+
+Hair formed into neat, rope-like locks.
+
+**Description:** Hair twisted into sections and left to lock into rope-like strands, kept neat by retwisting the roots. A long-term style that takes months to form.
+
+- **Pick this if:** you want a long-term style and are ready for months of patience.
+- **Skip if:** you like to change your look often. Locks are hard to undo without cutting.
+- **Daily:** 2 min: tie back or let hang. No combing.
+- **Weekly:** Wash once with a residue-free shampoo, then dry fully.
+- **Next barber visit:** in 4–6 weeks, to retwist the roots
+- **Suits:** Oval, square, long and heart face · Curly or wavy hair
+- **Also called:** Locs, Dreads
+- **Main photo:** Front
+
+**FAQ**
+
+- **How long do dreadlocks take to form?** About 6–12 months for the locks to set fully, depending on your hair.
+- **Can straight hair form locks?** It can, but it takes longer and needs more twisting. Curly hair locks most easily.
+- **How do I wash dreadlocks?** Once a week with a residue-free shampoo. Dry them fully so they don't smell.
+- **Can I take them out later?** Only with long, careful work, and it often means cutting most of the length.
+
+**Barber steps**
+
+1. Wash and dry the hair fully.
+2. Part the hair into even squares.
+3. Twist each section from root to end.
+4. Tighten the roots with a crochet hook or palm rolling.
+5. Neaten the hairline.
+6. Ask: book a retwist in 4–6 weeks.

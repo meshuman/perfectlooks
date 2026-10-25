@@ -111,8 +111,8 @@ Token names `gold`, `gold-fill`, `shell` and `core` are kept from the earlier th
 | 4 ✅ | Learn feed (`/learn`) and posts (`/learn/[slug]`) | 13 posts live; catalogue names in post text link to their pages; no broken internal links except the shop page (phase 5) |
 | 5 ✅ | Shop page, structured data (Article, BreadcrumbList, HairSalon, WebSite), generated robots.txt, sitemap, social preview image and icons (`npm run brand`), 404 page | `npm run check:seo`: 0 errors across 134 pages. Rich Results Test and Search Console submission need the live domain |
 | 6 ✅ | Offline (generated service worker, offline page and banner), one file per page (no redirect hop), font preloads, tap prefetch, skip link, accessibility fixes | `npm run qa` on a budget-phone profile: LCP 1.0–2.2 s, CLS ≤ 0.001, JS ≤ 15 KB per page, no axe WCAG 2.2 AA issues. `npm run smoke` includes an offline check |
-| 7 ✅ (system) | Nepali and Hindi: translation sheets (`translations/ne.csv`, `hi.csv`, `npm run i18n`), every page under `/ne/` and `/hi/`, hreflang and sitemap alternates, language switch, Barber Card in the barber's language, English fallback | Pseudo-translation build (`PL_PSEUDO=1`): 401 pages, 0 SEO errors, no hard-coded English left. **Nepali fully drafted** (3,799 rows, status `draft`, glossary in `translations/glossary.md`); review build `PL_DRAFTS=1`: 269 pages, 0 SEO errors. **Hindi fully drafted** too. **Both live** with drafts (`useDrafts: true`): 401 pages, 0 SEO errors, smoke and QA (incl. /ne, /hi) pass. Native review continues in the sheets |
-| ∥ | Image pipeline ✅: prompt sheet (`/dev/prompts`), photo slots (`src/assets/catalogue/ID.jpg`), resizing to WebP, alt text, per-item social preview and structured-data image, callout dots placed with `/dev/callouts` | Tested end to end with a sample photo (removed). Waiting on the 122 clean photos |
+| 7 ✅ (system) | Nepali and Hindi: translation sheets (`translations/ne.csv`, `hi.csv`, `npm run i18n`), every page under `/ne/` and `/hi/`, hreflang and sitemap alternates, language switch, Barber Card in the barber's language, English fallback | Pseudo-translation build (`PL_PSEUDO=1`): 401 pages, 0 SEO errors, no hard-coded English left. **Nepali fully drafted** (4,222 rows, status `draft`, glossary in `translations/glossary.md`); review build `PL_DRAFTS=1`: 269 pages, 0 SEO errors. **Hindi fully drafted** too. **Both live** with drafts (`useDrafts: true`): 401 pages, 0 SEO errors, smoke and QA (incl. /ne, /hi) pass. Native review continues in the sheets |
+| ∥ | Image pipeline ✅: prompt sheet (`/dev/prompts`), photo slots (`src/assets/catalogue/ID.jpg`), resizing to WebP, alt text, per-item social preview and structured-data image, callout dots placed with `/dev/callouts` | Tested end to end with a sample photo (removed). Waiting on the 136 clean photos |
 
 ## Open items
 
@@ -132,9 +132,9 @@ Token names `gold`, `gold-fill`, `shell` and `core` are kept from the earlier th
 
 ## Adding translations
 
-1. Send `translations/ne.csv` and `translations/hi.csv` to the translators with `translations/README.md`. Each has 3,799 rows: screen text, the catalogue and the Learn posts.
+1. Send `translations/ne.csv` and `translations/hi.csv` to the translators with `translations/README.md`. Each has 4,222 rows: screen text, the catalogue and the Learn posts.
 2. Put returned sheets back in `translations/` and run `npm run i18n` for progress. It keeps every translation, adds new rows, and marks rows whose English changed as `check`.
-3. The Barber Card switch turns on for a language as soon as its 472 barber-step rows are done.
+3. The Barber Card switch turns on for a language as soon as its 575 barber-step rows are done.
 4. The site in a language goes live when its sheet is complete and `"publish": true` is set in `translations/config.json`. Then build, run `npm run check:seo`, and submit the sitemap again.
 5. To preview unreviewed drafts: `PL_DRAFTS=1 npx astro build --outDir dist-review`, then `PL_DIST=dist-review npm run check:seo`. Drafts are merged with `node scripts/i18n-merge.mjs <locale> batch.json`.
 6. To test the setup without translations: `PL_PSEUDO=1 npx astro build` fills every row with marked English and builds all languages. Rebuild normally afterwards.

@@ -1,6 +1,6 @@
 # Ready Looks
 
-31 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
+37 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
 
 - "—" means no change for that slot.
 - **Suits face** lists only the shapes that suit every part of the look.
@@ -41,6 +41,12 @@
 | L29 Soft Layers | H48 Hush Cut | B01 Clean Shave | Shave off | — | Oval, Round, Square, Heart | Any | Medium |
 | L30 Sharp Edgar | H49 Edgar Cut | B03 Heavy Stubble | — | — | Oval, Square, Long, Heart | Medium, Full | High |
 | L31 Ash Brown Perm | H37 Korean Perm | B01 Clean Shave | Shave off | C10 Ash Brown | Oval, Square, Long, Heart | Any | Medium |
+| L32 Campus Fringe | H52 Textured Fringe | B02 Light Stubble | — | — | Oval, Square, Long, Heart | Any | Medium |
+| L33 Sharp Part | H53 Hard Part | B04 Short Boxed Beard | — | — | Oval, Round, Heart | Medium, Full | Medium |
+| L34 Clean Line-Up | H54 Temple Fade | B06 Goatee | Shave off | — | Oval, Square, Round, Heart | Any | High |
+| L35 Sharp V | H55 V-Cut | B03 Heavy Stubble | — | — | Oval, Square, Round, Heart | Medium, Full | Medium |
+| L36 Half-Up Casual | H58 Half Bun | B03 Heavy Stubble | — | — | Oval, Square, Heart | Medium, Full | Low |
+| L37 Knot and Fade | H57 Top Knot | B10 Faded Beard | — | — | Oval, Square, Round | Medium, Full | Medium |
 
 ## L01 Office Ready
 
@@ -478,3 +484,87 @@ Soft Korean perm waves in cool ash brown.
 - **Next barber visit:** in 4 weeks for a trim. The perm lasts 2–3 months.
 - **At the shop:** 3–4 hours on perm and colour day
 - **Suits:** Oval, square, long and heart face · Straight hair · Any beard growth
+
+## L32 Campus Fringe
+
+Textured fringe with light stubble.
+
+**Description:** A messy textured fringe over a low taper, with light stubble. Young and easy for college and weekends.
+
+- **Pick this if:** you want a young, easy look that takes little time.
+- **Skip if:** you have a round face, or your job needs a clean shave.
+- **Includes:** H52 Textured Fringe · B02 Light Stubble
+- **Daily:** 3 min: push a little dry wax forward through the fringe.
+- **Weekly:** Trim the stubble twice at 1–2 mm.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L33 Sharp Part
+
+Shaved side part with a short boxed beard.
+
+**Description:** A hard part with a thin shaved line, and a short boxed beard with sharp cheek lines. Smart and well kept.
+
+- **Pick this if:** you want a sharp, groomed look for work and functions.
+- **Skip if:** your beard grows patchy, or you can't visit every 3 weeks.
+- **Includes:** H53 Hard Part · B04 Short Boxed Beard
+- **Daily:** 6 min: comb along the part, a little pomade, then beard oil.
+- **Weekly:** Trim the beard to 6–9 mm and clean the cheek lines.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, round and heart face · Straight or wavy hair · Medium or full beard growth
+
+## L34 Clean Line-Up
+
+Temple fade with a sharp goatee.
+
+**Description:** A temple fade with a sharp line-up, and a neat goatee on the chin. Clean edges everywhere.
+
+- **Pick this if:** you like sharp, clean edges and visit the barber often.
+- **Skip if:** you can't visit every 2 weeks.
+- **Includes:** H54 Temple Fade · B06 Goatee · Moustache: Shave off
+- **Daily:** 5 min: shave the cheeks and upper lip, brush the top.
+- **Weekly:** Trim the goatee to 6 mm.
+- **Next barber visit:** in 2 weeks
+- **Suits:** Oval, square, round and heart face · All hair types · Any beard growth
+
+## L35 Sharp V
+
+V-cut neckline with heavy stubble.
+
+**Description:** A neat cut with a sharp V at the back of the neck, and heavy stubble. Simple at the front, one sharp detail at the back.
+
+- **Pick this if:** you want an easy everyday look with one sharp detail.
+- **Skip if:** your office needs a plain neck line and a clean shave.
+- **Includes:** H55 V-Cut · B03 Heavy Stubble
+- **Daily:** 2 min: comb, a little wax.
+- **Weekly:** Trim the stubble to 5 mm.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Medium or full beard growth
+
+## L36 Half-Up Casual
+
+Half bun with heavy stubble.
+
+**Description:** Medium to long hair with the top half in a small bun, and heavy stubble. Relaxed and easy for days off.
+
+- **Pick this if:** you have medium to long hair and want a relaxed look.
+- **Skip if:** your hair is shorter than your chin, or your office is strict.
+- **Includes:** H58 Half Bun · B03 Heavy Stubble
+- **Daily:** 3 min: tie the top half, brush the rest.
+- **Weekly:** Trim the stubble to 5 mm. Conditioner 2–3 times.
+- **Next barber visit:** in 6–8 weeks
+- **Suits:** Oval, square and heart face · Straight or wavy hair · Medium or full beard growth
+
+## L37 Knot and Fade
+
+Top knot with a faded beard.
+
+**Description:** A top knot over short sides, with a beard that fades up into the sides. Bold and modern.
+
+- **Pick this if:** you have long hair on top and want a bold, modern look.
+- **Skip if:** your top is shorter than 15 cm, or your office is strict.
+- **Includes:** H57 Top Knot · B10 Faded Beard
+- **Daily:** 5 min: tie the knot, a little beard oil.
+- **Weekly:** Trim the beard and keep the fade even.
+- **Next barber visit:** in 3 weeks, for the sides and beard
+- **Suits:** Oval, square and round face · Straight or wavy hair · Medium or full beard growth

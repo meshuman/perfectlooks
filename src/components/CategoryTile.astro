@@ -28,7 +28,7 @@ const { href, title, count, feature = false, photo, block, class: className, ...
       item={photo ?? { id: title, name: title, mainPhoto: 'front' }}
       decorative
       block={block}
-      class="absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
+      class:list={['absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]', feature && 'object-[center_28%]']}
     />
   </div>
   <div class="flex items-center justify-between gap-2 pt-3">

@@ -871,6 +871,122 @@ CALLOUTS:
 4. Curl cream: Soft, no frizz.
 ```
 
+### H52 Textured Fringe
+
+```text
+ITEM: H52 Textured Fringe
+BACKDROP: Sky blue (#A9C9E8).
+MAIN VIEW: straight front, head and shoulders
+STYLE: low taper on the sides, #1 at the bottom blending to #3; top about 6 cm, choppy and textured, pushed forward into an uneven fringe that covers the upper forehead; matte finish.
+CALLOUTS:
+1. Textured fringe: Choppy, pushed forward.
+2. Low taper: #1 to #3.
+3. Messy top: Matte texture.
+4. Clean neck: Tidy nape.
+```
+
+### H53 Hard Part
+
+```text
+ITEM: H53 Hard Part
+BACKDROP: Sage (#CADBD8).
+MAIN VIEW: three-quarter front, facing left
+STYLE: sides machine #2, tapering to #1 at the neck; top about 6 cm combed neatly to the side; a thin, clean line shaved along the side parting; light pomade shine.
+CALLOUTS:
+1. Shaved part: Thin, sharp line.
+2. Side-combed top: Neat and smart.
+3. Tapered sides: #2 to #1.
+4. Light shine: Pomade.
+```
+
+### H54 Temple Fade
+
+```text
+ITEM: H54 Temple Fade
+BACKDROP: Sand (#D8CDBF).
+MAIN VIEW: left side profile
+STYLE: top about 4 cm and sides about 2 cm, at natural length; a small fade from skin to #2 only around the temples, sideburns and nape; sharp lined-up hairline at the forehead and temples; square sideburns; matte finish.
+CALLOUTS:
+1. Temple fade: Skin to #2.
+2. Line-up: Sharp hairline.
+3. Square sideburns: Clean edges.
+4. Faded nape: Neat back.
+```
+
+### H55 V-Cut
+
+```text
+ITEM: H55 V-Cut
+BACKDROP: Plum (#B06A8F).
+MAIN VIEW: left side profile
+STYLE: sides machine #2, tapering down; top about 5 cm combed back; the hairline at the back of the neck cut into a sharp V pointing down at the centre, with clean shaved skin below it; tidy, matte finish.
+CALLOUTS:
+1. V neckline: Sharp point at the back.
+2. Clean below: Shaved with a razor.
+3. Tapered sides: Short and neat.
+4. Easy top: Combed back.
+```
+
+### H56 Ponytail
+
+```text
+ITEM: H56 Ponytail
+BACKDROP: Orange (#EC9465).
+MAIN VIEW: left side profile
+CHARACTER NOTE: same man, with hair grown to the shoulders for this style.
+STYLE: shoulder-length hair pulled back smoothly and tied low at the nape, the ponytail hanging to the upper back; long sides, no undercut; soft natural texture.
+CALLOUTS:
+1. Low tie: At the nape.
+2. Smooth pull-back: No bumps on top.
+3. Healthy ends: Trimmed, no split ends.
+4. Soft tie: Loose, not tight.
+```
+
+### H57 Top Knot
+
+```text
+ITEM: H57 Top Knot
+BACKDROP: Blush (#F7D9CE).
+MAIN VIEW: left side profile
+CHARACTER NOTE: same man, with long hair on top for this style.
+STYLE: sides and back machine #1 with a clean line where they meet the top; top hair about 18 cm, pulled back smoothly and tied into a neat knot at the crown; soft natural texture.
+CALLOUTS:
+1. Crown knot: Tied high.
+2. Short sides: Machine #1.
+3. Clean line: Where sides meet the top.
+4. Smooth pull-back: No bumps.
+```
+
+### H58 Half Bun
+
+```text
+ITEM: H58 Half Bun
+BACKDROP: Sky blue (#A9C9E8).
+MAIN VIEW: left side profile
+CHARACTER NOTE: same man, with hair grown past the chin for this style.
+STYLE: hair between chin and shoulder length; the top half, from the temples up, gathered back and tied into a small bun at the back of the crown; the lower half hangs loose over the ears and neck; light layers; soft natural texture.
+CALLOUTS:
+1. Half bun: Top half tied up.
+2. Hair down: Lower half loose.
+3. Light layers: Soft movement.
+4. Healthy ends: Trimmed.
+```
+
+### H59 Dreadlocks
+
+```text
+ITEM: H59 Dreadlocks
+BACKDROP: Sage (#CADBD8).
+MAIN VIEW: straight front, head and shoulders
+CHARACTER NOTE: same man, with mature dreadlocks grown for this style.
+STYLE: neat, even dreadlocks about 1 cm thick, reaching the shoulders; tidy roots in even square sections; clean hairline; healthy, matte locks.
+CALLOUTS:
+1. Even locks: About 1 cm thick.
+2. Neat roots: Square sections.
+3. Clean hairline: Tidy edges.
+4. Shoulder length: Healthy ends.
+```
+
 ## Beard prompts
 
 Paste the fixed block, the beard category block, the item block below, then the avoid list. The haircut stays the same classic taper cut unless the item says otherwise.
@@ -1912,4 +2028,97 @@ CALLOUTS:
 2. Soft waves: Loose perm.
 3. Clean face: No beard or moustache.
 4. Airy volume: Light, not frizzy.
+```
+
+### L32 Campus Fringe
+
+```text
+ITEM: L32 Campus Fringe
+BACKDROP: Sand (#D8CDBF).
+PARTS:
+- Hair: Textured Fringe: choppy 6 cm top pushed forward over a low taper, #1 to #3.
+- Beard: Light Stubble, 1-2 mm.
+CALLOUTS:
+1. Textured fringe: Choppy, pushed forward.
+2. Light stubble: 1-2 mm.
+3. Low taper: #1 to #3.
+4. Matte finish: Dry wax.
+```
+
+### L33 Sharp Part
+
+```text
+ITEM: L33 Sharp Part
+BACKDROP: Plum (#B06A8F).
+PARTS:
+- Hair: Hard Part: 6 cm top combed to the side along a thin shaved part line, #2 sides tapering to #1.
+- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.
+CALLOUTS:
+1. Shaved part: Thin, sharp line.
+2. Boxed beard: Sharp cheek lines.
+3. Tapered sides: #2 to #1.
+4. Light shine: Pomade.
+```
+
+### L34 Clean Line-Up
+
+```text
+ITEM: L34 Clean Line-Up
+BACKDROP: Orange (#EC9465).
+PARTS:
+- Hair: Temple Fade: small fade from skin to #2 at the temples and nape, sharp lined-up hairline, 4 cm top.
+- Beard: Goatee: hair only on the chin, about as wide as the mouth, 6 mm, sharp edges.
+- Moustache: clean-shaven upper lip.
+CALLOUTS:
+1. Temple fade: Skin to #2.
+2. Line-up: Sharp hairline.
+3. Goatee: Chin only.
+4. Clean cheeks: Shaved.
+```
+
+### L35 Sharp V
+
+```text
+ITEM: L35 Sharp V
+BACKDROP: Blush (#F7D9CE).
+PARTS:
+- Hair: V-Cut: #2 sides, 5 cm top combed back, the back hairline cut into a sharp V.
+- Beard: Heavy Stubble, 5 mm.
+CALLOUTS:
+1. V neckline: Sharp point at the back.
+2. Heavy stubble: 5 mm.
+3. Tapered sides: Short and neat.
+4. Easy top: Combed back.
+```
+
+### L36 Half-Up Casual
+
+```text
+ITEM: L36 Half-Up Casual
+BACKDROP: Sky blue (#A9C9E8).
+CHARACTER NOTE: same man, with hair grown past the chin for this look.
+PARTS:
+- Hair: Half Bun: top half tied in a small bun at the back, lower half hanging loose.
+- Beard: Heavy Stubble, 5 mm.
+CALLOUTS:
+1. Half bun: Top half tied up.
+2. Heavy stubble: 5 mm.
+3. Hair down: Lower half loose.
+4. Relaxed finish: Soft texture.
+```
+
+### L37 Knot and Fade
+
+```text
+ITEM: L37 Knot and Fade
+BACKDROP: Sage (#CADBD8).
+CHARACTER NOTE: same man, with long hair on top for this look.
+PARTS:
+- Hair: Top Knot: long top tied in a knot at the crown, #1 sides and back.
+- Beard: Faded Beard: 1 mm at the sideburns to 6 mm at the jaw, flowing into the short sides.
+CALLOUTS:
+1. Crown knot: Tied high.
+2. Faded beard: Blends into the sides.
+3. Short sides: Machine #1.
+4. Clean cheek line: Tidy edges.
 ```

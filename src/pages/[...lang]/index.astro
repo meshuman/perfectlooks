@@ -33,7 +33,7 @@ const tiles: { key: CategoryKey; href: string; feature?: boolean; block?: string
   { key: 'beards', href: '/beards', photo: { id: 'B05', name: 'Full Beard', mainPhoto: 'front' } },
   { key: 'moustaches', href: '/moustaches', photo: { id: 'M03', name: 'Pencil', mainPhoto: 'front' } },
   { key: 'colours', href: '/colours', block: 'bg-block-sand', photo: { id: 'C02', name: 'Natural Black', mainPhoto: 'front', swatch: swatches.C02 } },
-  { key: 'looks', href: '/looks', photo: { id: 'H10', name: 'Classic Side Part', mainPhoto: 'front' } },
+  { key: 'looks', href: '/looks', photo: { id: 'L01', name: 'Office Ready', mainPhoto: 'front' } },
 ];
 
 // The first three Learn posts in the feed: the ones that help most right before a cut.
@@ -137,11 +137,11 @@ const languages = 1 + publishedLocales().length;
       }
     </section>
 
-    <section id="browse" class="wrap scroll-mt-20 py-14 md:py-24">
+    <section id="browse" class="wrap scroll-mt-20 pt-12 pb-14 md:py-24">
       <div data-reveal>
-        <SectionHeader eyebrow={t('home.browse')} title={t('home.chooseCategory')} align="center" />
+        <SectionHeader eyebrow={t('home.browse')} title={t('home.chooseCategory')} />
       </div>
-      <div class="mt-10 grid grid-cols-2 gap-x-3 gap-y-8 md:grid-cols-4 md:gap-x-5">
+      <div class="mt-6 grid grid-cols-2 gap-x-3 gap-y-6 md:mt-10 md:grid-cols-4 md:gap-x-5 md:gap-y-8">
         {
           tiles.map((tile, n) => {
             const text = categoryText(tile.key, i);
