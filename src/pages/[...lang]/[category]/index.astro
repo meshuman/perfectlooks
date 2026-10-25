@@ -49,9 +49,19 @@ const faceFilter = (FACE_FILTER_CATEGORIES as readonly string[]).includes(catego
       <p class="mt-2 max-w-xl text-[0.9375rem] text-muted">{text.intro}</p>
       {
         faceFilter && (
-          <div class="mt-5" data-face-filter>
-            <p class="eyebrow" id="face-filter-label">{t('list.faceShape')}</p>
-            <div role="group" aria-labelledby="face-filter-label" class="-mx-4 mt-2 overflow-x-auto px-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          <div class="mt-3" data-face-filter>
+            <div class="flex items-center justify-between gap-3">
+              <p class="eyebrow" id="face-filter-label">{t('list.faceShape')}</p>
+              <a
+                href={`${l('/about-you')}?from=${l(`/${category.segment}`)}`}
+                data-answers-link
+                class="-mr-1 inline-flex min-h-11 items-center gap-1.5 px-1 text-[0.8125rem] font-semibold underline underline-offset-4"
+              >
+                <Icon name="sliders" size={15} />
+                <span data-answers-label>{t('list.findWhatSuits')}</span>
+              </a>
+            </div>
+            <div role="group" aria-labelledby="face-filter-label" class="-mx-4 overflow-x-auto px-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
               <ul class="flex w-max gap-2">
                 <li>
                   <button type="button" data-face-chip="" aria-pressed="true" class={chipClass}>{t('list.allFaces')}</button>
@@ -72,14 +82,18 @@ const faceFilter = (FACE_FILTER_CATEGORIES as readonly string[]).includes(catego
           </div>
         )
       }
-      <a
-        href={`${l('/about-you')}?from=${l(`/${category.segment}`)}`}
-        data-answers-link
-        class="mt-5 inline-flex h-11 items-center gap-2 bg-card px-4 text-[0.8125rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line),var(--shadow-soft)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_1px_rgb(28_24_21/0.25)]"
-      >
-        <Icon name="sliders" size={16} />
-        <span data-answers-label>{t('list.findWhatSuits')}</span>
-      </a>
+      {
+        !faceFilter && (
+          <a
+            href={`${l('/about-you')}?from=${l(`/${category.segment}`)}`}
+            data-answers-link
+            class="mt-5 inline-flex h-11 items-center gap-2 bg-card px-4 text-[0.8125rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line),var(--shadow-soft)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_1px_rgb(28_24_21/0.25)]"
+          >
+            <Icon name="sliders" size={16} />
+            <span data-answers-label>{t('list.findWhatSuits')}</span>
+          </a>
+        )
+      }
     </header>
     {/* Shown by the About you filter. */}
     <p data-sorted-note hidden class="mt-3 text-sm font-semibold text-gold-ink">{t('list.sortedNote')}</p>

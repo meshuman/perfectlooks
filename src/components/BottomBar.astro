@@ -21,7 +21,7 @@ const tabs: { id: Tab; label: string; href: string; icon: IconName; counter?: st
 ---
 
 {/* Flat tab bar with a hairline top edge. Pages keep 5rem clear at the bottom. */}
-<nav aria-label={t('nav.main')} class="pb-safe fixed inset-x-0 bottom-0 z-40 bg-paper/[0.97] shadow-[inset_0_1px_0_var(--color-line)]">
+<nav aria-label={t('nav.main')} class="pb-safe fixed inset-x-0 bottom-0 z-40 bg-paper shadow-[inset_0_1px_0_var(--color-line)]">
   <ul class="mx-auto grid h-16 max-w-md grid-cols-4">
     {
       tabs.map((tab) => {

@@ -17,7 +17,7 @@ const dark = tone === 'dark';
 const block = kgfBlock({ title: '', white: dark }).replace('role="img" aria-label=""', 'aria-hidden="true"');
 ---
 
-<a href={l('/')} class:list={['inline-flex items-center', size === 'lg' ? 'gap-4' : 'gap-2.5']}>
+<a href={l('/')} class:list={['inline-flex items-center', size === 'md' && 'min-h-11', size === 'lg' ? 'gap-4' : 'gap-2.5']}>
   {
     size === 'lg' && (
       <svg viewBox="0 0 100 100" class:list={['size-16 shrink-0', !dark && 'bg-brand']} aria-hidden="true" set:html={scissorsMark()} />

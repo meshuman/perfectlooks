@@ -1,0 +1,75 @@
+---
+// Who it suits, shown so it can be read in a second: every face shape or skin tone is listed,
+// the ones that suit are filled, the others are faded. The visitor's own answer is outlined by the page script.
+import Icon from './Icon.astro';
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+
+interface Option {
+  value: string;
+  label: string;
+  fits: boolean;
+  /** Face outline (SVG path data, 40x48). */
+  shape?: string;
+  /** Skin tone swatch colour. */
+  swatch?: string;
+}
+
+interface Props {
+  /** The About you question the options answer, e.g. "face". */
+  question: string;
+  label: string;
+  options: Option[];
+}
+
+const { question, label, options } = Astro.props;
+// When everything fits there is nothing to tell apart, so the options stay calm instead of all turning solid.
+const allFit = options.every((o) => o.fits);
+---
+
+<div>
+  <p class="eyebrow">{label}</p>
+  <ul class="mt-2 grid grid-cols-5 gap-1.5" data-fit-list={question}>
+    {
+      options.map((option) => (
+        <li
+          data-fit-option={option.value}
+          data-fit-q={question}
+          data-fits={String(option.fits)}
+          class:list={[
+            'group relative flex flex-col items-center gap-1.5 px-1 pt-3 pb-2.5 text-center text-[0.75rem] font-semibold data-[you]:outline-2 data-[you]:outline-offset-2 data-[you]:outline-brand',
+            // Not-ideal options stay readable (full muted text) and are marked by a dashed outline and a fainter icon.
+            option.fits
+              ? allFit
+                ? 'bg-card text-ink shadow-[inset_0_0_0_1px_var(--color-line)]'
+                : 'bg-ink text-white shadow-[inset_0_0_0_1px_var(--color-ink)]'
+              : 'border border-dashed border-line bg-transparent text-muted',
+          ]}
+        >
+          <span class="sr-only">{t(option.fits ? 'detail.fitYes' : 'detail.fitNo', { value: option.label })}</span>
+          <span aria-hidden="true" class:list={['grid h-7 place-items-center', !option.fits && 'opacity-50']}>
+            {option.shape ? (
+              <svg viewBox="0 0 40 48" class="h-7 w-6" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round">
+                <path d={option.shape} />
+              </svg>
+            ) : (
+              <span class="size-6 rounded-full ring-1 ring-black/10" style={`background:${option.swatch}`} />
+            )}
+          </span>
+          <span aria-hidden="true" class="leading-tight">
+            {option.label}
+          </span>
+          <span aria-hidden="true" class="absolute top-0 right-0 grid size-4 place-items-center text-[0.625rem] group-data-[fits=false]:hidden">
+            <Icon name="check" size={11} strokeWidth={3} />
+          </span>
+          <span
+            aria-hidden="true"
+            class="absolute -top-2 left-1/2 hidden -translate-x-1/2 bg-brand px-1.5 py-px text-[0.5625rem] font-bold tracking-wider whitespace-nowrap text-white uppercase group-data-[you]:block"
+          >
+            {t('detail.you')}
+          </span>
+        </li>
+      ))
+    }
+  </ul>
+</div>

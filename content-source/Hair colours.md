@@ -11,12 +11,12 @@
 | C03 Dark Brown | 3, natural | Fully | No | All | Some, Lots | 45 min |
 | C04 Medium Brown | 4, natural | Fully | No | Light, Medium | Some, Lots | 45 min |
 | C05 Burgundy | 4, red-violet | Mostly | No | All | None, Some | 45–60 min |
-| C06 Golden Brown Highlights | 6–7, gold, streaks only | No | Yes, streaks only | Light, Medium | None, Some | 60–90 min |
+| C06 Golden Brown Highlights | 6–7, gold, streaks only | No | Yes, streaks only | All | None, Some | 60–90 min |
 | C07 Ash Grey / Silver | 9–10 base, ash or silver toner | Yes | Yes, whole head | All | Any | 2–3 hours |
 | C08 Grey Blending | 3–4, semi-permanent | Partly, on purpose | No | All | Some, Lots | 15–20 min |
 | C09 Blue-Black | 1, blue | Fully | No | Medium, Deep | Any | 45 min |
 | C10 Ash Brown | 5, ash | Mostly | Sometimes, on very black hair | Light, Medium | None, Some | 60–90 min |
-| C11 Copper | 6–7, copper | Mostly | Yes, light | Light, Medium | None, Some | 90 min |
+| C11 Copper | 6–7, copper | Mostly | Yes, light | Medium, Deep | None, Some | 90 min |
 | C12 Henna (Mehndi) | No level, plant colour | Yes, as red-orange | No | All | Some, Lots | 1–2 hours |
 
 **Beard and moustache:** when the customer turns on "Also colour beard and moustache", the barber uses the same level on the beard and moustache and keeps dye away from the lips.
@@ -192,7 +192,7 @@ Thin golden-brown streaks on dark hair.
 - **Weekly:** Wash with colour-safe shampoo.
 - **Next barber visit:** in 6–8 weeks
 - **At the shop:** 60–90 min
-- **Suits:** Light and medium skin · No grey or some grey
+- **Suits:** All skin tones · No grey or some grey
 - **Main photo:** Front
 
 **FAQ**
@@ -350,7 +350,7 @@ Bright orange-brown. Warm and eye-catching.
 - **Weekly:** Wash with cool water and colour-safe shampoo.
 - **Next barber visit:** in 3–4 weeks, as it fades
 - **At the shop:** 90 min
-- **Suits:** Light and medium skin · No grey or some grey
+- **Suits:** Medium and deep skin · No grey or some grey
 - **Main photo:** Front
 
 **FAQ**

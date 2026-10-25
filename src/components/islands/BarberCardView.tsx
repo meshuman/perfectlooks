@@ -102,6 +102,7 @@ export default function BarberCardView({ items, languages, barberText }: Props) 
 
               {section.item && (
                 <Thumb
+                  id={section.item.id}
                   swatch={byId.get(section.item.id)?.swatch}
                   src={byId.get(section.item.id)?.photo?.large}
                   alt={byId.get(section.item.id)?.photo?.alt}

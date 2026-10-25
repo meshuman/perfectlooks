@@ -51,3 +51,17 @@ export function suits(match: Match, category: MatchCategory, answers: Answers): 
     return !allowed || allowed.includes(answer);
   });
 }
+
+/**
+ * The answered questions this style does not fit, in question order. Empty when it fits them all
+ * or when none of the answers apply to the category. Used for the "May not suit you" reasons.
+ */
+export function mismatches(match: Match, category: MatchCategory, answers: Answers): Question[] {
+  return QUESTIONS_FOR[category].filter((q) => {
+    const answer = answers[q];
+    if (!answer) return false;
+    if (q === 'hairAmount') return answer === 'Thin' && match.thinHairOk !== true;
+    const allowed = match[q];
+    return Boolean(allowed) && !allowed!.includes(answer);
+  });
+}

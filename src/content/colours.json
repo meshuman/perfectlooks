@@ -1,7 +1,7 @@
 [
   {
     "id": "C01",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "jet-black",
     "name": "Jet Black",
     "shortLine": "Deep, solid black. Covers all grey.",
@@ -75,7 +75,7 @@
   },
   {
     "id": "C02",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "natural-black",
     "name": "Natural Black",
     "shortLine": "Softer black that looks more natural. Covers all grey.",
@@ -152,7 +152,7 @@
   },
   {
     "id": "C03",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "dark-brown",
     "name": "Dark Brown",
     "shortLine": "Rich dark brown. A natural, safe choice.",
@@ -227,7 +227,7 @@
   },
   {
     "id": "C04",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "medium-brown",
     "name": "Medium Brown",
     "shortLine": "Lighter brown. Shows more in sunlight.",
@@ -301,7 +301,7 @@
   },
   {
     "id": "C05",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "burgundy",
     "name": "Burgundy",
     "shortLine": "Dark red-purple tone. Shows most in sunlight.",
@@ -379,7 +379,7 @@
   },
   {
     "id": "C06",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "golden-brown-highlights",
     "name": "Golden Brown Highlights",
     "shortLine": "Thin golden-brown streaks on dark hair.",
@@ -390,7 +390,7 @@
     "weekly": "Wash with colour-safe shampoo.",
     "nextVisit": "in 6–8 weeks",
     "atShop": "60–90 min",
-    "suitsText": "Light and medium skin · No grey or some grey",
+    "suitsText": "All skin tones · No grey or some grey",
     "alsoCalled": [],
     "mainPhoto": "front",
     "callouts": [
@@ -442,7 +442,8 @@
     "bleach": "Yes, streaks only",
     "skin": [
       "Light",
-      "Medium"
+      "Medium",
+      "Deep"
     ],
     "grey": [
       "None",
@@ -453,7 +454,7 @@
   },
   {
     "id": "C07",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "ash-grey-silver",
     "name": "Ash Grey / Silver",
     "shortLine": "Light grey or silver all over. Bold look.",
@@ -530,7 +531,7 @@
   },
   {
     "id": "C08",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "grey-blending",
     "name": "Grey Blending",
     "shortLine": "Softens grey without hiding it fully. Looks natural.",
@@ -607,7 +608,7 @@
   },
   {
     "id": "C09",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "blue-black",
     "name": "Blue-Black",
     "shortLine": "Black with a cool blue shine in the light.",
@@ -682,7 +683,7 @@
   },
   {
     "id": "C10",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "ash-brown",
     "name": "Ash Brown",
     "shortLine": "Cool brown with no red or orange. Soft and modern.",
@@ -756,7 +757,7 @@
   },
   {
     "id": "C11",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "copper",
     "name": "Copper",
     "shortLine": "Bright orange-brown. Warm and eye-catching.",
@@ -767,7 +768,7 @@
     "weekly": "Wash with cool water and colour-safe shampoo.",
     "nextVisit": "in 3–4 weeks, as it fades",
     "atShop": "90 min",
-    "suitsText": "Light and medium skin · No grey or some grey",
+    "suitsText": "Medium and deep skin · No grey or some grey",
     "alsoCalled": [],
     "mainPhoto": "front",
     "callouts": [
@@ -818,8 +819,8 @@
     "coversGrey": "Mostly",
     "bleach": "Yes, light",
     "skin": [
-      "Light",
-      "Medium"
+      "Medium",
+      "Deep"
     ],
     "grey": [
       "None",
@@ -830,7 +831,7 @@
   },
   {
     "id": "C12",
-    "updated": "2026-10-23",
+    "updated": "2026-10-24",
     "slug": "henna-mehndi",
     "name": "Henna (Mehndi)",
     "shortLine": "Natural plant colour. Turns grey hair red-orange.",

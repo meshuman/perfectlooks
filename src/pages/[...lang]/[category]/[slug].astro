@@ -1,25 +1,32 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import AtAGlance from '@/components/AtAGlance.astro';
 import BarberSteps from '@/components/BarberSteps.astro';
 import Callouts from '@/components/Callouts.astro';
 import CareList from '@/components/CareList.astro';
 import Faq from '@/components/Faq.astro';
+import FitPanel from '@/components/FitPanel.astro';
 import Icon from '@/components/Icon.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import ItemActions from '@/components/ItemActions.astro';
 import LookParts from '@/components/LookParts.astro';
 import ItemPhoto from '@/components/ItemPhoto.astro';
 import PickSkip from '@/components/PickSkip.astro';
+import SectionTitle from '@/components/SectionTitle.astro';
 import StyleCard from '@/components/StyleCard.astro';
+import StyleNav from '@/components/StyleNav.astro';
 import SuitsList from '@/components/SuitsList.astro';
+import Verdict from '@/components/Verdict.astro';
 import { getImage } from 'astro:assets';
 import { article, breadcrumbs } from '@/data/seo';
 import { defaultShop } from '@/data/shop';
 import { photoFor } from '@/data/photos';
+import { FACE_SHAPES } from '@/data/faces';
 import { getPosts, postHref } from '@/data/learn';
-import { addDataFor, categories, categoryText, getAllItems, getItemMap, seoDescription, seoTitle } from '@/data/catalogue';
+import { addDataFor, categories, categoryText, getAllItems, getItemMap, getItems, seoDescription, seoTitle } from '@/data/catalogue';
 import { langParams, useI18n, type UiKey } from '@/i18n';
 import { barberSections, lookFromParts } from '@/lib/look';
+import { capitalise } from '@/lib/text';
 
 interface StepGroup {
   title?: string;
@@ -42,7 +49,6 @@ const item = itemMap.get(id)!;
 const english = (await getItemMap()).get(id)!;
 const category = categories[item.category];
 const label = categoryText(item.category, i).label;
-const capitalise = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 const looks = [...itemMap.values()].filter((look) => look.parts?.some((p) => p.id === item.id));
 
@@ -68,6 +74,29 @@ const groups: StepGroup[] = item.parts
         };
       })
   : [{ steps: item.barberSteps, note: item.barberNote }];
+
+// "Who it suits": every face shape or skin tone is shown, the ones that suit are filled.
+const SKIN_TONES = [
+  { value: 'Light', swatch: '#f0d2b6' },
+  { value: 'Medium', swatch: '#c8996c' },
+  { value: 'Deep', swatch: '#6f4a30' },
+] as const;
+const faceOptions = item.match.face
+  ? FACE_SHAPES.map((f) => ({ value: f.value, label: t(`face.${f.value}`), fits: item.match.face!.includes(f.value), shape: f.shape }))
+  : undefined;
+const skinOptions = item.match.skin
+  ? SKIN_TONES.map((s) => ({ value: s.value, label: t(`skin.${s.value}`), fits: item.match.skin!.includes(s.value), swatch: s.swatch }))
+  : undefined;
+// The other rows (hair type, thin hair, growth, grey) stay as chips under it.
+const otherRows = item.suits.filter((row) => row.label !== t('suits.face') && row.label !== t('suits.skin'));
+const askHref = `${l('/about-you')}?from=${item.href}`;
+
+// Previous and next in the same list.
+const siblings = await getItems(item.category, i);
+const at = siblings.findIndex((s) => s.id === item.id);
+const neighbour = (s?: (typeof siblings)[number]) => s && { id: s.id, name: s.name, href: s.href, mainPhoto: s.mainPhoto, swatch: s.swatch };
+const prev = neighbour(siblings[at - 1]);
+const next = neighbour(siblings[at + 1]);
 
 const photo = photoFor(item.id);
 const hasPhoto = Boolean(photo);
@@ -100,7 +129,7 @@ const structured = [
   <JsonLd slot="head" data={structured} />
   <main class="wrap pt-4 pb-6 md:grid md:grid-cols-2 md:gap-10 md:pt-8 lg:gap-14">
     <div class="md:sticky md:top-20 md:self-start">
-      <figure class="shell relative">
+      <figure class="relative" data-item={item.id} data-category={item.category} data-match={JSON.stringify(item.match)}>
         <div class="relative aspect-square overflow-hidden">
           <ItemPhoto item={item} size="hero" class="size-full" />
           {
@@ -120,64 +149,71 @@ const structured = [
                   ),
               )
           }
+          <span
+            data-suits-badge
+            hidden
+            class="absolute top-0 left-0 inline-flex items-center gap-1 bg-brand px-3 py-2 text-[0.75rem] font-semibold tracking-wide text-white"
+          >
+            <Icon name="check" size={12} strokeWidth={3} />
+            {t('card.suitsYou')}
+          </span>
+          <button
+            type="button"
+            data-save={item.id}
+            aria-label={t('card.save', { name: item.name })}
+            aria-pressed="false"
+            class="absolute top-3 right-3 z-10 grid size-11 place-items-center rounded-full bg-white text-ink transition duration-300 ease-out-soft active:scale-90"
+          >
+            <Icon name="heart" size={19} strokeWidth={1.5} />
+          </button>
         </div>
-        <figcaption class="absolute bottom-4 left-4 bg-card/90 px-3 py-1.5 text-[0.625rem] font-bold tracking-[0.16em] uppercase shadow-soft">
+        <figcaption class="absolute bottom-0 left-0 bg-paper px-3.5 py-2 text-[0.625rem] font-bold tracking-[0.16em] uppercase">
           {item.swatchLabel ?? t('card.view', { angle })}
         </figcaption>
       </figure>
     </div>
 
     <div class="mt-6 md:mt-0">
-      <p class="tag">{label}</p>
-      <h1 class="mt-4 text-[2.25rem] leading-tight">{item.name}</h1>
+      <p class="tag text-gold-ink">{label}</p>
+      <h1 class="mt-2 text-[2.25rem] leading-tight">{item.name}</h1>
       {item.alsoCalled.length > 0 && <p class="mt-1.5 text-sm text-muted">{t('detail.alsoCalled', { names: item.alsoCalled.join(', ') })}</p>}
       <p class="mt-3 text-[1.0625rem] leading-relaxed">{item.description}</p>
 
-      <ul class="mt-4 flex flex-wrap gap-1.5">
-        {item.facts.map((fact) => <li class="bg-ink/[0.05] px-3.5 py-1.5 text-[0.8125rem] font-semibold">{fact}</li>)}
-      </ul>
+      <AtAGlance cells={item.glance} class="mt-6" />
 
       {
         item.parts && (
           <section class="mt-10" data-reveal>
-            <h2 class="mb-4 text-[1.875rem]">{t('detail.inThisLook')}</h2>
+            <SectionTitle>{t('detail.inThisLook')}</SectionTitle>
             <LookParts parts={item.parts} items={itemMap} />
           </section>
         )
       }
 
       <section class="mt-10" data-reveal>
-        <h2 class="sr-only">{t('detail.isItForYou')}</h2>
-        <PickSkip pick={capitalise(item.pickIf)} skip={capitalise(item.skipIf)} />
+        <SectionTitle>{t('detail.isItForYou')}</SectionTitle>
+        <div class="space-y-5">
+          <Verdict match={item.match} category={item.category} askHref={askHref} />
+          {faceOptions && <FitPanel question="face" label={t('suits.face')} options={faceOptions} />}
+          {skinOptions && <FitPanel question="skin" label={t('suits.skin')} options={skinOptions} />}
+          <SuitsList rows={otherRows} />
+          <PickSkip pick={capitalise(item.pickIf)} skip={capitalise(item.skipIf)} />
+        </div>
       </section>
 
       {
         item.callouts.length > 0 && (
           <section class="mt-10" data-reveal>
-            <h2 class="mb-4 text-[1.875rem]">{t('detail.theDetails')}</h2>
+            <SectionTitle>{t('detail.theDetails')}</SectionTitle>
             <Callouts items={item.callouts} />
           </section>
         )
       }
 
       <section class="mt-10" data-reveal>
-        <h2 class="mb-4 text-[1.875rem]">{t('detail.timeAndCare')}</h2>
+        <SectionTitle>{t('detail.timeAndCare')}</SectionTitle>
         <CareList daily={item.daily} weekly={item.weekly} nextVisit={item.nextVisit} atShop={item.atShop} />
       </section>
-
-      <section class="mt-10" data-reveal>
-        <h2 class="mb-4 text-[1.875rem]">{t('detail.whoItSuits')}</h2>
-        <SuitsList rows={item.suits} />
-      </section>
-
-      {
-        item.faq.length > 0 && (
-          <section class="mt-10" data-reveal>
-            <h2 class="mb-4 text-[1.875rem]">{t('detail.commonQuestions')}</h2>
-            <Faq items={item.faq} />
-          </section>
-        )
-      }
 
       {
         groups.length > 0 && (
@@ -189,13 +225,22 @@ const structured = [
       }
 
       {
+        item.faq.length > 0 && (
+          <section class="mt-10" data-reveal>
+            <SectionTitle>{t('detail.commonQuestions')}</SectionTitle>
+            <Faq items={item.faq} />
+          </section>
+        )
+      }
+
+      {
         reads.length > 0 && (
           <section class="mt-10" data-reveal>
-            <h2 class="mb-4 text-[1.875rem]">{t('detail.readMore')}</h2>
+            <SectionTitle>{t('detail.readMore')}</SectionTitle>
             <ul class="core divide-y divide-line/70 overflow-hidden">
               {reads.map((read) => (
                 <li>
-                  <a href={read.href} class="group flex items-center justify-between gap-4 p-4">
+                  <a href={read.href} class="group flex min-h-11 items-center justify-between gap-4 p-4">
                     <span>
                       <span class="block text-[0.9375rem] font-semibold">{read.title}</span>
                       <span class="text-xs text-muted">{t('detail.minRead', { minutes: read.minutes })}</span>
@@ -209,6 +254,14 @@ const structured = [
         )
       }
 
+      {
+        (prev || next) && (
+          <section class="mt-10" data-reveal>
+            <StyleNav prev={prev} next={next} />
+          </section>
+        )
+      }
+
       <ItemActions itemId={item.id} name={item.name} add={addDataFor(item)} />
     </div>
   </main>
@@ -216,7 +269,7 @@ const structured = [
   {
     looks.length > 0 && (
       <section class="wrap pb-12">
-        <h2 class="mb-5 text-[1.875rem]">{t('detail.looksWith', { name: item.name })}</h2>
+        <SectionTitle class="mb-5">{t('detail.looksWith', { name: item.name })}</SectionTitle>
         <ul class="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-3">
           {looks.slice(0, 4).map((look) => (
             <li>

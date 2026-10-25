@@ -44,7 +44,7 @@ export default function FavouritesView({ items }: { items: FavouriteItem[] }) {
           <li key={item.id} class="shell">
             <div class="core flex gap-3 p-3">
             <a href={item.href} class="block shrink-0" tabIndex={-1} aria-hidden="true">
-              <Thumb swatch={item.swatch} src={item.photo?.thumb} alt={item.photo?.alt} class="size-16" />
+              <Thumb id={item.id} swatch={item.swatch} src={item.photo?.thumb} alt={item.photo?.alt} class="size-16" />
             </a>
             <div class="min-w-0 flex-1">
               <p class="eyebrow">{item.categoryLabel}</p>

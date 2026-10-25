@@ -22,7 +22,7 @@ const { tone = 'light', back, localized = true } = Astro.props;
         back && (
           <a href={back.href} class="-ml-1 inline-flex h-11 items-center gap-2 pr-2 text-sm font-medium tracking-wide">
             <Icon name="arrowLeft" size={18} strokeWidth={1.25} />
-            <span class="max-[22rem]:sr-only">{back.label}</span>
+            <span class:list={['whitespace-nowrap', back.label.length > 9 ? 'max-md:sr-only' : 'max-[22rem]:sr-only']}>{back.label}</span>
           </a>
         )
       }

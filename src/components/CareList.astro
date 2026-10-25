@@ -1,6 +1,7 @@
 ---
 import Icon from './Icon.astro';
 import type { IconName } from '@/data/icons';
+import { splitCare as split } from '@/lib/text';
 import { useI18n } from '@/i18n';
 const { t } = useI18n(Astro.url);
 
@@ -12,16 +13,6 @@ interface Props {
 }
 
 const { daily, weekly, nextVisit, atShop } = Astro.props;
-
-const capitalise = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-
-// "5 min: blow dry the front up, then wax." -> "5 min" / "Blow dry the front up, then wax."
-// "in 2–3 weeks, to keep the fade clean"    -> "In 2–3 weeks" / "To keep the fade clean"
-function split(text: string): { head: string; detail?: string } {
-  const match = text.match(/^([^:]{1,14}):\s*(.+)$/) ?? text.match(/^(in [^,]+),\s*(.+)$/i);
-  if (!match) return { head: capitalise(text) };
-  return { head: capitalise(match[1]!), detail: capitalise(match[2]!) };
-}
 
 const rows: { label: string; icon: IconName; text: string }[] = [
   { label: t('detail.daily'), icon: 'clock', text: daily },

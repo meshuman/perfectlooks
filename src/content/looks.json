@@ -125,7 +125,7 @@
     "daily": "3 min: wax on top, beard oil.",
     "weekly": "Trim the beard once.",
     "nextVisit": "in 2–3 weeks",
-    "suitsText": "Oval, round and heart face · All hair types · Medium or full beard growth",
+    "suitsText": "Oval, round, long and heart face · All hair types · Medium or full beard growth",
     "alsoCalled": [],
     "mainPhoto": "front",
     "callouts": [
@@ -150,6 +150,7 @@
     "face": [
       "Oval",
       "Round",
+      "Long",
       "Heart"
     ],
     "growth": [
@@ -630,7 +631,7 @@
     "daily": "6 min: style the top with wax, then beard oil.",
     "weekly": "Shave the sideburns and gaps twice.",
     "nextVisit": "in 3 weeks",
-    "suitsText": "Oval, square, round and heart face · Straight or wavy hair · Medium or full beard growth",
+    "suitsText": "Oval, square and round face · Straight or wavy hair · Medium or full beard growth",
     "alsoCalled": [],
     "mainPhoto": "front",
     "callouts": [
@@ -737,7 +738,7 @@
     "shortLine": "Lifted quiff with a sharp faded beard. Made for photos.",
     "description": "A quiff with height and a faded beard with clean lines. Made for photos.",
     "pickIf": "you have a wedding or festival coming. Book it 1–2 days before.",
-    "skipIf": "you have a long face, or no time to blow dry.",
+    "skipIf": "you have a long or heart-shaped face, or no time to blow dry.",
     "daily": "6 min: blow dry, wax, then beard oil.",
     "weekly": "Trim the beard once.",
     "nextVisit": "in 2–3 weeks",
@@ -766,8 +767,7 @@
     "face": [
       "Oval",
       "Square",
-      "Round",
-      "Heart"
+      "Round"
     ],
     "growth": [
       "Medium",
@@ -904,11 +904,11 @@
     "shortLine": "Pushed-back hair with a natural full moustache.",
     "description": "A soft pushed-back top, clean-shaven cheeks and chin, and a tidy natural moustache. Mature and modern at once.",
     "pickIf": "you want a moustache look that still feels current.",
-    "skipIf": "your moustache grows patchy, or you have a long face.",
+    "skipIf": "your moustache grows patchy, or you have a long or heart-shaped face.",
     "daily": "8 min: shave around the moustache, blow dry the top back.",
     "weekly": "Trim the moustache edge once.",
     "nextVisit": "in 4 weeks",
-    "suitsText": "Oval, square, round and heart face · Straight or wavy hair · Medium or full beard growth",
+    "suitsText": "Oval, square and round face · Straight or wavy hair · Medium or full beard growth",
     "alsoCalled": [],
     "mainPhoto": "front",
     "callouts": [
@@ -933,8 +933,7 @@
     "face": [
       "Oval",
       "Square",
-      "Round",
-      "Heart"
+      "Round"
     ],
     "growth": [
       "Medium",
@@ -1078,7 +1077,7 @@
     "daily": "5 min: tie the bun, then beard oil and comb.",
     "weekly": "Conditioner 2–3 times, beard wash 2–3 times.",
     "nextVisit": "in 3–4 weeks for the beard, 8 weeks for a hair trim",
-    "suitsText": "Oval, square and heart face · Straight or wavy hair · Full beard growth",
+    "suitsText": "Oval and square face · Straight or wavy hair · Full beard growth",
     "alsoCalled": [],
     "mainPhoto": "front",
     "callouts": [
@@ -1102,8 +1101,7 @@
     "upkeep": "High",
     "face": [
       "Oval",
-      "Square",
-      "Heart"
+      "Square"
     ],
     "growth": [
       "Full"

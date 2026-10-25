@@ -455,11 +455,11 @@
     "shortLine": "Sides fade to skin just above the ears. Short top.",
     "description": "Sides fade to skin just above the ears, with a short top. The easiest fade to start with.",
     "pickIf": "you want a clean, modern look that is still fine for school or office.",
-    "skipIf": "you have a long face.",
+    "skipIf": "you want a bold, sharp fade.",
     "daily": "2 min: a little wax on the top.",
     "weekly": "Nothing.",
     "nextVisit": "in 2–3 weeks, to keep the fade clean",
-    "suitsText": "Oval, square, round and heart face · All hair types · Thin hair OK",
+    "suitsText": "All face shapes · All hair types · Thin hair OK",
     "alsoCalled": [],
     "mainPhoto": "side",
     "callouts": [
@@ -514,8 +514,9 @@
     "upkeep": "Medium",
     "face": [
       "Oval",
-      "Square",
       "Round",
+      "Square",
+      "Long",
       "Heart"
     ],
     "hairType": [
@@ -647,7 +648,7 @@
       },
       {
         "q": "Will a skin fade irritate my skin?",
-        "a": "It shouldn't. Tell the barber if your skin is sensitive, so they shave gently."
+        "a": "It shouldn't. Tell the barber if your skin is sensitive, so they shave gently. On tightly curled hair, ask for a foil shaver instead of a razor, to avoid ingrown hairs."
       },
       {
         "q": "Is a skin fade OK for office?",
@@ -986,11 +987,11 @@
     "shortLine": "Short sides, front hair lifted up and back.",
     "description": "Short sides with the front lifted up and back. Often called the \"puff\".",
     "pickIf": "you want height that looks great in photos, or more shape for a round face.",
-    "skipIf": "you have a long face or thin hair, or no time to blow dry.",
+    "skipIf": "you have a long or heart-shaped face, thin hair, or no time to blow dry.",
     "daily": "5 min: blow dry the front up, then wax.",
     "weekly": "Nothing.",
     "nextVisit": "in 3–4 weeks",
-    "suitsText": "Oval, square, round and heart face · Straight or wavy hair",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
     "alsoCalled": [
       "Puff"
     ],
@@ -1044,8 +1045,7 @@
     "face": [
       "Oval",
       "Square",
-      "Round",
-      "Heart"
+      "Round"
     ],
     "hairType": [
       "Straight",
@@ -1135,11 +1135,11 @@
     "shortLine": "Short top with hair standing up in spikes.",
     "description": "Short top pulled up into spikes with gel. Young and sporty.",
     "pickIf": "you want a fun, energetic look that is quick to style.",
-    "skipIf": "you have curly hair or a long face.",
+    "skipIf": "you have curly or thin hair, or a long face.",
     "daily": "2 min: gel, then pull the hair up into spikes.",
     "weekly": "Nothing.",
     "nextVisit": "in 3 weeks",
-    "suitsText": "Oval, square and round face · Straight hair · Thin hair OK",
+    "suitsText": "Oval, square and round face · Straight hair",
     "alsoCalled": [],
     "mainPhoto": "front",
     "callouts": [
@@ -1195,7 +1195,7 @@
     "hairType": [
       "Straight"
     ],
-    "thinHairOk": true
+    "thinHairOk": false
   },
   {
     "id": "H17",
@@ -1431,11 +1431,11 @@
     "shortLine": "Medium length hair pushed back, ends behind the ears.",
     "description": "Medium-length hair pushed back, flowing behind the ears. Natural and easygoing.",
     "pickIf": "you want longer hair with few barber visits.",
-    "skipIf": "you have a round face or thin hair.",
+    "skipIf": "you have a round, long or heart-shaped face, or thin hair.",
     "daily": "2 min: push back with your fingers, a little cream if needed.",
     "weekly": "Nothing.",
     "nextVisit": "in 6–8 weeks",
-    "suitsText": "Oval, square, long and heart face · Straight or wavy hair",
+    "suitsText": "Oval and square face · Straight or wavy hair",
     "alsoCalled": [
       "Flow"
     ],
@@ -1487,9 +1487,7 @@
     "upkeep": "Medium",
     "face": [
       "Oval",
-      "Square",
-      "Long",
-      "Heart"
+      "Square"
     ],
     "hairType": [
       "Straight",
@@ -2101,11 +2099,11 @@
     "shortLine": "Long hair tied up in a bun at the back of the head.",
     "description": "Long hair pulled back and tied in a bun. Relaxed, and it keeps hair off your face.",
     "pickIf": "your hair already reaches past your chin and you want to keep it long.",
-    "skipIf": "your hair is shorter than your chin, or thin.",
+    "skipIf": "your hair is shorter than your chin, or thin, or you have a long or heart-shaped face.",
     "daily": "2 min: brush back and tie with a soft hair tie.",
     "weekly": "Conditioner 2–3 times.",
     "nextVisit": "in 8 weeks, for a trim",
-    "suitsText": "Oval, square, long and heart face · Straight or wavy hair",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
     "alsoCalled": [
       "Top knot"
     ],
@@ -2158,8 +2156,7 @@
     "face": [
       "Oval",
       "Square",
-      "Long",
-      "Heart"
+      "Round"
     ],
     "hairType": [
       "Straight",
@@ -2767,11 +2764,11 @@
     "shortLine": "Short sides with the top brushed straight up.",
     "description": "Short sides with the top brushed straight up. Fresh, with some height.",
     "pickIf": "you want a little height without the work of a quiff.",
-    "skipIf": "you have a long face.",
+    "skipIf": "you have a long or heart-shaped face.",
     "daily": "2 min: blow dry up, a little wax.",
     "weekly": "Nothing.",
     "nextVisit": "in 3–4 weeks",
-    "suitsText": "Oval, square, round and heart face · Straight or wavy hair · Thin hair OK",
+    "suitsText": "Oval, square and round face · Straight or wavy hair · Thin hair OK",
     "alsoCalled": [],
     "mainPhoto": "front",
     "callouts": [
@@ -2823,8 +2820,7 @@
     "face": [
       "Oval",
       "Square",
-      "Round",
-      "Heart"
+      "Round"
     ],
     "hairType": [
       "Straight",
@@ -3064,11 +3060,11 @@
     "shortLine": "Medium top pushed back with a natural, matte finish.",
     "description": "Medium top pushed back with a soft, natural finish. Not shiny like a slick back.",
     "pickIf": "you want smart but relaxed hair for office and weekends.",
-    "skipIf": "you have a long face or thin hair.",
+    "skipIf": "you have a long or heart-shaped face, or thin hair.",
     "daily": "3 min: blow dry back, a little matte cream.",
     "weekly": "Nothing.",
     "nextVisit": "in 4 weeks",
-    "suitsText": "Oval, square, round and heart face · Straight or wavy hair",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
     "alsoCalled": [],
     "mainPhoto": "side",
     "callouts": [
@@ -3120,8 +3116,7 @@
     "face": [
       "Oval",
       "Square",
-      "Round",
-      "Heart"
+      "Round"
     ],
     "hairType": [
       "Straight",

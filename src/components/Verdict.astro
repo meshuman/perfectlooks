@@ -1,0 +1,56 @@
+---
+// A personal verdict on this style, from the About you answers. The page script (app.ts) picks the
+// state: "ask" before there are answers that apply, then "yes" or "no" with the reasons.
+import Icon from './Icon.astro';
+import type { Match, MatchCategory } from '@/lib/match';
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+
+interface Props {
+  match: Match;
+  category: MatchCategory;
+  /** Link to the About you questions, which returns to this page. */
+  askHref: string;
+}
+
+const { match, category, askHref } = Astro.props;
+---
+
+<div data-verdict data-match={JSON.stringify(match)} data-category={category} aria-live="polite">
+  <a
+    href={askHref}
+    data-state-for="ask"
+    class="flex items-center gap-3 bg-card p-4 shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_1px_rgb(17_17_17/0.4)]"
+  >
+    <span class="grid size-10 shrink-0 place-items-center rounded-full bg-paper-2">
+      <Icon name="sliders" size={18} />
+    </span>
+    <span class="min-w-0 flex-1">
+      <span class="block text-[0.9375rem] font-semibold">{t('detail.verdictAsk')}</span>
+      <span class="block text-sm text-muted">{t('detail.verdictAskCta')}</span>
+    </span>
+    <Icon name="arrowRight" size={18} class="text-muted" />
+  </a>
+
+  <div data-state-for="yes" hidden class="flex items-center gap-3 bg-brand p-4 text-white">
+    <span class="grid size-10 shrink-0 place-items-center rounded-full bg-white text-brand">
+      <Icon name="check" size={18} strokeWidth={3} />
+    </span>
+    <span class="min-w-0 flex-1">
+      <span class="block text-[1.0625rem] font-semibold">{t('detail.verdictYes')}</span>
+      <span class="block text-sm text-white/90">{t('detail.verdictYesText')}</span>
+    </span>
+    <a href={askHref} class="shrink-0 text-sm font-semibold underline underline-offset-4">{t('list.edit')}</a>
+  </div>
+
+  <div data-state-for="no" hidden class="flex items-center gap-3 bg-card p-4 shadow-[inset_0_0_0_2px_var(--color-ink)]">
+    <span class="grid size-10 shrink-0 place-items-center rounded-full bg-ink text-white">
+      <Icon name="x" size={18} strokeWidth={3} />
+    </span>
+    <span class="min-w-0 flex-1">
+      <span class="block text-[1.0625rem] font-semibold">{t('detail.verdictNo')}</span>
+      <span class="block text-sm text-muted" data-verdict-reasons></span>
+    </span>
+    <a href={askHref} class="shrink-0 text-sm font-semibold underline underline-offset-4">{t('list.edit')}</a>
+  </div>
+</div>

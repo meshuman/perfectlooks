@@ -165,9 +165,9 @@ Save as `H07.jpg`
 Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
 ITEM: H07 Low Fade
 STYLE: fade line one finger above the ear; bare skin (#0) below, blending smoothly up through #1 and #2; top about 4 cm, textured and pushed up and slightly to the side; crisp, clean line around the ear; faded nape.
-CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with medium-brown skin with warm undertones, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+CHARACTER (identical in every image): Arjun, a 28-year-old Nepali man with medium-brown skin with warm undertones, an oval face with a clean, defined jawline, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference exactly.
 TRAITS FOR THIS STYLE (identity unchanged):
-- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
+- Face: oval, a little longer than wide, with a clean, defined jawline (his own; this style suits every face shape).
 - Skin: medium-brown with warm undertones (his own).
 - Hair texture: straight, as in the reference.
 HAIR IMAGE RULES: the beard and moustache are the same in every hair image: light even stubble, 1-2 mm, with a clean curved neck line. Main view as the item says. Second view: back of the head, showing the back of the cut and the nape.
@@ -382,6 +382,7 @@ TRAITS FOR THIS STYLE (identity unchanged):
 - Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
 - Skin: medium-brown with warm undertones (his own).
 - Hair texture: straight and smooth (this style needs straight hair).
+- Hair density: thick and full, with no thinning or visible scalp on top (this style needs full hair).
 HAIR IMAGE RULES: the beard and moustache are the same in every hair image: light even stubble, 1-2 mm, with a clean curved neck line. Main view as the item says. Second view: back of the head, showing the back of the cut and the nape.
 MAIN VIEW: three-quarter front, facing left
 BACKDROP: Sky blue (#A9C9E8).
@@ -472,9 +473,9 @@ Save as `H20.jpg`
 Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
 ITEM: H20 Medium Flow
 STYLE: medium-length hair, 12-15 cm, pushed back, with the ends flowing behind the ears and touching the collar; natural slight wave; layered to remove weight; natural neck line.
-CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with medium-brown skin with warm undertones, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with medium-brown skin with warm undertones, a square face with a strong, wide, angular jaw; forehead, cheekbones and jaw about the same width, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
 TRAITS FOR THIS STYLE (identity unchanged):
-- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Face: square face with a strong, wide, angular jaw; forehead, cheekbones and jaw about the same width (this style suits a square face, so show it on one; keep every other feature of his identical).
 - Skin: medium-brown with warm undertones (his own).
 - Hair texture: straight, as in the reference.
 - Hair density: thick and full, with no thinning or visible scalp on top (this style needs full hair).
@@ -683,10 +684,10 @@ Save as `H29.jpg`
 Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
 ITEM: H29 Man Bun
 STYLE: long hair, shoulder length when down, pulled back smoothly and tied into a neat bun at the back of the head at crown level; long sides, no undercut; soft natural texture.
-CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with medium-brown skin with warm undertones, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with medium-brown skin with warm undertones, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
 CHARACTER NOTE: same man, with hair grown long for this style.
 TRAITS FOR THIS STYLE (identity unchanged):
-- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
 - Skin: medium-brown with warm undertones (his own).
 - Hair texture: straight, as in the reference.
 - Hair density: thick and full, with no thinning or visible scalp on top (this style needs full hair).
@@ -2214,9 +2215,9 @@ ITEM: L03 Sharp Fade
 PARTS:
 - Hair: Low Fade: skin one finger above the ear blending to #2, 4 cm textured top.
 - Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.
-CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with medium-brown skin with warm undertones, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with medium-brown skin with warm undertones, a heart-shaped face: a wide forehead and cheekbones tapering to a narrow, pointed chin, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
 TRAITS FOR THIS STYLE (identity unchanged):
-- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
+- Face: heart-shaped face: a wide forehead and cheekbones tapering to a narrow, pointed chin (this style suits a heart face, so show it on one; keep every other feature of his identical).
 - Skin: medium-brown with warm undertones (his own).
 - Hair texture: straight, as in the reference.
 - Beard growth: even beard growth with no patches.

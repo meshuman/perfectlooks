@@ -10,6 +10,9 @@ import en from '@/i18n/en.json';
 import { pagePath, pathIn, publishedLocales, useI18n, type UiKey } from '@/i18n';
 // The one Latin font file every page uses, preloaded so text doesn't swap late.
 import sansFont from '@fontsource-variable/jost/files/jost-latin-wght-normal.woff2?url';
+// Nepali and Hindi pages also need Devanagari: preload both weights there so the headline doesn't wait on them.
+import devanagari400 from '@fontsource/mukta/files/mukta-devanagari-400-normal.woff2?url';
+import devanagari700 from '@fontsource/mukta/files/mukta-devanagari-700-normal.woff2?url';
 
 interface Props {
   title: string;
@@ -54,7 +57,7 @@ const alternates = (['en', ...publishedLocales()] as const).map((l) => ({ lang: 
 const OG_LOCALE = { en: 'en', ne: 'ne_NP', hi: 'hi_IN' } as const;
 
 // Screen text the browser scripts and islands need (toasts, buttons, Barber Card), in this language.
-const CLIENT_PREFIXES = ['look.', 'fav.', 'card.', 'list.', 'slot.', 'action.', 'barberLine.', 'myLook.', 'barber.', 'favourites.', 'site.'];
+const CLIENT_PREFIXES = ['look.', 'fav.', 'card.', 'list.', 'slot.', 'action.', 'barberLine.', 'myLook.', 'barber.', 'favourites.', 'site.', 'suits.', 'detail.verdict'];
 const clientStrings = Object.fromEntries(
   (Object.keys(en) as UiKey[]).filter((k) => CLIENT_PREFIXES.some((p) => k.startsWith(p))).map((k) => [k, t(k)]),
 );
@@ -82,6 +85,14 @@ const ogImage = new URL(og.src, Astro.site).href;
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="preload" href={sansFont} as="font" type="font/woff2" crossorigin />
+    {
+      locale !== 'en' && (
+        <>
+          <link rel="preload" href={devanagari400} as="font" type="font/woff2" crossorigin />
+          <link rel="preload" href={devanagari700} as="font" type="font/woff2" crossorigin />
+        </>
+      )
+    }
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:title" content={fullTitle} />

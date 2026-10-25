@@ -58,6 +58,8 @@ home.browseAll,Screen text: home,Browse all styles,सबै स्टाइल 
 home.stats.styles,Screen text: home,Styles,स्टाइल,draft,
 home.stats.looks,Screen text: home,Ready Looks,रेडी लुक्स,draft,
 home.stats.languages,Screen text: home,Languages,भाषा,draft,
+home.faceTitle,Screen text: home,Start with your face shape,आफ्नो अनुहारको आकारबाट सुरु गर्नुहोस्,draft,
+home.faceHint,Screen text: home,Tap yours to see the styles that suit it.,आफ्नो आकार थिच्नुहोस् र त्यसलाई सुहाउने स्टाइल हेर्नुहोस्।,draft,
 home.browse,Screen text: home,Browse,हेर्नुहोस्,draft,
 home.chooseCategory,Screen text: home,Choose a category,एउटा श्रेणी छान्नुहोस्,draft,
 home.whileYouWait,Screen text: home,While you wait,पालो पर्खँदा,draft,
@@ -111,6 +113,22 @@ detail.searchName.beards,Screen text: detail,{name} beard,{name} दाह्र
 detail.searchName.moustaches,Screen text: detail,{name} moustache,{name} जुँगा,draft,Keep the {words in braces}: the app fills them in.
 detail.searchName.colours,Screen text: detail,{name} hair colour,{name} कपालको रङ,draft,Keep the {words in braces}: the app fills them in.
 detail.searchName.looks,Screen text: detail,{name} look,{name} लुक,draft,Keep the {words in braces}: the app fills them in.
+detail.glance,Screen text: detail,At a glance,एक नजरमा,draft,
+detail.length,Screen text: detail,Length,लम्बाइ,draft,
+detail.coversGrey,Screen text: detail,Covers grey,फुलेको कपाल ढाक्छ,draft,
+detail.bleach,Screen text: detail,Bleach,ब्लिच,draft,
+detail.includes,Screen text: detail,Includes,समावेश,draft,
+detail.you,Screen text: detail,You,तपाईं,draft,
+detail.fitYes,Screen text: detail,{value}: suits,{value}: सुहाउँछ,draft,Keep the {words in braces}: the app fills them in.
+detail.fitNo,Screen text: detail,{value}: not ideal,{value}: उपयुक्त होइन,draft,Keep the {words in braces}: the app fills them in.
+detail.verdictAsk,Screen text: detail,Not sure it suits you?,तपाईंलाई सुहाउँछ कि सुहाउँदैन थाहा छैन?,draft,
+detail.verdictAskCta,Screen text: detail,Answer a few quick questions,केही छोटा प्रश्नको उत्तर दिनुहोस्,draft,
+detail.verdictYes,Screen text: detail,Suits you,तपाईंलाई सुहाउँछ,draft,
+detail.verdictYesText,Screen text: detail,It matches what you told us.,तपाईंले बताएअनुसार मिल्छ।,draft,
+detail.verdictNo,Screen text: detail,May not suit you,तपाईंलाई नसुहाउन सक्छ,draft,
+detail.verdictNoText,Screen text: detail,It doesn't match your {reasons}.,यो तपाईंको {reasons} सँग मिल्दैन।,draft,Keep the {words in braces}: the app fills them in.
+detail.prev,Screen text: detail,Previous,अघिल्लो,draft,
+detail.next,Screen text: detail,Next,अर्को,draft,
 facts.upkeep,Screen text: facts,Upkeep: {level},हेरचाह: {level},draft,Keep the {words in braces}: the app fills them in.
 facts.coversGrey,Screen text: facts,Covers grey: {value},फुलेको कपाल: {value},draft,Keep the {words in braces}: the app fills them in.
 facts.bleach,Screen text: facts,Bleach: {value},ब्लिच: {value},draft,Keep the {words in braces}: the app fills them in.
@@ -458,7 +476,7 @@ H07.name,H07 Low Fade,Low Fade,Low Fade,draft,"Catalogue name. Keep it, or write
 H07.shortLine,H07 Low Fade,Sides fade to skin just above the ears. Short top.,कानभन्दा ठीक माथिबाट छेउ छालासम्म फेड। माथि छोटो।,draft,
 H07.description,H07 Low Fade,"Sides fade to skin just above the ears, with a short top. The easiest fade to start with.","कानभन्दा ठीक माथिबाट छेउ छालासम्म फेड, माथि छोटो कपाल। सुरु गर्नका लागि सबैभन्दा सजिलो फेड।",draft,
 H07.pickIf,H07 Low Fade,"you want a clean, modern look that is still fine for school or office.","तपाईं सफा, आधुनिक तर स्कुल वा अफिसमा पनि मिल्ने लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
-H07.skipIf,H07 Low Fade,you have a long face.,तपाईंको अनुहार लाम्चो छ।,draft,"Follows ""Skip if""."
+H07.skipIf,H07 Low Fade,"you want a bold, sharp fade.","तपाईं बोल्ड, धारिलो फेड चाहनुहुन्छ।",draft,"Follows ""Skip if""."
 H07.daily,H07 Low Fade,2 min: a little wax on the top.,2 मिनेट: माथि थोरै वाक्स।,draft,
 H07.weekly,H07 Low Fade,Nothing.,केही पनि होइन।,draft,
 H07.nextVisit,H07 Low Fade,"in 2–3 weeks, to keep the fade clean","2–3 हप्तामा, फेड सफा राख्न",draft,
@@ -533,7 +551,7 @@ H09.faq.1.a,H09 Skin Fade,Yes. Both take the sides down to bare skin with a razo
 H09.faq.2.q,H09 Skin Fade,How long does a skin fade stay sharp?,Skin fade कति दिन धारिलो रहन्छ?,draft,
 H09.faq.2.a,H09 Skin Fade,About 1–2 weeks. Book a touch-up every 2 weeks.,करिब 1–2 हप्ता। हरेक 2 हप्तामा मिलाउन आउनुहोस्।,draft,"Keep any <a href=""...""> link tags as they are."
 H09.faq.3.q,H09 Skin Fade,Will a skin fade irritate my skin?,Skin fade ले छाला पोल्ला?,draft,
-H09.faq.3.a,H09 Skin Fade,"It shouldn't. Tell the barber if your skin is sensitive, so they shave gently.","पोल्नु हुँदैन। छाला संवेदनशील छ भने बार्बरलाई भन्नुहोस्, उहाँले बिस्तारै खौरिदिनुहुन्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H09.faq.3.a,H09 Skin Fade,"It shouldn't. Tell the barber if your skin is sensitive, so they shave gently. On tightly curled hair, ask for a foil shaver instead of a razor, to avoid ingrown hairs.","पोल्नु हुँदैन। छाला संवेदनशील छ भने बार्बरलाई भन्नुहोस्, उहाँले बिस्तारै खौरिदिनुहुन्छ। धेरै घुम्रिएको कपाल छ भने रेजरको सट्टा फोइल सेभर माग्नुहोस्, ताकि रौं छालाभित्र नपसून्।",draft,"Keep any <a href=""...""> link tags as they are."
 H09.faq.4.q,H09 Skin Fade,Is a skin fade OK for office?,के Skin fade अफिसमा मिल्छ?,draft,
 H09.faq.4.a,H09 Skin Fade,It depends on the office. A low fade or taper fade is the safer choice.,अफिसमा भर पर्छ। Low fade वा Taper fade बढी सुरक्षित रोजाइ हो।,draft,"Keep any <a href=""...""> link tags as they are."
 H09.step.1,H09 Skin Fade,"Fade line: high, at the top corner of the head.","फेड लाइन: माथि, टाउकोको माथिल्लो कुनामा।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
@@ -683,7 +701,7 @@ H14.name,H14 Quiff,Quiff,Quiff,draft,"Catalogue name. Keep it, or write the name
 H14.shortLine,H14 Quiff,"Short sides, front hair lifted up and back.","छेउ छोटो, अगाडिको कपाल माथि र पछाडि उठाइएको।",draft,
 H14.description,H14 Quiff,"Short sides with the front lifted up and back. Often called the ""puff"".","छोटो छेउ, अगाडिको कपाल माथि र पछाडितिर उठाइएको। धेरैले यसलाई ""पफ"" भन्छन्।",draft,
 H14.pickIf,H14 Quiff,"you want height that looks great in photos, or more shape for a round face.","तपाईं फोटोमा राम्रो देखिने उचाइ चाहनुहुन्छ, वा गोलो अनुहारलाई अलि आकार दिन चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
-H14.skipIf,H14 Quiff,"you have a long face or thin hair, or no time to blow dry.","तपाईंको अनुहार लाम्चो छ, कपाल पातलो छ, वा ड्रायर चलाउने समय छैन।",draft,"Follows ""Skip if""."
+H14.skipIf,H14 Quiff,"you have a long or heart-shaped face, thin hair, or no time to blow dry.","तपाईंको अनुहार लाम्चो वा मुटु आकारको छ, कपाल पातलो छ, वा ड्रायर चलाउने समय छैन।",draft,"Follows ""Skip if""."
 H14.daily,H14 Quiff,"5 min: blow dry the front up, then wax.","5 मिनेट: ड्रायरले अगाडिको कपाल माथि सुकाउनुहोस्, अनि वाक्स।",draft,
 H14.weekly,H14 Quiff,Nothing.,केही पनि होइन।,draft,
 H14.nextVisit,H14 Quiff,in 3–4 weeks,3–4 हप्तामा,draft,
@@ -747,7 +765,7 @@ H16.name,H16 Spiky,Spiky,Spiky,draft,"Catalogue name. Keep it, or write the name
 H16.shortLine,H16 Spiky,Short top with hair standing up in spikes.,"छोटो माथि, कपाल ठाडो-ठाडो उभिएको।",draft,
 H16.description,H16 Spiky,Short top pulled up into spikes with gel. Young and sporty.,जेलले माथिको छोटो कपाल ठाडो-ठाडो तानिएको। जवान र स्पोर्टी।,draft,
 H16.pickIf,H16 Spiky,"you want a fun, energetic look that is quick to style.","तपाईं छिटो स्टाइल हुने, रमाइलो र जोसिलो लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
-H16.skipIf,H16 Spiky,you have curly hair or a long face.,तपाईंको कपाल घुम्रिएको छ वा अनुहार लाम्चो छ।,draft,"Follows ""Skip if""."
+H16.skipIf,H16 Spiky,"you have curly or thin hair, or a long face.","तपाईंको कपाल घुम्रिएको वा पातलो छ, वा अनुहार लाम्चो छ।",draft,"Follows ""Skip if""."
 H16.daily,H16 Spiky,"2 min: gel, then pull the hair up into spikes.","2 मिनेट: जेल लगाउनुहोस्, अनि कपाल ठाडो-ठाडो तान्नुहोस्।",draft,
 H16.weekly,H16 Spiky,Nothing.,केही पनि होइन।,draft,
 H16.nextVisit,H16 Spiky,in 3 weeks,3 हप्तामा,draft,
@@ -873,7 +891,7 @@ H20.name,H20 Medium Flow,Medium Flow,Medium Flow,draft,"Catalogue name. Keep it,
 H20.shortLine,H20 Medium Flow,"Medium length hair pushed back, ends behind the ears.","मध्यम लम्बाइको कपाल पछाडि धकेलिएको, टुप्पा कानपछाडि।",draft,
 H20.description,H20 Medium Flow,"Medium-length hair pushed back, flowing behind the ears. Natural and easygoing.","मध्यम लम्बाइको कपाल पछाडि धकेलिएको, कानपछाडि बगेको। प्राकृतिक र सहज।",draft,
 H20.pickIf,H20 Medium Flow,you want longer hair with few barber visits.,तपाईं कम पटक बार्बरकहाँ गएर लामो कपाल राख्न चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
-H20.skipIf,H20 Medium Flow,you have a round face or thin hair.,तपाईंको अनुहार गोलो छ वा कपाल पातलो छ।,draft,"Follows ""Skip if""."
+H20.skipIf,H20 Medium Flow,"you have a round, long or heart-shaped face, or thin hair.","तपाईंको अनुहार गोलो, लाम्चो वा मुटु आकारको छ, वा कपाल पातलो छ।",draft,"Follows ""Skip if""."
 H20.daily,H20 Medium Flow,"2 min: push back with your fingers, a little cream if needed.","2 मिनेट: औंलाले पछाडि धकेल्नुहोस्, चाहिए थोरै क्रिम।",draft,
 H20.weekly,H20 Medium Flow,Nothing.,केही पनि होइन।,draft,
 H20.nextVisit,H20 Medium Flow,in 6–8 weeks,6–8 हप्तामा,draft,
@@ -1157,7 +1175,7 @@ H29.name,H29 Man Bun,Man Bun,Man Bun,draft,"Catalogue name. Keep it, or write th
 H29.shortLine,H29 Man Bun,Long hair tied up in a bun at the back of the head.,टाउकोको पछाडि जुरो बाँधिएको लामो कपाल।,draft,
 H29.description,H29 Man Bun,"Long hair pulled back and tied in a bun. Relaxed, and it keeps hair off your face.","लामो कपाल पछाडि तानेर जुरो बाँधिएको। आरामदायी, र कपाल अनुहारमा झर्दैन।",draft,
 H29.pickIf,H29 Man Bun,your hair already reaches past your chin and you want to keep it long.,तपाईंको कपाल पहिल्यै चिउँडोभन्दा तल पुग्छ र लामै राख्न चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
-H29.skipIf,H29 Man Bun,"your hair is shorter than your chin, or thin.",तपाईंको कपाल चिउँडोभन्दा छोटो वा पातलो छ।,draft,"Follows ""Skip if""."
+H29.skipIf,H29 Man Bun,"your hair is shorter than your chin, or thin, or you have a long or heart-shaped face.","तपाईंको कपाल चिउँडोभन्दा छोटो वा पातलो छ, वा अनुहार लाम्चो वा मुटु आकारको छ।",draft,"Follows ""Skip if""."
 H29.daily,H29 Man Bun,2 min: brush back and tie with a soft hair tie.,2 मिनेट: पछाडितिर ब्रस गरेर नरम रबरले बाँध्नुहोस्।,draft,
 H29.weekly,H29 Man Bun,Conditioner 2–3 times.,2–3 पटक कन्डिसनर।,draft,
 H29.nextVisit,H29 Man Bun,"in 8 weeks, for a trim","8 हप्तामा, ट्रिमका लागि",draft,
@@ -1442,7 +1460,7 @@ H38.name,H38 Brush Up,Brush Up,Brush Up,draft,"Catalogue name. Keep it, or write
 H38.shortLine,H38 Brush Up,Short sides with the top brushed straight up.,"छेउ छोटो, माथिको कपाल सिधा माथितिर ब्रस गरिएको।",draft,
 H38.description,H38 Brush Up,"Short sides with the top brushed straight up. Fresh, with some height.","छोटो छेउ, माथिको कपाल सिधा माथितिर ब्रस गरिएको। ताजा, अलिकति उचाइसहित।",draft,
 H38.pickIf,H38 Brush Up,you want a little height without the work of a quiff.,तपाईं Quiff को मेहनतबिना अलिकति उचाइ चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
-H38.skipIf,H38 Brush Up,you have a long face.,तपाईंको अनुहार लाम्चो छ।,draft,"Follows ""Skip if""."
+H38.skipIf,H38 Brush Up,you have a long or heart-shaped face.,तपाईंको अनुहार लाम्चो वा मुटु आकारको छ।,draft,"Follows ""Skip if""."
 H38.daily,H38 Brush Up,"2 min: blow dry up, a little wax.","2 मिनेट: ड्रायरले माथितिर सुकाउनुहोस्, थोरै वाक्स।",draft,
 H38.weekly,H38 Brush Up,Nothing.,केही पनि होइन।,draft,
 H38.nextVisit,H38 Brush Up,in 3–4 weeks,3–4 हप्तामा,draft,
@@ -1568,7 +1586,7 @@ H42.name,H42 Pushed Back,Pushed Back,Pushed Back,draft,"Catalogue name. Keep it,
 H42.shortLine,H42 Pushed Back,"Medium top pushed back with a natural, matte finish.","मध्यम माथिको कपाल पछाडि धकेलिएको, प्राकृतिक म्याट फिनिस।",draft,
 H42.description,H42 Pushed Back,"Medium top pushed back with a soft, natural finish. Not shiny like a slick back.","मध्यम माथिको कपाल नरम, प्राकृतिक फिनिससहित पछाडि धकेलिएको। Slick back जस्तो चम्किलो होइन।",draft,
 H42.pickIf,H42 Pushed Back,you want smart but relaxed hair for office and weekends.,तपाईं अफिस र बिदाका दिन दुवैमा मिल्ने स्मार्ट तर आरामदायी कपाल चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
-H42.skipIf,H42 Pushed Back,you have a long face or thin hair.,तपाईंको अनुहार लाम्चो छ वा कपाल पातलो छ।,draft,"Follows ""Skip if""."
+H42.skipIf,H42 Pushed Back,"you have a long or heart-shaped face, or thin hair.","तपाईंको अनुहार लाम्चो वा मुटु आकारको छ, वा कपाल पातलो छ।",draft,"Follows ""Skip if""."
 H42.daily,H42 Pushed Back,"3 min: blow dry back, a little matte cream.","3 मिनेट: ड्रायरले पछाडितिर सुकाउनुहोस्, थोरै म्याट क्रिम।",draft,
 H42.weekly,H42 Pushed Back,Nothing.,केही पनि होइन।,draft,
 H42.nextVisit,H42 Pushed Back,in 4 weeks,4 हप्तामा,draft,
@@ -3381,7 +3399,7 @@ L14.name,L14 Wedding Ready,Wedding Ready,बिहेका लागि तय�
 L14.shortLine,L14 Wedding Ready,Lifted quiff with a sharp faded beard. Made for photos.,धारिलो Faded beard सँग उठाइएको Quiff। फोटोका लागि बनेको।,draft,
 L14.description,L14 Wedding Ready,A quiff with height and a faded beard with clean lines. Made for photos.,उचाइ भएको Quiff र सफा लाइनसहितको Faded beard। फोटोका लागि बनेको।,draft,
 L14.pickIf,L14 Wedding Ready,you have a wedding or festival coming. Book it 1–2 days before.,तपाईंको बिहे वा चाडपर्व आउँदैछ। 1–2 दिनअघि बुक गर्नुहोस्।,draft,"Follows ""Pick this if""."
-L14.skipIf,L14 Wedding Ready,"you have a long face, or no time to blow dry.","तपाईंको अनुहार लाम्चो छ, वा ड्रायर चलाउने समय छैन।",draft,"Follows ""Skip if""."
+L14.skipIf,L14 Wedding Ready,"you have a long or heart-shaped face, or no time to blow dry.","तपाईंको अनुहार लाम्चो वा मुटु आकारको छ, वा ड्रायर चलाउने समय छैन।",draft,"Follows ""Skip if""."
 L14.daily,L14 Wedding Ready,"6 min: blow dry, wax, then beard oil.","6 मिनेट: ड्रायरले सुकाउनुहोस्, वाक्स, अनि बियर्ड आयल।",draft,
 L14.weekly,L14 Wedding Ready,Trim the beard once.,दाह्री एक पटक ट्रिम।,draft,
 L14.nextVisit,L14 Wedding Ready,in 2–3 weeks,2–3 हप्तामा,draft,
@@ -3430,7 +3448,7 @@ L17.name,L17 Modern Moustache,Modern Moustache,आधुनिक जुँग�
 L17.shortLine,L17 Modern Moustache,Pushed-back hair with a natural full moustache.,प्राकृतिक पूरा जुँगासँग पछाडि धकेलिएको कपाल।,draft,
 L17.description,L17 Modern Moustache,"A soft pushed-back top, clean-shaven cheeks and chin, and a tidy natural moustache. Mature and modern at once.","नरम, पछाडि धकेलिएको माथि, सफा खौरिएका गाला र चिउँडो, र सफा प्राकृतिक जुँगा। एकैसाथ परिपक्व र आधुनिक।",draft,
 L17.pickIf,L17 Modern Moustache,you want a moustache look that still feels current.,तपाईं अहिलेको जमानामा पनि सुहाउने जुँगावाला लुक चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
-L17.skipIf,L17 Modern Moustache,"your moustache grows patchy, or you have a long face.","तपाईंको जुँगा ठाउँ-ठाउँमा उम्रन्छ, वा अनुहार लाम्चो छ।",draft,"Follows ""Skip if""."
+L17.skipIf,L17 Modern Moustache,"your moustache grows patchy, or you have a long or heart-shaped face.","तपाईंको जुँगा ठाउँ-ठाउँमा उम्रन्छ, वा अनुहार लाम्चो वा मुटु आकारको छ।",draft,"Follows ""Skip if""."
 L17.daily,L17 Modern Moustache,"8 min: shave around the moustache, blow dry the top back.","8 मिनेट: जुँगा वरिपरि खौर्नुहोस्, ड्रायरले माथिको कपाल पछाडितिर सुकाउनुहोस्।",draft,
 L17.weekly,L17 Modern Moustache,Trim the moustache edge once.,जुँगाको किनारा एक पटक ट्रिम।,draft,
 L17.nextVisit,L17 Modern Moustache,in 4 weeks,4 हप्तामा,draft,

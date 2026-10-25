@@ -12,7 +12,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | L01 Office Ready | H10 Classic Side Part | B01 Clean Shave | — | — | Oval, Square, Round, Heart | Any | Medium |
 | L02 Easy Everyday | H02 Crew Cut | B02 Light Stubble | — | — | Oval, Square, Round | Any | Low |
-| L03 Sharp Fade | H07 Low Fade | B04 Short Boxed Beard | — | — | Oval, Round, Heart | Medium, Full | Medium |
+| L03 Sharp Fade | H07 Low Fade | B04 Short Boxed Beard | — | — | Oval, Round, Long, Heart | Medium, Full | Medium |
 | L04 Korean Style | H18 Two-Block | B01 Clean Shave | Shave off | — | Oval, Square, Long, Heart | Any | Medium |
 | L05 Gentleman | H13 Slick Back | B05 Full Beard | — | — | Oval, Square | Full | High |
 | L06 Rugged | H01 Buzz Cut | B03 Heavy Stubble | — | — | Oval, Square | Medium, Full | Low |
@@ -23,13 +23,13 @@
 | L11 Trendy Wolf | H28 Wolf Cut | B01 Clean Shave | Shave off | — | Oval, Square, Long, Heart | Any | Medium |
 | L12 Bold Balbo | H12 Undercut | B11 Balbo | Part of beard | — | Oval, Square, Round, Heart | Medium, Full | Medium |
 | L13 Grey Gentleman | H10 Classic Side Part | B04 Short Boxed Beard | — | C08 Grey Blending | Oval, Round, Heart | Medium, Full | Medium |
-| L14 Wedding Ready | H14 Quiff | B10 Faded Beard | — | — | Oval, Square, Round, Heart | Medium, Full | High |
+| L14 Wedding Ready | H14 Quiff | B10 Faded Beard | — | — | Oval, Square, Round | Medium, Full | High |
 | L15 Bald and Bearded | H30 Head Shave | B05 Full Beard | — | — | Oval, Square | Full | High |
 | L16 Soft Waves | H37 Korean Perm | B01 Clean Shave | Shave off | — | Oval, Square, Long, Heart | Any | Medium |
-| L17 Modern Moustache | H42 Pushed Back | B01 Clean Shave | M09 Natural Full | — | Oval, Square, Round, Heart | Medium, Full | Medium |
+| L17 Modern Moustache | H42 Pushed Back | B01 Clean Shave | M09 Natural Full | — | Oval, Square, Round | Medium, Full | Medium |
 | L18 Rider Ready | H31 Crop Fade | B03 Heavy Stubble | — | — | Oval, Square, Long, Heart | Medium, Full | Medium |
 | L19 Curl Natural | H39 Natural Curls | B02 Light Stubble | — | — | Oval, Square, Long, Heart | Any | Low |
-| L20 Bun and Beard | H29 Man Bun | B05 Full Beard | — | — | Oval, Square, Heart | Full | High |
+| L20 Bun and Beard | H29 Man Bun | B05 Full Beard | — | — | Oval, Square | Full | High |
 | L21 Silver Crop | H05 French Crop | B01 Clean Shave | Shave off | C07 Ash Grey / Silver | Oval, Square, Long, Heart | Any | High |
 | L22 Grey-Free Classic | H03 Ivy League | B01 Clean Shave | M01 Short Trimmed | C02 Natural Black | Oval, Square, Long, Heart | Any | Medium |
 | L23 Festival Moustache | H10 Classic Side Part | B01 Clean Shave | M04 Handlebar | — | Oval, Heart | Full | High |
@@ -82,7 +82,7 @@ Modern fade with a sharp, short beard.
 - **Daily:** 3 min: wax on top, beard oil.
 - **Weekly:** Trim the beard once.
 - **Next barber visit:** in 2–3 weeks
-- **Suits:** Oval, round and heart face · All hair types · Medium or full beard growth
+- **Suits:** Oval, round, long and heart face · All hair types · Medium or full beard growth
 
 ## L04 Korean Style
 
@@ -208,7 +208,7 @@ Undercut with a sharp Balbo beard.
 - **Daily:** 6 min: style the top with wax, then beard oil.
 - **Weekly:** Shave the sideburns and gaps twice.
 - **Next barber visit:** in 3 weeks
-- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Medium or full beard growth
+- **Suits:** Oval, square and round face · Straight or wavy hair · Medium or full beard growth
 
 ## L13 Grey Gentleman
 
@@ -231,7 +231,7 @@ Lifted quiff with a sharp faded beard. Made for photos.
 **Description:** A quiff with height and a faded beard with clean lines. Made for photos.
 
 - **Pick this if:** you have a wedding or festival coming. Book it 1–2 days before.
-- **Skip if:** you have a long face, or no time to blow dry.
+- **Skip if:** you have a long or heart-shaped face, or no time to blow dry.
 - **Includes:** H14 Quiff · B10 Faded Beard
 - **Daily:** 6 min: blow dry, wax, then beard oil.
 - **Weekly:** Trim the beard once.
@@ -274,12 +274,12 @@ Pushed-back hair with a natural full moustache.
 **Description:** A soft pushed-back top, clean-shaven cheeks and chin, and a tidy natural moustache. Mature and modern at once.
 
 - **Pick this if:** you want a moustache look that still feels current.
-- **Skip if:** your moustache grows patchy, or you have a long face.
+- **Skip if:** your moustache grows patchy, or you have a long or heart-shaped face.
 - **Includes:** H42 Pushed Back · B01 Clean Shave · M09 Natural Full
 - **Daily:** 8 min: shave around the moustache, blow dry the top back.
 - **Weekly:** Trim the moustache edge once.
 - **Next barber visit:** in 4 weeks
-- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Medium or full beard growth
+- **Suits:** Oval, square and round face · Straight or wavy hair · Medium or full beard growth
 
 ## L18 Rider Ready
 
@@ -321,7 +321,7 @@ Long hair tied in a bun with a full beard.
 - **Daily:** 5 min: tie the bun, then beard oil and comb.
 - **Weekly:** Conditioner 2–3 times, beard wash 2–3 times.
 - **Next barber visit:** in 3–4 weeks for the beard, 8 weeks for a hair trim
-- **Suits:** Oval, square and heart face · Straight or wavy hair · Full beard growth
+- **Suits:** Oval and square face · Straight or wavy hair · Full beard growth
 
 ## L21 Silver Crop
 

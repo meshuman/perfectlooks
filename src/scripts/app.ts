@@ -1,7 +1,7 @@
 // Runs on every page. Connects the static HTML to the shared state:
 // tab counters, hearts, Add to My Look buttons, and "Suits you" sorting on lists.
 import { filledCount, inLook, type AddData } from '@/lib/look';
-import { answeredCount, suits, type Match, type MatchCategory } from '@/lib/match';
+import { answeredCount, mismatches, suits, type Match, type MatchCategory, type Question } from '@/lib/match';
 import { $answers, $faceFilter, $favourites, $look, addItem, toggleFavourite, useReadyLook } from '@/lib/stores';
 import { text } from '@/lib/ui';
 
@@ -102,9 +102,42 @@ $answers.subscribe((answers) => {
   }
 });
 
+// ---------- Personal verdict on a detail page ----------
+
+// Which "suits.*" label names each question when a style doesn't fit an answer.
+const REASON_LABEL: Record<Question, string> = {
+  face: 'suits.face',
+  hairType: 'suits.hairType',
+  hairAmount: 'suits.thinHair',
+  growth: 'suits.growth',
+  skin: 'suits.skin',
+  grey: 'suits.grey',
+};
+
+$answers.subscribe((answers) => {
+  for (const verdict of all<HTMLElement>('[data-verdict]')) {
+    const match = JSON.parse(verdict.dataset.match!) as Match;
+    const category = verdict.dataset.category as MatchCategory;
+    const result = suits(match, category, answers);
+    const state = result === null ? 'ask' : result ? 'yes' : 'no';
+    for (const part of Array.from(verdict.querySelectorAll<HTMLElement>('[data-state-for]'))) part.hidden = part.dataset.stateFor !== state;
+    const reasons = verdict.querySelector<HTMLElement>('[data-verdict-reasons]');
+    if (reasons && state === 'no') {
+      const names = mismatches(match, category, answers).map((q) => text(REASON_LABEL[q]).toLowerCase());
+      reasons.textContent = text('detail.verdictNoText', { reasons: names.join(', ') });
+    }
+  }
+  // Outline the visitor's own face shape or skin tone in the "Who it suits" panel.
+  for (const option of all<HTMLElement>('[data-fit-option]')) {
+    option.toggleAttribute('data-you', answers[option.dataset.fitQ as Question] === option.dataset.fitOption);
+  }
+});
+
 // ---------- Face shape filter (Hair, Beard and Moustache lists) ----------
 
 // Hides the styles that don't suit the picked face shape. The pick is shared by the three lists.
+const faceParam = new URLSearchParams(location.search).get('face');
+if (faceParam && all<HTMLElement>('[data-face-chip]').some((chip) => chip.dataset.faceChip === faceParam)) $faceFilter.set(faceParam);
 for (const chip of all<HTMLElement>('[data-face-chip]')) {
   chip.addEventListener('click', () => $faceFilter.set(chip.dataset.faceChip && $faceFilter.get() !== chip.dataset.faceChip ? chip.dataset.faceChip : ''));
 }

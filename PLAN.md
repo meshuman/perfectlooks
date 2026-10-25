@@ -33,7 +33,7 @@ Content source: the "Barber Style Catalogue – Content (English v1)" documents 
 | Preact islands + nanostores | Only Favourites, My Look, About you and the Barber Card need JavaScript. |
 | Content collections + Zod | Every item is checked against a schema at build time. |
 | Tailwind CSS v4 | Design tokens defined once with `@theme`. |
-| astro:assets | AVIF/WebP in several sizes, lazy-loaded. |
+| astro:assets | WebP in several sizes, lazy-loaded (social-share previews stay JPG). |
 | sessionStorage | Favourites and My Look last for this visit only. No login. |
 | Cloudflare Pages | Free, fast in South Asia, a preview for every change. Pages are built one file each (`/styles` → `styles.html`), so they're served without a trailing-slash redirect. |
 | Vitest + Playwright | Unit tests for the rules, smoke tests at 360 px. |
@@ -112,7 +112,7 @@ Token names `gold`, `gold-fill`, `shell` and `core` are kept from the earlier th
 | 5 ✅ | Shop page, structured data (Article, BreadcrumbList, HairSalon, WebSite), generated robots.txt, sitemap, social preview image and icons (`npm run brand`), 404 page | `npm run check:seo`: 0 errors across 134 pages. Rich Results Test and Search Console submission need the live domain |
 | 6 ✅ | Offline (generated service worker, offline page and banner), one file per page (no redirect hop), font preloads, tap prefetch, skip link, accessibility fixes | `npm run qa` on a budget-phone profile: LCP 1.0–2.2 s, CLS ≤ 0.001, JS ≤ 15 KB per page, no axe WCAG 2.2 AA issues. `npm run smoke` includes an offline check |
 | 7 ✅ (system) | Nepali and Hindi: translation sheets (`translations/ne.csv`, `hi.csv`, `npm run i18n`), every page under `/ne/` and `/hi/`, hreflang and sitemap alternates, language switch, Barber Card in the barber's language, English fallback | Pseudo-translation build (`PL_PSEUDO=1`): 401 pages, 0 SEO errors, no hard-coded English left. **Nepali fully drafted** (3,799 rows, status `draft`, glossary in `translations/glossary.md`); review build `PL_DRAFTS=1`: 269 pages, 0 SEO errors. **Hindi fully drafted** too. **Both live** with drafts (`useDrafts: true`): 401 pages, 0 SEO errors, smoke and QA (incl. /ne, /hi) pass. Native review continues in the sheets |
-| ∥ | Image pipeline ✅: prompt sheet (`/dev/prompts`), photo slots (`src/assets/catalogue/ID.jpg`), resizing to AVIF/WebP, alt text, per-item social preview and structured-data image, callout dots placed with `/dev/callouts` | Tested end to end with a sample photo (removed). Waiting on the 122 clean photos |
+| ∥ | Image pipeline ✅: prompt sheet (`/dev/prompts`), photo slots (`src/assets/catalogue/ID.jpg`), resizing to WebP, alt text, per-item social preview and structured-data image, callout dots placed with `/dev/callouts` | Tested end to end with a sample photo (removed). Waiting on the 122 clean photos |
 
 ## Open items
 

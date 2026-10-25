@@ -16,21 +16,21 @@ interface Props {
 const { itemId, name, add } = Astro.props;
 ---
 
-<div class="sticky bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 -mx-5 mt-10 bg-paper/[0.97] px-5 py-3 shadow-[inset_0_1px_0_var(--color-line)] md:mx-0 md:px-0">
+<div class="sticky bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 -mx-5 mt-10 bg-paper px-5 py-2.5 shadow-[inset_0_1px_0_var(--color-line)] md:mx-0 md:px-0">
   <div class="mx-auto flex max-w-md items-center gap-3">
     <button
       type="button"
       data-save={itemId}
       aria-label={t('card.save', { name })}
       aria-pressed="false"
-      class="grid size-14 shrink-0 place-items-center shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_2px_var(--color-ink)] active:scale-95"
+      class="grid size-12 shrink-0 place-items-center shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_2px_var(--color-ink)] active:scale-95"
     >
       <Icon name="heart" size={20} />
     </button>
     <button
       type="button"
       data-add={JSON.stringify(add)}
-      class="gold-fill group inline-flex h-14 flex-1 items-center justify-center gap-2 text-base font-medium tracking-[0.04em] transition duration-300 ease-out-soft active:scale-[0.99] aria-pressed:bg-transparent aria-pressed:text-ink aria-pressed:shadow-[inset_0_0_0_2px_var(--color-ink)]"
+      class="gold-fill group inline-flex h-12 flex-1 items-center justify-center gap-2 text-base font-medium tracking-[0.04em] transition duration-300 ease-out-soft active:scale-[0.99] aria-pressed:bg-transparent aria-pressed:text-ink aria-pressed:shadow-[inset_0_0_0_2px_var(--color-ink)]"
     >
       <Icon name="plus" size={18} class="group-aria-pressed:hidden" />
       <Icon name="check" size={18} class="hidden group-aria-pressed:block" />

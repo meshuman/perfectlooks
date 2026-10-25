@@ -2,7 +2,6 @@
 import Icon from './Icon.astro';
 import ItemPhoto from './ItemPhoto.astro';
 import UpkeepDots from './UpkeepDots.astro';
-import type { IconName } from '@/data/icons';
 import type { AddData } from '@/lib/look';
 import type { Match, MatchCategory } from '@/lib/match';
 import { useI18n } from '@/i18n';
@@ -17,7 +16,6 @@ interface Props {
   upkeep?: 'Low' | 'Medium' | 'High';
   /** Right footer text when there is no upkeep, e.g. "45 min". */
   aside?: string;
-  icon?: IconName;
   /** CSS background for a colour swatch, shown until the colour has a photo. */
   swatch?: string;
   /** Photo angle, for the alt text. */
@@ -31,10 +29,10 @@ interface Props {
   add?: AddData;
 }
 
-const { href, name, shortLine, meta, upkeep, aside, icon = 'user', swatch, suitsYou = false, itemId, match, category, add, mainPhoto = 'front' } = Astro.props;
+const { href, name, shortLine, meta, upkeep, aside, swatch, suitsYou = false, itemId, match, category, add, mainPhoto = 'front' } = Astro.props;
 ---
 
-{/* Flat, frameless card: square photo on its colour block, label underneath. */}
+{/* Flat, frameless card. Every card has the same parts: square media (photo, swatch or the branded placeholder), name, one line, meta. */}
 <article
   data-item={itemId}
   data-category={category}
@@ -44,13 +42,12 @@ const { href, name, shortLine, meta, upkeep, aside, icon = 'user', swatch, suits
   <div class="relative aspect-square overflow-hidden">
     <ItemPhoto
       item={{ id: itemId ?? '', name, mainPhoto, swatch }}
-      icon={icon}
       class="size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
     />
     <span
       data-suits-badge
       hidden={!suitsYou}
-      class="absolute top-0 left-0 inline-flex items-center gap-1 bg-ink px-2.5 py-1.5 text-[0.6875rem] font-medium tracking-wide text-white"
+      class="absolute top-0 left-0 inline-flex items-center gap-1 bg-brand px-2.5 py-1.5 text-[0.6875rem] font-semibold tracking-wide text-white"
     >
       <Icon name="check" size={11} strokeWidth={3} />
       {t('card.suitsYou')}
@@ -62,7 +59,7 @@ const { href, name, shortLine, meta, upkeep, aside, icon = 'user', swatch, suits
     data-save={itemId}
     aria-label={t('card.save', { name })}
     aria-pressed="false"
-    class="absolute top-2 right-2 z-10 grid size-9 place-items-center rounded-full bg-white text-ink transition duration-300 ease-out-soft active:scale-90"
+    class="absolute top-2 right-2 z-10 grid size-9 place-items-center rounded-full bg-white text-ink transition duration-300 ease-out-soft before:absolute before:-inset-1 before:content-[''] active:scale-90"
   >
     <Icon name="heart" size={17} strokeWidth={1.5} />
   </button>

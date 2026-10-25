@@ -1,6 +1,7 @@
 // One shape for every catalogue item, whatever its category, so pages and
 // components don't need to know which collection an item came from.
 // Items are loaded once in English, then localised per page language with localize().
+import { splitCare } from '@/lib/text';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { getImage } from 'astro:assets';
 import { photoAlt, photoFor } from './photos';
@@ -60,6 +61,13 @@ export interface SuitsRow {
 /** A Ready Look slot. Names and beard modes are filled in once every item is loaded. */
 export type LookPart = LookPartInput;
 
+export interface GlanceCell {
+  label: string;
+  value: string;
+  /** Draws the upkeep dots next to the value. */
+  level?: 'Low' | 'Medium' | 'High';
+}
+
 export interface Item {
   id: string;
   category: CategoryKey;
@@ -88,6 +96,8 @@ export interface Item {
   cardAside?: string;
   /** Short facts shown as chips on the detail page. */
   facts: string[];
+  /** The four things to know first, shown as the detail page's "at a glance" strip. */
+  glance: GlanceCell[];
   suits: SuitsRow[];
   swatch?: string;
   swatchLabel?: string;
@@ -126,6 +136,7 @@ function toItem(entry: Entry): Item {
     // Filled in by localize().
     cardMeta: '',
     facts: [] as string[],
+    glance: [] as GlanceCell[],
     suits: [] as SuitsRow[],
   };
 
@@ -192,6 +203,7 @@ export function localize(item: Item, i: I18n): Item {
   let cardMeta = '';
   let cardAside: string | undefined;
   let facts: string[] = [];
+  let glance: GlanceCell[] = [];
   let suits: SuitsRow[] = [];
   const faceRow = () => ({ label: t('suits.face'), values: m.face!.length === 5 ? [t('suits.allFaces')] : values('face', m.face!) });
   const typeRow = () => ({
@@ -200,10 +212,15 @@ export function localize(item: Item, i: I18n): Item {
   });
   const growthRow = () => ({ label: t('suits.growth'), values: m.growth!.length === 3 ? [t('suits.anyGrowth')] : values('growth', m.growth!) });
 
+  const daily = { label: t('detail.daily'), value: splitCare(f('daily', item.daily)).head };
+  const nextVisit = { label: t('detail.nextVisit'), value: splitCare(f('nextVisit', item.nextVisit)).head };
+  const upkeepCell = { label: t('upkeep.label'), value: upkeep, level: item.upkeep };
+
   switch (item.category) {
     case 'hair': {
       const length = f('length', item.raw.length!);
       cardMeta = length;
+      glance = [{ label: t('detail.length'), value: length }, upkeepCell, daily, nextVisit];
       facts = [length, t('facts.upkeep', { level: upkeep })];
       suits = [faceRow(), typeRow(), { label: t('suits.thinHair'), values: [m.thinHairOk ? t('suits.thinOk') : t('suits.thinNotIdeal')] }];
       break;
@@ -212,6 +229,7 @@ export function localize(item: Item, i: I18n): Item {
     case 'moustaches': {
       const length = f('length', item.raw.length!);
       cardMeta = length;
+      glance = [{ label: t('detail.length'), value: length }, upkeepCell, daily, nextVisit];
       facts = [length, t('facts.upkeep', { level: upkeep })];
       suits = [faceRow(), growthRow()];
       break;
@@ -220,6 +238,12 @@ export function localize(item: Item, i: I18n): Item {
       const level = item.raw.swatchLabel!.match(/^Level ([\d.–-]+)/)?.[1];
       cardMeta = level ? t('facts.level', { level }) : t('facts.plantColour');
       cardAside = f('timeAtShop', item.raw.timeAtShop!);
+      glance = [
+        { label: t('detail.coversGrey'), value: f('coversGrey', item.raw.coversGrey!) },
+        { label: t('detail.bleach'), value: f('bleach', item.raw.bleach!) },
+        { label: t('detail.atShop'), value: cardAside },
+        nextVisit,
+      ];
       facts = [
         cardMeta,
         t('facts.coversGrey', { value: f('coversGrey', item.raw.coversGrey!) }),
@@ -234,6 +258,7 @@ export function localize(item: Item, i: I18n): Item {
     case 'looks': {
       const named = item.parts!.filter((p) => p.id);
       cardMeta = named.map((p) => t(`slot.${p.slot}` as UiKey)).join(' + ');
+      glance = [upkeepCell, { label: t('detail.includes'), value: cardMeta }, daily, nextVisit];
       facts = [t('facts.upkeep', { level: upkeep }), t('facts.parts', { count: named.length })];
       suits = [faceRow(), typeRow(), growthRow()];
       break;
@@ -262,6 +287,7 @@ export function localize(item: Item, i: I18n): Item {
     cardMeta,
     cardAside,
     facts,
+    glance,
     suits,
   };
 }

@@ -1,0 +1,49 @@
+---
+// Previous and next style in the same list, so browsing doesn't mean going back to the list each time.
+import Icon from './Icon.astro';
+import ItemPhoto from './ItemPhoto.astro';
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+
+interface Neighbour {
+  id: string;
+  name: string;
+  href: string;
+  mainPhoto: 'front' | 'side';
+  swatch?: string;
+}
+
+interface Props {
+  prev?: Neighbour;
+  next?: Neighbour;
+}
+
+const { prev, next } = Astro.props;
+---
+
+<nav aria-label={`${t('detail.prev')} / ${t('detail.next')}`} class="grid grid-cols-2 gap-px border border-line bg-line">
+  {
+    [
+      { item: prev, label: t('detail.prev'), dir: 'prev' },
+      { item: next, label: t('detail.next'), dir: 'next' },
+    ].map(({ item, label, dir }) =>
+      item ? (
+        <a href={item.href} class:list={['group flex items-center gap-3 bg-paper p-3', dir === 'next' && 'flex-row-reverse text-right']}>
+          <span class="relative block size-14 shrink-0 overflow-hidden">
+            <ItemPhoto item={{ id: item.id, name: item.name, mainPhoto: item.mainPhoto, swatch: item.swatch }} decorative class="size-full" />
+          </span>
+          <span class="min-w-0 flex-1">
+            <span class="eyebrow flex items-center gap-1 group-hover:text-ink" style={dir === 'next' ? 'justify-content:flex-end' : ''}>
+              {dir === 'prev' && <Icon name="arrowLeft" size={13} />}
+              {label}
+              {dir === 'next' && <Icon name="arrowRight" size={13} />}
+            </span>
+            <span class="mt-0.5 line-clamp-2 block text-[0.9375rem] leading-snug font-semibold">{item.name}</span>
+          </span>
+        </a>
+      ) : (
+        <div class="bg-paper" />
+      ),
+    )
+  }
+</nav>

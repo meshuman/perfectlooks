@@ -141,6 +141,33 @@ await check('Face shape filter hides styles that do not suit it', async () => {
   if (after !== (await page.locator('[data-item-list] > li').count())) throw new Error('All does not show every style');
 });
 
+// The detail page tells the visitor whether a style suits their answers, and outlines their own face shape.
+await check('Detail page gives a personal verdict', async () => {
+  await page.evaluate(() => sessionStorage.clear());
+  await go('/styles/quiff');
+  await page.locator('[data-verdict] [data-state-for="ask"]:not([hidden])').waitFor({ timeout: 3000 });
+  await page.evaluate(() => sessionStorage.setItem('pl:answers', JSON.stringify({ face: 'Long' })));
+  await go('/styles/quiff');
+  await page.locator('[data-verdict] [data-state-for="no"]:not([hidden])').waitFor({ timeout: 3000 });
+  await expectText(page.locator('[data-verdict-reasons]'), 'face');
+  await page.locator('[data-fit-option="Long"][data-you]').waitFor({ timeout: 3000 });
+  await page.evaluate(() => sessionStorage.setItem('pl:answers', JSON.stringify({ face: 'Round' })));
+  await go('/styles/quiff');
+  await page.locator('[data-verdict] [data-state-for="yes"]:not([hidden])').waitFor({ timeout: 3000 });
+  if (await page.locator('figure [data-suits-badge]').isHidden()) throw new Error('no Suits you badge on the photo');
+});
+
+// The home page's face shape row opens the list already filtered.
+await check('Face shape on the home page filters the list', async () => {
+  await page.evaluate(() => sessionStorage.clear());
+  await go('/');
+  await page.click('a[href="/styles?face=Round"]');
+  await page.locator('[data-face-chip="Round"][aria-pressed="true"]').waitFor({ timeout: 3000 });
+  const total = await page.locator('[data-item-list] > li').count();
+  const shown = await page.locator('[data-item-list] > li:not([hidden])').count();
+  if (!(shown > 0 && shown < total)) throw new Error(`Round shows ${shown} of ${total}`);
+});
+
 await check('Keeps working offline after the first visit', async () => {
   await go('/');
   await page.evaluate(() => navigator.serviceWorker.ready);

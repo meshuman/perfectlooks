@@ -7,25 +7,26 @@ interface Props {
   href: string;
   title: string;
   count: string;
-  icon: IconName;
+  /** Kept so older callers still compile; tiles show photos or the placeholder, never a one-off icon. */
+  icon?: IconName;
   /** The lead tile: full width on phones, a 2x2 block on wider screens. */
   feature?: boolean;
   /** An item whose photo represents the category, used once that photo exists. */
-  photo?: { id: string; name: string; mainPhoto: 'front' | 'side' };
+  photo?: { id: string; name: string; mainPhoto: 'front' | 'side'; swatch?: string };
   /** Force a specific colour block class, e.g. 'bg-block-sky'. */
   block?: string;
   class?: string;
   [key: string]: unknown;
 }
 
-const { href, title, count, icon, feature = false, photo, block, class: className, ...rest } = Astro.props;
+const { href, title, count, feature = false, photo, block, class: className, ...rest } = Astro.props;
 ---
 
 <a href={href} class:list={['group flex flex-col', feature && 'col-span-2 md:row-span-2', className]} {...rest}>
   <div class:list={['relative overflow-hidden', feature ? 'aspect-[16/10] md:aspect-auto md:flex-1 md:min-h-80' : 'aspect-square']}>
     <ItemPhoto
       item={photo ?? { id: title, name: title, mainPhoto: 'front' }}
-      icon={icon}
+      decorative
       block={block}
       class="absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
     />

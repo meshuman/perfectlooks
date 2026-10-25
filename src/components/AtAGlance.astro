@@ -1,0 +1,31 @@
+---
+// The four things to know first, as a spec sheet: hairline grid, small label, firm value.
+import UpkeepDots from './UpkeepDots.astro';
+import type { GlanceCell } from '@/data/catalogue';
+import { useI18n } from '@/i18n';
+const { t } = useI18n(Astro.url);
+
+interface Props {
+  cells: GlanceCell[];
+  class?: string;
+}
+
+const { cells, class: className } = Astro.props;
+---
+
+<section aria-labelledby="glance-title" class={className}>
+  <h2 id="glance-title" class="sr-only">{t('detail.glance')}</h2>
+  <dl class="grid grid-cols-2 gap-px border border-line bg-line">
+    {
+      cells.map((cell) => (
+        <div class="bg-paper px-4 py-3.5">
+          <dt class="eyebrow">{cell.label}</dt>
+          <dd class="mt-1 flex items-center gap-2 text-[1.0625rem] leading-snug font-semibold">
+            <span>{cell.value}</span>
+            {cell.level && <UpkeepDots level={cell.level} compact />}
+          </dd>
+        </div>
+      ))
+    }
+  </dl>
+</section>

@@ -12,20 +12,20 @@
 | H04 Caesar Cut | Short | Low | Oval, Square, Long, Heart | All | Yes | Front |
 | H05 French Crop | Short | Low | Oval, Square, Long, Heart | All | Yes | Front |
 | H06 Taper Cut | Short | Low | All | All | Yes | Front |
-| H07 Low Fade | Short | Medium | Oval, Square, Round, Heart | All | Yes | Side |
+| H07 Low Fade | Short | Medium | All | All | Yes | Side |
 | H08 Mid Fade | Short | Medium | Oval, Square, Round, Heart | All | Yes | Side |
 | H09 Skin Fade | Short | High | Oval, Square, Round | All | Yes | Side |
 | H10 Classic Side Part | Short to medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | Yes | Front |
 | H11 Comb Over Fade | Medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | No | Side |
 | H12 Undercut | Medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | No | Side |
 | H13 Slick Back | Medium | High | Oval, Square, Round | Straight, Wavy | No | Side |
-| H14 Quiff | Medium | High | Oval, Square, Round, Heart | Straight, Wavy | No | Side |
+| H14 Quiff | Medium | High | Oval, Square, Round | Straight, Wavy | No | Side |
 | H15 Pompadour | Medium to long | High | Oval, Square, Round | Straight, Wavy | No | Side |
-| H16 Spiky | Short | Medium | Oval, Square, Round | Straight | Yes | Front |
+| H16 Spiky | Short | Medium | Oval, Square, Round | Straight | No | Front |
 | H17 Faux Hawk | Short to medium | Medium | Oval, Square, Round | Straight, Wavy | No | Front |
 | H18 Two-Block | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | No | Front |
 | H19 Middle Part | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | No | Front |
-| H20 Medium Flow | Medium to long | Medium | Oval, Square, Long, Heart | Straight, Wavy | No | Front |
+| H20 Medium Flow | Medium to long | Medium | Oval, Square | Straight, Wavy | No | Front |
 | H21 Buzz Fade | Very short | Medium | Oval, Square | All | Yes | Side |
 | H22 High and Tight | Very short | Medium | Oval, Square | All | Yes | Side |
 | H23 Taper Fade | Short | Medium | All | All | Yes | Side |
@@ -34,7 +34,7 @@
 | H26 Curly Top Fade | Short to medium | Medium | Oval, Square, Round, Heart | Curly, Wavy | Yes | Front |
 | H27 Side Fringe | Medium | Medium | Oval, Long, Heart | Straight | No | Front |
 | H28 Wolf Cut | Medium to long | Medium | Oval, Square, Long, Heart | Straight, Wavy | No | Front |
-| H29 Man Bun | Long | Low | Oval, Square, Long, Heart | Straight, Wavy | No | Side |
+| H29 Man Bun | Long | Low | Oval, Square, Round | Straight, Wavy | No | Side |
 | H30 Head Shave | No hair | High | Oval, Square | All | Yes | Front |
 | H31 Crop Fade | Short | Medium | Oval, Square, Long, Heart | All | Yes | Front |
 | H32 Burst Fade | Short | High | Oval, Square, Round, Heart | All | Yes | Side |
@@ -43,11 +43,11 @@
 | H35 Mushroom Cut | Medium | Medium | Oval, Long, Heart | Straight | No | Front |
 | H36 Comma Hair | Medium | High | Oval, Square, Long, Heart | Straight | No | Front |
 | H37 Korean Perm | Medium | Low | Oval, Square, Long, Heart | Straight | Yes | Front |
-| H38 Brush Up | Short | Medium | Oval, Square, Round, Heart | Straight, Wavy | Yes | Front |
+| H38 Brush Up | Short | Medium | Oval, Square, Round | Straight, Wavy | Yes | Front |
 | H39 Natural Curls | Medium | Low | Oval, Square, Long, Heart | Curly, Wavy | No | Front |
 | H40 Shoulder Length | Long | Medium | Oval, Square, Heart | Straight, Wavy | No | Front |
 | H41 School Cut | Short | Low | All | All | Yes | Front |
-| H42 Pushed Back | Medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | No | Side |
+| H42 Pushed Back | Medium | Medium | Oval, Square, Round | Straight, Wavy | No | Side |
 | H43 Dandy Cut | Medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | No | Front |
 | H44 See-Through Bangs | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 | H45 Leaf Cut | Medium | Medium | Oval, Heart | Straight, Wavy | No | Front |
@@ -245,11 +245,11 @@ Sides fade to skin just above the ears. Short top.
 **Description:** Sides fade to skin just above the ears, with a short top. The easiest fade to start with.
 
 - **Pick this if:** you want a clean, modern look that is still fine for school or office.
-- **Skip if:** you have a long face.
+- **Skip if:** you want a bold, sharp fade.
 - **Daily:** 2 min: a little wax on the top.
 - **Weekly:** Nothing.
 - **Next barber visit:** in 2–3 weeks, to keep the fade clean
-- **Suits:** Oval, square, round and heart face · All hair types · Thin hair OK
+- **Suits:** All face shapes · All hair types · Thin hair OK
 - **Main photo:** Side
 
 **FAQ**
@@ -317,7 +317,7 @@ Sides go to bare skin, high up. Very sharp look.
 
 - **Is a skin fade the same as a bald fade?** Yes. Both take the sides down to bare skin with a razor or shaver.
 - **How long does a skin fade stay sharp?** About 1–2 weeks. Book a touch-up every 2 weeks.
-- **Will a skin fade irritate my skin?** It shouldn't. Tell the barber if your skin is sensitive, so they shave gently.
+- **Will a skin fade irritate my skin?** It shouldn't. Tell the barber if your skin is sensitive, so they shave gently. On tightly curled hair, ask for a foil shaver instead of a razor, to avoid ingrown hairs.
 - **Is a skin fade OK for office?** It depends on the office. A low fade or taper fade is the safer choice.
 
 **Barber steps**
@@ -459,11 +459,11 @@ Short sides, front hair lifted up and back.
 **Description:** Short sides with the front lifted up and back. Often called the "puff".
 
 - **Pick this if:** you want height that looks great in photos, or more shape for a round face.
-- **Skip if:** you have a long face or thin hair, or no time to blow dry.
+- **Skip if:** you have a long or heart-shaped face, thin hair, or no time to blow dry.
 - **Daily:** 5 min: blow dry the front up, then wax.
 - **Weekly:** Nothing.
 - **Next barber visit:** in 3–4 weeks
-- **Suits:** Oval, square, round and heart face · Straight or wavy hair
+- **Suits:** Oval, square and round face · Straight or wavy hair
 - **Also called:** Puff
 - **Main photo:** Side
 
@@ -521,11 +521,11 @@ Short top with hair standing up in spikes.
 **Description:** Short top pulled up into spikes with gel. Young and sporty.
 
 - **Pick this if:** you want a fun, energetic look that is quick to style.
-- **Skip if:** you have curly hair or a long face.
+- **Skip if:** you have curly or thin hair, or a long face.
 - **Daily:** 2 min: gel, then pull the hair up into spikes.
 - **Weekly:** Nothing.
 - **Next barber visit:** in 3 weeks
-- **Suits:** Oval, square and round face · Straight hair · Thin hair OK
+- **Suits:** Oval, square and round face · Straight hair
 - **Main photo:** Front
 
 **FAQ**
@@ -643,11 +643,11 @@ Medium length hair pushed back, ends behind the ears.
 **Description:** Medium-length hair pushed back, flowing behind the ears. Natural and easygoing.
 
 - **Pick this if:** you want longer hair with few barber visits.
-- **Skip if:** you have a round face or thin hair.
+- **Skip if:** you have a round, long or heart-shaped face, or thin hair.
 - **Daily:** 2 min: push back with your fingers, a little cream if needed.
 - **Weekly:** Nothing.
 - **Next barber visit:** in 6–8 weeks
-- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Suits:** Oval and square face · Straight or wavy hair
 - **Also called:** Flow
 - **Main photo:** Front
 
@@ -918,11 +918,11 @@ Long hair tied up in a bun at the back of the head.
 **Description:** Long hair pulled back and tied in a bun. Relaxed, and it keeps hair off your face.
 
 - **Pick this if:** your hair already reaches past your chin and you want to keep it long.
-- **Skip if:** your hair is shorter than your chin, or thin.
+- **Skip if:** your hair is shorter than your chin, or thin, or you have a long or heart-shaped face.
 - **Daily:** 2 min: brush back and tie with a soft hair tie.
 - **Weekly:** Conditioner 2–3 times.
 - **Next barber visit:** in 8 weeks, for a trim
-- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Suits:** Oval, square and round face · Straight or wavy hair
 - **Also called:** Top knot
 - **Main photo:** Side
 
@@ -1195,11 +1195,11 @@ Short sides with the top brushed straight up.
 **Description:** Short sides with the top brushed straight up. Fresh, with some height.
 
 - **Pick this if:** you want a little height without the work of a quiff.
-- **Skip if:** you have a long face.
+- **Skip if:** you have a long or heart-shaped face.
 - **Daily:** 2 min: blow dry up, a little wax.
 - **Weekly:** Nothing.
 - **Next barber visit:** in 3–4 weeks
-- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Thin hair OK
+- **Suits:** Oval, square and round face · Straight or wavy hair · Thin hair OK
 - **Main photo:** Front
 
 **FAQ**
@@ -1317,11 +1317,11 @@ Medium top pushed back with a natural, matte finish.
 **Description:** Medium top pushed back with a soft, natural finish. Not shiny like a slick back.
 
 - **Pick this if:** you want smart but relaxed hair for office and weekends.
-- **Skip if:** you have a long face or thin hair.
+- **Skip if:** you have a long or heart-shaped face, or thin hair.
 - **Daily:** 3 min: blow dry back, a little matte cream.
 - **Weekly:** Nothing.
 - **Next barber visit:** in 4 weeks
-- **Suits:** Oval, square, round and heart face · Straight or wavy hair
+- **Suits:** Oval, square and round face · Straight or wavy hair
 - **Main photo:** Side
 
 **FAQ**

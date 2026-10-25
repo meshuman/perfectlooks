@@ -11,6 +11,8 @@ import { getPosts, postHref } from '@/data/learn';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
 import { photoFor } from '@/data/photos';
+import { FACE_SHAPES } from '@/data/faces';
+import { swatches } from '@/data/swatches';
 import { kgfBlock, scissorsMark } from '@/data/brand-marks.mjs';
 import { langParams, publishedLocales, useI18n } from '@/i18n';
 import type { IconName } from '@/data/icons';
@@ -24,12 +26,14 @@ const { t, c, l } = i;
 
 
 // Hair leads: full width on phones, a 2x2 block on wider screens.
-const tiles: { key: CategoryKey; href: string; icon: IconName; feature?: boolean; block?: string; photo?: { id: string; name: string; mainPhoto: 'front' | 'side' } }[] = [
-  { key: 'hair', href: '/styles', icon: 'scissors', feature: true, photo: { id: 'H07', name: 'Low Fade', mainPhoto: 'side' } },
-  { key: 'beards', href: '/beards', icon: 'beard', photo: { id: 'B04', name: 'Short Boxed Beard', mainPhoto: 'front' } },
-  { key: 'moustaches', href: '/moustaches', icon: 'moustache', photo: { id: 'M09', name: 'Natural Full', mainPhoto: 'front' } },
-  { key: 'colours', href: '/colours', icon: 'droplet', photo: { id: 'C02', name: 'Natural Black', mainPhoto: 'front' } },
-  { key: 'looks', href: '/looks', icon: 'sparkles', photo: { id: 'L03', name: 'Sharp Fade', mainPhoto: 'front' } },
+// Every tile shows the same kind of image: a photo of an item in that category (the colour tile shows
+// the colour itself). A tile without a photo falls back to the same branded placeholder as the cards.
+const tiles: { key: CategoryKey; href: string; feature?: boolean; block?: string; photo: { id: string; name: string; mainPhoto: 'front' | 'side'; swatch?: string } }[] = [
+  { key: 'hair', href: '/styles', feature: true, photo: { id: 'H07', name: 'Low Fade', mainPhoto: 'side' } },
+  { key: 'beards', href: '/beards', photo: { id: 'B05', name: 'Full Beard', mainPhoto: 'front' } },
+  { key: 'moustaches', href: '/moustaches', photo: { id: 'M03', name: 'Pencil', mainPhoto: 'front' } },
+  { key: 'colours', href: '/colours', block: 'bg-block-sand', photo: { id: 'C02', name: 'Natural Black', mainPhoto: 'front', swatch: swatches.C02 } },
+  { key: 'looks', href: '/looks', photo: { id: 'H10', name: 'Classic Side Part', mainPhoto: 'front' } },
 ];
 
 // The first three Learn posts in the feed: the ones that help most right before a cut.
@@ -73,7 +77,7 @@ const languages = 1 + publishedLocales().length;
         </p>
         <div class="rise mt-8 flex flex-col items-start gap-5" style="--rise-delay:240ms">
           <Button href={l('/about-you')} size="lg" class="w-full sm:w-auto">{t('home.findStyles')}</Button>
-          <a href="#browse" class="group inline-flex items-center gap-3 text-[0.9375rem] font-medium tracking-wide">
+          <a href="#browse" class="group inline-flex min-h-11 items-center gap-3 text-[0.9375rem] font-medium tracking-wide">
             {t('home.browseAll')}
             <Icon name="arrowRight" size={18} strokeWidth={1.25} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
           </a>
@@ -99,6 +103,29 @@ const languages = 1 + publishedLocales().length;
       </div>
     </section>
 
+    {/* A quick way in: pick a face shape and land on the list already filtered to what suits it. */}
+    <section class="wrap pt-10 md:pt-16" data-reveal aria-labelledby="face-start">
+      <p class="tag">{t('home.faceTitle')}</p>
+      <h2 id="face-start" class="mt-2 text-[1.125rem] leading-snug">{t('home.faceHint')}</h2>
+      <ul class="-mx-4 mt-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:px-0 [&::-webkit-scrollbar]:hidden">
+        {
+          FACE_SHAPES.map((face) => (
+            <li class="shrink-0">
+              <a
+                href={`${l('/styles')}?face=${face.value}`}
+                class="flex h-[4.5rem] w-[4.25rem] flex-col items-center justify-center gap-1.5 bg-card text-[0.75rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:bg-ink hover:text-white active:bg-ink active:text-white md:w-24"
+              >
+                <svg viewBox="0 0 40 48" class="h-7 w-6" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true">
+                  <path d={face.shape} />
+                </svg>
+                {t(`face.${face.value}`)}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
     <section id="browse" class="wrap scroll-mt-20 py-14 md:py-24">
       <div data-reveal>
         <SectionHeader eyebrow={t('home.browse')} title={t('home.chooseCategory')} align="center" />
@@ -112,7 +139,6 @@ const languages = 1 + publishedLocales().length;
                 href={l(tile.href)}
                 title={text.label}
                 count={text.tileCount}
-                icon={tile.icon}
                 feature={tile.feature}
                 photo={tile.photo}
                 block={tile.block}
