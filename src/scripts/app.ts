@@ -97,6 +97,8 @@ $answers.subscribe((answers) => {
     if (empty) empty.hidden = !(applies && matches === 0);
   }
 
+  // "Find what suits you" is switched off for now: the link only shows as Edit once a preference exists.
+  for (const link of all<HTMLElement>('[data-answers-link]')) link.hidden = !answered;
   for (const link of all<HTMLElement>('[data-answers-label]')) {
     link.textContent = answered ? text('list.edit') : text('list.findWhatSuits');
   }
@@ -141,46 +143,247 @@ $answers.subscribe((answers) => {
   }
 });
 
-// ---------- Face shape filter (Hair, Beard and Moustache lists) ----------
+// ---------- Search and filters (list pages) ----------
 
-// Hides the styles that don't suit the picked face shape. The pick is shared by the three lists.
+// One place decides which cards show: the face shape pick, the filter chips and the search text.
+const norm = (value: string) => value.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+const filters = { query: '', upkeep: '', popular: false, bleach: '', colourType: '', time: '', goal: '' };
+const listRows = () => all<HTMLElement>('[data-item-list] > li');
+
 const faceParam = new URLSearchParams(location.search).get('face');
 if (faceParam && all<HTMLElement>('[data-face-chip]').some((chip) => chip.dataset.faceChip === faceParam)) $faceFilter.set(faceParam);
 for (const chip of all<HTMLElement>('[data-face-chip]')) {
   chip.addEventListener('click', () => $faceFilter.set(chip.dataset.faceChip && $faceFilter.get() !== chip.dataset.faceChip ? chip.dataset.faceChip : ''));
 }
 
-$faceFilter.subscribe((face) => {
+function applyList() {
+  const face = $faceFilter.get();
   let label = '';
   for (const chip of all<HTMLElement>('[data-face-chip]')) {
     const on = (chip.dataset.faceChip ?? '') === face;
     chip.setAttribute('aria-pressed', String(on));
     if (on && face) label = chip.textContent?.trim() ?? face;
   }
+  for (const chip of all<HTMLElement>('[data-filter-upkeep]')) chip.setAttribute('aria-pressed', String((chip.dataset.filterUpkeep ?? '') === filters.upkeep));
+  for (const chip of all<HTMLElement>('[data-filter-bleach]')) chip.setAttribute('aria-pressed', String((chip.dataset.filterBleach ?? '') === filters.bleach));
+  for (const chip of all<HTMLElement>('[data-filter-popular]')) chip.setAttribute('aria-pressed', String(filters.popular));
+  for (const chip of all<HTMLElement>('[data-filter-colourtype]')) chip.setAttribute('aria-pressed', String((chip.dataset.filterColourtype ?? '') === filters.colourType));
 
-  for (const list of all<HTMLElement>('[data-item-list][data-face-filterable]')) {
-    let shown = 0;
+  for (const chip of all<HTMLElement>('[data-filter-time]')) chip.setAttribute('aria-pressed', String((chip.dataset.filterTime ?? '') === filters.time));
+  for (const chip of all<HTMLElement>('[data-filter-goal]')) chip.setAttribute('aria-pressed', String((chip.dataset.filterGoal ?? '') === filters.goal));
+
+  const query = norm(filters.query);
+  for (const list of all<HTMLElement>('[data-item-list]')) {
+    const faceable = list.hasAttribute('data-face-filterable');
     const rows = Array.from(list.children) as HTMLElement[];
+    let shown = 0;
     for (const row of rows) {
       const match = row.querySelector<HTMLElement>('[data-match]')?.dataset.match;
       const faces = (match ? (JSON.parse(match) as Match).face : undefined) ?? [];
-      const ok = !face || faces.length === 0 || faces.includes(face);
+      const ok =
+        (!face || !faceable || faces.length === 0 || faces.includes(face)) &&
+        (!query || norm(row.dataset.search ?? '').includes(query)) &&
+        (!filters.upkeep || row.dataset.upkeep === filters.upkeep) &&
+        (!filters.popular || row.dataset.popular === 'true') &&
+        (!filters.bleach || row.dataset.bleach === filters.bleach) &&
+        (!filters.colourType || row.dataset.colourType === filters.colourType) &&
+        (!filters.time || row.dataset.time === filters.time) &&
+        (!filters.goal || row.dataset.goal === filters.goal);
       row.hidden = !ok;
       if (ok) shown += 1;
     }
     const count = document.querySelector<HTMLElement>('[data-count]');
     if (count) {
       const { total = String(rows.length), unit = '' } = count.dataset;
-      count.textContent = `· ${face ? text('list.countOf', { shown: String(shown), total, unit }) : `${total} ${unit}`}`;
+      count.textContent = `· ${shown < rows.length ? text('list.countOf', { shown: String(shown), total, unit }) : `${total} ${unit}`}`;
     }
+    const none = document.querySelector<HTMLElement>('[data-no-matches]');
+    if (none) none.hidden = shown > 0;
   }
 
+  const active = [face, filters.upkeep, filters.popular, filters.bleach, filters.colourType, filters.time, filters.goal].filter(Boolean).length;
+  for (const reset of all<HTMLElement>('[data-toolbar-reset]')) reset.hidden = active === 0 && !query;
+  for (const badge of all<HTMLElement>('[data-filter-badge]')) {
+    badge.textContent = String(active);
+    badge.hidden = active === 0;
+  }
   const note = document.querySelector<HTMLElement>('[data-face-note]');
   if (note) {
     note.hidden = !face;
     note.textContent = face ? text('list.faceNote', { face: label }) : '';
   }
+}
+
+$faceFilter.subscribe(applyList);
+
+for (const chip of all<HTMLElement>('[data-filter-upkeep]')) {
+  chip.addEventListener('click', () => {
+    filters.upkeep = chip.dataset.filterUpkeep && filters.upkeep !== chip.dataset.filterUpkeep ? chip.dataset.filterUpkeep : '';
+    applyList();
+  });
+}
+for (const chip of all<HTMLElement>('[data-filter-bleach]')) {
+  chip.addEventListener('click', () => {
+    filters.bleach = chip.dataset.filterBleach && filters.bleach !== chip.dataset.filterBleach ? chip.dataset.filterBleach : '';
+    applyList();
+  });
+}
+for (const chip of all<HTMLElement>('[data-filter-colourtype]')) {
+  chip.addEventListener('click', () => {
+    filters.colourType = chip.dataset.filterColourtype && filters.colourType !== chip.dataset.filterColourtype ? chip.dataset.filterColourtype : '';
+    applyList();
+  });
+}
+for (const chip of all<HTMLElement>('[data-filter-time]')) {
+  chip.addEventListener('click', () => {
+    filters.time = chip.dataset.filterTime && filters.time !== chip.dataset.filterTime ? chip.dataset.filterTime : '';
+    applyList();
+  });
+}
+for (const chip of all<HTMLElement>('[data-filter-goal]')) {
+  chip.addEventListener('click', () => {
+    filters.goal = chip.dataset.filterGoal && filters.goal !== chip.dataset.filterGoal ? chip.dataset.filterGoal : '';
+    applyList();
+  });
+}
+for (const chip of all<HTMLElement>('[data-filter-popular]')) {
+  chip.addEventListener('click', () => {
+    filters.popular = !filters.popular;
+    applyList();
+  });
+}
+
+// The two icon buttons open their panels; the search box takes focus when it opens.
+const searchInput = document.querySelector<HTMLInputElement>('[data-search-input]');
+const suggestBox = document.querySelector<HTMLElement>('[data-suggest]');
+const searchClear = document.querySelector<HTMLElement>('[data-search-clear]');
+let activeOption = -1;
+
+function closeSuggestions() {
+  if (!suggestBox || !searchInput) return;
+  suggestBox.hidden = true;
+  suggestBox.replaceChildren();
+  activeOption = -1;
+  searchInput.setAttribute('aria-expanded', 'false');
+  searchInput.removeAttribute('aria-activedescendant');
+}
+
+for (const button of all<HTMLButtonElement>('[data-tool]')) {
+  button.addEventListener('click', () => {
+    const panel = document.getElementById(button.getAttribute('aria-controls')!);
+    if (!panel) return;
+    const open = panel.hidden;
+    panel.hidden = !open;
+    button.setAttribute('aria-expanded', String(open));
+    if (button.dataset.tool === 'search') {
+      if (open) searchInput?.focus();
+      else closeSuggestions();
+    }
+  });
+}
+
+// Arriving with a face shape already picked (from the home page) shows the filters, so the pick is visible.
+if ($faceFilter.get()) {
+  const toggle = document.querySelector<HTMLElement>('[data-tool="filters"]');
+  const panel = document.getElementById('list-filters');
+  if (toggle && panel) {
+    panel.hidden = false;
+    toggle.setAttribute('aria-expanded', 'true');
+  }
+}
+
+// Suggestions: the best few names for what has been typed. Picking one opens that page.
+function renderSuggestions() {
+  if (!searchInput || !suggestBox) return;
+  const query = norm(searchInput.value);
+  closeSuggestions();
+  if (!query) return;
+  const ranked = listRows()
+    .map((row) => {
+      const name = norm(row.dataset.name ?? '');
+      const score = name.startsWith(query) ? 0 : name.split(/[\s-]+/).some((word) => word.startsWith(query)) ? 1 : name.includes(query) ? 2 : norm(row.dataset.search ?? '').includes(query) ? 3 : 9;
+      return { row, score };
+    })
+    .filter((entry) => entry.score < 9)
+    .sort((x, y) => x.score - y.score)
+    .slice(0, 6);
+  if (!ranked.length) return;
+  ranked.forEach(({ row }, n) => {
+    const item = document.createElement('li');
+    item.id = `suggest-${n}`;
+    item.setAttribute('role', 'option');
+    item.className = 'aria-selected:bg-paper-2';
+    const link = document.createElement('a');
+    link.href = row.dataset.href ?? '#';
+    link.className = 'flex min-h-11 items-center justify-between gap-3 px-4 py-2 text-[0.9375rem]';
+    const name = document.createElement('span');
+    name.className = 'font-semibold';
+    name.textContent = row.dataset.name ?? '';
+    const meta = document.createElement('span');
+    meta.className = 'text-[0.75rem] text-muted';
+    meta.textContent = row.dataset.meta ?? '';
+    link.append(name, meta);
+    item.append(link);
+    suggestBox.append(item);
+  });
+  suggestBox.hidden = false;
+  searchInput.setAttribute('aria-expanded', 'true');
+}
+
+function moveOption(step: number) {
+  if (!suggestBox || suggestBox.hidden || !searchInput) return;
+  const options = Array.from(suggestBox.children) as HTMLElement[];
+  activeOption = (activeOption + step + options.length) % options.length;
+  options.forEach((option, n) => option.setAttribute('aria-selected', String(n === activeOption)));
+  searchInput.setAttribute('aria-activedescendant', options[activeOption]!.id);
+}
+
+searchInput?.addEventListener('input', () => {
+  filters.query = searchInput.value;
+  if (searchClear) searchClear.hidden = !searchInput.value;
+  applyList();
+  renderSuggestions();
 });
+searchInput?.addEventListener('focus', renderSuggestions);
+searchInput?.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowDown') {
+    event.preventDefault();
+    moveOption(1);
+  } else if (event.key === 'ArrowUp') {
+    event.preventDefault();
+    moveOption(-1);
+  } else if (event.key === 'Enter') {
+    const chosen = suggestBox?.children[activeOption]?.querySelector('a');
+    event.preventDefault();
+    if (chosen) location.href = chosen.href;
+    else closeSuggestions();
+  } else if (event.key === 'Escape') {
+    closeSuggestions();
+  }
+});
+searchClear?.addEventListener('click', () => {
+  if (!searchInput) return;
+  searchInput.value = '';
+  filters.query = '';
+  searchClear.hidden = true;
+  closeSuggestions();
+  applyList();
+  searchInput.focus();
+});
+document.addEventListener('click', (event) => {
+  if (!(event.target as Element).closest('#list-search')) closeSuggestions();
+});
+
+for (const button of all<HTMLElement>('[data-filters-clear]')) {
+  button.addEventListener('click', () => {
+    Object.assign(filters, { query: '', upkeep: '', popular: false, bleach: '', colourType: '', time: '', goal: '' });
+    if (searchInput) searchInput.value = '';
+    if (searchClear) searchClear.hidden = true;
+    closeSuggestions();
+    if ($faceFilter.get()) $faceFilter.set('');
+    else applyList();
+  });
+}
 
 // ---------- Offline ----------
 

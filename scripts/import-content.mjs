@@ -17,7 +17,7 @@ const SKINS = ['Light', 'Medium', 'Deep'];
 const GREYS = ['None', 'Some', 'Lots'];
 const UPKEEP = ['Low', 'Medium', 'High'];
 const TOPICS = ['Face shape', 'Haircuts', 'Beard', 'Colour', 'Care', 'Talk to your barber'];
-const EXPECTED = { hair: 59, beards: 16, moustaches: 12, colours: 12, looks: 37, learn: 13 };
+const EXPECTED = { hair: 89, beards: 16, moustaches: 12, colours: 33, looks: 67, learn: 13 };
 
 const errors = [];
 const warnings = [];
@@ -195,6 +195,7 @@ function common(item, row, file, prompts, { hasSteps = true } = {}) {
     suitsText: need('Suits'),
     alsoCalled: f['Also called'] ? plain(f['Also called'], where).split(/,\s*/) : [],
     mainPhoto: (f['Main photo'] ?? row?.['Main photo'] ?? 'Front').toLowerCase(),
+    popular: f['Popular'] === 'Yes',
     callouts: prompt?.callouts ?? [],
     ...(hasSteps && {
       faq: item.faq,
@@ -417,6 +418,7 @@ const colours = parseCatalogue(
     grey: list(row['Grey hair'], GREYS, `${where} grey`, 'Any'),
     timeAtShop: row['Time at shop'],
     swatchLabel: prompts[raw.id]?.swatch,
+    shade: raw.fields['Shade only'] === 'Yes',
   }),
   prompts,
 );
@@ -444,6 +446,7 @@ const looks = parseCatalogue(
       moustache: moustacheMode === 'style' ? partId(m, 'M', `${where} moustache`) : null,
       moustacheMode,
       colour: partId(row['Colour'], 'C', `${where} colour`),
+      colourBeard: raw.fields['Colours beard'] === 'Yes',
       includesText: raw.fields['Includes'] ? plain(raw.fields['Includes'], where) : '',
     };
   },
@@ -481,7 +484,7 @@ for (const i of [...hair, ...beards]) {
 }
 
 const sides = hair.filter((h) => h.mainPhoto === 'side').length;
-if (sides !== 24) warn(`hair: ${sides} side photos (the document says 24)`);
+if (sides !== 31) warn(`hair: ${sides} side photos (the document says 31)`);
 
 const intersect = (lists) => lists.reduce((acc, l) => acc.filter((x) => l.includes(x)));
 for (const look of looks) {
@@ -492,6 +495,7 @@ for (const look of looks) {
     continue;
   }
   const hairPart = byId.get(look.hair);
+  look.colourType = !look.colour ? 'normal' : byId.get(look.colour).shade ? 'shades' : 'full';
   look.hairType = hairPart.hairType;
   look.thinHairOk = hairPart.thinHairOk;
 
@@ -503,6 +507,8 @@ for (const look of looks) {
   if ((beard?.moustacheMode === 'included') !== (look.moustacheMode === 'part-of-beard')) {
     err(`${where}: moustache "${look.moustacheMode}" does not fit beard ${look.beard}`);
   }
+  if (look.colourBeard && !look.colour) err(`${where}: colours the beard but has no colour`);
+  if (look.colourBeard && !look.beard && !look.moustache) err(`${where}: colours the beard but has no beard or moustache`);
   for (const p of parts) if (!look.includesText.includes(p.name)) warn(`${where}: Includes line does not mention ${p.name}`);
 }
 
@@ -517,7 +523,7 @@ for (const post of learn) {
 
 // "Quiff (H14)" in a post body becomes a link to the Quiff page (SEO rule 9: link related pages).
 // Only exact catalogue names are linked; other codes are left as written and listed for review.
-const SEGMENT = { H: 'styles', B: 'beards', M: 'moustaches', C: 'colours', L: 'looks' };
+const SEGMENT = { H: 'men/hair', B: 'men/beards', M: 'men/moustaches', C: 'men/colours', L: 'men/looks' };
 for (const post of learn) {
   let text = post.body.join('\n');
   for (const item of byId.values()) {

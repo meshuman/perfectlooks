@@ -17,11 +17,11 @@ imageAlt: "A man with a pointed Van Dyke beard and clean-shaven cheeks, front vi
 
 | Style | Uses | Why it works |
 | --- | --- | --- |
-| [Light Stubble](/beards/light-stubble) | Whole beard at 1–2 mm | Gaps hardly show |
-| [Goatee](/beards/goatee) | Chin | Cheeks are shaved |
-| [Van Dyke](/beards/van-dyke) | Chin and moustache | Cheeks are shaved |
-| [Circle Beard](/beards/circle-beard) | Around the mouth | Cheeks are shaved |
-| [Anchor Beard](/beards/anchor-beard) | Chin, jaw and a thin moustache | Cheeks are shaved |
+| [Light Stubble](/men/beards/light-stubble) | Whole beard at 1–2 mm | Gaps hardly show |
+| [Goatee](/men/beards/goatee) | Chin | Cheeks are shaved |
+| [Van Dyke](/men/beards/van-dyke) | Chin and moustache | Cheeks are shaved |
+| [Circle Beard](/men/beards/circle-beard) | Around the mouth | Cheeks are shaved |
+| [Anchor Beard](/men/beards/anchor-beard) | Chin, jaw and a thin moustache | Cheeks are shaved |
 
 ## How long should I grow it before deciding?
 

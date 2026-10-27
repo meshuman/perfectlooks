@@ -15,15 +15,15 @@ imageAlt: "A man with a round face and a quiff haircut, front view."
 
 ## Which haircuts work?
 
-- **[Quiff](/styles/quiff):** height at the front
-- **[Faux Hawk](/styles/faux-hawk):** height in the middle
-- **[Brush Up](/styles/brush-up):** easy height for every day
-- **[Mid Fade](/styles/mid-fade):** clean, short sides
+- **[Quiff](/men/hair/quiff):** height at the front
+- **[Faux Hawk](/men/hair/faux-hawk):** height in the middle
+- **[Brush Up](/men/hair/brush-up):** easy height for every day
+- **[Mid Fade](/men/hair/mid-fade):** clean, short sides
 
 ## Which beards work?
 
-- **[Goatee](/beards/goatee) or [Van Dyke](/beards/van-dyke):** length at the chin
-- **[Short Boxed Beard](/beards/short-boxed-beard):** square corners add shape
+- **[Goatee](/men/beards/goatee) or [Van Dyke](/men/beards/van-dyke):** length at the chin
+- **[Short Boxed Beard](/men/beards/short-boxed-beard):** square corners add shape
 
 ## What should I avoid?
 

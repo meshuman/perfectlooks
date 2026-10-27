@@ -1,0 +1,30 @@
+---
+// The nine women's categories as colour-block tiles. Used on the home page and on /women.
+import Icon from './Icon.astro';
+import { womenCategories } from '@/data/women';
+import { useI18n, type UiKey } from '@/i18n';
+
+const { t, l } = useI18n(Astro.url);
+const label = (key: string) => t(`wcat.${key}.label` as UiKey);
+---
+
+<ul class="grid grid-cols-2 gap-x-3 gap-y-6 md:grid-cols-3">
+  {
+    womenCategories.map((c, n) => (
+      <li data-reveal style={`--reveal-delay:${(n % 3) * 60}ms`}>
+        <a href={l(`/women/${c.key}`)} class="group flex flex-col">
+          <span class:list={['grid aspect-[5/4] place-items-center text-ink', c.block]}>
+            <Icon name={c.icon} size={44} strokeWidth={1.25} class="transition-transform duration-500 ease-out-soft group-hover:scale-110" />
+          </span>
+          <span class="flex items-center justify-between gap-2 pt-3">
+            <span>
+              <span class="block text-[1.0625rem] leading-snug font-semibold">{label(c.key)}</span>
+              <span class="block text-[0.8125rem] text-muted">{t('women.tileCount', { count: String(c.items.length) })}</span>
+            </span>
+            <Icon name="arrowRight" size={20} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+          </span>
+        </a>
+      </li>
+    ))
+  }
+</ul>

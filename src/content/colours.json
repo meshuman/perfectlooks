@@ -1,7 +1,7 @@
 [
   {
     "id": "C01",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "jet-black",
     "name": "Jet Black",
     "shortLine": "Deep, solid black. Covers all grey.",
@@ -15,6 +15,7 @@
     "suitsText": "Medium and deep skin · Some or lots of grey",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Deep black",
@@ -71,11 +72,12 @@
       "Lots"
     ],
     "timeAtShop": "45 min",
-    "swatchLabel": "Level 1 - Jet Black"
+    "swatchLabel": "Level 1 - Jet Black",
+    "shade": false
   },
   {
     "id": "C02",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "natural-black",
     "name": "Natural Black",
     "shortLine": "Softer black that looks more natural. Covers all grey.",
@@ -91,6 +93,7 @@
       "Soft black"
     ],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Soft black",
@@ -148,11 +151,12 @@
       "Lots"
     ],
     "timeAtShop": "45 min",
-    "swatchLabel": "Level 2 - Natural Black"
+    "swatchLabel": "Level 2 - Natural Black",
+    "shade": false
   },
   {
     "id": "C03",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "dark-brown",
     "name": "Dark Brown",
     "shortLine": "Rich dark brown. A natural, safe choice.",
@@ -166,6 +170,7 @@
     "suitsText": "All skin tones · Some or lots of grey",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Rich brown",
@@ -223,11 +228,12 @@
       "Lots"
     ],
     "timeAtShop": "45 min",
-    "swatchLabel": "Level 3 - Dark Brown"
+    "swatchLabel": "Level 3 - Dark Brown",
+    "shade": false
   },
   {
     "id": "C04",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "medium-brown",
     "name": "Medium Brown",
     "shortLine": "Lighter brown. Shows more in sunlight.",
@@ -241,6 +247,7 @@
     "suitsText": "Light and medium skin · Some or lots of grey",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Medium brown",
@@ -297,11 +304,12 @@
       "Lots"
     ],
     "timeAtShop": "45 min",
-    "swatchLabel": "Level 4 - Medium Brown"
+    "swatchLabel": "Level 4 - Medium Brown",
+    "shade": false
   },
   {
     "id": "C05",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "burgundy",
     "name": "Burgundy",
     "shortLine": "Dark red-purple tone. Shows most in sunlight.",
@@ -317,6 +325,7 @@
       "Wine colour"
     ],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Wine tone",
@@ -375,11 +384,12 @@
       "Some"
     ],
     "timeAtShop": "45–60 min",
-    "swatchLabel": "Level 4 - Burgundy"
+    "swatchLabel": "Level 4 - Burgundy",
+    "shade": false
   },
   {
     "id": "C06",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "golden-brown-highlights",
     "name": "Golden Brown Highlights",
     "shortLine": "Thin golden-brown streaks on dark hair.",
@@ -393,6 +403,7 @@
     "suitsText": "All skin tones · No grey or some grey",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Fine streaks",
@@ -450,11 +461,12 @@
       "Some"
     ],
     "timeAtShop": "60–90 min",
-    "swatchLabel": "Level 6-7 - Golden Brown"
+    "swatchLabel": "Level 6-7 - Golden Brown",
+    "shade": true
   },
   {
     "id": "C07",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "ash-grey-silver",
     "name": "Ash Grey / Silver",
     "shortLine": "Light grey or silver all over. Bold look.",
@@ -468,6 +480,7 @@
     "suitsText": "All skin tones · Any amount of grey",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Cool silver",
@@ -527,11 +540,12 @@
       "Lots"
     ],
     "timeAtShop": "2–3 hours",
-    "swatchLabel": "Level 10 - Silver"
+    "swatchLabel": "Level 10 - Silver",
+    "shade": false
   },
   {
     "id": "C08",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "grey-blending",
     "name": "Grey Blending",
     "shortLine": "Softens grey without hiding it fully. Looks natural.",
@@ -547,6 +561,7 @@
       "Salt and pepper"
     ],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Softened grey",
@@ -604,11 +619,12 @@
       "Lots"
     ],
     "timeAtShop": "15–20 min",
-    "swatchLabel": "Level 3-4 - Grey Blending"
+    "swatchLabel": "Level 3-4 - Grey Blending",
+    "shade": true
   },
   {
     "id": "C09",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "blue-black",
     "name": "Blue-Black",
     "shortLine": "Black with a cool blue shine in the light.",
@@ -622,6 +638,7 @@
     "suitsText": "Medium and deep skin · Any amount of grey",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Blue sheen",
@@ -679,11 +696,12 @@
       "Lots"
     ],
     "timeAtShop": "45 min",
-    "swatchLabel": "Level 1 - Blue-Black"
+    "swatchLabel": "Level 1 - Blue-Black",
+    "shade": false
   },
   {
     "id": "C10",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "ash-brown",
     "name": "Ash Brown",
     "shortLine": "Cool brown with no red or orange. Soft and modern.",
@@ -697,6 +715,7 @@
     "suitsText": "Light and medium skin · No grey or some grey",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Cool brown",
@@ -753,11 +772,12 @@
       "Some"
     ],
     "timeAtShop": "60–90 min",
-    "swatchLabel": "Level 5 - Ash Brown"
+    "swatchLabel": "Level 5 - Ash Brown",
+    "shade": false
   },
   {
     "id": "C11",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "copper",
     "name": "Copper",
     "shortLine": "Bright orange-brown. Warm and eye-catching.",
@@ -771,6 +791,7 @@
     "suitsText": "Medium and deep skin · No grey or some grey",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Bright copper",
@@ -827,11 +848,12 @@
       "Some"
     ],
     "timeAtShop": "90 min",
-    "swatchLabel": "Level 6-7 - Copper"
+    "swatchLabel": "Level 6-7 - Copper",
+    "shade": false
   },
   {
     "id": "C12",
-    "updated": "2026-10-24",
+    "updated": "2026-10-27",
     "slug": "henna-mehndi",
     "name": "Henna (Mehndi)",
     "shortLine": "Natural plant colour. Turns grey hair red-orange.",
@@ -847,6 +869,7 @@
       "Mehndi"
     ],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Red-orange grey",
@@ -904,6 +927,1613 @@
       "Lots"
     ],
     "timeAtShop": "1–2 hours",
-    "swatchLabel": "Henna - Plant colour"
+    "swatchLabel": "Henna - Plant colour",
+    "shade": false
+  },
+  {
+    "id": "C13",
+    "updated": "2026-10-27",
+    "slug": "light-brown",
+    "name": "Light Brown",
+    "shortLine": "Soft, light brown. Lighter than medium brown.",
+    "description": "A soft, light brown that still looks natural. Lighter and friendlier than medium brown.",
+    "pickIf": "you want a lighter, softer look that still looks natural.",
+    "skipIf": "you have lots of grey, or very black hair and no time for lightening.",
+    "daily": "Nothing.",
+    "weekly": "Wash with colour-safe shampoo. Conditioner 1–2 times.",
+    "nextVisit": "in 4–6 weeks",
+    "atShop": "60–90 min",
+    "suitsText": "Light and medium skin · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Light brown",
+        "text": "Soft and natural."
+      },
+      {
+        "title": "Clear in daylight",
+        "text": "Brown, not black."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will light brown show on black hair?",
+        "a": "Only after the barber lightens the hair a little first. Without that, it only shows as a faint brown in sunlight."
+      },
+      {
+        "q": "Is light brown the same as medium brown?",
+        "a": "No. Light brown is one level lighter and shows more clearly brown in daylight."
+      },
+      {
+        "q": "Does light brown cover grey?",
+        "a": "Mostly. Grey hair turns light brown, a little lighter than the rest."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "About 4–6 weeks before the roots show. Colour-safe shampoo keeps it from fading."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Very black hair: lighten to Level 5 first.",
+      "Apply Level 5 light brown from roots to ends.",
+      "Wait time: as on the box.",
+      "Rinse. Conditioner."
+    ],
+    "levelTone": "5, natural",
+    "coversGrey": "Mostly",
+    "bleach": "Sometimes, on very black hair",
+    "skin": [
+      "Light",
+      "Medium"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "60–90 min",
+    "swatchLabel": "Level 5 - Light Brown",
+    "shade": false
+  },
+  {
+    "id": "C14",
+    "updated": "2026-10-27",
+    "slug": "chestnut-brown",
+    "name": "Chestnut Brown",
+    "shortLine": "Warm brown with a hint of red-gold.",
+    "description": "A warm brown with a soft red-gold glow that shows in daylight. Rich, not flashy.",
+    "pickIf": "you want a warm, rich brown that looks natural.",
+    "skipIf": "you have lots of grey, or want a cool, ash look.",
+    "daily": "Nothing.",
+    "weekly": "Wash with colour-safe shampoo. Conditioner 1–2 times.",
+    "nextVisit": "in 4–6 weeks",
+    "atShop": "60–90 min",
+    "suitsText": "All skin tones · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Chestnut brown",
+        "text": "Warm and rich."
+      },
+      {
+        "title": "Red-gold glow",
+        "text": "Shows in daylight."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is chestnut brown?",
+        "a": "A warm brown with a soft red-gold glow, like the shell of a chestnut."
+      },
+      {
+        "q": "Does chestnut show on black hair?",
+        "a": "A little. The barber may lighten the hair first so the warm glow shows properly."
+      },
+      {
+        "q": "Which skin does chestnut suit?",
+        "a": "All skin tones. The warm tone works especially well on medium and deep skin."
+      },
+      {
+        "q": "Will chestnut fade to orange?",
+        "a": "It can after a few weeks. Colour-safe shampoo and cool water slow this down."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Very black hair: lighten to Level 5 first.",
+      "Apply Level 5 gold-brown from roots to ends.",
+      "Wait time: as on the box.",
+      "Rinse. Conditioner."
+    ],
+    "levelTone": "5, warm gold-brown",
+    "coversGrey": "Mostly",
+    "bleach": "Sometimes, on very black hair",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "60–90 min",
+    "swatchLabel": "Level 5 - Chestnut Brown",
+    "shade": false
+  },
+  {
+    "id": "C15",
+    "updated": "2026-10-27",
+    "slug": "mahogany",
+    "name": "Mahogany",
+    "shortLine": "Dark brown with a deep red shine.",
+    "description": "A dark brown with a deep red shine, like polished wood. Warm and elegant.",
+    "pickIf": "you want a rich red-brown that still looks classy.",
+    "skipIf": "you have lots of grey, or a strict office.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo.",
+    "nextVisit": "in 4–5 weeks",
+    "atShop": "45–60 min",
+    "suitsText": "All skin tones · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Mahogany",
+        "text": "Dark red-brown."
+      },
+      {
+        "title": "Red shine",
+        "text": "Glows in light."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is mahogany hair colour?",
+        "a": "A dark brown with a deep red shine, like polished mahogany wood."
+      },
+      {
+        "q": "Is mahogany the same as burgundy?",
+        "a": "No. Burgundy is red-violet. Mahogany is red-brown and warmer."
+      },
+      {
+        "q": "Does mahogany show on black hair?",
+        "a": "Yes, as a red shine in the light. On very black hair it is subtle without lightening."
+      },
+      {
+        "q": "How long does mahogany last?",
+        "a": "About 4–5 weeks. Red fades faster than brown, so wash with cool water."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Apply Level 4–5 red-brown from roots to ends.",
+      "Check the red under daylight.",
+      "Wait time: as on the box.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "4–5, red-brown",
+    "coversGrey": "Mostly",
+    "bleach": "No",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "45–60 min",
+    "swatchLabel": "Level 4-5 - Mahogany",
+    "shade": false
+  },
+  {
+    "id": "C16",
+    "updated": "2026-10-27",
+    "slug": "dark-blonde",
+    "name": "Dark Blonde",
+    "shortLine": "Golden light brown, a step towards blonde.",
+    "description": "A golden brown that sits between brown and blonde. Bright, but still softer than full blonde.",
+    "pickIf": "you want to go lighter without going full blonde.",
+    "skipIf": "your hair is dry or damaged, or you have a strict office.",
+    "daily": "Nothing.",
+    "weekly": "Purple shampoo once. Deep conditioner once.",
+    "nextVisit": "in 4 weeks, for roots",
+    "atShop": "2–3 hours",
+    "suitsText": "Light and medium skin · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Dark blonde",
+        "text": "Golden, not yellow."
+      },
+      {
+        "title": "Even lift",
+        "text": "No orange patches."
+      },
+      {
+        "title": "Healthy shine",
+        "text": "Soft and smooth."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is dark blonde?",
+        "a": "A golden light brown that sits between brown and blonde."
+      },
+      {
+        "q": "Do I need bleach for dark blonde?",
+        "a": "Yes. Black hair must be lightened to about Level 7 before the colour is added."
+      },
+      {
+        "q": "Will bleach damage my hair?",
+        "a": "It dries the hair. A deep conditioner every week and no hot tools help."
+      },
+      {
+        "q": "Why does blonde turn yellow or orange?",
+        "a": "Dark hair has warm tones that show as the colour fades. Purple shampoo once a week keeps it cleaner."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 7. Check often.",
+      "Rinse. Dry lightly.",
+      "Tone with a gold-neutral Level 7 shade.",
+      "Rinse. Deep conditioner."
+    ],
+    "levelTone": "7, neutral gold",
+    "coversGrey": "Mostly",
+    "bleach": "Yes, whole head",
+    "skin": [
+      "Light",
+      "Medium"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Level 7 - Dark Blonde",
+    "shade": false
+  },
+  {
+    "id": "C17",
+    "updated": "2026-10-27",
+    "slug": "violet",
+    "name": "Violet",
+    "shortLine": "Bold purple colour for a standout look.",
+    "description": "A bold violet that stands out in any light. A fashion colour for people who want to be noticed.",
+    "pickIf": "you want a bold, creative look and can look after it.",
+    "skipIf": "you have a strict office, or do not want to keep topping up the colour.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo. Colour mask once.",
+    "nextVisit": "in 3–4 weeks, to refresh",
+    "atShop": "2–3 hours",
+    "suitsText": "All skin tones · No grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Vivid violet",
+        "text": "Bold and even."
+      },
+      {
+        "title": "Glows in light",
+        "text": "Rich purple."
+      },
+      {
+        "title": "Healthy hair",
+        "text": "Smooth, not dry."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will violet show on black hair?",
+        "a": "Only after bleaching. The barber lightens the hair first, then adds violet."
+      },
+      {
+        "q": "How long does violet last?",
+        "a": "It fades in 3–4 weeks. Washing with cool water helps."
+      },
+      {
+        "q": "Does violet cover grey?",
+        "a": "No. Fashion colours show best on evenly lightened hair, so grey is not covered."
+      },
+      {
+        "q": "Can I go back to black later?",
+        "a": "Yes. The barber colours over it with black. Plan for a few weeks of fading first."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 8–9.",
+      "Rinse. Dry lightly.",
+      "Apply violet from roots to ends.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "Fashion, violet",
+    "coversGrey": "No",
+    "bleach": "Yes, whole head on dark hair",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Fashion - Violet",
+    "shade": false
+  },
+  {
+    "id": "C18",
+    "updated": "2026-10-27",
+    "slug": "blue",
+    "name": "Blue",
+    "shortLine": "Bold blue colour for a standout look.",
+    "description": "A bold, bright blue that stands out in any light. A fashion colour for a creative, confident look.",
+    "pickIf": "you want a bold, creative look and can look after it.",
+    "skipIf": "you have a strict office, or do not want to keep topping up the colour.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo. Colour mask once.",
+    "nextVisit": "in 3–4 weeks, to refresh",
+    "atShop": "2–3 hours",
+    "suitsText": "All skin tones · No grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Vivid blue",
+        "text": "Bold and even."
+      },
+      {
+        "title": "Glows in light",
+        "text": "Rich colour."
+      },
+      {
+        "title": "Healthy hair",
+        "text": "Smooth, not dry."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will blue show on black hair?",
+        "a": "Only after bleaching. The barber lightens the hair first, then adds blue."
+      },
+      {
+        "q": "How long does blue last?",
+        "a": "It fades in 3–4 weeks, often to a softer blue-green. Cool water helps."
+      },
+      {
+        "q": "Does blue cover grey?",
+        "a": "No. Fashion colours show best on evenly lightened hair, so grey is not covered."
+      },
+      {
+        "q": "Can I go back to black later?",
+        "a": "Yes. The barber colours over it with black. Plan for a few weeks of fading first."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 8–9.",
+      "Rinse. Dry lightly.",
+      "Apply blue from roots to ends.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "Fashion, blue",
+    "coversGrey": "No",
+    "bleach": "Yes, whole head on dark hair",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Fashion - Blue",
+    "shade": false
+  },
+  {
+    "id": "C19",
+    "updated": "2026-10-27",
+    "slug": "light-blonde",
+    "name": "Light Blonde",
+    "shortLine": "Clear, light blonde. Bright and fresh.",
+    "description": "A clean, light blonde that looks bright and fresh. Lighter than dark blonde, with a soft gold glow.",
+    "pickIf": "you want a bright, fresh look and are ready for upkeep.",
+    "skipIf": "your hair is dry or damaged, or you have a strict office.",
+    "daily": "Nothing.",
+    "weekly": "Purple shampoo once. Deep conditioner once.",
+    "nextVisit": "in 4 weeks, for roots",
+    "atShop": "2–3 hours",
+    "suitsText": "Light and medium skin · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Light blonde",
+        "text": "Clean and bright."
+      },
+      {
+        "title": "Soft gold glow",
+        "text": "Not brassy."
+      },
+      {
+        "title": "Even lift",
+        "text": "No orange patches."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is light blonde?",
+        "a": "A clean, bright blonde with a soft gold glow, lighter than dark blonde."
+      },
+      {
+        "q": "Can black hair go light blonde?",
+        "a": "Yes, but it needs strong bleaching, sometimes over two visits, to avoid orange tones."
+      },
+      {
+        "q": "Will light blonde damage my hair?",
+        "a": "Bleach dries hair. Weekly deep conditioner and no hot tools keep it healthy."
+      },
+      {
+        "q": "How do I stop it turning yellow?",
+        "a": "Use purple shampoo once a week and avoid hot water."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 8. Check often.",
+      "Rinse. Dry lightly.",
+      "Tone with a soft gold Level 8 shade.",
+      "Rinse. Deep conditioner."
+    ],
+    "levelTone": "8, neutral",
+    "coversGrey": "Mostly",
+    "bleach": "Yes, whole head",
+    "skin": [
+      "Light",
+      "Medium"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Level 8 - Light Blonde",
+    "shade": false
+  },
+  {
+    "id": "C20",
+    "updated": "2026-10-27",
+    "slug": "platinum-blonde",
+    "name": "Platinum Blonde",
+    "shortLine": "The lightest blonde. Almost white, very bold.",
+    "description": "The lightest blonde, pale and almost white with a soft cream tone. A bold, high-fashion look that needs strong bleaching.",
+    "pickIf": "you want the boldest blonde and can commit to the upkeep.",
+    "skipIf": "your hair is already damaged, or you cannot visit every 3–4 weeks.",
+    "daily": "Nothing.",
+    "weekly": "Purple shampoo twice. Deep conditioner twice.",
+    "nextVisit": "in 3–4 weeks, for roots",
+    "atShop": "3–4 hours",
+    "suitsText": "Light and medium skin · Any grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Platinum blonde",
+        "text": "Pale and even."
+      },
+      {
+        "title": "No brassy tones",
+        "text": "No yellow or orange."
+      },
+      {
+        "title": "Healthy shine",
+        "text": "Smooth, not dry."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is platinum blonde?",
+        "a": "The lightest blonde, pale and almost white with a soft cream tone."
+      },
+      {
+        "q": "Can black hair go platinum?",
+        "a": "Yes, but it takes strong bleaching, often over two visits, with rest in between to protect the hair."
+      },
+      {
+        "q": "Will bleaching damage my hair?",
+        "a": "Yes, platinum is the hardest on hair. Weekly deep conditioner and a gentle routine are a must."
+      },
+      {
+        "q": "How often do I need a touch-up?",
+        "a": "Every 3–4 weeks, because dark roots show clearly against platinum."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 10. Check often.",
+      "Rinse. Dry lightly.",
+      "If needed, second visit after 1–2 weeks.",
+      "Tone with a pale violet toner. Deep conditioner."
+    ],
+    "levelTone": "10, pale platinum",
+    "coversGrey": "Yes",
+    "bleach": "Yes, whole head, often over two visits",
+    "skin": [
+      "Light",
+      "Medium"
+    ],
+    "grey": [
+      "None",
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "3–4 hours",
+    "swatchLabel": "Level 10 - Platinum Blonde",
+    "shade": false
+  },
+  {
+    "id": "C21",
+    "updated": "2026-10-27",
+    "slug": "gold-blonde",
+    "name": "Gold Blonde",
+    "shortLine": "Warm, golden blonde. Sunny and rich.",
+    "description": "A warm blonde with a rich golden glow, like honey in sunlight. Warmer and friendlier than light blonde.",
+    "pickIf": "you want a warm, sunny blonde that suits brown skin.",
+    "skipIf": "your hair is dry or damaged, or you want a cool, ash blonde.",
+    "daily": "Nothing.",
+    "weekly": "Colour-safe shampoo. Deep conditioner once.",
+    "nextVisit": "in 4 weeks, for roots",
+    "atShop": "2–3 hours",
+    "suitsText": "All skin tones · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Gold blonde",
+        "text": "Warm and sunny."
+      },
+      {
+        "title": "Rich glow",
+        "text": "Like honey in light."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is gold blonde?",
+        "a": "A warm blonde with a rich golden glow, like honey in sunlight."
+      },
+      {
+        "q": "Does gold blonde suit brown skin?",
+        "a": "Yes. The warm gold tone is friendlier on medium and deep skin than cool ash blondes."
+      },
+      {
+        "q": "Do I need bleach for gold blonde?",
+        "a": "Yes. Black hair must be lightened to Level 7–8 first, then toned with gold."
+      },
+      {
+        "q": "Will it turn brassy?",
+        "a": "Gold is meant to be warm, but it can turn orange as it fades. Refresh every 4 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 7–8.",
+      "Rinse. Dry lightly.",
+      "Tone with a gold Level 7–8 shade.",
+      "Rinse. Deep conditioner."
+    ],
+    "levelTone": "7–8, gold",
+    "coversGrey": "Mostly",
+    "bleach": "Yes, whole head",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Level 7-8 - Gold Blonde",
+    "shade": false
+  },
+  {
+    "id": "C22",
+    "updated": "2026-10-27",
+    "slug": "gold-brown",
+    "name": "Gold Brown",
+    "shortLine": "Warm brown with a golden glow all over.",
+    "description": "A warm light brown with a golden glow across the whole head. Brighter than chestnut, softer than blonde.",
+    "pickIf": "you want a bright, warm brown that glows in sunlight.",
+    "skipIf": "you have lots of grey, or want a cool, ash colour.",
+    "daily": "Nothing.",
+    "weekly": "Colour-safe shampoo. Conditioner 1–2 times.",
+    "nextVisit": "in 4 weeks",
+    "atShop": "60–90 min",
+    "suitsText": "Medium and deep skin · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Gold brown",
+        "text": "Warm and bright."
+      },
+      {
+        "title": "Golden glow",
+        "text": "Shows in light."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is gold brown?",
+        "a": "A warm light brown with a golden glow across the whole head."
+      },
+      {
+        "q": "How is it different from golden brown highlights?",
+        "a": "Highlights are fine streaks on a dark base. Gold brown colours the whole head."
+      },
+      {
+        "q": "Do I need bleach for gold brown?",
+        "a": "Light bleaching to Level 6, so the gold shows on black hair."
+      },
+      {
+        "q": "Does gold brown cover grey?",
+        "a": "Mostly. Grey hair turns gold brown, a little brighter than the rest."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Light bleach to Level 6.",
+      "Rinse. Then colour: gold brown.",
+      "Wait time: as on the box.",
+      "Rinse. Conditioner."
+    ],
+    "levelTone": "6, gold",
+    "coversGrey": "Mostly",
+    "bleach": "Yes, light",
+    "skin": [
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "60–90 min",
+    "swatchLabel": "Level 6 - Gold Brown",
+    "shade": false
+  },
+  {
+    "id": "C23",
+    "updated": "2026-10-27",
+    "slug": "dark-chestnut",
+    "name": "Dark Chestnut",
+    "shortLine": "Deep brown with a warm red-gold glow.",
+    "description": "A deep, natural brown with a warm red-gold glow that shows in daylight. Looks natural and covers grey well.",
+    "pickIf": "you want a natural dark brown with a little warmth, and grey covered.",
+    "skipIf": "you want a cool, ash colour.",
+    "daily": "Nothing.",
+    "weekly": "Colour-safe shampoo. Conditioner 1–2 times.",
+    "nextVisit": "in 4–6 weeks",
+    "atShop": "45 min",
+    "suitsText": "All skin tones · Some or lots of grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Dark chestnut",
+        "text": "Deep and warm."
+      },
+      {
+        "title": "Red-gold glow",
+        "text": "Shows in daylight."
+      },
+      {
+        "title": "Grey covered",
+        "text": "Even colour."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is dark chestnut?",
+        "a": "A deep brown with a warm red-gold glow that shows in daylight."
+      },
+      {
+        "q": "Is dark chestnut the same as dark brown?",
+        "a": "Nearly. Dark chestnut has a little more warmth, so it glows red-gold in the sun."
+      },
+      {
+        "q": "Does dark chestnut cover grey?",
+        "a": "Yes, fully. It is a good choice when grey is the main reason for colouring."
+      },
+      {
+        "q": "Do I need bleach?",
+        "a": "No. It goes on dark hair as it is."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Apply Level 4 warm brown from roots to ends.",
+      "Check the grey is covered.",
+      "Wait time: as on the box.",
+      "Rinse. Conditioner."
+    ],
+    "levelTone": "4, warm",
+    "coversGrey": "Fully",
+    "bleach": "No",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "45 min",
+    "swatchLabel": "Level 4 - Dark Chestnut",
+    "shade": false
+  },
+  {
+    "id": "C24",
+    "updated": "2026-10-27",
+    "slug": "wine-red",
+    "name": "Wine Red",
+    "shortLine": "Rich red with a deep, dark wine tone.",
+    "description": "A rich, deep red like red wine, brighter and redder than burgundy. Shows clearly in daylight.",
+    "pickIf": "you want a rich red that is bold but still dark.",
+    "skipIf": "you have lots of grey, or a strict office.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo.",
+    "nextVisit": "in 3–4 weeks, as it fades",
+    "atShop": "60–90 min",
+    "suitsText": "All skin tones · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Wine red",
+        "text": "Rich and deep."
+      },
+      {
+        "title": "Glows in light",
+        "text": "Clear red shine."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is wine red?",
+        "a": "A rich, deep red like red wine, brighter and redder than burgundy."
+      },
+      {
+        "q": "Is wine red the same as burgundy?",
+        "a": "No. Burgundy leans red-violet and is darker. Wine red is brighter and clearly red."
+      },
+      {
+        "q": "Will wine red show on black hair?",
+        "a": "Only a little. The barber may lighten the hair first so the red shows properly."
+      },
+      {
+        "q": "How long does wine red last?",
+        "a": "About 3–4 weeks. Red fades fastest of all, so wash with cool water."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Very black hair: lighten to Level 5 first.",
+      "Apply Level 5 wine red from roots to ends.",
+      "Wait time: as on the box.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "5, red wine",
+    "coversGrey": "Mostly",
+    "bleach": "Sometimes, on very black hair",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "60–90 min",
+    "swatchLabel": "Level 5 - Wine Red",
+    "shade": false
+  },
+  {
+    "id": "C25",
+    "updated": "2026-10-27",
+    "slug": "red",
+    "name": "Red",
+    "shortLine": "Bold red colour for a standout look.",
+    "description": "A bold, vivid red that stands out in any light. A fashion colour for a creative, confident look.",
+    "pickIf": "you want a bold, creative look and can look after it.",
+    "skipIf": "you have a strict office, or do not want to keep topping up the colour.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo. Colour mask once.",
+    "nextVisit": "in 3–4 weeks, to refresh",
+    "atShop": "2–3 hours",
+    "suitsText": "All skin tones · No grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Vivid red",
+        "text": "Bold and even."
+      },
+      {
+        "title": "Glows in light",
+        "text": "Rich colour."
+      },
+      {
+        "title": "Healthy hair",
+        "text": "Smooth, not dry."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will red show on black hair?",
+        "a": "Only after bleaching. The barber lightens the hair first, then adds red."
+      },
+      {
+        "q": "How long does red last?",
+        "a": "It fades in 3–4 weeks. Washing with cool water helps."
+      },
+      {
+        "q": "Does red cover grey?",
+        "a": "No. Fashion colours show best on evenly lightened hair, so grey is not covered."
+      },
+      {
+        "q": "Can I go back to black later?",
+        "a": "Yes. The barber colours over it with black. Plan for a few weeks of fading first."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 8–9.",
+      "Rinse. Dry lightly.",
+      "Apply red from roots to ends.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "Fashion, red",
+    "coversGrey": "No",
+    "bleach": "Yes, whole head on dark hair",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Fashion - Red",
+    "shade": false
+  },
+  {
+    "id": "C26",
+    "updated": "2026-10-27",
+    "slug": "orange",
+    "name": "Orange",
+    "shortLine": "Bold orange colour for a standout look.",
+    "description": "A bold, vivid orange that stands out in any light. A fashion colour for a creative, confident look.",
+    "pickIf": "you want a bold, creative look and can look after it.",
+    "skipIf": "you have a strict office, or do not want to keep topping up the colour.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo. Colour mask once.",
+    "nextVisit": "in 3–4 weeks, to refresh",
+    "atShop": "2–3 hours",
+    "suitsText": "All skin tones · No grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Vivid orange",
+        "text": "Bold and even."
+      },
+      {
+        "title": "Glows in light",
+        "text": "Rich colour."
+      },
+      {
+        "title": "Healthy hair",
+        "text": "Smooth, not dry."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will orange show on black hair?",
+        "a": "Only after bleaching. The barber lightens the hair first, then adds orange."
+      },
+      {
+        "q": "How long does orange last?",
+        "a": "It fades in 3–4 weeks. Washing with cool water helps."
+      },
+      {
+        "q": "Does orange cover grey?",
+        "a": "No. Fashion colours show best on evenly lightened hair, so grey is not covered."
+      },
+      {
+        "q": "Can I go back to black later?",
+        "a": "Yes. The barber colours over it with black. Plan for a few weeks of fading first."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 8–9.",
+      "Rinse. Dry lightly.",
+      "Apply orange from roots to ends.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "Fashion, orange",
+    "coversGrey": "No",
+    "bleach": "Yes, whole head on dark hair",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Fashion - Orange",
+    "shade": false
+  },
+  {
+    "id": "C27",
+    "updated": "2026-10-27",
+    "slug": "dark-grape",
+    "name": "Dark Grape",
+    "shortLine": "Near-black with a deep violet shine.",
+    "description": "A deep, dark violet that looks almost black indoors and shows a violet shine in sunlight. Subtle, but different.",
+    "pickIf": "you want a quiet change from black, with a hint of colour.",
+    "skipIf": "you want a clearly purple look.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo.",
+    "nextVisit": "in 4–5 weeks",
+    "atShop": "45–60 min",
+    "suitsText": "Medium and deep skin · Any grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Dark grape",
+        "text": "Almost black."
+      },
+      {
+        "title": "Violet shine",
+        "text": "Shows in sunlight."
+      },
+      {
+        "title": "Grey covered",
+        "text": "Even colour."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is dark grape?",
+        "a": "A dark violet that looks almost black indoors and shows a violet shine in sunlight."
+      },
+      {
+        "q": "Is dark grape the same as violet?",
+        "a": "No. Violet is bright and bold. Dark grape is deep and subtle."
+      },
+      {
+        "q": "Do I need bleach for dark grape?",
+        "a": "No. It goes on dark hair as it is, and shows as a violet shine."
+      },
+      {
+        "q": "Does dark grape cover grey?",
+        "a": "Fully. Grey turns dark violet and blends with the rest."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Apply Level 3 dark violet from roots to ends.",
+      "Check the shine in daylight.",
+      "Wait time: as on the box.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "3, violet-black",
+    "coversGrey": "Fully",
+    "bleach": "No",
+    "skin": [
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "45–60 min",
+    "swatchLabel": "Level 3 - Dark Grape",
+    "shade": false
+  },
+  {
+    "id": "C28",
+    "updated": "2026-10-27",
+    "slug": "charcoal-grey",
+    "name": "Charcoal Grey",
+    "shortLine": "Dark, cool grey. Modern and smoky.",
+    "description": "A dark, smoky grey with a cool blue undertone. Deeper than silver and a strong modern look.",
+    "pickIf": "you want a grey look that is darker and moodier than silver.",
+    "skipIf": "your hair is dry or damaged, or you have a strict office.",
+    "daily": "Nothing.",
+    "weekly": "Purple or silver shampoo once. Deep conditioner once.",
+    "nextVisit": "in 4 weeks, for roots",
+    "atShop": "2–3 hours",
+    "suitsText": "All skin tones · Any grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Charcoal grey",
+        "text": "Dark and smoky."
+      },
+      {
+        "title": "Cool undertone",
+        "text": "No yellow."
+      },
+      {
+        "title": "Even colour",
+        "text": "Roots to ends."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is charcoal grey?",
+        "a": "A dark, smoky grey with a cool blue undertone, deeper than silver."
+      },
+      {
+        "q": "Do I need bleach for charcoal grey?",
+        "a": "Yes. Black hair is lightened to Level 6–7 first, then toned grey."
+      },
+      {
+        "q": "How is it different from ash grey or silver?",
+        "a": "Silver is light and bright. Charcoal is darker and smokier."
+      },
+      {
+        "q": "Does it fade?",
+        "a": "Yes, towards a softer grey in 4–6 weeks. Silver shampoo keeps it cool."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 6–7.",
+      "Rinse. Dry lightly.",
+      "Tone with a cool charcoal grey shade.",
+      "Rinse. Deep conditioner."
+    ],
+    "levelTone": "6–7, cool grey",
+    "coversGrey": "Yes",
+    "bleach": "Yes, whole head",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some",
+      "Lots"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Level 6-7 - Charcoal Grey",
+    "shade": false
+  },
+  {
+    "id": "C29",
+    "updated": "2026-10-27",
+    "slug": "green",
+    "name": "Green",
+    "shortLine": "Bold green colour for a standout look.",
+    "description": "A bold, vivid green that stands out in any light. A fashion colour for a creative, confident look.",
+    "pickIf": "you want a bold, creative look and can look after it.",
+    "skipIf": "you have a strict office, or do not want to keep topping up the colour.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo. Colour mask once.",
+    "nextVisit": "in 3–4 weeks, to refresh",
+    "atShop": "2–3 hours",
+    "suitsText": "All skin tones · No grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Vivid green",
+        "text": "Bold and even."
+      },
+      {
+        "title": "Glows in light",
+        "text": "Rich colour."
+      },
+      {
+        "title": "Healthy hair",
+        "text": "Smooth, not dry."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will green show on black hair?",
+        "a": "Only after bleaching. The barber lightens the hair first, then adds green."
+      },
+      {
+        "q": "How long does green last?",
+        "a": "It fades in 3–4 weeks. Washing with cool water helps."
+      },
+      {
+        "q": "Does green cover grey?",
+        "a": "No. Fashion colours show best on evenly lightened hair, so grey is not covered."
+      },
+      {
+        "q": "Can I go back to black later?",
+        "a": "Yes. The barber colours over it with black. Plan for a few weeks of fading first."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 8–9.",
+      "Rinse. Dry lightly.",
+      "Apply green from roots to ends.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "Fashion, green",
+    "coversGrey": "No",
+    "bleach": "Yes, whole head on dark hair",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Fashion - Green",
+    "shade": false
+  },
+  {
+    "id": "C30",
+    "updated": "2026-10-27",
+    "slug": "yellow",
+    "name": "Yellow",
+    "shortLine": "Bold yellow colour for a standout look.",
+    "description": "A bold, vivid yellow that stands out in any light. A fashion colour for a creative, confident look.",
+    "pickIf": "you want a bold, creative look and can look after it.",
+    "skipIf": "you have a strict office, or do not want to keep topping up the colour.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo. Colour mask once.",
+    "nextVisit": "in 3–4 weeks, to refresh",
+    "atShop": "2–3 hours",
+    "suitsText": "All skin tones · No grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Vivid yellow",
+        "text": "Bold and even."
+      },
+      {
+        "title": "Glows in light",
+        "text": "Rich colour."
+      },
+      {
+        "title": "Healthy hair",
+        "text": "Smooth, not dry."
+      },
+      {
+        "title": "Clean hairline",
+        "text": "No dye on the skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Will yellow show on black hair?",
+        "a": "Only after bleaching. The barber lightens the hair first, then adds yellow."
+      },
+      {
+        "q": "How long does yellow last?",
+        "a": "It fades in 3–4 weeks. Washing with cool water helps."
+      },
+      {
+        "q": "Does yellow cover grey?",
+        "a": "No. Fashion colours show best on evenly lightened hair, so grey is not covered."
+      },
+      {
+        "q": "Can I go back to black later?",
+        "a": "Yes. The barber colours over it with black. Plan for a few weeks of fading first."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Cream on hairline and ears.",
+      "Bleach the whole head to Level 8–9.",
+      "Rinse. Dry lightly.",
+      "Apply yellow from roots to ends.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "Fashion, yellow",
+    "coversGrey": "No",
+    "bleach": "Yes, whole head on dark hair",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None"
+    ],
+    "timeAtShop": "2–3 hours",
+    "swatchLabel": "Fashion - Yellow",
+    "shade": false
+  },
+  {
+    "id": "C31",
+    "updated": "2026-10-27",
+    "slug": "caramel-highlights",
+    "name": "Caramel Highlights",
+    "shortLine": "Soft caramel streaks on dark hair.",
+    "description": "Fine, warm caramel streaks through the top, blended into your dark hair. Adds light and warmth without colouring everything.",
+    "pickIf": "you want a warm, soft change and have some length on top.",
+    "skipIf": "your hair is very short, or you want your grey covered.",
+    "daily": "Nothing.",
+    "weekly": "Colour-safe shampoo. Conditioner 1–2 times.",
+    "nextVisit": "in 6–8 weeks",
+    "atShop": "60–90 min",
+    "suitsText": "Medium and deep skin · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Caramel streaks",
+        "text": "Fine and warm."
+      },
+      {
+        "title": "On top only",
+        "text": "Sides stay dark."
+      },
+      {
+        "title": "Soft blend",
+        "text": "Not chunky."
+      },
+      {
+        "title": "Natural base",
+        "text": "Dark underneath."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are caramel highlights?",
+        "a": "Fine, warm caramel-coloured streaks placed through the top of dark hair."
+      },
+      {
+        "q": "Do they need bleach?",
+        "a": "Yes, on the streaks only. The rest of your hair stays natural."
+      },
+      {
+        "q": "Do they work on short hair?",
+        "a": "Not really. They need some length on top to show."
+      },
+      {
+        "q": "How long do they last?",
+        "a": "They grow out softly over 6–8 weeks, with no hard root line."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Pick thin strands on top with a comb.",
+      "Lighten strands to Level 7–8.",
+      "Use foil or a highlight cap.",
+      "Check every 10 min. Stop at warm caramel.",
+      "Rinse. Tone if too orange. Conditioner."
+    ],
+    "levelTone": "7–8, caramel, streaks only",
+    "coversGrey": "No",
+    "bleach": "Yes, streaks only",
+    "skin": [
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "60–90 min",
+    "swatchLabel": "Level 7-8 - Caramel Highlights",
+    "shade": true
+  },
+  {
+    "id": "C32",
+    "updated": "2026-10-27",
+    "slug": "ash-highlights",
+    "name": "Ash Highlights",
+    "shortLine": "Cool ash-grey streaks on dark hair.",
+    "description": "Fine, cool ash-grey streaks through the top of dark hair. A modern, Korean-style way to add colour without going all over.",
+    "pickIf": "you want a modern, cool-toned change and have some length on top.",
+    "skipIf": "your hair is very short, or you want warm tones.",
+    "daily": "Nothing.",
+    "weekly": "Purple or silver shampoo once.",
+    "nextVisit": "in 6–8 weeks",
+    "atShop": "90 min",
+    "suitsText": "Light and medium skin · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Ash streaks",
+        "text": "Fine and cool."
+      },
+      {
+        "title": "On top only",
+        "text": "Sides stay dark."
+      },
+      {
+        "title": "Cool tone",
+        "text": "No orange."
+      },
+      {
+        "title": "Natural base",
+        "text": "Dark underneath."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are ash highlights?",
+        "a": "Fine, cool ash-grey streaks placed through the top of dark hair."
+      },
+      {
+        "q": "Do they need bleach?",
+        "a": "Yes. The streaks are lightened strongly and then toned ash."
+      },
+      {
+        "q": "Why do ash streaks turn orange?",
+        "a": "Dark hair has warm tones that show as the toner fades. Purple or silver shampoo helps."
+      },
+      {
+        "q": "How long do they last?",
+        "a": "The streaks stay for months, but the cool tone softens in 4–6 weeks."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Pick thin strands on top with a comb.",
+      "Lighten strands to Level 8–9. Check often.",
+      "Use foil or a highlight cap.",
+      "Tone the streaks ash grey.",
+      "Rinse. Conditioner."
+    ],
+    "levelTone": "8–9, ash, streaks only",
+    "coversGrey": "No",
+    "bleach": "Yes, streaks only",
+    "skin": [
+      "Light",
+      "Medium"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "90 min",
+    "swatchLabel": "Level 8-9 - Ash Highlights",
+    "shade": true
+  },
+  {
+    "id": "C33",
+    "updated": "2026-10-27",
+    "slug": "burgundy-highlights",
+    "name": "Burgundy Highlights",
+    "shortLine": "Deep wine-red streaks on dark hair.",
+    "description": "Fine, deep wine-red streaks through the top of dark hair. A bold touch of colour that stays dark overall.",
+    "pickIf": "you want a rich, bold touch of colour without colouring everything.",
+    "skipIf": "your hair is very short, or you have a strict office.",
+    "daily": "Nothing.",
+    "weekly": "Wash with cool water and colour-safe shampoo.",
+    "nextVisit": "in 4–6 weeks, as the red fades",
+    "atShop": "60–90 min",
+    "suitsText": "All skin tones · No grey or some grey",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Burgundy streaks",
+        "text": "Fine and deep."
+      },
+      {
+        "title": "On top only",
+        "text": "Sides stay dark."
+      },
+      {
+        "title": "Red shine",
+        "text": "Glows in light."
+      },
+      {
+        "title": "Natural base",
+        "text": "Dark underneath."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are burgundy highlights?",
+        "a": "Fine, deep wine-red streaks placed through the top of dark hair."
+      },
+      {
+        "q": "Do they need bleach?",
+        "a": "Yes, light bleaching on the streaks only, so the red shows on dark hair."
+      },
+      {
+        "q": "How long do they last?",
+        "a": "The red fades in 4–6 weeks. Cool water helps."
+      },
+      {
+        "q": "Do they work on short hair?",
+        "a": "Not really. They need some length on top to show."
+      }
+    ],
+    "barberSteps": [
+      "Ask: itching from dye or bleach before? If yes, stop.",
+      "Pick thin strands on top with a comb.",
+      "Lighten strands to Level 5–6.",
+      "Use foil or a highlight cap.",
+      "Colour the streaks burgundy.",
+      "Rinse with cool water. Conditioner."
+    ],
+    "levelTone": "5–6, wine red, streaks only",
+    "coversGrey": "No",
+    "bleach": "Yes, streaks only",
+    "skin": [
+      "Light",
+      "Medium",
+      "Deep"
+    ],
+    "grey": [
+      "None",
+      "Some"
+    ],
+    "timeAtShop": "60–90 min",
+    "swatchLabel": "Level 5-6 - Burgundy Highlights",
+    "shade": true
   }
 ]

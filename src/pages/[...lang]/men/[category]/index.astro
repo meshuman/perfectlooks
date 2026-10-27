@@ -1,0 +1,241 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Chips from '@/components/Chips.astro';
+import Icon from '@/components/Icon.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import StyleCard from '@/components/StyleCard.astro';
+import { breadcrumbs } from '@/data/seo';
+import { categoryList, categoryText, getItems, type Category } from '@/data/catalogue';
+import { FACE_FILTER_CATEGORIES, FACE_SHAPES } from '@/data/faces';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().flatMap(({ lang }) =>
+    categoryList.map((category) => ({ params: { lang, category: category.segment.split('/').pop()! }, props: { category } })),
+  );
+}
+
+interface Props {
+  category: Category;
+}
+
+const { category } = Astro.props;
+const i = useI18n(Astro.url);
+const { t, l } = i;
+const text = categoryText(category.key, i);
+// Popular styles lead the list; everything else keeps catalogue order.
+const items = (await getItems(category.key, i)).map((item, n) => ({ item, n })).sort((a, b) => Number(b.item.popular) - Number(a.item.popular) || a.n - b.n).map(({ item }) => item);
+const chipClass =
+  'inline-flex h-11 items-center gap-2 bg-card px-3.5 text-[0.8125rem] font-semibold whitespace-nowrap text-text shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft aria-pressed:bg-ink aria-pressed:text-white aria-pressed:shadow-none';
+const toolClass =
+  'inline-flex h-11 items-center gap-2 bg-card px-4 text-[0.8125rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft aria-expanded:bg-ink aria-expanded:text-white aria-expanded:shadow-none';
+const faceFilter = (FACE_FILTER_CATEGORIES as readonly string[]).includes(category.key);
+---
+
+<BaseLayout title={text.seoTitle} description={text.seoDescription}>
+  <JsonLd
+    slot="head"
+    data={breadcrumbs([{ name: t('site.home'), path: l('/') }, { name: text.label, path: l(`/${category.segment}`) }], Astro.site!)}
+  />
+  <main class="wrap pt-5 pb-12">
+    <Chips
+      label={t('list.categories')}
+      items={[...categoryList.map((c) => ({ label: categoryText(c.key, i).label, href: l(`/${c.segment}`), active: c.key === category.key })), { label: t('addons.link'), href: l('/men/add-ons') }]}
+    />
+
+    <header class="mt-6">
+      <p class="tag">{t('list.browse')}</p>
+      <h1 class="mt-2 text-[2.25rem] leading-tight">
+        {text.label}{' '}
+        <span class="font-normal whitespace-nowrap text-muted" data-count data-total={items.length} data-unit={text.unit}>· {items.length} {text.unit}</span>
+      </h1>
+      <p class="mt-2 max-w-xl text-[0.9375rem] text-muted">{text.intro}</p>
+      <div class="mt-5 flex items-center gap-2" data-list-tools>
+        <button type="button" data-tool="search" aria-expanded="false" aria-controls="list-search" class={toolClass}>
+          <Icon name="search" size={18} />
+          <span>{t('list.search')}</span>
+        </button>
+        <button type="button" data-tool="filters" aria-expanded="false" aria-controls="list-filters" class={toolClass}>
+          <Icon name="sliders" size={18} />
+          <span>{t('list.filters')}</span>
+          <span data-filter-badge hidden class="grid size-5 place-items-center rounded-full bg-brand text-[0.6875rem] font-bold text-white"></span>
+        </button>
+        <button type="button" data-filters-clear data-toolbar-reset hidden class="inline-flex h-11 items-center gap-1.5 px-2 text-[0.8125rem] font-semibold text-muted underline underline-offset-4">
+          <Icon name="x" size={14} strokeWidth={2} />
+          {t('list.reset')}
+        </button>
+      </div>
+      {
+        category.key !== 'colours' && (
+          <div class="mt-2 flex items-center gap-4">
+            <a
+              href={`${l('/about-you')}?from=${l(`/${category.segment}`)}`}
+              data-answers-link
+              class="inline-flex min-h-11 items-center gap-1.5 text-[0.8125rem] font-semibold underline underline-offset-4"
+            >
+              <Icon name="sliders" size={15} />
+              <span data-answers-label>{t('list.findWhatSuits')}</span>
+            </a>
+            <button type="button" data-answers-reset hidden class="min-h-11 text-[0.8125rem] font-semibold text-muted underline underline-offset-4">{t('list.reset')}</button>
+          </div>
+        )
+      }
+      {faceFilter && <p data-face-note hidden class="mt-1 text-sm font-semibold text-gold-ink" aria-live="polite"></p>}
+
+      <div id="list-search" hidden class="relative mt-3">
+        <label for="list-search-input" class="sr-only">{t('list.searchLabel')}</label>
+        <div class="flex items-center bg-card shadow-[inset_0_0_0_1px_var(--color-line)] focus-within:shadow-[inset_0_0_0_2px_var(--color-ink)]">
+          <Icon name="search" size={18} class="ml-4 shrink-0 text-muted" />
+          <input
+            id="list-search-input"
+            data-search-input
+            type="search"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="list-suggest"
+            aria-autocomplete="list"
+            autocomplete="off"
+            autocapitalize="off"
+            spellcheck="false"
+            enterkeyhint="search"
+            placeholder={t('list.searchPlaceholder')}
+            class="h-12 min-w-0 flex-1 appearance-none bg-transparent px-3 text-base outline-none"
+          />
+          <button type="button" data-search-clear hidden aria-label={t('list.searchClear')} class="grid size-12 shrink-0 place-items-center">
+            <Icon name="x" size={18} />
+          </button>
+        </div>
+        <ul
+          id="list-suggest"
+          data-suggest
+          role="listbox"
+          hidden
+          aria-label={t('list.suggestions')}
+          class="absolute inset-x-0 top-full z-20 mt-1 bg-card shadow-[0_12px_32px_rgb(17_17_17/0.14),inset_0_0_0_1px_var(--color-line)]"
+        >
+        </ul>
+      </div>
+
+      <div id="list-filters" hidden class="core mt-3 space-y-5 p-4">
+        {
+          faceFilter && (
+            <div data-face-filter>
+              <p class="eyebrow" id="face-filter-label">{t('list.faceShape')}</p>
+              <div role="group" aria-labelledby="face-filter-label" class="mt-2">
+                <ul class="flex flex-wrap gap-2">
+                  <li>
+                    <button type="button" data-face-chip="" aria-pressed="true" class={chipClass}>{t('list.allFaces')}</button>
+                  </li>
+                  {FACE_SHAPES.map((face) => (
+                    <li>
+                      <button type="button" data-face-chip={face.value} aria-pressed="false" class={chipClass}>
+                        <svg viewBox="0 0 40 48" class="h-5 w-[1.0625rem]" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true">
+                          <path d={face.shape} />
+                        </svg>
+                        {t(`face.${face.value}`)}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          )
+        }
+        {
+          category.key !== 'colours' && (
+            <div>
+              <p class="eyebrow" id="upkeep-filter-label">{t('upkeep.label')}</p>
+              <div role="group" aria-labelledby="upkeep-filter-label" class="mt-2 flex flex-wrap gap-2">
+                <button type="button" data-filter-upkeep="" aria-pressed="true" class={chipClass}>{t('list.anyFilter')}</button>
+                <button type="button" data-filter-upkeep="low" aria-pressed="false" class={chipClass}>{t('upkeep.Low')}</button>
+                <button type="button" data-filter-upkeep="medium" aria-pressed="false" class={chipClass}>{t('upkeep.Medium')}</button>
+                <button type="button" data-filter-upkeep="high" aria-pressed="false" class={chipClass}>{t('upkeep.High')}</button>
+              </div>
+            </div>
+          )
+        }
+        {
+          category.key === 'colours' && (
+            <div>
+              <p class="eyebrow" id="bleach-filter-label">{t('list.bleach')}</p>
+              <div role="group" aria-labelledby="bleach-filter-label" class="mt-2 flex flex-wrap gap-2">
+                <button type="button" data-filter-bleach="" aria-pressed="true" class={chipClass}>{t('list.anyFilter')}</button>
+                <button type="button" data-filter-bleach="no" aria-pressed="false" class={chipClass}>{t('list.noBleach')}</button>
+              </div>
+            </div>
+          )
+        }
+        {
+          (category.key === 'looks' || category.key === 'colours') && (
+            <div>
+              <p class="eyebrow" id="colourtype-filter-label">{t('list.colourType')}</p>
+              <div role="group" aria-labelledby="colourtype-filter-label" class="mt-2 flex flex-wrap gap-2">
+                <button type="button" data-filter-colourtype="" aria-pressed="true" class={chipClass}>{t('list.anyFilter')}</button>
+                {category.key === 'looks' && (
+                  <button type="button" data-filter-colourtype="normal" aria-pressed="false" class={chipClass}>{t('list.colourNormal')}</button>
+                )}
+                <button type="button" data-filter-colourtype="full" aria-pressed="false" class={chipClass}>{t('list.colourFull')}</button>
+                <button type="button" data-filter-colourtype="shades" aria-pressed="false" class={chipClass}>{t('list.colourShades')}</button>
+              </div>
+            </div>
+          )
+        }
+        {
+          category.key === 'hair' && (
+            <div>
+              <button type="button" data-filter-popular aria-pressed="false" class={chipClass}>
+                <Icon name="star" size={14} strokeWidth={2} />
+                {t('list.popularOnly')}
+              </button>
+            </div>
+          )
+        }
+        <button type="button" data-filters-clear class="min-h-11 text-[0.8125rem] font-semibold underline underline-offset-4">{t('list.clearFilters')}</button>
+      </div>
+    </header>
+    {/* Shown by the About you filter. */}
+    <p data-sorted-note hidden class="mt-3 text-sm font-semibold text-gold-ink">{t('list.sortedNote')}</p>
+    <div data-no-results hidden class="core mt-4 flex flex-wrap items-center justify-between gap-3 p-4">
+      <p class="text-[0.9375rem] font-semibold">{t('list.noResults')}</p>
+      <button type="button" data-clear-answers class="h-10 bg-ink px-4 text-sm font-semibold text-white">{t('list.clearAnswers')}</button>
+    </div>
+
+    <ul class="mt-8 grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-3 lg:grid-cols-4" data-item-list={category.key} data-face-filterable={faceFilter ? '' : undefined}>
+      {
+        items.map((item, n) => (
+          <li
+            data-reveal
+            style={`--reveal-delay:${(n % 4) * 60}ms`}
+            data-name={item.name}
+            data-href={item.href}
+            data-meta={item.cardMeta}
+            data-search={[item.name, ...item.alsoCalled, item.shortLine].join(' ')}
+            data-upkeep={item.upkeep?.toLowerCase()}
+            data-popular={String(item.popular)}
+            data-colour-type={item.colourType}
+            data-bleach={category.key === 'colours' ? (item.raw.bleach?.startsWith('No') ? 'no' : 'yes') : undefined}
+          >
+            <StyleCard
+              itemId={item.id}
+              mainPhoto={item.mainPhoto}
+              match={item.match}
+              category={item.category}
+              href={item.href}
+              name={item.name}
+              shortLine={item.shortLine}
+              meta={item.cardMeta}
+              upkeep={item.upkeep}
+              aside={item.cardAside}
+              swatch={item.swatch}
+              popular={item.popular}
+            />
+          </li>
+        ))
+      }
+    </ul>
+    <div data-no-matches hidden class="core mt-8 flex flex-wrap items-center justify-between gap-3 p-4">
+      <p class="text-[0.9375rem] font-semibold">{t('list.noMatches')}</p>
+      <button type="button" data-filters-clear class="h-10 bg-ink px-4 text-sm font-semibold text-white">{t('list.clearFilters')}</button>
+    </div>
+  </main>
+</BaseLayout>

@@ -15,13 +15,13 @@ imageAlt: "A man taking off a motorbike helmet, with a short crop haircut that s
 
 ## Which styles work best?
 
-- **[Crop Fade](/styles/crop-fade) and [French Crop](/styles/french-crop):** the messy look is the style
-- **[Buzz Cut](/styles/buzz-cut) and [Crew Cut](/styles/crew-cut):** nothing to flatten
-- **[Curly Top Fade](/styles/curly-top-fade):** curls spring back
+- **[Crop Fade](/men/hair/crop-fade) and [French Crop](/men/hair/french-crop):** the messy look is the style
+- **[Buzz Cut](/men/hair/buzz-cut) and [Crew Cut](/men/hair/crew-cut):** nothing to flatten
+- **[Curly Top Fade](/men/hair/curly-top-fade):** curls spring back
 
 ## Which styles struggle?
 
-The [Pompadour](/styles/pompadour), [Quiff](/styles/quiff) and [Slick Back](/styles/slick-back) lose their height and shape under a helmet.
+The [Pompadour](/men/hair/pompadour), [Quiff](/men/hair/quiff) and [Slick Back](/men/hair/slick-back) lose their height and shape under a helmet.
 
 ## How do I fix helmet hair fast?
 

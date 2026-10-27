@@ -307,6 +307,156 @@
       "block": "ITEM: H59 Dreadlocks\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with mature dreadlocks grown for this style.\nSTYLE: neat, even dreadlocks about 1 cm thick, reaching the shoulders; tidy roots in even square sections; clean hairline; healthy, matte locks.\nCALLOUTS:\n1. Even locks: About 1 cm thick.\n2. Neat roots: Square sections.\n3. Clean hairline: Tidy edges.\n4. Shoulder length: Healthy ends.",
       "older": false
     },
+    "H60": {
+      "name": "Tapered Afro",
+      "block": "ITEM: H60 Tapered Afro\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: tight natural curls about 5 cm long on top, picked out into a short, full, even shape; sides and nape tapered close from #3 down to #1; neat edged hairline and sideburns; defined curls with no frizz; soft sheen.\nCALLOUTS:\n1. Full top: Short, even curls.\n2. Tapered sides: #3 down to #1.\n3. Neat edges: Hairline lined up.\n4. Curl cream: Soft, no frizz.",
+      "older": false
+    },
+    "H61": {
+      "name": "Curly Curtains",
+      "block": "ITEM: H61 Curly Curtains\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-length natural curls, about 8 cm on top, parted in the centre and falling softly to each side of the face over the ears; sides tapered neatly at the nape; defined curls with no frizz; soft natural shine.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Soft curtains: Fall to the cheeks.\n3. Defined curls: No frizz.\n4. Neat nape: Tapered tidy.",
+      "older": false
+    },
+    "H62": {
+      "name": "Tousled Waves",
+      "block": "ITEM: H62 Tousled Waves\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-length natural waves, about 9 cm on top, left loose and tousled with soft texture; sides over the ears blended softly; tidy nape; matte, natural finish with no frizz.\nCALLOUTS:\n1. Loose waves: Natural movement.\n2. Messy top: Soft texture.\n3. Blended sides: Over the ears.\n4. Tidy nape: Neat at the collar.",
+      "older": false
+    },
+    "H63": {
+      "name": "Low Mullet",
+      "block": "ITEM: H63 Low Mullet\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown a little longer at the back for this style.\nSTYLE: sides machine #2 blending into a top of about 5 cm; the back left a little longer, 3–4 cm, falling softly to the nape in a subtle point; tidy ears; light matte finish.\nCALLOUTS:\n1. Longer back: Just a little extra.\n2. Short sides: Machine #2.\n3. Neat top: About 5 cm.\n4. Soft point: At the nape.",
+      "older": false
+    },
+    "H64": {
+      "name": "Mid Mullet",
+      "block": "ITEM: H64 Mid Mullet\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown longer at the back for this style.\nSTYLE: sides machine #2, blending up to a textured top of about 7 cm; the back left to the collar at 8–10 cm with soft layers; clean ears; natural matte finish.\nCALLOUTS:\n1. Balanced length: Back to the collar.\n2. Textured top: About 7 cm.\n3. Short sides: Machine #2.\n4. Soft layers: Top meets back.",
+      "older": false
+    },
+    "H65": {
+      "name": "High Mullet",
+      "block": "ITEM: H65 High Mullet\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown long at the back for this style.\nSTYLE: sides faded high from #0 to #3 up to the temples; textured top of about 8 cm; the back left long at 12–15 cm, reaching the collar with soft layers; strong contrast between sides and back; matte finish.\nCALLOUTS:\n1. High fade: Sides #0 to #3.\n2. Long back: To the collar.\n3. Textured top: About 8 cm.\n4. Strong contrast: Short to long.",
+      "older": false
+    },
+    "H66": {
+      "name": "Full Mullet",
+      "block": "ITEM: H66 Full Mullet\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown long for this style.\nSTYLE: short top of about 6 cm and sides at machine #2; the back left long, reaching the shoulders with soft long layers; clean ears; relaxed natural texture.\nCALLOUTS:\n1. Long back: To the shoulders.\n2. Short top: About 6 cm.\n3. Short sides: Machine #2.\n4. Long layers: Soft movement.",
+      "older": false
+    },
+    "H67": {
+      "name": "Korean Mullet",
+      "block": "ITEM: H67 Korean Mullet\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with hair grown out at the back for this style.\nSTYLE: soft layered mullet: sides machine #3 tapering to #2; top about 8 cm in light layers; a thin wispy fringe to the eyebrows; the back left to the collar with feathered layers; airy, natural finish.\nCALLOUTS:\n1. Wispy fringe: Thin and light.\n2. Soft layers: Airy, not choppy.\n3. Longer back: To the collar.\n4. Tapered sides: #3 to #2.",
+      "older": false
+    },
+    "H68": {
+      "name": "Greaser",
+      "block": "ITEM: H68 Greaser\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nSTYLE: sides machine #1, tight and tapered; top about 9 cm combed back and slightly up from the forehead, with a small lift at the front and a high-shine pomade finish; clean neck line.\nCALLOUTS:\n1. Combed-back top: High and shiny.\n2. Front lift: A little height.\n3. Tight sides: Machine #1.\n4. Pomade shine: Strong hold.",
+      "older": false
+    },
+    "H69": {
+      "name": "Curly Crop",
+      "block": "ITEM: H69 Curly Crop\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: short, tight natural curls about 3–4 cm on top in a neat round crop; sides tapered from #2 down to #1; clean edged hairline; defined curls with no frizz; soft sheen.\nCALLOUTS:\n1. Cropped curls: Short and defined.\n2. Neat taper: #2 down to #1.\n3. Round shape: Even outline.\n4. Clean edges: Hairline lined up.",
+      "older": false
+    },
+    "H70": {
+      "name": "Angular Fringe",
+      "block": "ITEM: H70 Angular Fringe\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #2 tapering to #1; top about 5 cm; the fringe combed across the forehead and cut at a sharp diagonal angle, longer to the eyebrow on one side; clean neck line; matte finish.\nCALLOUTS:\n1. Angled fringe: Sharp diagonal cut.\n2. Short sides: Machine #2.\n3. Matte finish: A little clay.\n4. Clean nape: Neat neck line.",
+      "older": false
+    },
+    "H71": {
+      "name": "Asymmetrical Cut",
+      "block": "ITEM: H71 Asymmetrical Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: asymmetrical cut: one side short at machine #2 and tapered, the other side left long at about 7 cm and swept diagonally across the forehead; textured top; clean neck line; matte finish.\nCALLOUTS:\n1. Swept side: Long and diagonal.\n2. Short side: Machine #2.\n3. Textured top: Soft and light.\n4. Clean nape: Neat neck line.",
+      "older": false
+    },
+    "H72": {
+      "name": "Blowout Taper",
+      "block": "ITEM: H72 Blowout Taper\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: full, voluminous top of about 8 cm blow-dried up and back with soft body; sides tapered from #2 down to #1; clean neck line; natural light shine.\nCALLOUTS:\n1. Full top: Blow-dried up and back.\n2. Soft body: Light layers.\n3. Clean taper: #2 down to #1.\n4. Light shine: Natural finish.",
+      "older": false
+    },
+    "H73": {
+      "name": "Curtain Fringe",
+      "block": "ITEM: H73 Curtain Fringe\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-length straight hair about 8 cm on top, parted in the centre, the fringe falling softly to each side past the eyebrows like curtains; sides tapered tidy; soft natural finish.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Soft curtains: Fall past the brows.\n3. Tapered sides: Tidy and short.\n4. Natural finish: Light cream.",
+      "older": false
+    },
+    "H74": {
+      "name": "Layered Long Cut",
+      "block": "ITEM: H74 Layered Long Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: long hair reaching below the shoulders with soft, even layers for movement; face-framing layers falling to the chin; healthy, smooth ends; natural shine.\nCALLOUTS:\n1. Long layers: Soft movement.\n2. Face-framing: Falls to the chin.\n3. Healthy ends: Trimmed, no split ends.\n4. Natural shine: Smooth finish.",
+      "older": false
+    },
+    "H75": {
+      "name": "Shaggy Cut",
+      "block": "ITEM: H75 Shaggy Cut\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: shaggy cut with choppy, uneven layers all over, about 9 cm on top; a loose fringe to the eyebrows; the sides and back falling over the ears and collar; messy, lived-in matte texture.\nCALLOUTS:\n1. Choppy layers: Uneven and messy.\n2. Loose fringe: To the eyebrows.\n3. Lived-in texture: Matte, not neat.\n4. Easy shape: Relaxed outline.",
+      "older": false
+    },
+    "H76": {
+      "name": "Bro Flow",
+      "block": "ITEM: H76 Bro Flow\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-to-long hair of about 14 cm, swept back off the forehead and flowing over the ears towards the collar, with light layers; healthy shine; natural, relaxed finish.\nCALLOUTS:\n1. Flowing length: Back over the ears.\n2. Light layers: Soft movement.\n3. Healthy shine: Smooth, not dry.\n4. Neat ends: Trimmed tidy.",
+      "older": false
+    },
+    "H77": {
+      "name": "Broccoli Cut",
+      "block": "ITEM: H77 Broccoli Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: full, rounded top of about 8 cm with light layers, like the head of a broccoli, over short tapered sides at machine #2; a soft fringe to the eyebrows; natural, fluffy finish.\nCALLOUTS:\n1. Round top: Full and even.\n2. Short sides: Machine #2.\n3. Soft fringe: To the eyebrows.\n4. Light layers: Body and movement.",
+      "older": false
+    },
+    "H78": {
+      "name": "Fluffy Hair",
+      "block": "ITEM: H78 Fluffy Hair\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: soft, airy top of about 7 cm with natural volume and light layers; a gentle fringe to the eyebrows; short tapered sides; light, fluffy finish with no heavy product.\nCALLOUTS:\n1. Fluffy top: Soft and airy.\n2. Light layers: Natural body.\n3. Gentle fringe: To the eyebrows.\n4. Tidy sides: Short and tapered.",
+      "older": false
+    },
+    "H79": {
+      "name": "Surfer Hair",
+      "block": "ITEM: H79 Surfer Hair\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: loose natural waves about 12 cm long on top, with a windswept, beachy texture; long sides falling over the ears; light layers; soft, sun-kissed matte finish.\nCALLOUTS:\n1. Loose waves: Natural and beachy.\n2. Windswept top: Messy, relaxed.\n3. Long sides: Over the ears.\n4. Salt texture: Matte, not oily.",
+      "older": false
+    },
+    "H80": {
+      "name": "Warrior Cut",
+      "block": "ITEM: H80 Warrior Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: long, heavy fringe of about 9 cm falling over the forehead to the eyebrows, over short tidy sides at machine #2; thick, straight hair; strong shape; matte finish.\nCALLOUTS:\n1. Heavy fringe: Long and bold.\n2. Short sides: Machine #2.\n3. Strong shape: Sharp outline.\n4. Matte finish: A little clay.",
+      "older": false
+    },
+    "H81": {
+      "name": "Spin Swallow Perm",
+      "block": "ITEM: H81 Spin Swallow Perm\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: Korean spin swallow perm: top about 9 cm in loose spiral curls swept out to the sides with a soft fringe; sides machine #3, tapered; airy volume, no frizz; soft natural shine.\nCALLOUTS:\n1. Spiral curls: Swirled to the sides.\n2. Airy volume: Full and soft.\n3. Soft fringe: To the eyebrows.\n4. Tapered sides: Short and tidy.",
+      "older": false
+    },
+    "H82": {
+      "name": "Off-Centre Part",
+      "block": "ITEM: H82 Off-Centre Part\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 7 cm with a part set just off the middle, hair sweeping softly to both sides; natural shine; neat, relaxed finish.\nCALLOUTS:\n1. Off-centre part: Just off the middle.\n2. Soft sweep: Falls to both sides.\n3. Tapered sides: #3 to #2.\n4. Natural shine: Light cream.",
+      "older": false
+    },
+    "H83": {
+      "name": "Shadow Perm",
+      "block": "ITEM: H83 Shadow Perm\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: Korean shadow perm: top about 8 cm with soft, subtle waves and natural volume at the roots; a light see-through fringe; sides machine #3, tapered; soft matte shine, no frizz.\nCALLOUTS:\n1. Subtle waves: Soft and loose.\n2. Root volume: Natural body.\n3. Light fringe: See-through.\n4. Tapered sides: Short and tidy.",
+      "older": false
+    },
+    "H84": {
+      "name": "Nerd Perm",
+      "block": "ITEM: H84 Nerd Perm\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: Korean round perm: top about 8 cm in soft, even, rounded curls forming a neat boyish outline, with a light fringe to the eyebrows; sides machine #3, tapered; soft shine, no frizz.\nCALLOUTS:\n1. Round curls: Soft and even.\n2. Neat outline: Boyish shape.\n3. Light fringe: To the eyebrows.\n4. Tapered sides: Short and tidy.",
+      "older": false
+    },
+    "H85": {
+      "name": "Korean Fade",
+      "block": "ITEM: H85 Korean Fade\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: clean mid fade on the sides and back from #0 to #3; soft textured top of about 7 cm falling slightly forward with a light see-through fringe; clean neck line; soft matte finish.\nCALLOUTS:\n1. Clean fade: #0 to #3.\n2. Soft top: Textured, falls forward.\n3. Light fringe: See-through.\n4. Clean nape: Sharp neck line.",
+      "older": false
+    },
+    "H86": {
+      "name": "Permed Waves",
+      "block": "ITEM: H86 Permed Waves\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: loose permed waves about 10 cm long on top and over the ears, with natural movement and body; light layers; soft shine, no frizz; relaxed finish.\nCALLOUTS:\n1. Loose waves: Natural movement.\n2. Soft body: Light layers.\n3. Smooth shine: No frizz.\n4. Easy length: Over the ears.",
+      "older": false
+    },
+    "H87": {
+      "name": "Layered Undercut Sweep",
+      "block": "ITEM: H87 Layered Undercut Sweep\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: sides machine #1 with a clean undercut line; top about 9 cm in light layers swept to one side across the forehead with texture and movement; clean neck line; matte finish.\nCALLOUTS:\n1. Swept top: Layered, to one side.\n2. Undercut sides: Machine #1.\n3. Light layers: Texture and movement.\n4. Matte finish: Clay or paste.",
+      "older": false
+    },
+    "H88": {
+      "name": "Korean Ivy League",
+      "block": "ITEM: H88 Korean Ivy League\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #2 tapering to #1; top about 5 cm with a soft side part and a light see-through fringe; soft, natural texture; neat, smart finish with a gentle matte shine.\nCALLOUTS:\n1. Soft side part: Neat and natural.\n2. Light fringe: See-through.\n3. Tapered sides: #2 to #1.\n4. Soft finish: Light wax.",
+      "older": false
+    },
+    "H89": {
+      "name": "K-Pop Cut",
+      "block": "ITEM: H89 K-Pop Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: soft layered Korean idol cut: sides machine #3 tapering to #2; top about 8 cm in smooth layers; a light see-through fringe to the eyebrows; tidy neck line; smooth, glossy natural finish.\nCALLOUTS:\n1. Soft layers: Smooth and light.\n2. See-through fringe: To the eyebrows.\n3. Tidy sides: #3 to #2.\n4. Glossy finish: Light wax.",
+      "older": false
+    },
     "B01": {
       "name": "Clean Shave",
       "block": "ITEM: B01 Clean Shave\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: completely clean-shaven face with smooth skin; no stubble shadow, redness or bumps; fresh, hot-towel finish.\nCALLOUTS:\n1. Smooth cheeks: No stubble shadow.\n2. Clean jaw: Close razor finish.\n3. Smooth neck: No bumps or redness.\n4. Fresh skin: Calm after aftershave.",
@@ -507,6 +657,111 @@
       "block": "ITEM: C12 Henna (Mehndi)\nBACKDROP: Sand (#D8CDBF).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nSWATCH: Henna - Plant colour\nSTYLE: henna on greying hair: grey strands turned warm red-orange, dark strands with a red shine; natural plant-colour look with slightly varied tone; clean scalp and hairline.\nCALLOUTS:\n1. Red-orange grey: Henna on grey hair.\n2. Red shine: On the dark strands.\n3. Natural variation: Plant colour look.\n4. Clean hairline: No stains on the skin.",
       "older": true
     },
+    "C13": {
+      "name": "Light Brown",
+      "block": "ITEM: C13 Light Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Light Brown\nSTYLE: soft, light brown that looks natural, clearly brown in daylight and a little lighter than medium brown; even colour from roots to ends.\nCALLOUTS:\n1. Light brown: Soft and natural.\n2. Clear in daylight: Brown, not black.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C14": {
+      "name": "Chestnut Brown",
+      "block": "ITEM: C14 Chestnut Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Chestnut Brown\nSTYLE: warm chestnut brown with a soft red-gold glow in daylight; rich and natural, even colour from roots to ends.\nCALLOUTS:\n1. Chestnut brown: Warm and rich.\n2. Red-gold glow: Shows in daylight.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C15": {
+      "name": "Mahogany",
+      "block": "ITEM: C15 Mahogany\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4-5 - Mahogany\nSTYLE: dark brown with a deep red shine like polished mahogany wood, subtle in shade and richer where the light hits; even colour from roots to ends.\nCALLOUTS:\n1. Mahogany: Dark red-brown.\n2. Red shine: Glows in light.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C16": {
+      "name": "Dark Blonde",
+      "block": "ITEM: C16 Dark Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 7 - Dark Blonde\nSTYLE: golden, neutral dark blonde, a clear step lighter than brown and softer than full blonde; even colour from roots to ends with a healthy shine.\nCALLOUTS:\n1. Dark blonde: Golden, not yellow.\n2. Even lift: No orange patches.\n3. Healthy shine: Soft and smooth.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C17": {
+      "name": "Violet",
+      "block": "ITEM: C17 Violet\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Violet\nSTYLE: bold, vivid violet purple, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid violet: Bold and even.\n2. Glows in light: Rich purple.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C18": {
+      "name": "Blue",
+      "block": "ITEM: C18 Blue\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Blue\nSTYLE: bold, vivid blue, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid blue: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C19": {
+      "name": "Light Blonde",
+      "block": "ITEM: C19 Light Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 8 - Light Blonde\nSTYLE: clean, bright light blonde with a soft gold glow, even from roots to ends; healthy, smooth hair with shine.\nCALLOUTS:\n1. Light blonde: Clean and bright.\n2. Soft gold glow: Not brassy.\n3. Even lift: No orange patches.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C20": {
+      "name": "Platinum Blonde",
+      "block": "ITEM: C20 Platinum Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 10 - Platinum Blonde\nSTYLE: pale platinum blonde, almost white with a soft cream tone, even from roots to ends; healthy shine with no yellow or orange patches.\nCALLOUTS:\n1. Platinum blonde: Pale and even.\n2. No brassy tones: No yellow or orange.\n3. Healthy shine: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C21": {
+      "name": "Gold Blonde",
+      "block": "ITEM: C21 Gold Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 7-8 - Gold Blonde\nSTYLE: warm, golden blonde like honey in sunlight, rich and even from roots to ends; healthy shine, no orange patches.\nCALLOUTS:\n1. Gold blonde: Warm and sunny.\n2. Rich glow: Like honey in light.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C22": {
+      "name": "Gold Brown",
+      "block": "ITEM: C22 Gold Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6 - Gold Brown\nSTYLE: warm light brown with a golden glow across the whole head, bright in sunlight, even from roots to ends.\nCALLOUTS:\n1. Gold brown: Warm and bright.\n2. Golden glow: Shows in light.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C23": {
+      "name": "Dark Chestnut",
+      "block": "ITEM: C23 Dark Chestnut\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4 - Dark Chestnut\nSTYLE: deep, natural dark brown with a warm red-gold glow in daylight; full grey coverage, even colour from roots to ends.\nCALLOUTS:\n1. Dark chestnut: Deep and warm.\n2. Red-gold glow: Shows in daylight.\n3. Grey covered: Even colour.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C24": {
+      "name": "Wine Red",
+      "block": "ITEM: C24 Wine Red\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Wine Red\nSTYLE: rich, deep wine red, brighter and redder than burgundy, glowing where the light hits; even colour from roots to ends.\nCALLOUTS:\n1. Wine red: Rich and deep.\n2. Glows in light: Clear red shine.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C25": {
+      "name": "Red",
+      "block": "ITEM: C25 Red\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Red\nSTYLE: bold, vivid red, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid red: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C26": {
+      "name": "Orange",
+      "block": "ITEM: C26 Orange\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Orange\nSTYLE: bold, vivid orange, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid orange: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C27": {
+      "name": "Dark Grape",
+      "block": "ITEM: C27 Dark Grape\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 3 - Dark Grape\nSTYLE: deep, dark violet that looks almost black, with a clear violet shine where the light hits; full grey coverage, even colour from roots to ends.\nCALLOUTS:\n1. Dark grape: Almost black.\n2. Violet shine: Shows in sunlight.\n3. Grey covered: Even colour.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C28": {
+      "name": "Charcoal Grey",
+      "block": "ITEM: C28 Charcoal Grey\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6-7 - Charcoal Grey\nSTYLE: dark, smoky charcoal grey with a cool blue undertone, deeper than silver, even from roots to ends; healthy shine.\nCALLOUTS:\n1. Charcoal grey: Dark and smoky.\n2. Cool undertone: No yellow.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C29": {
+      "name": "Green",
+      "block": "ITEM: C29 Green\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Green\nSTYLE: bold, vivid green, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid green: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C30": {
+      "name": "Yellow",
+      "block": "ITEM: C30 Yellow\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Yellow\nSTYLE: bold, vivid yellow, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid yellow: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "older": false
+    },
+    "C31": {
+      "name": "Caramel Highlights",
+      "block": "ITEM: C31 Caramel Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 7-8 - Caramel Highlights\nSTYLE: natural black base with fine, warm caramel streaks woven through the top, soft and blended, not chunky; sides stay dark.\nCALLOUTS:\n1. Caramel streaks: Fine and warm.\n2. On top only: Sides stay dark.\n3. Soft blend: Not chunky.\n4. Natural base: Dark underneath.",
+      "older": false
+    },
+    "C32": {
+      "name": "Ash Highlights",
+      "block": "ITEM: C32 Ash Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 8-9 - Ash Highlights\nSTYLE: natural black base with fine, cool ash-grey streaks woven through the top, soft and blended, not chunky; sides stay dark; modern Korean-style finish.\nCALLOUTS:\n1. Ash streaks: Fine and cool.\n2. On top only: Sides stay dark.\n3. Cool tone: No orange.\n4. Natural base: Dark underneath.",
+      "older": false
+    },
+    "C33": {
+      "name": "Burgundy Highlights",
+      "block": "ITEM: C33 Burgundy Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5-6 - Burgundy Highlights\nSTYLE: natural black base with fine, deep burgundy wine-red streaks woven through the top, soft and blended, not chunky; sides stay dark; glossy finish.\nCALLOUTS:\n1. Burgundy streaks: Fine and deep.\n2. On top only: Sides stay dark.\n3. Red shine: Glows in light.\n4. Natural base: Dark underneath.",
+      "older": false
+    },
     "L01": {
       "name": "Office Ready",
       "block": "ITEM: L01 Office Ready\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Classic Side Part: tapered sides, about 6 cm on top combed neatly to the side, light pomade shine.\n- Beard and moustache: clean-shaven.\n- Colour: natural black.\nCALLOUTS:\n1. Side part: Neat and polished.\n2. Clean shave: Smooth face.\n3. Tapered sides: Office-ready.\n4. Soft shine: Light pomade.",
@@ -690,6 +945,156 @@
     "L37": {
       "name": "Knot and Fade",
       "block": "ITEM: L37 Knot and Fade\nBACKDROP: Sage (#CADBD8).\nCHARACTER NOTE: same man, with long hair on top for this look.\nPARTS:\n- Hair: Top Knot: long top tied in a knot at the crown, #1 sides and back.\n- Beard: Faded Beard: 1 mm at the sideburns to 6 mm at the jaw, flowing into the short sides.\nCALLOUTS:\n1. Crown knot: Tied high.\n2. Faded beard: Blends into the sides.\n3. Short sides: Machine #1.\n4. Clean cheek line: Tidy edges.",
+      "older": false
+    },
+    "L38": {
+      "name": "Korean Idol",
+      "block": "ITEM: L38 Korean Idol\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: K-Pop Cut: soft layered top of about 8 cm with a light see-through fringe to the eyebrows, #3 sides tapering to #2.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. K-Pop Cut: Soft layers.\n2. See-through fringe: To the eyebrows.\n3. Clean face: No beard or moustache.\n4. Glossy finish: Light wax.",
+      "older": false
+    },
+    "L39": {
+      "name": "Soft Perm Day",
+      "block": "ITEM: L39 Soft Perm Day\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Shadow Perm: soft, subtle waves and root volume on an 8 cm top, light see-through fringe, #3 sides.\n- Beard: Light Stubble, 1-2 mm.\nCALLOUTS:\n1. Shadow perm: Soft, subtle waves.\n2. Light stubble: 1-2 mm.\n3. Root volume: Natural body.\n4. Tapered sides: Short and tidy.",
+      "older": false
+    },
+    "L40": {
+      "name": "Retro Greaser",
+      "block": "ITEM: L40 Retro Greaser\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: Greaser: shiny combed-back top of about 9 cm with a small front lift, #1 tight tapered sides.\n- Beard: clean-shaven chin and cheeks.\n- Moustache: Natural Full, about 6 mm, on the lip line.\nCALLOUTS:\n1. Greaser top: High and shiny.\n2. Natural moustache: On the lip line.\n3. Tight sides: Machine #1.\n4. Clean chin: Shaved smooth.",
+      "older": false
+    },
+    "L41": {
+      "name": "Skater Mullet",
+      "block": "ITEM: L41 Skater Mullet\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: High Mullet: sides faded high from #0 to #3, textured top of about 8 cm, long back of 12-15 cm to the collar.\n- Beard: Heavy Stubble, 5 mm.\nCALLOUTS:\n1. High mullet: Long back, short sides.\n2. High fade: Sides #0 to #3.\n3. Heavy stubble: 5 mm.\n4. Textured top: Messy and matte.",
+      "older": false
+    },
+    "L42": {
+      "name": "Soft Mullet",
+      "block": "ITEM: L42 Soft Mullet\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Korean Mullet: soft layers, a thin wispy fringe to the eyebrows, back to the collar, #3 sides tapering to #2.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Korean mullet: Soft, layered.\n2. Wispy fringe: Thin and light.\n3. Clean face: No beard or moustache.\n4. Tapered sides: #3 to #2.",
+      "older": false
+    },
+    "L43": {
+      "name": "Beach Casual",
+      "block": "ITEM: L43 Beach Casual\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Surfer Hair: loose natural waves about 12 cm on top, windswept, long sides over the ears.\n- Beard: Light Stubble, 1-2 mm.\nCALLOUTS:\n1. Loose waves: Natural and beachy.\n2. Light stubble: 1-2 mm.\n3. Windswept top: Relaxed finish.\n4. Long sides: Over the ears.",
+      "older": false
+    },
+    "L44": {
+      "name": "Fluffy Fresh",
+      "block": "ITEM: L44 Fluffy Fresh\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Fluffy Hair: soft, airy top of about 7 cm with natural volume, gentle fringe, #3 tapered sides.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Fluffy top: Soft and airy.\n2. Gentle fringe: To the eyebrows.\n3. Clean face: No beard or moustache.\n4. Tidy sides: Short and tapered.",
+      "older": false
+    },
+    "L45": {
+      "name": "Curly Clean",
+      "block": "ITEM: L45 Curly Clean\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Curly Crop: short, tight curls of 3-4 cm on top, sides tapered from #2 to #1.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.\nCALLOUTS:\n1. Curly crop: Short and defined.\n2. Boxed beard: Sharp cheek lines.\n3. Neat taper: #2 down to #1.\n4. Clean edges: Hairline lined up.",
+      "older": false
+    },
+    "L46": {
+      "name": "Mahogany Part",
+      "block": "ITEM: L46 Mahogany Part\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: Off-Centre Part: 7 cm top with a part just off the middle, #3 sides tapering to #2.\n- Colour: Mahogany: dark red-brown with a deep red shine.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Mahogany: Dark red-brown.\n2. Off-centre part: Just off the middle.\n3. Clean face: No beard or moustache.\n4. Red shine: Glows in light.",
+      "older": false
+    },
+    "L47": {
+      "name": "Golden Fade",
+      "block": "ITEM: L47 Golden Fade\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: Korean Fade: clean fade on the sides from #0 to #3, soft textured top of about 7 cm.\n- Colour: Gold Blonde: warm, golden blonde like honey in sunlight.\n- Beard and moustache: fully clean-shaven.\nCALLOUTS:\n1. Gold blonde: Warm and sunny.\n2. Clean fade: #0 to #3.\n3. Soft top: Textured, falls forward.\n4. Clean face: No beard or moustache.",
+      "older": false
+    },
+    "L48": {
+      "name": "Charcoal Crop",
+      "block": "ITEM: L48 Charcoal Crop\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Angular Fringe: short fringe cut at a sharp diagonal over #2 tapered sides.\n- Colour: Charcoal Grey: dark, smoky grey with a cool blue undertone.\n- Beard: Light Stubble, 1-2 mm.\nCALLOUTS:\n1. Charcoal grey: Dark and smoky.\n2. Angled fringe: Sharp diagonal cut.\n3. Light stubble: 1-2 mm.\n4. Short sides: Machine #2.",
+      "older": false
+    },
+    "L49": {
+      "name": "Long and Layered",
+      "block": "ITEM: L49 Long and Layered\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Layered Long Cut: long hair below the shoulders with soft, even layers and face-framing layers to the chin.\n- Beard: Full Beard: thick, about 4 cm at the chin, rounded, combed.\nCALLOUTS:\n1. Long layers: Soft movement.\n2. Full beard: Thick and rounded.\n3. Face-framing: Falls to the chin.\n4. Healthy ends: Trimmed, no split ends.",
+      "older": false
+    },
+    "L50": {
+      "name": "Grey-Free Beard",
+      "block": "ITEM: L50 Grey-Free Beard\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: Taper Fade: #3 sides with skin only at the sideburns and nape, 5 cm top.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.\n- Colour: Jet Black on hair and beard, with full grey coverage and a glossy finish.\nCALLOUTS:\n1. Jet black: Hair and beard.\n2. Boxed beard: Sharp cheek lines.\n3. Taper fade: Small and clean.\n4. Grey covered: Even and glossy.",
+      "older": false
+    },
+    "L51": {
+      "name": "Dark Brown Gentleman",
+      "block": "ITEM: L51 Dark Brown Gentleman\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Classic Side Part: tapered sides, about 6 cm on top combed neatly to the side, light pomade shine.\n- Beard: Full Beard: thick, about 4 cm at the chin, rounded, combed.\n- Colour: Dark Brown on hair and beard, rich and natural.\nCALLOUTS:\n1. Dark brown: Hair and beard.\n2. Full beard: Thick and rounded.\n3. Side part: Neat and classic.\n4. Warm and natural: Grey covered.",
+      "older": false
+    },
+    "L52": {
+      "name": "Chestnut Flow",
+      "block": "ITEM: L52 Chestnut Flow\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Medium Flow: medium-to-long hair swept back and to the sides with light layers.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.\n- Colour: Chestnut Brown on hair and beard, warm with a soft red-gold glow.\nCALLOUTS:\n1. Chestnut brown: Hair and beard.\n2. Flowing hair: Back and to the sides.\n3. Boxed beard: Sharp cheek lines.\n4. Red-gold glow: Shows in daylight.",
+      "older": false
+    },
+    "L53": {
+      "name": "Mahogany Quiff",
+      "block": "ITEM: L53 Mahogany Quiff\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Quiff: front about 8 cm lifted up and back, faded sides.\n- Beard: Faded Beard: 1 mm at the sideburns to 6 mm at the jaw, flowing into the hair fade.\n- Colour: Mahogany on hair and beard, dark red-brown with a deep red shine.\nCALLOUTS:\n1. Mahogany: Hair and beard.\n2. Lifted quiff: Up and back.\n3. Faded beard: Flows into the fade.\n4. Red shine: Glows in light.",
+      "older": false
+    },
+    "L54": {
+      "name": "Blue-Black Edge",
+      "block": "ITEM: L54 Blue-Black Edge\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Skin Fade: high fade to bare skin, 4 cm matte top.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.\n- Colour: Blue-Black on hair and beard, deep black with a cool blue sheen.\nCALLOUTS:\n1. Blue-black: Hair and beard.\n2. Skin fade: Bare skin up high.\n3. Boxed beard: Sharp cheek lines.\n4. Blue sheen: Glossy in light.",
+      "older": false
+    },
+    "L55": {
+      "name": "Silver Fox",
+      "block": "ITEM: L55 Silver Fox\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: Slick Back: 8-10 cm top combed straight back with shine; sides #2 tapering to #1.\n- Beard: Full Beard: thick, about 4 cm at the chin, rounded, combed.\n- Colour: Ash Grey / Silver on hair and beard, cool and even, eyebrows natural black.\nCALLOUTS:\n1. Silver grey: Hair and beard.\n2. Slick back: Combed with shine.\n3. Full beard: Thick and rounded.\n4. Cool tone: No yellow.",
+      "older": false
+    },
+    "L56": {
+      "name": "Charcoal Stubble",
+      "block": "ITEM: L56 Charcoal Stubble\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: Textured Fringe: choppy 6 cm top pushed forward over a low taper, #1 to #3.\n- Beard: Heavy Stubble, 5 mm.\n- Colour: Charcoal Grey on hair and stubble, dark, smoky and cool.\nCALLOUTS:\n1. Charcoal grey: Hair and stubble.\n2. Textured fringe: Choppy, forward.\n3. Heavy stubble: 5 mm.\n4. Low taper: #1 to #3.",
+      "older": false
+    },
+    "L57": {
+      "name": "Copper Ducktail",
+      "block": "ITEM: L57 Copper Ducktail\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Undercut: 8 cm top swept back, #1 sides with a hard line.\n- Beard: Ducktail: full beard with 9 mm sides and a longer chin of 4-6 cm shaped to a point.\n- Colour: Copper on hair and beard, bright warm orange-brown.\nCALLOUTS:\n1. Copper: Hair and beard.\n2. Ducktail beard: Pointed chin.\n3. Undercut: Hard line, #1 sides.\n4. Vivid in light: Warm orange-brown.",
+      "older": false
+    },
+    "L58": {
+      "name": "Burgundy Van Dyke",
+      "block": "ITEM: L58 Burgundy Van Dyke\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Pushed Back: 8 cm top with a soft matte finish, tapered sides.\n- Beard: Van Dyke: pointed chin, separate moustache, shaved cheeks.\n- Colour: Burgundy on hair, chin beard and moustache, deep wine red-violet.\nCALLOUTS:\n1. Burgundy: Hair and beard.\n2. Van Dyke: Pointed chin, moustache.\n3. Pushed back: Matte, 8 cm.\n4. Clean cheeks: Shaved smooth.",
+      "older": false
+    },
+    "L59": {
+      "name": "Violet Edge",
+      "block": "ITEM: L59 Violet Edge\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Edgar Cut: blunt 6 cm fringe cut straight across the forehead over a mid skin fade, #0 to #3.\n- Beard: Heavy Stubble, 5 mm.\n- Colour: Violet on hair and stubble, bold, vivid purple.\nCALLOUTS:\n1. Violet: Hair and stubble.\n2. Blunt fringe: Straight across.\n3. Mid skin fade: #0 to #3.\n4. Vivid colour: Bold and even.",
+      "older": false
+    },
+    "L60": {
+      "name": "Grey Blend Ivy",
+      "block": "ITEM: L60 Grey Blend Ivy\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Ivy League: 4 cm top with a soft side part.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, natural salt-and-pepper.\n- Colour: Grey Blending on hair and beard: grey softened into a natural mix, not hidden.\nCALLOUTS:\n1. Grey blending: Hair and beard.\n2. Ivy League: Neat, with a part.\n3. Boxed beard: Salt-and-pepper.\n4. Natural mix: Soft, no hard roots.",
+      "older": false
+    },
+    "L61": {
+      "name": "Midnight Waves",
+      "block": "ITEM: L61 Midnight Waves\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Tousled Waves: loose natural waves about 9 cm on top, messy and textured, sides over the ears.\n- Beard: Light Stubble, 1-2 mm.\n- Colour: Dark Grape on hair and stubble, near-black with a deep violet shine.\nCALLOUTS:\n1. Dark grape: Hair and stubble.\n2. Loose waves: Natural movement.\n3. Violet shine: Shows in sunlight.\n4. Light stubble: 1-2 mm.",
+      "older": false
+    },
+    "L62": {
+      "name": "Golden Touch",
+      "block": "ITEM: L62 Golden Touch\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Middle Part: 8 cm top parted in the centre, falling softly to each side, tapered sides.\n- Beard and moustache: fully clean-shaven.\n- Colour: Golden Brown Highlights: fine golden-brown streaks through the top only, sides stay dark.\nCALLOUTS:\n1. Golden streaks: Fine, on top only.\n2. Centre part: Even on both sides.\n3. Natural sides: Left dark.\n4. Clean face: No beard or moustache.",
+      "older": false
+    },
+    "L63": {
+      "name": "Caramel Waves",
+      "block": "ITEM: L63 Caramel Waves\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Tousled Waves: loose natural waves about 9 cm on top, messy and textured, sides over the ears.\n- Beard: Light Stubble, 1-2 mm.\n- Colour: Caramel Highlights: fine warm caramel streaks through the top only.\nCALLOUTS:\n1. Caramel streaks: Warm, on top.\n2. Loose waves: Natural movement.\n3. Light stubble: 1-2 mm.\n4. Soft blend: Not chunky.",
+      "older": false
+    },
+    "L64": {
+      "name": "Ash Streak Idol",
+      "block": "ITEM: L64 Ash Streak Idol\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: K-Pop Cut: soft layered top of about 8 cm with a light see-through fringe to the eyebrows, #3 sides tapering to #2.\n- Beard and moustache: fully clean-shaven.\n- Colour: Ash Highlights: fine cool ash-grey streaks through the top only.\nCALLOUTS:\n1. Ash streaks: Cool and fine.\n2. K-Pop Cut: Soft layers.\n3. See-through fringe: To the eyebrows.\n4. Clean face: No beard or moustache.",
+      "older": false
+    },
+    "L65": {
+      "name": "Wine Streaks",
+      "block": "ITEM: L65 Wine Streaks\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: Wolf Cut: shaggy layers, messy fringe, longer back to the collar.\n- Beard and moustache: fully clean-shaven.\n- Colour: Burgundy Highlights: fine deep wine-red streaks through the top only.\nCALLOUTS:\n1. Burgundy streaks: Deep and fine.\n2. Wolf cut: Shaggy layers.\n3. Messy fringe: Soft and loose.\n4. Clean face: No beard or moustache.",
+      "older": false
+    },
+    "L66": {
+      "name": "Salt and Pepper Taper",
+      "block": "ITEM: L66 Salt and Pepper Taper\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Taper Fade: #3 sides with skin only at the sideburns and nape, 5 cm top.\n- Beard: Heavy Stubble, 5 mm.\n- Colour: Grey Blending on hair and stubble: grey softened into a natural salt-and-pepper mix, not hidden.\nCALLOUTS:\n1. Grey blending: Hair and stubble.\n2. Taper fade: Small and clean.\n3. Heavy stubble: 5 mm.\n4. Natural mix: Soft, no hard roots.",
+      "older": false
+    },
+    "L67": {
+      "name": "Sun-Kissed Surfer",
+      "block": "ITEM: L67 Sun-Kissed Surfer\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Surfer Hair: loose natural waves about 12 cm on top, windswept, long sides over the ears.\n- Beard: Heavy Stubble, 5 mm.\n- Colour: Caramel Highlights: fine warm caramel streaks through the top only.\nCALLOUTS:\n1. Caramel streaks: Sun-kissed, on top.\n2. Beach waves: Loose and windswept.\n3. Heavy stubble: 5 mm.\n4. Long sides: Over the ears.",
       "older": false
     }
   }

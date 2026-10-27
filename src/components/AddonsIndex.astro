@@ -1,0 +1,93 @@
+---
+// The Add-ons page for one side of the shop: grouped photo cards, same motion as the style cards.
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Chips from './Chips.astro';
+import Icon from './Icon.astro';
+import ItemPhoto from './ItemPhoto.astro';
+import JsonLd from './JsonLd.astro';
+import { ADDON_GROUPS, addonId, addonsFor, type Who } from '@/data/addons';
+import { categoryList, categoryText } from '@/data/catalogue';
+import { womenCategories } from '@/data/women';
+import { defaultShop as shop } from '@/data/shop';
+import { breadcrumbs } from '@/data/seo';
+import { useI18n, type UiKey } from '@/i18n';
+
+interface Props {
+  who: Who;
+}
+
+const { who } = Astro.props;
+const i = useI18n(Astro.url);
+const { t, l } = i;
+const k = (slug: string, field: string) => `addon.${slug}.${field}` as UiKey;
+const groupLabel = { skin: t('addons.groupSkin'), hair: t('addons.groupHair'), grooming: t('addons.groupGrooming') };
+const list = addonsFor(who);
+
+const chips =
+  who === 'men'
+    ? categoryList.map((c) => ({ label: categoryText(c.key, i).label, href: l(`/${c.segment}`) }))
+    : womenCategories.map((c) => ({ label: t(`wcat.${c.key}.label` as UiKey), href: l(`/women/${c.key}`) }));
+---
+
+<BaseLayout title={t('addons.title')} description={t('addons.description', { shop: shop.name })} back={{ href: l(`/${who}`), label: t(`who.${who}` as UiKey) }}>
+  <JsonLd
+    slot="head"
+    data={breadcrumbs(
+      [
+        { name: t('site.home'), path: l('/') },
+        { name: t(`who.${who}` as UiKey), path: l(`/${who}`) },
+        { name: t('addons.heading'), path: l(`/${who}/add-ons`) },
+      ],
+      Astro.site!,
+    )}
+  />
+  <main class="wrap pt-5 pb-16">
+    <Chips label={t('list.categories')} items={[...chips, { label: t('addons.link'), href: l(`/${who}/add-ons`), active: true }]} />
+
+    <p class="mt-6 tag">{t('addons.kicker')}</p>
+    <h1 class="mt-3 text-[2.25rem] leading-tight">{t('addons.heading')}</h1>
+    <p class="mt-3 max-w-xl text-[1.0625rem] leading-relaxed text-muted">{t('addons.intro')}</p>
+
+    {
+      ADDON_GROUPS.map((group) => {
+        const items = list.filter((a) => a.group === group);
+        return (
+          items.length > 0 && (
+            <section class="mt-10" aria-labelledby={`group-${group}`}>
+              <h2 id={`group-${group}`} class="eyebrow">{groupLabel[group]}</h2>
+              <ul class="mt-4 grid grid-cols-2 gap-x-3 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+                {items.map((a, n) => (
+                  <li data-reveal style={`--reveal-delay:${(n % 4) * 60}ms`}>
+                    <article class="group relative flex h-full flex-col">
+                      <div class="relative aspect-square overflow-hidden">
+                        <ItemPhoto
+                          item={{ id: addonId(a.slug), name: t(k(a.slug, 'name')), mainPhoto: 'front' }}
+                          class="size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
+                        />
+                      </div>
+                      <div class="flex flex-1 flex-col pt-3">
+                        <h3 class="text-[1rem] leading-snug font-semibold">
+                          <a href={l(`/${who}/add-ons/${a.slug}`)} class="after:absolute after:inset-0">{t(k(a.slug, 'name'))}</a>
+                        </h3>
+                        <p class="mt-0.5 line-clamp-2 text-[0.8125rem] leading-snug text-muted">{t(k(a.slug, 'line'))}</p>
+                        <div class="mt-auto flex items-center justify-between gap-2 pt-2.5 text-[0.75rem] text-muted">
+                          <span class="inline-flex items-center gap-1.5">
+                            <Icon name="clock" size={13} />
+                            {t(k(a.slug, 'time'))}
+                          </span>
+                          <Icon name="arrowRight" size={16} strokeWidth={1.25} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+                        </div>
+                      </div>
+                    </article>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        );
+      })
+    }
+
+    <p class="mt-10 text-sm text-muted">{t('addons.care')}</p>
+  </main>
+</BaseLayout>

@@ -2,6 +2,7 @@
 // for every item, exactly as the prompt sheet's Copy clean button gives them.
 // Usage: npm run build && npm run prompts
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { addonItems, womanReference, womenItems } from './women-prompts.mjs';
 
 const html = readFileSync('dist/dev/prompts.html', 'utf8');
 const unescape = (s) =>
@@ -22,7 +23,7 @@ const items = clean.map((text) => {
   const [, id, name] = text.match(/^ITEM: ([HBMCL]\d{2}) (.+)$/m);
   return { id, name, text, older: /OLDER VERSION/.test(text) };
 });
-if (items.length !== 136) throw new Error(`expected 136 clean prompts, found ${items.length}`);
+if (items.length !== 217) throw new Error(`expected 217 clean prompts, found ${items.length}`);
 
 const groups = { H: 'Hair styles', B: 'Beards', M: 'Moustaches', C: 'Hair colours', L: 'Ready Looks' };
 const out = [
@@ -44,6 +45,12 @@ const out = [
   '```text',
   older,
   '```',
+  '',
+  "## Character reference: Anisha (women's services)",
+  '',
+  '```text',
+  womanReference,
+  '```',
 ];
 for (const [prefix, title] of Object.entries(groups)) {
   out.push('', `## ${title}`);
@@ -52,6 +59,11 @@ for (const [prefix, title] of Object.entries(groups)) {
   }
 }
 
+for (const [title, list] of [["Women's services (attach the Anisha reference)", womenItems], ['Add-ons', addonItems]]) {
+  out.push('', `## ${title}`);
+  for (const item of list) out.push('', `### ${item.id} ${item.name}`, '', `Save as \`${item.id}.jpg\``, '', '```text', item.text, '```');
+}
+
 mkdirSync('image-prompts', { recursive: true });
 writeFileSync('image-prompts/ready-to-paste.md', out.join('\n') + '\n');
-console.log(`Wrote image-prompts/ready-to-paste.md: 2 character references, ${items.length} item prompts`);
+console.log(`Wrote image-prompts/ready-to-paste.md: 3 character references, ${items.length} men's + ${womenItems.length} women's + ${addonItems.length} add-on prompts`);

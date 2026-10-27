@@ -210,7 +210,7 @@ const option =
             {t('about.previous')}
           </button>
           <Button size="lg" data-next hidden class="ml-auto min-w-40">{t('about.next')}</Button>
-          <Button href={l('/styles')} size="lg" arrow data-show class="ml-auto min-w-40">{t('about.showStyles')}</Button>
+          <Button href={l('/men/hair')} size="lg" arrow data-show class="ml-auto min-w-40">{t('about.showStyles')}</Button>
         </div>
       </div>
     </form>
@@ -238,7 +238,7 @@ const option =
 
   // Go back to the list the customer came from. Only same-site paths are allowed.
   const from = new URLSearchParams(location.search).get('from');
-  if (from && /^(\/(ne|hi))?\/[a-z-]+$/.test(from)) show.href = from;
+  if (from && /^(\/(ne|hi))?\/[a-z-]+(\/[a-z-]+)?$/.test(from)) show.href = from;
 
   for (const [name, value] of Object.entries($answers.get())) {
     const input = form.querySelector<HTMLInputElement>(`input[name="${name}"][value="${value}"]`);

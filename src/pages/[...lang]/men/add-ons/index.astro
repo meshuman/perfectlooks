@@ -1,0 +1,10 @@
+---
+import AddonsIndex from '@/components/AddonsIndex.astro';
+import { langParams } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+---
+
+<AddonsIndex who="men" />

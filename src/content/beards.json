@@ -14,6 +14,7 @@
     "suitsText": "All face shapes · Any beard growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Smooth cheeks",
@@ -91,6 +92,7 @@
       "3-day beard"
     ],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Even stubble",
@@ -164,6 +166,7 @@
     "suitsText": "All face shapes · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Even 5 mm",
@@ -236,6 +239,7 @@
     "suitsText": "Oval, round, long and heart face · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Sharp cheek line",
@@ -309,6 +313,7 @@
     "suitsText": "Oval, square and heart face · Full growth only",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Full shape",
@@ -380,6 +385,7 @@
     "suitsText": "Oval, round, square and heart face · Any growth, even patchy",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Chin only",
@@ -453,6 +459,7 @@
     "suitsText": "Oval, round, square and heart face · Any growth, even patchy",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Pointed chin",
@@ -526,6 +533,7 @@
     "suitsText": "Oval, round and square face · Any growth, even patchy",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Round shape",
@@ -599,6 +607,7 @@
     "suitsText": "Oval and round face · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "side",
+    "popular": false,
     "callouts": [
       {
         "title": "Jaw line strip",
@@ -669,6 +678,7 @@
     "suitsText": "Oval, square, round and heart face · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "side",
+    "popular": false,
     "callouts": [
       {
         "title": "Faded sideburn",
@@ -742,6 +752,7 @@
     "suitsText": "Oval, round, square and heart face · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Chin and jaw",
@@ -815,6 +826,7 @@
     "suitsText": "Oval, round, square and heart face · Any growth, even patchy",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Anchor shape",
@@ -889,6 +901,7 @@
     "suitsText": "Oval, round, square and heart face · Full growth only",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Pointed chin",
@@ -961,6 +974,7 @@
     "suitsText": "Oval, round, square and heart face · Full growth only",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Long length",
@@ -1033,6 +1047,7 @@
     "suitsText": "All face shapes · Any growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Small patch",
@@ -1107,6 +1122,7 @@
     "suitsText": "Oval and long face · Full growth only",
     "alsoCalled": [],
     "mainPhoto": "side",
+    "popular": false,
     "callouts": [
       {
         "title": "Wide sideburns",

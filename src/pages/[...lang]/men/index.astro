@@ -1,0 +1,123 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import CategoryTile from '@/components/CategoryTile.astro';
+import Icon from '@/components/Icon.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { categoryText, type CategoryKey } from '@/data/catalogue';
+import { addons } from '@/data/addons';
+import { getPosts, postHref } from '@/data/learn';
+import { breadcrumbs } from '@/data/seo';
+import { defaultShop as shop } from '@/data/shop';
+import { FACE_SHAPES } from '@/data/faces';
+import { swatches } from '@/data/swatches';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const i = useI18n(Astro.url);
+const { t, l } = i;
+
+// Hair leads: full width on phones, a 2x2 block on wider screens.
+// Every tile shows the same kind of image: a photo of an item in that category (the colour tile shows
+// the colour itself). A tile without a photo falls back to the same branded placeholder as the cards.
+const tiles: { key: CategoryKey; href: string; feature?: boolean; block?: string; photo: { id: string; name: string; mainPhoto: 'front' | 'side'; swatch?: string } }[] = [
+  { key: 'hair', href: '/men/hair', feature: true, photo: { id: 'H07', name: 'Low Fade', mainPhoto: 'side' } },
+  { key: 'beards', href: '/men/beards', photo: { id: 'B05', name: 'Full Beard', mainPhoto: 'front' } },
+  { key: 'moustaches', href: '/men/moustaches', photo: { id: 'M03', name: 'Pencil', mainPhoto: 'front' } },
+  { key: 'colours', href: '/men/colours', block: 'bg-block-sand', photo: { id: 'C02', name: 'Natural Black', mainPhoto: 'front', swatch: swatches.C02 } },
+  { key: 'looks', href: '/men/looks', photo: { id: 'L01', name: 'Office Ready', mainPhoto: 'front' } },
+];
+
+// "What is my face shape?", linked under the face shape row for anyone who isn't sure of theirs.
+const faceGuide = (await getPosts()).find((post) => post.data.code === 'P01');
+---
+
+<BaseLayout title={t('men.title')} description={t('men.description', { shop: shop.name })} tab="home">
+  <JsonLd slot="head" data={breadcrumbs([{ name: t('site.home'), path: l('/') }, { name: t('men.heading'), path: l('/men') }], Astro.site!)} />
+  <main>
+
+    <section class="wrap pt-8 pb-12 md:pb-16">
+      <p class="tag">{t('men.kicker')}</p>
+      <h1 class="mt-3 text-[2.25rem] leading-tight">{t('men.heading')}</h1>
+      <p class="mt-3 max-w-xl text-[1.0625rem] leading-relaxed text-muted">{t('men.intro')}</p>
+      {/* Find styles that suit you: off for now.
+      <a href={l('/about-you')} class="mt-5 inline-flex h-12 items-center bg-ink px-6 text-[0.9375rem] font-semibold text-white">{t('home.findStyles')}</a> */}
+    </section>
+
+    <section id="browse" class="wrap scroll-mt-20 pb-12 md:pb-16">
+      <div class="grid grid-cols-2 gap-x-3 gap-y-6 md:grid-cols-4 md:gap-x-5 md:gap-y-8">
+        {
+          tiles.map((tile, n) => {
+            const text = categoryText(tile.key, i);
+            return (
+              <CategoryTile
+                href={l(tile.href)}
+                title={text.label}
+                count={text.tileCount}
+                feature={tile.feature}
+                photo={tile.photo}
+                block={tile.block}
+                data-reveal
+                style={`--reveal-delay:${n * 70}ms`}
+              />
+            );
+          })
+        }
+        {/* Add-ons are not styles, so they sit under the grid as one wide row with their own icon. */}
+        <a href={l('/men/add-ons')} class="group col-span-2 flex items-center gap-4 bg-paper-2 p-4 md:col-span-4" data-reveal style="--reveal-delay:350ms">
+          <span class="grid size-12 shrink-0 place-items-center rounded-full bg-ink text-white">
+            <Icon name="sparkle" size={22} strokeWidth={1.5} />
+          </span>
+          <span class="min-w-0 flex-1">
+            <span class="block text-[1.0625rem] font-semibold">{t('addons.heading')}</span>
+            <span class="block text-[0.8125rem] text-muted">{t('addons.tileCount', { count: String(addons.length) })}</span>
+          </span>
+          <Icon name="arrowRight" size={20} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+        </a>
+        <a href={l('/men/learn')} class="group col-span-2 flex items-center gap-4 bg-paper-2 p-4 md:col-span-4" data-reveal style="--reveal-delay:420ms">
+          <span class="grid size-12 shrink-0 place-items-center rounded-full bg-ink text-white">
+            <Icon name="book" size={22} strokeWidth={1.5} />
+          </span>
+          <span class="min-w-0 flex-1">
+            <span class="block text-[1.0625rem] font-semibold">{t('learn.menLink')}</span>
+            <span class="block text-[0.8125rem] text-muted">{t('learn.hubMenText')}</span>
+          </span>
+          <Icon name="arrowRight" size={20} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+        </a>
+      </div>
+    </section>
+
+    {/* A quick way in: pick a face shape and land on the list already filtered to what suits it. */}
+    <section class="wrap pb-16 md:pb-24" data-reveal aria-labelledby="face-start">
+      <p class="tag">{t('home.faceTitle')}</p>
+      <h2 id="face-start" class="mt-2 text-[1.125rem] leading-snug">{t('home.faceHint')}</h2>
+      <ul class="-mx-4 mt-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:px-0 [&::-webkit-scrollbar]:hidden">
+        {
+          FACE_SHAPES.map((face) => (
+            <li class="shrink-0">
+              <a
+                href={`${l('/men/hair')}?face=${face.value}`}
+                class="flex h-[4.5rem] w-[4.25rem] flex-col items-center justify-center gap-1.5 bg-card text-[0.75rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:bg-ink hover:text-white active:bg-ink active:text-white md:w-24"
+              >
+                <svg viewBox="0 0 40 48" class="h-7 w-6" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true">
+                  <path d={face.shape} />
+                </svg>
+                {t(`face.${face.value}`)}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      {
+        faceGuide && (
+          <a href={l(postHref(faceGuide))} class="group mt-2 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-semibold underline decoration-brand decoration-2 underline-offset-[5px]">
+            {t('home.faceFind')}
+            <Icon name="arrowRight" size={16} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+          </a>
+        )
+      }
+    </section>
+  </main>
+</BaseLayout>

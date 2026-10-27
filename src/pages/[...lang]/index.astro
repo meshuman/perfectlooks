@@ -1,58 +1,27 @@
 ---
+// The landing page: the brand, one question (men or women?), and what is the same for everyone.
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Button from '@/components/Button.astro';
-import CategoryTile from '@/components/CategoryTile.astro';
 import Icon from '@/components/Icon.astro';
 import ItemPhoto from '@/components/ItemPhoto.astro';
 import JsonLd from '@/components/JsonLd.astro';
-import SectionHeader from '@/components/SectionHeader.astro';
-import { categoryText, getAllItems, type CategoryKey } from '@/data/catalogue';
-import { getPosts, postHref } from '@/data/learn';
+import { getAllItems } from '@/data/catalogue';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
-import { photoFor } from '@/data/photos';
-import { FACE_SHAPES } from '@/data/faces';
-import { swatches } from '@/data/swatches';
+import { womenCategories } from '@/data/women';
 import { kgfBlock, scissorsMark } from '@/data/brand-marks.mjs';
-import { langParams, publishedLocales, useI18n } from '@/i18n';
-import type { IconName } from '@/data/icons';
+import { langParams, useI18n } from '@/i18n';
 
 export function getStaticPaths() {
   return langParams().map((params) => ({ params }));
 }
 
 const i = useI18n(Astro.url);
-const { t, c, l } = i;
-
-
-// Hair leads: full width on phones, a 2x2 block on wider screens.
-// Every tile shows the same kind of image: a photo of an item in that category (the colour tile shows
-// the colour itself). A tile without a photo falls back to the same branded placeholder as the cards.
-const tiles: { key: CategoryKey; href: string; feature?: boolean; block?: string; photo: { id: string; name: string; mainPhoto: 'front' | 'side'; swatch?: string } }[] = [
-  { key: 'hair', href: '/styles', feature: true, photo: { id: 'H07', name: 'Low Fade', mainPhoto: 'side' } },
-  { key: 'beards', href: '/beards', photo: { id: 'B05', name: 'Full Beard', mainPhoto: 'front' } },
-  { key: 'moustaches', href: '/moustaches', photo: { id: 'M03', name: 'Pencil', mainPhoto: 'front' } },
-  { key: 'colours', href: '/colours', block: 'bg-block-sand', photo: { id: 'C02', name: 'Natural Black', mainPhoto: 'front', swatch: swatches.C02 } },
-  { key: 'looks', href: '/looks', photo: { id: 'L01', name: 'Office Ready', mainPhoto: 'front' } },
-];
-
-// The first three Learn posts in the feed: the ones that help most right before a cut.
-const posts = await getPosts();
-// "What is my face shape?", linked under the face shape row for anyone who isn't sure of theirs.
-const faceGuide = posts.find((post) => post.data.code === 'P01');
-const firstReads = posts.slice(0, 3).map((post) => ({
-  href: l(postHref(post)),
-  title: c(`${post.data.code}.title`, post.data.title),
-  minutes: post.data.readMinutes,
-}));
+const { t, l } = i;
 
 // Hair, beards, moustaches and colours; Ready Looks are counted on their own.
-const allItems = await getAllItems();
-const styleCount = allItems.filter((it) => it.category !== 'looks').length;
-const lookCount = allItems.length - styleCount;
-
-// Shown once a second language is published.
-const languages = 1 + publishedLocales().length;
+const styleCount = (await getAllItems()).filter((it) => it.category !== 'looks').length;
+const womenServices = womenCategories.reduce((sum, category) => sum + category.items.length, 0);
 ---
 
 <BaseLayout
@@ -63,14 +32,14 @@ const languages = 1 + publishedLocales().length;
   <JsonLd slot="head" data={website(Astro.site!)} />
   <main>
     {/* Split hero: KGF brand logo on crimson red, then the message. Side by side from tablet up. */}
-    <section class="md:grid md:min-h-[38rem] md:grid-cols-2">
-      <div class="relative aspect-[16/10] overflow-hidden md:aspect-auto">
+    <section class="md:grid md:min-h-[34rem] md:grid-cols-2">
+      <div class="relative aspect-[16/8] overflow-hidden md:aspect-auto">
         <div class="absolute inset-0 flex flex-col items-center justify-center gap-5 bg-brand p-6 text-white md:gap-7">
-          <svg viewBox="0 0 100 100" class="h-28 max-h-[42%] w-auto md:h-44" aria-hidden="true" set:html={scissorsMark()} />
+          <svg viewBox="0 0 100 100" class="h-20 max-h-[48%] w-auto md:h-44" aria-hidden="true" set:html={scissorsMark()} />
           <div class="w-36 max-w-[55%] md:w-52" set:html={kgfBlock()} />
         </div>
       </div>
-      <div class="wrap flex flex-col justify-center py-10 md:max-w-xl md:px-12 md:py-20">
+      <div class="wrap flex flex-col justify-center py-7 md:max-w-xl md:px-12 md:py-20">
         <p class="tag rise">{shop.name} · {shop.area}</p>
         <h1 class="rise mt-3 text-[2.375rem] leading-[1.1] md:text-[3.25rem]" style="--rise-delay:80ms">
           {t('home.heading')}
@@ -78,109 +47,61 @@ const languages = 1 + publishedLocales().length;
         <p class="rise mt-4 max-w-md text-[0.9375rem] leading-relaxed text-muted" style="--rise-delay:160ms">
           {t('home.intro')}
         </p>
-        <div class="rise mt-8 flex flex-col items-start gap-5" style="--rise-delay:240ms">
-          <Button href={l('/about-you')} size="lg" class="w-full sm:w-auto">{t('home.findStyles')}</Button>
-          <a href="#browse" class="group inline-flex min-h-11 items-center gap-3 text-[0.9375rem] font-medium tracking-wide">
-            {t('home.browseAll')}
-            <Icon name="arrowRight" size={18} strokeWidth={1.25} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
-          </a>
+      </div>
+    </section>
+
+    {/* The one question: who is it for? Each card opens that section. */}
+    <section id="who" class="wrap scroll-mt-20 py-8 md:py-20" aria-labelledby="who-title" data-reveal>
+      <h2 id="who-title" class="text-[1.75rem] leading-tight">{t('who.title')}</h2>
+      <p class="mt-1 text-[0.9375rem] text-muted">{t('who.text')}</p>
+      <div class="mt-6 grid gap-3 md:grid-cols-2 md:gap-5">
+        <a href={l('/men')} class="group flex flex-col bg-card shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_2px_var(--color-ink)]">
+          <span class="relative block aspect-[16/9] overflow-hidden">
+            <ItemPhoto
+              item={{ id: 'H07', name: 'Low Fade', mainPhoto: 'side' }}
+              decorative
+              class="absolute inset-0 size-full object-[center_28%] transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
+            />
+          </span>
+          <span class="flex items-center justify-between gap-3 p-4">
+            <span>
+              <span class="block text-[1.375rem] font-semibold">{t('who.men')}</span>
+              <span class="mt-0.5 block text-[0.875rem] leading-snug text-muted">{t('who.menText')}</span>
+              <span class="mt-1 block text-[0.8125rem] font-semibold">{t('men.styleCount', { count: String(styleCount) })}</span>
+            </span>
+            <Icon name="arrowRight" size={22} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+          </span>
+        </a>
+        <a href={l('/women')} class="group flex flex-col bg-card shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_2px_var(--color-ink)]">
+          <span class="relative grid aspect-[16/9] place-items-center overflow-hidden bg-block-blush text-ink">
+            <Icon name="sparkle" size={64} strokeWidth={1} class="transition-transform duration-700 ease-out-soft group-hover:scale-110" />
+          </span>
+          <span class="flex items-center justify-between gap-3 p-4">
+            <span>
+              <span class="block text-[1.375rem] font-semibold">{t('who.women')}</span>
+              <span class="mt-0.5 block text-[0.875rem] leading-snug text-muted">{t('who.womenText')}</span>
+              <span class="mt-1 block text-[0.8125rem] font-semibold">{t('women.tileCount', { count: String(womenServices) })}</span>
+            </span>
+            <Icon name="arrowRight" size={22} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section class="wrap pb-12 md:pb-16" data-reveal>
+      <div class="grid gap-6 border-t border-line pt-10 md:grid-cols-2">
+        <div>
+          <p class="tag">{t('footer.visit')}</p>
+          <h2 class="mt-2 text-[1.375rem] leading-snug">{shop.name}</h2>
+          <ul class="mt-3 space-y-1 text-[0.9375rem]">
+            <li class="flex items-start gap-2"><Icon name="mapPin" size={16} class="mt-1 shrink-0 text-muted" /><span>{t('shop.addressValue')}</span></li>
+            <li class="flex items-start gap-2"><Icon name="clock" size={16} class="mt-1 shrink-0 text-muted" /><span>{t('shop.hoursValue')}</span></li>
+          </ul>
         </div>
-        <dl class:list={['rise mt-10 grid max-w-sm border-t border-line pt-5', languages > 1 ? 'grid-cols-3' : 'grid-cols-2']} style="--rise-delay:320ms">
-          <div>
-            <dt class="text-xs text-muted">{t('home.stats.styles')}</dt>
-            <dd class="text-[1.75rem] leading-tight font-semibold">{styleCount}</dd>
-          </div>
-          <div>
-            <dt class="text-xs text-muted">{t('home.stats.looks')}</dt>
-            <dd class="text-[1.75rem] leading-tight font-semibold">{lookCount}</dd>
-          </div>
-          {
-            languages > 1 && (
-              <div>
-                <dt class="text-xs text-muted">{t('home.stats.languages')}</dt>
-                <dd class="text-[1.75rem] leading-tight font-semibold">{languages}</dd>
-              </div>
-            )
-          }
-        </dl>
-      </div>
-    </section>
-
-    {/* A quick way in: pick a face shape and land on the list already filtered to what suits it. */}
-    <section class="wrap pt-10 md:pt-16" data-reveal aria-labelledby="face-start">
-      <p class="tag">{t('home.faceTitle')}</p>
-      <h2 id="face-start" class="mt-2 text-[1.125rem] leading-snug">{t('home.faceHint')}</h2>
-      <ul class="-mx-4 mt-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:px-0 [&::-webkit-scrollbar]:hidden">
-        {
-          FACE_SHAPES.map((face) => (
-            <li class="shrink-0">
-              <a
-                href={`${l('/styles')}?face=${face.value}`}
-                class="flex h-[4.5rem] w-[4.25rem] flex-col items-center justify-center gap-1.5 bg-card text-[0.75rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:bg-ink hover:text-white active:bg-ink active:text-white md:w-24"
-              >
-                <svg viewBox="0 0 40 48" class="h-7 w-6" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true">
-                  <path d={face.shape} />
-                </svg>
-                {t(`face.${face.value}`)}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-      {
-        faceGuide && (
-          <a href={l(postHref(faceGuide))} class="group mt-2 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-semibold underline decoration-brand decoration-2 underline-offset-[5px]">
-            {t('home.faceFind')}
-            <Icon name="arrowRight" size={16} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
-          </a>
-        )
-      }
-    </section>
-
-    <section id="browse" class="wrap scroll-mt-20 pt-12 pb-14 md:py-24">
-      <div data-reveal>
-        <SectionHeader eyebrow={t('home.browse')} title={t('home.chooseCategory')} />
-      </div>
-      <div class="mt-6 grid grid-cols-2 gap-x-3 gap-y-6 md:mt-10 md:grid-cols-4 md:gap-x-5 md:gap-y-8">
-        {
-          tiles.map((tile, n) => {
-            const text = categoryText(tile.key, i);
-            return (
-              <CategoryTile
-                href={l(tile.href)}
-                title={text.label}
-                count={text.tileCount}
-                feature={tile.feature}
-                photo={tile.photo}
-                block={tile.block}
-                data-reveal
-                style={`--reveal-delay:${n * 70}ms`}
-              />
-            );
-          })
-        }
-      </div>
-    </section>
-
-    <section class="wrap pb-16 md:pb-24" data-reveal>
-      <div class="border-t border-line pt-12">
-        <SectionHeader eyebrow={t('home.whileYouWait')} title={t('home.quickReads')} />
-        <ul class="mt-6 border-t border-line">
-          {
-            firstReads.map((post) => (
-              <li class="border-b border-line">
-                <a href={post.href} class="group flex items-center justify-between gap-4 py-4">
-                  <span>
-                    <span class="block text-[1rem] font-medium">{post.title}</span>
-                    <span class="text-xs text-muted">{t('detail.minRead', { minutes: post.minutes })}</span>
-                  </span>
-                  <Icon name="arrowRight" size={20} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-        <Button href={l('/learn')} variant="outline" class="mt-8" arrow>{t('home.allPosts')}</Button>
+        <div class="flex flex-wrap items-start gap-3 md:justify-end">
+          <Button href={`tel:${shop.phone}`} icon="phone">{shop.phoneDisplay}</Button>
+          <Button href={shop.mapUrl} variant="outline">{t('footer.directions')}</Button>
+        </div>
       </div>
     </section>
 

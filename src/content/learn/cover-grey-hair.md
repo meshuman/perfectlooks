@@ -17,10 +17,10 @@ imageAlt: "The same man before and after natural black hair colour, front view."
 
 | Option | Covers grey | Looks | At the shop | Roots show |
 | --- | --- | --- | --- | --- |
-| [Jet Black](/colours/jet-black) | Fully | Strong, can look flat | 45 min | In 3–4 weeks |
-| [Natural Black](/colours/natural-black) | Fully | Natural dark hair | 45 min | In 3–4 weeks |
-| [Dark Brown](/colours/dark-brown) | Fully | Softer and warmer | 45 min | In 4 weeks |
-| [Grey Blending](/colours/grey-blending) | Partly, on purpose | Natural salt and pepper | 15–20 min | Fades slowly, no hard line |
+| [Jet Black](/men/colours/jet-black) | Fully | Strong, can look flat | 45 min | In 3–4 weeks |
+| [Natural Black](/men/colours/natural-black) | Fully | Natural dark hair | 45 min | In 3–4 weeks |
+| [Dark Brown](/men/colours/dark-brown) | Fully | Softer and warmer | 45 min | In 4 weeks |
+| [Grey Blending](/men/colours/grey-blending) | Partly, on purpose | Natural salt and pepper | 15–20 min | Fades slowly, no hard line |
 
 ## Is hair dye safe?
 

@@ -27,6 +27,8 @@ const base = {
   suitsText: text,
   alsoCalled: z.array(text),
   mainPhoto: z.enum(['front', 'side']),
+  /** Shown with a "Popular" tag on cards and the detail page. */
+  popular: z.boolean().default(false),
   /** Labels for the image, drawn by the app so they can be translated. x and y place the dot, in % of the photo. */
   callouts: z.array(
     z.object({ title: text, text, x: z.number().min(0).max(100).optional(), y: z.number().min(0).max(100).optional() }),
@@ -87,6 +89,8 @@ const colours = defineCollection({
     grey: z.array(z.enum(['None', 'Some', 'Lots'])).min(1),
     timeAtShop: text,
     swatchLabel: text,
+    /** Highlights or blending: a shade on part of the hair, not a full colour. */
+    shade: z.boolean().default(false),
   }),
 });
 
@@ -104,6 +108,10 @@ const looks = defineCollection({
     moustache: reference('moustaches').nullable(),
     moustacheMode: z.enum(['no-change', 'shave-off', 'part-of-beard', 'style']),
     colour: reference('colours').nullable(),
+    /** The colour is also applied to the beard and moustache. */
+    colourBeard: z.boolean().default(false),
+    /** No colour, a full colour, or a shade only (highlights, blending). Worked out from the colour. */
+    colourType: z.enum(['normal', 'full', 'shades']).default('normal'),
     includesText: text,
   }),
 });

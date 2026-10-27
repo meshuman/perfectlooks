@@ -29,7 +29,7 @@ export async function getPosts(): Promise<Post[]> {
   return posts.sort((a, b) => rank(a) - rank(b) || a.data.code.localeCompare(b.data.code));
 }
 
-export const postHref = (post: Post) => `/learn/${post.id}`;
+export const postHref = (post: Post) => `/men/learn/${post.id}`;
 
 const DATE_LOCALE = { en: 'en-GB', ne: 'ne-NP', hi: 'hi-IN' } as const;
 

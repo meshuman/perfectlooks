@@ -1,0 +1,54 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import WomenTiles from '@/components/WomenTiles.astro';
+import { addons } from '@/data/addons';
+import { defaultShop as shop } from '@/data/shop';
+import { breadcrumbs } from '@/data/seo';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const { t, l } = useI18n(Astro.url);
+---
+
+<BaseLayout title={t('women.title')} description={t('women.description', { shop: shop.name })} tab="home">
+  <JsonLd slot="head" data={breadcrumbs([{ name: t('site.home'), path: l('/') }, { name: t('women.heading'), path: l('/women') }], Astro.site!)} />
+  <main>
+    <section class="wrap pt-8 pb-16">
+      <p class="tag">{t('women.kicker')}</p>
+      <h1 class="mt-3 text-[2.25rem] leading-tight">{t('women.heading')}</h1>
+      <p class="mt-3 max-w-xl text-[1.0625rem] leading-relaxed text-muted">{t('women.intro')}</p>
+
+      <div class="mt-8">
+        <WomenTiles />
+      </div>
+
+      <div class="mt-6 grid gap-3 md:grid-cols-2">
+        <a href={l('/women/add-ons')} class="group flex items-center gap-4 bg-paper-2 p-4" data-reveal style="--reveal-delay:0ms">
+          <span class="grid size-12 shrink-0 place-items-center rounded-full bg-ink text-white">
+            <Icon name="sparkle" size={22} strokeWidth={1.5} />
+          </span>
+          <span class="min-w-0 flex-1">
+            <span class="block text-[1.0625rem] font-semibold">{t('addons.heading')}</span>
+            <span class="block text-[0.8125rem] text-muted">{t('addons.tileCount', { count: String(addons.length) })}</span>
+          </span>
+          <Icon name="arrowRight" size={20} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+        </a>
+        <a href={l('/women/learn')} class="group flex items-center gap-4 bg-paper-2 p-4" data-reveal style="--reveal-delay:70ms">
+          <span class="grid size-12 shrink-0 place-items-center rounded-full bg-ink text-white">
+            <Icon name="book" size={22} strokeWidth={1.5} />
+          </span>
+          <span class="min-w-0 flex-1">
+            <span class="block text-[1.0625rem] font-semibold">{t('learn.womenLink')}</span>
+            <span class="block text-[0.8125rem] text-muted">{t('learn.hubWomenText')}</span>
+          </span>
+          <Icon name="arrowRight" size={20} strokeWidth={1.25} class="shrink-0 transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+        </a>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

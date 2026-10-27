@@ -1,6 +1,6 @@
 # Ready Looks
 
-37 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
+67 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
 
 - "—" means no change for that slot.
 - **Suits face** lists only the shapes that suit every part of the look.
@@ -47,6 +47,36 @@
 | L35 Sharp V | H55 V-Cut | B03 Heavy Stubble | — | — | Oval, Square, Round, Heart | Medium, Full | Medium |
 | L36 Half-Up Casual | H58 Half Bun | B03 Heavy Stubble | — | — | Oval, Square, Heart | Medium, Full | Low |
 | L37 Knot and Fade | H57 Top Knot | B10 Faded Beard | — | — | Oval, Square, Round | Medium, Full | Medium |
+| L38 Korean Idol | H89 K-Pop Cut | B01 Clean Shave | Shave off | — | Oval, Square, Long, Heart | Any | Medium |
+| L39 Soft Perm Day | H83 Shadow Perm | B02 Light Stubble | — | — | Oval, Square, Long, Heart | Any | Medium |
+| L40 Retro Greaser | H68 Greaser | B01 Clean Shave | M09 Natural Full | — | Oval, Square, Heart | Medium, Full | High |
+| L41 Skater Mullet | H65 High Mullet | B03 Heavy Stubble | — | — | Oval, Square | Medium, Full | High |
+| L42 Soft Mullet | H67 Korean Mullet | B01 Clean Shave | Shave off | — | Oval, Long, Heart | Any | Medium |
+| L43 Beach Casual | H79 Surfer Hair | B02 Light Stubble | — | — | Oval, Square, Long, Heart | Any | Low |
+| L44 Fluffy Fresh | H78 Fluffy Hair | B01 Clean Shave | Shave off | — | Oval, Square, Long, Heart | Any | Low |
+| L45 Curly Clean | H69 Curly Crop | B04 Short Boxed Beard | — | — | Oval, Round, Heart | Medium, Full | Medium |
+| L46 Mahogany Part | H82 Off-Centre Part | B01 Clean Shave | Shave off | C15 Mahogany | Oval, Square, Round, Heart | Any | Medium |
+| L47 Golden Fade | H85 Korean Fade | B01 Clean Shave | Shave off | C21 Gold Blonde | Oval, Square, Long, Heart | Any | High |
+| L48 Charcoal Crop | H70 Angular Fringe | B02 Light Stubble | — | C28 Charcoal Grey | Oval, Square, Long, Heart | Any | High |
+| L49 Long and Layered | H74 Layered Long Cut | B05 Full Beard | — | — | Oval, Square, Heart | Full | High |
+| L50 Grey-Free Beard | H23 Taper Fade | B04 Short Boxed Beard | — | C01 Jet Black | Oval, Round, Long, Heart | Medium, Full | Medium |
+| L51 Dark Brown Gentleman | H10 Classic Side Part | B05 Full Beard | — | C03 Dark Brown | Oval, Square, Heart | Full | Medium |
+| L52 Chestnut Flow | H20 Medium Flow | B04 Short Boxed Beard | — | C14 Chestnut Brown | Oval | Medium, Full | Medium |
+| L53 Mahogany Quiff | H14 Quiff | B10 Faded Beard | — | C15 Mahogany | Oval, Square, Round | Medium, Full | High |
+| L54 Blue-Black Edge | H09 Skin Fade | B04 Short Boxed Beard | — | C09 Blue-Black | Oval, Round | Medium, Full | High |
+| L55 Silver Fox | H13 Slick Back | B05 Full Beard | — | C07 Ash Grey / Silver | Oval, Square | Full | High |
+| L56 Charcoal Stubble | H52 Textured Fringe | B03 Heavy Stubble | — | C28 Charcoal Grey | Oval, Square, Long, Heart | Medium, Full | High |
+| L57 Copper Ducktail | H12 Undercut | B13 Ducktail | — | C11 Copper | Oval, Square, Round, Heart | Full | High |
+| L58 Burgundy Van Dyke | H42 Pushed Back | B07 Van Dyke | Part of beard | C05 Burgundy | Oval, Square, Round | Any | Medium |
+| L59 Violet Edge | H49 Edgar Cut | B03 Heavy Stubble | — | C17 Violet | Oval, Square, Long, Heart | Medium, Full | High |
+| L60 Grey Blend Ivy | H03 Ivy League | B04 Short Boxed Beard | — | C08 Grey Blending | Oval, Long, Heart | Medium, Full | Medium |
+| L61 Midnight Waves | H62 Tousled Waves | B02 Light Stubble | — | C27 Dark Grape | Oval, Square, Long, Heart | Any | Medium |
+| L62 Golden Touch | H19 Middle Part | B01 Clean Shave | Shave off | C06 Golden Brown Highlights | Oval, Square, Long, Heart | Any | Medium |
+| L63 Caramel Waves | H62 Tousled Waves | B02 Light Stubble | — | C31 Caramel Highlights | Oval, Square, Long, Heart | Any | Medium |
+| L64 Ash Streak Idol | H89 K-Pop Cut | B01 Clean Shave | Shave off | C32 Ash Highlights | Oval, Square, Long, Heart | Any | High |
+| L65 Wine Streaks | H28 Wolf Cut | B01 Clean Shave | Shave off | C33 Burgundy Highlights | Oval, Square, Long, Heart | Any | Medium |
+| L66 Salt and Pepper Taper | H23 Taper Fade | B03 Heavy Stubble | — | C08 Grey Blending | Oval, Round, Square, Long, Heart | Medium, Full | Medium |
+| L67 Sun-Kissed Surfer | H79 Surfer Hair | B03 Heavy Stubble | — | C31 Caramel Highlights | Oval, Square, Long, Heart | Medium, Full | Low |
 
 ## L01 Office Ready
 
@@ -141,6 +171,7 @@ Classic short cut, thick moustache, natural black colour.
 - **Pick this if:** you want a traditional, dignified look that hides grey.
 - **Skip if:** your moustache grows patchy.
 - **Includes:** H06 Taper Cut · B01 Clean Shave · M02 Chevron · C02 Natural Black
+- **Colours beard:** Yes
 - **Daily:** 7 min: shave, then comb hair and moustache.
 - **Weekly:** Wash with colour-safe shampoo.
 - **Next barber visit:** in 3–4 weeks, for the cut and roots together
@@ -220,11 +251,12 @@ Undercut with a sharp Balbo beard.
 
 Side part, boxed beard and softened grey.
 
-**Description:** A neat side part and a short boxed beard, with grey softened but not hidden.
+**Description:** A neat side part and a short boxed beard, with grey softened but not hidden on both the hair and the beard.
 
 - **Pick this if:** you are going grey and want to look fresh and natural.
 - **Skip if:** you want zero grey.
-- **Includes:** H10 Classic Side Part · B04 Short Boxed Beard · C08 Grey Blending
+- **Includes:** H10 Classic Side Part · B04 Short Boxed Beard · C08 Grey Blending (hair and beard)
+- **Colours beard:** Yes
 - **Daily:** 4 min: comb with cream, then beard oil.
 - **Weekly:** Trim the beard once.
 - **Next barber visit:** in 4 weeks
@@ -353,6 +385,7 @@ Ivy League cut, short moustache, grey covered in natural black.
 - **Pick this if:** you are going grey and want a classic, fresh look.
 - **Skip if:** you want to keep some grey. Choose L13 Grey Gentleman instead.
 - **Includes:** H03 Ivy League · B01 Clean Shave · M01 Short Trimmed · C02 Natural Black
+- **Colours beard:** Yes
 - **Daily:** 7 min: shave around the moustache, comb the top to the side.
 - **Weekly:** Colour-safe shampoo. Trim the moustache once.
 - **Next barber visit:** in 3–4 weeks, for the cut and roots together
@@ -568,3 +601,458 @@ Top knot with a faded beard.
 - **Weekly:** Trim the beard and keep the fade even.
 - **Next barber visit:** in 3 weeks, for the sides and beard
 - **Suits:** Oval, square and round face · Straight or wavy hair · Medium or full beard growth
+
+## L38 Korean Idol
+
+The polished, soft K-pop look, clean-shaven.
+
+**Description:** A soft, layered K-Pop Cut with a light fringe and a fully clean shave. Polished and fresh.
+
+- **Pick this if:** you want the soft, polished Korean look that is popular right now.
+- **Skip if:** your hair is very thick and coarse, or your face is round.
+- **Includes:** H89 K-Pop Cut · B01 Clean Shave · Moustache: Shave off
+- **Daily:** 8 min: shave, blow dry the fringe, a little light wax.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L39 Soft Perm Day
+
+Light waves and light stubble for an easy, soft look.
+
+**Description:** A Shadow Perm with subtle waves and root volume, and light stubble. Soft, natural and low effort.
+
+- **Pick this if:** you want soft volume and texture without obvious curls.
+- **Skip if:** your hair is damaged, or your scalp is sensitive.
+- **Includes:** H83 Shadow Perm · B02 Light Stubble
+- **Daily:** 4 min: scrunch in light cream and air dry.
+- **Weekly:** Mild shampoo. Trim the stubble twice at 1–2 mm.
+- **Next barber visit:** in 4–6 weeks. The perm lasts 2–3 months.
+- **At the shop:** 2–3 hours on perm day
+- **Suits:** Oval, square, long and heart face · Straight hair · Any beard growth
+
+## L40 Retro Greaser
+
+Shiny combed-back hair with a neat moustache.
+
+**Description:** A Greaser with a high, shiny, combed-back top and a natural, tidy moustache. Classic 1950s style.
+
+- **Pick this if:** you love a retro look and enjoy daily styling.
+- **Skip if:** you have thin hair, or want something quick.
+- **Includes:** H68 Greaser · B01 Clean Shave · M09 Natural Full
+- **Daily:** 9 min: shave the chin, comb in strong pomade, set the top.
+- **Weekly:** Wash out the pomade well. Trim the moustache once.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, square and heart face · Straight or wavy hair · Medium or full beard growth
+
+## L41 Skater Mullet
+
+High-contrast mullet with heavy stubble.
+
+**Description:** A High Mullet with sharp, faded sides and a long back, paired with heavy stubble. Bold, edgy and full of attitude.
+
+- **Pick this if:** you want a bold look that stands out.
+- **Skip if:** you have thin hair, a long face, or a strict office.
+- **Includes:** H65 High Mullet · B03 Heavy Stubble
+- **Daily:** 5 min: blow dry, texture spray, shape the back.
+- **Weekly:** Trim the stubble once at 5 mm. Conditioner 1–2 times.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval and square face · Straight or wavy hair · Medium or full beard growth
+
+## L42 Soft Mullet
+
+A light, layered Korean mullet, clean-shaven.
+
+**Description:** A Korean Mullet with soft layers and a wispy fringe, and a fully clean-shaven face. Trendy, light and stylish.
+
+- **Pick this if:** you want a soft, trendy mullet with a clean face.
+- **Skip if:** you have thin or curly hair, or a round face.
+- **Includes:** H67 Korean Mullet · B01 Clean Shave · Moustache: Shave off
+- **Daily:** 7 min: shave, blow dry, a little light wax.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, long and heart face · Straight hair · Any beard growth
+
+## L43 Beach Casual
+
+Loose waves and light stubble, easy and relaxed.
+
+**Description:** Surfer Hair with loose, windswept waves and light stubble. An easy, beachy look for days off.
+
+- **Pick this if:** you have wavy hair and want a relaxed, laid-back look.
+- **Skip if:** your hair is very straight or thin, or your office is strict.
+- **Includes:** H79 Surfer Hair · B02 Light Stubble
+- **Daily:** 2 min: scrunch in sea salt spray and air dry.
+- **Weekly:** Trim the stubble twice at 1–2 mm. Conditioner 1–2 times.
+- **Next barber visit:** in 8 weeks
+- **Suits:** Oval, square, long and heart face · Wavy or curly hair · Any beard growth
+
+## L44 Fluffy Fresh
+
+Soft, airy hair with a clean, fresh face.
+
+**Description:** Fluffy Hair with natural volume and a gentle fringe, with a fully clean-shaven face. Light, soft and boyish.
+
+- **Pick this if:** you want a soft, light look with natural volume.
+- **Skip if:** your hair is very oily or flat, or you want a sleek look.
+- **Includes:** H78 Fluffy Hair · B01 Clean Shave · Moustache: Shave off
+- **Daily:** 5 min: shave, blow dry the top up, a little light powder.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L45 Curly Clean
+
+Short curls with a sharp, boxed beard.
+
+**Description:** A Curly Crop with a neat taper, paired with a short boxed beard and sharp cheek lines. Clean, strong and easy.
+
+- **Pick this if:** you have curly hair and want a neat, low-effort look.
+- **Skip if:** your hair is straight, or your beard grows patchy.
+- **Includes:** H69 Curly Crop · B04 Short Boxed Beard
+- **Daily:** 4 min: curl cream, then beard oil.
+- **Weekly:** Trim the beard to 6–9 mm and clean the cheek lines.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, round and heart face · Curly or wavy hair · Medium or full beard growth
+
+## L46 Mahogany Part
+
+A soft part in rich red-brown colour.
+
+**Description:** An Off-Centre Part coloured in deep Mahogany red-brown, with a fully clean-shaven face. Rich, warm and elegant.
+
+- **Pick this if:** you want a neat cut with a rich, warm colour.
+- **Skip if:** you have lots of grey, or a strict office.
+- **Includes:** H82 Off-Centre Part · B01 Clean Shave · Moustache: Shave off · C15 Mahogany
+- **Daily:** 5 min: shave, comb the part, a little light cream.
+- **Weekly:** Wash with cool water and colour-safe shampoo.
+- **Next barber visit:** in 4 weeks
+- **At the shop:** 45–60 min on colour day
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Any beard growth
+
+## L47 Golden Fade
+
+A clean Korean fade in warm gold blonde.
+
+**Description:** A Korean Fade with a soft, textured top coloured in warm Gold Blonde, with a clean-shaven face. Bright, sharp and bold.
+
+- **Pick this if:** you want a bright, standout look with clean edges.
+- **Skip if:** your hair is dry or damaged, or you cannot visit every 2–3 weeks.
+- **Includes:** H85 Korean Fade · B01 Clean Shave · Moustache: Shave off · C21 Gold Blonde
+- **Daily:** 5 min: shave, blow dry the top forward, a little wax.
+- **Weekly:** Colour-safe shampoo. Deep conditioner once.
+- **Next barber visit:** in 2–3 weeks for the fade, 4 weeks for roots
+- **At the shop:** 2–3 hours on colour day
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L48 Charcoal Crop
+
+A sharp fringe in smoky charcoal grey.
+
+**Description:** An Angular Fringe coloured in dark, smoky Charcoal Grey, with light stubble. Modern, moody and sharp.
+
+- **Pick this if:** you want a moody, modern look with a sharp fringe.
+- **Skip if:** your hair is dry or damaged, or you have a strict office.
+- **Includes:** H70 Angular Fringe · B02 Light Stubble · C28 Charcoal Grey
+- **Daily:** 3 min: comb the fringe across, a little clay.
+- **Weekly:** Silver shampoo once. Trim the stubble twice at 1–2 mm.
+- **Next barber visit:** in 3–4 weeks
+- **At the shop:** 2–3 hours on colour day
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L49 Long and Layered
+
+Layered long hair with a full, rounded beard.
+
+**Description:** A Layered Long Cut with soft movement, paired with a thick, rounded Full Beard. Strong, relaxed and full of character.
+
+- **Pick this if:** you have long hair and a full beard and want both to look their best.
+- **Skip if:** your hair is thin, or your beard grows patchy.
+- **Includes:** H74 Layered Long Cut · B05 Full Beard
+- **Daily:** 6 min: brush the hair, a little leave-in conditioner, comb and oil the beard.
+- **Weekly:** Conditioner 2–3 times. Beard wash 2–3 times.
+- **Next barber visit:** in 8 weeks, for a trim
+- **Suits:** Oval, square and heart face · Straight or wavy hair · Full beard growth
+
+## L50 Grey-Free Beard
+
+Taper fade and boxed beard, both in jet black.
+
+**Description:** A neat Taper Fade and a Short Boxed Beard, with Jet Black on the hair and beard so every grey is covered. Sharp and even.
+
+- **Pick this if:** you have grey in your hair and beard and want both to look strong and even.
+- **Skip if:** you want to keep some grey, or your beard grows patchy.
+- **Includes:** H23 Taper Fade · B04 Short Boxed Beard · C01 Jet Black (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 6 min: comb the top, beard oil.
+- **Weekly:** Colour-safe shampoo. Trim the beard to 6–9 mm.
+- **Next barber visit:** in 3–4 weeks, for the cut and roots together
+- **At the shop:** 60 min on colour day
+- **Suits:** Oval, round, long and heart face · All hair types · Medium or full beard growth
+
+## L51 Dark Brown Gentleman
+
+A classic part and full beard in rich dark brown.
+
+**Description:** A Classic Side Part and a thick Full Beard, both coloured Dark Brown. Warm, natural and polished.
+
+- **Pick this if:** you want grey covered with a warm, natural brown on hair and beard.
+- **Skip if:** your beard grows patchy, or you want to keep your grey.
+- **Includes:** H10 Classic Side Part · B05 Full Beard · C03 Dark Brown (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 7 min: comb the part, comb and oil the beard.
+- **Weekly:** Colour-safe shampoo. Beard wash 2–3 times.
+- **Next barber visit:** in 4 weeks, for roots and beard shape
+- **At the shop:** 45 min on colour day
+- **Suits:** Oval, square and heart face · Straight or wavy hair · Full beard growth
+
+## L52 Chestnut Flow
+
+Flowing hair and a boxed beard in warm chestnut.
+
+**Description:** Medium Flow hair with a Short Boxed Beard, both coloured Chestnut Brown. A warm, rich colour that glows in daylight.
+
+- **Pick this if:** you want warm colour on both hair and beard, with an easy, flowing cut.
+- **Skip if:** you have lots of grey, or want a cool, ash colour.
+- **Includes:** H20 Medium Flow · B04 Short Boxed Beard · C14 Chestnut Brown (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 5 min: comb back, light cream, beard oil.
+- **Weekly:** Colour-safe shampoo. Conditioner 1–2 times.
+- **Next barber visit:** in 4–6 weeks
+- **At the shop:** 60–90 min on colour day
+- **Suits:** Oval face · Straight or wavy hair · Medium or full beard growth
+
+## L53 Mahogany Quiff
+
+A lifted quiff and faded beard in deep red-brown.
+
+**Description:** A Quiff with a Faded Beard, both in rich Mahogany red-brown. Bold, warm and made for a celebration.
+
+- **Pick this if:** you want a standout, warm colour on a sharp, styled cut.
+- **Skip if:** you have lots of grey, or a strict office.
+- **Includes:** H14 Quiff · B10 Faded Beard · C15 Mahogany (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 8 min: blow dry and style the quiff, beard oil.
+- **Weekly:** Wash with cool water and colour-safe shampoo.
+- **Next barber visit:** in 3 weeks
+- **At the shop:** 45–60 min on colour day
+- **Suits:** Oval, square and round face · Straight or wavy hair · Medium or full beard growth
+
+## L54 Blue-Black Edge
+
+A skin fade and boxed beard with a cool blue sheen.
+
+**Description:** A Skin Fade with a Short Boxed Beard, both in Blue-Black. Deep black with a cool blue shine where the light hits.
+
+- **Pick this if:** you want a very sharp look with deep, glossy black on hair and beard.
+- **Skip if:** you cannot visit every 2–3 weeks.
+- **Includes:** H09 Skin Fade · B04 Short Boxed Beard · C09 Blue-Black (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 4 min: comb the top, beard oil.
+- **Weekly:** Colour-safe shampoo. Trim the beard to 6–9 mm.
+- **Next barber visit:** in 2–3 weeks
+- **At the shop:** 45 min on colour day
+- **Suits:** Oval and round face · All hair types · Medium or full beard growth
+
+## L55 Silver Fox
+
+Slicked-back hair and a full beard in cool silver.
+
+**Description:** A Slick Back with a thick Full Beard, both in cool Ash Grey / Silver. A bold, distinguished look.
+
+- **Pick this if:** you want a striking silver look on both hair and beard.
+- **Skip if:** your hair is dry or damaged, or you have a strict office.
+- **Includes:** H13 Slick Back · B05 Full Beard · C07 Ash Grey / Silver (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 8 min: comb in pomade, comb and oil the beard.
+- **Weekly:** Silver shampoo once. Deep conditioner once.
+- **Next barber visit:** in 4 weeks, for roots
+- **At the shop:** 2–3 hours on colour day
+- **Suits:** Oval and square face · Straight or wavy hair · Full beard growth
+
+## L56 Charcoal Stubble
+
+A textured fringe and stubble in smoky charcoal.
+
+**Description:** A Textured Fringe with Heavy Stubble, both in dark, smoky Charcoal Grey. Moody, modern and easy to wear.
+
+- **Pick this if:** you want a moody, modern grey on hair and stubble.
+- **Skip if:** your hair is dry or damaged, or you have a strict office.
+- **Includes:** H52 Textured Fringe · B03 Heavy Stubble · C28 Charcoal Grey (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 3 min: push the fringe forward, a little clay.
+- **Weekly:** Silver shampoo once. Trim the stubble once at 5 mm.
+- **Next barber visit:** in 3–4 weeks
+- **At the shop:** 2–3 hours on colour day
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Medium or full beard growth
+
+## L57 Copper Ducktail
+
+An undercut and pointed beard in bright copper.
+
+**Description:** An Undercut with a Ducktail beard, both coloured bright Copper. Warm, vivid and made to be noticed.
+
+- **Pick this if:** you want to be noticed, with warm colour on hair and beard.
+- **Skip if:** you have lots of grey, or a strict office.
+- **Includes:** H12 Undercut · B13 Ducktail · C11 Copper (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 7 min: style the top, comb and oil the beard.
+- **Weekly:** Wash with cool water and colour-safe shampoo.
+- **Next barber visit:** in 3 weeks, as the colour fades
+- **At the shop:** 90 min on colour day
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Full beard growth
+
+## L58 Burgundy Van Dyke
+
+Pushed-back hair and a Van Dyke in deep wine.
+
+**Description:** A Pushed Back cut with a Van Dyke beard, all in deep Burgundy. Rich, theatrical and sharp.
+
+- **Pick this if:** you want a rich wine colour with a sharp, styled beard.
+- **Skip if:** you have lots of grey, or a strict office.
+- **Includes:** H42 Pushed Back · B07 Van Dyke · Moustache: Part of beard · C05 Burgundy (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 7 min: style the top, shape the beard.
+- **Weekly:** Wash with cool water and colour-safe shampoo.
+- **Next barber visit:** in 3–4 weeks
+- **At the shop:** 45–60 min on colour day
+- **Suits:** Oval, square and round face · Straight or wavy hair · Any beard growth
+
+## L59 Violet Edge
+
+A blunt Edgar fringe and stubble in bold violet.
+
+**Description:** An Edgar Cut with Heavy Stubble, both in bold Violet. A creative, high-fashion look for people who want to be noticed.
+
+- **Pick this if:** you want a bold, creative look and can look after it.
+- **Skip if:** you have a strict office, or do not want to keep topping up the colour.
+- **Includes:** H49 Edgar Cut · B03 Heavy Stubble · C17 Violet (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 3 min: comb the fringe forward, a little clay.
+- **Weekly:** Wash with cool water. Colour mask once.
+- **Next barber visit:** in 2–3 weeks, to refresh the colour and fade
+- **At the shop:** 2–3 hours on colour day
+- **Suits:** Oval, square, long and heart face · All hair types · Medium or full beard growth
+
+## L60 Grey Blend Ivy
+
+A smart Ivy League with grey softened on hair and beard.
+
+**Description:** An Ivy League with a Short Boxed Beard, with Grey Blending on both so the grey looks soft and natural. Distinguished, not hidden.
+
+- **Pick this if:** you are going grey and want hair and beard to look fresh and natural.
+- **Skip if:** you want zero grey.
+- **Includes:** H03 Ivy League · B04 Short Boxed Beard · C08 Grey Blending (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 4 min: comb the part, beard oil.
+- **Weekly:** Mild shampoo. Trim the beard once.
+- **Next barber visit:** in 4 weeks
+- **At the shop:** 15–20 min on colour day
+- **Suits:** Oval, long and heart face · Straight or wavy hair · Medium or full beard growth
+
+## L61 Midnight Waves
+
+Loose waves and stubble in near-black violet.
+
+**Description:** Tousled Waves with Light Stubble, both in Dark Grape. Looks almost black indoors and shows a violet shine in sunlight.
+
+- **Pick this if:** you want a quiet change from black, with a hint of colour.
+- **Skip if:** you want a clearly purple look.
+- **Includes:** H62 Tousled Waves · B02 Light Stubble · C27 Dark Grape (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 2 min: scrunch in sea salt spray and air dry.
+- **Weekly:** Wash with cool water and colour-safe shampoo.
+- **Next barber visit:** in 4–5 weeks
+- **At the shop:** 45–60 min on colour day
+- **Suits:** Oval, square, long and heart face · Curly or wavy hair · Any beard growth
+
+## L62 Golden Touch
+
+A centre part with fine golden streaks.
+
+**Description:** A Middle Part with fine Golden Brown Highlights through the top only. A light touch of colour, with the sides left natural.
+
+- **Pick this if:** you want a light, fun change without colouring everything.
+- **Skip if:** your hair is very short, or you want your grey covered.
+- **Includes:** H19 Middle Part · B01 Clean Shave · Moustache: Shave off · C06 Golden Brown Highlights
+- **Daily:** 5 min: shave, blow dry the part, a little light cream.
+- **Weekly:** Colour-safe shampoo.
+- **Next barber visit:** in 6–8 weeks
+- **At the shop:** 60–90 min on colour day
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L63 Caramel Waves
+
+Loose waves lit with soft caramel streaks.
+
+**Description:** Tousled Waves with fine Caramel Highlights and light stubble. The streaks catch the light in the waves and add warmth.
+
+- **Pick this if:** you have wavy hair and want a warm, sunny touch of colour.
+- **Skip if:** your hair is straight or very short, or you want grey covered.
+- **Includes:** H62 Tousled Waves · B02 Light Stubble · C31 Caramel Highlights
+- **Daily:** 3 min: scrunch in sea salt spray and air dry.
+- **Weekly:** Colour-safe shampoo. Trim the stubble twice at 1–2 mm.
+- **Next barber visit:** in 6–8 weeks
+- **At the shop:** 60–90 min on colour day
+- **Suits:** Oval, square, long and heart face · Curly or wavy hair · Any beard growth
+
+## L64 Ash Streak Idol
+
+A soft K-pop cut with cool ash-grey streaks.
+
+**Description:** A K-Pop Cut with fine Ash Highlights through the fringe and top. Cool, modern and very Korean.
+
+- **Pick this if:** you want a modern, cool-toned look with a soft Korean cut.
+- **Skip if:** your hair is very short, or you want warm tones.
+- **Includes:** H89 K-Pop Cut · B01 Clean Shave · Moustache: Shave off · C32 Ash Highlights
+- **Daily:** 8 min: shave, blow dry the fringe, a little light wax.
+- **Weekly:** Purple or silver shampoo once.
+- **Next barber visit:** in 4 weeks for the cut, 6–8 weeks for streaks
+- **At the shop:** 90 min on colour day
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L65 Wine Streaks
+
+A shaggy wolf cut with deep wine-red streaks.
+
+**Description:** A Wolf Cut with fine Burgundy Highlights through the layers. The streaks show in movement and stay dark overall.
+
+- **Pick this if:** you want a bold, trendy cut with a rich touch of colour.
+- **Skip if:** your hair is very short, or you have a strict office.
+- **Includes:** H28 Wolf Cut · B01 Clean Shave · Moustache: Shave off · C33 Burgundy Highlights
+- **Daily:** 3 min: tousle with your fingers, a little sea salt spray.
+- **Weekly:** Wash with cool water and colour-safe shampoo.
+- **Next barber visit:** in 4–6 weeks
+- **At the shop:** 60–90 min on colour day
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L66 Salt and Pepper Taper
+
+A clean taper with softened grey on hair and stubble.
+
+**Description:** A Taper Fade and Heavy Stubble, with Grey Blending on both so the grey looks soft and natural. A light shade, not a full colour.
+
+- **Pick this if:** you are going grey and want a natural look without a full dye.
+- **Skip if:** you want zero grey.
+- **Includes:** H23 Taper Fade · B03 Heavy Stubble · C08 Grey Blending (hair and beard)
+- **Colours beard:** Yes
+- **Daily:** 4 min: comb the top, beard oil.
+- **Weekly:** Mild shampoo. Trim the stubble once at 5 mm.
+- **Next barber visit:** in 4 weeks
+- **At the shop:** 15–20 min on colour day
+- **Suits:** All face shapes · All hair types · Medium or full beard growth
+
+## L67 Sun-Kissed Surfer
+
+Beach waves with sun-kissed caramel streaks.
+
+**Description:** Surfer Hair with fine Caramel Highlights and heavy stubble. A relaxed, sunny look that looks like a holiday.
+
+- **Pick this if:** you have wavy hair and want a relaxed, sunny, beachy look.
+- **Skip if:** your hair is very straight or short, or your office is strict.
+- **Includes:** H79 Surfer Hair · B03 Heavy Stubble · C31 Caramel Highlights
+- **Daily:** 2 min: scrunch in sea salt spray and air dry.
+- **Weekly:** Colour-safe shampoo. Trim the stubble once at 5 mm.
+- **Next barber visit:** in 6–8 weeks
+- **At the shop:** 60–90 min on colour day
+- **Suits:** Oval, square, long and heart face · Wavy or curly hair · Medium or full beard growth

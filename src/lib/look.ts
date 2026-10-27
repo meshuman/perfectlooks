@@ -112,6 +112,8 @@ export interface LookPartInput {
   name?: string;
   beardMode?: BeardMode;
   action?: 'shave-off' | 'part-of-beard';
+  /** Colour slot only: the colour goes on the beard and moustache too. */
+  colourBeard?: boolean;
 }
 
 /** What an Add to My Look button carries: one catalogue item, or a whole Ready Look. */
@@ -124,6 +126,7 @@ export function lookFromParts(parts: LookPartInput[]): Look {
     if (part.action === 'shave-off') look.moustache = 'shave-off';
     if (!part.id || !part.name) continue;
     const pick = { id: part.id, name: part.name };
+    if (part.slot === 'colour' && part.colourBeard) look.colourBeard = true;
     if (part.slot === 'beard') look.beard = { ...pick, mode: part.beardMode ?? 'separate' };
     else look[part.slot] = pick;
   }

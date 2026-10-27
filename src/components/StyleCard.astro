@@ -18,6 +18,8 @@ interface Props {
   aside?: string;
   /** CSS background for a colour swatch, shown until the colour has a photo. */
   swatch?: string;
+  /** Shows the "Popular" tag. */
+  popular?: boolean;
   /** Photo angle, for the alt text. */
   mainPhoto?: 'front' | 'side';
   suitsYou?: boolean;
@@ -29,7 +31,7 @@ interface Props {
   add?: AddData;
 }
 
-const { href, name, shortLine, meta, upkeep, aside, swatch, suitsYou = false, itemId, match, category, add, mainPhoto = 'front' } = Astro.props;
+const { href, name, shortLine, meta, upkeep, aside, swatch, popular = false, suitsYou = false, itemId, match, category, add, mainPhoto = 'front' } = Astro.props;
 ---
 
 {/* Flat, frameless card. Every card has the same parts: square media (photo, swatch or the branded placeholder), name, one line, meta. */}
@@ -52,6 +54,14 @@ const { href, name, shortLine, meta, upkeep, aside, swatch, suitsYou = false, it
       <Icon name="check" size={11} strokeWidth={3} />
       {t('card.suitsYou')}
     </span>
+    {
+      popular && (
+        <span class="absolute bottom-2 left-2 inline-flex items-center gap-1 bg-paper/90 px-2 py-1 text-[0.5625rem] font-semibold tracking-[0.18em] text-ink uppercase backdrop-blur-sm">
+        <Icon name="star" size={9} strokeWidth={2} class="text-gold-ink" />
+        {t('card.popular')}
+      </span>
+      )
+    }
   </div>
   {/* The heart sits outside the card link so it can be its own button. */}
   <button

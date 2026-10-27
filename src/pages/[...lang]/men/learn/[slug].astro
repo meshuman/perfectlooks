@@ -47,7 +47,7 @@ const structured = [
   breadcrumbs(
     [
       { name: t('site.home'), path: l('/') },
-      { name: t('learn.heading'), path: l('/learn') },
+      { name: t('learn.heading'), path: l('/men/learn') },
       { name: local.title, path },
     ],
     site,
@@ -55,7 +55,7 @@ const structured = [
 ];
 ---
 
-<BaseLayout title={local.title} description={local.description} tab="learn" back={{ href: l('/learn'), label: t('learn.heading') }}>
+<BaseLayout title={local.title} description={local.description} tab="learn" back={{ href: l('/men/learn'), label: t('learn.heading') }}>
   <JsonLd slot="head" data={structured} />
   <main class="wrap max-w-2xl pt-6 pb-12">
     <article>

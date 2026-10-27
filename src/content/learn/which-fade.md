@@ -17,8 +17,8 @@ imageAlt: "Three side views showing a low, mid and high fade."
 
 | Fade | Starts at | Best for | Next barber visit |
 | --- | --- | --- | --- |
-| [Low Fade](/styles/low-fade) | 1 finger above the ear | A first fade, office, school | In 2–3 weeks |
-| [Mid Fade](/styles/mid-fade) | The temple | A sharper, modern look | In 2–3 weeks |
+| [Low Fade](/men/hair/low-fade) | 1 finger above the ear | A first fade, office, school | In 2–3 weeks |
+| [Mid Fade](/men/hair/mid-fade) | The temple | A sharper, modern look | In 2–3 weeks |
 | Skin Fade, high (H09) | Top corner of the head | The boldest, cleanest sides | In 2 weeks |
 
 ## Which fade suits a long face?

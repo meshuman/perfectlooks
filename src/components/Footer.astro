@@ -1,17 +1,35 @@
 ---
 import Logo from './Logo.astro';
 import { defaultShop as shop } from '@/data/shop';
-import { useI18n } from '@/i18n';
+import { womenCategories } from '@/data/women';
+import { useI18n, type UiKey } from '@/i18n';
 const { t, l } = useI18n(Astro.url);
 
-const links = [
-  { href: l('/styles'), label: t('category.hair.label') },
-  { href: l('/beards'), label: t('category.beards.label') },
-  { href: l('/moustaches'), label: t('category.moustaches.label') },
-  { href: l('/colours'), label: t('category.colours.label') },
-  { href: l('/looks'), label: t('category.looks.label') },
-  { href: l('/learn'), label: t('nav.learn') },
+// Links follow the section you are in: both sides on the landing page, one side inside /men or /women.
+const path = Astro.url.pathname.replace(/^\/(ne|hi)(?=\/|$)/, '');
+const inWomen = path === '/women' || path.startsWith('/women/');
+const inMen = path === '/men' || path.startsWith('/men/');
+
+const menLinks = [
+  { href: l('/men/hair'), label: t('category.hair.label') },
+  { href: l('/men/beards'), label: t('category.beards.label') },
+  { href: l('/men/moustaches'), label: t('category.moustaches.label') },
+  { href: l('/men/colours'), label: t('category.colours.label') },
+  { href: l('/men/looks'), label: t('category.looks.label') },
+  { href: l('/men/add-ons'), label: t('addons.link') },
+  { href: l('/men/learn'), label: t('nav.learn') },
 ];
+const womenLinks = [
+  ...womenCategories.map((c) => ({ href: l(`/women/${c.key}`), label: t(`wcat.${c.key}.label` as UiKey) })),
+  { href: l('/women/add-ons'), label: t('addons.link') },
+  { href: l('/women/learn'), label: t('nav.learn') },
+];
+const columns = [
+  ...(inWomen ? [] : [{ title: t('who.men'), href: l('/men'), links: menLinks }]),
+  ...(inMen ? [] : [{ title: t('who.women'), href: l('/women'), links: womenLinks }]),
+];
+// Inside one side, a single link crosses over to the other.
+const crossOver = inMen ? { href: l('/women'), label: t('who.women') } : inWomen ? { href: l('/men'), label: t('who.men') } : undefined;
 ---
 
 <footer class="bg-ink pt-14 pb-28 text-white">
@@ -20,20 +38,32 @@ const links = [
     <p class="mt-5 max-w-sm text-[0.9375rem] text-muted-dark">{t('site.tagline')}</p>
 
     <div class="mt-10 grid gap-10 md:grid-cols-2">
-      <nav aria-label={t('footer.catalogue')}>
-        <h2 class="text-sm font-medium tracking-wide text-muted-dark">{t('footer.browse')}</h2>
-        <ul class="mt-2 grid grid-cols-2 gap-x-6 text-[0.9375rem]">
-          {
-            links.map((link) => (
-              <li>
-                <a href={link.href} class="flex min-h-11 items-center underline-offset-4 hover:underline">
-                  {link.label}
-                </a>
-              </li>
+      <div class="grid gap-8 sm:grid-cols-2">
+        {
+          (inMen ? menLinks : inWomen ? womenLinks : []).length > 0 ? (
+            <nav aria-label={t('footer.catalogue')} class="sm:col-span-2">
+              <h2 class="text-sm font-medium tracking-wide text-muted-dark">{inMen ? t('who.men') : t('who.women')}</h2>
+              <ul class="mt-2 grid grid-cols-2 gap-x-6 text-[0.9375rem]">
+                {(inMen ? menLinks : womenLinks).map((link) => (
+                  <li><a href={link.href} class="flex min-h-11 items-center underline-offset-4 hover:underline">{link.label}</a></li>
+                ))}
+                {crossOver && <li><a href={crossOver.href} class="flex min-h-11 items-center font-medium text-gold underline-offset-4 hover:underline">{crossOver.label} →</a></li>}
+              </ul>
+            </nav>
+          ) : (
+            columns.map((col) => (
+              <nav aria-label={col.title}>
+                <h2 class="text-sm font-medium tracking-wide text-muted-dark"><a href={col.href} class="underline-offset-4 hover:underline">{col.title}</a></h2>
+                <ul class="mt-2 text-[0.9375rem]">
+                  {col.links.map((link) => (
+                    <li><a href={link.href} class="flex min-h-11 items-center underline-offset-4 hover:underline">{link.label}</a></li>
+                  ))}
+                </ul>
+              </nav>
             ))
-          }
-        </ul>
-      </nav>
+          )
+        }
+      </div>
 
       <div>
         <h2 class="text-sm font-medium tracking-wide text-muted-dark">{t('footer.visit')}</h2>

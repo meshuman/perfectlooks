@@ -91,6 +91,17 @@ describe('lookFromParts', () => {
     });
     expect(filledCount(look)).toBe(3);
   });
+
+  it('turns on beard colour when the look colours the beard too', () => {
+    const look = lookFromParts([
+      { slot: 'hair', id: 'H23', name: 'Taper Fade' },
+      { slot: 'beard', id: 'B04', name: 'Short Boxed Beard', beardMode: 'trimmed' },
+      { slot: 'colour', id: 'C01', name: 'Jet Black', colourBeard: true },
+    ]);
+    expect(look.colour).toEqual({ id: 'C01', name: 'Jet Black' });
+    expect(look.colourBeard).toBe(true);
+    expect(lookFromParts([{ slot: 'colour', id: 'C01', name: 'Jet Black' }]).colourBeard).toBe(false);
+  });
 });
 
 describe('barberSections', () => {

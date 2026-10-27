@@ -7,7 +7,7 @@ import { localPath, text, toast } from '@/lib/ui';
 import Icon from './Icon';
 
 const SLOT_ICON: Record<SlotKey, IconName> = { hair: 'scissors', beard: 'beard', moustache: 'moustache', colour: 'droplet' };
-const SLOT_LIST: Record<SlotKey, string> = { hair: '/styles', beard: '/beards', moustache: '/moustaches', colour: '/colours' };
+const SLOT_LIST: Record<SlotKey, string> = { hair: '/men/hair', beard: '/men/beards', moustache: '/men/moustaches', colour: '/men/colours' };
 
 export default function MyLookView({ items }: { items: ClientItem[] }) {
   const look = useStore($look);
@@ -127,7 +127,7 @@ export default function MyLookView({ items }: { items: ClientItem[] }) {
             <Icon name="arrowRight" size={18} strokeWidth={1.25} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
           </a>
         )}
-        <a href={localPath('/looks')} class="block text-center text-sm font-semibold text-gold-ink underline-offset-4 hover:underline">
+        <a href={localPath('/men/looks')} class="block text-center text-sm font-semibold text-gold-ink underline-offset-4 hover:underline">
           {text('myLook.pickReadyLook')}
         </a>
       </div>

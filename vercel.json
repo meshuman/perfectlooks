@@ -5,12 +5,207 @@
   "redirects": [
     {
       "source": "/hair",
-      "destination": "/styles",
+      "destination": "/men/hair",
       "permanent": true
     },
     {
       "source": "/hair/:path*",
-      "destination": "/styles/:path*",
+      "destination": "/men/hair/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/styles",
+      "destination": "/men/hair",
+      "permanent": true
+    },
+    {
+      "source": "/styles/:slug",
+      "destination": "/men/hair/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/ne/styles",
+      "destination": "/ne/men/hair",
+      "permanent": true
+    },
+    {
+      "source": "/ne/styles/:slug",
+      "destination": "/ne/men/hair/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/hi/styles",
+      "destination": "/hi/men/hair",
+      "permanent": true
+    },
+    {
+      "source": "/hi/styles/:slug",
+      "destination": "/hi/men/hair/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/beards",
+      "destination": "/men/beards",
+      "permanent": true
+    },
+    {
+      "source": "/beards/:slug",
+      "destination": "/men/beards/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/ne/beards",
+      "destination": "/ne/men/beards",
+      "permanent": true
+    },
+    {
+      "source": "/ne/beards/:slug",
+      "destination": "/ne/men/beards/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/hi/beards",
+      "destination": "/hi/men/beards",
+      "permanent": true
+    },
+    {
+      "source": "/hi/beards/:slug",
+      "destination": "/hi/men/beards/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/moustaches",
+      "destination": "/men/moustaches",
+      "permanent": true
+    },
+    {
+      "source": "/moustaches/:slug",
+      "destination": "/men/moustaches/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/ne/moustaches",
+      "destination": "/ne/men/moustaches",
+      "permanent": true
+    },
+    {
+      "source": "/ne/moustaches/:slug",
+      "destination": "/ne/men/moustaches/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/hi/moustaches",
+      "destination": "/hi/men/moustaches",
+      "permanent": true
+    },
+    {
+      "source": "/hi/moustaches/:slug",
+      "destination": "/hi/men/moustaches/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/colours",
+      "destination": "/men/colours",
+      "permanent": true
+    },
+    {
+      "source": "/colours/:slug",
+      "destination": "/men/colours/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/ne/colours",
+      "destination": "/ne/men/colours",
+      "permanent": true
+    },
+    {
+      "source": "/ne/colours/:slug",
+      "destination": "/ne/men/colours/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/hi/colours",
+      "destination": "/hi/men/colours",
+      "permanent": true
+    },
+    {
+      "source": "/hi/colours/:slug",
+      "destination": "/hi/men/colours/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/looks",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/looks/:slug",
+      "destination": "/men/looks/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/ne/looks",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/looks/:slug",
+      "destination": "/ne/men/looks/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/hi/looks",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/looks/:slug",
+      "destination": "/hi/men/looks/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/learn/:slug",
+      "destination": "/men/learn/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/ne/learn/:slug",
+      "destination": "/ne/men/learn/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/hi/learn/:slug",
+      "destination": "/hi/men/learn/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/add-ons",
+      "destination": "/men/add-ons",
+      "permanent": true
+    },
+    {
+      "source": "/add-ons/:slug",
+      "destination": "/men/add-ons/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/ne/add-ons",
+      "destination": "/ne/men/add-ons",
+      "permanent": true
+    },
+    {
+      "source": "/ne/add-ons/:slug",
+      "destination": "/ne/men/add-ons/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/hi/add-ons",
+      "destination": "/hi/men/add-ons",
+      "permanent": true
+    },
+    {
+      "source": "/hi/add-ons/:slug",
+      "destination": "/hi/men/add-ons/:slug",
       "permanent": true
     }
   ]

@@ -1,6 +1,6 @@
 # Hair styles
 
-59 hair styles, from a shaved head to long hair, including Korean styles. 35 use a front photo. 24 use a side photo because the cut only shows clearly from the side.
+89 hair styles, from a shaved head to long hair, including Korean styles. 58 use a front photo. 31 use a side photo because the cut only shows clearly from the side.
 
 ## At a glance
 
@@ -65,6 +65,36 @@
 | H57 Top Knot | Long | Medium | Oval, Square, Round | Straight, Wavy | No | Side |
 | H58 Half Bun | Medium to long | Low | Oval, Square, Heart | Straight, Wavy | No | Side |
 | H59 Dreadlocks | Long | Medium | Oval, Square, Long, Heart | Curly, Wavy | No | Front |
+| H60 Tapered Afro | Short to medium | Medium | Oval, Square, Long, Heart | Curly | No | Front |
+| H61 Curly Curtains | Medium | Medium | Oval, Square, Long, Heart | Curly, Wavy | No | Front |
+| H62 Tousled Waves | Medium | Low | Oval, Square, Long, Heart | Curly, Wavy | No | Front |
+| H63 Low Mullet | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | No | Side |
+| H64 Mid Mullet | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | No | Side |
+| H65 High Mullet | Medium to long | High | Oval, Square | Straight, Wavy | No | Side |
+| H66 Full Mullet | Long | Medium | Oval, Square, Heart | Straight, Wavy | No | Side |
+| H67 Korean Mullet | Medium | Medium | Oval, Long, Heart | Straight | No | Front |
+| H68 Greaser | Medium | High | Oval, Square, Heart | Straight, Wavy | No | Side |
+| H69 Curly Crop | Short | Medium | Oval, Square, Round, Heart | Curly, Wavy | Yes | Front |
+| H70 Angular Fringe | Short | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H71 Asymmetrical Cut | Short to medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | No | Front |
+| H72 Blowout Taper | Short to medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | No | Front |
+| H73 Curtain Fringe | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | No | Front |
+| H74 Layered Long Cut | Long | Medium | Oval, Square, Heart | Straight, Wavy | No | Front |
+| H75 Shaggy Cut | Medium to long | Low | Oval, Square, Long, Heart | Straight, Wavy | No | Front |
+| H76 Bro Flow | Medium to long | Low | Oval, Square, Heart | Straight, Wavy | No | Front |
+| H77 Broccoli Cut | Short to medium | Medium | Oval, Square, Heart | Straight, Wavy | No | Front |
+| H78 Fluffy Hair | Medium | Low | Oval, Square, Long, Heart | Straight, Wavy | No | Front |
+| H79 Surfer Hair | Medium to long | Low | Oval, Square, Long, Heart | Wavy, Curly | No | Front |
+| H80 Warrior Cut | Medium | Medium | Oval, Square, Long, Heart | Straight | No | Front |
+| H81 Spin Swallow Perm | Medium | Medium | Oval, Square, Long, Heart | Straight | Yes | Front |
+| H82 Off-Centre Part | Short to medium | Medium | Oval, Square, Round, Heart | Straight, Wavy | Yes | Front |
+| H83 Shadow Perm | Medium | Medium | Oval, Square, Long, Heart | Straight | Yes | Front |
+| H84 Nerd Perm | Medium | Medium | Oval, Square, Heart | Straight | Yes | Front |
+| H85 Korean Fade | Short | High | Oval, Square, Long, Heart | Straight, Wavy | Yes | Side |
+| H86 Permed Waves | Medium | Medium | Oval, Square, Long, Heart | Wavy, Straight | No | Front |
+| H87 Layered Undercut Sweep | Medium | High | Oval, Square, Round, Heart | Straight, Wavy | No | Side |
+| H88 Korean Ivy League | Short | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H89 K-Pop Cut | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 
 ## H01 Buzz Cut
 
@@ -320,6 +350,7 @@ Sides go to bare skin, high up. Very sharp look.
 - **Suits:** Oval, square and round face · All hair types · Thin hair OK
 - **Also called:** Bald fade, Zero fade, High fade
 - **Main photo:** Side
+- **Popular:** Yes
 
 **FAQ**
 
@@ -749,6 +780,7 @@ Neat cut with a small fade only at the sideburns and neck.
 - **Suits:** All face shapes · All hair types · Thin hair OK
 - **Also called:** Low taper
 - **Main photo:** Side
+- **Popular:** Yes
 
 **FAQ**
 
@@ -902,6 +934,7 @@ Shaggy, layered cut with volume on top and length at the back.
 - **Suits:** Oval, square, long and heart face · Straight or wavy hair
 - **Also called:** Shaggy cut
 - **Main photo:** Front
+- **Popular:** Yes
 
 **FAQ**
 
@@ -1024,6 +1057,7 @@ Fade that curves around the ear in a half circle.
 - **Next barber visit:** in 2 weeks
 - **Suits:** Oval, square, round and heart face · All hair types · Thin hair OK
 - **Main photo:** Side
+- **Popular:** Yes
 
 **FAQ**
 
@@ -1084,6 +1118,7 @@ Short front and sides, longer hair at the back.
 - **Next barber visit:** in 4–5 weeks
 - **Suits:** Oval, square, long and heart face · Straight or wavy hair
 - **Main photo:** Side
+- **Popular:** Yes
 
 **FAQ**
 
@@ -1209,6 +1244,7 @@ Short sides with the top brushed straight up.
 - **Next barber visit:** in 3–4 weeks
 - **Suits:** Oval, square and round face · Straight or wavy hair · Thin hair OK
 - **Main photo:** Front
+- **Popular:** Yes
 
 **FAQ**
 
@@ -1644,6 +1680,7 @@ Messy, textured fringe over a low taper.
 - **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
 - **Also called:** Low taper fringe, Textured crop
 - **Main photo:** Front
+- **Popular:** Yes
 
 **FAQ**
 
@@ -1877,3 +1914,934 @@ Hair formed into neat, rope-like locks.
 4. Tighten the roots with a crochet hook or palm rolling.
 5. Neaten the hairline.
 6. Ask: book a retwist in 4–6 weeks.
+
+## H60 Tapered Afro
+
+Short, full curls on top, with sides tapered close.
+
+**Description:** Tight natural curls kept short and full on top, with the sides and nape tapered neatly. A cleaner, shorter take on the natural afro.
+
+- **Pick this if:** you have tight curls and want them neat and easy to manage.
+- **Skip if:** your hair is straight or thin, or you want long curls.
+- **Daily:** 3 min: pick the curls out, a little curl cream.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, long and heart face · Curly hair
+- **Also called:** Cropped afro, Afro fade
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a tapered afro?** A short, full afro on top, with the sides and nape tapered or faded close to the head.
+- **How is it different from a natural afro?** A natural afro is full and round all over. A tapered afro keeps the top full and cuts the sides short.
+- **How long should the top be?** About 4–6 cm of curls, enough to show the curl but still neat.
+- **How often should I get it trimmed?** Every 3–4 weeks, to keep the taper and the edges clean.
+
+**Barber steps**
+
+1. Sides and nape: machine #1, taper up.
+2. Blend into the top with #2, then #3.
+3. Top: cut curls dry, 4–6 cm.
+4. Pick out the curls and shape the top round.
+5. Edge up the hairline with a trimmer.
+6. Apply curl cream with fingers.
+
+## H61 Curly Curtains
+
+Curly hair parted in the centre, falling to both sides.
+
+**Description:** Medium-length curls parted down the middle and falling softly to each side of the face. A relaxed, 90s-inspired look.
+
+- **Pick this if:** you have curly or wavy hair and want a relaxed, retro look.
+- **Skip if:** your hair is straight or thin, or you have a round face.
+- **Daily:** 3 min: curl cream with your fingers, then let it dry.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 6 weeks
+- **Suits:** Oval, square, long and heart face · Curly or wavy hair
+- **Also called:** 90s curtains, Curly centre part
+- **Main photo:** Front
+
+**FAQ**
+
+- **What are curly curtains?** Medium-length curly hair parted in the centre, with the sides falling forward like curtains.
+- **How long does hair need to be?** At least 7–8 cm on top, so it can part and fall over the forehead.
+- **Does it suit a round face?** Not usually. The width at the sides makes a round face look rounder.
+- **How do I keep the curls from frizzing?** Use conditioner, curl cream, and don’t brush them when dry.
+
+**Barber steps**
+
+1. Cut curls dry, one by one.
+2. Top: 7–9 cm long. Scissors.
+3. Find the centre part with a comb.
+4. Sides: leave long enough to cover the ears.
+5. Remove bulk with thinning scissors.
+6. Apply curl cream with fingers.
+
+## H62 Tousled Waves
+
+Messy, textured waves at medium length.
+
+**Description:** Medium-length hair with loose, natural waves left messy and textured on top. Easy, relaxed and low effort.
+
+- **Pick this if:** you have wavy hair and want an easy, laid-back look.
+- **Skip if:** your hair is straight or thin, or you want a sharp, neat look.
+- **Daily:** 2 min: scrunch in a little sea salt spray or curl cream, then let it dry.
+- **Weekly:** Conditioner 1–2 times.
+- **Next barber visit:** in 6–8 weeks
+- **Suits:** Oval, square, long and heart face · Curly or wavy hair
+- **Also called:** Textured waves, Messy waves
+- **Main photo:** Front
+
+**FAQ**
+
+- **What are tousled waves?** Medium-length wavy hair left loose and messy, with natural texture on top.
+- **What hair does it need?** Wavy or loosely curly hair. Straight hair needs a perm or lots of styling to hold the waves.
+- **Which product should I use?** Sea salt spray or a light curl cream, scrunched in, for a soft, natural hold.
+- **How long does hair need to be?** About 8–10 cm on top and over the ears at the sides.
+
+**Barber steps**
+
+1. Cut the hair dry to see the waves.
+2. Top: 8–10 cm. Point cut for texture.
+3. Sides: over the ears, blended softly.
+4. Back: tidy at the collar.
+5. Remove bulk with thinning scissors.
+6. Scrunch in sea salt spray or curl cream.
+
+## H63 Low Mullet
+
+Short on top and sides, a little longer at the back.
+
+**Description:** A subtle mullet: neat short sides and top, with just a little extra length at the nape. The easiest way to try the style.
+
+- **Pick this if:** you want to try a mullet without it being obvious.
+- **Skip if:** your hair is very thin, or your office wants a plain neck line.
+- **Daily:** 2 min: comb the top, a little wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Also called:** Subtle mullet, Mini mullet
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a low mullet?** A mullet with only a little extra length at the back, so it looks like a normal short cut from the front.
+- **How long is the back?** About 3–4 cm over the collar line, just touching the neck.
+- **Is it good for a first mullet?** Yes. It grows out easily and can be cut shorter at any time.
+- **How often should I trim it?** Every 3–4 weeks to keep the sides tidy and the back shaped.
+
+**Barber steps**
+
+1. Sides: machine #2, blend up to the top.
+2. Top: 4–5 cm. Scissors.
+3. Back: leave 3–4 cm longer than the sides.
+4. Shape the back into a soft point at the nape.
+5. Clean the ears and neck edges.
+6. Finish with a little wax.
+
+## H64 Mid Mullet
+
+Balanced mullet, back reaching the collar.
+
+**Description:** The classic balance: a shaped top, tidy sides and a back that reaches the collar. Clearly a mullet, but still neat.
+
+- **Pick this if:** you want a clear mullet that still looks tidy and modern.
+- **Skip if:** your hair is thin, or you want an everyday short cut.
+- **Daily:** 3 min: blow dry, a little texture cream.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Also called:** Classic mullet, Standard mullet
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a mid mullet?** A mullet with a balanced length: short sides and a back that reaches the collar.
+- **How long is the top?** About 6–8 cm, with a little texture on top.
+- **How is it different from a low mullet?** A mid mullet shows its back length clearly, while a low mullet is subtle.
+- **Which product should I use?** A texture cream or light wax for soft, natural movement.
+
+**Barber steps**
+
+1. Sides: machine #2, blend up.
+2. Top: 6–8 cm. Scissors and point cut.
+3. Back: leave to the collar, 8–10 cm.
+4. Connect the top to the back with soft layers.
+5. Clean the ears and the side edges.
+6. Blow dry, then texture cream.
+
+## H65 High Mullet
+
+Very short sides, a long back, strong contrast.
+
+**Description:** A bold mullet with sides faded high up and a long back, so the contrast between short and long is sharp and clear.
+
+- **Pick this if:** you want a bold, high-contrast cut that stands out.
+- **Skip if:** you have thin hair, a long face, or a strict office.
+- **Daily:** 4 min: blow dry, texture spray, shape the back.
+- **Weekly:** Conditioner 1–2 times.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval and square face · Straight or wavy hair
+- **Also called:** Skater mullet, Fade mullet
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a high mullet?** A mullet with the sides faded high up the head, so the long back stands out strongly.
+- **How long should the back be?** At least 12–15 cm, to the collar or lower.
+- **How often does it need a trim?** Every 3 weeks, to keep the fade sharp.
+- **Does it suit a long face?** Not usually. The long back adds more length, so oval or square faces suit it better.
+
+**Barber steps**
+
+1. Fade the sides high: #0 to #3 up to the temple.
+2. Top: 7–9 cm. Scissors and point cut.
+3. Back: leave 12–15 cm.
+4. Connect the top to the back with layers.
+5. Clean the neck edges.
+6. Blow dry, then texture spray.
+
+## H66 Full Mullet
+
+Short on top and sides, long to the shoulders at the back.
+
+**Description:** The full version: short top and sides with a long back that reaches the shoulders. Big, bold and unmistakably a mullet.
+
+- **Pick this if:** you want the full mullet look and have the hair for it.
+- **Skip if:** you have thin hair, a round face, or want a low-effort cut.
+- **Daily:** 4 min: wash and air dry, a little sea salt spray.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 6–8 weeks, to shape
+- **Suits:** Oval, square and heart face · Straight or wavy hair
+- **Also called:** Classic mullet, Business in front
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a full mullet?** A mullet with a short top and sides and a back that reaches the shoulders.
+- **How long does it take to grow?** About 8–12 months from a short cut, to reach shoulder length at the back.
+- **Can the front be styled?** Yes. Keep it short and tidy, or add a fringe for a softer look.
+- **How do I keep the back healthy?** Conditioner 2–3 times a week and a trim every 6–8 weeks to remove split ends.
+
+**Barber steps**
+
+1. Sides: machine #2, tapering up.
+2. Top: 5–7 cm. Scissors.
+3. Back: keep the full length, to the shoulders.
+4. Trim the ends only: 1 finger or less.
+5. Blend the top into the back with long layers.
+6. Finish with sea salt spray.
+
+## H67 Korean Mullet
+
+Soft, layered mullet with a light fringe.
+
+**Description:** A softer take on the mullet: light layers, a wispy fringe and a longer back, with tidy tapered sides. Stylish without being rough.
+
+- **Pick this if:** you want a soft, trendy mullet with a Korean look.
+- **Skip if:** you have thin or curly hair, or a round face.
+- **Daily:** 5 min: blow dry, a little light wax.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, long and heart face · Straight hair
+- **Also called:** Soft mullet, Layered mullet
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a Korean mullet?** A mullet with soft layers, a wispy fringe and a longer back, cut to look clean and light.
+- **How is it different from a modern mullet?** A Korean mullet is softer and lighter, with a see-through fringe and gentle layers.
+- **How long is the back?** About 8–10 cm, reaching the collar.
+- **Does it work with thin hair?** It can be hard. The layers need enough hair to look full.
+
+**Barber steps**
+
+1. Sides: machine #3, taper to #2 at the neck.
+2. Top: 7–9 cm. Scissors, soft layers.
+3. Fringe: thin and wispy, to the eyebrows.
+4. Back: leave 8–10 cm, with soft layers.
+5. Thin the ends with thinning scissors.
+6. Blow dry. Finish with light wax.
+
+## H68 Greaser
+
+Shiny, combed-back quiff with short, tight sides.
+
+**Description:** A classic 1950s cut: a high, shiny, combed-back top with short tapered sides, held in place with pomade. Bold and retro.
+
+- **Pick this if:** you like a retro look and enjoy daily styling.
+- **Skip if:** you have thin hair, or want something quick.
+- **Daily:** 8 min: comb in strong-hold pomade, shape the top back, set with a comb.
+- **Weekly:** Wash the pomade out well. Conditioner once.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, square and heart face · Straight or wavy hair
+- **Also called:** Rockabilly cut, 50s cut
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a greaser haircut?** A 1950s cut with a high, shiny, combed-back top and short, tight sides.
+- **Which product should I use?** A strong-hold pomade, combed through from roots to ends for a high shine.
+- **How long does the top need to be?** About 8–10 cm, long enough to comb back and lift.
+- **How do I wash out pomade?** Use a clarifying shampoo once a week, because pomade builds up.
+
+**Barber steps**
+
+1. Sides: machine #1, tight and tapered.
+2. Top: 8–10 cm. Scissors.
+3. Back: tapered, with a clean neck line.
+4. Comb the top back and up.
+5. Add a little height at the front.
+6. Set with strong pomade and a comb.
+
+## H69 Curly Crop
+
+Short, tight curls on top with a neat taper.
+
+**Description:** Short curls cropped close on top, with the sides tapered neatly. Clean and easy, and it shows off natural curl pattern.
+
+- **Pick this if:** you have curly hair and want a short, low-effort cut.
+- **Skip if:** your hair is straight, or you want long curls.
+- **Daily:** 2 min: curl cream with your fingers.
+- **Weekly:** Conditioner 1–2 times.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, round and heart face · Curly or wavy hair · Thin hair OK
+- **Also called:** Short curls, Curly cut
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a curly crop?** A short cut for curly hair, with the curls cropped close on top and the sides tapered.
+- **How long is the top?** About 3–4 cm, short enough to be easy and long enough to show the curl.
+- **How is it different from a curly top fade?** A curly crop is shorter and simpler. A curly top fade keeps longer curls over a skin fade.
+- **How do I stop frizz?** Use a little curl cream and don’t brush it when dry.
+
+**Barber steps**
+
+1. Sides: machine #2, taper to #1 at the neck.
+2. Cut the curls on top dry, 3–4 cm.
+3. Shape the top into a neat round outline.
+4. Blend the sides into the top.
+5. Edge up the hairline with a trimmer.
+6. Apply curl cream with fingers.
+
+## H70 Angular Fringe
+
+Short fringe cut at a sharp diagonal angle.
+
+**Description:** A short fringe cut on a sharp diagonal across the forehead, over tidy short sides. Modern and easy.
+
+- **Pick this if:** you want a fringe that looks sharp and modern.
+- **Skip if:** you have a very high forehead and want it covered fully, or you want a soft look.
+- **Daily:** 2 min: comb the fringe across, a little clay.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Diagonal fringe, Slanted fringe
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is an angular fringe?** A fringe cut at a diagonal angle, so it sits higher on one side and lower on the other.
+- **How long is the fringe?** About 3–4 cm on the long side, reaching the eyebrow.
+- **Does it suit thin hair?** Yes. A short, sharp fringe looks neat even on finer hair.
+- **How often do I need a trim?** Every 3 weeks to keep the angle sharp.
+
+**Barber steps**
+
+1. Sides: machine #2, taper to #1 at neck.
+2. Top: 4 fingers long. Scissors.
+3. Comb the fringe across the forehead.
+4. Cut the fringe at a diagonal angle.
+5. Point cut for a soft edge.
+6. Style with a little clay.
+
+## H71 Asymmetrical Cut
+
+One side longer than the other, swept across.
+
+**Description:** A cut with one side left longer and swept across the forehead, and the other side cut short. Creative, but easy to wear.
+
+- **Pick this if:** you want a cut that is a little different and still easy to wear.
+- **Skip if:** you want a perfectly even look, or you have a strict office.
+- **Daily:** 4 min: blow dry the long side across, a little paste.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair
+- **Also called:** Side-swept cut, Uneven cut
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is an asymmetrical cut?** A cut where one side is longer than the other, so the top sweeps across to one side.
+- **Which side should be longer?** The side where your hair naturally falls, which the barber finds with your part.
+- **Does it suit a round face?** Yes. The diagonal line adds angles and makes the face look longer.
+- **How do I style it?** Blow dry the long side across and set it with a little paste.
+
+**Barber steps**
+
+1. Ask: which side long, which side short?
+2. Short side: machine #2, taper at the ear.
+3. Long side: 6–8 cm, left to sweep across.
+4. Blend the top into both sides.
+5. Point cut the swept edge for softness.
+6. Blow dry across. Finish with paste.
+
+## H72 Blowout Taper
+
+Full, blow-dried top over a clean taper.
+
+**Description:** A full, voluminous top blow-dried up and back, with the sides tapered neatly. Lots of body, clean edges.
+
+- **Pick this if:** you want a full, fluffy top that still looks neat on the sides.
+- **Skip if:** your hair is very thin or flat, or you do not want to use a dryer.
+- **Daily:** 5 min: blow dry the top up and back, a little light cream.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair
+- **Also called:** Blowout, Volume taper
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a blowout taper?** A taper on the sides with a longer top that is blow-dried for height and volume.
+- **How long is the top?** About 7–9 cm, long enough to lift and sweep back.
+- **Do I need a hair dryer?** Yes. The volume comes from blow drying the hair up and back with a brush.
+- **Does it suit a round face?** Yes. The height on top makes the face look longer.
+
+**Barber steps**
+
+1. Sides: machine #2, taper to #1 at neck.
+2. Top: 7–9 cm. Scissors, point cut.
+3. Add light layers for body.
+4. Blend the top into the taper.
+5. Blow dry the top up and back with a brush.
+6. Finish with light cream or spray.
+
+## H73 Curtain Fringe
+
+Centre-parted fringe falling softly to both sides.
+
+**Description:** Medium-length hair parted in the centre, with the fringe falling softly to each side like curtains. Easy, relaxed and flattering.
+
+- **Pick this if:** you want a soft, easy look that frames the face.
+- **Skip if:** you have very curly hair (see Curly Curtains), or thin hair.
+- **Daily:** 3 min: blow dry the fringe apart, a little cream.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 5–6 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Also called:** Curtains, 90s curtains
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a curtain fringe?** A fringe parted in the centre that falls to both sides of the face, like curtains.
+- **How long does hair need to be?** At least 7–8 cm on top, so it can part and fall past the eyebrows.
+- **Does it suit a round face?** Not usually. The width at the sides can make a round face look rounder.
+- **How do I style it?** Blow dry the fringe apart with your fingers, then use a little cream.
+
+**Barber steps**
+
+1. Sides: machine #3, tapering up.
+2. Top: 7–9 cm. Scissors.
+3. Find the centre part with a comb.
+4. Cut the fringe long enough to fall past the eyebrows.
+5. Point cut for a soft edge.
+6. Blow dry apart. Finish with cream.
+
+## H74 Layered Long Cut
+
+Long hair with layers for movement and shape.
+
+**Description:** Long hair cut in layers, so it moves and sits better instead of hanging flat. Reaches the shoulders or lower.
+
+- **Pick this if:** you have long hair and want it to look fuller and lighter.
+- **Skip if:** your hair is very thin, or you want to keep every inch of length.
+- **Daily:** 3 min: brush, a little leave-in conditioner.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 8 weeks, for a trim
+- **Suits:** Oval, square and heart face · Straight or wavy hair
+- **Also called:** Long layers, Layered hair
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a layered long cut?** Long hair cut in layers, so shorter pieces sit over longer ones and add movement.
+- **Will I lose length?** Only a little. The barber takes about 1–2 cm to create the layers.
+- **Does it make thin hair look fuller?** Light layers can add body, but too many can make thin hair look thinner.
+- **How often should I trim it?** Every 8 weeks, to keep the layers shaped and remove split ends.
+
+**Barber steps**
+
+1. Ask: how much length to keep?
+2. Wash and comb the hair out.
+3. Cut face-framing layers to the chin.
+4. Cut long layers through the back.
+5. Thin the ends lightly.
+6. Blow dry. Finish with leave-in conditioner.
+
+## H75 Shaggy Cut
+
+Messy, choppy layers with a relaxed shape.
+
+**Description:** Choppy, uneven layers over the whole head with a messy, lived-in finish. Relaxed and full of texture.
+
+- **Pick this if:** you want a messy, easy look with lots of texture.
+- **Skip if:** you want a neat, tidy look, or have very thin hair.
+- **Daily:** 2 min: tousle with your fingers, a little sea salt spray.
+- **Weekly:** Conditioner 1–2 times.
+- **Next barber visit:** in 6–8 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Also called:** Shag, Messy layers
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a shaggy cut?** A cut with choppy, uneven layers that gives a messy, textured look.
+- **How is it different from a wolf cut?** A wolf cut has a strong volume on top and a longer back. A shaggy cut is lighter and more even.
+- **Does it need a lot of styling?** No. A little sea salt spray and your fingers are enough.
+- **How long does hair need to be?** At least 8–10 cm on top and over the ears.
+
+**Barber steps**
+
+1. Ask: how much length to keep?
+2. Cut the top in choppy layers, 8–10 cm.
+3. Point cut the fringe and the ends.
+4. Cut layers around the ears and neck.
+5. Thin the bulk with thinning scissors.
+6. Scrunch in sea salt spray.
+
+## H76 Bro Flow
+
+Swept-back flowing hair, ears and neck covered.
+
+**Description:** Medium to long hair that flows back and over the ears, with a natural, easy shape. Relaxed and effortless.
+
+- **Pick this if:** you want an easy, grown-out look with length.
+- **Skip if:** your hair is thin, or you want something short and sharp.
+- **Daily:** 2 min: comb back, a little light cream.
+- **Weekly:** Conditioner 2–3 times.
+- **Next barber visit:** in 8 weeks, for a trim
+- **Suits:** Oval, square and heart face · Straight or wavy hair
+- **Also called:** Flow, Surfer flow
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a bro flow?** Medium to long hair grown out and swept back, flowing over the ears and neck.
+- **How long does hair need to be?** At least 12–15 cm, long enough to flow back past the ears.
+- **How do I keep it neat?** Trim the ends every 8 weeks and use conditioner to keep it smooth.
+- **Does it suit a round face?** Not usually. The extra width at the sides can make it look rounder.
+
+**Barber steps**
+
+1. Keep all the length.
+2. Trim the ends only: 1–2 fingers.
+3. Add light layers around the face.
+4. Tidy the neck line.
+5. Comb the hair back over the ears.
+6. Finish with a little light cream.
+
+## H77 Broccoli Cut
+
+Round, full top with short, tidy sides.
+
+**Description:** A full, rounded top that looks like the head of a broccoli, over short sides. Soft, boyish and easy.
+
+- **Pick this if:** you want a soft, full top that is easy to wake up to.
+- **Skip if:** your hair is thin or flat, or you want a sharp look.
+- **Daily:** 3 min: tousle the top, a little light cream.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square and heart face · Straight or wavy hair
+- **Also called:** Mushroom top, Round top
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a broccoli cut?** A cut with a full, rounded top, like the head of a broccoli, and short, tidy sides.
+- **How long is the top?** About 7–9 cm, long enough to build a full, round shape.
+- **Does it need a lot of styling?** No. A little cream and your fingers are enough.
+- **Does it suit a round face?** Not usually. The round top adds width. Oval and square faces suit it better.
+
+**Barber steps**
+
+1. Sides: machine #2, tapering up.
+2. Top: 7–9 cm. Scissors.
+3. Shape the top into a round outline.
+4. Cut light layers for body.
+5. Blend the top into the sides.
+6. Finish with a little light cream.
+
+## H78 Fluffy Hair
+
+Soft, airy top with natural body.
+
+**Description:** Soft, airy hair that sits full and light, with natural volume and a gentle fringe. Easy and boyish.
+
+- **Pick this if:** you want soft, light hair with natural volume.
+- **Skip if:** your hair is very oily or flat, or you want a sleek look.
+- **Daily:** 3 min: blow dry the top up, a little light powder or spray.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Also called:** Soft volume, Airy cut
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is fluffy hair?** Soft, light hair with natural volume, not slicked down or heavy.
+- **How do I get the fluff?** Blow dry the hair up with your fingers and use a light volume spray or powder.
+- **Does it need product?** Only a little. Heavy products flatten it, so keep it light.
+- **Does it work with thin hair?** It can, if the layers are light. Heavy layers make thin hair look thinner.
+
+**Barber steps**
+
+1. Sides: machine #3, tapering up.
+2. Top: 6–8 cm. Scissors.
+3. Cut soft layers for body.
+4. Thin the ends lightly.
+5. Blow dry the top up and forward.
+6. Finish with volume powder.
+
+## H79 Surfer Hair
+
+Loose, sun-kissed waves with a beachy feel.
+
+**Description:** Loose, wavy hair with a salty, windswept texture and a relaxed, beachy feel. Natural and easy.
+
+- **Pick this if:** you have wavy hair and want a relaxed, beachy look.
+- **Skip if:** your hair is very straight or thin, or you want a neat, sharp cut.
+- **Daily:** 2 min: scrunch in sea salt spray and air dry.
+- **Weekly:** Conditioner 1–2 times.
+- **Next barber visit:** in 8 weeks, for a trim
+- **Suits:** Oval, square, long and heart face · Wavy or curly hair
+- **Also called:** Beach waves, Beachy hair
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is surfer hair?** Loose, wavy, medium-to-long hair with a windswept, beachy texture.
+- **How do I get the beachy look?** Scrunch in sea salt spray when your hair is damp and let it air dry.
+- **Does it need to be long?** About 10–15 cm on top, so the waves have room to fall.
+- **Does straight hair work?** It is harder. Straight hair needs a perm or heavy styling to hold the waves.
+
+**Barber steps**
+
+1. Cut the hair dry to see the waves.
+2. Top: 10–15 cm. Scissors.
+3. Add loose layers for movement.
+4. Keep the sides long, over the ears.
+5. Thin the bulk lightly.
+6. Scrunch in sea salt spray. Air dry.
+
+## H80 Warrior Cut
+
+Long fringe with tidy short sides and a strong shape.
+
+**Description:** A long, heavy fringe over short, clean sides, giving a strong, dramatic shape. Bold and sharp.
+
+- **Pick this if:** you want a strong, dramatic cut with a bold fringe.
+- **Skip if:** you have thin or curly hair, or hate hair in your eyes.
+- **Daily:** 4 min: blow dry the fringe forward, a little clay.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, long and heart face · Straight hair
+- **Also called:** Long fringe cut, Heavy fringe
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a warrior cut?** A cut with a long, heavy fringe over short, clean sides, for a strong, dramatic shape.
+- **How long is the fringe?** About 8–10 cm, falling over the forehead to the eyebrows or lower.
+- **Does it suit thin hair?** Not usually. The fringe needs thick, straight hair to look full and heavy.
+- **How do I style it?** Blow dry the fringe forward and set it with a little clay.
+
+**Barber steps**
+
+1. Sides: machine #2, taper to #1 at neck.
+2. Top: 8–10 cm. Scissors.
+3. Fringe: cut long and heavy, to the eyebrows.
+4. Blend the top into the short sides.
+5. Point cut for a softer edge.
+6. Blow dry forward. Finish with clay.
+
+## H81 Spin Swallow Perm
+
+Korean perm with a swirl of curls pushed to the sides.
+
+**Description:** A Korean perm where the top is curled in a spiral and swept to the sides, like the swirling flight of a swallow. Full, soft and eye-catching.
+
+- **Pick this if:** you have straight hair and want a Korean look with lots of movement.
+- **Skip if:** your hair is damaged, or your scalp is sensitive.
+- **Daily:** 4 min: blow dry, a little curl cream or wax.
+- **Weekly:** Mild shampoo and conditioner. Moisture mask once.
+- **Next barber visit:** in 4 weeks, for a trim. The perm lasts 2–3 months.
+- **Suits:** Oval, square, long and heart face · Straight hair · Thin hair OK
+- **Also called:** Swallow perm, Spiral perm
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a spin swallow perm?** A Korean perm that gives the top a spiral swirl, swept out to the sides.
+- **How long does the perm last?** About 2–3 months, then the curls loosen as the hair grows.
+- **Will it suit thin hair?** Yes. The curls add volume, so thin hair looks fuller.
+- **How do I care for permed hair?** Use mild shampoo, a moisture mask once a week, and don’t brush it when dry.
+
+**Barber steps**
+
+1. Ask: perm before? Hair damaged?
+2. Sides: machine #3, tapering up.
+3. Top: 9–10 cm. Scissors.
+4. Wind the top in a spiral on perm rods.
+5. Apply perm solution. Wait time: as on the box.
+6. Rinse, neutralise. Style with curl cream.
+
+## H82 Off-Centre Part
+
+Part set just off the middle, with a natural sweep.
+
+**Description:** A part set slightly to one side of the middle, so the hair sweeps naturally to each side. A modern, relaxed take on the side part.
+
+- **Pick this if:** you want a neat look that is softer than a hard side part.
+- **Skip if:** you have a strong cowlick at the part.
+- **Daily:** 3 min: comb the part, a little light cream.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Soft side part, Offset part
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is an off-centre part?** A part set slightly off the middle, so more hair falls to one side than the other.
+- **How is it different from a middle part?** A middle part is exactly even. An off-centre part sits a little to one side.
+- **How is it different from a side part?** A side part sits further over. An off-centre part is closer to the middle.
+- **Which side should I part?** The side where your hair naturally falls. The barber finds it by combing wet hair straight back.
+
+**Barber steps**
+
+1. Sides: machine #3, taper to #2 at neck.
+2. Top: 6–8 cm. Scissors.
+3. Find the natural part with a comb.
+4. Set the part just off the middle.
+5. Blend the top into the sides.
+6. Comb it in. Finish with light cream.
+
+## H83 Shadow Perm
+
+Light, subtle waves for soft texture and volume.
+
+**Description:** A light Korean perm that adds soft, subtle waves and a shadowy texture, mostly at the roots and top. Natural-looking volume with little effort.
+
+- **Pick this if:** you want soft volume and texture without obvious curls.
+- **Skip if:** your hair is damaged, or you want tight curls.
+- **Daily:** 3 min: scrunch in a little light cream and air dry.
+- **Weekly:** Mild shampoo and conditioner. Moisture mask once.
+- **Next barber visit:** in 4–6 weeks, for a trim. The perm lasts 2–3 months.
+- **Suits:** Oval, square, long and heart face · Straight hair · Thin hair OK
+- **Also called:** Soft perm, Light perm
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a shadow perm?** A very light Korean perm that gives soft waves and volume, mostly on the top and at the roots.
+- **How is it different from a Korean perm?** A shadow perm is lighter and subtler, with looser waves and less curl.
+- **Does it suit thin hair?** Yes. The extra volume makes thin hair look fuller.
+- **How long does it last?** About 2–3 months, fading as the hair grows.
+
+**Barber steps**
+
+1. Ask: perm before? Hair damaged?
+2. Sides: machine #3, tapering up.
+3. Top: 8–9 cm. Scissors.
+4. Wind the top loosely on large rods.
+5. Apply perm solution. Wait time: as on the box.
+6. Rinse, neutralise. Style with light cream.
+
+## H84 Nerd Perm
+
+Soft, round curls with a neat, boyish shape.
+
+**Description:** Soft, rounded perm curls over the whole top, with a neat outline and a light fringe. Cute, boyish and easy.
+
+- **Pick this if:** you have straight hair and want soft, rounded curls.
+- **Skip if:** your hair is damaged, or you want a sharp, adult look.
+- **Daily:** 3 min: scrunch in curl cream and air dry.
+- **Weekly:** Mild shampoo and conditioner. Moisture mask once.
+- **Next barber visit:** in 4 weeks, for a trim. The perm lasts 2–3 months.
+- **Suits:** Oval, square and heart face · Straight hair · Thin hair OK
+- **Also called:** Round perm, Boyish perm
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a nerd perm?** A perm with soft, rounded curls over the top and a neat, boyish outline.
+- **Does it suit a round face?** Not usually. The round shape adds width. Oval, square and heart faces suit it better.
+- **How long is the top?** About 8–9 cm before perming.
+- **How long does it last?** About 2–3 months.
+
+**Barber steps**
+
+1. Ask: perm before? Hair damaged?
+2. Sides: machine #3, tapering up.
+3. Top: 8–9 cm. Scissors.
+4. Wind the top on medium rods in an even round pattern.
+5. Apply perm solution. Wait time: as on the box.
+6. Rinse, neutralise. Style with curl cream.
+
+## H85 Korean Fade
+
+Clean fade on the sides with a soft, textured top.
+
+**Description:** A clean fade on the sides and back, with a soft, textured top that falls forward a little. Sharp edges with a soft Korean finish.
+
+- **Pick this if:** you want clean, short sides with a soft, stylish top.
+- **Skip if:** you cannot visit every 2–3 weeks.
+- **Daily:** 3 min: blow dry the top forward, a little light wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 2–3 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Korean taper, Soft fade
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a Korean fade?** A clean fade on the sides and back, with a soft, textured top that falls forward.
+- **How is it different from a normal fade?** The top is longer, softer and more textured, often with a see-through fringe.
+- **How long is the top?** About 6–8 cm.
+- **How often does it need a touch-up?** Every 2–3 weeks, to keep the fade clean.
+
+**Barber steps**
+
+1. Fade the sides: #0 to #3, up to the temple.
+2. Top: 6–8 cm. Scissors.
+3. Cut soft layers and a light fringe.
+4. Blend the top into the fade.
+5. Clean the neck line with a trimmer.
+6. Blow dry forward. Finish with light wax.
+
+## H86 Permed Waves
+
+Loose, permed waves with natural movement.
+
+**Description:** Loose waves created with a perm, giving natural-looking movement and body to straight hair. Soft, easy and low effort.
+
+- **Pick this if:** you have straight hair and want easy, natural-looking waves.
+- **Skip if:** your hair is damaged, or your scalp is sensitive.
+- **Daily:** 2 min: scrunch in a little curl cream and air dry.
+- **Weekly:** Mild shampoo and conditioner. Moisture mask once.
+- **Next barber visit:** in 6 weeks, for a trim. The perm lasts 3–4 months.
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Also called:** Wave perm, Loose perm
+- **Main photo:** Front
+
+**FAQ**
+
+- **What are permed waves?** Loose waves created with a perm, so straight hair looks naturally wavy.
+- **How is it different from a Korean perm?** Permed waves are looser and more natural, with a longer length. A Korean perm is shorter and more shaped.
+- **How long does it last?** About 3–4 months, loosening as the hair grows.
+- **How do I care for it?** Use mild shampoo and curl cream, and don’t brush it when dry.
+
+**Barber steps**
+
+1. Ask: perm before? Hair damaged?
+2. Sides: over the ears, tidy.
+3. Top: 9–12 cm. Scissors.
+4. Wind the hair on large rods for loose waves.
+5. Apply perm solution. Wait time: as on the box.
+6. Rinse, neutralise. Style with curl cream.
+
+## H87 Layered Undercut Sweep
+
+Layered top swept to the side over a short undercut.
+
+**Description:** A layered top swept to one side with texture and movement, over short undercut sides. Stylish and full of shape.
+
+- **Pick this if:** you want a styled, sweeping top with clean short sides.
+- **Skip if:** you have thin hair, or you do not want daily styling.
+- **Daily:** 5 min: blow dry the top across, a little clay or paste.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, round and heart face · Straight or wavy hair
+- **Also called:** Sweep undercut, Layered sweep
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a layered undercut sweep?** A layered top swept to one side over short, clean undercut sides.
+- **How long is the top?** About 8–10 cm, long enough to sweep across.
+- **How is it different from a normal undercut?** The top has light layers for texture and movement, and it is swept to the side.
+- **Which product should I use?** A matte clay or paste, for a strong hold without too much shine.
+
+**Barber steps**
+
+1. Sides: machine #1, with a clear line at the top.
+2. Top: 8–10 cm. Scissors.
+3. Cut light layers for texture.
+4. Ask: sweep to the left or right?
+5. Blend the layers into the undercut line.
+6. Blow dry across. Finish with clay.
+
+## H88 Korean Ivy League
+
+Neat Ivy League with a soft, natural Korean finish.
+
+**Description:** A neat, short side-parted cut with a little extra softness on top and a light fringe. Smart like an Ivy League, but easier and softer.
+
+- **Pick this if:** you want a clean, smart cut that looks soft, not stiff.
+- **Skip if:** you want a sharp or bold look.
+- **Daily:** 3 min: comb the part, a little light wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Soft Ivy League, Korean side part
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a Korean Ivy League?** A short, side-parted Ivy League cut with a softer top and a light fringe.
+- **How is it different from a normal Ivy League?** The top is softer and more textured, with a see-through fringe, so it looks less formal.
+- **How long is the top?** About 4–6 cm.
+- **Is it good for the office?** Yes. It looks neat and smart, with a softer feel.
+
+**Barber steps**
+
+1. Sides: machine #2, taper to #1 at neck.
+2. Top: 4–6 cm. Scissors.
+3. Find the part and comb the top to the side.
+4. Cut a light, see-through fringe.
+5. Blend the top into the sides.
+6. Comb it in. Finish with light wax.
+
+## H89 K-Pop Cut
+
+Soft, layered Korean idol style with a light fringe.
+
+**Description:** The popular Korean idol look: soft, layered hair with a light, see-through fringe, tidy sides and a smooth, glossy finish.
+
+- **Pick this if:** you want the soft, polished Korean look that is popular right now.
+- **Skip if:** your hair is very thick and coarse, or you want a rough, messy look.
+- **Daily:** 5 min: blow dry the fringe in place, a little light wax.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Korean idol cut, K-pop hair
+- **Main photo:** Front
+- **Popular:** Yes
+
+**FAQ**
+
+- **What is a K-pop cut?** A soft, layered Korean idol style with a light fringe, tidy sides and a smooth finish.
+- **How long is the top?** About 7–9 cm, with a see-through fringe to the eyebrows.
+- **Which product should I use?** A light wax or cream, for a soft hold and a natural gloss.
+- **Does it work with thick hair?** Yes, but the barber thins it out first so the layers fall softly.
+
+**Barber steps**
+
+1. Sides: machine #3, taper to #2 at neck.
+2. Top: 7–9 cm. Scissors, soft layers.
+3. Fringe: light and see-through, to the eyebrows.
+4. Thin the ends with thinning scissors.
+5. Blend the top into the sides.
+6. Blow dry the fringe into place. Light wax.

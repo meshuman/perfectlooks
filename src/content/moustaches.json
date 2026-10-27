@@ -16,6 +16,7 @@
       "Simple moustache"
     ],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Short length",
@@ -89,6 +90,7 @@
     "suitsText": "Oval, square and round face · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Thick and wide",
@@ -160,6 +162,7 @@
     "suitsText": "Oval, long and heart face · Any growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Thin line",
@@ -233,6 +236,7 @@
       "Curled moustache"
     ],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Curled ends",
@@ -305,6 +309,7 @@
       "Biker moustache"
     ],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Down lines",
@@ -375,6 +380,7 @@
     "suitsText": "Oval and long face · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Pointed ends",
@@ -444,6 +450,7 @@
     "suitsText": "Oval and square face · Full growth only",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Thick and full",
@@ -512,6 +519,7 @@
     "suitsText": "Oval, round and square face · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Lamp shade shape",
@@ -582,6 +590,7 @@
     "suitsText": "All face shapes · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Natural shape",
@@ -654,6 +663,7 @@
     "suitsText": "Oval, square, long and heart face · Medium or full growth",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Small curl",
@@ -726,6 +736,7 @@
     "suitsText": "Oval, square and long face · Full growth only",
     "alsoCalled": [],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Big and bushy",
@@ -797,6 +808,7 @@
       "Pointed-up moustache"
     ],
     "mainPhoto": "front",
+    "popular": false,
     "callouts": [
       {
         "title": "Upward points",

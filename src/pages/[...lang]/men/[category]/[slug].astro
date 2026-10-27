@@ -37,7 +37,7 @@ interface StepGroup {
 export async function getStaticPaths() {
   const items = await getAllItems();
   return langParams().flatMap(({ lang }) =>
-    items.map((item) => ({ params: { lang, category: categories[item.category].segment, slug: item.slug }, props: { id: item.id } })),
+    items.map((item) => ({ params: { lang, category: categories[item.category].segment.split('/').pop()!, slug: item.slug }, props: { id: item.id } })),
   );
 }
 
@@ -174,7 +174,10 @@ const structured = [
     </div>
 
     <div class="mt-6 md:mt-0">
-      <p class="tag text-gold-ink">{label}</p>
+      <p class="tag text-gold-ink">
+        {label}
+        {item.popular && <span class="ml-2 inline-flex items-center gap-1 text-ink">· <Icon name="star" size={10} strokeWidth={2} />{t('card.popular')}</span>}
+      </p>
       <h1 class="mt-2 text-[2.25rem] leading-tight">{item.name}</h1>
       {item.alsoCalled.length > 0 && <p class="mt-1.5 text-sm text-muted">{t('detail.alsoCalled', { names: item.alsoCalled.join(', ') })}</p>}
       <p class="mt-3 text-[1.0625rem] leading-relaxed">{item.description}</p>

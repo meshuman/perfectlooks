@@ -1,0 +1,46 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { guideIcon, womenGuides } from '@/data/women-learn';
+import { breadcrumbs } from '@/data/seo';
+import { langParams, useI18n, type UiKey } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const { t, l } = useI18n(Astro.url);
+---
+
+<BaseLayout title={t('wlearn.title')} description={t('wlearn.description')} tab="learn" back={{ href: l('/women'), label: t('women.back') }}>
+  <JsonLd
+    slot="head"
+    data={breadcrumbs([{ name: t('site.home'), path: l('/') }, { name: t('women.heading'), path: l('/women') }, { name: t('wlearn.heading'), path: l('/women/learn') }], Astro.site!)}
+  />
+  <main class="wrap max-w-3xl pt-6 pb-16">
+    <p class="tag">{t('wlearn.kicker')}</p>
+    <h1 class="mt-3 text-[2.25rem] leading-tight">{t('wlearn.heading')}</h1>
+    <p class="mt-3 text-[1.0625rem] leading-relaxed text-muted">{t('wlearn.intro')}</p>
+
+    <ul class="mt-8 space-y-2">
+      {
+        womenGuides.map((guide, n) => (
+          <li data-reveal style={`--reveal-delay:${Math.min(n, 4) * 60}ms`} class="shell">
+            <a href={l(`/women/learn/${guide.slug}`)} class="core group flex items-start gap-4 p-4 transition duration-500 ease-out-soft hover:shadow-lift">
+              <span class="grid size-11 shrink-0 place-items-center rounded-full bg-paper-2 text-ink">
+                <Icon name={guideIcon[guide.topic]} size={20} />
+              </span>
+              <span class="min-w-0 flex-1">
+                <span class="eyebrow">{t(`wlearn.topic.${guide.topic}` as UiKey)}</span>
+                <span class="mt-1.5 block font-display text-[1.4375rem] leading-[1.1]">{t(`wguide.${guide.slug}.title` as UiKey)}</span>
+                <span class="mt-1 block text-xs text-muted">{t('detail.minRead', { minutes: guide.minutes })}</span>
+              </span>
+              <Icon name="arrowRight" size={18} class="mt-1 text-muted transition-transform group-hover:translate-x-0.5" />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</BaseLayout>

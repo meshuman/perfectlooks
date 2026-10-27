@@ -15,17 +15,17 @@ export type CategoryKey = 'hair' | 'beards' | 'moustaches' | 'colours' | 'looks'
 
 export interface Category {
   key: CategoryKey;
-  /** URL segment, from the SEO document: /styles, /beards, ... */
+  /** URL path under the site root: /men/hair, /men/beards, ... */
   segment: string;
   icon: IconName;
 }
 
 export const categories: Record<CategoryKey, Category> = {
-  hair: { key: 'hair', segment: 'styles', icon: 'scissors' },
-  beards: { key: 'beards', segment: 'beards', icon: 'beard' },
-  moustaches: { key: 'moustaches', segment: 'moustaches', icon: 'moustache' },
-  colours: { key: 'colours', segment: 'colours', icon: 'droplet' },
-  looks: { key: 'looks', segment: 'looks', icon: 'sparkles' },
+  hair: { key: 'hair', segment: 'men/hair', icon: 'scissors' },
+  beards: { key: 'beards', segment: 'men/beards', icon: 'beard' },
+  moustaches: { key: 'moustaches', segment: 'men/moustaches', icon: 'moustache' },
+  colours: { key: 'colours', segment: 'men/colours', icon: 'droplet' },
+  looks: { key: 'looks', segment: 'men/looks', icon: 'sparkles' },
 };
 
 export const categoryList = Object.values(categories);
@@ -85,6 +85,9 @@ export interface Item {
   atShop?: string;
   alsoCalled: string[];
   mainPhoto: 'front' | 'side';
+  popular: boolean;
+  /** Colours and Ready Looks: no colour, a full colour, or a shade only. */
+  colourType?: 'normal' | 'full' | 'shades';
   callouts: { title: string; text: string; x?: number; y?: number }[];
   faq: { q: string; a: string }[];
   barberSteps: string[];
@@ -129,6 +132,7 @@ function toItem(entry: Entry): Item {
     atShop: d.atShop,
     alsoCalled: d.alsoCalled,
     mainPhoto: d.mainPhoto,
+    popular: d.popular,
     callouts: d.callouts,
     faq: 'faq' in d ? d.faq : [],
     barberSteps: 'barberSteps' in d ? d.barberSteps : [],
@@ -166,6 +170,7 @@ function toItem(entry: Entry): Item {
       return {
         ...base,
         match: { skin: c.skin, grey: c.grey },
+        colourType: c.shade ? ('shades' as const) : ('full' as const),
         swatch: swatches[entry.id],
         swatchLabel: c.swatchLabel,
         raw: { coversGrey: c.coversGrey, bleach: c.bleach, timeAtShop: c.timeAtShop, swatchLabel: c.swatchLabel },
@@ -179,11 +184,12 @@ function toItem(entry: Entry): Item {
         ...(l.beard ? [{ slot: 'beard' as const, id: l.beard.id }] : []),
         ...(l.moustache ? [{ slot: 'moustache' as const, id: l.moustache.id }] : []),
         ...(action ? [{ slot: 'moustache' as const, action }] : []),
-        ...(l.colour ? [{ slot: 'colour' as const, id: l.colour.id }] : []),
+        ...(l.colour ? [{ slot: 'colour' as const, id: l.colour.id, ...(l.colourBeard && { colourBeard: true }) }] : []),
       ];
       return {
         ...base,
         upkeep: l.upkeep,
+        colourType: l.colourType,
         match: { face: l.face, hairType: l.hairType, thinHairOk: l.thinHairOk, growth: l.growth },
         parts,
         raw: {},
@@ -236,7 +242,8 @@ export function localize(item: Item, i: I18n): Item {
     }
     case 'colours': {
       const level = item.raw.swatchLabel!.match(/^Level ([\d.–-]+)/)?.[1];
-      cardMeta = level ? t('facts.level', { level }) : t('facts.plantColour');
+      const fashion = item.raw.swatchLabel!.startsWith('Fashion');
+      cardMeta = level ? t('facts.level', { level }) : fashion ? t('facts.fashionColour') : t('facts.plantColour');
       cardAside = f('timeAtShop', item.raw.timeAtShop!);
       glance = [
         { label: t('detail.coversGrey'), value: f('coversGrey', item.raw.coversGrey!) },

@@ -23,7 +23,7 @@ const { href, title, count, feature = false, photo, block, class: className, ...
 ---
 
 <a href={href} class:list={['group flex flex-col', feature && 'col-span-2 md:row-span-2', className]} {...rest}>
-  <div class:list={['relative overflow-hidden', feature ? 'aspect-[16/10] md:aspect-auto md:flex-1 md:min-h-80' : 'aspect-square']}>
+  <div class:list={['relative overflow-hidden', feature ? 'aspect-[16/10] md:aspect-auto md:flex-1 md:min-h-80' : 'aspect-[5/4]']}>
     <ItemPhoto
       item={photo ?? { id: title, name: title, mainPhoto: 'front' }}
       decorative

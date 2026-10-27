@@ -1,0 +1,13 @@
+---
+import AddonDetail from '@/components/AddonDetail.astro';
+import { addonsFor } from '@/data/addons';
+import { langParams } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().flatMap(({ lang }) => addonsFor('women').map((addon) => ({ params: { lang, slug: addon.slug }, props: { addon } })));
+}
+
+const { addon } = Astro.props;
+---
+
+<AddonDetail addon={addon} who="women" />

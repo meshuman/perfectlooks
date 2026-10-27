@@ -1,0 +1,165 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import en from '@/i18n/en.json';
+import Chips from '@/components/Chips.astro';
+import Icon from '@/components/Icon.astro';
+import ItemPhoto from '@/components/ItemPhoto.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { WOMEN_GOALS, serviceGoal, timeBand, womenCategories, womenServiceId } from '@/data/women';
+import { breadcrumbs } from '@/data/seo';
+import { langParams, useI18n, type UiKey } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().flatMap(({ lang }) => womenCategories.map((category) => ({ params: { lang, category: category.key }, props: { category } })));
+}
+
+const { category } = Astro.props;
+const { t, l } = useI18n(Astro.url);
+const text = (key: string, field: string) => t(`${key}.${field}` as UiKey);
+const chipClass =
+  'inline-flex h-11 items-center gap-2 bg-card px-3.5 text-[0.8125rem] font-semibold whitespace-nowrap text-text shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft aria-pressed:bg-ink aria-pressed:text-white aria-pressed:shadow-none';
+const toolClass =
+  'inline-flex h-11 items-center gap-2 bg-card px-4 text-[0.8125rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft aria-expanded:bg-ink aria-expanded:text-white aria-expanded:shadow-none';
+const label = text(`wcat.${category.key}`, 'label');
+---
+
+<BaseLayout title={`${label} · ${t('women.heading')}`} description={text(`wcat.${category.key}`, 'intro')} back={{ href: l('/women'), label: t('women.back') }}>
+  <JsonLd
+    slot="head"
+    data={breadcrumbs(
+      [
+        { name: t('site.home'), path: l('/') },
+        { name: t('women.heading'), path: l('/women') },
+        { name: label, path: l(`/women/${category.key}`) },
+      ],
+      Astro.site!,
+    )}
+  />
+  <main class="wrap pt-5 pb-16">
+    <Chips
+      label={t('list.categories')}
+      items={womenCategories.map((c) => ({ label: text(`wcat.${c.key}`, 'label'), href: l(`/women/${c.key}`), active: c.key === category.key }))}
+    />
+
+    <p class="mt-6 tag">{t('women.kicker')}</p>
+    <h1 class="mt-3 text-[2.25rem] leading-tight">
+      {label}{' '}
+      <span class="font-normal whitespace-nowrap text-muted" data-count data-total={category.items.length} data-unit={t('women.unit')}>· {category.items.length} {t('women.unit')}</span>
+    </h1>
+    <p class="mt-3 text-[1.0625rem] leading-relaxed text-muted">{text(`wcat.${category.key}`, 'intro')}</p>
+
+    <div class="mt-5 flex items-center gap-2" data-list-tools>
+      <button type="button" data-tool="search" aria-expanded="false" aria-controls="list-search" class={toolClass}>
+        <Icon name="search" size={18} />
+        <span>{t('list.search')}</span>
+      </button>
+      <button type="button" data-tool="filters" aria-expanded="false" aria-controls="list-filters" class={toolClass}>
+        <Icon name="sliders" size={18} />
+        <span>{t('list.filters')}</span>
+        <span data-filter-badge hidden class="grid size-5 place-items-center rounded-full bg-brand text-[0.6875rem] font-bold text-white"></span>
+      </button>
+      <button type="button" data-filters-clear data-toolbar-reset hidden class="inline-flex h-11 items-center gap-1.5 px-2 text-[0.8125rem] font-semibold text-muted underline underline-offset-4">
+        <Icon name="x" size={14} strokeWidth={2} />
+        {t('list.reset')}
+      </button>
+    </div>
+
+    <div id="list-search" hidden class="relative mt-3">
+      <label for="list-search-input" class="sr-only">{t('list.searchLabel')}</label>
+      <div class="flex items-center bg-card shadow-[inset_0_0_0_1px_var(--color-line)] focus-within:shadow-[inset_0_0_0_2px_var(--color-ink)]">
+        <Icon name="search" size={18} class="ml-4 shrink-0 text-muted" />
+        <input
+          id="list-search-input"
+          data-search-input
+          type="search"
+          role="combobox"
+          aria-expanded="false"
+          aria-controls="list-suggest"
+          aria-autocomplete="list"
+          autocomplete="off"
+          autocapitalize="off"
+          spellcheck="false"
+          enterkeyhint="search"
+          placeholder={t('list.searchPlaceholder')}
+          class="h-12 min-w-0 flex-1 appearance-none bg-transparent px-3 text-base outline-none"
+        />
+        <button type="button" data-search-clear hidden aria-label={t('list.searchClear')} class="grid size-12 shrink-0 place-items-center">
+          <Icon name="x" size={18} />
+        </button>
+      </div>
+      <ul
+        id="list-suggest"
+        data-suggest
+        role="listbox"
+        hidden
+        aria-label={t('list.suggestions')}
+        class="absolute inset-x-0 top-full z-20 mt-1 bg-card shadow-[0_12px_32px_rgb(17_17_17/0.14),inset_0_0_0_1px_var(--color-line)]"
+      >
+      </ul>
+    </div>
+
+    <div id="list-filters" hidden class="core mt-3 space-y-5 p-4">
+      <div>
+        <p class="eyebrow" id="time-filter-label">{t('wfilter.time')}</p>
+        <div role="group" aria-labelledby="time-filter-label" class="mt-2 flex flex-wrap gap-2">
+          <button type="button" data-filter-time="" aria-pressed="true" class={chipClass}>{t('list.anyFilter')}</button>
+          {(['quick', 'standard', 'long'] as const).map((band) => (
+            <button type="button" data-filter-time={band} aria-pressed="false" class={chipClass}>{t(`wfilter.${band}` as UiKey)}</button>
+          ))}
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow" id="goal-filter-label">{t('wfilter.goal')}</p>
+        <div role="group" aria-labelledby="goal-filter-label" class="mt-2 flex flex-wrap gap-2">
+          <button type="button" data-filter-goal="" aria-pressed="true" class={chipClass}>{t('list.anyFilter')}</button>
+          {WOMEN_GOALS.map((goal) => (
+            <button type="button" data-filter-goal={goal} aria-pressed="false" class={chipClass}>{t(`wfilter.${goal}` as UiKey)}</button>
+          ))}
+        </div>
+      </div>
+      <button type="button" data-filters-clear class="min-h-11 text-[0.8125rem] font-semibold underline underline-offset-4">{t('list.clearFilters')}</button>
+    </div>
+
+    <ul class="mt-8 grid grid-cols-2 gap-x-3 gap-y-8 md:grid-cols-3 lg:grid-cols-4" data-item-list={category.key}>
+      {
+        category.items.map((slug, n) => (
+          <li
+            data-reveal
+            style={`--reveal-delay:${(n % 4) * 60}ms`}
+            data-name={text(`wsvc.${slug}`, 'name')}
+            data-href={l(`/women/${category.key}/${slug}`)}
+            data-meta={text(`wsvc.${slug}`, 'time')}
+            data-search={[text(`wsvc.${slug}`, 'name'), text(`wsvc.${slug}`, 'line'), text(`wsvc.${slug}`, 'what')].join(' ')}
+            data-time={timeBand((en as Record<string, string>)[`wsvc.${slug}.time`] ?? '')}
+            data-goal={serviceGoal(category.key, slug)}
+          >
+            <article class="group relative flex h-full flex-col">
+              <div class="relative aspect-square overflow-hidden">
+                <ItemPhoto
+                  item={{ id: womenServiceId(slug), name: text(`wsvc.${slug}`, 'name'), mainPhoto: 'front' }}
+                  block={category.block}
+                  class="size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
+                />
+              </div>
+              <div class="flex flex-1 flex-col pt-3">
+                <h3 class="text-[1rem] leading-snug font-semibold">
+                  <a href={l(`/women/${category.key}/${slug}`)} class="after:absolute after:inset-0">{text(`wsvc.${slug}`, 'name')}</a>
+                </h3>
+                <p class="mt-0.5 line-clamp-2 text-[0.8125rem] leading-snug text-muted">{text(`wsvc.${slug}`, 'line')}</p>
+                <div class="mt-auto flex items-center gap-1.5 pt-2.5 text-[0.75rem] text-muted">
+                  <Icon name="clock" size={13} />
+                  {text(`wsvc.${slug}`, 'time')}
+                </div>
+              </div>
+            </article>
+          </li>
+        ))
+      }
+    </ul>
+    <div data-no-matches hidden class="core mt-8 flex flex-wrap items-center justify-between gap-3 p-4">
+      <p class="text-[0.9375rem] font-semibold">{t('list.noMatches')}</p>
+      <button type="button" data-filters-clear class="h-10 bg-ink px-4 text-sm font-semibold text-white">{t('list.clearFilters')}</button>
+    </div>
+    <p class="mt-8 text-sm text-muted">{t('addons.care')}</p>
+  </main>
+</BaseLayout>

@@ -19,9 +19,9 @@ Long hair separates and lies flat, so the scalp shows between strands. Short hai
 
 ## Which cuts work best?
 
-- **[French Crop](/styles/french-crop) and [Crop Fade](/styles/crop-fade):** the fringe covers the front
-- **[Caesar Cut](/styles/caesar-cut):** a short, straight fringe
-- **[Buzz Cut](/styles/buzz-cut) or [Head Shave](/styles/head-shave):** no contrast between thin and thick areas
+- **[French Crop](/men/hair/french-crop) and [Crop Fade](/men/hair/crop-fade):** the fringe covers the front
+- **[Caesar Cut](/men/hair/caesar-cut):** a short, straight fringe
+- **[Buzz Cut](/men/hair/buzz-cut) or [Head Shave](/men/hair/head-shave):** no contrast between thin and thick areas
 
 ## Which product should I use?
 

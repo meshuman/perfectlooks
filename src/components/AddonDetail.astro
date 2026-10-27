@@ -1,0 +1,141 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from './Icon.astro';
+import JsonLd from './JsonLd.astro';
+import { addonId, type Addon, type Who } from '@/data/addons';
+import ItemPhoto from './ItemPhoto.astro';
+import { whatsappNumber } from '@/data/feedback';
+import { defaultShop as shop } from '@/data/shop';
+import { breadcrumbs } from '@/data/seo';
+import { langParams, useI18n, type UiKey } from '@/i18n';
+
+interface Props {
+  addon: Addon;
+  who: Who;
+}
+
+const { addon, who } = Astro.props;
+const { t, l } = useI18n(Astro.url);
+const k = (field: string) => `addon.${addon.slug}.${field}` as UiKey;
+const name = t(k('name'));
+const groupLabel = { skin: t('addons.groupSkin'), hair: t('addons.groupHair'), grooming: t('addons.groupGrooming') }[addon.group];
+
+const message = encodeURIComponent(t('addons.askMessage', { name }));
+const whyKeys = ['why1', 'why2', 'why3'];
+---
+
+<BaseLayout
+  title={`${name} · ${t('addons.heading')}`}
+  description={`${t(k('line'))} ${t(k('what'))}`}
+  back={{ href: l(`/${who}/add-ons`), label: t('addons.back') }}
+>
+  <JsonLd
+    slot="head"
+    data={breadcrumbs(
+      [
+        { name: t('site.home'), path: l('/') },
+        { name: t('addons.heading'), path: l(`/${who}/add-ons`) },
+        { name, path: l(`/${who}/add-ons/${addon.slug}`) },
+      ],
+      Astro.site!,
+    )}
+  />
+  <main class="wrap pt-4 pb-24 md:grid md:grid-cols-2 md:gap-10 md:pt-8 lg:gap-14">
+    <div class="md:sticky md:top-20 md:self-start">
+      <div class="relative aspect-square overflow-hidden">
+        <ItemPhoto item={{ id: addonId(addon.slug), name, mainPhoto: 'front' }} size="hero" class="size-full" />
+      </div>
+    </div>
+    <div class="mt-6 md:mt-0">
+      <div class="flex items-center gap-4">
+        <span class="grid size-16 shrink-0 place-items-center rounded-full bg-ink text-white">
+          <Icon name={addon.icon} size={28} strokeWidth={1.5} />
+        </span>
+        <div>
+          <p class="tag">{groupLabel}</p>
+          <h1 class="mt-1 text-[2rem] leading-tight">{name}</h1>
+        </div>
+      </div>
+      <p class="mt-5 text-[1.1875rem] leading-snug font-medium">{t(k('line'))}</p>
+
+      <dl class="mt-6 grid grid-cols-2 gap-px bg-line">
+        <div class="bg-paper p-4">
+          <dt class="flex items-center gap-1.5 text-xs text-muted"><Icon name="clock" size={14} />{t('addons.timeLabel')}</dt>
+          <dd class="mt-1 text-[1.0625rem] font-semibold">{t(k('time'))}</dd>
+        </div>
+        <div class="bg-paper p-4">
+          <dt class="flex items-center gap-1.5 text-xs text-muted"><Icon name="calendar" size={14} />{t('addons.oftenLabel')}</dt>
+          <dd class="mt-1 text-[1.0625rem] font-semibold">{t(k('often'))}</dd>
+        </div>
+      </dl>
+
+      <section class="mt-10">
+        <h2 class="eyebrow">{t('addons.whatLabel')}</h2>
+        <p class="mt-2 text-[1.0625rem] leading-relaxed">{t(k('what'))}</p>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="eyebrow">{t('addons.whyLabel')}</h2>
+        <ol class="mt-3 space-y-4">
+          {
+            whyKeys.map((key, n) => (
+              <li class="flex gap-4">
+                <span class="grid size-8 shrink-0 place-items-center rounded-full bg-brand text-sm font-bold text-white">{n + 1}</span>
+                <p class="pt-0.5 text-[1.0625rem] leading-snug">{t(k(key))}</p>
+              </li>
+            ))
+          }
+        </ol>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="eyebrow">{t('addons.impactLabel')}</h2>
+        <div class="mt-3 grid gap-3 sm:grid-cols-2">
+          <div class="bg-paper-2 p-5">
+            <p class="text-xs font-semibold tracking-[0.14em] text-muted uppercase">{t('addons.impactNow')}</p>
+            <p class="mt-2 text-[1.0625rem] leading-snug">{t(k('now'))}</p>
+          </div>
+          <div class="bg-paper-2 p-5">
+            <p class="text-xs font-semibold tracking-[0.14em] text-muted uppercase">{t('addons.impactLater')}</p>
+            <p class="mt-2 text-[1.0625rem] leading-snug">{t(k('later'))}</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-10 grid gap-8 sm:grid-cols-2">
+        <div>
+          <h2 class="eyebrow">{t('addons.goodLabel')}</h2>
+          <p class="mt-2 text-[1rem] leading-snug">{t(k('good'))}</p>
+        </div>
+        <div>
+          <h2 class="eyebrow">{t('addons.askLabel')}</h2>
+          <p class="mt-2 text-[1rem] leading-snug">{t(k('ask'))}</p>
+        </div>
+      </section>
+
+      <section class="mt-12 bg-ink p-6 text-white">
+        <h2 class="text-[1.375rem] leading-snug">{t('addons.ask')}</h2>
+        <p class="mt-2 text-[0.9375rem] text-muted-dark">{t('addons.askText')}</p>
+        <a
+          href={`https://wa.me/${whatsappNumber}?text=${message}`}
+          target="_blank"
+          rel="noopener"
+          class="mt-5 inline-flex h-12 items-center gap-2 bg-brand px-5 text-[0.9375rem] font-semibold text-white"
+        >
+          <Icon name="message" size={18} />
+          {t('addons.ask')}
+        </a>
+        <a href={`tel:${shop.phone}`} class="mt-2 flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-white underline underline-offset-4">
+          <Icon name="phone" size={16} />
+          {shop.phoneDisplay}
+        </a>
+      </section>
+
+      <p class="mt-6 text-sm text-muted">{t('addons.care')}</p>
+      <a href={l(`/${who}/add-ons`)} class="mt-4 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-semibold">
+        <Icon name="arrowLeft" size={16} />
+        {t('addons.all')}
+      </a>
+    </div>
+  </main>
+</BaseLayout>

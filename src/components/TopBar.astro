@@ -2,6 +2,7 @@
 import Icon from './Icon.astro';
 import Logo from './Logo.astro';
 import LangSwitch from './LangSwitch.astro';
+import { useI18n } from '@/i18n';
 
 interface Props {
   tone?: 'dark' | 'light';
@@ -12,23 +13,43 @@ interface Props {
 }
 
 const { tone = 'light', back, localized = true } = Astro.props;
+const { t, l } = useI18n(Astro.url);
+// Men and Women sit in the bar on every page; the one you are inside is marked.
+const path = Astro.url.pathname.replace(/^\/(ne|hi)(?=\/|$)/, '');
+const sections = [
+  { key: 'men', href: l('/men'), label: t('who.men'), on: path === '/men' || path.startsWith('/men/') },
+  { key: 'women', href: l('/women'), label: t('who.women'), on: path === '/women' || path.startsWith('/women/') },
+];
 ---
 
 {/* Logo centred, as in the reference header. */}
 <header class:list={['sticky top-0 z-30', tone === 'dark' ? 'glass-dark text-white' : 'glass-light text-ink']}>
-  <div class="wrap grid h-16 grid-cols-[1fr_auto_1fr] items-center gap-3">
+  <div class="wrap flex h-16 items-center gap-3 sm:grid sm:grid-cols-[1fr_auto_1fr]">
     <div>
       {
         back && (
           <a href={back.href} class="-ml-1 inline-flex h-11 items-center gap-2 pr-2 text-sm font-medium tracking-wide">
             <Icon name="arrowLeft" size={18} strokeWidth={1.25} />
-            <span class:list={['whitespace-nowrap', back.label.length > 9 ? 'max-md:sr-only' : 'max-[22rem]:sr-only']}>{back.label}</span>
+            <span class:list={['whitespace-nowrap', 'max-sm:sr-only']}>{back.label}</span>
           </a>
         )
       }
     </div>
     <Logo tone={tone} />
-    <div class="flex justify-end">
+    <div class="ml-auto flex items-center justify-end sm:ml-0">
+      <nav aria-label={t('who.title')} class="mr-0.5 flex gap-2.5 sm:mr-3 sm:gap-5">
+        {
+          sections.map((o) => (
+            <a
+              href={o.href}
+              aria-current={o.on ? 'page' : undefined}
+              class="inline-flex h-11 items-center border-b-2 border-transparent text-sm font-semibold tracking-wide opacity-70 transition duration-300 ease-out-soft hover:opacity-100 aria-[current=page]:border-brand aria-[current=page]:opacity-100"
+            >
+              {o.label}
+            </a>
+          ))
+        }
+      </nav>
       <LangSwitch tone={tone} localized={localized} />
     </div>
   </div>
