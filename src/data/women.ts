@@ -23,7 +23,9 @@ export const womenCategories: WomenCategory[] = [
       'fringe-bangs',
       'blow-dry',
       'feather-cut',
-      'pixie-cut'
+      'pixie-cut',
+      'shag-cut',
+      'blunt-cut'
     ]
   },
   {
@@ -37,7 +39,9 @@ export const womenCategories: WomenCategory[] = [
       'root-touch-up',
       'fashion-colour',
       'ombre',
-      'hair-gloss'
+      'hair-gloss',
+      'colour-melt',
+      'grey-blending'
     ]
   },
   {
@@ -51,7 +55,9 @@ export const womenCategories: WomenCategory[] = [
       'rebonding',
       'scalp-treatment',
       'protein-treatment',
-      'bond-repair'
+      'bond-repair',
+      'hair-botox',
+      'hot-oil-treatment'
     ]
   },
   {
@@ -65,7 +71,9 @@ export const womenCategories: WomenCategory[] = [
       'full-face-threading',
       'brow-tint',
       'brow-lamination',
-      'chin-cheek-threading'
+      'chin-cheek-threading',
+      'eyelash-lift',
+      'brow-henna'
     ]
   },
   {
@@ -79,7 +87,9 @@ export const womenCategories: WomenCategory[] = [
       'gold-facial',
       'korean-glow',
       'hydra-facial',
-      'anti-acne-facial'
+      'anti-acne-facial',
+      'vitamin-c-facial',
+      'oxygen-facial'
     ]
   },
   {
@@ -93,7 +103,9 @@ export const womenCategories: WomenCategory[] = [
       'full-legs',
       'face-wax',
       'bikini-line',
-      'rica-wax'
+      'rica-wax',
+      'half-arms',
+      'chocolate-wax'
     ]
   },
   {
@@ -107,7 +119,9 @@ export const womenCategories: WomenCategory[] = [
       'deluxe-pedicure',
       'gel-nail-art',
       'acrylic-extensions',
-      'french-tips'
+      'french-tips',
+      'gel-polish',
+      'paraffin-treatment'
     ]
   },
   {
@@ -121,7 +135,9 @@ export const womenCategories: WomenCategory[] = [
       'full-body-massage',
       'body-polishing',
       'shoulder-neck-massage',
-      'aromatherapy-massage'
+      'aromatherapy-massage',
+      'hand-massage',
+      'deep-tissue-massage'
     ]
   },
   {
@@ -135,7 +151,9 @@ export const womenCategories: WomenCategory[] = [
       'saree-draping',
       'party-hairstyle',
       'hd-makeup',
-      'eye-makeup'
+      'eye-makeup',
+      'reception-makeup',
+      'natural-makeup'
     ]
   }
 ];
@@ -172,6 +190,11 @@ const goalOverrides: Record<string, WomenGoal> = {
   'gel-nail-art': 'event',
   'party-hairstyle': 'event',
   'saree-draping': 'event',
+  'vitamin-c-facial': 'event',
+  'oxygen-facial': 'event',
+  'paraffin-treatment': 'relax',
+  'hot-oil-treatment': 'repair',
+  'natural-makeup': 'everyday',
 };
 /** What the visitor is usually after: used by the "Best for" filter. */
 export const serviceGoal = (categoryKey: string, slug: string): WomenGoal => goalOverrides[slug] ?? goalByCategory[categoryKey] ?? 'everyday';
@@ -195,6 +218,13 @@ const facesBySlug: Record<string, FaceShape[]> = {
   'blow-dry': ALL,
   'feather-cut': ['Round', 'Oval', 'Square'],
   'pixie-cut': ['Oval', 'Heart', 'Long'],
+  'shag-cut': ['Oval', 'Round', 'Square'],
+  'blunt-cut': ['Oval', 'Heart', 'Long'],
+  'colour-melt': ALL,
+  'grey-blending': ALL,
+  'brow-henna': ALL,
+  'reception-makeup': ALL,
+  'natural-makeup': ALL,
   highlights: ALL,
   balayage: ALL,
   ombre: ['Round', 'Oval', 'Square', 'Heart'],
