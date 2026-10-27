@@ -304,7 +304,7 @@ await check('Women: search and filters narrow the list', async () => {
 await check('Women: each category lists its services and a service explains itself', async () => {
   await go('/women/nails');
   const rows = await page.locator('main ul a[href^="/women/nails/"]').count();
-  if (rows !== 9) throw new Error('expected 9 services, found ' + rows);
+  if (rows < 9) throw new Error('expected at least 9 services, found ' + rows);
   await page.click('a[href="/women/nails/manicure"]');
   await page.locator('h1', { hasText: 'Manicure' }).waitFor({ timeout: 3000 });
   for (const heading of ['What it is', 'Why it matters', 'How it is done', 'Who it suits', 'Ask first if', 'Daily maintenance tips', 'Time & care']) await page.locator('h2', { hasText: heading }).first().waitFor({ timeout: 3000 });

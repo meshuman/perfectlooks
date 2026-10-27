@@ -5,7 +5,7 @@ import Chips from '@/components/Chips.astro';
 import Icon from '@/components/Icon.astro';
 import ItemPhoto from '@/components/ItemPhoto.astro';
 import JsonLd from '@/components/JsonLd.astro';
-import { WOMEN_GOALS, serviceGoal, timeBand, womenCategories, womenServiceId } from '@/data/women';
+import { MIN_FOR_FILTER, WOMEN_GOALS, filterCounts, serviceGoal, timeBand, womenCategories, womenServiceId } from '@/data/women';
 import { breadcrumbs } from '@/data/seo';
 import { langParams, useI18n, type UiKey } from '@/i18n';
 
@@ -20,6 +20,10 @@ const chipClass =
   'inline-flex h-11 items-center gap-2 bg-card px-3.5 text-[0.8125rem] font-semibold whitespace-nowrap text-text shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft aria-pressed:bg-ink aria-pressed:text-white aria-pressed:shadow-none';
 const toolClass =
   'inline-flex h-11 items-center gap-2 bg-card px-4 text-[0.8125rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft aria-expanded:bg-ink aria-expanded:text-white aria-expanded:shadow-none';
+const bandOf = (slug: string) => timeBand((en as Record<string, string>)[`wsvc.${slug}.time`] ?? '');
+const counts = filterCounts(category.key, category.items, bandOf);
+const timeBands = (['quick', 'standard', 'long'] as const).filter((b) => (counts.time[b] ?? 0) >= MIN_FOR_FILTER);
+const goals = WOMEN_GOALS.filter((g) => (counts.goal[g] ?? 0) >= MIN_FOR_FILTER);
 const label = text(`wcat.${category.key}`, 'label');
 ---
 
@@ -99,24 +103,32 @@ const label = text(`wcat.${category.key}`, 'label');
     </div>
 
     <div id="list-filters" hidden class="core mt-3 space-y-5 p-4">
-      <div>
-        <p class="eyebrow" id="time-filter-label">{t('wfilter.time')}</p>
-        <div role="group" aria-labelledby="time-filter-label" class="mt-2 flex flex-wrap gap-2">
-          <button type="button" data-filter-time="" aria-pressed="true" class={chipClass}>{t('list.anyFilter')}</button>
-          {(['quick', 'standard', 'long'] as const).map((band) => (
-            <button type="button" data-filter-time={band} aria-pressed="false" class={chipClass}>{t(`wfilter.${band}` as UiKey)}</button>
-          ))}
+      {
+        timeBands.length > 1 && (
+        <div>
+          <p class="eyebrow" id="time-filter-label">{t('wfilter.time')}</p>
+          <div role="group" aria-labelledby="time-filter-label" class="mt-2 flex flex-wrap gap-2">
+            <button type="button" data-filter-time="" aria-pressed="true" class={chipClass}>{t('list.anyFilter')}</button>
+            {timeBands.map((band) => (
+              <button type="button" data-filter-time={band} aria-pressed="false" class={chipClass}>{t(`wfilter.${band}` as UiKey)}</button>
+            ))}
+          </div>
         </div>
-      </div>
-      <div>
-        <p class="eyebrow" id="goal-filter-label">{t('wfilter.goal')}</p>
-        <div role="group" aria-labelledby="goal-filter-label" class="mt-2 flex flex-wrap gap-2">
-          <button type="button" data-filter-goal="" aria-pressed="true" class={chipClass}>{t('list.anyFilter')}</button>
-          {WOMEN_GOALS.map((goal) => (
-            <button type="button" data-filter-goal={goal} aria-pressed="false" class={chipClass}>{t(`wfilter.${goal}` as UiKey)}</button>
-          ))}
+        )
+      }
+      {
+        goals.length > 1 && (
+        <div>
+          <p class="eyebrow" id="goal-filter-label">{t('wfilter.goal')}</p>
+          <div role="group" aria-labelledby="goal-filter-label" class="mt-2 flex flex-wrap gap-2">
+            <button type="button" data-filter-goal="" aria-pressed="true" class={chipClass}>{t('list.anyFilter')}</button>
+            {goals.map((goal) => (
+              <button type="button" data-filter-goal={goal} aria-pressed="false" class={chipClass}>{t(`wfilter.${goal}` as UiKey)}</button>
+            ))}
+          </div>
         </div>
-      </div>
+        )
+      }
       <button type="button" data-filters-clear class="min-h-11 text-[0.8125rem] font-semibold underline underline-offset-4">{t('list.clearFilters')}</button>
     </div>
 

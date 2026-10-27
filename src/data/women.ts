@@ -25,7 +25,11 @@ export const womenCategories: WomenCategory[] = [
       'feather-cut',
       'pixie-cut',
       'shag-cut',
-      'blunt-cut'
+      'blunt-cut',
+      'tong-curls',
+      'braid-styling',
+      'bun-styling',
+      'wash-and-style'
     ]
   },
   {
@@ -41,7 +45,10 @@ export const womenCategories: WomenCategory[] = [
       'ombre',
       'hair-gloss',
       'colour-melt',
-      'grey-blending'
+      'grey-blending',
+      'henna-hair-colour',
+      'semi-permanent-colour',
+      'toner-refresh'
     ]
   },
   {
@@ -57,7 +64,8 @@ export const womenCategories: WomenCategory[] = [
       'protein-treatment',
       'bond-repair',
       'hair-botox',
-      'hot-oil-treatment'
+      'hot-oil-treatment',
+      'brazilian-blowout'
     ]
   },
   {
@@ -73,7 +81,9 @@ export const womenCategories: WomenCategory[] = [
       'brow-lamination',
       'chin-cheek-threading',
       'eyelash-lift',
-      'brow-henna'
+      'brow-henna',
+      'brow-shaping',
+      'brow-makeover'
     ]
   },
   {
@@ -89,7 +99,13 @@ export const womenCategories: WomenCategory[] = [
       'hydra-facial',
       'anti-acne-facial',
       'vitamin-c-facial',
-      'oxygen-facial'
+      'oxygen-facial',
+      'express-cleanup',
+      'deep-cleanup',
+      'oil-control-facial',
+      'pigmentation-facial',
+      'sensitive-skin-facial',
+      'under-eye-treatment'
     ]
   },
   {
@@ -105,7 +121,11 @@ export const womenCategories: WomenCategory[] = [
       'bikini-line',
       'rica-wax',
       'half-arms',
-      'chocolate-wax'
+      'chocolate-wax',
+      'arms-legs-combo',
+      'full-back-wax',
+      'brazilian-wax',
+      'hands-underarms-combo'
     ]
   },
   {
@@ -121,7 +141,11 @@ export const womenCategories: WomenCategory[] = [
       'acrylic-extensions',
       'french-tips',
       'gel-polish',
-      'paraffin-treatment'
+      'paraffin-treatment',
+      'glitter-nails',
+      'chrome-nails',
+      'ombre-nails',
+      'bridal-nail-art'
     ]
   },
   {
@@ -137,7 +161,8 @@ export const womenCategories: WomenCategory[] = [
       'shoulder-neck-massage',
       'aromatherapy-massage',
       'hand-massage',
-      'deep-tissue-massage'
+      'deep-tissue-massage',
+      'hot-stone-massage'
     ]
   },
   {
@@ -153,7 +178,11 @@ export const womenCategories: WomenCategory[] = [
       'hd-makeup',
       'eye-makeup',
       'reception-makeup',
-      'natural-makeup'
+      'natural-makeup',
+      'office-makeup',
+      'college-makeup',
+      'makeup-touch-up',
+      'lip-colour-styling'
     ]
   }
 ];
@@ -195,6 +224,22 @@ const goalOverrides: Record<string, WomenGoal> = {
   'paraffin-treatment': 'relax',
   'hot-oil-treatment': 'repair',
   'natural-makeup': 'everyday',
+  'eye-makeup': 'everyday',
+  'office-makeup': 'everyday',
+  'college-makeup': 'everyday',
+  'lip-colour-styling': 'everyday',
+  'tong-curls': 'event',
+  'braid-styling': 'event',
+  'bun-styling': 'event',
+  'wash-and-style': 'event',
+  'anti-acne-facial': 'repair',
+  'pigmentation-facial': 'repair',
+  'sensitive-skin-facial': 'repair',
+  'under-eye-treatment': 'repair',
+  'glitter-nails': 'event',
+  'chrome-nails': 'event',
+  'ombre-nails': 'event',
+  'bridal-nail-art': 'event',
 };
 /** What the visitor is usually after: used by the "Best for" filter. */
 export const serviceGoal = (categoryKey: string, slug: string): WomenGoal => goalOverrides[slug] ?? goalByCategory[categoryKey] ?? 'everyday';
@@ -225,6 +270,14 @@ const facesBySlug: Record<string, FaceShape[]> = {
   'brow-henna': ALL,
   'reception-makeup': ALL,
   'natural-makeup': ALL,
+  'office-makeup': ALL,
+  'college-makeup': ALL,
+  'brow-shaping': ALL,
+  'brow-makeover': ALL,
+  'tong-curls': ALL,
+  'braid-styling': ALL,
+  'bun-styling': ALL,
+  'wash-and-style': ALL,
   highlights: ALL,
   balayage: ALL,
   ombre: ['Round', 'Oval', 'Square', 'Heart'],
@@ -240,3 +293,17 @@ const facesBySlug: Record<string, FaceShape[]> = {
   'party-hairstyle': ALL,
 };
 export const serviceFaces = (slug: string): FaceShape[] | undefined => facesBySlug[slug];
+
+/** Filter values (time band and goal) with at least this many services in a category get a chip. */
+export const MIN_FOR_FILTER = 5;
+export const filterCounts = (categoryKey: string, items: string[], bandOf: (slug: string) => TimeBand) => {
+  const time: Record<string, number> = {};
+  const goal: Record<string, number> = {};
+  for (const slug of items) {
+    const b = bandOf(slug);
+    const g = serviceGoal(categoryKey, slug);
+    time[b] = (time[b] ?? 0) + 1;
+    goal[g] = (goal[g] ?? 0) + 1;
+  }
+  return { time, goal };
+};
