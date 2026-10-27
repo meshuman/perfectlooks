@@ -29,7 +29,10 @@ export const womenCategories: WomenCategory[] = [
       'tong-curls',
       'braid-styling',
       'bun-styling',
-      'wash-and-style'
+      'wash-and-style',
+      'v-cut',
+      'u-cut',
+      'butterfly-cut'
     ]
   },
   {
@@ -48,7 +51,10 @@ export const womenCategories: WomenCategory[] = [
       'grey-blending',
       'henna-hair-colour',
       'semi-permanent-colour',
-      'toner-refresh'
+      'toner-refresh',
+      'money-piece',
+      'babylights',
+      'lowlights'
     ]
   },
   {
@@ -65,7 +71,10 @@ export const womenCategories: WomenCategory[] = [
       'bond-repair',
       'hair-botox',
       'hot-oil-treatment',
-      'brazilian-blowout'
+      'brazilian-blowout',
+      'deep-conditioning-mask',
+      'scalp-detox',
+      'anti-hairfall-treatment'
     ]
   },
   {
@@ -83,7 +92,10 @@ export const womenCategories: WomenCategory[] = [
       'eyelash-lift',
       'brow-henna',
       'brow-shaping',
-      'brow-makeover'
+      'brow-makeover',
+      'brow-waxing',
+      'lash-tint',
+      'brow-trim'
     ]
   },
   {
@@ -105,7 +117,10 @@ export const womenCategories: WomenCategory[] = [
       'oil-control-facial',
       'pigmentation-facial',
       'sensitive-skin-facial',
-      'under-eye-treatment'
+      'under-eye-treatment',
+      'collagen-facial',
+      'anti-ageing-facial',
+      'aroma-facial'
     ]
   },
   {
@@ -125,7 +140,10 @@ export const womenCategories: WomenCategory[] = [
       'arms-legs-combo',
       'full-back-wax',
       'brazilian-wax',
-      'hands-underarms-combo'
+      'hands-underarms-combo',
+      'stomach-wax',
+      'sugar-wax-legs',
+      'full-body-wax'
     ]
   },
   {
@@ -145,7 +163,10 @@ export const womenCategories: WomenCategory[] = [
       'glitter-nails',
       'chrome-nails',
       'ombre-nails',
-      'bridal-nail-art'
+      'bridal-nail-art',
+      'gel-extensions',
+      'cat-eye-nails',
+      'french-pedicure'
     ]
   },
   {
@@ -162,7 +183,10 @@ export const womenCategories: WomenCategory[] = [
       'aromatherapy-massage',
       'hand-massage',
       'deep-tissue-massage',
-      'hot-stone-massage'
+      'hot-stone-massage',
+      'swedish-massage',
+      'thai-massage',
+      'lymphatic-massage'
     ]
   },
   {
@@ -182,7 +206,10 @@ export const womenCategories: WomenCategory[] = [
       'office-makeup',
       'college-makeup',
       'makeup-touch-up',
-      'lip-colour-styling'
+      'lip-colour-styling',
+      'airbrush-makeup',
+      'smokey-eye-makeup',
+      'soft-glam-makeup'
     ]
   }
 ];
@@ -304,6 +331,33 @@ const FROZEN_IDS: Record<string, string> = {
   'college-makeup': 'W108',
   'makeup-touch-up': 'W109',
   'lip-colour-styling': 'W110',
+  'v-cut': 'W111',
+  'u-cut': 'W112',
+  'butterfly-cut': 'W113',
+  'money-piece': 'W114',
+  'babylights': 'W115',
+  'lowlights': 'W116',
+  'deep-conditioning-mask': 'W117',
+  'scalp-detox': 'W118',
+  'anti-hairfall-treatment': 'W119',
+  'brow-waxing': 'W120',
+  'lash-tint': 'W121',
+  'brow-trim': 'W122',
+  'collagen-facial': 'W123',
+  'anti-ageing-facial': 'W124',
+  'aroma-facial': 'W125',
+  'stomach-wax': 'W126',
+  'sugar-wax-legs': 'W127',
+  'full-body-wax': 'W128',
+  'gel-extensions': 'W129',
+  'cat-eye-nails': 'W130',
+  'french-pedicure': 'W131',
+  'swedish-massage': 'W132',
+  'thai-massage': 'W133',
+  'lymphatic-massage': 'W134',
+  'airbrush-makeup': 'W135',
+  'smokey-eye-makeup': 'W136',
+  'soft-glam-makeup': 'W137',
 };
 export const womenServiceId = (slug: string) => {
   if (FROZEN_IDS[slug]) return FROZEN_IDS[slug];
@@ -345,6 +399,12 @@ const goalOverrides: Record<string, WomenGoal> = {
   'college-makeup': 'everyday',
   'lip-colour-styling': 'everyday',
   'tong-curls': 'event',
+  'cat-eye-nails': 'event',
+  'gel-extensions': 'everyday',
+  'french-pedicure': 'everyday',
+  'anti-ageing-facial': 'repair',
+  'collagen-facial': 'event',
+  'aroma-facial': 'relax',
   'braid-styling': 'event',
   'bun-styling': 'event',
   'wash-and-style': 'event',
@@ -391,6 +451,17 @@ const facesBySlug: Record<string, FaceShape[]> = {
   'brow-shaping': ALL,
   'brow-makeover': ALL,
   'tong-curls': ALL,
+  'v-cut': ['Round', 'Square', 'Oval'],
+  'u-cut': ['Oval', 'Long', 'Heart'],
+  'butterfly-cut': ALL,
+  'money-piece': ALL,
+  babylights: ALL,
+  lowlights: ALL,
+  'brow-waxing': ALL,
+  'brow-trim': ALL,
+  'airbrush-makeup': ALL,
+  'smokey-eye-makeup': ALL,
+  'soft-glam-makeup': ALL,
   'braid-styling': ALL,
   'bun-styling': ALL,
   'wash-and-style': ALL,
