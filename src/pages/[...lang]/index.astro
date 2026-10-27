@@ -100,8 +100,13 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
           </span>
         </a>
         <a href={l('/women')} class={shell} data-reveal style="--reveal-delay:160ms">
-          <span class="relative grid aspect-[4/3] place-items-center overflow-hidden bg-block-blush text-ink">
-            <Icon name="sparkle" size={96} strokeWidth={0.75} class="transition-transform duration-700 ease-out-soft group-hover:scale-110 group-hover:rotate-6" />
+          <span class="relative block aspect-[4/3] overflow-hidden">
+            <ItemPhoto
+              item={{ id: 'W10', name: 'Tong Curls', mainPhoto: 'front' }}
+              decorative
+              block="bg-block-blush"
+              class="absolute inset-0 size-full object-[center_20%] transition-transform duration-700 ease-out-soft group-hover:scale-[1.04]"
+            />
           </span>
           <span class="flex items-center justify-between gap-4 p-4 md:p-5">
             <span>
