@@ -11,6 +11,8 @@ const categories = [...source.matchAll(/key: '([a-z-]+)',\s*icon: '[a-z]+',\s*bl
   block: m[2],
   items: [...m[3].matchAll(/'([a-z-]+)'/g)].map((x) => x[1]),
 }));
+// Frozen photo IDs live in women.ts so a saved photo never moves to another service.
+const frozen = Object.fromEntries([...source.slice(source.indexOf('FROZEN_IDS')).matchAll(/'([a-z-]+)': '(W\d+)'/g)].map((m) => [m[1], m[2]]));
 const addonSlugs = [...readFileSync('src/data/addons.ts', 'utf8').matchAll(/slug: '([a-z-]+)'/g)].map((m) => m[1]);
 
 const HEX = { orange: ['Orange', '#EC9465'], blush: ['Blush', '#F7D9CE'], sky: ['Sky blue', '#A9C9E8'], sage: ['Sage', '#CADBD8'], sand: ['Sand', '#D8CDBF'], plum: ['Plum', '#B06A8F'] };
@@ -70,7 +72,8 @@ let n = 0;
 for (const cat of categories) {
   for (const slug of cat.items) {
     n += 1;
-    const id = `W${pad(n)}`;
+    if (!frozen[slug]) frozen[slug] = `W${pad(Object.keys(frozen).length + 1)}`;
+    const id = frozen[slug];
     const name = en[`wsvc.${slug}.name`];
     const line = en[`wsvc.${slug}.line`];
     const what = en[`wsvc.${slug}.what`];
