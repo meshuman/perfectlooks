@@ -5761,6 +5761,24 @@ LAYOUT: one square image. The FRONT view large on the left filling about 55% of 
 No callouts, lines, dots or text.
 ```
 
+### W162 Baby Bangs
+
+Save as `W162.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W162 Baby Bangs
+SERVICE: Very short, cropped bangs above the brows. A short fringe cut around the middle of the forehead, much shorter than curtain bangs or a standard fringe. It makes a bold, fashion-led statement.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: the finished haircut on Anisha, hair clean and styled so the cut and its layers or length are easy to see.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, so the cut can be judged from every angle.
+BACKDROP: Orange (#EC9465).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
 ### W14 Global Colour
 
 Save as `W14.jpg`
@@ -6021,6 +6039,78 @@ Save as `W116.jpg`
 Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
 ITEM: W116 Lowlights
 SERVICE: Darker strands that add depth to light or flat hair. Strands darker than your base are added to bring depth and dimension. It is the opposite of highlights: instead of lightening, it deepens.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: the finished hair colour on Anisha, hair clean and styled so the colour work (roots, lengths and ends) is easy to see.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, so the colour can be judged from every angle.
+BACKDROP: Blush (#F7D9CE).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W163 Root Smudge (Shadow Root)
+
+Save as `W163.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W163 Root Smudge (Shadow Root)
+SERVICE: A soft, blended dark root that grows out gracefully. The roots are tinted to a shade close to your natural colour and blended into lighter lengths, so there is no hard line between root and colour. It is a finishing step, different from a full balayage.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: the finished hair colour on Anisha, hair clean and styled so the colour work (roots, lengths and ends) is easy to see.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, so the colour can be judged from every angle.
+BACKDROP: Blush (#F7D9CE).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W164 Copper Hair Colour
+
+Save as `W164.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W164 Copper Hair Colour
+SERVICE: A warm, glowing copper from soft ginger to rich auburn. An all-over warm red-orange colour, from light copper to deep auburn, usually after lightening dark hair. It has more warmth than a mahogany or a henna shade.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: the finished hair colour on Anisha, hair clean and styled so the colour work (roots, lengths and ends) is easy to see.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, so the colour can be judged from every angle.
+BACKDROP: Blush (#F7D9CE).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W165 Blonde (Bleach & Tone)
+
+Save as `W165.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W165 Blonde (Bleach & Tone)
+SERVICE: A full, even blonde from root to tip. The whole head is lightened with bleach and then toned to the blonde you want, from warm honey to cool platinum. It is a major change, much more than highlights or balayage.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: the finished hair colour on Anisha, hair clean and styled so the colour work (roots, lengths and ends) is easy to see.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, so the colour can be judged from every angle.
+BACKDROP: Blush (#F7D9CE).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W166 Rich Brunette Colour
+
+Save as `W166.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W166 Rich Brunette Colour
+SERVICE: A glossy, deep brown with warmth and shine. An all-over brown colour, from chocolate to espresso or cool chestnut, applied with a gloss for a deep, shiny finish. It adds richness to dull or faded dark hair.
 CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
 SHOW: the finished hair colour on Anisha, hair clean and styled so the colour work (roots, lengths and ends) is easy to see.
 VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, so the colour can be judged from every angle.

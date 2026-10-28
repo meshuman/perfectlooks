@@ -5,7 +5,7 @@ import Chips from '@/components/Chips.astro';
 import Icon from '@/components/Icon.astro';
 import ItemPhoto from '@/components/ItemPhoto.astro';
 import JsonLd from '@/components/JsonLd.astro';
-import { MIN_FOR_FILTER, WOMEN_GOALS, filterCounts, serviceGoal, timeBand, womenCategories, womenServiceId } from '@/data/women';
+import { MIN_FOR_FILTER, WOMEN_GOALS, filterCounts, isPopular, serviceGoal, timeBand, womenCategories, womenServiceId } from '@/data/women';
 import { breadcrumbs } from '@/data/seo';
 import { langParams, useI18n, type UiKey } from '@/i18n';
 
@@ -24,6 +24,9 @@ const bandOf = (slug: string) => timeBand((en as Record<string, string>)[`wsvc.$
 const counts = filterCounts(category.key, category.items, bandOf);
 const timeBands = (['quick', 'standard', 'long'] as const).filter((b) => (counts.time[b] ?? 0) >= MIN_FOR_FILTER);
 const goals = WOMEN_GOALS.filter((g) => (counts.goal[g] ?? 0) >= MIN_FOR_FILTER);
+// Popular services lead the list (hair and hair colour only; stable order otherwise).
+const items = [...category.items].sort((a, b) => Number(isPopular(b)) - Number(isPopular(a)));
+const popularCount = items.filter(isPopular).length;
 const label = text(`wcat.${category.key}`, 'label');
 ---
 
@@ -129,12 +132,22 @@ const label = text(`wcat.${category.key}`, 'label');
         </div>
         )
       }
+      {
+        popularCount >= MIN_FOR_FILTER && (
+          <div>
+            <button type="button" data-filter-popular aria-pressed="false" class={chipClass}>
+              <Icon name="star" size={14} strokeWidth={2} />
+              {t('list.popularOnly')}
+            </button>
+          </div>
+        )
+      }
       <button type="button" data-filters-clear class="min-h-11 text-[0.8125rem] font-semibold underline underline-offset-4">{t('list.clearFilters')}</button>
     </div>
 
     <ul class="mt-8 grid grid-cols-2 gap-x-3 gap-y-8 md:grid-cols-3 lg:grid-cols-4" data-item-list={category.key}>
       {
-        category.items.map((slug, n) => (
+        items.map((slug, n) => (
           <li
             data-reveal
             style={`--reveal-delay:${(n % 4) * 60}ms`}
@@ -144,6 +157,7 @@ const label = text(`wcat.${category.key}`, 'label');
             data-search={[text(`wsvc.${slug}`, 'name'), text(`wsvc.${slug}`, 'line'), text(`wsvc.${slug}`, 'what')].join(' ')}
             data-time={timeBand((en as Record<string, string>)[`wsvc.${slug}.time`] ?? '')}
             data-goal={serviceGoal(category.key, slug)}
+            data-popular={String(isPopular(slug))}
           >
             <article class="group relative flex h-full flex-col">
               <div class="relative aspect-square overflow-hidden">
@@ -152,6 +166,12 @@ const label = text(`wcat.${category.key}`, 'label');
                   block={category.block}
                   class="size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.03]"
                 />
+                {isPopular(slug) && (
+                  <span class="absolute bottom-2 left-2 inline-flex items-center gap-1 bg-paper/90 px-2 py-1 text-[0.5625rem] font-semibold tracking-[0.18em] text-ink uppercase backdrop-blur-sm">
+                    <Icon name="star" size={9} strokeWidth={2} class="text-gold-ink" />
+                    {t('card.popular')}
+                  </span>
+                )}
               </div>
               <div class="flex flex-1 flex-col pt-3">
                 <h3 class="text-[1rem] leading-snug font-semibold">

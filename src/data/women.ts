@@ -43,7 +43,8 @@ export const womenCategories: WomenCategory[] = [
       'beach-waves',
       'sleek-straight-styling',
       'perm-waves',
-      'half-up-hairstyle'
+      'half-up-hairstyle',
+      'baby-bangs'
     ]
   },
   {
@@ -65,7 +66,11 @@ export const womenCategories: WomenCategory[] = [
       'toner-refresh',
       'money-piece',
       'babylights',
-      'lowlights'
+      'lowlights',
+      'root-smudge',
+      'copper-colour',
+      'blonde-bleach-tone',
+      'rich-brunette-colour'
     ]
   },
   {
@@ -406,6 +411,11 @@ const FROZEN_IDS: Record<string, string> = {
   'split-end-treatment': 'W159',
   'herbal-hair-spa': 'W160',
   'ampoule-treatment': 'W161',
+  'baby-bangs': 'W162',
+  'root-smudge': 'W163',
+  'copper-colour': 'W164',
+  'blonde-bleach-tone': 'W165',
+  'rich-brunette-colour': 'W166',
 };
 export const womenServiceId = (slug: string) => {
   if (FROZEN_IDS[slug]) return FROZEN_IDS[slug];
@@ -508,6 +518,11 @@ const facesBySlug: Record<string, FaceShape[]> = {
   'brow-shaping': ALL,
   'brow-makeover': ALL,
   'tong-curls': ALL,
+  'baby-bangs': ['Oval', 'Heart', 'Long'],
+  'root-smudge': ALL,
+  'copper-colour': ALL,
+  'blonde-bleach-tone': ALL,
+  'rich-brunette-colour': ALL,
   'lob-cut': ALL,
   'wolf-cut': ['Round', 'Oval', 'Square'],
   'hime-cut': ['Oval', 'Heart', 'Long'],
@@ -561,3 +576,25 @@ export const filterCounts = (categoryKey: string, items: string[], bandOf: (slug
   }
   return { time, goal };
 };
+
+/**
+ * Services stylists and clients ask for most, from 2025–2026 trend coverage by stylists and salon publications
+ * (butterfly cut, curtain bangs, lobs and bobs, shags, balayage, babylights, gloss, colour melt). They show first
+ * with a Popular band in Hair and Hair colour.
+ */
+export const POPULAR_SERVICES = new Set([
+  'layered-cut',
+  'curtain-bangs',
+  'butterfly-cut',
+  'lob-cut',
+  'bob-cut',
+  'shag-cut',
+  'wolf-cut',
+  'balayage',
+  'highlights',
+  'babylights',
+  'money-piece',
+  'hair-gloss',
+  'colour-melt',
+]);
+export const isPopular = (slug: string) => POPULAR_SERVICES.has(slug);
