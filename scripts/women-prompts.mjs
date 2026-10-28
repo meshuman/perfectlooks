@@ -32,6 +32,15 @@ const SCENE = {
   makeup: 'the finished look on Anisha, face and hair styled, true to the service.',
 };
 
+// Services whose picture is not the category's usual scene.
+const SCENE_OVERRIDES = {
+  'mehndi-design': "Anisha's hands, palms up and resting on a plain surface, with a fresh, detailed henna pattern on the palms and fingers.",
+  reflexology: "Anisha's bare feet resting on a clean white towel, relaxed, with a therapist's hands pressing a point on one sole (hands only, no second face).",
+  'hair-extensions': 'the finished look on Anisha with long, full, natural-looking hair, extensions blended invisibly at the roots.',
+  'eyelash-extensions': "a close-up of Anisha's eyes from the brow down, showing long, full, natural-looking lash extensions.",
+  'face-bleach': "a close-up of Anisha's face with a bright, even look and fine facial hair lightened to be almost invisible, hair tied back.",
+};
+
 // Views for the sheet. Three views (front, side, back) where the back matters, otherwise two.
 const THREE = 'THREE VIEWS on one image: FRONT, LEFT SIDE and BACK';
 const VIEWS = {
@@ -46,6 +55,10 @@ const VIEWS = {
   makeup: 'TWO VIEWS: FRONT and LEFT SIDE (three-quarter to profile) of the face and hair.',
 };
 const VIEW_OVERRIDES = {
+  'mehndi-design': 'TWO VIEWS: the TOP view of both palms with the henna design, and a close-up of one hand showing the fine detail.',
+  reflexology: 'TWO VIEWS: both feet from the TOP and a SIDE view of one foot with the pressure point being worked.',
+  'hair-extensions': THREE + ' of the head and shoulders, same pose and light, showing length and blending from every angle.',
+  'bridal-hairstyle': THREE + ' of the head and shoulders, same pose and light, so the whole hairdo can be judged from every angle.',
   'party-hairstyle': THREE + ' of the head and shoulders, same pose and light, so the whole hairdo can be seen from every angle.',
   'saree-draping': THREE + ' of Anisha full length or knee-up in the draped saree, so the pleats, the pallu and the back of the drape can be seen.',
   'full-legs': THREE + ' of the legs, same light, tasteful and clean.',
@@ -86,7 +99,7 @@ for (const cat of categories) {
 ITEM: ${id} ${name}
 SERVICE: ${line} ${what}
 ${woman}
-SHOW: ${SCENE[cat.key]}
+SHOW: ${SCENE_OVERRIDES[slug] ?? SCENE[cat.key]}
 VIEWS: ${views}
 BACKDROP: ${bgName} (${hex}).
 ${light}

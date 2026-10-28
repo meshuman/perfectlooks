@@ -5563,6 +5563,60 @@ LAYOUT: one square image. The FRONT view large on the left filling about 55% of 
 No callouts, lines, dots or text.
 ```
 
+### W138 Hair Trim
+
+Save as `W138.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W138 Hair Trim
+SERVICE: A tidy-up that removes split ends and keeps your length. Only the damaged ends are cut, about half an inch to an inch, with no change to the style or length.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: the finished haircut on Anisha, hair clean and styled so the cut and its layers or length are easy to see.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, so the cut can be judged from every angle.
+BACKDROP: Orange (#EC9465).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W139 Curtain Bangs
+
+Save as `W139.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W139 Curtain Bangs
+SERVICE: Soft, centre-parted bangs that sweep to the sides. A longer fringe is parted in the middle and swept to either side like curtains. It is softer and easier to grow out than full, straight-across bangs.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: the finished haircut on Anisha, hair clean and styled so the cut and its layers or length are easy to see.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, so the cut can be judged from every angle.
+BACKDROP: Orange (#EC9465).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W140 Hair Extensions
+
+Save as `W140.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W140 Hair Extensions
+SERVICE: Instant length and volume with added hair. Strands or wefts of real or quality hair are attached to your own hair for extra length or fullness. They are added without cutting your hair.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: the finished look on Anisha with long, full, natural-looking hair, extensions blended invisibly at the roots.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, showing length and blending from every angle.
+BACKDROP: Orange (#EC9465).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
 ### W14 Global Colour
 
 Save as `W14.jpg`
@@ -6067,6 +6121,24 @@ LAYOUT: one square image. The FRONT view large on the left filling about 55% of 
 No callouts, lines, dots or text.
 ```
 
+### W141 Dandruff Treatment
+
+Save as `W141.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W141 Dandruff Treatment
+SERVICE: Clears flakes and calms an itchy scalp. A medicated or anti-fungal cleanse, scalp massage and a soothing mask are used to loosen flakes and reduce the yeast that causes dandruff.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: Anisha with the healthy result of this hair treatment: smooth, glossy, well-conditioned hair that moves freely.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, showing the shine from every angle.
+BACKDROP: Sky blue (#A9C9E8).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
 ### W36 Eyebrow Threading
 
 Save as `W36.jpg`
@@ -6311,6 +6383,24 @@ ITEM: W122 Brow Trim & Tidy
 SERVICE: A quick tidy that keeps your own shape. Only the long hairs are trimmed and a few strays are tweezed, with no change to the shape. It is the lightest brow service.
 CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
 SHOW: a close-up of Anisha's face from the nose up, showing the finished brows or threaded area, neat and natural.
+VIEWS: TWO VIEWS: FRONT close-up of the brows, and LEFT SIDE close-up of the same brow.
+BACKDROP: Sage (#CADBD8).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The first view large on the left filling about 60% of the width; the second, smaller view in the lower right, slightly overlapping, with a soft fade at its edge. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W142 Eyelash Extensions
+
+Save as `W142.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W142 Eyelash Extensions
+SERVICE: Longer, fuller lashes without mascara. Individual synthetic lashes are attached one by one to each natural lash for added length, curl and fullness that last for weeks.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: a close-up of Anisha's eyes from the brow down, showing long, full, natural-looking lash extensions.
 VIEWS: TWO VIEWS: FRONT close-up of the brows, and LEFT SIDE close-up of the same brow.
 BACKDROP: Sage (#CADBD8).
 LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
@@ -6635,6 +6725,42 @@ ITEM: W125 Aroma Facial
 SERVICE: A calming facial built around essential oils. A gentle facial using essential oils for scent and relaxation. It is the most soothing facial in the menu, with the focus on calm rather than correction.
 CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
 SHOW: a close-up of Anisha's face after this facial: fresh, clean, evenly toned skin with a healthy natural glow, hair tied back.
+VIEWS: TWO VIEWS: FRONT and LEFT SIDE (profile) of the face, same light, showing the skin finish.
+BACKDROP: Sand (#D8CDBF).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The first view large on the left filling about 60% of the width; the second, smaller view in the lower right, slightly overlapping, with a soft fade at its edge. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W143 Diamond Facial
+
+Save as `W143.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W143 Diamond Facial
+SERVICE: A polishing facial with diamond-dust for a luminous glow. A cream and mask with fine diamond-dust polish the skin, and a massage is used to give a brighter, smoother finish. It is a popular choice before weddings and festivals.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: a close-up of Anisha's face after this facial: fresh, clean, evenly toned skin with a healthy natural glow, hair tied back.
+VIEWS: TWO VIEWS: FRONT and LEFT SIDE (profile) of the face, same light, showing the skin finish.
+BACKDROP: Sand (#D8CDBF).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The first view large on the left filling about 60% of the width; the second, smaller view in the lower right, slightly overlapping, with a soft fade at its edge. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W144 Face Bleach
+
+Save as `W144.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W144 Face Bleach
+SERVICE: Lightens fine facial hair for an even-looking skin tone. A mild bleach cream is applied to the face to lighten fine hair and give a brighter, more even look. It does not remove hair, and it is not a skin-whitening treatment.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: a close-up of Anisha's face with a bright, even look and fine facial hair lightened to be almost invisible, hair tied back.
 VIEWS: TWO VIEWS: FRONT and LEFT SIDE (profile) of the face, same light, showing the skin finish.
 BACKDROP: Sand (#D8CDBF).
 LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
@@ -7219,6 +7345,24 @@ LAYOUT: one square image. The first view large on the left filling about 60% of 
 No callouts, lines, dots or text.
 ```
 
+### W145 Nail Polish Change
+
+Save as `W145.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W145 Nail Polish Change
+SERVICE: A quick colour refresh on tidy nails. Old polish is removed, the nails are shaped and buffed, and fresh colour is applied. It is quicker than a full manicure, with no soak or massage.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: Anisha's hands (or feet for pedicure) with the finished nails, neatly shaped and clean, resting on a plain surface.
+VIEWS: TWO VIEWS: the TOP view of the finished nails, and a SIDE view of the same hand showing the shape and length.
+BACKDROP: Orange (#EC9465).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The first view large on the left filling about 60% of the width; the second, smaller view in the lower right, slightly overlapping, with a soft fade at its edge. Label nothing.
+No callouts, lines, dots or text.
+```
+
 ### W88 Relaxing Head Massage
 
 Save as `W88.jpg`
@@ -7446,6 +7590,24 @@ SERVICE: A very light massage that reduces puffiness. Very gentle, rhythmic stro
 CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
 SHOW: Anisha relaxed and calm after this massage, hair tied back, soft healthy skin.
 VIEWS: TWO VIEWS: FRONT and LEFT SIDE of Anisha, head and shoulders, relaxed.
+BACKDROP: Blush (#F7D9CE).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The first view large on the left filling about 60% of the width; the second, smaller view in the lower right, slightly overlapping, with a soft fade at its edge. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W146 Foot Reflexology
+
+Save as `W146.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W146 Foot Reflexology
+SERVICE: Pressure-point foot work that relaxes the whole body. The therapist presses specific points on the feet that are believed to link to different parts of the body. It is more targeted than a plain foot massage.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: Anisha's bare feet resting on a clean white towel, relaxed, with a therapist's hands pressing a point on one sole (hands only, no second face).
+VIEWS: TWO VIEWS: both feet from the TOP and a SIDE view of one foot with the pressure point being worked.
 BACKDROP: Blush (#F7D9CE).
 LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
 BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
@@ -7734,6 +7896,42 @@ SERVICE: Polished and glowing, never heavy. A satin base, soft contour, warm shi
 CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
 SHOW: the finished look on Anisha, face and hair styled, true to the service.
 VIEWS: TWO VIEWS: FRONT and LEFT SIDE (three-quarter to profile) of the face and hair.
+BACKDROP: Sky blue (#A9C9E8).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The first view large on the left filling about 60% of the width; the second, smaller view in the lower right, slightly overlapping, with a soft fade at its edge. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W147 Bridal Hairstyle
+
+Save as `W147.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W147 Bridal Hairstyle
+SERVICE: A bridal updo or styled look planned with the outfit. A bun, braid, curls or half-up style, built to hold all day and to suit the outfit, jewellery and veil. It is a full style, more planned than a party hairstyle.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: the finished look on Anisha, face and hair styled, true to the service.
+VIEWS: THREE VIEWS on one image: FRONT, LEFT SIDE and BACK of the head and shoulders, same pose and light, so the whole hairdo can be judged from every angle.
+BACKDROP: Sky blue (#A9C9E8).
+LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: one square image. The FRONT view large on the left filling about 55% of the width; the LEFT SIDE view and the BACK view stacked on the right, each about 40% of the width, with a soft fade at their edges. Label nothing.
+No callouts, lines, dots or text.
+```
+
+### W148 Mehndi (Henna) Design
+
+Save as `W148.jpg`
+
+```text
+Photorealistic studio image for a beauty salon service guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: W148 Mehndi (Henna) Design
+SERVICE: Henna patterns for hands and feet. Natural henna paste is applied in traditional, Arabic or modern patterns on the hands and feet, and left to dry and stain the skin a rich brown-red.
+CHARACTER (the same woman in every image): Anisha, a 26-year-old Nepali woman with fair, light wheatish skin with warm undertones, smooth, even and flawless-looking, an oval face, dark brown almond-shaped eyes, softly arched natural black eyebrows, a straight nose, medium-full lips, small ears, slim build. Calm, friendly expression, mouth closed. Plain white crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair and bare skin unless the item says otherwise. Match the attached character reference for her eyes, nose, lips, skin and build.
+SHOW: Anisha's hands, palms up and resting on a plain surface, with a fresh, detailed henna pattern on the palms and fingers.
+VIEWS: TWO VIEWS: the TOP view of both palms with the henna design, and a close-up of one hand showing the fine detail.
 BACKDROP: Sky blue (#A9C9E8).
 LIGHT: professional beauty studio lighting: a large softbox key light from the front left, a beauty dish above, soft fill from the right and a gentle rim light, so the skin is evenly lit with no harsh shadows. Fair, smooth, even-toned skin with a soft healthy glow and only fine natural texture, as in a retouched beauty campaign. Sharp focus on the detail being shown, 85 mm portrait lens look.
 BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.

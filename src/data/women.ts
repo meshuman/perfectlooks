@@ -32,7 +32,10 @@ export const womenCategories: WomenCategory[] = [
       'wash-and-style',
       'v-cut',
       'u-cut',
-      'butterfly-cut'
+      'butterfly-cut',
+      'hair-trim',
+      'curtain-bangs',
+      'hair-extensions'
     ]
   },
   {
@@ -74,7 +77,8 @@ export const womenCategories: WomenCategory[] = [
       'brazilian-blowout',
       'deep-conditioning-mask',
       'scalp-detox',
-      'anti-hairfall-treatment'
+      'anti-hairfall-treatment',
+      'dandruff-treatment'
     ]
   },
   {
@@ -95,7 +99,8 @@ export const womenCategories: WomenCategory[] = [
       'brow-makeover',
       'brow-waxing',
       'lash-tint',
-      'brow-trim'
+      'brow-trim',
+      'eyelash-extensions'
     ]
   },
   {
@@ -120,7 +125,9 @@ export const womenCategories: WomenCategory[] = [
       'under-eye-treatment',
       'collagen-facial',
       'anti-ageing-facial',
-      'aroma-facial'
+      'aroma-facial',
+      'diamond-facial',
+      'face-bleach'
     ]
   },
   {
@@ -166,7 +173,8 @@ export const womenCategories: WomenCategory[] = [
       'bridal-nail-art',
       'gel-extensions',
       'cat-eye-nails',
-      'french-pedicure'
+      'french-pedicure',
+      'nail-polish-change'
     ]
   },
   {
@@ -186,7 +194,8 @@ export const womenCategories: WomenCategory[] = [
       'hot-stone-massage',
       'swedish-massage',
       'thai-massage',
-      'lymphatic-massage'
+      'lymphatic-massage',
+      'reflexology'
     ]
   },
   {
@@ -209,7 +218,9 @@ export const womenCategories: WomenCategory[] = [
       'lip-colour-styling',
       'airbrush-makeup',
       'smokey-eye-makeup',
-      'soft-glam-makeup'
+      'soft-glam-makeup',
+      'bridal-hairstyle',
+      'mehndi-design'
     ]
   }
 ];
@@ -358,6 +369,17 @@ const FROZEN_IDS: Record<string, string> = {
   'airbrush-makeup': 'W135',
   'smokey-eye-makeup': 'W136',
   'soft-glam-makeup': 'W137',
+  'hair-trim': 'W138',
+  'curtain-bangs': 'W139',
+  'hair-extensions': 'W140',
+  'dandruff-treatment': 'W141',
+  'eyelash-extensions': 'W142',
+  'diamond-facial': 'W143',
+  'face-bleach': 'W144',
+  'nail-polish-change': 'W145',
+  'reflexology': 'W146',
+  'bridal-hairstyle': 'W147',
+  'mehndi-design': 'W148',
 };
 export const womenServiceId = (slug: string) => {
   if (FROZEN_IDS[slug]) return FROZEN_IDS[slug];
@@ -399,6 +421,12 @@ const goalOverrides: Record<string, WomenGoal> = {
   'college-makeup': 'everyday',
   'lip-colour-styling': 'everyday',
   'tong-curls': 'event',
+  'hair-trim': 'everyday',
+  'hair-extensions': 'event',
+  'eyelash-extensions': 'event',
+  'diamond-facial': 'event',
+  'face-bleach': 'everyday',
+  'nail-polish-change': 'everyday',
   'cat-eye-nails': 'event',
   'gel-extensions': 'everyday',
   'french-pedicure': 'everyday',
@@ -451,6 +479,8 @@ const facesBySlug: Record<string, FaceShape[]> = {
   'brow-shaping': ALL,
   'brow-makeover': ALL,
   'tong-curls': ALL,
+  'curtain-bangs': ['Round', 'Long', 'Heart', 'Oval'],
+  'bridal-hairstyle': ALL,
   'v-cut': ['Round', 'Square', 'Oval'],
   'u-cut': ['Oval', 'Long', 'Heart'],
   'butterfly-cut': ALL,
