@@ -35,7 +35,15 @@ export const womenCategories: WomenCategory[] = [
       'butterfly-cut',
       'hair-trim',
       'curtain-bangs',
-      'hair-extensions'
+      'hair-extensions',
+      'lob-cut',
+      'wolf-cut',
+      'hime-cut',
+      'bixie-cut',
+      'beach-waves',
+      'sleek-straight-styling',
+      'perm-waves',
+      'half-up-hairstyle'
     ]
   },
   {
@@ -78,7 +86,12 @@ export const womenCategories: WomenCategory[] = [
       'deep-conditioning-mask',
       'scalp-detox',
       'anti-hairfall-treatment',
-      'dandruff-treatment'
+      'dandruff-treatment',
+      'nanoplastia',
+      'cysteine-treatment',
+      'split-end-treatment',
+      'herbal-hair-spa',
+      'ampoule-treatment'
     ]
   },
   {
@@ -380,6 +393,19 @@ const FROZEN_IDS: Record<string, string> = {
   'reflexology': 'W146',
   'bridal-hairstyle': 'W147',
   'mehndi-design': 'W148',
+  'lob-cut': 'W149',
+  'wolf-cut': 'W150',
+  'hime-cut': 'W151',
+  'bixie-cut': 'W152',
+  'beach-waves': 'W153',
+  'sleek-straight-styling': 'W154',
+  'perm-waves': 'W155',
+  'half-up-hairstyle': 'W156',
+  'nanoplastia': 'W157',
+  'cysteine-treatment': 'W158',
+  'split-end-treatment': 'W159',
+  'herbal-hair-spa': 'W160',
+  'ampoule-treatment': 'W161',
 };
 export const womenServiceId = (slug: string) => {
   if (FROZEN_IDS[slug]) return FROZEN_IDS[slug];
@@ -421,6 +447,9 @@ const goalOverrides: Record<string, WomenGoal> = {
   'college-makeup': 'everyday',
   'lip-colour-styling': 'everyday',
   'tong-curls': 'event',
+  'beach-waves': 'event',
+  'sleek-straight-styling': 'event',
+  'half-up-hairstyle': 'event',
   'hair-trim': 'everyday',
   'hair-extensions': 'event',
   'eyelash-extensions': 'event',
@@ -479,6 +508,14 @@ const facesBySlug: Record<string, FaceShape[]> = {
   'brow-shaping': ALL,
   'brow-makeover': ALL,
   'tong-curls': ALL,
+  'lob-cut': ALL,
+  'wolf-cut': ['Round', 'Oval', 'Square'],
+  'hime-cut': ['Oval', 'Heart', 'Long'],
+  'bixie-cut': ['Oval', 'Heart', 'Long'],
+  'beach-waves': ALL,
+  'sleek-straight-styling': ALL,
+  'perm-waves': ['Oval', 'Long', 'Square'],
+  'half-up-hairstyle': ALL,
   'curtain-bangs': ['Round', 'Long', 'Heart', 'Oval'],
   'bridal-hairstyle': ALL,
   'v-cut': ['Round', 'Square', 'Oval'],
