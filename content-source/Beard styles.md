@@ -1,6 +1,6 @@
 # Beard styles
 
-16 beard styles. For beards, beard growth matters more than face shape: a style that needs full growth looks patchy on patchy growth.
+21 beard styles. For beards, beard growth matters more than face shape: a style that needs full growth looks patchy on patchy growth.
 
 ## At a glance
 
@@ -22,6 +22,11 @@
 | B14 Long Beard | 4 or more fingers at chin | High | Oval, Round, Square, Heart | Full | Trimmed with beard | Front |
 | B15 Soul Patch | Under the lip only | High | All | Any | Separate | Front |
 | B16 Mutton Chops | Sideburns to the jaw | Medium | Oval, Long | Full | Separate | Side |
+| B17 Garibaldi | Wide and rounded, 5–8 cm | Medium | Oval, Square, Long | Full | Trimmed with beard | Front |
+| B18 French Fork | Forked, 6–8 cm at the chin | High | Oval, Round, Square | Full | Trimmed with beard | Front |
+| B19 Extended Goatee | Chin and jaw, 6–9 mm | Medium | Oval, Round, Square, Heart | Medium, Full | Trimmed with beard | Front |
+| B20 Chin Curtain | Jaw and chin, 2–3 cm | Medium | Oval, Round, Square | Full | Separate | Front |
+| B21 Designer Stubble | 3 mm | Medium | All | Medium, Full | Trimmed with beard | Front |
 
 **Moustache column:**
 
@@ -501,3 +506,153 @@ Thick sideburns down to the jaw, with the chin shaved.
 4. Shave chin and front of jaw clean.
 5. Shave the neck.
 6. Sharp edges with razor.
+
+## B17 Garibaldi
+
+A full, wide, rounded beard with a natural shape.
+
+**Description:** A full, wide beard with a rounded bottom and a natural, soft shape. The moustache blends into the beard.
+
+- **Pick this if:** you have thick growth and want a bold, full beard that is easy to shape.
+- **Skip if:** you have a round face or patchy growth.
+- **Daily:** 3 min: beard oil, comb into the round shape.
+- **Weekly:** Wash with beard wash 2–3 times. Trim the edges.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square and long face · Full growth only
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a Garibaldi beard?** A full, wide beard with a rounded bottom and a soft, natural shape.
+- **How long does it take to grow?** About 3–4 months of full growth.
+- **Does it suit a long face?** Yes. The width balances a long face.
+- **How do I keep the shape?** Comb it, oil it, and trim only the edges and the neck line.
+
+**Barber steps**
+
+1. Comb the beard down.
+2. Sides and chin: trim to an even 5–8 cm.
+3. Round the bottom into a soft curve.
+4. Cheek line: clean and natural.
+5. Neck line: 2 fingers above Adam's apple.
+6. Finish with beard oil.
+
+## B18 French Fork
+
+A long beard split into two points at the chin.
+
+**Description:** A full beard grown long at the chin and parted into two soft points, with shorter sides. A bold, distinctive shape.
+
+- **Pick this if:** you have thick growth and want a beard that stands out.
+- **Skip if:** you have a long face, patchy growth, or no time to style daily.
+- **Daily:** 4 min: beard oil, comb and split into two points.
+- **Weekly:** Wash with beard wash 2–3 times. Trim the sides.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, round and square face · Full growth only
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a French fork beard?** A full beard with a long chin split into two soft points, with shorter sides.
+- **How long does it take to grow?** About 4 months, because the chin needs real length.
+- **Does it need styling every day?** Yes. Comb and oil it into the two points each morning.
+- **Does it suit a round face?** Yes. The length at the chin makes the face look longer.
+
+**Barber steps**
+
+1. Comb the beard down.
+2. Sides: trim to 12 mm.
+3. Chin: leave 6–8 cm.
+4. Part the chin down the middle into two points.
+5. Cheek line: clean and natural.
+6. Neck line: 2 fingers above Adam's apple.
+
+## B19 Extended Goatee
+
+A goatee that runs along the jaw, joined to the moustache.
+
+**Description:** A goatee that extends along the jawline and joins the moustache, with clean cheeks. Neat and defined, with more beard than a plain goatee.
+
+- **Pick this if:** you want a defined beard without growing the cheeks.
+- **Skip if:** your chin or jaw grows patchy.
+- **Daily:** 3 min: beard oil, comb the chin.
+- **Weekly:** Shave the cheeks. Trim the jaw line.
+- **Next barber visit:** in 2–3 weeks
+- **Suits:** Oval, round, square and heart face · Medium or full growth
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is an extended goatee?** A goatee that runs along the jaw and joins the moustache, with the cheeks shaved clean.
+- **How is it different from a goatee?** It covers the jaw as well as the chin, so the shape is longer and more defined.
+- **Does it suit a round face?** Yes. The clean cheeks and the chin length make the face look slimmer.
+- **How often do I shave the cheeks?** Every 2–3 days, to keep the line sharp.
+
+**Barber steps**
+
+1. Mark the cheek lines with a razor.
+2. Chin and jaw: trimmer 6–9 mm.
+3. Moustache: join it to the beard.
+4. Shave the cheeks clean.
+5. Neck line: 2 fingers above Adam's apple.
+6. Finish with beard oil.
+
+## B20 Chin Curtain
+
+A beard along the jaw and chin with a clean upper lip.
+
+**Description:** A beard that runs along the jawline and under the chin, with the upper lip and cheeks shaved clean. A strong, unusual shape.
+
+- **Pick this if:** you grow a thick jaw and want a beard without a moustache.
+- **Skip if:** you have a long face or patchy growth on the jaw.
+- **Daily:** 3 min: beard oil, comb the chin.
+- **Weekly:** Shave the lip and cheeks. Trim the length.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, round and square face · Full growth only
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a chin curtain beard?** A beard along the jaw and chin with a clean-shaven upper lip and cheeks.
+- **Does it have a moustache?** No. The upper lip is shaved, but you can add a moustache if you prefer.
+- **Does it suit a round face?** Yes. The length under the chin makes the face look longer.
+- **How long should it be?** About 2–3 cm. Any shorter loses the shape.
+
+**Barber steps**
+
+1. Mark the jaw line and cheek lines.
+2. Jaw and chin: trim to 2–3 cm.
+3. Shave the upper lip clean.
+4. Shave the cheeks clean.
+5. Neck line: 2 fingers above Adam's apple.
+6. Finish with beard oil.
+
+## B21 Designer Stubble
+
+Shaped 3 mm stubble with sharp, clean lines.
+
+**Description:** Stubble kept at a steady 3 mm and shaped with sharp cheek and neck lines. It looks planned, not lazy: neat but still relaxed.
+
+- **Pick this if:** you want a stylish stubble that looks cared for.
+- **Skip if:** your growth is patchy.
+- **Daily:** 2 min: nothing, or a little beard oil.
+- **Weekly:** Trim at 3 mm and redo the lines.
+- **Next barber visit:** in 2–3 weeks
+- **Suits:** All face shapes · Medium or full growth
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is designer stubble?** Stubble trimmed to a steady 3 mm with sharp, shaped cheek and neck lines.
+- **How is it different from heavy stubble?** It is shorter at 3 mm and has crisp lines, so it looks shaped on purpose.
+- **How often do I trim it?** Every 3–4 days at 3 mm, and redo the lines once a week.
+- **Does it suit every face?** Yes. Sharp lines add definition to any face shape.
+
+**Barber steps**
+
+1. Set the trimmer to 3 mm.
+2. Trim the cheeks, chin and moustache evenly.
+3. Shape the cheek line with a razor.
+4. Clean the neck line 2 fingers above Adam's apple.
+5. Check the moustache is the same length.
+6. Finish with a little beard oil.

@@ -17,7 +17,7 @@ const SKINS = ['Light', 'Medium', 'Deep'];
 const GREYS = ['None', 'Some', 'Lots'];
 const UPKEEP = ['Low', 'Medium', 'High'];
 const TOPICS = ['Face shape', 'Haircuts', 'Beard', 'Colour', 'Care', 'Talk to your barber'];
-const EXPECTED = { hair: 99, beards: 16, moustaches: 12, colours: 33, looks: 88, learn: 13 };
+const EXPECTED = { hair: 99, beards: 21, moustaches: 17, colours: 33, looks: 94, learn: 13 };
 
 const errors = [];
 const warnings = [];

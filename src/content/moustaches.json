@@ -1,7 +1,7 @@
 [
   {
     "id": "M01",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "short-trimmed",
     "name": "Short Trimmed",
     "shortLine": "Neat, short moustache that stops at the lip.",
@@ -77,7 +77,7 @@
   },
   {
     "id": "M02",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "chevron",
     "name": "Chevron",
     "shortLine": "Thick and wide. Covers the top edge of the lip.",
@@ -149,7 +149,7 @@
   },
   {
     "id": "M03",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "pencil",
     "name": "Pencil",
     "shortLine": "Very thin line just above the lip.",
@@ -221,7 +221,7 @@
   },
   {
     "id": "M04",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "handlebar",
     "name": "Handlebar",
     "shortLine": "Long ends curled up. Bold, classic look.",
@@ -294,7 +294,7 @@
   },
   {
     "id": "M05",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "horseshoe",
     "name": "Horseshoe",
     "shortLine": "Moustache runs down both sides of the mouth to the jaw.",
@@ -367,7 +367,7 @@
   },
   {
     "id": "M06",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "english",
     "name": "English",
     "shortLine": "Thin and long, with pointed ends going out to the sides.",
@@ -437,7 +437,7 @@
   },
   {
     "id": "M07",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "walrus",
     "name": "Walrus",
     "shortLine": "Big and thick. Hangs over the top lip.",
@@ -506,7 +506,7 @@
   },
   {
     "id": "M08",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "lampshade",
     "name": "Lampshade",
     "shortLine": "Short and wide at the bottom, narrow at the top.",
@@ -577,7 +577,7 @@
   },
   {
     "id": "M09",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "natural-full",
     "name": "Natural Full",
     "shortLine": "Medium-thick moustache in its natural shape, trimmed at the lip.",
@@ -650,7 +650,7 @@
   },
   {
     "id": "M10",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "petite-handlebar",
     "name": "Petite Handlebar",
     "shortLine": "Small handlebar with short ends turned up.",
@@ -723,7 +723,7 @@
   },
   {
     "id": "M11",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "hungarian",
     "name": "Hungarian",
     "shortLine": "Big, bushy moustache with the ends pulled out to the sides.",
@@ -793,7 +793,7 @@
   },
   {
     "id": "M12",
-    "updated": "2026-10-23",
+    "updated": "2026-10-30",
     "slug": "dali",
     "name": "Dali",
     "shortLine": "Thin moustache with long ends pointing sharply up.",
@@ -861,6 +861,364 @@
       "Heart"
     ],
     "growth": [
+      "Full"
+    ]
+  },
+  {
+    "id": "M13",
+    "updated": "2026-10-30",
+    "slug": "fu-manchu",
+    "name": "Fu Manchu",
+    "shortLine": "A long, thin moustache that hangs down past the chin.",
+    "description": "A long, thin moustache that grows from the corners of the mouth and hangs straight down below the chin. Bold and dramatic.",
+    "pickIf": "you have thick, strong growth and want a dramatic, old-school look.",
+    "skipIf": "your growth is patchy, or you have a round face.",
+    "daily": "3 min: comb the ends down, a little wax.",
+    "weekly": "Trim the lip line and shape the ends.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval and long face · Full growth only",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Long ends",
+        "text": "Below the chin."
+      },
+      {
+        "title": "Thin shape",
+        "text": "Narrow and straight."
+      },
+      {
+        "title": "Trimmed middle",
+        "text": "Above the lip."
+      },
+      {
+        "title": "Clean cheeks",
+        "text": "Shaved smooth."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a Fu Manchu moustache?",
+        "a": "A long, thin moustache that hangs straight down from the corners of the mouth, past the chin."
+      },
+      {
+        "q": "How long does it take to grow?",
+        "a": "About 3–4 months for the ends to hang below the chin."
+      },
+      {
+        "q": "Do I need wax?",
+        "a": "A little, to keep the ends straight and tidy."
+      },
+      {
+        "q": "Can I wear it with a beard?",
+        "a": "It works best with a clean-shaven chin, or only with a goatee."
+      }
+    ],
+    "barberSteps": [
+      "Grow the ends past the chin.",
+      "Trim the middle above the lip line.",
+      "Comb the ends straight down.",
+      "Trim the ends to an even length.",
+      "Shave the cheeks and upper lip line clean.",
+      "Wax the ends."
+    ],
+    "length": "Long, hanging below the chin",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Long"
+    ],
+    "growth": [
+      "Full"
+    ]
+  },
+  {
+    "id": "M14",
+    "updated": "2026-10-30",
+    "slug": "toothbrush",
+    "name": "Toothbrush",
+    "shortLine": "A short, neat, square moustache under the nose.",
+    "description": "A short, thick moustache that is the same width as the nose and sits squarely above the lip. Tidy and low-maintenance.",
+    "pickIf": "you want a small, neat moustache that needs very little care.",
+    "skipIf": "your growth is patchy under the nose.",
+    "daily": "1 min: nothing, or a quick comb.",
+    "weekly": "Trim the width and the lip line.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square, round and heart face · Medium or full growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Square shape",
+        "text": "Width of the nose."
+      },
+      {
+        "title": "Short length",
+        "text": "About 6 mm."
+      },
+      {
+        "title": "Trimmed lip line",
+        "text": "Neat and clean."
+      },
+      {
+        "title": "Clean chin",
+        "text": "Shaved smooth."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a toothbrush moustache?",
+        "a": "A short, thick, square moustache about the width of the nose."
+      },
+      {
+        "q": "How is it different from a pencil moustache?",
+        "a": "It is thicker and shorter, and it covers the full area under the nose."
+      },
+      {
+        "q": "Is it easy to keep?",
+        "a": "Yes. It needs a trim once a week and no styling."
+      },
+      {
+        "q": "Does it suit a round face?",
+        "a": "Yes. It is small, so it does not widen the face."
+      }
+    ],
+    "barberSteps": [
+      "Mark the width at the nose edges.",
+      "Trim the top of the moustache above the lip line.",
+      "Trim the length to about 6 mm.",
+      "Square the ends.",
+      "Shave around the moustache.",
+      "Comb it down."
+    ],
+    "length": "Short and square",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Round",
+      "Heart"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ]
+  },
+  {
+    "id": "M15",
+    "updated": "2026-10-30",
+    "slug": "imperial",
+    "name": "Imperial",
+    "shortLine": "A full moustache that sweeps out and up past the cheeks.",
+    "description": "A big, full moustache that grows outwards from the nose and sweeps up past the cheeks. Grand and formal, and it needs real length.",
+    "pickIf": "you have thick growth and want a grand, old-world look.",
+    "skipIf": "your growth is patchy, or you do not want to wax every day.",
+    "daily": "4 min: comb outwards, then wax and shape the ends up.",
+    "weekly": "Trim the lip line. Shave the cheeks.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, square and long face · Full growth only",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Sweeping ends",
+        "text": "Up and past the cheeks."
+      },
+      {
+        "title": "Full width",
+        "text": "Wide and thick."
+      },
+      {
+        "title": "Trimmed lip line",
+        "text": "Neat and clean."
+      },
+      {
+        "title": "Waxed shape",
+        "text": "Smooth hold."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an imperial moustache?",
+        "a": "A full moustache that sweeps outwards and up past the cheeks, beyond a handlebar."
+      },
+      {
+        "q": "How is it different from a handlebar?",
+        "a": "It is wider, fuller and sweeps up along the cheeks instead of curling at the ends."
+      },
+      {
+        "q": "How long does it take to grow?",
+        "a": "About 3–4 months for the full width."
+      },
+      {
+        "q": "Do I need wax?",
+        "a": "Yes. Daily wax keeps the ends lifted."
+      }
+    ],
+    "barberSteps": [
+      "Grow the moustache out past the cheeks.",
+      "Trim the lip line only.",
+      "Comb outwards from the centre.",
+      "Wax the ends and sweep them up.",
+      "Shave the cheeks and upper lip line.",
+      "Check both sides match."
+    ],
+    "length": "Wide, ends sweeping up",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Long"
+    ],
+    "growth": [
+      "Full"
+    ]
+  },
+  {
+    "id": "M16",
+    "updated": "2026-10-30",
+    "slug": "pyramid",
+    "name": "Pyramid",
+    "shortLine": "A thick moustache shaped like a triangle, wide at the lip.",
+    "description": "A thick, full moustache that is wide at the lip and narrows towards the nose, forming a pyramid shape. Strong and masculine.",
+    "pickIf": "you have thick growth above the lip and want a strong, classic shape.",
+    "skipIf": "your growth is thin, or you have a long face.",
+    "daily": "2 min: comb down, a little wax if needed.",
+    "weekly": "Trim the lip line and the top edge.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square and round face · Medium or full growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Triangle shape",
+        "text": "Wide at the lip."
+      },
+      {
+        "title": "Thick body",
+        "text": "Full and even."
+      },
+      {
+        "title": "Trimmed edge",
+        "text": "Just above the lip."
+      },
+      {
+        "title": "Clean chin",
+        "text": "Shaved smooth."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a pyramid moustache?",
+        "a": "A thick moustache wide at the lip and narrower at the top, like a triangle."
+      },
+      {
+        "q": "How is it different from a chevron?",
+        "a": "A pyramid is a little shorter and more tapered at the top, giving a clear triangle."
+      },
+      {
+        "q": "Does it need wax?",
+        "a": "Not usually. A comb and a trim keep it neat."
+      },
+      {
+        "q": "Does it suit a round face?",
+        "a": "Yes. The strong shape adds definition."
+      }
+    ],
+    "barberSteps": [
+      "Trim the top edge to a point under the nose.",
+      "Keep the width at the lip line.",
+      "Trim the length above the lip line.",
+      "Taper the sides in towards the nose.",
+      "Shave around the moustache.",
+      "Comb it down."
+    ],
+    "length": "Thick, triangle shape",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ]
+  },
+  {
+    "id": "M17",
+    "updated": "2026-10-30",
+    "slug": "mandarin",
+    "name": "Mandarin",
+    "shortLine": "A thin moustache that droops softly past the mouth corners.",
+    "description": "A thin, soft moustache that droops past the corners of the mouth and ends in a gentle point. Elegant, and it works with lighter growth.",
+    "pickIf": "you have fine or lighter growth and want an elegant, classic shape.",
+    "skipIf": "you want a thick, bold moustache.",
+    "daily": "2 min: comb down, a little wax on the ends.",
+    "weekly": "Trim the lip line and the ends.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, long and heart face · Medium or full growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Drooping ends",
+        "text": "Past the mouth."
+      },
+      {
+        "title": "Thin shape",
+        "text": "Soft and even."
+      },
+      {
+        "title": "Gentle point",
+        "text": "At the ends."
+      },
+      {
+        "title": "Clean chin",
+        "text": "Shaved smooth."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a mandarin moustache?",
+        "a": "A thin moustache that droops softly past the corners of the mouth."
+      },
+      {
+        "q": "Does it work with light growth?",
+        "a": "Yes. It is thinner than most styles, so it suits lighter growth better."
+      },
+      {
+        "q": "How long does it take to grow?",
+        "a": "About 6–8 weeks for the ends to droop."
+      },
+      {
+        "q": "Can I wear it with a beard?",
+        "a": "It works best with a clean chin or a small goatee."
+      }
+    ],
+    "barberSteps": [
+      "Grow the ends past the mouth corners.",
+      "Trim the middle above the lip line.",
+      "Keep the width thin and even.",
+      "Comb the ends down.",
+      "Trim the ends to a soft point.",
+      "Shave around the moustache."
+    ],
+    "length": "Thin, drooping ends",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Medium",
       "Full"
     ]
   }

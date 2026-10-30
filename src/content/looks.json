@@ -5213,5 +5213,365 @@
       "Curly"
     ],
     "thinHairOk": true
+  },
+  {
+    "id": "L94",
+    "updated": "2026-10-30",
+    "slug": "comma-casual",
+    "name": "Comma Casual",
+    "shortLine": "Comma hair with light stubble.",
+    "description": "A Comma Hair cut, with a fringe curled into a comma shape, plus Light Stubble. Soft, boyish and very Korean, with a little edge from the stubble.",
+    "pickIf": "you want the comma fringe with a more grown-up edge.",
+    "skipIf": "your hair is curly or very thin, or you do not want to blow dry daily.",
+    "daily": "6 min: blow dry the fringe into a comma, light wax.",
+    "weekly": "Conditioner once. Trim the stubble at 2 mm.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Comma fringe",
+        "text": "Curls in at the brow."
+      },
+      {
+        "title": "Soft volume",
+        "text": "Lifted at the front."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "Short and neat."
+      },
+      {
+        "title": "Light stubble",
+        "text": "1–2 mm."
+      }
+    ],
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H36",
+    "beard": "B02",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H36 Comma Hair · B02 Light Stubble",
+    "colourType": "normal",
+    "hairType": [
+      "Straight"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L95",
+    "updated": "2026-10-30",
+    "slug": "down-perm-clean",
+    "name": "Down Perm Clean",
+    "shortLine": "A flat, tidy perm on the sides with a clean-shaven face.",
+    "description": "A Down Perm that keeps the sides flat and tidy while the top keeps natural volume, with a clean-shaven face. Neat and smooth, with less fuss than a full perm.",
+    "pickIf": "your hair flares out at the sides and you want it flat and neat.",
+    "skipIf": "your hair is very thin on top, or very curly.",
+    "daily": "3 min: shave, a little light wax on the top.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4–5 weeks",
+    "suitsText": "Oval, round, square and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Flat sides",
+        "text": "Perm keeps them down."
+      },
+      {
+        "title": "Top volume",
+        "text": "Natural lift."
+      },
+      {
+        "title": "Tidy neck",
+        "text": "Clean line."
+      },
+      {
+        "title": "Clean face",
+        "text": "No beard or moustache."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H46",
+    "beard": "B01",
+    "moustache": null,
+    "moustacheMode": "shave-off",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H46 Down Perm · B01 Clean Shave · Moustache: Shave off",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L96",
+    "updated": "2026-10-30",
+    "slug": "dandy-stubble",
+    "name": "Dandy Stubble",
+    "shortLine": "A soft Dandy Cut with light stubble.",
+    "description": "A Dandy Cut with soft side-swept volume and Light Stubble. Gentle and polished, with a masculine touch from the stubble.",
+    "pickIf": "you want a soft look with a masculine touch.",
+    "skipIf": "you have very thin hair, or no time to blow dry.",
+    "daily": "7 min: blow dry the top up and to the side, light wax.",
+    "weekly": "Trim the stubble at 2 mm.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, round, square and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Soft volume",
+        "text": "Lifted and airy."
+      },
+      {
+        "title": "Side sweep",
+        "text": "A gentle curve."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "Short and neat."
+      },
+      {
+        "title": "Light stubble",
+        "text": "1–2 mm."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H43",
+    "beard": "B02",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H43 Dandy Cut · B02 Light Stubble",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L97",
+    "updated": "2026-10-30",
+    "slug": "ash-two-block",
+    "name": "Ash Two-Block",
+    "shortLine": "A Korean two-block with fine ash highlights.",
+    "description": "A Two-Block with fine Ash Highlights through the top, with a clean-shaven face. The top and sides are cut in two blocks, so the cool ash colour stands out.",
+    "pickIf": "you want the Korean two-block look with a cool, modern colour.",
+    "skipIf": "your hair is very thin, or your workplace needs natural hair.",
+    "daily": "6 min: shave, blow dry the top, light wax.",
+    "weekly": "Purple shampoo once. Colour-safe shampoo otherwise.",
+    "nextVisit": "in 5–6 weeks",
+    "atShop": "90–120 min on colour day",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Ash highlights",
+        "text": "Fine, on top only."
+      },
+      {
+        "title": "Two-block",
+        "text": "Short sides, long top."
+      },
+      {
+        "title": "Soft fringe",
+        "text": "Falls to the brows."
+      },
+      {
+        "title": "Clean face",
+        "text": "No beard or moustache."
+      }
+    ],
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H18",
+    "beard": "B01",
+    "moustache": null,
+    "moustacheMode": "shave-off",
+    "colour": "C32",
+    "colourBeard": false,
+    "includesText": "H18 Two-Block · B01 Clean Shave · Moustache: Shave off · C32 Ash Highlights",
+    "colourType": "shades",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L98",
+    "updated": "2026-10-30",
+    "slug": "c-curl-sweet",
+    "name": "C-Curl Sweet",
+    "shortLine": "A soft C-curl perm with a clean-shaven face.",
+    "description": "A C-Curl Perm with the ends curling inward in a soft C shape, with a clean-shaven face. Sweet, soft and polished.",
+    "pickIf": "you want a soft, face-framing look.",
+    "skipIf": "your hair is very short on top, or very thick and coarse.",
+    "daily": "4 min: shave, blow dry the ends inward, light wax.",
+    "weekly": "Conditioner once.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "C-curve ends",
+        "text": "Curl inward."
+      },
+      {
+        "title": "Soft fringe",
+        "text": "To the brows."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "#3 to #2."
+      },
+      {
+        "title": "Clean face",
+        "text": "No beard or moustache."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H97",
+    "beard": "B01",
+    "moustache": null,
+    "moustacheMode": "shave-off",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H97 C-Curl Perm · B01 Clean Shave · Moustache: Shave off",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "L99",
+    "updated": "2026-10-30",
+    "slug": "baby-perm-fresh",
+    "name": "Baby Perm Fresh",
+    "shortLine": "A baby perm with fluffy volume and a clean-shaven face.",
+    "description": "A Baby Perm with small, soft curls and fluffy volume, with a clean-shaven face. Light, boyish and easy.",
+    "pickIf": "your hair is flat or thin and you want easy volume.",
+    "skipIf": "your hair is already very curly.",
+    "daily": "2 min: shave, scrunch with a little cream.",
+    "weekly": "Conditioner once.",
+    "nextVisit": "in 4–5 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Small curls",
+        "text": "Soft and loose."
+      },
+      {
+        "title": "Airy volume",
+        "text": "Fluffy top."
+      },
+      {
+        "title": "Short fringe",
+        "text": "Above the brows."
+      },
+      {
+        "title": "Clean face",
+        "text": "No beard or moustache."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H96",
+    "beard": "B01",
+    "moustache": null,
+    "moustacheMode": "shave-off",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H96 Baby Perm · B01 Clean Shave · Moustache: Shave off",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
   }
 ]

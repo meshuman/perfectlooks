@@ -35,20 +35,20 @@ category.moustaches.intro,Screen text: category,"Pairs with any beard except Van
 category.colours.intro,Screen text: category,The level number tells the barber which shade to use from any brand. Every colour starts with an allergy question.,लेवल नंबर से बार्बर को पता चलता है कि किसी भी ब्रांड का कौन सा शेड लगाना है। हर रंग एलर्जी के सवाल से शुरू होता है।,draft,
 category.looks.intro,Screen text: category,Complete hair and beard sets. Pick one and it fills My Look in one tap.,"बाल और दाढ़ी के पूरे सेट। एक चुनें, एक टैप में मेरा लुक भर जाएगा।",draft,
 category.hair.seoTitle,Screen text: category,Men's haircuts: 99 styles and how to ask your barber,पुरुषों के हेयरकट: 99 स्टाइल और बार्बर से कैसे कहें,draft,
-category.beards.seoTitle,Screen text: category,Beard styles: 16 shapes and how to ask your barber,दाढ़ी के स्टाइल: 16 आकार और बार्बर से कैसे कहें,draft,
-category.moustaches.seoTitle,Screen text: category,Moustache styles: 12 shapes and how to ask your barber,मूंछ के स्टाइल: 12 आकार और बार्बर से कैसे कहें,draft,
+category.beards.seoTitle,Screen text: category,Beard styles: 21 shapes and how to ask your barber,दाढ़ी के स्टाइल: 21 आकार और बार्बर से कैसे कहें,draft,
+category.moustaches.seoTitle,Screen text: category,Moustache styles: 17 shapes and how to ask your barber,मूंछ के स्टाइल: 17 आकार और बार्बर से कैसे कहें,draft,
 category.colours.seoTitle,Screen text: category,"Men's hair colours: 12 shades, grey cover and care","पुरुषों के बालों के रंग: 12 शेड, सफ़ेद बाल छिपाना और देखभाल",draft,
-category.looks.seoTitle,Screen text: category,Ready Looks: 88 hair and beard combinations,रेडी लुक्स: बाल और दाढ़ी के 88 कॉम्बिनेशन,draft,
+category.looks.seoTitle,Screen text: category,Ready Looks: 94 hair and beard combinations,रेडी लुक्स: बाल और दाढ़ी के 94 कॉम्बिनेशन,draft,
 category.hair.seoDescription,Screen text: category,"99 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज़ कट से कंधे तक के बालों तक, पुरुषों के 99 हेयरकट। किस पर जंचता है, रोज़ स्टाइल करने में कितना समय लगता है, और बार्बर को दिखाने के सटीक स्टेप देखें।",draft,
-category.beards.seoDescription,Screen text: category,"16 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लीन शेव से लंबी दाढ़ी तक 16 दाढ़ी के स्टाइल। देखें कौन सा कम, मध्यम या घनी दाढ़ी पर जंचता है, ट्रिमर की लंबाई और बार्बर के स्टेप।",draft,
-category.moustaches.seoDescription,Screen text: category,"12 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटी ट्रिम से हैंडलबार और डाली तक 12 मूंछ के स्टाइल। देखें कितनी बढ़नी चाहिए, रोज़ की स्टाइलिंग और बार्बर के सटीक स्टेप।",draft,
+category.beards.seoDescription,Screen text: category,"21 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लीन शेव से लंबी दाढ़ी तक 21 दाढ़ी के स्टाइल। देखें कौन सा कम, मध्यम या घनी दाढ़ी पर जंचता है, ट्रिमर की लंबाई और बार्बर के स्टेप।",draft,
+category.moustaches.seoDescription,Screen text: category,"17 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटी ट्रिम से हैंडलबार और डाली तक 17 मूंछ के स्टाइल। देखें कितनी बढ़नी चाहिए, रोज़ की स्टाइलिंग और बार्बर के सटीक स्टेप।",draft,
 category.colours.seoDescription,Screen text: category,"12 men's hair colours from jet black to silver and henna. See grey coverage, time at the shop, skin tones that suit and how to stay safe.","जेट ब्लैक से सिल्वर और मेहंदी तक पुरुषों के 12 बालों के रंग। देखें सफ़ेद बाल कितने छिपते हैं, दुकान पर समय, कौन सी त्वचा पर जंचता है और सुरक्षित कैसे रहें।",draft,
-category.looks.seoDescription,Screen text: category,"88 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","ऑफ़िस, शादी, त्योहार और रोज़ के लिए बाल, दाढ़ी, मूंछ और रंग के 88 तैयार कॉम्बिनेशन। एक चुनें और अपने बार्बर को दिखाएँ।",draft,
+category.looks.seoDescription,Screen text: category,"94 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","ऑफ़िस, शादी, त्योहार और रोज़ के लिए बाल, दाढ़ी, मूंछ और रंग के 94 तैयार कॉम्बिनेशन। एक चुनें और अपने बार्बर को दिखाएँ।",draft,
 category.hair.tileCount,Screen text: category,99 styles,99 स्टाइल,draft,
-category.beards.tileCount,Screen text: category,16 styles,16 स्टाइल,draft,
-category.moustaches.tileCount,Screen text: category,12 styles,12 स्टाइल,draft,
+category.beards.tileCount,Screen text: category,21 styles,21 स्टाइल,draft,
+category.moustaches.tileCount,Screen text: category,17 styles,17 स्टाइल,draft,
 category.colours.tileCount,Screen text: category,33 colours,33 रंग,draft,
-category.looks.tileCount,Screen text: category,88 looks,88 लुक,draft,
+category.looks.tileCount,Screen text: category,94 looks,94 लुक,draft,
 home.title,Screen text: home,"{shop}, {area}: pick your look, for men and women","{shop}, {area}: अपना लुक चुनें, पुरुष और महिला दोनों के लिए",draft,Keep the {words in braces}: the app fills them in.
 home.description,Screen text: home,"Men's styles and women's beauty services at {shop}, {area}: haircuts, beards, colour, facials, nails and more. Pick yours and show the shop.","{shop}, {area} में पुरुषों के स्टाइल और महिलाओं की ब्यूटी सर्विस: हेयरकट, दाढ़ी, रंग, फ़ेशियल, नाखून और बहुत कुछ। अपनी पसंद चुनें।",draft,Keep the {words in braces}: the app fills them in.
 home.heading,Screen text: home,Pick your look. Show it to your stylist.,अपना लुक चुनें। स्टाइलिस्ट को दिखाएं।,draft,
@@ -357,7 +357,7 @@ shop.hoursValue,Screen text: shop,"Open daily, 7 am – 8 pm","रोज़ ख�
 shop.inTheShop,Screen text: shop,In the shop,दुकान में,draft,
 shop.flowTitle,Screen text: shop,Know what you want before you sit down.,कुर्सी पर बैठने से पहले ही जानें कि आपको क्या चाहिए।,draft,
 shop.step1.title,Screen text: shop,Pick your style,अपना स्टाइल चुनें,draft,
-shop.step1.text,Screen text: shop,"Browse 99 haircuts, 16 beards, 12 moustaches, 33 colours and 88 Ready Looks.","99 हेयरकट, 16 दाढ़ी, 12 मूंछ, 33 रंग और 88 रेडी लुक्स देखें।",draft,
+shop.step1.text,Screen text: shop,"Browse 99 haircuts, 21 beards, 17 moustaches, 33 colours and 94 Ready Looks.","99 हेयरकट, 21 दाढ़ी, 17 मूंछ, 33 रंग और 94 रेडी लुक्स देखें।",draft,
 shop.step2.title,Screen text: shop,Build My Look,मेरा लुक बनाएं,draft,
 shop.step2.text,Screen text: shop,"Save favourites, then choose one hair, beard, moustache and colour.","पसंदीदा सेव करें, फिर एक बाल, दाढ़ी, मूंछ और रंग चुनें।",draft,
 shop.step3.title,Screen text: shop,Show the barber,बार्बर को दिखाएं,draft,
@@ -6479,6 +6479,161 @@ B16.callout.3.title,B16 Mutton Chops,Sharp edges,शार्प किनार
 B16.callout.3.text,B16 Mutton Chops,Razor finish.,रेज़र फ़िनिश।,draft,Photo label line.
 B16.callout.4.title,B16 Mutton Chops,Even length,बराबर लंबाई,draft,Photo label title.
 B16.callout.4.text,B16 Mutton Chops,6 mm.,6 mm।,draft,Photo label line.
+B17.name,B17 Garibaldi,Garibaldi,गैरीबाल्डी,draft,"Catalogue name. Keep it, or write the name customers use."
+B17.shortLine,B17 Garibaldi,"A full, wide, rounded beard with a natural shape.","नेचुरल आकार वाली भरी, चौड़ी, गोल दाढ़ी।",draft,
+B17.description,B17 Garibaldi,"A full, wide beard with a rounded bottom and a natural, soft shape. The moustache blends into the beard.","गोल निचले हिस्से और नरम, नेचुरल आकार वाली भरी, चौड़ी दाढ़ी। मूंछ दाढ़ी में मिल जाती है।",draft,
+B17.pickIf,B17 Garibaldi,"you have thick growth and want a bold, full beard that is easy to shape.","आपकी दाढ़ी घनी है और आप बोल्ड, भरी दाढ़ी चाहते हैं जिसे आकार देना आसान हो।",draft,"Follows ""Pick this if""."
+B17.skipIf,B17 Garibaldi,you have a round face or patchy growth.,आपका चेहरा गोल है या दाढ़ी कहीं-कहीं आती है।,draft,"Follows ""Skip if""."
+B17.daily,B17 Garibaldi,"3 min: beard oil, comb into the round shape.","3 मिनट: बियर्ड ऑयल, गोल आकार में कंघी।",draft,
+B17.weekly,B17 Garibaldi,Wash with beard wash 2–3 times. Trim the edges.,बियर्ड वॉश से 2–3 बार धोएँ। किनारे ट्रिम करें।,draft,
+B17.nextVisit,B17 Garibaldi,in 3–4 weeks,3–4 हफ़्ते में,draft,
+B17.length,B17 Garibaldi,"Wide and rounded, 5–8 cm","चौड़ी और गोल, 5–8 cm",draft,
+B17.faq.1.q,B17 Garibaldi,What is a Garibaldi beard?,गैरीबाल्डी दाढ़ी क्या है?,draft,
+B17.faq.1.a,B17 Garibaldi,"A full, wide beard with a rounded bottom and a soft, natural shape.","गोल निचले हिस्से और नरम, नेचुरल आकार वाली भरी, चौड़ी दाढ़ी।",draft,"Keep any <a href=""...""> link tags as they are."
+B17.faq.2.q,B17 Garibaldi,How long does it take to grow?,इसे उगाने में कितना समय लगता है?,draft,
+B17.faq.2.a,B17 Garibaldi,About 3–4 months of full growth.,पूरी तरह उगने में लगभग 3–4 महीने।,draft,"Keep any <a href=""...""> link tags as they are."
+B17.faq.3.q,B17 Garibaldi,Does it suit a long face?,क्या यह लंबे चेहरे पर जँचती है?,draft,
+B17.faq.3.a,B17 Garibaldi,Yes. The width balances a long face.,हाँ। चौड़ाई लंबे चेहरे को संतुलित करती है।,draft,"Keep any <a href=""...""> link tags as they are."
+B17.faq.4.q,B17 Garibaldi,How do I keep the shape?,आकार कैसे बनाए रखें?,draft,
+B17.faq.4.a,B17 Garibaldi,"Comb it, oil it, and trim only the edges and the neck line.","कंघी करें, तेल लगाएँ, और सिर्फ़ किनारे और गर्दन ट्रिम करें।",draft,"Keep any <a href=""...""> link tags as they are."
+B17.step.1,B17 Garibaldi,Comb the beard down.,दाढ़ी में नीचे की ओर कंघी करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B17.step.2,B17 Garibaldi,Sides and chin: trim to an even 5–8 cm.,किनारे और ठुड्डी: बराबर 5–8 cm पर ट्रिम।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B17.step.3,B17 Garibaldi,Round the bottom into a soft curve.,निचले हिस्से को नरम गोलाई दें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B17.step.4,B17 Garibaldi,Cheek line: clean and natural.,गाल की लाइन: साफ़ और नेचुरल।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B17.step.5,B17 Garibaldi,Neck line: 2 fingers above Adam's apple.,गर्दन की लाइन: गले की गाँठ से 2 उँगली ऊपर।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B17.step.6,B17 Garibaldi,Finish with beard oil.,बियर्ड ऑयल लगाकर फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B17.callout.1.title,B17 Garibaldi,Wide and full,चौड़ी और भरी,draft,Photo label title.
+B17.callout.1.text,B17 Garibaldi,Even length all over.,पूरे चेहरे पर बराबर लंबाई।,draft,Photo label line.
+B17.callout.2.title,B17 Garibaldi,Rounded bottom,गोल निचला हिस्सा,draft,Photo label title.
+B17.callout.2.text,B17 Garibaldi,A soft curve.,नरम घुमाव।,draft,Photo label line.
+B17.callout.3.title,B17 Garibaldi,Blended moustache,मिली हुई मूंछ,draft,Photo label title.
+B17.callout.3.text,B17 Garibaldi,Joins the beard.,दाढ़ी से जुड़ती है।,draft,Photo label line.
+B17.callout.4.title,B17 Garibaldi,Neck line,गर्दन की लाइन,draft,Photo label title.
+B17.callout.4.text,B17 Garibaldi,2 fingers above the Adam's apple.,गले की गाँठ से 2 उँगली ऊपर।,draft,Photo label line.
+B18.name,B18 French Fork,French Fork,फ़्रेंच फ़ोर्क,draft,"Catalogue name. Keep it, or write the name customers use."
+B18.shortLine,B18 French Fork,A long beard split into two points at the chin.,ठुड्डी पर दो नोकों में बँटी लंबी दाढ़ी।,draft,
+B18.description,B18 French Fork,"A full beard grown long at the chin and parted into two soft points, with shorter sides. A bold, distinctive shape.","ठुड्डी पर लंबी बढ़ाई और दो नरम नोकों में बँटी, छोटे किनारों वाली भरी दाढ़ी। बोल्ड, अलग आकार।",draft,
+B18.pickIf,B18 French Fork,you have thick growth and want a beard that stands out.,आपकी दाढ़ी घनी है और आप भीड़ से अलग दिखने वाली दाढ़ी चाहते हैं।,draft,"Follows ""Pick this if""."
+B18.skipIf,B18 French Fork,"you have a long face, patchy growth, or no time to style daily.","आपका चेहरा लंबा है, दाढ़ी कहीं-कहीं आती है, या रोज़ स्टाइल का समय नहीं है।",draft,"Follows ""Skip if""."
+B18.daily,B18 French Fork,"4 min: beard oil, comb and split into two points.","4 मिनट: बियर्ड ऑयल, कंघी करके दो नोकों में बाँटें।",draft,
+B18.weekly,B18 French Fork,Wash with beard wash 2–3 times. Trim the sides.,बियर्ड वॉश से 2–3 बार धोएँ। किनारे ट्रिम करें।,draft,
+B18.nextVisit,B18 French Fork,in 3 weeks,3 हफ़्ते में,draft,
+B18.length,B18 French Fork,"Forked, 6–8 cm at the chin","फ़ोर्क आकार, ठुड्डी पर 6–8 cm",draft,
+B18.faq.1.q,B18 French Fork,What is a French fork beard?,फ़्रेंच फ़ोर्क दाढ़ी क्या है?,draft,
+B18.faq.1.a,B18 French Fork,"A full beard with a long chin split into two soft points, with shorter sides.","ठुड्डी पर लंबी, दो नरम नोकों में बँटी और किनारे छोटे रखी भरी दाढ़ी।",draft,"Keep any <a href=""...""> link tags as they are."
+B18.faq.2.q,B18 French Fork,How long does it take to grow?,इसे उगाने में कितना समय लगता है?,draft,
+B18.faq.2.a,B18 French Fork,"About 4 months, because the chin needs real length.","लगभग 4 महीने, क्योंकि ठुड्डी पर असली लंबाई चाहिए।",draft,"Keep any <a href=""...""> link tags as they are."
+B18.faq.3.q,B18 French Fork,Does it need styling every day?,क्या इसे रोज़ स्टाइल करना पड़ता है?,draft,
+B18.faq.3.a,B18 French Fork,Yes. Comb and oil it into the two points each morning.,हाँ। हर सुबह कंघी करके तेल लगाएँ और दो नोकें बनाएँ।,draft,"Keep any <a href=""...""> link tags as they are."
+B18.faq.4.q,B18 French Fork,Does it suit a round face?,क्या यह गोल चेहरे पर जँचती है?,draft,
+B18.faq.4.a,B18 French Fork,Yes. The length at the chin makes the face look longer.,हाँ। ठुड्डी की लंबाई चेहरे को लंबा दिखाती है।,draft,"Keep any <a href=""...""> link tags as they are."
+B18.step.1,B18 French Fork,Comb the beard down.,दाढ़ी में नीचे की ओर कंघी करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B18.step.2,B18 French Fork,Sides: trim to 12 mm.,किनारे: 12 mm पर ट्रिम।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B18.step.3,B18 French Fork,Chin: leave 6–8 cm.,ठुड्डी: 6–8 cm छोड़ें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B18.step.4,B18 French Fork,Part the chin down the middle into two points.,ठुड्डी को बीच से बाँटकर दो नोकें बनाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B18.step.5,B18 French Fork,Cheek line: clean and natural.,गाल की लाइन: साफ़ और नेचुरल।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B18.step.6,B18 French Fork,Neck line: 2 fingers above Adam's apple.,गर्दन की लाइन: गले की गाँठ से 2 उँगली ऊपर।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B18.callout.1.title,B18 French Fork,Two points,दो नोकें,draft,Photo label title.
+B18.callout.1.text,B18 French Fork,Split at the chin.,ठुड्डी पर बँटी हुई।,draft,Photo label line.
+B18.callout.2.title,B18 French Fork,Long chin,लंबी ठुड्डी,draft,Photo label title.
+B18.callout.2.text,B18 French Fork,6–8 cm.,6–8 cm।,draft,Photo label line.
+B18.callout.3.title,B18 French Fork,Short sides,छोटे किनारे,draft,Photo label title.
+B18.callout.3.text,B18 French Fork,12 mm.,12 mm।,draft,Photo label line.
+B18.callout.4.title,B18 French Fork,Neck line,गर्दन की लाइन,draft,Photo label title.
+B18.callout.4.text,B18 French Fork,2 fingers above the Adam's apple.,गले की गाँठ से 2 उँगली ऊपर।,draft,Photo label line.
+B19.name,B19 Extended Goatee,Extended Goatee,एक्सटेंडेड गोटी,draft,"Catalogue name. Keep it, or write the name customers use."
+B19.shortLine,B19 Extended Goatee,"A goatee that runs along the jaw, joined to the moustache.","जबड़े तक फैली, मूंछ से जुड़ी गोटी।",draft,
+B19.description,B19 Extended Goatee,"A goatee that extends along the jawline and joins the moustache, with clean cheeks. Neat and defined, with more beard than a plain goatee.","जबड़े की रेखा पर फैलकर मूंछ से जुड़ने वाली गोटी, साफ़ गाल। सादी गोटी से ज़्यादा दाढ़ी, साफ़ और परिभाषित।",draft,
+B19.pickIf,B19 Extended Goatee,you want a defined beard without growing the cheeks.,आप गाल पर दाढ़ी उगाए बिना परिभाषित दाढ़ी चाहते हैं।,draft,"Follows ""Pick this if""."
+B19.skipIf,B19 Extended Goatee,your chin or jaw grows patchy.,आपकी ठुड्डी या जबड़े पर दाढ़ी कहीं-कहीं आती है।,draft,"Follows ""Skip if""."
+B19.daily,B19 Extended Goatee,"3 min: beard oil, comb the chin.","3 मिनट: बियर्ड ऑयल, ठुड्डी में कंघी।",draft,
+B19.weekly,B19 Extended Goatee,Shave the cheeks. Trim the jaw line.,गाल शेव करें। जबड़े की लाइन ट्रिम करें।,draft,
+B19.nextVisit,B19 Extended Goatee,in 2–3 weeks,2–3 हफ़्ते में,draft,
+B19.length,B19 Extended Goatee,"Chin and jaw, 6–9 mm","ठुड्डी और जबड़ा, 6–9 mm",draft,
+B19.faq.1.q,B19 Extended Goatee,What is an extended goatee?,एक्सटेंडेड गोटी क्या है?,draft,
+B19.faq.1.a,B19 Extended Goatee,"A goatee that runs along the jaw and joins the moustache, with the cheeks shaved clean.","जबड़े पर फैलकर मूंछ से जुड़ने वाली गोटी, जिसमें गाल साफ़ शेव होते हैं।",draft,"Keep any <a href=""...""> link tags as they are."
+B19.faq.2.q,B19 Extended Goatee,How is it different from a goatee?,यह गोटी से कैसे अलग है?,draft,
+B19.faq.2.a,B19 Extended Goatee,"It covers the jaw as well as the chin, so the shape is longer and more defined.","यह ठुड्डी के साथ जबड़ा भी ढकती है, इसलिए आकार लंबा और ज़्यादा परिभाषित होता है।",draft,"Keep any <a href=""...""> link tags as they are."
+B19.faq.3.q,B19 Extended Goatee,Does it suit a round face?,क्या यह गोल चेहरे पर जँचती है?,draft,
+B19.faq.3.a,B19 Extended Goatee,Yes. The clean cheeks and the chin length make the face look slimmer.,हाँ। साफ़ गाल और ठुड्डी की लंबाई चेहरे को पतला दिखाते हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+B19.faq.4.q,B19 Extended Goatee,How often do I shave the cheeks?,गाल कितनी बार शेव करें?,draft,
+B19.faq.4.a,B19 Extended Goatee,"Every 2–3 days, to keep the line sharp.",लाइन शार्प रखने के लिए हर 2–3 दिन में।,draft,"Keep any <a href=""...""> link tags as they are."
+B19.step.1,B19 Extended Goatee,Mark the cheek lines with a razor.,रेज़र से गाल की लाइनों पर निशान लगाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B19.step.2,B19 Extended Goatee,Chin and jaw: trimmer 6–9 mm.,ठुड्डी और जबड़ा: ट्रिमर 6–9 mm।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B19.step.3,B19 Extended Goatee,Moustache: join it to the beard.,मूंछ को दाढ़ी से जोड़ें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B19.step.4,B19 Extended Goatee,Shave the cheeks clean.,गाल साफ़ शेव करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B19.step.5,B19 Extended Goatee,Neck line: 2 fingers above Adam's apple.,गर्दन की लाइन: गले की गाँठ से 2 उँगली ऊपर।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B19.step.6,B19 Extended Goatee,Finish with beard oil.,बियर्ड ऑयल लगाकर फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B19.callout.1.title,B19 Extended Goatee,Joined moustache,जुड़ी हुई मूंछ,draft,Photo label title.
+B19.callout.1.text,B19 Extended Goatee,Part of the style.,स्टाइल का हिस्सा।,draft,Photo label line.
+B19.callout.2.title,B19 Extended Goatee,Jaw line,जबड़े की लाइन,draft,Photo label title.
+B19.callout.2.text,B19 Extended Goatee,Beard along the jaw.,जबड़े पर दाढ़ी।,draft,Photo label line.
+B19.callout.3.title,B19 Extended Goatee,Clean cheeks,साफ़ गाल,draft,Photo label title.
+B19.callout.3.text,B19 Extended Goatee,Shaved smooth.,चिकने शेव किए।,draft,Photo label line.
+B19.callout.4.title,B19 Extended Goatee,Neck line,गर्दन की लाइन,draft,Photo label title.
+B19.callout.4.text,B19 Extended Goatee,2 fingers above the Adam's apple.,गले की गाँठ से 2 उँगली ऊपर।,draft,Photo label line.
+B20.name,B20 Chin Curtain,Chin Curtain,चिन कर्टेन,draft,"Catalogue name. Keep it, or write the name customers use."
+B20.shortLine,B20 Chin Curtain,A beard along the jaw and chin with a clean upper lip.,साफ़ ऊपरी होंठ के साथ जबड़े और ठुड्डी पर दाढ़ी।,draft,
+B20.description,B20 Chin Curtain,"A beard that runs along the jawline and under the chin, with the upper lip and cheeks shaved clean. A strong, unusual shape.","जबड़े की रेखा और ठुड्डी के नीचे फैली दाढ़ी, ऊपरी होंठ और गाल साफ़ शेव। मज़बूत, अलग आकार।",draft,
+B20.pickIf,B20 Chin Curtain,you grow a thick jaw and want a beard without a moustache.,आपके जबड़े पर घनी दाढ़ी आती है और आप मूंछ के बिना दाढ़ी चाहते हैं।,draft,"Follows ""Pick this if""."
+B20.skipIf,B20 Chin Curtain,you have a long face or patchy growth on the jaw.,आपका चेहरा लंबा है या जबड़े पर दाढ़ी कहीं-कहीं आती है।,draft,"Follows ""Skip if""."
+B20.daily,B20 Chin Curtain,"3 min: beard oil, comb the chin.","3 मिनट: बियर्ड ऑयल, ठुड्डी में कंघी।",draft,
+B20.weekly,B20 Chin Curtain,Shave the lip and cheeks. Trim the length.,होंठ और गाल शेव करें। लंबाई ट्रिम करें।,draft,
+B20.nextVisit,B20 Chin Curtain,in 3 weeks,3 हफ़्ते में,draft,
+B20.length,B20 Chin Curtain,"Jaw and chin, 2–3 cm","जबड़ा और ठुड्डी, 2–3 cm",draft,
+B20.faq.1.q,B20 Chin Curtain,What is a chin curtain beard?,चिन कर्टेन दाढ़ी क्या है?,draft,
+B20.faq.1.a,B20 Chin Curtain,A beard along the jaw and chin with a clean-shaven upper lip and cheeks.,"जबड़े और ठुड्डी पर दाढ़ी, ऊपरी होंठ और गाल साफ़ शेव।",draft,"Keep any <a href=""...""> link tags as they are."
+B20.faq.2.q,B20 Chin Curtain,Does it have a moustache?,क्या इसमें मूंछ होती है?,draft,
+B20.faq.2.a,B20 Chin Curtain,"No. The upper lip is shaved, but you can add a moustache if you prefer.","नहीं। ऊपरी होंठ शेव होता है, पर चाहें तो मूंछ जोड़ सकते हैं।",draft,"Keep any <a href=""...""> link tags as they are."
+B20.faq.3.q,B20 Chin Curtain,Does it suit a round face?,क्या यह गोल चेहरे पर जँचती है?,draft,
+B20.faq.3.a,B20 Chin Curtain,Yes. The length under the chin makes the face look longer.,हाँ। ठुड्डी के नीचे की लंबाई चेहरे को लंबा दिखाती है।,draft,"Keep any <a href=""...""> link tags as they are."
+B20.faq.4.q,B20 Chin Curtain,How long should it be?,कितनी लंबी होनी चाहिए?,draft,
+B20.faq.4.a,B20 Chin Curtain,About 2–3 cm. Any shorter loses the shape.,लगभग 2–3 cm। इससे छोटी होने पर आकार खो जाता है।,draft,"Keep any <a href=""...""> link tags as they are."
+B20.step.1,B20 Chin Curtain,Mark the jaw line and cheek lines.,जबड़े की लाइन और गाल की लाइनों पर निशान लगाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B20.step.2,B20 Chin Curtain,Jaw and chin: trim to 2–3 cm.,जबड़ा और ठुड्डी: 2–3 cm पर ट्रिम।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B20.step.3,B20 Chin Curtain,Shave the upper lip clean.,ऊपरी होंठ साफ़ शेव करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B20.step.4,B20 Chin Curtain,Shave the cheeks clean.,गाल साफ़ शेव करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B20.step.5,B20 Chin Curtain,Neck line: 2 fingers above Adam's apple.,गर्दन की लाइन: गले की गाँठ से 2 उँगली ऊपर।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B20.step.6,B20 Chin Curtain,Finish with beard oil.,बियर्ड ऑयल लगाकर फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B20.callout.1.title,B20 Chin Curtain,Jaw beard,जबड़े की दाढ़ी,draft,Photo label title.
+B20.callout.1.text,B20 Chin Curtain,Along the jaw and chin.,जबड़े और ठुड्डी पर।,draft,Photo label line.
+B20.callout.2.title,B20 Chin Curtain,Clean lip,साफ़ होंठ,draft,Photo label title.
+B20.callout.2.text,B20 Chin Curtain,No moustache.,मूंछ नहीं।,draft,Photo label line.
+B20.callout.3.title,B20 Chin Curtain,Clean cheeks,साफ़ गाल,draft,Photo label title.
+B20.callout.3.text,B20 Chin Curtain,Sharp line.,शार्प लाइन।,draft,Photo label line.
+B20.callout.4.title,B20 Chin Curtain,Neck line,गर्दन की लाइन,draft,Photo label title.
+B20.callout.4.text,B20 Chin Curtain,2 fingers above the Adam's apple.,गले की गाँठ से 2 उँगली ऊपर।,draft,Photo label line.
+B21.name,B21 Designer Stubble,Designer Stubble,डिज़ाइनर स्टबल,draft,"Catalogue name. Keep it, or write the name customers use."
+B21.shortLine,B21 Designer Stubble,"Shaped 3 mm stubble with sharp, clean lines.","शार्प, साफ़ लाइनों के साथ आकार दिया 3 mm स्टबल।",draft,
+B21.description,B21 Designer Stubble,"Stubble kept at a steady 3 mm and shaped with sharp cheek and neck lines. It looks planned, not lazy: neat but still relaxed.","3 mm पर स्थिर रखा और शार्प गाल व गर्दन की लाइनों से आकार दिया स्टबल। सोचा-समझा दिखता है, आलसी नहीं: साफ़ पर आरामदायक।",draft,
+B21.pickIf,B21 Designer Stubble,you want a stylish stubble that looks cared for.,आप ऐसा स्टाइलिश स्टबल चाहते हैं जो देखभाल किया हुआ लगे।,draft,"Follows ""Pick this if""."
+B21.skipIf,B21 Designer Stubble,your growth is patchy.,आपकी दाढ़ी कहीं-कहीं आती है।,draft,"Follows ""Skip if""."
+B21.daily,B21 Designer Stubble,"2 min: nothing, or a little beard oil.","2 मिनट: कुछ नहीं, या थोड़ा बियर्ड ऑयल।",draft,
+B21.weekly,B21 Designer Stubble,Trim at 3 mm and redo the lines.,3 mm पर ट्रिम करें और लाइनें दोबारा बनाएँ।,draft,
+B21.nextVisit,B21 Designer Stubble,in 2–3 weeks,2–3 हफ़्ते में,draft,
+B21.length,B21 Designer Stubble,3 mm,3 mm,draft,
+B21.faq.1.q,B21 Designer Stubble,What is designer stubble?,डिज़ाइनर स्टबल क्या है?,draft,
+B21.faq.1.a,B21 Designer Stubble,"Stubble trimmed to a steady 3 mm with sharp, shaped cheek and neck lines.","शार्प, आकार दी हुई गाल और गर्दन की लाइनों के साथ स्थिर 3 mm पर ट्रिम किया गया स्टबल।",draft,"Keep any <a href=""...""> link tags as they are."
+B21.faq.2.q,B21 Designer Stubble,How is it different from heavy stubble?,यह हेवी स्टबल से कैसे अलग है?,draft,
+B21.faq.2.a,B21 Designer Stubble,"It is shorter at 3 mm and has crisp lines, so it looks shaped on purpose.","3 mm पर छोटा और साफ़ लाइनों वाला, इसलिए जानबूझकर आकार दिया हुआ दिखता है।",draft,"Keep any <a href=""...""> link tags as they are."
+B21.faq.3.q,B21 Designer Stubble,How often do I trim it?,कितनी बार ट्रिम करें?,draft,
+B21.faq.3.a,B21 Designer Stubble,"Every 3–4 days at 3 mm, and redo the lines once a week.","हर 3–4 दिन में 3 mm पर, और हफ़्ते में एक बार लाइनें दोबारा बनाएँ।",draft,"Keep any <a href=""...""> link tags as they are."
+B21.faq.4.q,B21 Designer Stubble,Does it suit every face?,क्या यह हर चेहरे पर जँचता है?,draft,
+B21.faq.4.a,B21 Designer Stubble,Yes. Sharp lines add definition to any face shape.,हाँ। शार्प लाइनें किसी भी चेहरे में निखार जोड़ती हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+B21.step.1,B21 Designer Stubble,Set the trimmer to 3 mm.,ट्रिमर को 3 mm पर सेट करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B21.step.2,B21 Designer Stubble,"Trim the cheeks, chin and moustache evenly.","गाल, ठुड्डी और मूंछ बराबर ट्रिम करें।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B21.step.3,B21 Designer Stubble,Shape the cheek line with a razor.,रेज़र से गाल की लाइन को आकार दें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B21.step.4,B21 Designer Stubble,Clean the neck line 2 fingers above Adam's apple.,गर्दन की लाइन गले की गाँठ से 2 उँगली ऊपर साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B21.step.5,B21 Designer Stubble,Check the moustache is the same length.,जाँचें कि मूंछ उसी लंबाई की है।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B21.step.6,B21 Designer Stubble,Finish with a little beard oil.,थोड़ा बियर्ड ऑयल लगाकर फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+B21.callout.1.title,B21 Designer Stubble,3 mm,3 mm,draft,Photo label title.
+B21.callout.1.text,B21 Designer Stubble,Even all over.,पूरे चेहरे पर बराबर।,draft,Photo label line.
+B21.callout.2.title,B21 Designer Stubble,Sharp cheek line,शार्प गाल की लाइन,draft,Photo label title.
+B21.callout.2.text,B21 Designer Stubble,Shaped with a razor.,रेज़र से आकार दी हुई।,draft,Photo label line.
+B21.callout.3.title,B21 Designer Stubble,Crisp neck line,साफ़ गर्दन की लाइन,draft,Photo label title.
+B21.callout.3.text,B21 Designer Stubble,2 fingers above the Adam's apple.,गले की गाँठ से 2 उँगली ऊपर।,draft,Photo label line.
+B21.callout.4.title,B21 Designer Stubble,Same moustache,वैसी ही मूंछ,draft,Photo label title.
+B21.callout.4.text,B21 Designer Stubble,Matches the beard.,दाढ़ी से मेल खाती है।,draft,Photo label line.
 M01.name,M01 Short Trimmed,Short Trimmed,शोर्ट ट्रिम्ड,draft,"Catalogue name. Keep it, or write the name customers use."
 M01.shortLine,M01 Short Trimmed,"Neat, short moustache that stops at the lip.","होंठ से पहले रुकने वाली साफ़, छोटी मूंछ।",draft,
 M01.description,M01 Short Trimmed,"A simple, neat moustache trimmed short above the lip.","होंठ के ऊपर छोटी ट्रिम की गई सादी, साफ़ मूंछ।",draft,
@@ -6848,6 +7003,161 @@ M12.callout.3.title,M12 Dali,Thin middle,पतला बीच,draft,Photo labe
 M12.callout.3.text,M12 Dali,Short above the lip.,होंठ के ऊपर छोटा।,draft,Photo label line.
 M12.callout.4.title,M12 Dali,Shaved around,आसपास शेव,draft,Photo label title.
 M12.callout.4.text,M12 Dali,Clean face.,साफ़ चेहरा।,draft,Photo label line.
+M13.name,M13 Fu Manchu,Fu Manchu,फ़ू मांचू,draft,"Catalogue name. Keep it, or write the name customers use."
+M13.shortLine,M13 Fu Manchu,"A long, thin moustache that hangs down past the chin.","ठुड्डी से नीचे लटकती लंबी, पतली मूंछ।",draft,
+M13.description,M13 Fu Manchu,"A long, thin moustache that grows from the corners of the mouth and hangs straight down below the chin. Bold and dramatic.","मुँह के कोनों से उगकर ठुड्डी से नीचे सीधी लटकने वाली लंबी, पतली मूंछ। बोल्ड और नाटकीय।",draft,
+M13.pickIf,M13 Fu Manchu,"you have thick, strong growth and want a dramatic, old-school look.","आपकी घनी, मज़बूत दाढ़ी है और आप नाटकीय, पुराने ज़माने का लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+M13.skipIf,M13 Fu Manchu,"your growth is patchy, or you have a round face.","आपकी दाढ़ी कहीं-कहीं आती है, या चेहरा गोल है।",draft,"Follows ""Skip if""."
+M13.daily,M13 Fu Manchu,"3 min: comb the ends down, a little wax.","3 मिनट: सिरों को नीचे की ओर कंघी, थोड़ा वैक्स।",draft,
+M13.weekly,M13 Fu Manchu,Trim the lip line and shape the ends.,होंठ की लाइन ट्रिम करें और सिरों को आकार दें।,draft,
+M13.nextVisit,M13 Fu Manchu,in 3 weeks,3 हफ़्ते में,draft,
+M13.length,M13 Fu Manchu,"Long, hanging below the chin","लंबी, ठुड्डी से नीचे लटकती",draft,
+M13.faq.1.q,M13 Fu Manchu,What is a Fu Manchu moustache?,फ़ू मांचू मूंछ क्या है?,draft,
+M13.faq.1.a,M13 Fu Manchu,"A long, thin moustache that hangs straight down from the corners of the mouth, past the chin.","मुँह के कोनों से ठुड्डी से नीचे सीधी लटकने वाली लंबी, पतली मूंछ।",draft,"Keep any <a href=""...""> link tags as they are."
+M13.faq.2.q,M13 Fu Manchu,How long does it take to grow?,इसे उगाने में कितना समय लगता है?,draft,
+M13.faq.2.a,M13 Fu Manchu,About 3–4 months for the ends to hang below the chin.,सिरों को ठुड्डी के नीचे लटकने में लगभग 3–4 महीने।,draft,"Keep any <a href=""...""> link tags as they are."
+M13.faq.3.q,M13 Fu Manchu,Do I need wax?,क्या वैक्स चाहिए?,draft,
+M13.faq.3.a,M13 Fu Manchu,"A little, to keep the ends straight and tidy.","थोड़ा, सिरों को सीधा और साफ़ रखने के लिए।",draft,"Keep any <a href=""...""> link tags as they are."
+M13.faq.4.q,M13 Fu Manchu,Can I wear it with a beard?,क्या इसे दाढ़ी के साथ लगा सकते हैं?,draft,
+M13.faq.4.a,M13 Fu Manchu,"It works best with a clean-shaven chin, or only with a goatee.","साफ़ शेव की हुई ठुड्डी के साथ, या सिर्फ़ गोटी के साथ सबसे अच्छी लगती है।",draft,"Keep any <a href=""...""> link tags as they are."
+M13.step.1,M13 Fu Manchu,Grow the ends past the chin.,सिरों को ठुड्डी से नीचे तक बढ़ाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M13.step.2,M13 Fu Manchu,Trim the middle above the lip line.,बीच का हिस्सा होंठ की लाइन के ऊपर ट्रिम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M13.step.3,M13 Fu Manchu,Comb the ends straight down.,सिरों को सीधा नीचे कंघी करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M13.step.4,M13 Fu Manchu,Trim the ends to an even length.,सिरों को बराबर लंबाई में ट्रिम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M13.step.5,M13 Fu Manchu,Shave the cheeks and upper lip line clean.,गाल और ऊपरी होंठ की लाइन साफ़ शेव करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M13.step.6,M13 Fu Manchu,Wax the ends.,सिरों पर वैक्स लगाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M13.callout.1.title,M13 Fu Manchu,Long ends,लंबे सिरे,draft,Photo label title.
+M13.callout.1.text,M13 Fu Manchu,Below the chin.,ठुड्डी से नीचे।,draft,Photo label line.
+M13.callout.2.title,M13 Fu Manchu,Thin shape,पतला आकार,draft,Photo label title.
+M13.callout.2.text,M13 Fu Manchu,Narrow and straight.,संकरी और सीधी।,draft,Photo label line.
+M13.callout.3.title,M13 Fu Manchu,Trimmed middle,ट्रिम किया बीच,draft,Photo label title.
+M13.callout.3.text,M13 Fu Manchu,Above the lip.,होंठ के ऊपर।,draft,Photo label line.
+M13.callout.4.title,M13 Fu Manchu,Clean cheeks,साफ़ गाल,draft,Photo label title.
+M13.callout.4.text,M13 Fu Manchu,Shaved smooth.,चिकने शेव किए।,draft,Photo label line.
+M14.name,M14 Toothbrush,Toothbrush,टूथब्रश,draft,"Catalogue name. Keep it, or write the name customers use."
+M14.shortLine,M14 Toothbrush,"A short, neat, square moustache under the nose.","नाक के नीचे छोटी, साफ़, चौकोर मूंछ।",draft,
+M14.description,M14 Toothbrush,"A short, thick moustache that is the same width as the nose and sits squarely above the lip. Tidy and low-maintenance.","नाक जितनी चौड़ी, होंठ के ऊपर चौकोर बैठने वाली छोटी, घनी मूंछ। साफ़ और कम देखभाल वाली।",draft,
+M14.pickIf,M14 Toothbrush,"you want a small, neat moustache that needs very little care.","आप छोटी, साफ़ मूंछ चाहते हैं जिसे बहुत कम देखभाल चाहिए।",draft,"Follows ""Pick this if""."
+M14.skipIf,M14 Toothbrush,your growth is patchy under the nose.,आपकी नाक के नीचे दाढ़ी कहीं-कहीं आती है।,draft,"Follows ""Skip if""."
+M14.daily,M14 Toothbrush,"1 min: nothing, or a quick comb.","1 मिनट: कुछ नहीं, या झटपट कंघी।",draft,
+M14.weekly,M14 Toothbrush,Trim the width and the lip line.,चौड़ाई और होंठ की लाइन ट्रिम करें।,draft,
+M14.nextVisit,M14 Toothbrush,in 3–4 weeks,3–4 हफ़्ते में,draft,
+M14.length,M14 Toothbrush,Short and square,छोटी और चौकोर,draft,
+M14.faq.1.q,M14 Toothbrush,What is a toothbrush moustache?,टूथब्रश मूंछ क्या है?,draft,
+M14.faq.1.a,M14 Toothbrush,"A short, thick, square moustache about the width of the nose.","नाक की चौड़ाई जितनी छोटी, घनी, चौकोर मूंछ।",draft,"Keep any <a href=""...""> link tags as they are."
+M14.faq.2.q,M14 Toothbrush,How is it different from a pencil moustache?,यह पेंसिल मूंछ से कैसे अलग है?,draft,
+M14.faq.2.a,M14 Toothbrush,"It is thicker and shorter, and it covers the full area under the nose.",यह ज़्यादा घनी और छोटी होती है और नाक के नीचे का पूरा हिस्सा ढकती है।,draft,"Keep any <a href=""...""> link tags as they are."
+M14.faq.3.q,M14 Toothbrush,Is it easy to keep?,क्या इसे रखना आसान है?,draft,
+M14.faq.3.a,M14 Toothbrush,Yes. It needs a trim once a week and no styling.,"हाँ। हफ़्ते में एक बार ट्रिम चाहिए, स्टाइलिंग नहीं।",draft,"Keep any <a href=""...""> link tags as they are."
+M14.faq.4.q,M14 Toothbrush,Does it suit a round face?,क्या यह गोल चेहरे पर जँचती है?,draft,
+M14.faq.4.a,M14 Toothbrush,"Yes. It is small, so it does not widen the face.","हाँ। यह छोटी है, इसलिए चेहरे को चौड़ा नहीं दिखाती।",draft,"Keep any <a href=""...""> link tags as they are."
+M14.step.1,M14 Toothbrush,Mark the width at the nose edges.,नाक के किनारों पर चौड़ाई पर निशान लगाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M14.step.2,M14 Toothbrush,Trim the top of the moustache above the lip line.,मूंछ का ऊपरी हिस्सा होंठ की लाइन के ऊपर ट्रिम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M14.step.3,M14 Toothbrush,Trim the length to about 6 mm.,लंबाई लगभग 6 mm पर ट्रिम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M14.step.4,M14 Toothbrush,Square the ends.,सिरों को चौकोर करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M14.step.5,M14 Toothbrush,Shave around the moustache.,मूंछ के चारों ओर शेव करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M14.step.6,M14 Toothbrush,Comb it down.,नीचे की ओर कंघी करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M14.callout.1.title,M14 Toothbrush,Square shape,चौकोर आकार,draft,Photo label title.
+M14.callout.1.text,M14 Toothbrush,Width of the nose.,नाक जितनी चौड़ाई।,draft,Photo label line.
+M14.callout.2.title,M14 Toothbrush,Short length,छोटी लंबाई,draft,Photo label title.
+M14.callout.2.text,M14 Toothbrush,About 6 mm.,लगभग 6 mm।,draft,Photo label line.
+M14.callout.3.title,M14 Toothbrush,Trimmed lip line,ट्रिम की होंठ की लाइन,draft,Photo label title.
+M14.callout.3.text,M14 Toothbrush,Neat and clean.,साफ़ और चिकनी।,draft,Photo label line.
+M14.callout.4.title,M14 Toothbrush,Clean chin,साफ़ ठुड्डी,draft,Photo label title.
+M14.callout.4.text,M14 Toothbrush,Shaved smooth.,चिकनी शेव की।,draft,Photo label line.
+M15.name,M15 Imperial,Imperial,इम्पीरियल,draft,"Catalogue name. Keep it, or write the name customers use."
+M15.shortLine,M15 Imperial,A full moustache that sweeps out and up past the cheeks.,गालों से आगे ऊपर की ओर फैलती भरी मूंछ।,draft,
+M15.description,M15 Imperial,"A big, full moustache that grows outwards from the nose and sweeps up past the cheeks. Grand and formal, and it needs real length.","नाक से बाहर की ओर उगकर गालों से आगे ऊपर फैलने वाली बड़ी, भरी मूंछ। भव्य और औपचारिक, और असली लंबाई चाहिए।",draft,
+M15.pickIf,M15 Imperial,"you have thick growth and want a grand, old-world look.","आपकी घनी दाढ़ी है और आप भव्य, पुराने ज़माने का लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+M15.skipIf,M15 Imperial,"your growth is patchy, or you do not want to wax every day.","आपकी दाढ़ी कहीं-कहीं आती है, या आप रोज़ वैक्स नहीं लगाना चाहते।",draft,"Follows ""Skip if""."
+M15.daily,M15 Imperial,"4 min: comb outwards, then wax and shape the ends up.","4 मिनट: बाहर की ओर कंघी, फिर वैक्स लगाकर सिरों को ऊपर आकार दें।",draft,
+M15.weekly,M15 Imperial,Trim the lip line. Shave the cheeks.,होंठ की लाइन ट्रिम करें। गाल शेव करें।,draft,
+M15.nextVisit,M15 Imperial,in 3 weeks,3 हफ़्ते में,draft,
+M15.length,M15 Imperial,"Wide, ends sweeping up","चौड़ी, सिरे ऊपर की ओर फैले",draft,
+M15.faq.1.q,M15 Imperial,What is an imperial moustache?,इम्पीरियल मूंछ क्या है?,draft,
+M15.faq.1.a,M15 Imperial,"A full moustache that sweeps outwards and up past the cheeks, beyond a handlebar.","हैंडलबार से आगे, गालों से ऊपर बाहर की ओर फैलने वाली भरी मूंछ।",draft,"Keep any <a href=""...""> link tags as they are."
+M15.faq.2.q,M15 Imperial,How is it different from a handlebar?,यह हैंडलबार से कैसे अलग है?,draft,
+M15.faq.2.a,M15 Imperial,"It is wider, fuller and sweeps up along the cheeks instead of curling at the ends.","यह ज़्यादा चौड़ी, भरी होती है और सिरों पर मुड़ने की जगह गालों पर ऊपर फैलती है।",draft,"Keep any <a href=""...""> link tags as they are."
+M15.faq.3.q,M15 Imperial,How long does it take to grow?,इसे उगाने में कितना समय लगता है?,draft,
+M15.faq.3.a,M15 Imperial,About 3–4 months for the full width.,पूरी चौड़ाई के लिए लगभग 3–4 महीने।,draft,"Keep any <a href=""...""> link tags as they are."
+M15.faq.4.q,M15 Imperial,Do I need wax?,क्या वैक्स चाहिए?,draft,
+M15.faq.4.a,M15 Imperial,Yes. Daily wax keeps the ends lifted.,हाँ। रोज़ का वैक्स सिरों को ऊपर रखता है।,draft,"Keep any <a href=""...""> link tags as they are."
+M15.step.1,M15 Imperial,Grow the moustache out past the cheeks.,मूंछ को गालों से आगे तक बाहर की ओर बढ़ाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M15.step.2,M15 Imperial,Trim the lip line only.,सिर्फ़ होंठ की लाइन ट्रिम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M15.step.3,M15 Imperial,Comb outwards from the centre.,बीच से बाहर की ओर कंघी करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M15.step.4,M15 Imperial,Wax the ends and sweep them up.,सिरों पर वैक्स लगाकर ऊपर फैलाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M15.step.5,M15 Imperial,Shave the cheeks and upper lip line.,गाल और ऊपरी होंठ की लाइन शेव करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M15.step.6,M15 Imperial,Check both sides match.,जाँचें कि दोनों तरफ़ मेल खाते हैं।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M15.callout.1.title,M15 Imperial,Sweeping ends,फैले हुए सिरे,draft,Photo label title.
+M15.callout.1.text,M15 Imperial,Up and past the cheeks.,ऊपर और गालों से आगे।,draft,Photo label line.
+M15.callout.2.title,M15 Imperial,Full width,पूरी चौड़ाई,draft,Photo label title.
+M15.callout.2.text,M15 Imperial,Wide and thick.,चौड़ी और घनी।,draft,Photo label line.
+M15.callout.3.title,M15 Imperial,Trimmed lip line,ट्रिम की होंठ की लाइन,draft,Photo label title.
+M15.callout.3.text,M15 Imperial,Neat and clean.,साफ़ और चिकनी।,draft,Photo label line.
+M15.callout.4.title,M15 Imperial,Waxed shape,वैक्स किया आकार,draft,Photo label title.
+M15.callout.4.text,M15 Imperial,Smooth hold.,चिकनी पकड़।,draft,Photo label line.
+M16.name,M16 Pyramid,Pyramid,पिरामिड,draft,"Catalogue name. Keep it, or write the name customers use."
+M16.shortLine,M16 Pyramid,"A thick moustache shaped like a triangle, wide at the lip.","होंठ पर चौड़ी, त्रिकोण आकार की घनी मूंछ।",draft,
+M16.description,M16 Pyramid,"A thick, full moustache that is wide at the lip and narrows towards the nose, forming a pyramid shape. Strong and masculine.","होंठ पर चौड़ी और नाक की ओर सँकरी होकर पिरामिड आकार बनाने वाली घनी, भरी मूंछ। मज़बूत और मर्दाना।",draft,
+M16.pickIf,M16 Pyramid,"you have thick growth above the lip and want a strong, classic shape.","आपके होंठ के ऊपर घनी दाढ़ी आती है और आप मज़बूत, क्लासिक आकार चाहते हैं।",draft,"Follows ""Pick this if""."
+M16.skipIf,M16 Pyramid,"your growth is thin, or you have a long face.","आपकी दाढ़ी पतली है, या चेहरा लंबा है।",draft,"Follows ""Skip if""."
+M16.daily,M16 Pyramid,"2 min: comb down, a little wax if needed.","2 मिनट: नीचे कंघी, ज़रूरत हो तो थोड़ा वैक्स।",draft,
+M16.weekly,M16 Pyramid,Trim the lip line and the top edge.,होंठ की लाइन और ऊपरी किनारा ट्रिम करें।,draft,
+M16.nextVisit,M16 Pyramid,in 3–4 weeks,3–4 हफ़्ते में,draft,
+M16.length,M16 Pyramid,"Thick, triangle shape","घनी, त्रिकोण आकार",draft,
+M16.faq.1.q,M16 Pyramid,What is a pyramid moustache?,पिरामिड मूंछ क्या है?,draft,
+M16.faq.1.a,M16 Pyramid,"A thick moustache wide at the lip and narrower at the top, like a triangle.","होंठ पर चौड़ी और ऊपर सँकरी, त्रिकोण जैसी घनी मूंछ।",draft,"Keep any <a href=""...""> link tags as they are."
+M16.faq.2.q,M16 Pyramid,How is it different from a chevron?,यह शेवरॉन से कैसे अलग है?,draft,
+M16.faq.2.a,M16 Pyramid,"A pyramid is a little shorter and more tapered at the top, giving a clear triangle.","पिरामिड थोड़ी छोटी और ऊपर ज़्यादा सँकरी होती है, जिससे साफ़ त्रिकोण बनता है।",draft,"Keep any <a href=""...""> link tags as they are."
+M16.faq.3.q,M16 Pyramid,Does it need wax?,क्या वैक्स चाहिए?,draft,
+M16.faq.3.a,M16 Pyramid,Not usually. A comb and a trim keep it neat.,आमतौर पर नहीं। कंघी और ट्रिम से साफ़ रहती है।,draft,"Keep any <a href=""...""> link tags as they are."
+M16.faq.4.q,M16 Pyramid,Does it suit a round face?,क्या यह गोल चेहरे पर जँचती है?,draft,
+M16.faq.4.a,M16 Pyramid,Yes. The strong shape adds definition.,हाँ। मज़बूत आकार निखार जोड़ता है।,draft,"Keep any <a href=""...""> link tags as they are."
+M16.step.1,M16 Pyramid,Trim the top edge to a point under the nose.,ऊपरी किनारे को नाक के नीचे नोक बनाते हुए ट्रिम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M16.step.2,M16 Pyramid,Keep the width at the lip line.,होंठ की लाइन पर चौड़ाई रखें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M16.step.3,M16 Pyramid,Trim the length above the lip line.,होंठ की लाइन के ऊपर लंबाई ट्रिम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M16.step.4,M16 Pyramid,Taper the sides in towards the nose.,किनारों को नाक की ओर सँकरा करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M16.step.5,M16 Pyramid,Shave around the moustache.,मूंछ के चारों ओर शेव करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M16.step.6,M16 Pyramid,Comb it down.,नीचे की ओर कंघी करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M16.callout.1.title,M16 Pyramid,Triangle shape,त्रिकोण आकार,draft,Photo label title.
+M16.callout.1.text,M16 Pyramid,Wide at the lip.,होंठ पर चौड़ी।,draft,Photo label line.
+M16.callout.2.title,M16 Pyramid,Thick body,घनी बनावट,draft,Photo label title.
+M16.callout.2.text,M16 Pyramid,Full and even.,भरी और बराबर।,draft,Photo label line.
+M16.callout.3.title,M16 Pyramid,Trimmed edge,ट्रिम किया किनारा,draft,Photo label title.
+M16.callout.3.text,M16 Pyramid,Just above the lip.,होंठ से ठीक ऊपर।,draft,Photo label line.
+M16.callout.4.title,M16 Pyramid,Clean chin,साफ़ ठुड्डी,draft,Photo label title.
+M16.callout.4.text,M16 Pyramid,Shaved smooth.,चिकनी शेव की।,draft,Photo label line.
+M17.name,M17 Mandarin,Mandarin,मैंडरिन,draft,"Catalogue name. Keep it, or write the name customers use."
+M17.shortLine,M17 Mandarin,A thin moustache that droops softly past the mouth corners.,मुँह के कोनों से नीचे नरमी से झुकती पतली मूंछ।,draft,
+M17.description,M17 Mandarin,"A thin, soft moustache that droops past the corners of the mouth and ends in a gentle point. Elegant, and it works with lighter growth.","मुँह के कोनों से नीचे झुककर हल्की नोक पर ख़त्म होने वाली पतली, नरम मूंछ। सुरुचिपूर्ण, और हल्की दाढ़ी में भी चलती है।",draft,
+M17.pickIf,M17 Mandarin,"you have fine or lighter growth and want an elegant, classic shape.","आपकी दाढ़ी पतली या हल्की है और आप सुरुचिपूर्ण, क्लासिक आकार चाहते हैं।",draft,"Follows ""Pick this if""."
+M17.skipIf,M17 Mandarin,"you want a thick, bold moustache.","आप घनी, बोल्ड मूंछ चाहते हैं।",draft,"Follows ""Skip if""."
+M17.daily,M17 Mandarin,"2 min: comb down, a little wax on the ends.","2 मिनट: नीचे कंघी, सिरों पर थोड़ा वैक्स।",draft,
+M17.weekly,M17 Mandarin,Trim the lip line and the ends.,होंठ की लाइन और सिरे ट्रिम करें।,draft,
+M17.nextVisit,M17 Mandarin,in 3–4 weeks,3–4 हफ़्ते में,draft,
+M17.length,M17 Mandarin,"Thin, drooping ends","पतली, झुके हुए सिरे",draft,
+M17.faq.1.q,M17 Mandarin,What is a mandarin moustache?,मैंडरिन मूंछ क्या है?,draft,
+M17.faq.1.a,M17 Mandarin,A thin moustache that droops softly past the corners of the mouth.,मुँह के कोनों से नीचे नरमी से झुकने वाली पतली मूंछ।,draft,"Keep any <a href=""...""> link tags as they are."
+M17.faq.2.q,M17 Mandarin,Does it work with light growth?,क्या यह हल्की दाढ़ी में चलती है?,draft,
+M17.faq.2.a,M17 Mandarin,"Yes. It is thinner than most styles, so it suits lighter growth better.","हाँ। यह ज़्यादातर शैलियों से पतली है, इसलिए हल्की दाढ़ी पर बेहतर जँचती है।",draft,"Keep any <a href=""...""> link tags as they are."
+M17.faq.3.q,M17 Mandarin,How long does it take to grow?,इसे उगाने में कितना समय लगता है?,draft,
+M17.faq.3.a,M17 Mandarin,About 6–8 weeks for the ends to droop.,सिरों के झुकने में लगभग 6–8 हफ़्ते।,draft,"Keep any <a href=""...""> link tags as they are."
+M17.faq.4.q,M17 Mandarin,Can I wear it with a beard?,क्या इसे दाढ़ी के साथ लगा सकते हैं?,draft,
+M17.faq.4.a,M17 Mandarin,It works best with a clean chin or a small goatee.,साफ़ ठुड्डी या छोटी गोटी के साथ सबसे अच्छी लगती है।,draft,"Keep any <a href=""...""> link tags as they are."
+M17.step.1,M17 Mandarin,Grow the ends past the mouth corners.,सिरों को मुँह के कोनों से आगे तक बढ़ाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M17.step.2,M17 Mandarin,Trim the middle above the lip line.,बीच का हिस्सा होंठ की लाइन के ऊपर ट्रिम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M17.step.3,M17 Mandarin,Keep the width thin and even.,चौड़ाई पतली और बराबर रखें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M17.step.4,M17 Mandarin,Comb the ends down.,सिरों को नीचे कंघी करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M17.step.5,M17 Mandarin,Trim the ends to a soft point.,सिरों को नरम नोक में ट्रिम करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M17.step.6,M17 Mandarin,Shave around the moustache.,मूंछ के चारों ओर शेव करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+M17.callout.1.title,M17 Mandarin,Drooping ends,झुके हुए सिरे,draft,Photo label title.
+M17.callout.1.text,M17 Mandarin,Past the mouth.,मुँह से आगे।,draft,Photo label line.
+M17.callout.2.title,M17 Mandarin,Thin shape,पतला आकार,draft,Photo label title.
+M17.callout.2.text,M17 Mandarin,Soft and even.,नरम और बराबर।,draft,Photo label line.
+M17.callout.3.title,M17 Mandarin,Gentle point,हल्की नोक,draft,Photo label title.
+M17.callout.3.text,M17 Mandarin,At the ends.,सिरों पर।,draft,Photo label line.
+M17.callout.4.title,M17 Mandarin,Clean chin,साफ़ ठुड्डी,draft,Photo label title.
+M17.callout.4.text,M17 Mandarin,Shaved smooth.,चिकनी शेव की।,draft,Photo label line.
 C01.name,C01 Jet Black,Jet Black,जेट ब्ल्याक,draft,"Catalogue name. Keep it, or write the name customers use."
 C01.shortLine,C01 Jet Black,"Deep, solid black. Covers all grey.","गहरा, ठोस काला। सारे सफ़ेद बाल छिपाता है।",draft,
 C01.description,C01 Jet Black,"The deepest black. Covers all grey with a strong, even colour.","सबसे गहरा काला। मज़बूत, एक जैसे रंग से सारे सफ़ेद बाल छिपाता है।",draft,
@@ -9440,6 +9750,103 @@ L93.callout.3.title,L93 Buzz Fade Beard,Neat neckline,साफ़ नेकल�
 L93.callout.3.text,L93 Buzz Fade Beard,Two fingers up.,दो उँगली ऊपर।,draft,Photo label line.
 L93.callout.4.title,L93 Buzz Fade Beard,Strong contrast,मज़बूत कंट्रास्ट,draft,Photo label title.
 L93.callout.4.text,L93 Buzz Fade Beard,"Short top, full beard.","छोटा टॉप, पूरी दाढ़ी।",draft,Photo label line.
+L94.name,L94 Comma Casual,Comma Casual,कॉमा कैज़ुअल,draft,"Catalogue name. Keep it, or write the name customers use."
+L94.shortLine,L94 Comma Casual,Comma hair with light stubble.,हल्की दाढ़ी के साथ कॉमा हेयर।,draft,
+L94.description,L94 Comma Casual,"A Comma Hair cut, with a fringe curled into a comma shape, plus Light Stubble. Soft, boyish and very Korean, with a little edge from the stubble.","माथे पर कॉमा के आकार में मुड़े फ्रिंज वाला Comma Hair, Light Stubble के साथ। नरम, मासूम और बेहद कोरियन, दाढ़ी थोड़ी धार जोड़ती है।",draft,
+L94.pickIf,L94 Comma Casual,you want the comma fringe with a more grown-up edge.,आप कॉमा फ्रिंज को थोड़ी परिपक्व धार के साथ चाहते हैं।,draft,"Follows ""Pick this if""."
+L94.skipIf,L94 Comma Casual,"your hair is curly or very thin, or you do not want to blow dry daily.","आपके बाल घुंघराले या बहुत पतले हैं, या आप रोज़ ब्लो ड्राई नहीं करना चाहते।",draft,"Follows ""Skip if""."
+L94.daily,L94 Comma Casual,"6 min: blow dry the fringe into a comma, light wax.","6 मिनट: फ्रिंज को कॉमा आकार में ब्लो ड्राई करें, हल्का वैक्स।",draft,
+L94.weekly,L94 Comma Casual,Conditioner once. Trim the stubble at 2 mm.,हफ़्ते में एक बार कंडीशनर। दाढ़ी 2 mm पर ट्रिम।,draft,
+L94.nextVisit,L94 Comma Casual,in 3–4 weeks,3–4 हफ़्ते में,draft,
+L94.callout.1.title,L94 Comma Casual,Comma fringe,कॉमा फ्रिंज,draft,Photo label title.
+L94.callout.1.text,L94 Comma Casual,Curls in at the brow.,भौंह पर अंदर मुड़ता है।,draft,Photo label line.
+L94.callout.2.title,L94 Comma Casual,Soft volume,नरम वॉल्यूम,draft,Photo label title.
+L94.callout.2.text,L94 Comma Casual,Lifted at the front.,आगे से उठा हुआ।,draft,Photo label line.
+L94.callout.3.title,L94 Comma Casual,Tidy sides,साफ़ किनारे,draft,Photo label title.
+L94.callout.3.text,L94 Comma Casual,Short and neat.,छोटे और साफ़।,draft,Photo label line.
+L94.callout.4.title,L94 Comma Casual,Light stubble,हल्की दाढ़ी,draft,Photo label title.
+L94.callout.4.text,L94 Comma Casual,1–2 mm.,1–2 mm।,draft,Photo label line.
+L95.name,L95 Down Perm Clean,Down Perm Clean,डाउन पर्म क्लीन,draft,"Catalogue name. Keep it, or write the name customers use."
+L95.shortLine,L95 Down Perm Clean,"A flat, tidy perm on the sides with a clean-shaven face.","साफ़ शेव चेहरे के साथ किनारों पर सपाट, साफ़ पर्म।",draft,
+L95.description,L95 Down Perm Clean,"A Down Perm that keeps the sides flat and tidy while the top keeps natural volume, with a clean-shaven face. Neat and smooth, with less fuss than a full perm.","किनारों को सपाट और साफ़ रखने और ऊपर नेचुरल वॉल्यूम बनाए रखने वाला Down Perm, क्लीन-शेव चेहरे के साथ। पूरे पर्म से कम झंझट, साफ़ और चिकना।",draft,
+L95.pickIf,L95 Down Perm Clean,your hair flares out at the sides and you want it flat and neat.,आपके बाल किनारों पर फूलते हैं और आप उन्हें सपाट और साफ़ चाहते हैं।,draft,"Follows ""Pick this if""."
+L95.skipIf,L95 Down Perm Clean,"your hair is very thin on top, or very curly.",आपके ऊपर के बाल बहुत पतले या बहुत घुंघराले हैं।,draft,"Follows ""Skip if""."
+L95.daily,L95 Down Perm Clean,"3 min: shave, a little light wax on the top.","3 मिनट: शेव करें, ऊपर थोड़ा हल्का वैक्स।",draft,
+L95.weekly,L95 Down Perm Clean,Nothing.,कुछ नहीं।,draft,
+L95.nextVisit,L95 Down Perm Clean,in 4–5 weeks,4–5 हफ़्ते में,draft,
+L95.callout.1.title,L95 Down Perm Clean,Flat sides,सपाट किनारे,draft,Photo label title.
+L95.callout.1.text,L95 Down Perm Clean,Perm keeps them down.,पर्म उन्हें नीचे रखता है।,draft,Photo label line.
+L95.callout.2.title,L95 Down Perm Clean,Top volume,ऊपर का वॉल्यूम,draft,Photo label title.
+L95.callout.2.text,L95 Down Perm Clean,Natural lift.,नेचुरल उठान।,draft,Photo label line.
+L95.callout.3.title,L95 Down Perm Clean,Tidy neck,साफ़ गर्दन,draft,Photo label title.
+L95.callout.3.text,L95 Down Perm Clean,Clean line.,साफ़ लाइन।,draft,Photo label line.
+L95.callout.4.title,L95 Down Perm Clean,Clean face,साफ़ चेहरा,draft,Photo label title.
+L95.callout.4.text,L95 Down Perm Clean,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L96.name,L96 Dandy Stubble,Dandy Stubble,डैंडी स्टबल,draft,"Catalogue name. Keep it, or write the name customers use."
+L96.shortLine,L96 Dandy Stubble,A soft Dandy Cut with light stubble.,हल्की दाढ़ी के साथ नरम डैंडी कट।,draft,
+L96.description,L96 Dandy Stubble,"A Dandy Cut with soft side-swept volume and Light Stubble. Gentle and polished, with a masculine touch from the stubble.","नरम, किनारे की ओर सँवारे वॉल्यूम वाला Dandy Cut और Light Stubble। नरम और साफ़, दाढ़ी मर्दाना स्पर्श देती है।",draft,
+L96.pickIf,L96 Dandy Stubble,you want a soft look with a masculine touch.,आप मर्दाना स्पर्श के साथ नरम लुक चाहते हैं।,draft,"Follows ""Pick this if""."
+L96.skipIf,L96 Dandy Stubble,"you have very thin hair, or no time to blow dry.","आपके बाल बहुत पतले हैं, या ब्लो ड्राई का समय नहीं है।",draft,"Follows ""Skip if""."
+L96.daily,L96 Dandy Stubble,"7 min: blow dry the top up and to the side, light wax.","7 मिनट: ऊपर और किनारे की ओर ब्लो ड्राई, हल्का वैक्स।",draft,
+L96.weekly,L96 Dandy Stubble,Trim the stubble at 2 mm.,दाढ़ी 2 mm पर ट्रिम।,draft,
+L96.nextVisit,L96 Dandy Stubble,in 4 weeks,4 हफ़्ते में,draft,
+L96.callout.1.title,L96 Dandy Stubble,Soft volume,नरम वॉल्यूम,draft,Photo label title.
+L96.callout.1.text,L96 Dandy Stubble,Lifted and airy.,उठा और हल्का।,draft,Photo label line.
+L96.callout.2.title,L96 Dandy Stubble,Side sweep,किनारे की ओर,draft,Photo label title.
+L96.callout.2.text,L96 Dandy Stubble,A gentle curve.,हल्का घुमाव।,draft,Photo label line.
+L96.callout.3.title,L96 Dandy Stubble,Tidy sides,साफ़ किनारे,draft,Photo label title.
+L96.callout.3.text,L96 Dandy Stubble,Short and neat.,छोटे और साफ़।,draft,Photo label line.
+L96.callout.4.title,L96 Dandy Stubble,Light stubble,हल्की दाढ़ी,draft,Photo label title.
+L96.callout.4.text,L96 Dandy Stubble,1–2 mm.,1–2 mm।,draft,Photo label line.
+L97.name,L97 Ash Two-Block,Ash Two-Block,ऐश टू-ब्लॉक,draft,"Catalogue name. Keep it, or write the name customers use."
+L97.shortLine,L97 Ash Two-Block,A Korean two-block with fine ash highlights.,हल्की ऐश हाइलाइट्स के साथ कोरियन टू-ब्लॉक।,draft,
+L97.description,L97 Ash Two-Block,"A Two-Block with fine Ash Highlights through the top, with a clean-shaven face. The top and sides are cut in two blocks, so the cool ash colour stands out.","ऊपर हल्की Ash Highlights वाला Two-Block, क्लीन-शेव चेहरे के साथ। ऊपर और किनारे दो ब्लॉक में कटे होने से ठंडा ऐश रंग उभरता है।",draft,
+L97.pickIf,L97 Ash Two-Block,"you want the Korean two-block look with a cool, modern colour.","आप ठंडे, मॉडर्न रंग के साथ कोरियन टू-ब्लॉक लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+L97.skipIf,L97 Ash Two-Block,"your hair is very thin, or your workplace needs natural hair.","आपके बाल बहुत पतले हैं, या काम की जगह पर नेचुरल बाल चाहिए।",draft,"Follows ""Skip if""."
+L97.daily,L97 Ash Two-Block,"6 min: shave, blow dry the top, light wax.","6 मिनट: शेव करें, ऊपर ब्लो ड्राई, हल्का वैक्स।",draft,
+L97.weekly,L97 Ash Two-Block,Purple shampoo once. Colour-safe shampoo otherwise.,हफ़्ते में एक बार पर्पल शैम्पू। बाकी समय कलर-सेफ़ शैम्पू।,draft,
+L97.nextVisit,L97 Ash Two-Block,in 5–6 weeks,5–6 हफ़्ते में,draft,
+L97.atShop,L97 Ash Two-Block,90–120 min on colour day,रंग के दिन 90–120 मिनट,draft,
+L97.callout.1.title,L97 Ash Two-Block,Ash highlights,ऐश हाइलाइट्स,draft,Photo label title.
+L97.callout.1.text,L97 Ash Two-Block,"Fine, on top only.","हल्की, सिर्फ़ ऊपर।",draft,Photo label line.
+L97.callout.2.title,L97 Ash Two-Block,Two-block,टू-ब्लॉक,draft,Photo label title.
+L97.callout.2.text,L97 Ash Two-Block,"Short sides, long top.","छोटे किनारे, लंबा टॉप।",draft,Photo label line.
+L97.callout.3.title,L97 Ash Two-Block,Soft fringe,नरम फ्रिंज,draft,Photo label title.
+L97.callout.3.text,L97 Ash Two-Block,Falls to the brows.,भौंहों तक गिरता है।,draft,Photo label line.
+L97.callout.4.title,L97 Ash Two-Block,Clean face,साफ़ चेहरा,draft,Photo label title.
+L97.callout.4.text,L97 Ash Two-Block,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L98.name,L98 C-Curl Sweet,C-Curl Sweet,सी-कर्ल स्वीट,draft,"Catalogue name. Keep it, or write the name customers use."
+L98.shortLine,L98 C-Curl Sweet,A soft C-curl perm with a clean-shaven face.,क्लीन-शेव चेहरे के साथ नरम सी-कर्ल पर्म।,draft,
+L98.description,L98 C-Curl Sweet,"A C-Curl Perm with the ends curling inward in a soft C shape, with a clean-shaven face. Sweet, soft and polished.","सिरे नरम C आकार में अंदर मुड़ने वाला C-Curl Perm, क्लीन-शेव चेहरे के साथ। मीठा, नरम और साफ़।",draft,
+L98.pickIf,L98 C-Curl Sweet,"you want a soft, face-framing look.","आप नरम, चेहरे को फ़्रेम करने वाला लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+L98.skipIf,L98 C-Curl Sweet,"your hair is very short on top, or very thick and coarse.","आपके ऊपर के बाल बहुत छोटे हैं, या बहुत घने और मोटे हैं।",draft,"Follows ""Skip if""."
+L98.daily,L98 C-Curl Sweet,"4 min: shave, blow dry the ends inward, light wax.","4 मिनट: शेव करें, सिरों को अंदर की ओर ब्लो ड्राई, हल्का वैक्स।",draft,
+L98.weekly,L98 C-Curl Sweet,Conditioner once.,हफ़्ते में एक बार कंडीशनर।,draft,
+L98.nextVisit,L98 C-Curl Sweet,in 4 weeks,4 हफ़्ते में,draft,
+L98.callout.1.title,L98 C-Curl Sweet,C-curve ends,C आकार के सिरे,draft,Photo label title.
+L98.callout.1.text,L98 C-Curl Sweet,Curl inward.,अंदर की ओर मुड़े।,draft,Photo label line.
+L98.callout.2.title,L98 C-Curl Sweet,Soft fringe,नरम फ्रिंज,draft,Photo label title.
+L98.callout.2.text,L98 C-Curl Sweet,To the brows.,भौंहों तक।,draft,Photo label line.
+L98.callout.3.title,L98 C-Curl Sweet,Tidy sides,साफ़ किनारे,draft,Photo label title.
+L98.callout.3.text,L98 C-Curl Sweet,#3 to #2.,#3 से #2।,draft,Photo label line.
+L98.callout.4.title,L98 C-Curl Sweet,Clean face,साफ़ चेहरा,draft,Photo label title.
+L98.callout.4.text,L98 C-Curl Sweet,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L99.name,L99 Baby Perm Fresh,Baby Perm Fresh,बेबी पर्म फ़्रेश,draft,"Catalogue name. Keep it, or write the name customers use."
+L99.shortLine,L99 Baby Perm Fresh,A baby perm with fluffy volume and a clean-shaven face.,फूले वॉल्यूम और क्लीन-शेव चेहरे के साथ बेबी पर्म।,draft,
+L99.description,L99 Baby Perm Fresh,"A Baby Perm with small, soft curls and fluffy volume, with a clean-shaven face. Light, boyish and easy.","छोटे, नरम कर्ल और फूले वॉल्यूम वाला Baby Perm, क्लीन-शेव चेहरे के साथ। हल्का, मासूम और आसान।",draft,
+L99.pickIf,L99 Baby Perm Fresh,your hair is flat or thin and you want easy volume.,आपके बाल सपाट या पतले हैं और आप आसान वॉल्यूम चाहते हैं।,draft,"Follows ""Pick this if""."
+L99.skipIf,L99 Baby Perm Fresh,your hair is already very curly.,आपके बाल पहले से बहुत घुंघराले हैं।,draft,"Follows ""Skip if""."
+L99.daily,L99 Baby Perm Fresh,"2 min: shave, scrunch with a little cream.","2 मिनट: शेव करें, थोड़ी क्रीम से स्क्रंच।",draft,
+L99.weekly,L99 Baby Perm Fresh,Conditioner once.,हफ़्ते में एक बार कंडीशनर।,draft,
+L99.nextVisit,L99 Baby Perm Fresh,in 4–5 weeks,4–5 हफ़्ते में,draft,
+L99.callout.1.title,L99 Baby Perm Fresh,Small curls,छोटे कर्ल,draft,Photo label title.
+L99.callout.1.text,L99 Baby Perm Fresh,Soft and loose.,नरम और ढीले।,draft,Photo label line.
+L99.callout.2.title,L99 Baby Perm Fresh,Airy volume,हवादार वॉल्यूम,draft,Photo label title.
+L99.callout.2.text,L99 Baby Perm Fresh,Fluffy top.,फूला टॉप।,draft,Photo label line.
+L99.callout.3.title,L99 Baby Perm Fresh,Short fringe,छोटा फ्रिंज,draft,Photo label title.
+L99.callout.3.text,L99 Baby Perm Fresh,Above the brows.,भौंहों के ऊपर।,draft,Photo label line.
+L99.callout.4.title,L99 Baby Perm Fresh,Clean face,साफ़ चेहरा,draft,Photo label title.
+L99.callout.4.text,L99 Baby Perm Fresh,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
 P01.title,P01 What is my face shape? A 30-second guide for men,What is my face shape? A 30-second guide for men,मेरे चेहरे का आकार क्या है? पुरुषों के लिए 30 सेकंड की गाइड,draft,"Page title: the question people search, about 60 characters."
 P01.description,P01 What is my face shape? A 30-second guide for men,"Find your face shape in 30 seconds with a mirror: oval, round, square, long or heart. See which haircuts and beards suit each one.","आईने से 30 सेकंड में अपने चेहरे का आकार जानें: अंडाकार, गोल, चौकोर, लंबा या दिल के आकार का। देखें किस पर कौन सा हेयरकट और दाढ़ी जंचती है।",draft,Search snippet: up to 155 characters.
 P01.shortAnswer,P01 What is my face shape? A 30-second guide for men,"Look straight into a mirror with your hair pulled back. Compare the width of your forehead, cheekbones and jaw, then compare length with width. Most men are oval, round, square, long or heart-shaped. Your shape decides where a haircut should add height, width or softness.","बाल पीछे करके आईने में सीधे देखें। माथे, गालों की हड्डी और जबड़े की चौड़ाई की तुलना करें, फिर लंबाई और चौड़ाई की। ज़्यादातर पुरुषों का चेहरा अंडाकार, गोल, चौकोर, लंबा या दिल के आकार का होता है। आपका आकार तय करता है कि हेयरकट कहां ऊंचाई, चौड़ाई या नरमी जोड़े।",draft,40–60 words that make sense on their own.

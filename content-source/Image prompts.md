@@ -1771,6 +1771,74 @@ CALLOUTS:
 4. Even length: 6 mm.
 ```
 
+### B17 Garibaldi
+
+```text
+ITEM: B17 Garibaldi
+BACKDROP: Sage (#CADBD8).
+CHARACTER NOTE: same man, with a full beard grown for this style.
+STYLE: full, wide beard about 5–8 cm long all over with a rounded bottom and a soft natural shape; moustache blended into the beard; clean natural cheek line; neck line 2 fingers above the Adam's apple; combed and lightly oiled.
+CALLOUTS:
+1. Wide and full: Even length all over.
+2. Rounded bottom: A soft curve.
+3. Blended moustache: Joins the beard.
+4. Neck line: 2 fingers above the Adam's apple.
+```
+
+### B18 French Fork
+
+```text
+ITEM: B18 French Fork
+BACKDROP: Sand (#D8CDBF).
+CHARACTER NOTE: same man, with a full beard grown for this style.
+STYLE: full beard with 12 mm sides and a long chin of 6-8 cm parted down the middle into two soft points like a fork; clean natural cheek line; neck line 2 fingers above the Adam's apple; combed and oiled.
+CALLOUTS:
+1. Two points: Split at the chin.
+2. Long chin: 6–8 cm.
+3. Short sides: 12 mm.
+4. Neck line: 2 fingers above the Adam's apple.
+```
+
+### B19 Extended Goatee
+
+```text
+ITEM: B19 Extended Goatee
+BACKDROP: Plum (#B06A8F).
+STYLE: goatee extended along the jawline and joined to the moustache, 6-9 mm all over, cheeks shaved clean above a sharp curved line; neck line 2 fingers above the Adam's apple.
+CALLOUTS:
+1. Joined moustache: Part of the style.
+2. Jaw line: Beard along the jaw.
+3. Clean cheeks: Shaved smooth.
+4. Neck line: 2 fingers above the Adam's apple.
+```
+
+### B20 Chin Curtain
+
+```text
+ITEM: B20 Chin Curtain
+BACKDROP: Sage (#CADBD8).
+CHARACTER NOTE: same man, with a full beard grown for this style.
+STYLE: beard running along the jawline and under the chin, 2-3 cm long, with a shaved clean upper lip and clean cheeks above a sharp line; neck line 2 fingers above the Adam's apple.
+CALLOUTS:
+1. Jaw beard: Along the jaw and chin.
+2. Clean lip: No moustache.
+3. Clean cheeks: Sharp line.
+4. Neck line: 2 fingers above the Adam's apple.
+```
+
+### B21 Designer Stubble
+
+```text
+ITEM: B21 Designer Stubble
+BACKDROP: Sand (#D8CDBF).
+STYLE: even 3 mm stubble across the cheeks, chin, upper lip and jaw; sharp, shaped cheek line and a crisp curved neck line 2 fingers above the Adam's apple.
+CALLOUTS:
+1. 3 mm: Even all over.
+2. Sharp cheek line: Shaped with a razor.
+3. Crisp neck line: 2 fingers above the Adam's apple.
+4. Same moustache: Matches the beard.
+```
+
 ## Moustache prompts
 
 Paste the fixed block, the moustache category block, the item block below, then the avoid list. The face is clean-shaven apart from the moustache.
@@ -1931,6 +1999,71 @@ CALLOUTS:
 2. Strong wax: Twisted thin.
 3. Thin middle: Short above the lip.
 4. Shaved around: Clean face.
+```
+
+### M13 Fu Manchu
+
+```text
+ITEM: M13 Fu Manchu
+BACKDROP: Sand (#D8CDBF).
+STYLE: long thin moustache growing from the corners of the mouth, hanging straight down below the chin about 3-4 cm past it; middle trimmed above the lip; clean-shaven cheeks and chin.
+CALLOUTS:
+1. Long ends: Below the chin.
+2. Thin shape: Narrow and straight.
+3. Trimmed middle: Above the lip.
+4. Clean cheeks: Shaved smooth.
+```
+
+### M14 Toothbrush
+
+```text
+ITEM: M14 Toothbrush
+BACKDROP: Plum (#B06A8F).
+STYLE: short thick moustache about the width of the nose with squared ends, trimmed to about 6 mm and sitting squarely above the lip line; clean-shaven chin and cheeks.
+CALLOUTS:
+1. Square shape: Width of the nose.
+2. Short length: About 6 mm.
+3. Trimmed lip line: Neat and clean.
+4. Clean chin: Shaved smooth.
+```
+
+### M15 Imperial
+
+```text
+ITEM: M15 Imperial
+BACKDROP: Orange (#EC9465).
+STYLE: large full moustache growing outwards from the nose, ends sweeping up and past the cheeks about 5 cm each side; lip line trimmed; waxed into a smooth shape; clean-shaven cheeks and chin.
+CALLOUTS:
+1. Sweeping ends: Up and past the cheeks.
+2. Full width: Wide and thick.
+3. Trimmed lip line: Neat and clean.
+4. Waxed shape: Smooth hold.
+```
+
+### M16 Pyramid
+
+```text
+ITEM: M16 Pyramid
+BACKDROP: Blush (#F7D9CE).
+STYLE: thick moustache shaped like a triangle, wide at the lip line and narrowing to the nose; trimmed just above the lip; clean-shaven chin and cheeks.
+CALLOUTS:
+1. Triangle shape: Wide at the lip.
+2. Thick body: Full and even.
+3. Trimmed edge: Just above the lip.
+4. Clean chin: Shaved smooth.
+```
+
+### M17 Mandarin
+
+```text
+ITEM: M17 Mandarin
+BACKDROP: Sky blue (#A9C9E8).
+STYLE: thin moustache with soft ends drooping about 2 cm past the corners of the mouth and tapering to a gentle point; middle trimmed above the lip; clean-shaven cheeks and chin.
+CALLOUTS:
+1. Drooping ends: Past the mouth.
+2. Thin shape: Soft and even.
+3. Gentle point: At the ends.
+4. Clean chin: Shaved smooth.
 ```
 
 ## Hair colour prompts
@@ -3765,4 +3898,95 @@ CALLOUTS:
 2. Full beard: About 4 cm.
 3. Neat neckline: Two fingers up.
 4. Strong contrast: Short top, full beard.
+```
+
+### L94 Comma Casual
+
+```text
+ITEM: L94 Comma Casual
+BACKDROP: Orange (#EC9465).
+PARTS:
+- Hair: Comma Hair: soft fringe about 8 cm, curled into a comma shape over the forehead; tidy tapered sides.
+- Beard: Light Stubble, 1–2 mm.
+CALLOUTS:
+1. Comma fringe: Curls in at the brow.
+2. Soft volume: Lifted at the front.
+3. Tidy sides: Short and neat.
+4. Light stubble: 1–2 mm.
+```
+
+### L95 Down Perm Clean
+
+```text
+ITEM: L95 Down Perm Clean
+BACKDROP: Blush (#F7D9CE).
+PARTS:
+- Hair: Down Perm: sides permed to lie flat against the head, top about 6 cm with natural lift; tidy neck line.
+- Beard and moustache: fully clean-shaven.
+CALLOUTS:
+1. Flat sides: Perm keeps them down.
+2. Top volume: Natural lift.
+3. Tidy neck: Clean line.
+4. Clean face: No beard or moustache.
+```
+
+### L96 Dandy Stubble
+
+```text
+ITEM: L96 Dandy Stubble
+BACKDROP: Sky blue (#A9C9E8).
+PARTS:
+- Hair: Dandy Cut: soft volume on top, swept to the side with a gentle curve; tidy tapered sides.
+- Beard: Light Stubble, 1–2 mm.
+CALLOUTS:
+1. Soft volume: Lifted and airy.
+2. Side sweep: A gentle curve.
+3. Tidy sides: Short and neat.
+4. Light stubble: 1–2 mm.
+```
+
+### L97 Ash Two-Block
+
+```text
+ITEM: L97 Ash Two-Block
+BACKDROP: Sage (#CADBD8).
+PARTS:
+- Hair: Two-Block: short sides at #2, longer top about 8 cm with a soft fringe.
+- Beard and moustache: fully clean-shaven.
+- Colour: Ash Highlights: fine cool grey-ash streaks through the top only.
+CALLOUTS:
+1. Ash highlights: Fine, on top only.
+2. Two-block: Short sides, long top.
+3. Soft fringe: Falls to the brows.
+4. Clean face: No beard or moustache.
+```
+
+### L98 C-Curl Sweet
+
+```text
+ITEM: L98 C-Curl Sweet
+BACKDROP: Sand (#D8CDBF).
+PARTS:
+- Hair: C-Curl Perm: top about 8–9 cm with the ends and fringe curling gently inward in a C shape; sides #3 to #2.
+- Beard and moustache: fully clean-shaven.
+CALLOUTS:
+1. C-curve ends: Curl inward.
+2. Soft fringe: To the brows.
+3. Tidy sides: #3 to #2.
+4. Clean face: No beard or moustache.
+```
+
+### L99 Baby Perm Fresh
+
+```text
+ITEM: L99 Baby Perm Fresh
+BACKDROP: Plum (#B06A8F).
+PARTS:
+- Hair: Baby Perm: top about 6 cm of small, soft, loose curls with airy volume and a short fringe; sides #3 to #2.
+- Beard and moustache: fully clean-shaven.
+CALLOUTS:
+1. Small curls: Soft and loose.
+2. Airy volume: Fluffy top.
+3. Short fringe: Above the brows.
+4. Clean face: No beard or moustache.
 ```

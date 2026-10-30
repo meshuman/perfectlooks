@@ -2743,6 +2743,124 @@ AVOID: any text, misspelled words, logos, watermarks, brand names, extra people,
 Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
 ```
 
+### B17 Garibaldi
+
+Save as `B17.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: B17 Garibaldi
+STYLE: full, wide beard about 5–8 cm long all over with a rounded bottom and a soft natural shape; moustache blended into the beard; clean natural cheek line; neck line 2 fingers above the Adam's apple; combed and lightly oiled.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+CHARACTER NOTE: same man, with a full beard grown for this style.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: thick, dense beard growth with no gaps (this style needs full growth).
+BEARD IMAGE RULES: the haircut is the same in every beard image unless the item says otherwise: a classic taper cut, short tapered sides, about 4 cm on top combed neatly to the side, natural black. Main view: three-quarter front facing left, showing the cheek line and chin. Second view: left side profile from chin to ear, showing the jaw and neck line.
+BACKDROP: Sage (#CADBD8).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### B18 French Fork
+
+Save as `B18.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: B18 French Fork
+STYLE: full beard with 12 mm sides and a long chin of 6-8 cm parted down the middle into two soft points like a fork; clean natural cheek line; neck line 2 fingers above the Adam's apple; combed and oiled.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+CHARACTER NOTE: same man, with a full beard grown for this style.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: thick, dense beard growth with no gaps (this style needs full growth).
+BEARD IMAGE RULES: the haircut is the same in every beard image unless the item says otherwise: a classic taper cut, short tapered sides, about 4 cm on top combed neatly to the side, natural black. Main view: three-quarter front facing left, showing the cheek line and chin. Second view: left side profile from chin to ear, showing the jaw and neck line.
+BACKDROP: Sand (#D8CDBF).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### B19 Extended Goatee
+
+Save as `B19.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: B19 Extended Goatee
+STYLE: goatee extended along the jawline and joined to the moustache, 6-9 mm all over, cheeks shaved clean above a sharp curved line; neck line 2 fingers above the Adam's apple.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: even beard growth with no patches.
+BEARD IMAGE RULES: the haircut is the same in every beard image unless the item says otherwise: a classic taper cut, short tapered sides, about 4 cm on top combed neatly to the side, natural black. Main view: three-quarter front facing left, showing the cheek line and chin. Second view: left side profile from chin to ear, showing the jaw and neck line.
+BACKDROP: Plum (#B06A8F).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### B20 Chin Curtain
+
+Save as `B20.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: B20 Chin Curtain
+STYLE: beard running along the jawline and under the chin, 2-3 cm long, with a shaved clean upper lip and clean cheeks above a sharp line; neck line 2 fingers above the Adam's apple.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+CHARACTER NOTE: same man, with a full beard grown for this style.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: thick, dense beard growth with no gaps (this style needs full growth).
+BEARD IMAGE RULES: the haircut is the same in every beard image unless the item says otherwise: a classic taper cut, short tapered sides, about 4 cm on top combed neatly to the side, natural black. Main view: three-quarter front facing left, showing the cheek line and chin. Second view: left side profile from chin to ear, showing the jaw and neck line.
+BACKDROP: Sage (#CADBD8).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### B21 Designer Stubble
+
+Save as `B21.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: B21 Designer Stubble
+STYLE: even 3 mm stubble across the cheeks, chin, upper lip and jaw; sharp, shaped cheek line and a crisp curved neck line 2 fingers above the Adam's apple.
+CHARACTER (identical in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, an oval face with a clean, defined jawline, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference exactly.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: oval, a little longer than wide, with a clean, defined jawline (his own; this style suits every face shape).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: even beard growth with no patches.
+BEARD IMAGE RULES: the haircut is the same in every beard image unless the item says otherwise: a classic taper cut, short tapered sides, about 4 cm on top combed neatly to the side, natural black. Main view: three-quarter front facing left, showing the cheek line and chin. Second view: left side profile from chin to ear, showing the jaw and neck line.
+BACKDROP: Sand (#D8CDBF).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
 ## Moustaches
 
 ### M01 Short Trimmed
@@ -3014,6 +3132,121 @@ TRAITS FOR THIS STYLE (identity unchanged):
 - Beard growth: thick, dense moustache growth with no gaps (this style needs full growth).
 MOUSTACHE IMAGE RULES: the haircut is the same classic taper cut as in beard images. Cheeks, chin and neck are clean-shaven unless the moustache itself runs down to the jaw. Main view: straight front, head and shoulders. Second view: close-up of the mouth area at a three-quarter angle.
 BACKDROP: Sage (#CADBD8).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### M13 Fu Manchu
+
+Save as `M13.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: M13 Fu Manchu
+STYLE: long thin moustache growing from the corners of the mouth, hanging straight down below the chin about 3-4 cm past it; middle trimmed above the lip; clean-shaven cheeks and chin.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: thick, dense moustache growth with no gaps (this style needs full growth).
+MOUSTACHE IMAGE RULES: the haircut is the same classic taper cut as in beard images. Cheeks, chin and neck are clean-shaven unless the moustache itself runs down to the jaw. Main view: straight front, head and shoulders. Second view: close-up of the mouth area at a three-quarter angle.
+BACKDROP: Sand (#D8CDBF).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### M14 Toothbrush
+
+Save as `M14.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: M14 Toothbrush
+STYLE: short thick moustache about the width of the nose with squared ends, trimmed to about 6 mm and sitting squarely above the lip line; clean-shaven chin and cheeks.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: even moustache growth with no patches.
+MOUSTACHE IMAGE RULES: the haircut is the same classic taper cut as in beard images. Cheeks, chin and neck are clean-shaven unless the moustache itself runs down to the jaw. Main view: straight front, head and shoulders. Second view: close-up of the mouth area at a three-quarter angle.
+BACKDROP: Plum (#B06A8F).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### M15 Imperial
+
+Save as `M15.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: M15 Imperial
+STYLE: large full moustache growing outwards from the nose, ends sweeping up and past the cheeks about 5 cm each side; lip line trimmed; waxed into a smooth shape; clean-shaven cheeks and chin.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: thick, dense moustache growth with no gaps (this style needs full growth).
+MOUSTACHE IMAGE RULES: the haircut is the same classic taper cut as in beard images. Cheeks, chin and neck are clean-shaven unless the moustache itself runs down to the jaw. Main view: straight front, head and shoulders. Second view: close-up of the mouth area at a three-quarter angle.
+BACKDROP: Orange (#EC9465).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### M16 Pyramid
+
+Save as `M16.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: M16 Pyramid
+STYLE: thick moustache shaped like a triangle, wide at the lip line and narrowing to the nose; trimmed just above the lip; clean-shaven chin and cheeks.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: even moustache growth with no patches.
+MOUSTACHE IMAGE RULES: the haircut is the same classic taper cut as in beard images. Cheeks, chin and neck are clean-shaven unless the moustache itself runs down to the jaw. Main view: straight front, head and shoulders. Second view: close-up of the mouth area at a three-quarter angle.
+BACKDROP: Blush (#F7D9CE).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### M17 Mandarin
+
+Save as `M17.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: M17 Mandarin
+STYLE: thin moustache with soft ends drooping about 2 cm past the corners of the mouth and tapering to a gentle point; middle trimmed above the lip; clean-shaven cheeks and chin.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Beard growth: even moustache growth with no patches.
+MOUSTACHE IMAGE RULES: the haircut is the same classic taper cut as in beard images. Cheeks, chin and neck are clean-shaven unless the moustache itself runs down to the jaw. Main view: straight front, head and shoulders. Second view: close-up of the mouth area at a three-quarter angle.
+BACKDROP: Sky blue (#A9C9E8).
 LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
 BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
 LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
@@ -6024,6 +6257,155 @@ TRAITS FOR THIS STYLE (identity unchanged):
 - Skin: very fair and smooth (his own).
 - Hair texture: straight, as in the reference.
 - Beard growth: thick, dense beard growth with no gaps (this style needs full growth).
+READY LOOK IMAGE RULES: show every part listed in the item, and nothing else changes. Main view: three-quarter front facing left. Second view: left side profile.
+BACKDROP: Plum (#B06A8F).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### L94 Comma Casual
+
+Save as `L94.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: L94 Comma Casual
+PARTS:
+- Hair: Comma Hair: soft fringe about 8 cm, curled into a comma shape over the forehead; tidy tapered sides.
+- Beard: Light Stubble, 1–2 mm.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight and smooth (this style needs straight hair).
+- Hair density: thick and full, with no thinning or visible scalp on top (this style needs full hair).
+READY LOOK IMAGE RULES: show every part listed in the item, and nothing else changes. Main view: three-quarter front facing left. Second view: left side profile.
+BACKDROP: Orange (#EC9465).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### L95 Down Perm Clean
+
+Save as `L95.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: L95 Down Perm Clean
+PARTS:
+- Hair: Down Perm: sides permed to lie flat against the head, top about 6 cm with natural lift; tidy neck line.
+- Beard and moustache: fully clean-shaven.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Hair density: thick and full, with no thinning or visible scalp on top (this style needs full hair).
+READY LOOK IMAGE RULES: show every part listed in the item, and nothing else changes. Main view: three-quarter front facing left. Second view: left side profile.
+BACKDROP: Blush (#F7D9CE).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### L96 Dandy Stubble
+
+Save as `L96.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: L96 Dandy Stubble
+PARTS:
+- Hair: Dandy Cut: soft volume on top, swept to the side with a gentle curve; tidy tapered sides.
+- Beard: Light Stubble, 1–2 mm.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a round face, about as wide as it is long, with full cheeks and a soft, rounded jaw, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: round face, about as wide as it is long, with full cheeks and a soft, rounded jaw (this style suits a round face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Hair density: thick and full, with no thinning or visible scalp on top (this style needs full hair).
+READY LOOK IMAGE RULES: show every part listed in the item, and nothing else changes. Main view: three-quarter front facing left. Second view: left side profile.
+BACKDROP: Sky blue (#A9C9E8).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### L97 Ash Two-Block
+
+Save as `L97.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: L97 Ash Two-Block
+PARTS:
+- Hair: Two-Block: short sides at #2, longer top about 8 cm with a soft fringe.
+- Beard and moustache: fully clean-shaven.
+- Colour: Ash Highlights: fine cool grey-ash streaks through the top only.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+- Hair density: thick and full, with no thinning or visible scalp on top (this style needs full hair).
+READY LOOK IMAGE RULES: show every part listed in the item, and nothing else changes. Main view: three-quarter front facing left. Second view: left side profile.
+BACKDROP: Sage (#CADBD8).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### L98 C-Curl Sweet
+
+Save as `L98.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: L98 C-Curl Sweet
+PARTS:
+- Hair: C-Curl Perm: top about 8–9 cm with the ends and fringe curling gently inward in a C shape; sides #3 to #2.
+- Beard and moustache: fully clean-shaven.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
+READY LOOK IMAGE RULES: show every part listed in the item, and nothing else changes. Main view: three-quarter front facing left. Second view: left side profile.
+BACKDROP: Sand (#D8CDBF).
+LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
+BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
+LAYOUT: the main view, head and shoulders, on the left, filling about 60% of the width. A second, smaller view in the lower right, slightly overlapping the main view, with a soft fade at its edge.
+AVOID: any text, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.
+Keep the right side as clean background: the app adds its own labels. No callouts, lines, dots or text.
+```
+
+### L99 Baby Perm Fresh
+
+Save as `L99.jpg`
+
+```text
+Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
+ITEM: L99 Baby Perm Fresh
+PARTS:
+- Hair: Baby Perm: top about 6 cm of small, soft, loose curls with airy volume and a short fringe; sides #3 to #2.
+- Beard and moustache: fully clean-shaven.
+CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a long face, clearly longer than wide, with a long chin and straight, narrow cheeks, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
+TRAITS FOR THIS STYLE (identity unchanged):
+- Face: long face, clearly longer than wide, with a long chin and straight, narrow cheeks (this style suits a long face, so show it on one; keep every other feature of his identical).
+- Skin: very fair and smooth (his own).
+- Hair texture: straight, as in the reference.
 READY LOOK IMAGE RULES: show every part listed in the item, and nothing else changes. Main view: three-quarter front facing left. Second view: left side profile.
 BACKDROP: Plum (#B06A8F).
 LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.

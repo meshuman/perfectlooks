@@ -1,6 +1,6 @@
 # Moustache styles
 
-12 moustache styles. Each one pairs with any beard except Van Dyke, Circle Beard, Balbo and Anchor Beard, which have their own moustache. All use a front photo.
+17 moustache styles. Each one pairs with any beard except Van Dyke, Circle Beard, Balbo and Anchor Beard, which have their own moustache. All use a front photo.
 
 ## At a glance
 
@@ -18,6 +18,11 @@
 | M10 Petite Handlebar | Small curled ends | Medium | Oval, Square, Long, Heart | Medium, Full | Front |
 | M11 Hungarian | Big and wide | High | Oval, Square, Long | Full | Front |
 | M12 Dali | Thin, ends pointing up | High | Oval, Long, Heart | Full | Front |
+| M13 Fu Manchu | Long, hanging below the chin | High | Oval, Long | Full | Front |
+| M14 Toothbrush | Short and square | Low | Oval, Square, Round, Heart | Medium, Full | Front |
+| M15 Imperial | Wide, ends sweeping up | High | Oval, Square, Long | Full | Front |
+| M16 Pyramid | Thick, triangle shape | Medium | Oval, Square, Round | Medium, Full | Front |
+| M17 Mandarin | Thin, drooping ends | Medium | Oval, Long, Heart | Medium, Full | Front |
 
 ## M01 Short Trimmed
 
@@ -374,4 +379,154 @@ Thin moustache with long ends pointing sharply up.
 3. Strong wax on the ends.
 4. Twist the ends into thin points.
 5. Push the ends straight up.
+6. Shave around the moustache.
+
+## M13 Fu Manchu
+
+A long, thin moustache that hangs down past the chin.
+
+**Description:** A long, thin moustache that grows from the corners of the mouth and hangs straight down below the chin. Bold and dramatic.
+
+- **Pick this if:** you have thick, strong growth and want a dramatic, old-school look.
+- **Skip if:** your growth is patchy, or you have a round face.
+- **Daily:** 3 min: comb the ends down, a little wax.
+- **Weekly:** Trim the lip line and shape the ends.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval and long face · Full growth only
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a Fu Manchu moustache?** A long, thin moustache that hangs straight down from the corners of the mouth, past the chin.
+- **How long does it take to grow?** About 3–4 months for the ends to hang below the chin.
+- **Do I need wax?** A little, to keep the ends straight and tidy.
+- **Can I wear it with a beard?** It works best with a clean-shaven chin, or only with a goatee.
+
+**Barber steps**
+
+1. Grow the ends past the chin.
+2. Trim the middle above the lip line.
+3. Comb the ends straight down.
+4. Trim the ends to an even length.
+5. Shave the cheeks and upper lip line clean.
+6. Wax the ends.
+
+## M14 Toothbrush
+
+A short, neat, square moustache under the nose.
+
+**Description:** A short, thick moustache that is the same width as the nose and sits squarely above the lip. Tidy and low-maintenance.
+
+- **Pick this if:** you want a small, neat moustache that needs very little care.
+- **Skip if:** your growth is patchy under the nose.
+- **Daily:** 1 min: nothing, or a quick comb.
+- **Weekly:** Trim the width and the lip line.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, round and heart face · Medium or full growth
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a toothbrush moustache?** A short, thick, square moustache about the width of the nose.
+- **How is it different from a pencil moustache?** It is thicker and shorter, and it covers the full area under the nose.
+- **Is it easy to keep?** Yes. It needs a trim once a week and no styling.
+- **Does it suit a round face?** Yes. It is small, so it does not widen the face.
+
+**Barber steps**
+
+1. Mark the width at the nose edges.
+2. Trim the top of the moustache above the lip line.
+3. Trim the length to about 6 mm.
+4. Square the ends.
+5. Shave around the moustache.
+6. Comb it down.
+
+## M15 Imperial
+
+A full moustache that sweeps out and up past the cheeks.
+
+**Description:** A big, full moustache that grows outwards from the nose and sweeps up past the cheeks. Grand and formal, and it needs real length.
+
+- **Pick this if:** you have thick growth and want a grand, old-world look.
+- **Skip if:** your growth is patchy, or you do not want to wax every day.
+- **Daily:** 4 min: comb outwards, then wax and shape the ends up.
+- **Weekly:** Trim the lip line. Shave the cheeks.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, square and long face · Full growth only
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is an imperial moustache?** A full moustache that sweeps outwards and up past the cheeks, beyond a handlebar.
+- **How is it different from a handlebar?** It is wider, fuller and sweeps up along the cheeks instead of curling at the ends.
+- **How long does it take to grow?** About 3–4 months for the full width.
+- **Do I need wax?** Yes. Daily wax keeps the ends lifted.
+
+**Barber steps**
+
+1. Grow the moustache out past the cheeks.
+2. Trim the lip line only.
+3. Comb outwards from the centre.
+4. Wax the ends and sweep them up.
+5. Shave the cheeks and upper lip line.
+6. Check both sides match.
+
+## M16 Pyramid
+
+A thick moustache shaped like a triangle, wide at the lip.
+
+**Description:** A thick, full moustache that is wide at the lip and narrows towards the nose, forming a pyramid shape. Strong and masculine.
+
+- **Pick this if:** you have thick growth above the lip and want a strong, classic shape.
+- **Skip if:** your growth is thin, or you have a long face.
+- **Daily:** 2 min: comb down, a little wax if needed.
+- **Weekly:** Trim the lip line and the top edge.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square and round face · Medium or full growth
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a pyramid moustache?** A thick moustache wide at the lip and narrower at the top, like a triangle.
+- **How is it different from a chevron?** A pyramid is a little shorter and more tapered at the top, giving a clear triangle.
+- **Does it need wax?** Not usually. A comb and a trim keep it neat.
+- **Does it suit a round face?** Yes. The strong shape adds definition.
+
+**Barber steps**
+
+1. Trim the top edge to a point under the nose.
+2. Keep the width at the lip line.
+3. Trim the length above the lip line.
+4. Taper the sides in towards the nose.
+5. Shave around the moustache.
+6. Comb it down.
+
+## M17 Mandarin
+
+A thin moustache that droops softly past the mouth corners.
+
+**Description:** A thin, soft moustache that droops past the corners of the mouth and ends in a gentle point. Elegant, and it works with lighter growth.
+
+- **Pick this if:** you have fine or lighter growth and want an elegant, classic shape.
+- **Skip if:** you want a thick, bold moustache.
+- **Daily:** 2 min: comb down, a little wax on the ends.
+- **Weekly:** Trim the lip line and the ends.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, long and heart face · Medium or full growth
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a mandarin moustache?** A thin moustache that droops softly past the corners of the mouth.
+- **Does it work with light growth?** Yes. It is thinner than most styles, so it suits lighter growth better.
+- **How long does it take to grow?** About 6–8 weeks for the ends to droop.
+- **Can I wear it with a beard?** It works best with a clean chin or a small goatee.
+
+**Barber steps**
+
+1. Grow the ends past the mouth corners.
+2. Trim the middle above the lip line.
+3. Keep the width thin and even.
+4. Comb the ends down.
+5. Trim the ends to a soft point.
 6. Shave around the moustache.

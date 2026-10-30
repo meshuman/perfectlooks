@@ -1,6 +1,6 @@
 # Ready Looks
 
-88 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
+94 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
 
 - "—" means no change for that slot.
 - **Suits face** lists only the shapes that suit every part of the look.
@@ -98,6 +98,12 @@
 | L91 Messy Quiff Fade | H94 Textured Quiff | B10 Faded Beard | — | — | Oval, Round, Square | Medium, Full | Medium |
 | L92 Blonde Fringe | H52 Textured Fringe | B01 Clean Shave | Shave off | C19 Light Blonde | Oval, Square, Long, Heart | Any | High |
 | L93 Buzz Fade Beard | H21 Buzz Fade | B05 Full Beard | — | — | Oval, Square | Full | Medium |
+| L94 Comma Casual | H36 Comma Hair | B02 Light Stubble | — | — | Oval, Square, Long, Heart | Any | High |
+| L95 Down Perm Clean | H46 Down Perm | B01 Clean Shave | Shave off | — | Oval, Round, Square, Heart | Any | Medium |
+| L96 Dandy Stubble | H43 Dandy Cut | B02 Light Stubble | — | — | Oval, Round, Square, Heart | Any | Medium |
+| L97 Ash Two-Block | H18 Two-Block | B01 Clean Shave | Shave off | C32 Ash Highlights | Oval, Square, Long, Heart | Any | High |
+| L98 C-Curl Sweet | H97 C-Curl Perm | B01 Clean Shave | Shave off | — | Oval, Square, Long, Heart | Any | Medium |
+| L99 Baby Perm Fresh | H96 Baby Perm | B01 Clean Shave | Shave off | — | Oval, Square, Long, Heart | Any | Medium |
 
 ## L01 Office Ready
 
@@ -1364,3 +1370,88 @@ A buzz fade with a full beard.
 - **Weekly:** Wash the beard with beard shampoo. Trim the neckline.
 - **Next barber visit:** in 3 weeks
 - **Suits:** Oval and square face · All hair types · Full beard growth
+
+## L94 Comma Casual
+
+Comma hair with light stubble.
+
+**Description:** A Comma Hair cut, with a fringe curled into a comma shape, plus Light Stubble. Soft, boyish and very Korean, with a little edge from the stubble.
+
+- **Pick this if:** you want the comma fringe with a more grown-up edge.
+- **Skip if:** your hair is curly or very thin, or you do not want to blow dry daily.
+- **Includes:** H36 Comma Hair · B02 Light Stubble
+- **Daily:** 6 min: blow dry the fringe into a comma, light wax.
+- **Weekly:** Conditioner once. Trim the stubble at 2 mm.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, long and heart face · Straight hair · Any beard growth
+
+## L95 Down Perm Clean
+
+A flat, tidy perm on the sides with a clean-shaven face.
+
+**Description:** A Down Perm that keeps the sides flat and tidy while the top keeps natural volume, with a clean-shaven face. Neat and smooth, with less fuss than a full perm.
+
+- **Pick this if:** your hair flares out at the sides and you want it flat and neat.
+- **Skip if:** your hair is very thin on top, or very curly.
+- **Includes:** H46 Down Perm · B01 Clean Shave · Moustache: Shave off
+- **Daily:** 3 min: shave, a little light wax on the top.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, round, square and heart face · Straight or wavy hair · Any beard growth
+
+## L96 Dandy Stubble
+
+A soft Dandy Cut with light stubble.
+
+**Description:** A Dandy Cut with soft side-swept volume and Light Stubble. Gentle and polished, with a masculine touch from the stubble.
+
+- **Pick this if:** you want a soft look with a masculine touch.
+- **Skip if:** you have very thin hair, or no time to blow dry.
+- **Includes:** H43 Dandy Cut · B02 Light Stubble
+- **Daily:** 7 min: blow dry the top up and to the side, light wax.
+- **Weekly:** Trim the stubble at 2 mm.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, round, square and heart face · Straight or wavy hair · Any beard growth
+
+## L97 Ash Two-Block
+
+A Korean two-block with fine ash highlights.
+
+**Description:** A Two-Block with fine Ash Highlights through the top, with a clean-shaven face. The top and sides are cut in two blocks, so the cool ash colour stands out.
+
+- **Pick this if:** you want the Korean two-block look with a cool, modern colour.
+- **Skip if:** your hair is very thin, or your workplace needs natural hair.
+- **Includes:** H18 Two-Block · B01 Clean Shave · Moustache: Shave off · C32 Ash Highlights
+- **Daily:** 6 min: shave, blow dry the top, light wax.
+- **Weekly:** Purple shampoo once. Colour-safe shampoo otherwise.
+- **Next barber visit:** in 5–6 weeks
+- **At the shop:** 90–120 min on colour day
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L98 C-Curl Sweet
+
+A soft C-curl perm with a clean-shaven face.
+
+**Description:** A C-Curl Perm with the ends curling inward in a soft C shape, with a clean-shaven face. Sweet, soft and polished.
+
+- **Pick this if:** you want a soft, face-framing look.
+- **Skip if:** your hair is very short on top, or very thick and coarse.
+- **Includes:** H97 C-Curl Perm · B01 Clean Shave · Moustache: Shave off
+- **Daily:** 4 min: shave, blow dry the ends inward, light wax.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L99 Baby Perm Fresh
+
+A baby perm with fluffy volume and a clean-shaven face.
+
+**Description:** A Baby Perm with small, soft curls and fluffy volume, with a clean-shaven face. Light, boyish and easy.
+
+- **Pick this if:** your hair is flat or thin and you want easy volume.
+- **Skip if:** your hair is already very curly.
+- **Includes:** H96 Baby Perm · B01 Clean Shave · Moustache: Shave off
+- **Daily:** 2 min: shave, scrunch with a little cream.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
