@@ -191,7 +191,7 @@ await check('Filters open from the icon and narrow every list', async () => {
   await page.click('[data-tool="filters"]');
   await page.click('[data-filter-popular]');
   const popular = await page.locator('[data-item-list] > li:not([hidden])').count();
-  if (!(popular > 0 && popular <= 12)) throw new Error('popular only shows ' + popular);
+  if (!(popular > 0 && popular <= 16)) throw new Error('popular only shows ' + popular);
   await page.locator('[data-filter-badge]:not([hidden])').waitFor({ timeout: 3000 });
   await page.click('[data-toolbar-reset]');
   if (await page.locator('[data-toolbar-reset]').isVisible()) throw new Error('Reset stays visible with no filters');

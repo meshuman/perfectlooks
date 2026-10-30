@@ -1096,6 +1096,66 @@
       "name": "Sun-Kissed Surfer",
       "block": "ITEM: L67 Sun-Kissed Surfer\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Surfer Hair: loose natural waves about 12 cm on top, windswept, long sides over the ears.\n- Beard: Heavy Stubble, 5 mm.\n- Colour: Caramel Highlights: fine warm caramel streaks through the top only.\nCALLOUTS:\n1. Caramel streaks: Sun-kissed, on top.\n2. Beach waves: Loose and windswept.\n3. Heavy stubble: 5 mm.\n4. Long sides: Over the ears.",
       "older": false
+    },
+    "L68": {
+      "name": "Crop and Box",
+      "block": "ITEM: L68 Crop and Box\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: French Crop: 4 cm choppy top pushed forward, short fringe, sides #1 to #3.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp razor cheek lines.\nCALLOUTS:\n1. Choppy crop: Pushed forward.\n2. Short fringe: Above the brows.\n3. Boxed beard: 6 mm and 9 mm.\n4. Sharp lines: Razor cheek line.",
+      "older": false
+    },
+    "L69": {
+      "name": "Barbershop Comb Over",
+      "block": "ITEM: L69 Barbershop Comb Over\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Comb Over Fade: mid fade #0 to #2, 6 cm top combed to one side, thin shaved part, polished shine.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines.\nCALLOUTS:\n1. Shaved part: Thin line above the brow.\n2. Comb over: 6 cm swept to the side.\n3. Mid fade: #0 to #2.\n4. Boxed beard: 6 mm and 9 mm.",
+      "older": false
+    },
+    "L70": {
+      "name": "Fade Pomp",
+      "block": "ITEM: L70 Fade Pomp\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Pompadour: rounded height, about 10 cm at the front and 6 cm at the back, swept up and back with pomade shine; sides faded #1 to #3.\n- Beard: Faded Beard: 1 mm at the sideburns blending to 6 mm along the jaw and chin.\nCALLOUTS:\n1. Big height: Rounded volume.\n2. Pomade shine: Smooth finish.\n3. Faded sides: Tight and clean.\n4. Faded beard: Flows from the fade.",
+      "older": false
+    },
+    "L71": {
+      "name": "Curtain Casual",
+      "block": "ITEM: L71 Curtain Casual\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Curtain Fringe: 8 cm straight hair, centre parted, fringe falling past the brows; sides tapered tidy.\n- Beard: Light Stubble, 1–2 mm.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Soft curtains: Fall past the brows.\n3. Tapered sides: Tidy and short.\n4. Light stubble: 1–2 mm.",
+      "older": false
+    },
+    "L72": {
+      "name": "Easy Broccoli",
+      "block": "ITEM: L72 Easy Broccoli\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Broccoli Cut: full rounded top about 8 cm with light layers, soft fringe to the eyebrows, tapered sides at #2.\n- Beard: Light Stubble, 1–2 mm.\nCALLOUTS:\n1. Rounded top: Full and soft.\n2. Soft fringe: To the brows.\n3. Tapered sides: #2.\n4. Light stubble: 1–2 mm.",
+      "older": false
+    },
+    "L73": {
+      "name": "Mid Fade Daily",
+      "block": "ITEM: L73 Mid Fade Daily\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: Mid Fade: fade from the temple, bare skin blending through #1 to #3, top about 5 cm pushed up and to the side.\n- Beard: Heavy Stubble, 5 mm.\nCALLOUTS:\n1. Mid fade: Starts at the temple.\n2. Textured top: 5 cm, pushed up.\n3. Heavy stubble: 5 mm.\n4. Clean edges: Ears and neck.",
+      "older": false
+    },
+    "L74": {
+      "name": "Drop Fade Beard",
+      "block": "ITEM: L74 Drop Fade Beard\nBACKDROP: Sand (#D8CDBF).\nPARTS:\n- Hair: Drop Fade: fade curving behind the ear and dropping low at the back, skin blending through #1 to #3, textured top about 6 cm.\n- Beard: Full Beard: about 4 cm at the chin, 12 mm on the sides, rounded bottom, combed and lightly oiled.\nCALLOUTS:\n1. Drop fade: Curves behind the ear.\n2. Textured top: About 6 cm.\n3. Full beard: About 4 cm.\n4. Neat neckline: Two fingers up.",
+      "older": false
+    },
+    "L75": {
+      "name": "Slick and Faded",
+      "block": "ITEM: L75 Slick and Faded\nBACKDROP: Plum (#B06A8F).\nPARTS:\n- Hair: Slick Back: sides #2 tapering to #1 at the neck, 8–10 cm top combed straight back with a smooth shine.\n- Beard: Faded Beard: 1 mm at the sideburns blending to 6 mm along the jaw and chin.\nCALLOUTS:\n1. Slick back: Combed straight back.\n2. Smooth shine: Pomade finish.\n3. Tapered sides: Tight and neat.\n4. Faded beard: Blends into the hair.",
+      "older": false
+    },
+    "L76": {
+      "name": "Flow and Stubble",
+      "block": "ITEM: L76 Flow and Stubble\nBACKDROP: Orange (#EC9465).\nPARTS:\n- Hair: Bro Flow: 14 cm hair swept back off the forehead and flowing over the ears, light layers, natural shine.\n- Beard: Heavy Stubble, 5 mm.\nCALLOUTS:\n1. Swept back: Off the forehead.\n2. Flowing length: Over the ears.\n3. Light layers: Soft shape.\n4. Heavy stubble: 5 mm.",
+      "older": false
+    },
+    "L77": {
+      "name": "Burst Fade Beard",
+      "block": "ITEM: L77 Burst Fade Beard\nBACKDROP: Blush (#F7D9CE).\nPARTS:\n- Hair: Burst Fade: fade curving in a half circle around the ear, bare skin at the ear blending to #3, back left longer at #4, top about 6 cm.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines.\nCALLOUTS:\n1. Burst fade: Half circle at the ear.\n2. Longer back: #4.\n3. Textured top: About 6 cm.\n4. Boxed beard: 6 mm and 9 mm.",
+      "older": false
+    },
+    "L78": {
+      "name": "Afro Taper",
+      "block": "ITEM: L78 Afro Taper\nBACKDROP: Sky blue (#A9C9E8).\nPARTS:\n- Hair: Tapered Afro: tight curls about 5 cm on top picked into a short full shape, sides and nape tapered #3 to #1, neat edge-up.\n- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines.\nCALLOUTS:\n1. Defined curls: Even and full.\n2. Taper: #3 down to #1.\n3. Edge-up: Sharp hairline.\n4. Boxed beard: 6 mm and 9 mm.",
+      "older": false
+    },
+    "L79": {
+      "name": "Modern Mullet Casual",
+      "block": "ITEM: L79 Modern Mullet Casual\nBACKDROP: Sage (#CADBD8).\nPARTS:\n- Hair: Modern Mullet: low fade on the sides, textured top about 6 cm with a short messy fringe, 9–10 cm at the back blended into the top.\n- Beard: Light Stubble, 1–2 mm.\nCALLOUTS:\n1. Low fade: Short sides.\n2. Messy fringe: Short and loose.\n3. Longer back: 9–10 cm.\n4. Light stubble: 1–2 mm.",
+      "older": false
     }
   }
 }

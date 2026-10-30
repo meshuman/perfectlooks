@@ -10,6 +10,7 @@ import { i18n as makeI18n, type I18n, type Locale, type UiKey } from '@/i18n';
 import type { AddData, BeardMode, LookPartInput, SlotCategory } from '@/lib/look';
 import type { Match } from '@/lib/match';
 import { swatches } from './swatches';
+import { isTrending, trendRank } from './trending';
 
 export type CategoryKey = 'hair' | 'beards' | 'moustaches' | 'colours' | 'looks';
 
@@ -132,7 +133,7 @@ function toItem(entry: Entry): Item {
     atShop: d.atShop,
     alsoCalled: d.alsoCalled,
     mainPhoto: d.mainPhoto,
-    popular: d.popular,
+    popular: d.popular || isTrending(entry.id),
     callouts: d.callouts,
     faq: 'faq' in d ? d.faq : [],
     barberSteps: 'barberSteps' in d ? d.barberSteps : [],
@@ -337,7 +338,7 @@ export async function getAllItems(i: I18n = makeI18n('en')): Promise<Item[]> {
 }
 
 export async function getItems(category: CategoryKey, i?: I18n): Promise<Item[]> {
-  return (await getAllItems(i)).filter((it) => it.category === category);
+  return (await getAllItems(i)).filter((it) => it.category === category).sort((a, b) => trendRank(a.id) - trendRank(b.id));
 }
 
 export async function getItemMap(i?: I18n): Promise<Map<string, Item>> {

@@ -38,17 +38,17 @@ category.hair.seoTitle,Screen text: category,Men's haircuts: 89 styles and how t
 category.beards.seoTitle,Screen text: category,Beard styles: 16 shapes and how to ask your barber,दाह्रीका स्टाइल: 16 आकार र बार्बरलाई कसरी भन्ने,draft,
 category.moustaches.seoTitle,Screen text: category,Moustache styles: 12 shapes and how to ask your barber,जुँगाका स्टाइल: 12 आकार र बार्बरलाई कसरी भन्ने,draft,
 category.colours.seoTitle,Screen text: category,"Men's hair colours: 12 shades, grey cover and care","पुरुषको कपालको रङ: 12 सेड, फुलेको कपाल ढाक्ने र हेरचाह",draft,
-category.looks.seoTitle,Screen text: category,Ready Looks: 67 hair and beard combinations,रेडी लुक्स: कपाल र दाह्रीका 67 संयोजन,draft,
+category.looks.seoTitle,Screen text: category,Ready Looks: 79 hair and beard combinations,रेडी लुक्स: कपाल र दाह्रीका 79 संयोजन,draft,
 category.hair.seoDescription,Screen text: category,"89 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज कटदेखि काँधसम्मको कपालसम्म पुरुषका 89 हेयरकट। कसलाई सुहाउँछ, दैनिक स्टाइल गर्न कति समय लाग्छ र बार्बरलाई देखाउने ठ्याक्कै चरणहरू हेर्नुहोस्।",draft,
 category.beards.seoDescription,Screen text: category,"16 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लिन सेभदेखि लामो दाह्रीसम्म 16 दाह्रीका स्टाइल। कुन स्टाइल कम, मध्यम वा बाक्लो दाह्रीलाई सुहाउँछ, ट्रिमरको लम्बाइ र बार्बरका चरण हेर्नुहोस्।",draft,
 category.moustaches.seoDescription,Screen text: category,"12 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटो ट्रिमदेखि ह्यान्डलबार र डालीसम्म 12 जुँगाका स्टाइल। कति उम्रनुपर्छ, दैनिक स्टाइल र बार्बरका ठ्याक्कै चरण हेर्नुहोस्।",draft,
 category.colours.seoDescription,Screen text: category,"12 men's hair colours from jet black to silver and henna. See grey coverage, time at the shop, skin tones that suit and how to stay safe.","जेट ब्ल्याकदेखि सिल्भर र मेहन्दीसम्म पुरुषका 12 कपालको रङ। फुलेको कपाल कति ढाक्छ, पसलमा लाग्ने समय, सुहाउने छालाको रङ र सुरक्षित कसरी रहने हेर्नुहोस्।",draft,
-category.looks.seoDescription,Screen text: category,"67 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","अफिस, बिहे, चाडपर्व र दैनिकका लागि कपाल, दाह्री, जुँगा र रङका 67 तयारी संयोजन। एउटा छान्नुहोस् र बार्बरलाई देखाउनुहोस्।",draft,
+category.looks.seoDescription,Screen text: category,"79 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","अफिस, बिहे, चाडपर्व र दैनिकका लागि कपाल, दाह्री, जुँगा र रङका 79 तयारी संयोजन। एउटा छान्नुहोस् र बार्बरलाई देखाउनुहोस्।",draft,
 category.hair.tileCount,Screen text: category,89 styles,89 स्टाइल,draft,
 category.beards.tileCount,Screen text: category,16 styles,16 स्टाइल,draft,
 category.moustaches.tileCount,Screen text: category,12 styles,12 स्टाइल,draft,
 category.colours.tileCount,Screen text: category,33 colours,33 रङ,draft,
-category.looks.tileCount,Screen text: category,67 looks,67 लुक,draft,
+category.looks.tileCount,Screen text: category,79 looks,79 लुक,draft,
 home.title,Screen text: home,"{shop}, {area}: pick your look, for men and women","{shop}, {area}: आफ्नो लुक छान्नुहोस्, पुरुष र महिला दुवैका लागि",draft,Keep the {words in braces}: the app fills them in.
 home.description,Screen text: home,"Men's styles and women's beauty services at {shop}, {area}: haircuts, beards, colour, facials, nails and more. Pick yours and show the shop.","{shop}, {area} मा पुरुषका स्टाइल र महिलाका ब्युटी सेवा: कपाल काटाइ, दाह्री, रङ, फेसियल, नङ र अरू। आफ्नो रोजाइ छान्नुहोस् र पसलमा देखाउनुहोस्।",draft,Keep the {words in braces}: the app fills them in.
 home.heading,Screen text: home,Pick your look. Show it to your stylist.,आफ्नो लुक छान्नुहोस्। स्टाइलिस्टलाई देखाउनुहोस्।,draft,
@@ -357,7 +357,7 @@ shop.hoursValue,Screen text: shop,"Open daily, 7 am – 8 pm","दैनिक �
 shop.inTheShop,Screen text: shop,In the shop,पसलमा,draft,
 shop.flowTitle,Screen text: shop,Know what you want before you sit down.,कुर्सीमा बस्नुअघि नै के चाहिन्छ थाहा पाउनुहोस्।,draft,
 shop.step1.title,Screen text: shop,Pick your style,आफ्नो स्टाइल छान्नुहोस्,draft,
-shop.step1.text,Screen text: shop,"Browse 89 haircuts, 16 beards, 12 moustaches, 33 colours and 67 Ready Looks.","89 हेयरकट, 16 दाह्री, 12 जुँगा, 33 रङ र 67 रेडी लुक्स हेर्नुहोस्।",draft,
+shop.step1.text,Screen text: shop,"Browse 89 haircuts, 16 beards, 12 moustaches, 33 colours and 79 Ready Looks.","89 हेयरकट, 16 दाह्री, 12 जुँगा, 33 रङ र 79 रेडी लुक्स हेर्नुहोस्।",draft,
 shop.step2.title,Screen text: shop,Build My Look,मेरो लुक बनाउनुहोस्,draft,
 shop.step2.text,Screen text: shop,"Save favourites, then choose one hair, beard, moustache and colour.","मनपर्ने सेभ गर्नुहोस्, अनि एउटा कपाल, दाह्री, जुँगा र रङ छान्नुहोस्।",draft,
 shop.step3.title,Screen text: shop,Show the barber,बार्बरलाई देखाउनुहोस्,draft,
@@ -8786,6 +8786,198 @@ L67.callout.3.title,L67 Sun-Kissed Surfer,Heavy stubble,बाक्लो छ�
 L67.callout.3.text,L67 Sun-Kissed Surfer,5 mm.,5 mm।,draft,Photo label line.
 L67.callout.4.title,L67 Sun-Kissed Surfer,Long sides,लामा छेउ,draft,Photo label title.
 L67.callout.4.text,L67 Sun-Kissed Surfer,Over the ears.,कानमाथि।,draft,Photo label line.
+L68.name,L68 Crop and Box,Crop and Box,क्रप एन्ड बक्स,draft,"Catalogue name. Keep it, or write the name customers use."
+L68.shortLine,L68 Crop and Box,A short textured crop with a neat boxed beard.,सफा बक्स दाह्रीसहित छोटो टेक्स्चर्ड क्रप।,draft,
+L68.description,L68 Crop and Box,"A French Crop with a short, choppy fringe, paired with a Short Boxed Beard and sharp cheek lines. Tidy, modern and quick to style.","छोटो, काँटछाँट देखिने फ्रिन्जसहित French Crop, छोटो बक्स दाह्री र धारिला गालाका रेखासँग। सफा, आधुनिक र छिटो सेट हुने।",draft,
+L68.pickIf,L68 Crop and Box,"you want a short, smart cut that looks good with a beard.","तपाईं दाह्रीसँग राम्रो देखिने छोटो, स्मार्ट कट चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L68.skipIf,L68 Crop and Box,"your beard grows patchy, or you want length on top.","तपाईंको दाह्री ठाउँ-ठाउँमा उम्रन्छ, वा माथि लामो कपाल चाहनुहुन्छ।",draft,"Follows ""Skip if""."
+L68.daily,L68 Crop and Box,"3 min: matte clay on the top, beard oil.","3 मिनेट: माथि म्याट क्ले, बियर्ड आयल।",draft,
+L68.weekly,L68 Crop and Box,Trim the beard to 6–9 mm and clean the cheek lines.,दाह्री 6–9 mm मा ट्रिम गरी गालाका रेखा सफा गर्नुहोस्।,draft,
+L68.nextVisit,L68 Crop and Box,in 3–4 weeks,3–4 हप्तामा,draft,
+L68.callout.1.title,L68 Crop and Box,Choppy crop,चोपी क्रप,draft,Photo label title.
+L68.callout.1.text,L68 Crop and Box,Pushed forward.,अगाडि धकेलिएको।,draft,Photo label line.
+L68.callout.2.title,L68 Crop and Box,Short fringe,छोटो फ्रिन्ज,draft,Photo label title.
+L68.callout.2.text,L68 Crop and Box,Above the brows.,निधारमाथि।,draft,Photo label line.
+L68.callout.3.title,L68 Crop and Box,Boxed beard,बक्स दाह्री,draft,Photo label title.
+L68.callout.3.text,L68 Crop and Box,6 mm and 9 mm.,6 mm र 9 mm।,draft,Photo label line.
+L68.callout.4.title,L68 Crop and Box,Sharp lines,धारिला रेखा,draft,Photo label title.
+L68.callout.4.text,L68 Crop and Box,Razor cheek line.,रेजरले गालाको रेखा।,draft,Photo label line.
+L69.name,L69 Barbershop Comb Over,Barbershop Comb Over,बार्बरसप कम्ब ओभर,draft,"Catalogue name. Keep it, or write the name customers use."
+L69.shortLine,L69 Barbershop Comb Over,A polished side comb with a shaved part and a boxed beard.,खौरिएको पार्ट र बक्स दाह्रीसहित चम्किलो साइड कम्ब।,draft,
+L69.description,L69 Barbershop Comb Over,"A Comb Over Fade with a thin shaved part, paired with a Short Boxed Beard. The classic barbershop look: sharp, smart and easy to keep.","पातलो खौरिएको पार्टसहित Comb Over Fade, छोटो बक्स दाह्रीसँग। क्लासिक बार्बरसप लुक: धारिलो, स्मार्ट र सजिलो।",draft,
+L69.pickIf,L69 Barbershop Comb Over,"you want a classic, polished look for work or events.","तपाईं काम वा कार्यक्रमका लागि क्लासिक, चम्किलो लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L69.skipIf,L69 Barbershop Comb Over,"you want a messy, casual look, or your hair is very curly.","तपाईं अस्तव्यस्त, क्यासुअल लुक चाहनुहुन्छ, वा कपाल धेरै घुम्रिएको छ।",draft,"Follows ""Skip if""."
+L69.daily,L69 Barbershop Comb Over,"4 min: pomade, comb the top to the side, beard oil.","4 मिनेट: पोमेड, माथि एकातिर कोर्नुहोस्, बियर्ड आयल।",draft,
+L69.weekly,L69 Barbershop Comb Over,Trim the beard to 6–9 mm. Redraw the part line if you shave it yourself.,दाह्री 6–9 mm मा ट्रिम गर्नुहोस्। आफैं खौर्नुहुन्छ भने पार्ट लाइन फेरि बनाउनुहोस्।,draft,
+L69.nextVisit,L69 Barbershop Comb Over,in 3 weeks,3 हप्तामा,draft,
+L69.callout.1.title,L69 Barbershop Comb Over,Shaved part,खौरिएको पार्ट,draft,Photo label title.
+L69.callout.1.text,L69 Barbershop Comb Over,Thin line above the brow.,निधारमाथि पातलो रेखा।,draft,Photo label line.
+L69.callout.2.title,L69 Barbershop Comb Over,Comb over,कम्ब ओभर,draft,Photo label title.
+L69.callout.2.text,L69 Barbershop Comb Over,6 cm swept to the side.,6 cm एकातिर कोरिएको।,draft,Photo label line.
+L69.callout.3.title,L69 Barbershop Comb Over,Mid fade,मिड फेड,draft,Photo label title.
+L69.callout.3.text,L69 Barbershop Comb Over,#0 to #2.,#0 देखि #2।,draft,Photo label line.
+L69.callout.4.title,L69 Barbershop Comb Over,Boxed beard,बक्स दाह्री,draft,Photo label title.
+L69.callout.4.text,L69 Barbershop Comb Over,6 mm and 9 mm.,6 mm र 9 mm।,draft,Photo label line.
+L70.name,L70 Fade Pomp,Fade Pomp,फेड पोम्प,draft,"Catalogue name. Keep it, or write the name customers use."
+L70.shortLine,L70 Fade Pomp,Big pompadour height over a fade that flows into the beard.,फेड हुँदै दाह्रीमा मिसिने ठूलो पोम्पाडोर उचाइ।,draft,
+L70.description,L70 Fade Pomp,"A Pompadour with tight faded sides and a Faded Beard that blends from the hair fade down the jaw. Bold, glossy and confident.","तल्लो भाग फेड गरिएको Pompadour र हेयर फेडबाट जबडासम्म मिसिने Faded Beard। निर्भीक, चम्किलो र आत्मविश्वासी।",draft,
+L70.pickIf,L70 Fade Pomp,"you want a strong statement look for weddings, parties or the shop.","तपाईं बिहे, पार्टी वा शपका लागि बलियो लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L70.skipIf,L70 Fade Pomp,"your hair is thin or curly, or you want a 2-minute routine.","तपाईंको कपाल पातलो वा घुम्रिएको छ, वा 2 मिनेटको रुटिन चाहनुहुन्छ।",draft,"Follows ""Skip if""."
+L70.daily,L70 Fade Pomp,"6 min: blow-dry the top up and back, pomade, beard oil.","6 मिनेट: माथि र पछाडि ब्लो-ड्राइ, पोमेड, बियर्ड आयल।",draft,
+L70.weekly,L70 Fade Pomp,Wash and condition. Trim the beard at the neckline.,वाश र कन्डिसन। नेकलाइनमा दाह्री ट्रिम।,draft,
+L70.nextVisit,L70 Fade Pomp,in 3 weeks,3 हप्तामा,draft,
+L70.callout.1.title,L70 Fade Pomp,Big height,ठूलो उचाइ,draft,Photo label title.
+L70.callout.1.text,L70 Fade Pomp,Rounded volume.,गोलो भोल्युम।,draft,Photo label line.
+L70.callout.2.title,L70 Fade Pomp,Pomade shine,पोमेड चमक,draft,Photo label title.
+L70.callout.2.text,L70 Fade Pomp,Smooth finish.,चिल्लो फिनिस।,draft,Photo label line.
+L70.callout.3.title,L70 Fade Pomp,Faded sides,फेड गरिएको छेउ,draft,Photo label title.
+L70.callout.3.text,L70 Fade Pomp,Tight and clean.,कसिलो र सफा।,draft,Photo label line.
+L70.callout.4.title,L70 Fade Pomp,Faded beard,फेडेड दाह्री,draft,Photo label title.
+L70.callout.4.text,L70 Fade Pomp,Flows from the fade.,फेडबाट बग्छ।,draft,Photo label line.
+L71.name,L71 Curtain Casual,Curtain Casual,कर्टेन क्यासुअल,draft,"Catalogue name. Keep it, or write the name customers use."
+L71.shortLine,L71 Curtain Casual,Soft centre-parted curtains with light stubble.,हल्का दाह्रीसहित नरम बीचको पार्टका कर्टेन।,draft,
+L71.description,L71 Curtain Casual,"A Curtain Fringe parted in the centre and falling softly past the brows, with Light Stubble. A relaxed, easy look that suits many faces.","बीचमा पार्ट गरी आँखीभौंपछाडि नरम झर्ने Curtain Fringe, Light Stubble सँग। सजिलो, आरामदायी लुक जुन धेरै अनुहारलाई सुहाउँछ।",draft,
+L71.pickIf,L71 Curtain Casual,"you have straight or wavy hair and want a soft, casual look.","तपाईंको कपाल सिधा वा लहरे छ र नरम, क्यासुअल लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L71.skipIf,L71 Curtain Casual,"your hair is very curly, or you need a hair-free forehead.","तपाईंको कपाल धेरै घुम्रिएको छ, वा निधार खुला चाहिन्छ।",draft,"Follows ""Skip if""."
+L71.daily,L71 Curtain Casual,"2 min: sea-salt spray, part in the centre, finger-dry.","2 मिनेट: सी-साल्ट स्प्रे, बीचमा पार्ट, औंलाले सुकाउनुहोस्।",draft,
+L71.weekly,L71 Curtain Casual,Conditioner once. Trim the stubble with a guard at 2 mm.,हप्तामा एक पटक कन्डिसनर। दाह्री 2 mm गार्डले ट्रिम।,draft,
+L71.nextVisit,L71 Curtain Casual,in 5–6 weeks,5–6 हप्तामा,draft,
+L71.callout.1.title,L71 Curtain Casual,Centre part,बीचको पार्ट,draft,Photo label title.
+L71.callout.1.text,L71 Curtain Casual,Even on both sides.,दुवैतिर बराबर।,draft,Photo label line.
+L71.callout.2.title,L71 Curtain Casual,Soft curtains,नरम कर्टेन,draft,Photo label title.
+L71.callout.2.text,L71 Curtain Casual,Fall past the brows.,आँखीभौंपछाडि झर्ने।,draft,Photo label line.
+L71.callout.3.title,L71 Curtain Casual,Tapered sides,टेपर गरिएको छेउ,draft,Photo label title.
+L71.callout.3.text,L71 Curtain Casual,Tidy and short.,सफा र छोटो।,draft,Photo label line.
+L71.callout.4.title,L71 Curtain Casual,Light stubble,हल्का दाह्री,draft,Photo label title.
+L71.callout.4.text,L71 Curtain Casual,1–2 mm.,1–2 mm।,draft,Photo label line.
+L72.name,L72 Easy Broccoli,Easy Broccoli,इजी ब्रोकोली,draft,"Catalogue name. Keep it, or write the name customers use."
+L72.shortLine,L72 Easy Broccoli,A soft rounded top with a fluffy fringe and light stubble.,"नरम गोलो टप, फुलेको फ्रिन्ज र हल्का दाह्री।",draft,
+L72.description,L72 Easy Broccoli,"A Broccoli Cut, full and rounded on top over short tapered sides, with Light Stubble. A soft, youthful look with very little styling.","छोटो टेपर गरिएको छेउमाथि भरिलो, गोलो Broccoli Cut, Light Stubble सँग। थोरै स्टाइलिङमै नरम, जवान लुक।",draft,
+L72.pickIf,L72 Easy Broccoli,"you have straight or wavy hair and want a fluffy, low-effort look.","तपाईंको कपाल सिधा वा लहरे छ र फुलेको, कम मेहनतको लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L72.skipIf,L72 Easy Broccoli,"your hair is thin, or you like a sharp, slick finish.","तपाईंको कपाल पातलो छ, वा धारिलो, चिल्लो फिनिश मन पराउनुहुन्छ।",draft,"Follows ""Skip if""."
+L72.daily,L72 Easy Broccoli,"2 min: blow-dry with your fingers, light cream.","2 मिनेट: औंलाले ब्लो-ड्राइ, हल्का क्रिम।",draft,
+L72.weekly,L72 Easy Broccoli,Conditioner once. Trim the stubble at 2 mm.,हप्तामा एक पटक कन्डिसनर। दाह्री 2 mm मा ट्रिम।,draft,
+L72.nextVisit,L72 Easy Broccoli,in 4–5 weeks,4–5 हप्तामा,draft,
+L72.callout.1.title,L72 Easy Broccoli,Rounded top,गोलो टप,draft,Photo label title.
+L72.callout.1.text,L72 Easy Broccoli,Full and soft.,भरिलो र नरम।,draft,Photo label line.
+L72.callout.2.title,L72 Easy Broccoli,Soft fringe,नरम फ्रिन्ज,draft,Photo label title.
+L72.callout.2.text,L72 Easy Broccoli,To the brows.,आँखीभौंसम्म।,draft,Photo label line.
+L72.callout.3.title,L72 Easy Broccoli,Tapered sides,टेपर गरिएको छेउ,draft,Photo label title.
+L72.callout.3.text,L72 Easy Broccoli,#2.,#2।,draft,Photo label line.
+L72.callout.4.title,L72 Easy Broccoli,Light stubble,हल्का दाह्री,draft,Photo label title.
+L72.callout.4.text,L72 Easy Broccoli,1–2 mm.,1–2 mm।,draft,Photo label line.
+L73.name,L73 Mid Fade Daily,Mid Fade Daily,मिड फेड डेली,draft,"Catalogue name. Keep it, or write the name customers use."
+L73.shortLine,L73 Mid Fade Daily,A mid fade with a textured top and heavy stubble.,टेक्स्चर्ड टप र हेभी स्टबलसहित मिड फेड।,draft,
+L73.description,L73 Mid Fade Daily,"A Mid Fade with a textured top pushed up and to the side, with Heavy Stubble. A sharp, easy, everyday look that works almost anywhere.","माथि र एकातिर धकेलिएको टेक्स्चर्ड टपसहित Mid Fade, Heavy Stubble सँग। धारिलो, सजिलो, दैनिक लुक जुन लगभग जहाँ पनि चल्छ।",draft,
+L73.pickIf,L73 Mid Fade Daily,"you want a clean, modern look without much work.","तपाईं धेरै मेहनत नगरी सफा, आधुनिक लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L73.skipIf,L73 Mid Fade Daily,"you want a long, flowing top.","तपाईं लामो, बग्ने टप चाहनुहुन्छ।",draft,"Follows ""Skip if""."
+L73.daily,L73 Mid Fade Daily,"3 min: matte paste, push the top up and to the side.","3 मिनेट: म्याट पेस्ट, टप माथि र एकातिर धकेल्नुहोस्।",draft,
+L73.weekly,L73 Mid Fade Daily,Trim the stubble once at 5 mm.,दाह्री एक पटक 5 mm मा ट्रिम।,draft,
+L73.nextVisit,L73 Mid Fade Daily,in 3 weeks,3 हप्तामा,draft,
+L73.callout.1.title,L73 Mid Fade Daily,Mid fade,मिड फेड,draft,Photo label title.
+L73.callout.1.text,L73 Mid Fade Daily,Starts at the temple.,कनपटीबाट सुरु।,draft,Photo label line.
+L73.callout.2.title,L73 Mid Fade Daily,Textured top,टेक्स्चर्ड टप,draft,Photo label title.
+L73.callout.2.text,L73 Mid Fade Daily,"5 cm, pushed up.","5 cm, माथि धकेलिएको।",draft,Photo label line.
+L73.callout.3.title,L73 Mid Fade Daily,Heavy stubble,हेभी स्टबल,draft,Photo label title.
+L73.callout.3.text,L73 Mid Fade Daily,5 mm.,5 mm।,draft,Photo label line.
+L73.callout.4.title,L73 Mid Fade Daily,Clean edges,सफा किनारा,draft,Photo label title.
+L73.callout.4.text,L73 Mid Fade Daily,Ears and neck.,कान र घाँटी।,draft,Photo label line.
+L74.name,L74 Drop Fade Beard,Drop Fade Beard,ड्रप फेड बियर्ड,draft,"Catalogue name. Keep it, or write the name customers use."
+L74.shortLine,L74 Drop Fade Beard,"A drop fade that curves behind the ear, with a full beard.",कानपछाडि घुम्ने ड्रप फेड र फुल दाह्री।,draft,
+L74.description,L74 Drop Fade Beard,A Drop Fade with a textured top and a thick Full Beard. The curved fade frames the head and keeps a big beard looking neat.,टेक्स्चर्ड टपसहित Drop Fade र बाक्लो Full Beard। घुम्ने फेडले टाउकोलाई फ्रेम गर्छ र ठूलो दाह्रीलाई सफा राख्छ।,draft,
+L74.pickIf,L74 Drop Fade Beard,you have a full beard and want a modern cut that keeps it tidy.,तपाईंको पूरा दाह्री छ र त्यसलाई सफा राख्ने आधुनिक कट चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
+L74.skipIf,L74 Drop Fade Beard,your beard grows patchy.,तपाईंको दाह्री ठाउँ-ठाउँमा उम्रन्छ।,draft,"Follows ""Skip if""."
+L74.daily,L74 Drop Fade Beard,"5 min: comb the beard, beard oil, texture paste on the top.","5 मिनेट: दाह्री कोर्नुहोस्, बियर्ड आयल, माथि टेक्स्चर पेस्ट।",draft,
+L74.weekly,L74 Drop Fade Beard,Wash the beard with beard shampoo. Trim the neckline.,दाह्री बियर्ड सेम्पुले धुनुहोस्। नेकलाइन ट्रिम।,draft,
+L74.nextVisit,L74 Drop Fade Beard,in 3–4 weeks,3–4 हप्तामा,draft,
+L74.callout.1.title,L74 Drop Fade Beard,Drop fade,ड्रप फेड,draft,Photo label title.
+L74.callout.1.text,L74 Drop Fade Beard,Curves behind the ear.,कानपछाडि घुम्छ।,draft,Photo label line.
+L74.callout.2.title,L74 Drop Fade Beard,Textured top,टेक्स्चर्ड टप,draft,Photo label title.
+L74.callout.2.text,L74 Drop Fade Beard,About 6 cm.,लगभग 6 cm।,draft,Photo label line.
+L74.callout.3.title,L74 Drop Fade Beard,Full beard,फुल दाह्री,draft,Photo label title.
+L74.callout.3.text,L74 Drop Fade Beard,About 4 cm.,लगभग 4 cm।,draft,Photo label line.
+L74.callout.4.title,L74 Drop Fade Beard,Neat neckline,सफा नेकलाइन,draft,Photo label title.
+L74.callout.4.text,L74 Drop Fade Beard,Two fingers up.,दुई औंला माथि।,draft,Photo label line.
+L75.name,L75 Slick and Faded,Slick and Faded,स्लिक एन्ड फेडेड,draft,"Catalogue name. Keep it, or write the name customers use."
+L75.shortLine,L75 Slick and Faded,A sleek slick-back with a beard that fades into the sides.,छेउमा फेड हुँदै मिसिने दाह्रीसहित चिल्लो स्लिक-ब्याक।,draft,
+L75.description,L75 Slick and Faded,"A Slick Back with tapered sides and a Faded Beard that blends into the hair. Sleek, sharp and made for events.","टेपर गरिएको छेउ र कपालमा मिसिने Faded Beard सहित Slick Back। चिल्लो, धारिलो र कार्यक्रमका लागि।",draft,
+L75.pickIf,L75 Slick and Faded,"you want a sharp, formal look for work, weddings or dinners.","तपाईं काम, बिहे वा डिनरका लागि धारिलो, औपचारिक लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L75.skipIf,L75 Slick and Faded,"your hair is curly or very thin, or you like a casual finish.","तपाईंको कपाल घुम्रिएको वा धेरै पातलो छ, वा क्यासुअल फिनिश मन पराउनुहुन्छ।",draft,"Follows ""Skip if""."
+L75.daily,L75 Slick and Faded,"5 min: blow-dry back, pomade, comb, beard oil.","5 मिनेट: पछाडि ब्लो-ड्राइ, पोमेड, कोर्नुहोस्, बियर्ड आयल।",draft,
+L75.weekly,L75 Slick and Faded,Wash and condition. Trim the neckline.,वाश र कन्डिसन। नेकलाइन ट्रिम।,draft,
+L75.nextVisit,L75 Slick and Faded,in 3 weeks,3 हप्तामा,draft,
+L75.callout.1.title,L75 Slick and Faded,Slick back,स्लिक ब्याक,draft,Photo label title.
+L75.callout.1.text,L75 Slick and Faded,Combed straight back.,सिधै पछाडि कोरिएको।,draft,Photo label line.
+L75.callout.2.title,L75 Slick and Faded,Smooth shine,चिल्लो चमक,draft,Photo label title.
+L75.callout.2.text,L75 Slick and Faded,Pomade finish.,पोमेड फिनिश।,draft,Photo label line.
+L75.callout.3.title,L75 Slick and Faded,Tapered sides,टेपर गरिएको छेउ,draft,Photo label title.
+L75.callout.3.text,L75 Slick and Faded,Tight and neat.,कसिलो र सफा।,draft,Photo label line.
+L75.callout.4.title,L75 Slick and Faded,Faded beard,फेडेड दाह्री,draft,Photo label title.
+L75.callout.4.text,L75 Slick and Faded,Blends into the hair.,कपालमा मिसिन्छ।,draft,Photo label line.
+L76.name,L76 Flow and Stubble,Flow and Stubble,फ्लो एन्ड स्टबल,draft,"Catalogue name. Keep it, or write the name customers use."
+L76.shortLine,L76 Flow and Stubble,Swept-back medium hair with heavy stubble.,पछाडि सारिएको मध्यम कपाल र हेभी स्टबल।,draft,
+L76.description,L76 Flow and Stubble,"A Bro Flow, medium hair swept back and flowing over the ears, with Heavy Stubble. Relaxed, healthy-looking and very low effort.","Bro Flow, पछाडि सारिएको कानमाथि बग्ने मध्यम कपाल, Heavy Stubble सँग। आरामदायी, स्वस्थ देखिने र धेरै कम मेहनतको।",draft,
+L76.pickIf,L76 Flow and Stubble,you want to grow your hair out and still look neat.,तपाईं कपाल बढाउँदै हुनुहुन्छ र पनि सफा देखिन चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
+L76.skipIf,L76 Flow and Stubble,"your hair is very curly or thin, or your workplace needs short hair.","तपाईंको कपाल धेरै घुम्रिएको वा पातलो छ, वा कार्यस्थलमा छोटो कपाल चाहिन्छ।",draft,"Follows ""Skip if""."
+L76.daily,L76 Flow and Stubble,"2 min: comb back with a little cream, shake out.","2 मिनेट: थोरै क्रिमले पछाडि कोर्नुहोस्, झट्कार्नुहोस्।",draft,
+L76.weekly,L76 Flow and Stubble,Conditioner twice. Trim the stubble once at 5 mm.,हप्तामा दुई पटक कन्डिसनर। दाह्री एक पटक 5 mm मा ट्रिम।,draft,
+L76.nextVisit,L76 Flow and Stubble,in 6–8 weeks,6–8 हप्तामा,draft,
+L76.callout.1.title,L76 Flow and Stubble,Swept back,पछाडि सारिएको,draft,Photo label title.
+L76.callout.1.text,L76 Flow and Stubble,Off the forehead.,निधारबाट।,draft,Photo label line.
+L76.callout.2.title,L76 Flow and Stubble,Flowing length,बग्ने लम्बाइ,draft,Photo label title.
+L76.callout.2.text,L76 Flow and Stubble,Over the ears.,कानमाथि।,draft,Photo label line.
+L76.callout.3.title,L76 Flow and Stubble,Light layers,हल्का लेयर,draft,Photo label title.
+L76.callout.3.text,L76 Flow and Stubble,Soft shape.,नरम आकार।,draft,Photo label line.
+L76.callout.4.title,L76 Flow and Stubble,Heavy stubble,हेभी स्टबल,draft,Photo label title.
+L76.callout.4.text,L76 Flow and Stubble,5 mm.,5 mm।,draft,Photo label line.
+L77.name,L77 Burst Fade Beard,Burst Fade Beard,बर्स्ट फेड बियर्ड,draft,"Catalogue name. Keep it, or write the name customers use."
+L77.shortLine,L77 Burst Fade Beard,A burst fade around the ear with a sharp boxed beard.,कानवरिपरि बर्स्ट फेड र धारिलो बक्स दाह्री।,draft,
+L77.description,L77 Burst Fade Beard,"A Burst Fade that curves around the ear and leaves the back longer, with a Short Boxed Beard. Bold shape, clean lines.","कानवरिपरि घुम्ने र पछाडि लामो छाड्ने Burst Fade, छोटो बक्स दाह्रीसँग। साहसी आकार, सफा रेखा।",draft,
+L77.pickIf,L77 Burst Fade Beard,"you want a modern fade with a different shape, especially with curls on top.","तपाईं फरक आकारको आधुनिक फेड चाहनुहुन्छ, विशेष गरी माथि कर्लसहित।",draft,"Follows ""Pick this if""."
+L77.skipIf,L77 Burst Fade Beard,"you want a low-effort cut, or your beard grows patchy.","तपाईं कम मेहनतको कट चाहनुहुन्छ, वा दाह्री ठाउँ-ठाउँमा उम्रन्छ।",draft,"Follows ""Skip if""."
+L77.daily,L77 Burst Fade Beard,"4 min: curl cream or texture paste, beard oil.","4 मिनेट: कर्ल क्रिम वा टेक्स्चर पेस्ट, बियर्ड आयल।",draft,
+L77.weekly,L77 Burst Fade Beard,Trim the beard to 6–9 mm and clean the cheek lines.,दाह्री 6–9 mm मा ट्रिम गरी गालाका रेखा सफा गर्नुहोस्।,draft,
+L77.nextVisit,L77 Burst Fade Beard,in 2–3 weeks,2–3 हप्तामा,draft,
+L77.callout.1.title,L77 Burst Fade Beard,Burst fade,बर्स्ट फेड,draft,Photo label title.
+L77.callout.1.text,L77 Burst Fade Beard,Half circle at the ear.,कानमा आधा गोलो।,draft,Photo label line.
+L77.callout.2.title,L77 Burst Fade Beard,Longer back,लामो पछाडि,draft,Photo label title.
+L77.callout.2.text,L77 Burst Fade Beard,#4.,#4।,draft,Photo label line.
+L77.callout.3.title,L77 Burst Fade Beard,Textured top,टेक्स्चर्ड टप,draft,Photo label title.
+L77.callout.3.text,L77 Burst Fade Beard,About 6 cm.,लगभग 6 cm।,draft,Photo label line.
+L77.callout.4.title,L77 Burst Fade Beard,Boxed beard,बक्स दाह्री,draft,Photo label title.
+L77.callout.4.text,L77 Burst Fade Beard,6 mm and 9 mm.,6 mm र 9 mm।,draft,Photo label line.
+L78.name,L78 Afro Taper,Afro Taper,अफ्रो टेपर,draft,"Catalogue name. Keep it, or write the name customers use."
+L78.shortLine,L78 Afro Taper,"A short, defined afro with a clean taper and boxed beard.","सफा टेपर र बक्स दाह्रीसहित छोटो, स्पष्ट अफ्रो।",draft,
+L78.description,L78 Afro Taper,"A Tapered Afro with defined curls and a sharp edge-up, with a Short Boxed Beard. Neat, strong and built for tight curls.","स्पष्ट कर्ल र धारिलो एज-अपसहित Tapered Afro, छोटो बक्स दाह्रीसँग। सफा, बलियो र कसिलो कर्लका लागि बनेको।",draft,
+L78.pickIf,L78 Afro Taper,"you have tight curls and want a clean, shaped look.","तपाईंको कपाल कसिलो घुम्रिएको छ र सफा, आकार दिइएको लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+L78.skipIf,L78 Afro Taper,"your hair is straight or wavy, or your beard grows patchy.","तपाईंको कपाल सिधा वा लहरे छ, वा दाह्री ठाउँ-ठाउँमा उम्रन्छ।",draft,"Follows ""Skip if""."
+L78.daily,L78 Afro Taper,"4 min: moisturise, define curls with a curl cream, beard oil.","4 मिनेट: मोइस्चराइज, कर्ल क्रिमले कर्ल बनाउनुहोस्, बियर्ड आयल।",draft,
+L78.weekly,L78 Afro Taper,Deep-condition once. Trim the beard to 6–9 mm.,हप्तामा एक पटक डिप-कन्डिसन। दाह्री 6–9 mm मा ट्रिम।,draft,
+L78.nextVisit,L78 Afro Taper,in 3 weeks,3 हप्तामा,draft,
+L78.callout.1.title,L78 Afro Taper,Defined curls,स्पष्ट कर्ल,draft,Photo label title.
+L78.callout.1.text,L78 Afro Taper,Even and full.,बराबर र भरिलो।,draft,Photo label line.
+L78.callout.2.title,L78 Afro Taper,Taper,टेपर,draft,Photo label title.
+L78.callout.2.text,L78 Afro Taper,#3 down to #1.,#3 देखि #1।,draft,Photo label line.
+L78.callout.3.title,L78 Afro Taper,Edge-up,एज-अप,draft,Photo label title.
+L78.callout.3.text,L78 Afro Taper,Sharp hairline.,धारिलो हेयरलाइन।,draft,Photo label line.
+L78.callout.4.title,L78 Afro Taper,Boxed beard,बक्स दाह्री,draft,Photo label title.
+L78.callout.4.text,L78 Afro Taper,6 mm and 9 mm.,6 mm र 9 mm।,draft,Photo label line.
+L79.name,L79 Modern Mullet Casual,Modern Mullet Casual,मोडर्न मुलेट क्यासुअल,draft,"Catalogue name. Keep it, or write the name customers use."
+L79.shortLine,L79 Modern Mullet Casual,A low-fade mullet with a messy fringe and light stubble.,"लो फेड, अस्तव्यस्त फ्रिन्ज र हल्का दाह्रीसहित मुलेट।",draft,
+L79.description,L79 Modern Mullet Casual,"A Modern Mullet with short faded sides, a messy fringe and a little length at the back, with Light Stubble. Edgy but softer than a full mullet.","छोटो फेड गरिएको छेउ, अस्तव्यस्त फ्रिन्ज र पछाडि थोरै लम्बाइसहित Modern Mullet, Light Stubble सँग। तेज तर पूरा मुलेटभन्दा नरम।",draft,
+L79.pickIf,L79 Modern Mullet Casual,you want something with attitude that is still easy to wear.,तपाईं एटिट्युड भएको तर लगाउन सजिलो केही चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
+L79.skipIf,L79 Modern Mullet Casual,"your workplace is strict, or your hair is very curly.","तपाईंको कार्यस्थल कडा छ, वा कपाल धेरै घुम्रिएको छ।",draft,"Follows ""Skip if""."
+L79.daily,L79 Modern Mullet Casual,"3 min: sea-salt spray, tousle the fringe, finger-style the back.","3 मिनेट: सी-साल्ट स्प्रे, फ्रिन्ज बिथोल्नुहोस्, पछाडि औंलाले स्टाइल।",draft,
+L79.weekly,L79 Modern Mullet Casual,Conditioner once. Trim the back every month to keep the shape.,हप्तामा एक पटक कन्डिसनर। आकार राख्न पछाडि महिनामा एक पटक ट्रिम।,draft,
+L79.nextVisit,L79 Modern Mullet Casual,in 4–5 weeks,4–5 हप्तामा,draft,
+L79.callout.1.title,L79 Modern Mullet Casual,Low fade,लो फेड,draft,Photo label title.
+L79.callout.1.text,L79 Modern Mullet Casual,Short sides.,छोटो छेउ।,draft,Photo label line.
+L79.callout.2.title,L79 Modern Mullet Casual,Messy fringe,अस्तव्यस्त फ्रिन्ज,draft,Photo label title.
+L79.callout.2.text,L79 Modern Mullet Casual,Short and loose.,छोटो र खुकुलो।,draft,Photo label line.
+L79.callout.3.title,L79 Modern Mullet Casual,Longer back,लामो पछाडि,draft,Photo label title.
+L79.callout.3.text,L79 Modern Mullet Casual,9–10 cm.,9–10 cm।,draft,Photo label line.
+L79.callout.4.title,L79 Modern Mullet Casual,Light stubble,हल्का दाह्री,draft,Photo label title.
+L79.callout.4.text,L79 Modern Mullet Casual,1–2 mm.,1–2 mm।,draft,Photo label line.
 P01.title,P01 What is my face shape? A 30-second guide for men,What is my face shape? A 30-second guide for men,मेरो अनुहारको आकार कस्तो हो? पुरुषका लागि 30 सेकेन्डको गाइड,draft,"Page title: the question people search, about 60 characters."
 P01.description,P01 What is my face shape? A 30-second guide for men,"Find your face shape in 30 seconds with a mirror: oval, round, square, long or heart. See which haircuts and beards suit each one.","ऐना हेरेर 30 सेकेन्डमै आफ्नो अनुहारको आकार पत्ता लगाउनुहोस्: अण्डाकार, गोलो, चौकोस, लाम्चो वा मुटु आकार। हरेकलाई कुन हेयरकट र दाह्री सुहाउँछ हेर्नुहोस्।",draft,Search snippet: up to 155 characters.
 P01.shortAnswer,P01 What is my face shape? A 30-second guide for men,"Look straight into a mirror with your hair pulled back. Compare the width of your forehead, cheekbones and jaw, then compare length with width. Most men are oval, round, square, long or heart-shaped. Your shape decides where a haircut should add height, width or softness.","कपाल पछाडि सारेर ऐनामा सिधा हेर्नुहोस्। निधार, गालाको हड्डी र बङ्गाराको चौडाइ तुलना गर्नुहोस्, अनि लम्बाइ र चौडाइ तुलना गर्नुहोस्। धेरैजसो पुरुषको अनुहार अण्डाकार, गोलो, चौकोस, लाम्चो वा मुटु आकारको हुन्छ। तपाईंको आकारले हेयरकटले कहाँ उचाइ, चौडाइ वा नरमपन थप्नुपर्छ भन्ने तय गर्छ।",draft,40–60 words that make sense on their own.

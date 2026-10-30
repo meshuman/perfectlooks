@@ -1,6 +1,6 @@
 # Ready Looks
 
-67 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
+79 ready-made combinations for customers who want a complete look in one tap. Picking a Look fills its slots in My Look, and the Barber Card uses each item's own steps, so Looks need no extra barber text.
 
 - "—" means no change for that slot.
 - **Suits face** lists only the shapes that suit every part of the look.
@@ -77,6 +77,18 @@
 | L65 Wine Streaks | H28 Wolf Cut | B01 Clean Shave | Shave off | C33 Burgundy Highlights | Oval, Square, Long, Heart | Any | Medium |
 | L66 Salt and Pepper Taper | H23 Taper Fade | B03 Heavy Stubble | — | C08 Grey Blending | Oval, Round, Square, Long, Heart | Medium, Full | Medium |
 | L67 Sun-Kissed Surfer | H79 Surfer Hair | B03 Heavy Stubble | — | C31 Caramel Highlights | Oval, Square, Long, Heart | Medium, Full | Low |
+| L68 Crop and Box | H05 French Crop | B04 Short Boxed Beard | — | — | Oval, Long, Heart | Medium, Full | Medium |
+| L69 Barbershop Comb Over | H11 Comb Over Fade | B04 Short Boxed Beard | — | — | Oval, Round, Heart | Medium, Full | Medium |
+| L70 Fade Pomp | H15 Pompadour | B10 Faded Beard | — | — | Oval, Round, Square | Medium, Full | High |
+| L71 Curtain Casual | H73 Curtain Fringe | B02 Light Stubble | — | — | Oval, Square, Long, Heart | Any | Medium |
+| L72 Easy Broccoli | H77 Broccoli Cut | B02 Light Stubble | — | — | Oval, Square, Heart | Any | Medium |
+| L73 Mid Fade Daily | H08 Mid Fade | B03 Heavy Stubble | — | — | Oval, Round, Square, Heart | Medium, Full | Medium |
+| L74 Drop Fade Beard | H24 Drop Fade | B05 Full Beard | — | — | Oval, Square, Heart | Full | Medium |
+| L75 Slick and Faded | H13 Slick Back | B10 Faded Beard | — | — | Oval, Round, Square | Medium, Full | High |
+| L76 Flow and Stubble | H76 Bro Flow | B03 Heavy Stubble | — | — | Oval, Square, Heart | Medium, Full | Low |
+| L77 Burst Fade Beard | H32 Burst Fade | B04 Short Boxed Beard | — | — | Oval, Round, Heart | Medium, Full | High |
+| L78 Afro Taper | H60 Tapered Afro | B04 Short Boxed Beard | — | — | Oval, Long, Heart | Medium, Full | Medium |
+| L79 Modern Mullet Casual | H34 Modern Mullet | B02 Light Stubble | — | — | Oval, Square, Long, Heart | Any | Medium |
 
 ## L01 Office Ready
 
@@ -1056,3 +1068,171 @@ Beach waves with sun-kissed caramel streaks.
 - **Next barber visit:** in 6–8 weeks
 - **At the shop:** 60–90 min on colour day
 - **Suits:** Oval, square, long and heart face · Wavy or curly hair · Medium or full beard growth
+
+## L68 Crop and Box
+
+A short textured crop with a neat boxed beard.
+
+**Description:** A French Crop with a short, choppy fringe, paired with a Short Boxed Beard and sharp cheek lines. Tidy, modern and quick to style.
+
+- **Pick this if:** you want a short, smart cut that looks good with a beard.
+- **Skip if:** your beard grows patchy, or you want length on top.
+- **Includes:** H05 French Crop · B04 Short Boxed Beard
+- **Daily:** 3 min: matte clay on the top, beard oil.
+- **Weekly:** Trim the beard to 6–9 mm and clean the cheek lines.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, long and heart face · All hair types · Medium or full beard growth
+
+## L69 Barbershop Comb Over
+
+A polished side comb with a shaved part and a boxed beard.
+
+**Description:** A Comb Over Fade with a thin shaved part, paired with a Short Boxed Beard. The classic barbershop look: sharp, smart and easy to keep.
+
+- **Pick this if:** you want a classic, polished look for work or events.
+- **Skip if:** you want a messy, casual look, or your hair is very curly.
+- **Includes:** H11 Comb Over Fade · B04 Short Boxed Beard
+- **Daily:** 4 min: pomade, comb the top to the side, beard oil.
+- **Weekly:** Trim the beard to 6–9 mm. Redraw the part line if you shave it yourself.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, round and heart face · Straight or wavy hair · Medium or full beard growth
+
+## L70 Fade Pomp
+
+Big pompadour height over a fade that flows into the beard.
+
+**Description:** A Pompadour with tight faded sides and a Faded Beard that blends from the hair fade down the jaw. Bold, glossy and confident.
+
+- **Pick this if:** you want a strong statement look for weddings, parties or the shop.
+- **Skip if:** your hair is thin or curly, or you want a 2-minute routine.
+- **Includes:** H15 Pompadour · B10 Faded Beard
+- **Daily:** 6 min: blow-dry the top up and back, pomade, beard oil.
+- **Weekly:** Wash and condition. Trim the beard at the neckline.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, round and square face · Straight or wavy hair · Medium or full beard growth
+
+## L71 Curtain Casual
+
+Soft centre-parted curtains with light stubble.
+
+**Description:** A Curtain Fringe parted in the centre and falling softly past the brows, with Light Stubble. A relaxed, easy look that suits many faces.
+
+- **Pick this if:** you have straight or wavy hair and want a soft, casual look.
+- **Skip if:** your hair is very curly, or you need a hair-free forehead.
+- **Includes:** H73 Curtain Fringe · B02 Light Stubble
+- **Daily:** 2 min: sea-salt spray, part in the centre, finger-dry.
+- **Weekly:** Conditioner once. Trim the stubble with a guard at 2 mm.
+- **Next barber visit:** in 5–6 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
+
+## L72 Easy Broccoli
+
+A soft rounded top with a fluffy fringe and light stubble.
+
+**Description:** A Broccoli Cut, full and rounded on top over short tapered sides, with Light Stubble. A soft, youthful look with very little styling.
+
+- **Pick this if:** you have straight or wavy hair and want a fluffy, low-effort look.
+- **Skip if:** your hair is thin, or you like a sharp, slick finish.
+- **Includes:** H77 Broccoli Cut · B02 Light Stubble
+- **Daily:** 2 min: blow-dry with your fingers, light cream.
+- **Weekly:** Conditioner once. Trim the stubble at 2 mm.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square and heart face · Straight or wavy hair · Any beard growth
+
+## L73 Mid Fade Daily
+
+A mid fade with a textured top and heavy stubble.
+
+**Description:** A Mid Fade with a textured top pushed up and to the side, with Heavy Stubble. A sharp, easy, everyday look that works almost anywhere.
+
+- **Pick this if:** you want a clean, modern look without much work.
+- **Skip if:** you want a long, flowing top.
+- **Includes:** H08 Mid Fade · B03 Heavy Stubble
+- **Daily:** 3 min: matte paste, push the top up and to the side.
+- **Weekly:** Trim the stubble once at 5 mm.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, round, square and heart face · All hair types · Medium or full beard growth
+
+## L74 Drop Fade Beard
+
+A drop fade that curves behind the ear, with a full beard.
+
+**Description:** A Drop Fade with a textured top and a thick Full Beard. The curved fade frames the head and keeps a big beard looking neat.
+
+- **Pick this if:** you have a full beard and want a modern cut that keeps it tidy.
+- **Skip if:** your beard grows patchy.
+- **Includes:** H24 Drop Fade · B05 Full Beard
+- **Daily:** 5 min: comb the beard, beard oil, texture paste on the top.
+- **Weekly:** Wash the beard with beard shampoo. Trim the neckline.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square and heart face · All hair types · Full beard growth
+
+## L75 Slick and Faded
+
+A sleek slick-back with a beard that fades into the sides.
+
+**Description:** A Slick Back with tapered sides and a Faded Beard that blends into the hair. Sleek, sharp and made for events.
+
+- **Pick this if:** you want a sharp, formal look for work, weddings or dinners.
+- **Skip if:** your hair is curly or very thin, or you like a casual finish.
+- **Includes:** H13 Slick Back · B10 Faded Beard
+- **Daily:** 5 min: blow-dry back, pomade, comb, beard oil.
+- **Weekly:** Wash and condition. Trim the neckline.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, round and square face · Straight or wavy hair · Medium or full beard growth
+
+## L76 Flow and Stubble
+
+Swept-back medium hair with heavy stubble.
+
+**Description:** A Bro Flow, medium hair swept back and flowing over the ears, with Heavy Stubble. Relaxed, healthy-looking and very low effort.
+
+- **Pick this if:** you want to grow your hair out and still look neat.
+- **Skip if:** your hair is very curly or thin, or your workplace needs short hair.
+- **Includes:** H76 Bro Flow · B03 Heavy Stubble
+- **Daily:** 2 min: comb back with a little cream, shake out.
+- **Weekly:** Conditioner twice. Trim the stubble once at 5 mm.
+- **Next barber visit:** in 6–8 weeks
+- **Suits:** Oval, square and heart face · Straight or wavy hair · Medium or full beard growth
+
+## L77 Burst Fade Beard
+
+A burst fade around the ear with a sharp boxed beard.
+
+**Description:** A Burst Fade that curves around the ear and leaves the back longer, with a Short Boxed Beard. Bold shape, clean lines.
+
+- **Pick this if:** you want a modern fade with a different shape, especially with curls on top.
+- **Skip if:** you want a low-effort cut, or your beard grows patchy.
+- **Includes:** H32 Burst Fade · B04 Short Boxed Beard
+- **Daily:** 4 min: curl cream or texture paste, beard oil.
+- **Weekly:** Trim the beard to 6–9 mm and clean the cheek lines.
+- **Next barber visit:** in 2–3 weeks
+- **Suits:** Oval, round and heart face · All hair types · Medium or full beard growth
+
+## L78 Afro Taper
+
+A short, defined afro with a clean taper and boxed beard.
+
+**Description:** A Tapered Afro with defined curls and a sharp edge-up, with a Short Boxed Beard. Neat, strong and built for tight curls.
+
+- **Pick this if:** you have tight curls and want a clean, shaped look.
+- **Skip if:** your hair is straight or wavy, or your beard grows patchy.
+- **Includes:** H60 Tapered Afro · B04 Short Boxed Beard
+- **Daily:** 4 min: moisturise, define curls with a curl cream, beard oil.
+- **Weekly:** Deep-condition once. Trim the beard to 6–9 mm.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, long and heart face · Curly hair · Medium or full beard growth
+
+## L79 Modern Mullet Casual
+
+A low-fade mullet with a messy fringe and light stubble.
+
+**Description:** A Modern Mullet with short faded sides, a messy fringe and a little length at the back, with Light Stubble. Edgy but softer than a full mullet.
+
+- **Pick this if:** you want something with attitude that is still easy to wear.
+- **Skip if:** your workplace is strict, or your hair is very curly.
+- **Includes:** H34 Modern Mullet · B02 Light Stubble
+- **Daily:** 3 min: sea-salt spray, tousle the fringe, finger-style the back.
+- **Weekly:** Conditioner once. Trim the back every month to keep the shape.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Any beard growth
