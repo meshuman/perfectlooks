@@ -34,17 +34,17 @@ category.beards.intro,Screen text: category,"For beards, growth matters more tha
 category.moustaches.intro,Screen text: category,"Pairs with any beard except Van Dyke, Circle Beard, Balbo and Anchor Beard, which have their own moustache.","Van Dyke, Circle Beard, Balbo र Anchor Beard बाहेक सबै दाह्रीसँग मिल्छ। ती चारवटामा आफ्नै जुँगा हुन्छ।",draft,
 category.colours.intro,Screen text: category,The level number tells the barber which shade to use from any brand. Every colour starts with an allergy question.,लेभल नम्बरले बार्बरलाई कुनै पनि ब्रान्डको कुन सेड प्रयोग गर्ने भनेर बताउँछ। हरेक रङ एलर्जीको प्रश्नबाट सुरु हुन्छ।,draft,
 category.looks.intro,Screen text: category,Complete hair and beard sets. Pick one and it fills My Look in one tap.,"कपाल र दाह्रीका पूरा सेट। एउटा छान्नुहोस्, एकै ट्यापमा मेरो लुक भरिन्छ।",draft,
-category.hair.seoTitle,Screen text: category,Men's haircuts: 94 styles and how to ask your barber,पुरुषको कपाल काटाइ: 94 स्टाइल र बार्बरलाई कसरी भन्ने,draft,
+category.hair.seoTitle,Screen text: category,Men's haircuts: 99 styles and how to ask your barber,पुरुषको कपाल काटाइ: 99 स्टाइल र बार्बरलाई कसरी भन्ने,draft,
 category.beards.seoTitle,Screen text: category,Beard styles: 16 shapes and how to ask your barber,दाह्रीका स्टाइल: 16 आकार र बार्बरलाई कसरी भन्ने,draft,
 category.moustaches.seoTitle,Screen text: category,Moustache styles: 12 shapes and how to ask your barber,जुँगाका स्टाइल: 12 आकार र बार्बरलाई कसरी भन्ने,draft,
 category.colours.seoTitle,Screen text: category,"Men's hair colours: 12 shades, grey cover and care","पुरुषको कपालको रङ: 12 सेड, फुलेको कपाल ढाक्ने र हेरचाह",draft,
 category.looks.seoTitle,Screen text: category,Ready Looks: 79 hair and beard combinations,रेडी लुक्स: कपाल र दाह्रीका 79 संयोजन,draft,
-category.hair.seoDescription,Screen text: category,"94 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज कटदेखि काँधसम्मको कपालसम्म पुरुषका 94 हेयरकट। कसलाई सुहाउँछ, दैनिक स्टाइल गर्न कति समय लाग्छ र बार्बरलाई देखाउने ठ्याक्कै चरणहरू हेर्नुहोस्।",draft,
+category.hair.seoDescription,Screen text: category,"99 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज कटदेखि काँधसम्मको कपालसम्म पुरुषका 99 हेयरकट। कसलाई सुहाउँछ, दैनिक स्टाइल गर्न कति समय लाग्छ र बार्बरलाई देखाउने ठ्याक्कै चरणहरू हेर्नुहोस्।",draft,
 category.beards.seoDescription,Screen text: category,"16 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लिन सेभदेखि लामो दाह्रीसम्म 16 दाह्रीका स्टाइल। कुन स्टाइल कम, मध्यम वा बाक्लो दाह्रीलाई सुहाउँछ, ट्रिमरको लम्बाइ र बार्बरका चरण हेर्नुहोस्।",draft,
 category.moustaches.seoDescription,Screen text: category,"12 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटो ट्रिमदेखि ह्यान्डलबार र डालीसम्म 12 जुँगाका स्टाइल। कति उम्रनुपर्छ, दैनिक स्टाइल र बार्बरका ठ्याक्कै चरण हेर्नुहोस्।",draft,
 category.colours.seoDescription,Screen text: category,"12 men's hair colours from jet black to silver and henna. See grey coverage, time at the shop, skin tones that suit and how to stay safe.","जेट ब्ल्याकदेखि सिल्भर र मेहन्दीसम्म पुरुषका 12 कपालको रङ। फुलेको कपाल कति ढाक्छ, पसलमा लाग्ने समय, सुहाउने छालाको रङ र सुरक्षित कसरी रहने हेर्नुहोस्।",draft,
 category.looks.seoDescription,Screen text: category,"79 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","अफिस, बिहे, चाडपर्व र दैनिकका लागि कपाल, दाह्री, जुँगा र रङका 79 तयारी संयोजन। एउटा छान्नुहोस् र बार्बरलाई देखाउनुहोस्।",draft,
-category.hair.tileCount,Screen text: category,94 styles,94 स्टाइल,draft,
+category.hair.tileCount,Screen text: category,99 styles,99 स्टाइल,draft,
 category.beards.tileCount,Screen text: category,16 styles,16 स्टाइल,draft,
 category.moustaches.tileCount,Screen text: category,12 styles,12 स्टाइल,draft,
 category.colours.tileCount,Screen text: category,33 colours,33 रङ,draft,
@@ -357,7 +357,7 @@ shop.hoursValue,Screen text: shop,"Open daily, 7 am – 8 pm","दैनिक �
 shop.inTheShop,Screen text: shop,In the shop,पसलमा,draft,
 shop.flowTitle,Screen text: shop,Know what you want before you sit down.,कुर्सीमा बस्नुअघि नै के चाहिन्छ थाहा पाउनुहोस्।,draft,
 shop.step1.title,Screen text: shop,Pick your style,आफ्नो स्टाइल छान्नुहोस्,draft,
-shop.step1.text,Screen text: shop,"Browse 94 haircuts, 16 beards, 12 moustaches, 33 colours and 79 Ready Looks.","94 हेयरकट, 16 दाह्री, 12 जुँगा, 33 रङ र 79 रेडी लुक्स हेर्नुहोस्।",draft,
+shop.step1.text,Screen text: shop,"Browse 99 haircuts, 16 beards, 12 moustaches, 33 colours and 79 Ready Looks.","99 हेयरकट, 16 दाह्री, 12 जुँगा, 33 रङ र 79 रेडी लुक्स हेर्नुहोस्।",draft,
 shop.step2.title,Screen text: shop,Build My Look,मेरो लुक बनाउनुहोस्,draft,
 shop.step2.text,Screen text: shop,"Save favourites, then choose one hair, beard, moustache and colour.","मनपर्ने सेभ गर्नुहोस्, अनि एउटा कपाल, दाह्री, जुँगा र रङ छान्नुहोस्।",draft,
 shop.step3.title,Screen text: shop,Show the barber,बार्बरलाई देखाउनुहोस्,draft,
@@ -5830,6 +5830,166 @@ H94.callout.3.title,H94 Textured Quiff,Height at front,अगाडि उचा
 H94.callout.3.text,H94 Textured Quiff,About 8 cm.,लगभग 8 cm।,draft,Photo label line.
 H94.callout.4.title,H94 Textured Quiff,Tapered sides,टेपर गरिएको छेउ,draft,Photo label title.
 H94.callout.4.text,H94 Textured Quiff,#2 to #1.,#2 देखि #1।,draft,Photo label line.
+H95.name,H95 Iron Perm,Iron Perm,आइरन पर्म,draft,"Catalogue name. Keep it, or write the name customers use."
+H95.shortLine,H95 Iron Perm,A soft Korean perm with root lift and gentle bends.,रुट लिफ्ट र हल्का बेन्डसहितको नरम कोरियन पर्म।,draft,
+H95.description,H95 Iron Perm,"A Korean perm that gives the hair soft, loose bends and lift at the roots. From a distance it looks almost straight, but it has body and movement and sets easily in the morning.","कपाललाई नरम, खुकुलो बेन्ड र जराबाट उठान दिने कोरियन पर्म। टाढाबाट लगभग सिधा देखिन्छ, तर यसमा बडी र चाल हुन्छ र बिहान सजिलै सेट हुन्छ।",draft,
+H95.pickIf,H95 Iron Perm,"you want a polished, soft Korean look that styles itself.","तपाईं आफैं सेट हुने सफा, नरम कोरियन लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H95.skipIf,H95 Iron Perm,"your hair is very curly, or already damaged by bleach.","तपाईंको कपाल धेरै घुम्रिएको छ, वा ब्लिचले बिग्रिसकेको छ।",draft,"Follows ""Skip if""."
+H95.daily,H95 Iron Perm,"3 min: blow dry with your fingers, then a little light wax.","3 मिनेट: औंलाले ब्लो ड्राइ गर्नुहोस्, अनि अलिकति हल्का वाक्स।",draft,
+H95.weekly,H95 Iron Perm,Conditioner once. Use a heat protector if you blow dry daily.,हप्तामा एक पटक कन्डिसनर। दिनदिनै ब्लो ड्राइ गर्नुहुन्छ भने हिट प्रोटेक्टर प्रयोग गर्नुहोस्।,draft,
+H95.nextVisit,H95 Iron Perm,in 4 weeks,4 हप्तामा,draft,
+H95.alsoCalled,H95 Iron Perm,Korean iron perm,कोरियन आइरन पर्म,draft,Comma-separated names.
+H95.length,H95 Iron Perm,Medium,मध्यम,draft,
+H95.faq.1.q,H95 Iron Perm,What is an iron perm?,आइरन पर्म के हो?,draft,
+H95.faq.1.a,H95 Iron Perm,"A perm that gives soft, loose bends and lift at the roots instead of tight curls.","कसिलो कर्लको सट्टा नरम, खुकुलो बेन्ड र जराबाट उठान दिने पर्म।",draft,"Keep any <a href=""...""> link tags as they are."
+H95.faq.2.q,H95 Iron Perm,How long does it last?,यो कति समय टिक्छ?,draft,
+H95.faq.2.a,H95 Iron Perm,About 3–5 months. The effect softens as the hair grows.,लगभग 3–5 महिना। कपाल बढ्दै जाँदा प्रभाव नरम हुन्छ।,draft,"Keep any <a href=""...""> link tags as they are."
+H95.faq.3.q,H95 Iron Perm,Will it damage my hair?,के यसले कपाल बिगार्छ?,draft,
+H95.faq.3.a,H95 Iron Perm,A perm is a chemical treatment. Go to an experienced stylist and condition once a week.,पर्म रासायनिक उपचार हो। अनुभवी स्टाइलिस्टकहाँ जानुहोस् र हप्तामा एक पटक कन्डिसन गर्नुहोस्।,draft,"Keep any <a href=""...""> link tags as they are."
+H95.faq.4.q,H95 Iron Perm,Can I style it without heat?,के हिटबिना स्टाइल गर्न सकिन्छ?,draft,
+H95.faq.4.a,H95 Iron Perm,Yes. Air dry it and add a little wax.,सकिन्छ। हावामा सुकाउनुहोस् र अलिकति वाक्स लगाउनुहोस्।,draft,"Keep any <a href=""...""> link tags as they are."
+H95.step.1,H95 Iron Perm,"Sides: machine #3, taper to #2 at the neck.","छेउ: मेसिन #3, घाँटीमा #2 सम्म टेपर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H95.step.2,H95 Iron Perm,"Top: 8–9 cm. Scissors, soft layers.","माथि: 8–9 cm। कैंची, नरम लेयर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H95.step.3,H95 Iron Perm,Wrap the top on small rods and apply the perm lotion.,माथिलाई साना रडमा लपेटेर पर्म लोसन लगाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H95.step.4,H95 Iron Perm,"Rinse, neutralise and dry.","धुनुहोस्, न्युट्रलाइज गर्नुहोस् र सुकाउनुहोस्।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H95.step.5,H95 Iron Perm,Blow dry the top up at the roots.,माथिलाई जराबाट उठाएर ब्लो ड्राइ गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H95.step.6,H95 Iron Perm,Finish with light wax.,हल्का वाक्स लगाएर टुंग्याउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H95.callout.1.title,H95 Iron Perm,Root lift,जराबाट उठान,draft,Photo label title.
+H95.callout.1.text,H95 Iron Perm,Soft volume at the roots.,जरामा नरम भोल्युम।,draft,Photo label line.
+H95.callout.2.title,H95 Iron Perm,Gentle bends,हल्का बेन्ड,draft,Photo label title.
+H95.callout.2.text,H95 Iron Perm,"Loose, not curly.","खुकुलो, कर्ली होइन।",draft,Photo label line.
+H95.callout.3.title,H95 Iron Perm,Light fringe,हल्का फ्रिन्ज,draft,Photo label title.
+H95.callout.3.text,H95 Iron Perm,To the brows.,आँखीभौंसम्म।,draft,Photo label line.
+H95.callout.4.title,H95 Iron Perm,Tidy sides,सफा छेउ,draft,Photo label title.
+H95.callout.4.text,H95 Iron Perm,#3 to #2.,#3 देखि #2।,draft,Photo label line.
+H96.name,H96 Baby Perm,Baby Perm,बेबी पर्म,draft,"Catalogue name. Keep it, or write the name customers use."
+H96.shortLine,H96 Baby Perm,"Small, soft waves that add fluffy volume to short hair.","छोटो कपालमा फुलेको भोल्युम दिने साना, नरम लहरहरू।",draft,
+H96.description,H96 Baby Perm,"A light Korean perm with small, soft curls that give short hair a fluffy, boyish volume. The curls are loose and natural, not tight.","छोटो कपालमा फुलेको, बाल्यसुलभ भोल्युम दिने साना, नरम कर्लसहितको हल्का कोरियन पर्म। कर्ल खुकुलो र प्राकृतिक हुन्छ, कसिलो होइन।",draft,
+H96.pickIf,H96 Baby Perm,"your hair is flat, thin or straight and you want easy volume.","तपाईंको कपाल सपाट, पातलो वा सिधा छ र सजिलो भोल्युम चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H96.skipIf,H96 Baby Perm,"your hair is already very curly, or you want a slick finish.","तपाईंको कपाल पहिल्यै धेरै घुम्रिएको छ, वा चिल्लो फिनिश चाहनुहुन्छ।",draft,"Follows ""Skip if""."
+H96.daily,H96 Baby Perm,2 min: scrunch with a little cream or sea-salt spray.,2 मिनेट: अलिकति क्रिम वा सी-साल्ट स्प्रेले स्क्रन्च गर्नुहोस्।,draft,
+H96.weekly,H96 Baby Perm,Conditioner once. Do not brush it when dry.,हप्तामा एक पटक कन्डिसनर। सुकेको बेला कोर्नु हुँदैन।,draft,
+H96.nextVisit,H96 Baby Perm,in 4–5 weeks,4–5 हप्तामा,draft,
+H96.alsoCalled,H96 Baby Perm,Soft baby curls,सफ्ट बेबी कर्ल,draft,Comma-separated names.
+H96.length,H96 Baby Perm,Medium,मध्यम,draft,
+H96.faq.1.q,H96 Baby Perm,What is a baby perm?,बेबी पर्म के हो?,draft,
+H96.faq.1.a,H96 Baby Perm,"A light perm with small, soft curls that add fluffy volume to short hair.","छोटो कपालमा फुलेको भोल्युम थप्ने साना, नरम कर्लसहितको हल्का पर्म।",draft,"Keep any <a href=""...""> link tags as they are."
+H96.faq.2.q,H96 Baby Perm,Is it good for thin hair?,के पातलो कपालका लागि राम्रो छ?,draft,
+H96.faq.2.a,H96 Baby Perm,"Yes. The small curls add body, and the volume makes thin hair look fuller.",छ। साना कर्लले बडी थप्छन् र भोल्युमले पातलो कपाल घना देखाउँछ।,draft,"Keep any <a href=""...""> link tags as they are."
+H96.faq.3.q,H96 Baby Perm,How long does it last?,यो कति समय टिक्छ?,draft,
+H96.faq.3.a,H96 Baby Perm,"About 3–4 months, and it grows out softly.","लगभग 3–4 महिना, र नरम तरिकाले बढ्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H96.faq.4.q,H96 Baby Perm,How do I style it?,कसरी स्टाइल गर्ने?,draft,
+H96.faq.4.a,H96 Baby Perm,"Scrunch in a little cream, then let it dry naturally. Do not brush it.","अलिकति क्रिम लगाएर स्क्रन्च गर्नुहोस्, अनि आफैं सुक्न दिनुहोस्। नकोर्नुहोस्।",draft,"Keep any <a href=""...""> link tags as they are."
+H96.step.1,H96 Baby Perm,"Sides: machine #3, taper to #2 at the neck.","छेउ: मेसिन #3, घाँटीमा #2 सम्म टेपर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H96.step.2,H96 Baby Perm,"Top: 6 cm. Scissors, light layers.","माथि: 6 cm। कैंची, हल्का लेयर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H96.step.3,H96 Baby Perm,Wrap the top on very small rods and apply the perm lotion.,माथिलाई धेरै साना रडमा लपेटेर पर्म लोसन लगाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H96.step.4,H96 Baby Perm,"Rinse, neutralise and dry.","धुनुहोस्, न्युट्रलाइज गर्नुहोस् र सुकाउनुहोस्।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H96.step.5,H96 Baby Perm,Shape a short fringe to the forehead.,निधारसम्म छोटो फ्रिन्ज आकार दिनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H96.step.6,H96 Baby Perm,Scrunch in cream and let it dry.,क्रिमले स्क्रन्च गरी सुक्न दिनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H96.callout.1.title,H96 Baby Perm,Small curls,साना कर्ल,draft,Photo label title.
+H96.callout.1.text,H96 Baby Perm,Soft and loose.,नरम र खुकुलो।,draft,Photo label line.
+H96.callout.2.title,H96 Baby Perm,Airy volume,हावा जस्तो भोल्युम,draft,Photo label title.
+H96.callout.2.text,H96 Baby Perm,Fluffy top.,फुलेको माथि।,draft,Photo label line.
+H96.callout.3.title,H96 Baby Perm,Short fringe,छोटो फ्रिन्ज,draft,Photo label title.
+H96.callout.3.text,H96 Baby Perm,Above the brows.,आँखीभौंमाथि।,draft,Photo label line.
+H96.callout.4.title,H96 Baby Perm,Tidy sides,सफा छेउ,draft,Photo label title.
+H96.callout.4.text,H96 Baby Perm,#3 to #2.,#3 देखि #2।,draft,Photo label line.
+H97.name,H97 C-Curl Perm,C-Curl Perm,सी-कर्ल पर्म,draft,"Catalogue name. Keep it, or write the name customers use."
+H97.shortLine,H97 C-Curl Perm,A perm where the ends curl inward in a soft C shape.,टुप्पाहरू नरम C आकारमा भित्र कर्ल हुने पर्म।,draft,
+H97.description,H97 C-Curl Perm,"A Korean perm with a soft C-shaped curve at the ends of the fringe and top. It frames the face and gives a polished, sweet look.","फ्रिन्ज र माथिको टुप्पामा नरम C आकारको कर्ल भएको कोरियन पर्म। यसले अनुहारलाई फ्रेम गर्छ र सफा, मीठो लुक दिन्छ।",draft,
+H97.pickIf,H97 C-Curl Perm,"you want a soft, face-framing look.","तपाईं नरम, अनुहार फ्रेम गर्ने लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H97.skipIf,H97 C-Curl Perm,"your hair is very short on top, or very thick and coarse.","तपाईंको माथिको कपाल धेरै छोटो छ, वा धेरै बाक्लो र खस्रो छ।",draft,"Follows ""Skip if""."
+H97.daily,H97 C-Curl Perm,"4 min: blow dry the ends inward with a round brush, then light wax.","4 मिनेट: राउन्ड ब्रशले टुप्पा भित्रतिर ब्लो ड्राइ गर्नुहोस्, अनि हल्का वाक्स।",draft,
+H97.weekly,H97 C-Curl Perm,Conditioner once.,हप्तामा एक पटक कन्डिसनर।,draft,
+H97.nextVisit,H97 C-Curl Perm,in 4 weeks,4 हप्तामा,draft,
+H97.alsoCalled,H97 C-Curl Perm,Inward curl perm,इनवर्ड कर्ल पर्म,draft,Comma-separated names.
+H97.length,H97 C-Curl Perm,Medium,मध्यम,draft,
+H97.faq.1.q,H97 C-Curl Perm,What is a C-curl perm?,सी-कर्ल पर्म के हो?,draft,
+H97.faq.1.a,H97 C-Curl Perm,A perm where the ends of the hair curl inward in a soft C shape.,कपालका टुप्पाहरू नरम C आकारमा भित्रतिर कर्ल हुने पर्म।,draft,"Keep any <a href=""...""> link tags as they are."
+H97.faq.2.q,H97 C-Curl Perm,How is it different from an S-curl perm?,यो एस-कर्ल पर्मभन्दा कसरी फरक छ?,draft,
+H97.faq.2.a,H97 C-Curl Perm,A C-curl has one soft bend at the ends. An S-curl has waves through the whole top.,सी-कर्लमा टुप्पामा एउटा नरम बेन्ड हुन्छ। एस-कर्लमा सबै माथि लहर हुन्छ।,draft,"Keep any <a href=""...""> link tags as they are."
+H97.faq.3.q,H97 C-Curl Perm,Does it need a lot of styling?,के धेरै स्टाइलिङ चाहिन्छ?,draft,
+H97.faq.3.a,H97 C-Curl Perm,A little. Blow dry the ends inward and add light wax.,अलिकति। टुप्पा भित्रतिर ब्लो ड्राइ गरी हल्का वाक्स लगाउनुहोस्।,draft,"Keep any <a href=""...""> link tags as they are."
+H97.faq.4.q,H97 C-Curl Perm,How long does it last?,यो कति समय टिक्छ?,draft,
+H97.faq.4.a,H97 C-Curl Perm,About 3–5 months.,लगभग 3–5 महिना।,draft,"Keep any <a href=""...""> link tags as they are."
+H97.step.1,H97 C-Curl Perm,"Sides: machine #3, taper to #2 at the neck.","छेउ: मेसिन #3, घाँटीमा #2 सम्म टेपर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H97.step.2,H97 C-Curl Perm,"Top: 8–9 cm. Scissors, even layers.","माथि: 8–9 cm। कैंची, बराबर लेयर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H97.step.3,H97 C-Curl Perm,Wrap the ends inward on rods and apply the perm lotion.,टुप्पालाई रडमा भित्रतिर लपेटेर पर्म लोसन लगाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H97.step.4,H97 C-Curl Perm,"Rinse, neutralise and dry.","धुनुहोस्, न्युट्रलाइज गर्नुहोस् र सुकाउनुहोस्।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H97.step.5,H97 C-Curl Perm,Cut a medium fringe to the eyebrows.,आँखीभौंसम्म मध्यम फ्रिन्ज काट्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H97.step.6,H97 C-Curl Perm,Blow dry the ends inward. Light wax.,टुप्पा भित्रतिर ब्लो ड्राइ गर्नुहोस्। हल्का वाक्स।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H97.callout.1.title,H97 C-Curl Perm,C-curve ends,C आकारका टुप्पा,draft,Photo label title.
+H97.callout.1.text,H97 C-Curl Perm,Curl inward.,भित्रतिर कर्ल।,draft,Photo label line.
+H97.callout.2.title,H97 C-Curl Perm,Soft fringe,नरम फ्रिन्ज,draft,Photo label title.
+H97.callout.2.text,H97 C-Curl Perm,To the brows.,आँखीभौंसम्म।,draft,Photo label line.
+H97.callout.3.title,H97 C-Curl Perm,Smooth top,चिल्लो माथि,draft,Photo label title.
+H97.callout.3.text,H97 C-Curl Perm,Even layers.,बराबर लेयर।,draft,Photo label line.
+H97.callout.4.title,H97 C-Curl Perm,Tidy sides,सफा छेउ,draft,Photo label title.
+H97.callout.4.text,H97 C-Curl Perm,#3 to #2.,#3 देखि #2।,draft,Photo label line.
+H98.name,H98 S-Curl Perm,S-Curl Perm,एस-कर्ल पर्म,draft,"Catalogue name. Keep it, or write the name customers use."
+H98.shortLine,H98 S-Curl Perm,A perm with soft S-shaped waves through the top.,माथि नरम S आकारका लहर भएको पर्म।,draft,
+H98.description,H98 S-Curl Perm,"A Korean perm that gives the top soft, flowing S-shaped waves. More movement than a C-curl, with a relaxed, natural feel.","माथिको कपाललाई नरम, बग्ने S आकारका लहर दिने कोरियन पर्म। सी-कर्लभन्दा बढी चाल, आरामदायी र प्राकृतिक अनुभूतिसहित।",draft,
+H98.pickIf,H98 S-Curl Perm,you want waves with movement that look natural.,तपाईं प्राकृतिक देखिने चालसहितका लहर चाहनुहुन्छ।,draft,"Follows ""Pick this if""."
+H98.skipIf,H98 S-Curl Perm,"you want a neat, flat look, or your hair is very short.","तपाईं सफा, सपाट लुक चाहनुहुन्छ, वा कपाल धेरै छोटो छ।",draft,"Follows ""Skip if""."
+H98.daily,H98 S-Curl Perm,"3 min: scrunch in a little cream, then finger-style.","3 मिनेट: अलिकति क्रिमले स्क्रन्च गर्नुहोस्, अनि औंलाले स्टाइल।",draft,
+H98.weekly,H98 S-Curl Perm,Conditioner once.,हप्तामा एक पटक कन्डिसनर।,draft,
+H98.nextVisit,H98 S-Curl Perm,in 4–5 weeks,4–5 हप्तामा,draft,
+H98.alsoCalled,H98 S-Curl Perm,Wave perm,वेभ पर्म,draft,Comma-separated names.
+H98.length,H98 S-Curl Perm,Medium,मध्यम,draft,
+H98.faq.1.q,H98 S-Curl Perm,What is an S-curl perm?,एस-कर्ल पर्म के हो?,draft,
+H98.faq.1.a,H98 S-Curl Perm,"A perm that gives soft, flowing S-shaped waves through the top of the hair.","कपालको माथि नरम, बग्ने S आकारका लहर दिने पर्म।",draft,"Keep any <a href=""...""> link tags as they are."
+H98.faq.2.q,H98 S-Curl Perm,Is it the same as a wavy perm?,के यो वेभी पर्म जस्तै हो?,draft,
+H98.faq.2.a,H98 S-Curl Perm,"Close. An S-curl is a controlled, soft wave. A wavy perm can be looser or tighter.","नजिकै। एस-कर्ल नियन्त्रित, नरम लहर हो। वेभी पर्म बढी खुकुलो वा कसिलो हुन सक्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H98.faq.3.q,H98 S-Curl Perm,How long should my hair be?,कपाल कति लामो हुनुपर्छ?,draft,
+H98.faq.3.a,H98 S-Curl Perm,"About 8–10 cm on top, so the waves have room to show.","माथि लगभग 8–10 cm, ताकि लहर देखिने ठाउँ होस्।",draft,"Keep any <a href=""...""> link tags as they are."
+H98.faq.4.q,H98 S-Curl Perm,How do I keep the waves?,लहर कसरी जोगाउने?,draft,
+H98.faq.4.a,H98 S-Curl Perm,"Use a little cream, do not brush when dry, and condition weekly.","अलिकति क्रिम लगाउनुहोस्, सुकेको बेला नकोर्नुहोस्, र हप्तामा कन्डिसन गर्नुहोस्।",draft,"Keep any <a href=""...""> link tags as they are."
+H98.step.1,H98 S-Curl Perm,"Sides: machine #3, taper to #2 at the neck.","छेउ: मेसिन #3, घाँटीमा #2 सम्म टेपर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H98.step.2,H98 S-Curl Perm,"Top: 9 cm. Scissors, soft layers.","माथि: 9 cm। कैंची, नरम लेयर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H98.step.3,H98 S-Curl Perm,Wrap the top on rods in alternating directions to make S waves.,S लहर बनाउन माथिलाई रडमा उल्टो-पल्टो दिशामा लपेट्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H98.step.4,H98 S-Curl Perm,"Rinse, neutralise and dry.","धुनुहोस्, न्युट्रलाइज गर्नुहोस् र सुकाउनुहोस्।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H98.step.5,H98 S-Curl Perm,"Cut a light fringe, pushed slightly off the forehead.",हल्का फ्रिन्ज काटी निधारबाट अलिकति पर सार्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H98.step.6,H98 S-Curl Perm,Scrunch in cream and finger-style.,क्रिमले स्क्रन्च गरी औंलाले स्टाइल गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H98.callout.1.title,H98 S-Curl Perm,S-waves,S लहर,draft,Photo label title.
+H98.callout.1.text,H98 S-Curl Perm,Flowing and soft.,बग्ने र नरम।,draft,Photo label line.
+H98.callout.2.title,H98 S-Curl Perm,Natural movement,प्राकृतिक चाल,draft,Photo label title.
+H98.callout.2.text,H98 S-Curl Perm,Not tight.,कसिलो होइन।,draft,Photo label line.
+H98.callout.3.title,H98 S-Curl Perm,Light fringe,हल्का फ्रिन्ज,draft,Photo label title.
+H98.callout.3.text,H98 S-Curl Perm,Parted gently.,नरम रूपमा छुट्याइएको।,draft,Photo label line.
+H98.callout.4.title,H98 S-Curl Perm,Tidy sides,सफा छेउ,draft,Photo label title.
+H98.callout.4.text,H98 S-Curl Perm,#3 to #2.,#3 देखि #2।,draft,Photo label line.
+H99.name,H99 Garma Perm,Garma Perm,गार्मा पर्म,draft,"Catalogue name. Keep it, or write the name customers use."
+H99.shortLine,H99 Garma Perm,A centre-parted perm with soft waves that fall to both sides.,"बीचमा सिउँदो भएको, दुवैतिर नरम लहर झर्ने पर्म।",draft,
+H99.description,H99 Garma Perm,"A popular Korean perm. The hair is parted in the centre or slightly off-centre, and soft waves fall to each side. ""Garma"" means ""part"" in Korean.",लोकप्रिय कोरियन पर्म। कपाल बीचमा वा अलि छेउतिर सिउँदो काढिन्छ र नरम लहर दुवैतिर झर्छ। कोरियन भाषामा “Garma” को अर्थ सिउँदो हो।,draft,
+H99.pickIf,H99 Garma Perm,"you want the classic, soft Korean centre-part look.","तपाईं क्लासिक, नरम कोरियन बीचको सिउँदोको लुक चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H99.skipIf,H99 Garma Perm,"you have a very round face, or your hair is very short on top.","तपाईंको अनुहार धेरै गोलो छ, वा माथिको कपाल धेरै छोटो छ।",draft,"Follows ""Skip if""."
+H99.daily,H99 Garma Perm,"4 min: part the hair, blow dry it sideways, then light wax.","4 मिनेट: सिउँदो काढ्नुहोस्, छेउतिर ब्लो ड्राइ गर्नुहोस्, अनि हल्का वाक्स।",draft,
+H99.weekly,H99 Garma Perm,Conditioner once.,हप्तामा एक पटक कन्डिसनर।,draft,
+H99.nextVisit,H99 Garma Perm,in 4 weeks,4 हप्तामा,draft,
+H99.alsoCalled,H99 Garma Perm,"Garma, centre-part perm","गार्मा, बीचको सिउँदो पर्म",draft,Comma-separated names.
+H99.length,H99 Garma Perm,Medium,मध्यम,draft,
+H99.faq.1.q,H99 Garma Perm,What does Garma mean?,गार्मा भनेको के हो?,draft,
+H99.faq.1.a,H99 Garma Perm,&quot;Garma&quot; is the Korean word for a hair part. A Garma perm is a perm styled around the part.,“Garma” कपालको सिउँदोका लागि कोरियन शब्द हो। गार्मा पर्म सिउँदो वरिपरि स्टाइल गरिएको पर्म हो।,draft,"Keep any <a href=""...""> link tags as they are."
+H99.faq.2.q,H99 Garma Perm,Where should the part be?,सिउँदो कहाँ हुनुपर्छ?,draft,
+H99.faq.2.a,H99 Garma Perm,"In the centre or slightly off-centre, where the hair falls most naturally.","बीचमा वा अलि छेउतिर, जहाँ कपाल सबैभन्दा प्राकृतिक रूपमा झर्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H99.faq.3.q,H99 Garma Perm,Is it the same as a middle part cut?,के यो मिडल पार्ट कटजस्तै हो?,draft,
+H99.faq.3.a,H99 Garma Perm,"Not quite. A Garma perm adds soft waves, so the hair falls in curves instead of straight.","ठ्याक्कै होइन। गार्मा पर्मले नरम लहर थप्छ, त्यसैले कपाल सिधा नभई घुमाउरो झर्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H99.faq.4.q,H99 Garma Perm,How long does it last?,यो कति समय टिक्छ?,draft,
+H99.faq.4.a,H99 Garma Perm,About 3–5 months.,लगभग 3–5 महिना।,draft,"Keep any <a href=""...""> link tags as they are."
+H99.step.1,H99 Garma Perm,"Sides: machine #3, taper to #2 at the neck.","छेउ: मेसिन #3, घाँटीमा #2 सम्म टेपर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H99.step.2,H99 Garma Perm,"Top: 9 cm. Scissors, soft layers.","माथि: 9 cm। कैंची, नरम लेयर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H99.step.3,H99 Garma Perm,"Mark the part, then wrap the top on rods for soft waves.","सिउँदो चिन्ह लगाउनुहोस्, अनि नरम लहरका लागि माथिलाई रडमा लपेट्नुहोस्।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H99.step.4,H99 Garma Perm,"Rinse, neutralise and dry.","धुनुहोस्, न्युट्रलाइज गर्नुहोस् र सुकाउनुहोस्।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H99.step.5,H99 Garma Perm,Blow dry the hair sideways from the part.,सिउँदोबाट छेउतिर ब्लो ड्राइ गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H99.step.6,H99 Garma Perm,Finish with light wax.,हल्का वाक्स लगाएर टुंग्याउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H99.callout.1.title,H99 Garma Perm,Centre part,बीचको सिउँदो,draft,Photo label title.
+H99.callout.1.text,H99 Garma Perm,Slightly off-centre.,अलि छेउतिर।,draft,Photo label line.
+H99.callout.2.title,H99 Garma Perm,Soft waves,नरम लहर,draft,Photo label title.
+H99.callout.2.text,H99 Garma Perm,Fall to both sides.,दुवैतिर झर्छ।,draft,Photo label line.
+H99.callout.3.title,H99 Garma Perm,Gentle curve,हल्का घुमाउरो,draft,Photo label title.
+H99.callout.3.text,H99 Garma Perm,Over the forehead.,निधारमाथि।,draft,Photo label line.
+H99.callout.4.title,H99 Garma Perm,Tidy sides,सफा छेउ,draft,Photo label title.
+H99.callout.4.text,H99 Garma Perm,#3 to #2.,#3 देखि #2।,draft,Photo label line.
 B01.name,B01 Clean Shave,Clean Shave,क्लिन सेभ,draft,"Catalogue name. Keep it, or write the name customers use."
 B01.shortLine,B01 Clean Shave,No hair on the face. Fresh and clean.,अनुहारमा रौं छैन। ताजा र सफा।,draft,
 B01.description,B01 Clean Shave,A smooth face with no beard. Fresh and clean.,दाह्रीबिनाको चिल्लो अनुहार। ताजा र सफा।,draft,

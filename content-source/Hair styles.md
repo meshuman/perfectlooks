@@ -1,6 +1,6 @@
 # Hair styles
 
-94 hair styles, from a shaved head to long hair, including Korean styles. 58 use a front photo. 36 use a side photo because the cut only shows clearly from the side.
+99 hair styles, from a shaved head to long hair, including Korean styles. 63 use a front photo. 36 use a side photo because the cut only shows clearly from the side.
 
 ## At a glance
 
@@ -100,6 +100,11 @@
 | H92 High Fade Quiff | Medium | High | Oval, Square | Straight, Wavy | No | Side |
 | H93 Taper Fade Quiff | Medium | Medium | Oval, Square, Round | Straight, Wavy | No | Side |
 | H94 Textured Quiff | Medium | Medium | Oval, Square, Round | Straight, Wavy | No | Side |
+| H95 Iron Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H96 Baby Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H97 C-Curl Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H98 S-Curl Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H99 Garma Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 
 ## H01 Buzz Cut
 
@@ -3005,3 +3010,158 @@ A loose, matte quiff with natural texture.
 4. Point-cut the top for a loose, textured finish.
 5. Blow dry the front up, roughly.
 6. Finish with clay. Clean neck and ears.
+
+## H95 Iron Perm
+
+A soft Korean perm with root lift and gentle bends.
+
+**Description:** A Korean perm that gives the hair soft, loose bends and lift at the roots. From a distance it looks almost straight, but it has body and movement and sets easily in the morning.
+
+- **Pick this if:** you want a polished, soft Korean look that styles itself.
+- **Skip if:** your hair is very curly, or already damaged by bleach.
+- **Daily:** 3 min: blow dry with your fingers, then a little light wax.
+- **Weekly:** Conditioner once. Use a heat protector if you blow dry daily.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Korean iron perm
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is an iron perm?** A perm that gives soft, loose bends and lift at the roots instead of tight curls.
+- **How long does it last?** About 3–5 months. The effect softens as the hair grows.
+- **Will it damage my hair?** A perm is a chemical treatment. Go to an experienced stylist and condition once a week.
+- **Can I style it without heat?** Yes. Air dry it and add a little wax.
+
+**Barber steps**
+
+1. Sides: machine #3, taper to #2 at the neck.
+2. Top: 8–9 cm. Scissors, soft layers.
+3. Wrap the top on small rods and apply the perm lotion.
+4. Rinse, neutralise and dry.
+5. Blow dry the top up at the roots.
+6. Finish with light wax.
+
+## H96 Baby Perm
+
+Small, soft waves that add fluffy volume to short hair.
+
+**Description:** A light Korean perm with small, soft curls that give short hair a fluffy, boyish volume. The curls are loose and natural, not tight.
+
+- **Pick this if:** your hair is flat, thin or straight and you want easy volume.
+- **Skip if:** your hair is already very curly, or you want a slick finish.
+- **Daily:** 2 min: scrunch with a little cream or sea-salt spray.
+- **Weekly:** Conditioner once. Do not brush it when dry.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Soft baby curls
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a baby perm?** A light perm with small, soft curls that add fluffy volume to short hair.
+- **Is it good for thin hair?** Yes. The small curls add body, and the volume makes thin hair look fuller.
+- **How long does it last?** About 3–4 months, and it grows out softly.
+- **How do I style it?** Scrunch in a little cream, then let it dry naturally. Do not brush it.
+
+**Barber steps**
+
+1. Sides: machine #3, taper to #2 at the neck.
+2. Top: 6 cm. Scissors, light layers.
+3. Wrap the top on very small rods and apply the perm lotion.
+4. Rinse, neutralise and dry.
+5. Shape a short fringe to the forehead.
+6. Scrunch in cream and let it dry.
+
+## H97 C-Curl Perm
+
+A perm where the ends curl inward in a soft C shape.
+
+**Description:** A Korean perm with a soft C-shaped curve at the ends of the fringe and top. It frames the face and gives a polished, sweet look.
+
+- **Pick this if:** you want a soft, face-framing look.
+- **Skip if:** your hair is very short on top, or very thick and coarse.
+- **Daily:** 4 min: blow dry the ends inward with a round brush, then light wax.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Inward curl perm
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a C-curl perm?** A perm where the ends of the hair curl inward in a soft C shape.
+- **How is it different from an S-curl perm?** A C-curl has one soft bend at the ends. An S-curl has waves through the whole top.
+- **Does it need a lot of styling?** A little. Blow dry the ends inward and add light wax.
+- **How long does it last?** About 3–5 months.
+
+**Barber steps**
+
+1. Sides: machine #3, taper to #2 at the neck.
+2. Top: 8–9 cm. Scissors, even layers.
+3. Wrap the ends inward on rods and apply the perm lotion.
+4. Rinse, neutralise and dry.
+5. Cut a medium fringe to the eyebrows.
+6. Blow dry the ends inward. Light wax.
+
+## H98 S-Curl Perm
+
+A perm with soft S-shaped waves through the top.
+
+**Description:** A Korean perm that gives the top soft, flowing S-shaped waves. More movement than a C-curl, with a relaxed, natural feel.
+
+- **Pick this if:** you want waves with movement that look natural.
+- **Skip if:** you want a neat, flat look, or your hair is very short.
+- **Daily:** 3 min: scrunch in a little cream, then finger-style.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Wave perm
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is an S-curl perm?** A perm that gives soft, flowing S-shaped waves through the top of the hair.
+- **Is it the same as a wavy perm?** Close. An S-curl is a controlled, soft wave. A wavy perm can be looser or tighter.
+- **How long should my hair be?** About 8–10 cm on top, so the waves have room to show.
+- **How do I keep the waves?** Use a little cream, do not brush when dry, and condition weekly.
+
+**Barber steps**
+
+1. Sides: machine #3, taper to #2 at the neck.
+2. Top: 9 cm. Scissors, soft layers.
+3. Wrap the top on rods in alternating directions to make S waves.
+4. Rinse, neutralise and dry.
+5. Cut a light fringe, pushed slightly off the forehead.
+6. Scrunch in cream and finger-style.
+
+## H99 Garma Perm
+
+A centre-parted perm with soft waves that fall to both sides.
+
+**Description:** A popular Korean perm. The hair is parted in the centre or slightly off-centre, and soft waves fall to each side. "Garma" means "part" in Korean.
+
+- **Pick this if:** you want the classic, soft Korean centre-part look.
+- **Skip if:** you have a very round face, or your hair is very short on top.
+- **Daily:** 4 min: part the hair, blow dry it sideways, then light wax.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Garma, centre-part perm
+- **Main photo:** Front
+
+**FAQ**
+
+- **What does Garma mean?** "Garma" is the Korean word for a hair part. A Garma perm is a perm styled around the part.
+- **Where should the part be?** In the centre or slightly off-centre, where the hair falls most naturally.
+- **Is it the same as a middle part cut?** Not quite. A Garma perm adds soft waves, so the hair falls in curves instead of straight.
+- **How long does it last?** About 3–5 months.
+
+**Barber steps**
+
+1. Sides: machine #3, taper to #2 at the neck.
+2. Top: 9 cm. Scissors, soft layers.
+3. Mark the part, then wrap the top on rods for soft waves.
+4. Rinse, neutralise and dry.
+5. Blow dry the hair sideways from the part.
+6. Finish with light wax.

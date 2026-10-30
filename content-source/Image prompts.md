@@ -1486,6 +1486,76 @@ CALLOUTS:
 4. Tapered sides: #2 to #1.
 ```
 
+### H95 Iron Perm
+
+```text
+ITEM: H95 Iron Perm
+BACKDROP: Sage (#CADBD8).
+MAIN VIEW: straight front, head and shoulders
+STYLE: sides machine #3 tapering to #2; top about 9 cm in soft layers with loose, gentle bends and lift at the roots; a light fringe to the eyebrows; natural, soft sheen.
+CALLOUTS:
+1. Root lift: Soft volume at the roots.
+2. Gentle bends: Loose, not curly.
+3. Light fringe: To the brows.
+4. Tidy sides: #3 to #2.
+```
+
+### H96 Baby Perm
+
+```text
+ITEM: H96 Baby Perm
+BACKDROP: Sand (#D8CDBF).
+MAIN VIEW: straight front, head and shoulders
+STYLE: sides machine #3 tapering to #2; top about 6 cm of small, soft, loose curls with airy volume and a short fringe to the forehead; natural matte finish with no frizz.
+CALLOUTS:
+1. Small curls: Soft and loose.
+2. Airy volume: Fluffy top.
+3. Short fringe: Above the brows.
+4. Tidy sides: #3 to #2.
+```
+
+### H97 C-Curl Perm
+
+```text
+ITEM: H97 C-Curl Perm
+BACKDROP: Plum (#B06A8F).
+MAIN VIEW: straight front, head and shoulders
+STYLE: sides machine #3 tapering to #2; top about 8–9 cm with the ends and the fringe curling gently inward in a soft C shape; a medium fringe to the eyebrows; smooth natural shine.
+CALLOUTS:
+1. C-curve ends: Curl inward.
+2. Soft fringe: To the brows.
+3. Smooth top: Even layers.
+4. Tidy sides: #3 to #2.
+```
+
+### H98 S-Curl Perm
+
+```text
+ITEM: H98 S-Curl Perm
+BACKDROP: Orange (#EC9465).
+MAIN VIEW: straight front, head and shoulders
+STYLE: sides machine #3 tapering to #2; top about 9 cm in soft, flowing S-shaped waves with natural movement, pushed slightly off the forehead with a light fringe; matte natural finish.
+CALLOUTS:
+1. S-waves: Flowing and soft.
+2. Natural movement: Not tight.
+3. Light fringe: Parted gently.
+4. Tidy sides: #3 to #2.
+```
+
+### H99 Garma Perm
+
+```text
+ITEM: H99 Garma Perm
+BACKDROP: Blush (#F7D9CE).
+MAIN VIEW: straight front, head and shoulders
+STYLE: sides machine #3 tapering to #2; top about 9 cm parted in the centre or slightly off-centre, with soft waves falling to each side and a gentle curve over the forehead; smooth natural shine.
+CALLOUTS:
+1. Centre part: Slightly off-centre.
+2. Soft waves: Fall to both sides.
+3. Gentle curve: Over the forehead.
+4. Tidy sides: #3 to #2.
+```
+
 ### B01 Clean Shave
 
 ```text

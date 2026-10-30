@@ -7136,5 +7136,386 @@
       "Wavy"
     ],
     "thinHairOk": false
+  },
+  {
+    "id": "H95",
+    "updated": "2026-10-30",
+    "slug": "iron-perm",
+    "name": "Iron Perm",
+    "shortLine": "A soft Korean perm with root lift and gentle bends.",
+    "description": "A Korean perm that gives the hair soft, loose bends and lift at the roots. From a distance it looks almost straight, but it has body and movement and sets easily in the morning.",
+    "pickIf": "you want a polished, soft Korean look that styles itself.",
+    "skipIf": "your hair is very curly, or already damaged by bleach.",
+    "daily": "3 min: blow dry with your fingers, then a little light wax.",
+    "weekly": "Conditioner once. Use a heat protector if you blow dry daily.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [
+      "Korean iron perm"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Root lift",
+        "text": "Soft volume at the roots."
+      },
+      {
+        "title": "Gentle bends",
+        "text": "Loose, not curly."
+      },
+      {
+        "title": "Light fringe",
+        "text": "To the brows."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "#3 to #2."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an iron perm?",
+        "a": "A perm that gives soft, loose bends and lift at the roots instead of tight curls."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "About 3–5 months. The effect softens as the hair grows."
+      },
+      {
+        "q": "Will it damage my hair?",
+        "a": "A perm is a chemical treatment. Go to an experienced stylist and condition once a week."
+      },
+      {
+        "q": "Can I style it without heat?",
+        "a": "Yes. Air dry it and add a little wax."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, taper to #2 at the neck.",
+      "Top: 8–9 cm. Scissors, soft layers.",
+      "Wrap the top on small rods and apply the perm lotion.",
+      "Rinse, neutralise and dry.",
+      "Blow dry the top up at the roots.",
+      "Finish with light wax."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H96",
+    "updated": "2026-10-30",
+    "slug": "baby-perm",
+    "name": "Baby Perm",
+    "shortLine": "Small, soft waves that add fluffy volume to short hair.",
+    "description": "A light Korean perm with small, soft curls that give short hair a fluffy, boyish volume. The curls are loose and natural, not tight.",
+    "pickIf": "your hair is flat, thin or straight and you want easy volume.",
+    "skipIf": "your hair is already very curly, or you want a slick finish.",
+    "daily": "2 min: scrunch with a little cream or sea-salt spray.",
+    "weekly": "Conditioner once. Do not brush it when dry.",
+    "nextVisit": "in 4–5 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [
+      "Soft baby curls"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Small curls",
+        "text": "Soft and loose."
+      },
+      {
+        "title": "Airy volume",
+        "text": "Fluffy top."
+      },
+      {
+        "title": "Short fringe",
+        "text": "Above the brows."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "#3 to #2."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a baby perm?",
+        "a": "A light perm with small, soft curls that add fluffy volume to short hair."
+      },
+      {
+        "q": "Is it good for thin hair?",
+        "a": "Yes. The small curls add body, and the volume makes thin hair look fuller."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "About 3–4 months, and it grows out softly."
+      },
+      {
+        "q": "How do I style it?",
+        "a": "Scrunch in a little cream, then let it dry naturally. Do not brush it."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, taper to #2 at the neck.",
+      "Top: 6 cm. Scissors, light layers.",
+      "Wrap the top on very small rods and apply the perm lotion.",
+      "Rinse, neutralise and dry.",
+      "Shape a short fringe to the forehead.",
+      "Scrunch in cream and let it dry."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H97",
+    "updated": "2026-10-30",
+    "slug": "c-curl-perm",
+    "name": "C-Curl Perm",
+    "shortLine": "A perm where the ends curl inward in a soft C shape.",
+    "description": "A Korean perm with a soft C-shaped curve at the ends of the fringe and top. It frames the face and gives a polished, sweet look.",
+    "pickIf": "you want a soft, face-framing look.",
+    "skipIf": "your hair is very short on top, or very thick and coarse.",
+    "daily": "4 min: blow dry the ends inward with a round brush, then light wax.",
+    "weekly": "Conditioner once.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [
+      "Inward curl perm"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "C-curve ends",
+        "text": "Curl inward."
+      },
+      {
+        "title": "Soft fringe",
+        "text": "To the brows."
+      },
+      {
+        "title": "Smooth top",
+        "text": "Even layers."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "#3 to #2."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a C-curl perm?",
+        "a": "A perm where the ends of the hair curl inward in a soft C shape."
+      },
+      {
+        "q": "How is it different from an S-curl perm?",
+        "a": "A C-curl has one soft bend at the ends. An S-curl has waves through the whole top."
+      },
+      {
+        "q": "Does it need a lot of styling?",
+        "a": "A little. Blow dry the ends inward and add light wax."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "About 3–5 months."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, taper to #2 at the neck.",
+      "Top: 8–9 cm. Scissors, even layers.",
+      "Wrap the ends inward on rods and apply the perm lotion.",
+      "Rinse, neutralise and dry.",
+      "Cut a medium fringe to the eyebrows.",
+      "Blow dry the ends inward. Light wax."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H98",
+    "updated": "2026-10-30",
+    "slug": "s-curl-perm",
+    "name": "S-Curl Perm",
+    "shortLine": "A perm with soft S-shaped waves through the top.",
+    "description": "A Korean perm that gives the top soft, flowing S-shaped waves. More movement than a C-curl, with a relaxed, natural feel.",
+    "pickIf": "you want waves with movement that look natural.",
+    "skipIf": "you want a neat, flat look, or your hair is very short.",
+    "daily": "3 min: scrunch in a little cream, then finger-style.",
+    "weekly": "Conditioner once.",
+    "nextVisit": "in 4–5 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [
+      "Wave perm"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "S-waves",
+        "text": "Flowing and soft."
+      },
+      {
+        "title": "Natural movement",
+        "text": "Not tight."
+      },
+      {
+        "title": "Light fringe",
+        "text": "Parted gently."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "#3 to #2."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an S-curl perm?",
+        "a": "A perm that gives soft, flowing S-shaped waves through the top of the hair."
+      },
+      {
+        "q": "Is it the same as a wavy perm?",
+        "a": "Close. An S-curl is a controlled, soft wave. A wavy perm can be looser or tighter."
+      },
+      {
+        "q": "How long should my hair be?",
+        "a": "About 8–10 cm on top, so the waves have room to show."
+      },
+      {
+        "q": "How do I keep the waves?",
+        "a": "Use a little cream, do not brush when dry, and condition weekly."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, taper to #2 at the neck.",
+      "Top: 9 cm. Scissors, soft layers.",
+      "Wrap the top on rods in alternating directions to make S waves.",
+      "Rinse, neutralise and dry.",
+      "Cut a light fringe, pushed slightly off the forehead.",
+      "Scrunch in cream and finger-style."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H99",
+    "updated": "2026-10-30",
+    "slug": "garma-perm",
+    "name": "Garma Perm",
+    "shortLine": "A centre-parted perm with soft waves that fall to both sides.",
+    "description": "A popular Korean perm. The hair is parted in the centre or slightly off-centre, and soft waves fall to each side. \"Garma\" means \"part\" in Korean.",
+    "pickIf": "you want the classic, soft Korean centre-part look.",
+    "skipIf": "you have a very round face, or your hair is very short on top.",
+    "daily": "4 min: part the hair, blow dry it sideways, then light wax.",
+    "weekly": "Conditioner once.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [
+      "Garma",
+      "centre-part perm"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Centre part",
+        "text": "Slightly off-centre."
+      },
+      {
+        "title": "Soft waves",
+        "text": "Fall to both sides."
+      },
+      {
+        "title": "Gentle curve",
+        "text": "Over the forehead."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "#3 to #2."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What does Garma mean?",
+        "a": "&quot;Garma&quot; is the Korean word for a hair part. A Garma perm is a perm styled around the part."
+      },
+      {
+        "q": "Where should the part be?",
+        "a": "In the centre or slightly off-centre, where the hair falls most naturally."
+      },
+      {
+        "q": "Is it the same as a middle part cut?",
+        "a": "Not quite. A Garma perm adds soft waves, so the hair falls in curves instead of straight."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "About 3–5 months."
+      }
+    ],
+    "barberSteps": [
+      "Sides: machine #3, taper to #2 at the neck.",
+      "Top: 9 cm. Scissors, soft layers.",
+      "Mark the part, then wrap the top on rods for soft waves.",
+      "Rinse, neutralise and dry.",
+      "Blow dry the hair sideways from the part.",
+      "Finish with light wax."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
   }
 ]

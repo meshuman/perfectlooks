@@ -482,6 +482,31 @@
       "block": "ITEM: H94 Textured Quiff\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2 tapering to #1 at the neck; top about 8 cm at the front, lifted up and back with loose, messy texture and visible separation, shorter toward the crown; dry, matte clay finish with no shine.\nCALLOUTS:\n1. Loose lift: Up and back, not stiff.\n2. Matte texture: Visible separation.\n3. Height at front: About 8 cm.\n4. Tapered sides: #2 to #1.",
       "older": false
     },
+    "H95": {
+      "name": "Iron Perm",
+      "block": "ITEM: H95 Iron Perm\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm in soft layers with loose, gentle bends and lift at the roots; a light fringe to the eyebrows; natural, soft sheen.\nCALLOUTS:\n1. Root lift: Soft volume at the roots.\n2. Gentle bends: Loose, not curly.\n3. Light fringe: To the brows.\n4. Tidy sides: #3 to #2.",
+      "older": false
+    },
+    "H96": {
+      "name": "Baby Perm",
+      "block": "ITEM: H96 Baby Perm\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 6 cm of small, soft, loose curls with airy volume and a short fringe to the forehead; natural matte finish with no frizz.\nCALLOUTS:\n1. Small curls: Soft and loose.\n2. Airy volume: Fluffy top.\n3. Short fringe: Above the brows.\n4. Tidy sides: #3 to #2.",
+      "older": false
+    },
+    "H97": {
+      "name": "C-Curl Perm",
+      "block": "ITEM: H97 C-Curl Perm\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 8–9 cm with the ends and the fringe curling gently inward in a soft C shape; a medium fringe to the eyebrows; smooth natural shine.\nCALLOUTS:\n1. C-curve ends: Curl inward.\n2. Soft fringe: To the brows.\n3. Smooth top: Even layers.\n4. Tidy sides: #3 to #2.",
+      "older": false
+    },
+    "H98": {
+      "name": "S-Curl Perm",
+      "block": "ITEM: H98 S-Curl Perm\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm in soft, flowing S-shaped waves with natural movement, pushed slightly off the forehead with a light fringe; matte natural finish.\nCALLOUTS:\n1. S-waves: Flowing and soft.\n2. Natural movement: Not tight.\n3. Light fringe: Parted gently.\n4. Tidy sides: #3 to #2.",
+      "older": false
+    },
+    "H99": {
+      "name": "Garma Perm",
+      "block": "ITEM: H99 Garma Perm\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm parted in the centre or slightly off-centre, with soft waves falling to each side and a gentle curve over the forehead; smooth natural shine.\nCALLOUTS:\n1. Centre part: Slightly off-centre.\n2. Soft waves: Fall to both sides.\n3. Gentle curve: Over the forehead.\n4. Tidy sides: #3 to #2.",
+      "older": false
+    },
     "B01": {
       "name": "Clean Shave",
       "block": "ITEM: B01 Clean Shave\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: completely clean-shaven face with smooth skin; no stubble shadow, redness or bumps; fresh, hot-towel finish.\nCALLOUTS:\n1. Smooth cheeks: No stubble shadow.\n2. Clean jaw: Close razor finish.\n3. Smooth neck: No bumps or redness.\n4. Fresh skin: Calm after aftershave.",
