@@ -77,8 +77,8 @@ export function traitsFor({ category, match, older }: StyleTraits): string[] {
   ];
   lines.push(
     category === 'colours'
-      ? 'Skin: medium-brown with warm undertones (his own; this shade suits medium skin).'
-      : 'Skin: medium-brown with warm undertones (his own).',
+      ? 'Skin: medium-brown with a strong warm olive undertone (his own; this shade suits medium skin).'
+      : 'Skin: medium-brown with a strong warm olive undertone (his own).',
   );
 
   const types = match.hairType ?? [];
