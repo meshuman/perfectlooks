@@ -1,7 +1,7 @@
 [
   {
     "id": "H01",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "buzz-cut",
     "name": "Buzz Cut",
     "shortLine": "Very short, same length all over. Clean and easy.",
@@ -76,7 +76,7 @@
   },
   {
     "id": "H02",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "crew-cut",
     "name": "Crew Cut",
     "shortLine": "Short sides, a little longer on top. Neat and simple.",
@@ -155,7 +155,7 @@
   },
   {
     "id": "H03",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "ivy-league",
     "name": "Ivy League",
     "shortLine": "A longer crew cut. Top can be combed to the side.",
@@ -229,7 +229,7 @@
   },
   {
     "id": "H04",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "caesar-cut",
     "name": "Caesar Cut",
     "shortLine": "Short all over with a short straight fringe in front.",
@@ -303,7 +303,7 @@
   },
   {
     "id": "H05",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "french-crop",
     "name": "French Crop",
     "shortLine": "Short sides. Rough top pushed forward with a short fringe.",
@@ -380,7 +380,7 @@
   },
   {
     "id": "H06",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "taper-cut",
     "name": "Taper Cut",
     "shortLine": "Classic short cut. Gets shorter slowly near the ears and neck.",
@@ -455,7 +455,7 @@
   },
   {
     "id": "H07",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "low-fade",
     "name": "Low Fade",
     "shortLine": "Sides fade to skin just above the ears. Short top.",
@@ -535,7 +535,7 @@
   },
   {
     "id": "H08",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "mid-fade",
     "name": "Mid Fade",
     "shortLine": "Fade starts at the middle of the side. Clean and modern.",
@@ -610,7 +610,7 @@
   },
   {
     "id": "H09",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "skin-fade",
     "name": "Skin Fade",
     "shortLine": "Sides go to bare skin, high up. Very sharp look.",
@@ -688,7 +688,7 @@
   },
   {
     "id": "H10",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "classic-side-part",
     "name": "Classic Side Part",
     "shortLine": "Neat cut with a clear part on one side. Good for office.",
@@ -765,7 +765,7 @@
   },
   {
     "id": "H11",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "comb-over-fade",
     "name": "Comb Over Fade",
     "shortLine": "Side part on top, faded sides. Clean and modern.",
@@ -841,7 +841,7 @@
   },
   {
     "id": "H12",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "undercut",
     "name": "Undercut",
     "shortLine": "Very short sides, long top. Clear line between them.",
@@ -915,7 +915,7 @@
   },
   {
     "id": "H13",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "slick-back",
     "name": "Slick Back",
     "shortLine": "Long top combed straight back. Smart, shiny look.",
@@ -994,7 +994,7 @@
   },
   {
     "id": "H14",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "quiff",
     "name": "Quiff",
     "shortLine": "Short sides, front hair lifted up and back.",
@@ -1069,7 +1069,7 @@
   },
   {
     "id": "H15",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "pompadour",
     "name": "Pompadour",
     "shortLine": "Big height on top, combed up and back. Bold look.",
@@ -1144,7 +1144,7 @@
   },
   {
     "id": "H16",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "spiky",
     "name": "Spiky",
     "shortLine": "Short top with hair standing up in spikes.",
@@ -1215,7 +1215,7 @@
   },
   {
     "id": "H17",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "faux-hawk",
     "name": "Faux Hawk",
     "shortLine": "Middle of the top pushed up. Sides short.",
@@ -1290,7 +1290,7 @@
   },
   {
     "id": "H18",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "two-block",
     "name": "Two-Block",
     "shortLine": "Short sides hidden under longer top hair. Soft fringe.",
@@ -1367,7 +1367,7 @@
   },
   {
     "id": "H19",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "middle-part",
     "name": "Middle Part",
     "shortLine": "Medium hair parted in the middle, falling to both sides.",
@@ -1444,7 +1444,7 @@
   },
   {
     "id": "H20",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "medium-flow",
     "name": "Medium Flow",
     "shortLine": "Medium length hair pushed back, ends behind the ears.",
@@ -1517,7 +1517,7 @@
   },
   {
     "id": "H21",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "buzz-fade",
     "name": "Buzz Fade",
     "shortLine": "Buzz cut on top with the sides faded to skin.",
@@ -1591,7 +1591,7 @@
   },
   {
     "id": "H22",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "high-and-tight",
     "name": "High and Tight",
     "shortLine": "Very short sides cut high, with a short, flat top.",
@@ -1666,7 +1666,7 @@
   },
   {
     "id": "H23",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "taper-fade",
     "name": "Taper Fade",
     "shortLine": "Neat cut with a small fade only at the sideburns and neck.",
@@ -1744,7 +1744,7 @@
   },
   {
     "id": "H24",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "drop-fade",
     "name": "Drop Fade",
     "shortLine": "Fade that curves down behind the ear.",
@@ -1819,7 +1819,7 @@
   },
   {
     "id": "H25",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "fade-with-line-design",
     "name": "Fade with Line Design",
     "shortLine": "A fade with one or two shaved lines on the side.",
@@ -1897,7 +1897,7 @@
   },
   {
     "id": "H26",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "curly-top-fade",
     "name": "Curly Top Fade",
     "shortLine": "Natural curls on top with short, faded sides.",
@@ -1971,7 +1971,7 @@
   },
   {
     "id": "H27",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "side-fringe",
     "name": "Side Fringe",
     "shortLine": "Longer fringe swept to one side across the forehead.",
@@ -2045,7 +2045,7 @@
   },
   {
     "id": "H28",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "wolf-cut",
     "name": "Wolf Cut",
     "shortLine": "Shaggy, layered cut with volume on top and length at the back.",
@@ -2121,7 +2121,7 @@
   },
   {
     "id": "H29",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "man-bun",
     "name": "Man Bun",
     "shortLine": "Long hair tied up in a bun at the back of the head.",
@@ -2195,7 +2195,7 @@
   },
   {
     "id": "H30",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "head-shave",
     "name": "Head Shave",
     "shortLine": "Whole head shaved smooth with a razor.",
@@ -2270,7 +2270,7 @@
   },
   {
     "id": "H31",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "crop-fade",
     "name": "Crop Fade",
     "shortLine": "Short, rough top pushed forward, with faded sides.",
@@ -2347,7 +2347,7 @@
   },
   {
     "id": "H32",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "burst-fade",
     "name": "Burst Fade",
     "shortLine": "Fade that curves around the ear in a half circle.",
@@ -2422,7 +2422,7 @@
   },
   {
     "id": "H33",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "mohawk",
     "name": "Mohawk",
     "shortLine": "Strip of hair standing up in the middle. Sides very short.",
@@ -2496,7 +2496,7 @@
   },
   {
     "id": "H34",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "modern-mullet",
     "name": "Modern Mullet",
     "shortLine": "Short front and sides, longer hair at the back.",
@@ -2570,7 +2570,7 @@
   },
   {
     "id": "H35",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "mushroom-cut",
     "name": "Mushroom Cut",
     "shortLine": "Rounded fringe all around the head, like a mushroom cap.",
@@ -2644,7 +2644,7 @@
   },
   {
     "id": "H36",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "comma-hair",
     "name": "Comma Hair",
     "shortLine": "Korean fringe curled inward like a comma.",
@@ -2717,7 +2717,7 @@
   },
   {
     "id": "H37",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "korean-perm",
     "name": "Korean Perm",
     "shortLine": "Soft, loose waves added to the top with a perm.",
@@ -2795,7 +2795,7 @@
   },
   {
     "id": "H38",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "brush-up",
     "name": "Brush Up",
     "shortLine": "Short sides with the top brushed straight up.",
@@ -2868,7 +2868,7 @@
   },
   {
     "id": "H39",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "natural-curls",
     "name": "Natural Curls",
     "shortLine": "Curly hair kept at medium length, shaped evenly all over.",
@@ -2942,7 +2942,7 @@
   },
   {
     "id": "H40",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "shoulder-length",
     "name": "Shoulder Length",
     "shortLine": "Long hair worn down, reaching the shoulders.",
@@ -3017,7 +3017,7 @@
   },
   {
     "id": "H41",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "school-cut",
     "name": "School Cut",
     "shortLine": "Short, neat cut that meets most school rules.",
@@ -3095,7 +3095,7 @@
   },
   {
     "id": "H42",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "pushed-back",
     "name": "Pushed Back",
     "shortLine": "Medium top pushed back with a natural, matte finish.",
@@ -3168,7 +3168,7 @@
   },
   {
     "id": "H43",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "dandy-cut",
     "name": "Dandy Cut",
     "shortLine": "Soft, side-swept top with volume and tidy tapered sides.",
@@ -3245,7 +3245,7 @@
   },
   {
     "id": "H44",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "see-through-bangs",
     "name": "See-Through Bangs",
     "shortLine": "Thin, wispy fringe that lets a little forehead show.",
@@ -3322,7 +3322,7 @@
   },
   {
     "id": "H45",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "leaf-cut",
     "name": "Leaf Cut",
     "shortLine": "Centre part with layered pieces that flick out like leaves.",
@@ -3397,7 +3397,7 @@
   },
   {
     "id": "H46",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "down-perm",
     "name": "Down Perm",
     "shortLine": "Perm that keeps the sides flat and the top natural.",
@@ -3476,7 +3476,7 @@
   },
   {
     "id": "H47",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "regent-cut",
     "name": "Regent Cut",
     "shortLine": "Long top swept back from a soft part, with tapered sides.",
@@ -3551,7 +3551,7 @@
   },
   {
     "id": "H48",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "hush-cut",
     "name": "Hush Cut",
     "shortLine": "Soft, feathery layers around the face.",
@@ -3627,7 +3627,7 @@
   },
   {
     "id": "H49",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "edgar-cut",
     "name": "Edgar Cut",
     "shortLine": "Blunt, straight fringe over a skin fade.",
@@ -3705,7 +3705,7 @@
   },
   {
     "id": "H50",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "flat-top",
     "name": "Flat Top",
     "shortLine": "Short top cut perfectly flat, with tight sides.",
@@ -3780,7 +3780,7 @@
   },
   {
     "id": "H51",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "natural-afro",
     "name": "Natural Afro",
     "shortLine": "Full, round curls grown out and shaped evenly.",
@@ -3856,7 +3856,7 @@
   },
   {
     "id": "H52",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "textured-fringe",
     "name": "Textured Fringe",
     "shortLine": "Messy, textured fringe over a low taper.",
@@ -3933,7 +3933,7 @@
   },
   {
     "id": "H53",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "hard-part",
     "name": "Hard Part",
     "shortLine": "Side part with a thin shaved line.",
@@ -4010,7 +4010,7 @@
   },
   {
     "id": "H54",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "temple-fade",
     "name": "Temple Fade",
     "shortLine": "Small fade at the temples and nape, with a sharp line-up.",
@@ -4088,7 +4088,7 @@
   },
   {
     "id": "H55",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "v-cut",
     "name": "V-Cut",
     "shortLine": "Neat cut with the back of the neck shaped into a V.",
@@ -4165,7 +4165,7 @@
   },
   {
     "id": "H56",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "ponytail",
     "name": "Ponytail",
     "shortLine": "Long hair tied back low at the neck.",
@@ -4241,7 +4241,7 @@
   },
   {
     "id": "H57",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "top-knot",
     "name": "Top Knot",
     "shortLine": "Long top tied in a knot, with short sides.",
@@ -4317,7 +4317,7 @@
   },
   {
     "id": "H58",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "half-bun",
     "name": "Half Bun",
     "shortLine": "Top half tied in a small bun, the rest left down.",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "H59",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "dreadlocks",
     "name": "Dreadlocks",
     "shortLine": "Hair formed into neat, rope-like locks.",
@@ -4470,7 +4470,7 @@
   },
   {
     "id": "H60",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "tapered-afro",
     "name": "Tapered Afro",
     "shortLine": "Short, full curls on top, with sides tapered close.",
@@ -4546,7 +4546,7 @@
   },
   {
     "id": "H61",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "curly-curtains",
     "name": "Curly Curtains",
     "shortLine": "Curly hair parted in the centre, falling to both sides.",
@@ -4623,7 +4623,7 @@
   },
   {
     "id": "H62",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "tousled-waves",
     "name": "Tousled Waves",
     "shortLine": "Messy, textured waves at medium length.",
@@ -4700,7 +4700,7 @@
   },
   {
     "id": "H63",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "low-mullet",
     "name": "Low Mullet",
     "shortLine": "Short on top and sides, a little longer at the back.",
@@ -4777,7 +4777,7 @@
   },
   {
     "id": "H64",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "mid-mullet",
     "name": "Mid Mullet",
     "shortLine": "Balanced mullet, back reaching the collar.",
@@ -4854,7 +4854,7 @@
   },
   {
     "id": "H65",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "high-mullet",
     "name": "High Mullet",
     "shortLine": "Very short sides, a long back, strong contrast.",
@@ -4929,7 +4929,7 @@
   },
   {
     "id": "H66",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "full-mullet",
     "name": "Full Mullet",
     "shortLine": "Short on top and sides, long to the shoulders at the back.",
@@ -5005,7 +5005,7 @@
   },
   {
     "id": "H67",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "korean-mullet",
     "name": "Korean Mullet",
     "shortLine": "Soft, layered mullet with a light fringe.",
@@ -5080,7 +5080,7 @@
   },
   {
     "id": "H68",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "greaser",
     "name": "Greaser",
     "shortLine": "Shiny, combed-back quiff with short, tight sides.",
@@ -5156,7 +5156,7 @@
   },
   {
     "id": "H69",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "curly-crop",
     "name": "Curly Crop",
     "shortLine": "Short, tight curls on top with a neat taper.",
@@ -5233,7 +5233,7 @@
   },
   {
     "id": "H70",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "angular-fringe",
     "name": "Angular Fringe",
     "shortLine": "Short fringe cut at a sharp diagonal angle.",
@@ -5310,7 +5310,7 @@
   },
   {
     "id": "H71",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "asymmetrical-cut",
     "name": "Asymmetrical Cut",
     "shortLine": "One side longer than the other, swept across.",
@@ -5387,7 +5387,7 @@
   },
   {
     "id": "H72",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "blowout-taper",
     "name": "Blowout Taper",
     "shortLine": "Full, blow-dried top over a clean taper.",
@@ -5464,7 +5464,7 @@
   },
   {
     "id": "H73",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "curtain-fringe",
     "name": "Curtain Fringe",
     "shortLine": "Centre-parted fringe falling softly to both sides.",
@@ -5541,7 +5541,7 @@
   },
   {
     "id": "H74",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "layered-long-cut",
     "name": "Layered Long Cut",
     "shortLine": "Long hair with layers for movement and shape.",
@@ -5617,7 +5617,7 @@
   },
   {
     "id": "H75",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "shaggy-cut",
     "name": "Shaggy Cut",
     "shortLine": "Messy, choppy layers with a relaxed shape.",
@@ -5694,7 +5694,7 @@
   },
   {
     "id": "H76",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "bro-flow",
     "name": "Bro Flow",
     "shortLine": "Swept-back flowing hair, ears and neck covered.",
@@ -5770,7 +5770,7 @@
   },
   {
     "id": "H77",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "broccoli-cut",
     "name": "Broccoli Cut",
     "shortLine": "Round, full top with short, tidy sides.",
@@ -5846,7 +5846,7 @@
   },
   {
     "id": "H78",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "fluffy-hair",
     "name": "Fluffy Hair",
     "shortLine": "Soft, airy top with natural body.",
@@ -5923,7 +5923,7 @@
   },
   {
     "id": "H79",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "surfer-hair",
     "name": "Surfer Hair",
     "shortLine": "Loose, sun-kissed waves with a beachy feel.",
@@ -6000,7 +6000,7 @@
   },
   {
     "id": "H80",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "warrior-cut",
     "name": "Warrior Cut",
     "shortLine": "Long fringe with tidy short sides and a strong shape.",
@@ -6076,7 +6076,7 @@
   },
   {
     "id": "H81",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "spin-swallow-perm",
     "name": "Spin Swallow Perm",
     "shortLine": "Korean perm with a swirl of curls pushed to the sides.",
@@ -6152,7 +6152,7 @@
   },
   {
     "id": "H82",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "off-centre-part",
     "name": "Off-Centre Part",
     "shortLine": "Part set just off the middle, with a natural sweep.",
@@ -6229,7 +6229,7 @@
   },
   {
     "id": "H83",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "shadow-perm",
     "name": "Shadow Perm",
     "shortLine": "Light, subtle waves for soft texture and volume.",
@@ -6305,7 +6305,7 @@
   },
   {
     "id": "H84",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "nerd-perm",
     "name": "Nerd Perm",
     "shortLine": "Soft, round curls with a neat, boyish shape.",
@@ -6380,7 +6380,7 @@
   },
   {
     "id": "H85",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "korean-fade",
     "name": "Korean Fade",
     "shortLine": "Clean fade on the sides with a soft, textured top.",
@@ -6457,7 +6457,7 @@
   },
   {
     "id": "H86",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "permed-waves",
     "name": "Permed Waves",
     "shortLine": "Loose, permed waves with natural movement.",
@@ -6534,7 +6534,7 @@
   },
   {
     "id": "H87",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "layered-undercut-sweep",
     "name": "Layered Undercut Sweep",
     "shortLine": "Layered top swept to the side over a short undercut.",
@@ -6611,7 +6611,7 @@
   },
   {
     "id": "H88",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "korean-ivy-league",
     "name": "Korean Ivy League",
     "shortLine": "Neat Ivy League with a soft, natural Korean finish.",
@@ -6688,7 +6688,7 @@
   },
   {
     "id": "H89",
-    "updated": "2026-10-27",
+    "updated": "2026-10-30",
     "slug": "k-pop-cut",
     "name": "K-Pop Cut",
     "shortLine": "Soft, layered Korean idol style with a light fringe.",
@@ -6762,5 +6762,379 @@
       "Wavy"
     ],
     "thinHairOk": true
+  },
+  {
+    "id": "H90",
+    "updated": "2026-10-30",
+    "slug": "low-fade-quiff",
+    "name": "Low Fade Quiff",
+    "shortLine": "A quiff with a low fade that starts just above the ear.",
+    "description": "A Quiff on top with a low fade at the sides. The fade starts just above the ear and stays low, so the cut looks neat but not too short.",
+    "pickIf": "you want height on top with a softer, more natural fade.",
+    "skipIf": "you have a long or heart-shaped face, thin hair, or no time to blow dry.",
+    "daily": "5 min: blow dry the front up and back, then wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
+    "alsoCalled": [
+      "Low fade with a quiff"
+    ],
+    "mainPhoto": "side",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Lifted front",
+        "text": "Blown up and back."
+      },
+      {
+        "title": "Low fade",
+        "text": "Starts above the ear."
+      },
+      {
+        "title": "Height at front",
+        "text": "About 8 cm."
+      },
+      {
+        "title": "Clean blend",
+        "text": "Fade into the top."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a low fade quiff?",
+        "a": "A quiff on top with a fade that starts low, just above the ear, and drops to the neck."
+      },
+      {
+        "q": "How is it different from a mid fade quiff?",
+        "a": "The fade starts lower, so more hair stays on the sides and the shape is softer."
+      },
+      {
+        "q": "Can I wear it to the office?",
+        "a": "Yes. It looks neat, and a low fade grows out easily."
+      },
+      {
+        "q": "How often do I need a trim?",
+        "a": "Every 3–4 weeks to keep the fade clean."
+      }
+    ],
+    "barberSteps": [
+      "Sides: low fade, starting just above the ear, #1 to #3.",
+      "Top front: 4 fingers long.",
+      "Top back: 2 fingers long.",
+      "Blend the fade into the top.",
+      "Blow dry the front up and back.",
+      "Finish with wax. Clean neck and ears."
+    ],
+    "length": "Medium",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H91",
+    "updated": "2026-10-30",
+    "slug": "mid-fade-quiff",
+    "name": "Mid Fade Quiff",
+    "shortLine": "A quiff with a mid fade that starts at the temple.",
+    "description": "A Quiff on top with a mid fade at the sides. The fade starts at the temple, halfway up the head, for a clear, sharp contrast with the lifted top.",
+    "pickIf": "you want a bolder fade and clear height on top.",
+    "skipIf": "you have a long or heart-shaped face, thin hair, or no time to blow dry.",
+    "daily": "5 min: blow dry the front up and back, then wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
+    "alsoCalled": [
+      "Mid fade with a quiff"
+    ],
+    "mainPhoto": "side",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Lifted front",
+        "text": "Blown up and back."
+      },
+      {
+        "title": "Mid fade",
+        "text": "Starts at the temple."
+      },
+      {
+        "title": "Height at front",
+        "text": "About 8 cm."
+      },
+      {
+        "title": "Clean blend",
+        "text": "Fade into the top."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a mid fade quiff?",
+        "a": "A quiff on top with a fade that starts at the temple, halfway up the side of the head."
+      },
+      {
+        "q": "Is a mid fade quiff high maintenance?",
+        "a": "A little. The fade grows out in about 3 weeks, so a regular trim keeps it sharp."
+      },
+      {
+        "q": "Does it suit a round face?",
+        "a": "Yes. Height on top and short sides make a round face look longer."
+      },
+      {
+        "q": "What product holds it?",
+        "a": "Wax or clay. Blow dry first for height that lasts."
+      }
+    ],
+    "barberSteps": [
+      "Sides: mid fade, starting at the temple, skin to #3.",
+      "Top front: 4 fingers long.",
+      "Top back: 2 fingers long.",
+      "Blend the fade into the top.",
+      "Blow dry the front up and back.",
+      "Finish with wax. Clean neck and ears."
+    ],
+    "length": "Medium",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H92",
+    "updated": "2026-10-30",
+    "slug": "high-fade-quiff",
+    "name": "High Fade Quiff",
+    "shortLine": "A quiff with a high fade that starts near the top of the head.",
+    "description": "A Quiff on top with a high fade at the sides. The fade starts high, near the temple line, for the sharpest, most dramatic contrast.",
+    "pickIf": "you want a sharp, bold look with strong contrast.",
+    "skipIf": "you have a round or heart-shaped face, thin hair, a strict workplace, or no time to blow dry.",
+    "daily": "5 min: blow dry the front up and back, then wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval and square face · Straight or wavy hair",
+    "alsoCalled": [
+      "High fade with a quiff"
+    ],
+    "mainPhoto": "side",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Lifted front",
+        "text": "Blown up and back."
+      },
+      {
+        "title": "High fade",
+        "text": "Starts near the temple."
+      },
+      {
+        "title": "Strong contrast",
+        "text": "Short sides, tall top."
+      },
+      {
+        "title": "Clean blend",
+        "text": "Fade into the top."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a high fade quiff?",
+        "a": "A quiff on top with a fade that starts high on the head, close to the temple line."
+      },
+      {
+        "q": "Is it too short at the sides?",
+        "a": "The sides are very short, so it is a bold look. A mid fade is softer."
+      },
+      {
+        "q": "How often do I need a trim?",
+        "a": "Every 2–3 weeks. A high fade shows regrowth quickly."
+      },
+      {
+        "q": "Does it suit every face?",
+        "a": "It suits oval and square faces best. The short sides can make a round face look wider."
+      }
+    ],
+    "barberSteps": [
+      "Sides: high fade, starting high near the temple, skin to #2.",
+      "Top front: 4 fingers long.",
+      "Top back: 2 fingers long.",
+      "Blend the fade into the top.",
+      "Blow dry the front up and back.",
+      "Finish with wax. Clean neck and ears."
+    ],
+    "length": "Medium",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H93",
+    "updated": "2026-10-30",
+    "slug": "taper-fade-quiff",
+    "name": "Taper Fade Quiff",
+    "shortLine": "A quiff with a clean taper at the sideburns and neck.",
+    "description": "A Quiff on top with a taper fade at the sides. Only the sideburns and neck are tapered short, so the sides keep their length and look natural.",
+    "pickIf": "you want height on top with a soft, tidy, office-friendly finish.",
+    "skipIf": "you have a long or heart-shaped face, thin hair, or no time to blow dry.",
+    "daily": "5 min: blow dry the front up and back, then wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
+    "alsoCalled": [
+      "Taper quiff"
+    ],
+    "mainPhoto": "side",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Lifted front",
+        "text": "Blown up and back."
+      },
+      {
+        "title": "Soft taper",
+        "text": "Sideburns and neck only."
+      },
+      {
+        "title": "Height at front",
+        "text": "About 8 cm."
+      },
+      {
+        "title": "Natural sides",
+        "text": "Short, but not skin."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a taper fade quiff?",
+        "a": "A quiff on top with a gentle taper only at the sideburns and neck. The sides stay longer than in a skin fade."
+      },
+      {
+        "q": "How is it different from a low fade quiff?",
+        "a": "A taper is smaller and softer. A low fade shows more bare skin above the ear."
+      },
+      {
+        "q": "Is it good for the office?",
+        "a": "Yes. It is the most conservative of the quiffs."
+      },
+      {
+        "q": "How often do I need a trim?",
+        "a": "Every 4 weeks. A taper grows out softly."
+      }
+    ],
+    "barberSteps": [
+      "Sides: taper, #3 at the sides blending to #1 at the sideburns and neck.",
+      "Top front: 4 fingers long.",
+      "Top back: 2 fingers long.",
+      "Blend the taper into the top.",
+      "Blow dry the front up and back.",
+      "Finish with wax. Clean neck and ears."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H94",
+    "updated": "2026-10-30",
+    "slug": "textured-quiff",
+    "name": "Textured Quiff",
+    "shortLine": "A loose, matte quiff with natural texture.",
+    "description": "A relaxed Quiff with a matte, textured finish. The top is lifted but loose and a little messy, with short tapered sides. Less styling than a classic quiff.",
+    "pickIf": "you want height on top without a stiff, shiny look.",
+    "skipIf": "you have a long or heart-shaped face, very thin hair, or want a slick, polished finish.",
+    "daily": "3 min: sea-salt spray or clay, then push the top up with your fingers.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square and round face · Straight or wavy hair",
+    "alsoCalled": [
+      "Messy quiff"
+    ],
+    "mainPhoto": "side",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Loose lift",
+        "text": "Up and back, not stiff."
+      },
+      {
+        "title": "Matte texture",
+        "text": "Visible separation."
+      },
+      {
+        "title": "Height at front",
+        "text": "About 8 cm."
+      },
+      {
+        "title": "Tapered sides",
+        "text": "#2 to #1."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a textured quiff?",
+        "a": "A quiff with a loose, matte finish. The top is lifted and a little messy, not slick."
+      },
+      {
+        "q": "Do I need a blow dryer?",
+        "a": "Not always. Clay or sea-salt spray and your fingers are enough for a relaxed look."
+      },
+      {
+        "q": "Which product is best?",
+        "a": "Matte clay or sea-salt spray. Avoid shiny pomade."
+      },
+      {
+        "q": "Does it work on straight hair?",
+        "a": "Yes, but fine straight hair needs more spray or powder to hold the texture."
+      }
+    ],
+    "barberSteps": [
+      "Sides: taper, #2 blending to #1 at the neck.",
+      "Top front: 4 fingers long, cut with texture.",
+      "Top back: 2 fingers long.",
+      "Point-cut the top for a loose, textured finish.",
+      "Blow dry the front up, roughly.",
+      "Finish with clay. Clean neck and ears."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Round"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
   }
 ]

@@ -457,6 +457,31 @@
       "block": "ITEM: H89 K-Pop Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: soft layered Korean idol cut: sides machine #3 tapering to #2; top about 8 cm in smooth layers; a light see-through fringe to the eyebrows; tidy neck line; smooth, glossy natural finish.\nCALLOUTS:\n1. Soft layers: Smooth and light.\n2. See-through fringe: To the eyebrows.\n3. Tidy sides: #3 to #2.\n4. Glossy finish: Light wax.",
       "older": false
     },
+    "H90": {
+      "name": "Low Fade Quiff",
+      "block": "ITEM: H90 Low Fade Quiff\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: low fade: bare skin to #1 at the nape and just above the ear, blending to #3 low on the sides; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. Low fade: Starts above the ear.\n3. Height at front: About 8 cm.\n4. Clean blend: Fade into the top.",
+      "older": false
+    },
+    "H91": {
+      "name": "Mid Fade Quiff",
+      "block": "ITEM: H91 Mid Fade Quiff\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: mid fade starting at the temple, halfway up the side of the head, bare skin at the bottom blending through #1, #2 and #3; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. Mid fade: Starts at the temple.\n3. Height at front: About 8 cm.\n4. Clean blend: Fade into the top.",
+      "older": false
+    },
+    "H92": {
+      "name": "High Fade Quiff",
+      "block": "ITEM: H92 High Fade Quiff\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: high fade starting high near the temple line, bare skin at the bottom blending quickly through #1 and #2; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. High fade: Starts near the temple.\n3. Strong contrast: Short sides, tall top.\n4. Clean blend: Fade into the top.",
+      "older": false
+    },
+    "H93": {
+      "name": "Taper Fade Quiff",
+      "block": "ITEM: H93 Taper Fade Quiff\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: taper fade: sides machine #3, tapering to #1 only at the sideburns and nape with a smooth blend and no bare skin; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. Soft taper: Sideburns and neck only.\n3. Height at front: About 8 cm.\n4. Natural sides: Short, but not skin.",
+      "older": false
+    },
+    "H94": {
+      "name": "Textured Quiff",
+      "block": "ITEM: H94 Textured Quiff\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2 tapering to #1 at the neck; top about 8 cm at the front, lifted up and back with loose, messy texture and visible separation, shorter toward the crown; dry, matte clay finish with no shine.\nCALLOUTS:\n1. Loose lift: Up and back, not stiff.\n2. Matte texture: Visible separation.\n3. Height at front: About 8 cm.\n4. Tapered sides: #2 to #1.",
+      "older": false
+    },
     "B01": {
       "name": "Clean Shave",
       "block": "ITEM: B01 Clean Shave\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: completely clean-shaven face with smooth skin; no stubble shadow, redness or bumps; fresh, hot-towel finish.\nCALLOUTS:\n1. Smooth cheeks: No stubble shadow.\n2. Clean jaw: Close razor finish.\n3. Smooth neck: No bumps or redness.\n4. Fresh skin: Calm after aftershave.",

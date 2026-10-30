@@ -1,6 +1,6 @@
 # Hair styles
 
-89 hair styles, from a shaved head to long hair, including Korean styles. 58 use a front photo. 31 use a side photo because the cut only shows clearly from the side.
+94 hair styles, from a shaved head to long hair, including Korean styles. 58 use a front photo. 36 use a side photo because the cut only shows clearly from the side.
 
 ## At a glance
 
@@ -95,6 +95,11 @@
 | H87 Layered Undercut Sweep | Medium | High | Oval, Square, Round, Heart | Straight, Wavy | No | Side |
 | H88 Korean Ivy League | Short | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 | H89 K-Pop Cut | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H90 Low Fade Quiff | Medium | High | Oval, Square, Round | Straight, Wavy | No | Side |
+| H91 Mid Fade Quiff | Medium | High | Oval, Square, Round | Straight, Wavy | No | Side |
+| H92 High Fade Quiff | Medium | High | Oval, Square | Straight, Wavy | No | Side |
+| H93 Taper Fade Quiff | Medium | Medium | Oval, Square, Round | Straight, Wavy | No | Side |
+| H94 Textured Quiff | Medium | Medium | Oval, Square, Round | Straight, Wavy | No | Side |
 
 ## H01 Buzz Cut
 
@@ -2845,3 +2850,158 @@ Soft, layered Korean idol style with a light fringe.
 4. Thin the ends with thinning scissors.
 5. Blend the top into the sides.
 6. Blow dry the fringe into place. Light wax.
+
+## H90 Low Fade Quiff
+
+A quiff with a low fade that starts just above the ear.
+
+**Description:** A Quiff on top with a low fade at the sides. The fade starts just above the ear and stays low, so the cut looks neat but not too short.
+
+- **Pick this if:** you want height on top with a softer, more natural fade.
+- **Skip if:** you have a long or heart-shaped face, thin hair, or no time to blow dry.
+- **Daily:** 5 min: blow dry the front up and back, then wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square and round face · Straight or wavy hair
+- **Also called:** Low fade with a quiff
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a low fade quiff?** A quiff on top with a fade that starts low, just above the ear, and drops to the neck.
+- **How is it different from a mid fade quiff?** The fade starts lower, so more hair stays on the sides and the shape is softer.
+- **Can I wear it to the office?** Yes. It looks neat, and a low fade grows out easily.
+- **How often do I need a trim?** Every 3–4 weeks to keep the fade clean.
+
+**Barber steps**
+
+1. Sides: low fade, starting just above the ear, #1 to #3.
+2. Top front: 4 fingers long.
+3. Top back: 2 fingers long.
+4. Blend the fade into the top.
+5. Blow dry the front up and back.
+6. Finish with wax. Clean neck and ears.
+
+## H91 Mid Fade Quiff
+
+A quiff with a mid fade that starts at the temple.
+
+**Description:** A Quiff on top with a mid fade at the sides. The fade starts at the temple, halfway up the head, for a clear, sharp contrast with the lifted top.
+
+- **Pick this if:** you want a bolder fade and clear height on top.
+- **Skip if:** you have a long or heart-shaped face, thin hair, or no time to blow dry.
+- **Daily:** 5 min: blow dry the front up and back, then wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, square and round face · Straight or wavy hair
+- **Also called:** Mid fade with a quiff
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a mid fade quiff?** A quiff on top with a fade that starts at the temple, halfway up the side of the head.
+- **Is a mid fade quiff high maintenance?** A little. The fade grows out in about 3 weeks, so a regular trim keeps it sharp.
+- **Does it suit a round face?** Yes. Height on top and short sides make a round face look longer.
+- **What product holds it?** Wax or clay. Blow dry first for height that lasts.
+
+**Barber steps**
+
+1. Sides: mid fade, starting at the temple, skin to #3.
+2. Top front: 4 fingers long.
+3. Top back: 2 fingers long.
+4. Blend the fade into the top.
+5. Blow dry the front up and back.
+6. Finish with wax. Clean neck and ears.
+
+## H92 High Fade Quiff
+
+A quiff with a high fade that starts near the top of the head.
+
+**Description:** A Quiff on top with a high fade at the sides. The fade starts high, near the temple line, for the sharpest, most dramatic contrast.
+
+- **Pick this if:** you want a sharp, bold look with strong contrast.
+- **Skip if:** you have a round or heart-shaped face, thin hair, a strict workplace, or no time to blow dry.
+- **Daily:** 5 min: blow dry the front up and back, then wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 2–3 weeks
+- **Suits:** Oval and square face · Straight or wavy hair
+- **Also called:** High fade with a quiff
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a high fade quiff?** A quiff on top with a fade that starts high on the head, close to the temple line.
+- **Is it too short at the sides?** The sides are very short, so it is a bold look. A mid fade is softer.
+- **How often do I need a trim?** Every 2–3 weeks. A high fade shows regrowth quickly.
+- **Does it suit every face?** It suits oval and square faces best. The short sides can make a round face look wider.
+
+**Barber steps**
+
+1. Sides: high fade, starting high near the temple, skin to #2.
+2. Top front: 4 fingers long.
+3. Top back: 2 fingers long.
+4. Blend the fade into the top.
+5. Blow dry the front up and back.
+6. Finish with wax. Clean neck and ears.
+
+## H93 Taper Fade Quiff
+
+A quiff with a clean taper at the sideburns and neck.
+
+**Description:** A Quiff on top with a taper fade at the sides. Only the sideburns and neck are tapered short, so the sides keep their length and look natural.
+
+- **Pick this if:** you want height on top with a soft, tidy, office-friendly finish.
+- **Skip if:** you have a long or heart-shaped face, thin hair, or no time to blow dry.
+- **Daily:** 5 min: blow dry the front up and back, then wax.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square and round face · Straight or wavy hair
+- **Also called:** Taper quiff
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a taper fade quiff?** A quiff on top with a gentle taper only at the sideburns and neck. The sides stay longer than in a skin fade.
+- **How is it different from a low fade quiff?** A taper is smaller and softer. A low fade shows more bare skin above the ear.
+- **Is it good for the office?** Yes. It is the most conservative of the quiffs.
+- **How often do I need a trim?** Every 4 weeks. A taper grows out softly.
+
+**Barber steps**
+
+1. Sides: taper, #3 at the sides blending to #1 at the sideburns and neck.
+2. Top front: 4 fingers long.
+3. Top back: 2 fingers long.
+4. Blend the taper into the top.
+5. Blow dry the front up and back.
+6. Finish with wax. Clean neck and ears.
+
+## H94 Textured Quiff
+
+A loose, matte quiff with natural texture.
+
+**Description:** A relaxed Quiff with a matte, textured finish. The top is lifted but loose and a little messy, with short tapered sides. Less styling than a classic quiff.
+
+- **Pick this if:** you want height on top without a stiff, shiny look.
+- **Skip if:** you have a long or heart-shaped face, very thin hair, or want a slick, polished finish.
+- **Daily:** 3 min: sea-salt spray or clay, then push the top up with your fingers.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square and round face · Straight or wavy hair
+- **Also called:** Messy quiff
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a textured quiff?** A quiff with a loose, matte finish. The top is lifted and a little messy, not slick.
+- **Do I need a blow dryer?** Not always. Clay or sea-salt spray and your fingers are enough for a relaxed look.
+- **Which product is best?** Matte clay or sea-salt spray. Avoid shiny pomade.
+- **Does it work on straight hair?** Yes, but fine straight hair needs more spray or powder to hold the texture.
+
+**Barber steps**
+
+1. Sides: taper, #2 blending to #1 at the neck.
+2. Top front: 4 fingers long, cut with texture.
+3. Top back: 2 fingers long.
+4. Point-cut the top for a loose, textured finish.
+5. Blow dry the front up, roughly.
+6. Finish with clay. Clean neck and ears.

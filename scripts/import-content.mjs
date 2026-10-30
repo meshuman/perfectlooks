@@ -17,7 +17,7 @@ const SKINS = ['Light', 'Medium', 'Deep'];
 const GREYS = ['None', 'Some', 'Lots'];
 const UPKEEP = ['Low', 'Medium', 'High'];
 const TOPICS = ['Face shape', 'Haircuts', 'Beard', 'Colour', 'Care', 'Talk to your barber'];
-const EXPECTED = { hair: 89, beards: 16, moustaches: 12, colours: 33, looks: 79, learn: 13 };
+const EXPECTED = { hair: 94, beards: 16, moustaches: 12, colours: 33, looks: 79, learn: 13 };
 
 const errors = [];
 const warnings = [];
@@ -484,7 +484,7 @@ for (const i of [...hair, ...beards]) {
 }
 
 const sides = hair.filter((h) => h.mainPhoto === 'side').length;
-if (sides !== 31) warn(`hair: ${sides} side photos (the document says 31)`);
+if (sides !== 36) warn(`hair: ${sides} side photos (the document says 36)`);
 
 const intersect = (lists) => lists.reduce((acc, l) => acc.filter((x) => l.includes(x)));
 for (const look of looks) {

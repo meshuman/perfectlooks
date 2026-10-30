@@ -1416,6 +1416,76 @@ CALLOUTS:
 
 Paste the fixed block, the beard category block, the item block below, then the avoid list. The haircut stays the same classic taper cut unless the item says otherwise.
 
+### H90 Low Fade Quiff
+
+```text
+ITEM: H90 Low Fade Quiff
+BACKDROP: Sand (#D8CDBF).
+MAIN VIEW: left side profile
+STYLE: low fade: bare skin to #1 at the nape and just above the ear, blending to #3 low on the sides; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.
+CALLOUTS:
+1. Lifted front: Blown up and back.
+2. Low fade: Starts above the ear.
+3. Height at front: About 8 cm.
+4. Clean blend: Fade into the top.
+```
+
+### H91 Mid Fade Quiff
+
+```text
+ITEM: H91 Mid Fade Quiff
+BACKDROP: Plum (#B06A8F).
+MAIN VIEW: left side profile
+STYLE: mid fade starting at the temple, halfway up the side of the head, bare skin at the bottom blending through #1, #2 and #3; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.
+CALLOUTS:
+1. Lifted front: Blown up and back.
+2. Mid fade: Starts at the temple.
+3. Height at front: About 8 cm.
+4. Clean blend: Fade into the top.
+```
+
+### H92 High Fade Quiff
+
+```text
+ITEM: H92 High Fade Quiff
+BACKDROP: Orange (#EC9465).
+MAIN VIEW: left side profile
+STYLE: high fade starting high near the temple line, bare skin at the bottom blending quickly through #1 and #2; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.
+CALLOUTS:
+1. Lifted front: Blown up and back.
+2. High fade: Starts near the temple.
+3. Strong contrast: Short sides, tall top.
+4. Clean blend: Fade into the top.
+```
+
+### H93 Taper Fade Quiff
+
+```text
+ITEM: H93 Taper Fade Quiff
+BACKDROP: Blush (#F7D9CE).
+MAIN VIEW: left side profile
+STYLE: taper fade: sides machine #3, tapering to #1 only at the sideburns and nape with a smooth blend and no bare skin; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.
+CALLOUTS:
+1. Lifted front: Blown up and back.
+2. Soft taper: Sideburns and neck only.
+3. Height at front: About 8 cm.
+4. Natural sides: Short, but not skin.
+```
+
+### H94 Textured Quiff
+
+```text
+ITEM: H94 Textured Quiff
+BACKDROP: Sky blue (#A9C9E8).
+MAIN VIEW: left side profile
+STYLE: sides machine #2 tapering to #1 at the neck; top about 8 cm at the front, lifted up and back with loose, messy texture and visible separation, shorter toward the crown; dry, matte clay finish with no shine.
+CALLOUTS:
+1. Loose lift: Up and back, not stiff.
+2. Matte texture: Visible separation.
+3. Height at front: About 8 cm.
+4. Tapered sides: #2 to #1.
+```
+
 ### B01 Clean Shave
 
 ```text

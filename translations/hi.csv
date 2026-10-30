@@ -34,17 +34,17 @@ category.beards.intro,Screen text: category,"For beards, growth matters more tha
 category.moustaches.intro,Screen text: category,"Pairs with any beard except Van Dyke, Circle Beard, Balbo and Anchor Beard, which have their own moustache.","Van Dyke, Circle Beard, Balbo और Anchor Beard को छोड़कर हर दाढ़ी के साथ चलती है। इन चारों में अपनी मूंछ होती है।",draft,
 category.colours.intro,Screen text: category,The level number tells the barber which shade to use from any brand. Every colour starts with an allergy question.,लेवल नंबर से बार्बर को पता चलता है कि किसी भी ब्रांड का कौन सा शेड लगाना है। हर रंग एलर्जी के सवाल से शुरू होता है।,draft,
 category.looks.intro,Screen text: category,Complete hair and beard sets. Pick one and it fills My Look in one tap.,"बाल और दाढ़ी के पूरे सेट। एक चुनें, एक टैप में मेरा लुक भर जाएगा।",draft,
-category.hair.seoTitle,Screen text: category,Men's haircuts: 89 styles and how to ask your barber,पुरुषों के हेयरकट: 89 स्टाइल और बार्बर से कैसे कहें,draft,
+category.hair.seoTitle,Screen text: category,Men's haircuts: 94 styles and how to ask your barber,पुरुषों के हेयरकट: 94 स्टाइल और बार्बर से कैसे कहें,draft,
 category.beards.seoTitle,Screen text: category,Beard styles: 16 shapes and how to ask your barber,दाढ़ी के स्टाइल: 16 आकार और बार्बर से कैसे कहें,draft,
 category.moustaches.seoTitle,Screen text: category,Moustache styles: 12 shapes and how to ask your barber,मूंछ के स्टाइल: 12 आकार और बार्बर से कैसे कहें,draft,
 category.colours.seoTitle,Screen text: category,"Men's hair colours: 12 shades, grey cover and care","पुरुषों के बालों के रंग: 12 शेड, सफ़ेद बाल छिपाना और देखभाल",draft,
 category.looks.seoTitle,Screen text: category,Ready Looks: 79 hair and beard combinations,रेडी लुक्स: बाल और दाढ़ी के 79 कॉम्बिनेशन,draft,
-category.hair.seoDescription,Screen text: category,"89 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज़ कट से कंधे तक के बालों तक, पुरुषों के 89 हेयरकट। किस पर जंचता है, रोज़ स्टाइल करने में कितना समय लगता है, और बार्बर को दिखाने के सटीक स्टेप देखें।",draft,
+category.hair.seoDescription,Screen text: category,"94 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज़ कट से कंधे तक के बालों तक, पुरुषों के 94 हेयरकट। किस पर जंचता है, रोज़ स्टाइल करने में कितना समय लगता है, और बार्बर को दिखाने के सटीक स्टेप देखें।",draft,
 category.beards.seoDescription,Screen text: category,"16 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लीन शेव से लंबी दाढ़ी तक 16 दाढ़ी के स्टाइल। देखें कौन सा कम, मध्यम या घनी दाढ़ी पर जंचता है, ट्रिमर की लंबाई और बार्बर के स्टेप।",draft,
 category.moustaches.seoDescription,Screen text: category,"12 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटी ट्रिम से हैंडलबार और डाली तक 12 मूंछ के स्टाइल। देखें कितनी बढ़नी चाहिए, रोज़ की स्टाइलिंग और बार्बर के सटीक स्टेप।",draft,
 category.colours.seoDescription,Screen text: category,"12 men's hair colours from jet black to silver and henna. See grey coverage, time at the shop, skin tones that suit and how to stay safe.","जेट ब्लैक से सिल्वर और मेहंदी तक पुरुषों के 12 बालों के रंग। देखें सफ़ेद बाल कितने छिपते हैं, दुकान पर समय, कौन सी त्वचा पर जंचता है और सुरक्षित कैसे रहें।",draft,
 category.looks.seoDescription,Screen text: category,"79 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","ऑफ़िस, शादी, त्योहार और रोज़ के लिए बाल, दाढ़ी, मूंछ और रंग के 79 तैयार कॉम्बिनेशन। एक चुनें और अपने बार्बर को दिखाएँ।",draft,
-category.hair.tileCount,Screen text: category,89 styles,89 स्टाइल,draft,
+category.hair.tileCount,Screen text: category,94 styles,94 स्टाइल,draft,
 category.beards.tileCount,Screen text: category,16 styles,16 स्टाइल,draft,
 category.moustaches.tileCount,Screen text: category,12 styles,12 स्टाइल,draft,
 category.colours.tileCount,Screen text: category,33 colours,33 रंग,draft,
@@ -357,7 +357,7 @@ shop.hoursValue,Screen text: shop,"Open daily, 7 am – 8 pm","रोज़ ख�
 shop.inTheShop,Screen text: shop,In the shop,दुकान में,draft,
 shop.flowTitle,Screen text: shop,Know what you want before you sit down.,कुर्सी पर बैठने से पहले ही जानें कि आपको क्या चाहिए।,draft,
 shop.step1.title,Screen text: shop,Pick your style,अपना स्टाइल चुनें,draft,
-shop.step1.text,Screen text: shop,"Browse 89 haircuts, 16 beards, 12 moustaches, 33 colours and 79 Ready Looks.","89 हेयरकट, 16 दाढ़ी, 12 मूंछ, 33 रंग और 79 रेडी लुक्स देखें।",draft,
+shop.step1.text,Screen text: shop,"Browse 94 haircuts, 16 beards, 12 moustaches, 33 colours and 79 Ready Looks.","94 हेयरकट, 16 दाढ़ी, 12 मूंछ, 33 रंग और 79 रेडी लुक्स देखें।",draft,
 shop.step2.title,Screen text: shop,Build My Look,मेरा लुक बनाएं,draft,
 shop.step2.text,Screen text: shop,"Save favourites, then choose one hair, beard, moustache and colour.","पसंदीदा सेव करें, फिर एक बाल, दाढ़ी, मूंछ और रंग चुनें।",draft,
 shop.step3.title,Screen text: shop,Show the barber,बार्बर को दिखाएं,draft,
@@ -5670,6 +5670,166 @@ H89.callout.3.title,H89 K-Pop Cut,Tidy sides,साफ़ साइड,draft,Pho
 H89.callout.3.text,H89 K-Pop Cut,#3 to #2.,#3 से #2।,draft,Photo label line.
 H89.callout.4.title,H89 K-Pop Cut,Glossy finish,चमकदार फ़िनिश,draft,Photo label title.
 H89.callout.4.text,H89 K-Pop Cut,Light wax.,हल्का वैक्स।,draft,Photo label line.
+H90.name,H90 Low Fade Quiff,Low Fade Quiff,लो फ़ेड क्विफ़,draft,"Catalogue name. Keep it, or write the name customers use."
+H90.shortLine,H90 Low Fade Quiff,A quiff with a low fade that starts just above the ear.,कान के ऊपर से शुरू होने वाले लो फ़ेड के साथ क्विफ़।,draft,
+H90.description,H90 Low Fade Quiff,"A Quiff on top with a low fade at the sides. The fade starts just above the ear and stays low, so the cut looks neat but not too short.","ऊपर Quiff और किनारों पर लो फ़ेड। फ़ेड कान के ऊपर से शुरू होकर नीचे ही रहता है, इसलिए कट साफ़ दिखता है पर बहुत छोटा नहीं लगता।",draft,
+H90.pickIf,H90 Low Fade Quiff,"you want height on top with a softer, more natural fade.","आप नरम, नेचुरल फ़ेड के साथ ऊपर ऊँचाई चाहते हैं।",draft,"Follows ""Pick this if""."
+H90.skipIf,H90 Low Fade Quiff,"you have a long or heart-shaped face, thin hair, or no time to blow dry.","आपका चेहरा लंबा या दिल के आकार का है, बाल पतले हैं, या ब्लो ड्राई का समय नहीं है।",draft,"Follows ""Skip if""."
+H90.daily,H90 Low Fade Quiff,"5 min: blow dry the front up and back, then wax.","5 मिनट: आगे के बाल ऊपर और पीछे ब्लो ड्राई करें, फिर वैक्स।",draft,
+H90.weekly,H90 Low Fade Quiff,Nothing.,कुछ नहीं।,draft,
+H90.nextVisit,H90 Low Fade Quiff,in 3–4 weeks,3–4 हफ़्ते में,draft,
+H90.alsoCalled,H90 Low Fade Quiff,Low fade with a quiff,क्विफ़ के साथ लो फ़ेड,draft,Comma-separated names.
+H90.length,H90 Low Fade Quiff,Medium,मध्यम,draft,
+H90.faq.1.q,H90 Low Fade Quiff,What is a low fade quiff?,लो फ़ेड क्विफ़ क्या है?,draft,
+H90.faq.1.a,H90 Low Fade Quiff,"A quiff on top with a fade that starts low, just above the ear, and drops to the neck.",ऊपर Quiff और कान के ऊपर से शुरू होकर गर्दन तक उतरता नीचे का फ़ेड।,draft,"Keep any <a href=""...""> link tags as they are."
+H90.faq.2.q,H90 Low Fade Quiff,How is it different from a mid fade quiff?,यह मिड फ़ेड क्विफ़ से कैसे अलग है?,draft,
+H90.faq.2.a,H90 Low Fade Quiff,"The fade starts lower, so more hair stays on the sides and the shape is softer.","फ़ेड नीचे से शुरू होता है, इसलिए किनारों पर ज़्यादा बाल रहते हैं और आकार नरम होता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H90.faq.3.q,H90 Low Fade Quiff,Can I wear it to the office?,क्या इसे ऑफ़िस में लगा सकते हैं?,draft,
+H90.faq.3.a,H90 Low Fade Quiff,"Yes. It looks neat, and a low fade grows out easily.",हाँ। यह साफ़ दिखता है और लो फ़ेड आसानी से बढ़ जाता है।,draft,"Keep any <a href=""...""> link tags as they are."
+H90.faq.4.q,H90 Low Fade Quiff,How often do I need a trim?,कितनी बार ट्रिम कराना चाहिए?,draft,
+H90.faq.4.a,H90 Low Fade Quiff,Every 3–4 weeks to keep the fade clean.,फ़ेड साफ़ रखने के लिए हर 3–4 हफ़्ते में।,draft,"Keep any <a href=""...""> link tags as they are."
+H90.step.1,H90 Low Fade Quiff,"Sides: low fade, starting just above the ear, #1 to #3.","किनारे: लो फ़ेड, कान के ऊपर से शुरू, #1 से #3।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H90.step.2,H90 Low Fade Quiff,Top front: 4 fingers long.,ऊपर आगे: 4 उँगली लंबे।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H90.step.3,H90 Low Fade Quiff,Top back: 2 fingers long.,ऊपर पीछे: 2 उँगली लंबे।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H90.step.4,H90 Low Fade Quiff,Blend the fade into the top.,फ़ेड को ऊपर के बालों में मिलाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H90.step.5,H90 Low Fade Quiff,Blow dry the front up and back.,आगे के बाल ऊपर और पीछे ब्लो ड्राई करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H90.step.6,H90 Low Fade Quiff,Finish with wax. Clean neck and ears.,वैक्स लगाएँ। गर्दन और कान साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H90.callout.1.title,H90 Low Fade Quiff,Lifted front,ऊपर उठा आगे का हिस्सा,draft,Photo label title.
+H90.callout.1.text,H90 Low Fade Quiff,Blown up and back.,ऊपर और पीछे ब्लो ड्राई।,draft,Photo label line.
+H90.callout.2.title,H90 Low Fade Quiff,Low fade,लो फ़ेड,draft,Photo label title.
+H90.callout.2.text,H90 Low Fade Quiff,Starts above the ear.,कान के ऊपर से शुरू।,draft,Photo label line.
+H90.callout.3.title,H90 Low Fade Quiff,Height at front,आगे की ऊँचाई,draft,Photo label title.
+H90.callout.3.text,H90 Low Fade Quiff,About 8 cm.,लगभग 8 cm।,draft,Photo label line.
+H90.callout.4.title,H90 Low Fade Quiff,Clean blend,साफ़ मिलावट,draft,Photo label title.
+H90.callout.4.text,H90 Low Fade Quiff,Fade into the top.,फ़ेड ऊपर में मिलता है।,draft,Photo label line.
+H91.name,H91 Mid Fade Quiff,Mid Fade Quiff,मिड फ़ेड क्विफ़,draft,"Catalogue name. Keep it, or write the name customers use."
+H91.shortLine,H91 Mid Fade Quiff,A quiff with a mid fade that starts at the temple.,कनपटी से शुरू होने वाले मिड फ़ेड के साथ क्विफ़।,draft,
+H91.description,H91 Mid Fade Quiff,"A Quiff on top with a mid fade at the sides. The fade starts at the temple, halfway up the head, for a clear, sharp contrast with the lifted top.","ऊपर Quiff और किनारों पर मिड फ़ेड। फ़ेड कनपटी से, सिर की आधी ऊँचाई से शुरू होता है, जिससे उठे हुए ऊपरी हिस्से के साथ साफ़, शार्प कंट्रास्ट बनता है।",draft,
+H91.pickIf,H91 Mid Fade Quiff,you want a bolder fade and clear height on top.,आप बोल्ड फ़ेड और ऊपर साफ़ ऊँचाई चाहते हैं।,draft,"Follows ""Pick this if""."
+H91.skipIf,H91 Mid Fade Quiff,"you have a long or heart-shaped face, thin hair, or no time to blow dry.","आपका चेहरा लंबा या दिल के आकार का है, बाल पतले हैं, या ब्लो ड्राई का समय नहीं है।",draft,"Follows ""Skip if""."
+H91.daily,H91 Mid Fade Quiff,"5 min: blow dry the front up and back, then wax.","5 मिनट: आगे के बाल ऊपर और पीछे ब्लो ड्राई करें, फिर वैक्स।",draft,
+H91.weekly,H91 Mid Fade Quiff,Nothing.,कुछ नहीं।,draft,
+H91.nextVisit,H91 Mid Fade Quiff,in 3 weeks,3 हफ़्ते में,draft,
+H91.alsoCalled,H91 Mid Fade Quiff,Mid fade with a quiff,क्विफ़ के साथ मिड फ़ेड,draft,Comma-separated names.
+H91.length,H91 Mid Fade Quiff,Medium,मध्यम,draft,
+H91.faq.1.q,H91 Mid Fade Quiff,What is a mid fade quiff?,मिड फ़ेड क्विफ़ क्या है?,draft,
+H91.faq.1.a,H91 Mid Fade Quiff,"A quiff on top with a fade that starts at the temple, halfway up the side of the head.",ऊपर Quiff और सिर के किनारे की आधी ऊँचाई पर कनपटी से शुरू होने वाला फ़ेड।,draft,"Keep any <a href=""...""> link tags as they are."
+H91.faq.2.q,H91 Mid Fade Quiff,Is a mid fade quiff high maintenance?,क्या मिड फ़ेड क्विफ़ में ज़्यादा मेहनत लगती है?,draft,
+H91.faq.2.a,H91 Mid Fade Quiff,"A little. The fade grows out in about 3 weeks, so a regular trim keeps it sharp.","थोड़ी। फ़ेड लगभग 3 हफ़्ते में बढ़ जाता है, इसलिए नियमित ट्रिम इसे शार्प रखता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H91.faq.3.q,H91 Mid Fade Quiff,Does it suit a round face?,क्या यह गोल चेहरे पर जँचता है?,draft,
+H91.faq.3.a,H91 Mid Fade Quiff,Yes. Height on top and short sides make a round face look longer.,हाँ। ऊपर ऊँचाई और छोटे किनारे गोल चेहरे को लंबा दिखाते हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+H91.faq.4.q,H91 Mid Fade Quiff,What product holds it?,कौन सा प्रोडक्ट टिकाता है?,draft,
+H91.faq.4.a,H91 Mid Fade Quiff,Wax or clay. Blow dry first for height that lasts.,वैक्स या क्ले। टिकाऊ ऊँचाई के लिए पहले ब्लो ड्राई करें।,draft,"Keep any <a href=""...""> link tags as they are."
+H91.step.1,H91 Mid Fade Quiff,"Sides: mid fade, starting at the temple, skin to #3.","किनारे: मिड फ़ेड, कनपटी से शुरू, त्वचा से #3।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H91.step.2,H91 Mid Fade Quiff,Top front: 4 fingers long.,ऊपर आगे: 4 उँगली लंबे।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H91.step.3,H91 Mid Fade Quiff,Top back: 2 fingers long.,ऊपर पीछे: 2 उँगली लंबे।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H91.step.4,H91 Mid Fade Quiff,Blend the fade into the top.,फ़ेड को ऊपर के बालों में मिलाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H91.step.5,H91 Mid Fade Quiff,Blow dry the front up and back.,आगे के बाल ऊपर और पीछे ब्लो ड्राई करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H91.step.6,H91 Mid Fade Quiff,Finish with wax. Clean neck and ears.,वैक्स लगाएँ। गर्दन और कान साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H91.callout.1.title,H91 Mid Fade Quiff,Lifted front,ऊपर उठा आगे का हिस्सा,draft,Photo label title.
+H91.callout.1.text,H91 Mid Fade Quiff,Blown up and back.,ऊपर और पीछे ब्लो ड्राई।,draft,Photo label line.
+H91.callout.2.title,H91 Mid Fade Quiff,Mid fade,मिड फ़ेड,draft,Photo label title.
+H91.callout.2.text,H91 Mid Fade Quiff,Starts at the temple.,कनपटी से शुरू।,draft,Photo label line.
+H91.callout.3.title,H91 Mid Fade Quiff,Height at front,आगे की ऊँचाई,draft,Photo label title.
+H91.callout.3.text,H91 Mid Fade Quiff,About 8 cm.,लगभग 8 cm।,draft,Photo label line.
+H91.callout.4.title,H91 Mid Fade Quiff,Clean blend,साफ़ मिलावट,draft,Photo label title.
+H91.callout.4.text,H91 Mid Fade Quiff,Fade into the top.,फ़ेड ऊपर में मिलता है।,draft,Photo label line.
+H92.name,H92 High Fade Quiff,High Fade Quiff,हाई फ़ेड क्विफ़,draft,"Catalogue name. Keep it, or write the name customers use."
+H92.shortLine,H92 High Fade Quiff,A quiff with a high fade that starts near the top of the head.,सिर के ऊपरी हिस्से के पास से शुरू होने वाले हाई फ़ेड के साथ क्विफ़।,draft,
+H92.description,H92 High Fade Quiff,"A Quiff on top with a high fade at the sides. The fade starts high, near the temple line, for the sharpest, most dramatic contrast.","ऊपर Quiff और किनारों पर हाई फ़ेड। फ़ेड कनपटी की रेखा के पास, ऊपर से शुरू होता है, जिससे सबसे शार्प और नाटकीय कंट्रास्ट बनता है।",draft,
+H92.pickIf,H92 High Fade Quiff,"you want a sharp, bold look with strong contrast.","आप मज़बूत कंट्रास्ट के साथ शार्प, बोल्ड लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+H92.skipIf,H92 High Fade Quiff,"you have a round or heart-shaped face, thin hair, a strict workplace, or no time to blow dry.","आपका चेहरा गोल या दिल के आकार का है, बाल पतले हैं, काम की जगह सख़्त है, या ब्लो ड्राई का समय नहीं है।",draft,"Follows ""Skip if""."
+H92.daily,H92 High Fade Quiff,"5 min: blow dry the front up and back, then wax.","5 मिनट: आगे के बाल ऊपर और पीछे ब्लो ड्राई करें, फिर वैक्स।",draft,
+H92.weekly,H92 High Fade Quiff,Nothing.,कुछ नहीं।,draft,
+H92.nextVisit,H92 High Fade Quiff,in 2–3 weeks,2–3 हफ़्ते में,draft,
+H92.alsoCalled,H92 High Fade Quiff,High fade with a quiff,क्विफ़ के साथ हाई फ़ेड,draft,Comma-separated names.
+H92.length,H92 High Fade Quiff,Medium,मध्यम,draft,
+H92.faq.1.q,H92 High Fade Quiff,What is a high fade quiff?,हाई फ़ेड क्विफ़ क्या है?,draft,
+H92.faq.1.a,H92 High Fade Quiff,"A quiff on top with a fade that starts high on the head, close to the temple line.","ऊपर Quiff और कनपटी की रेखा के पास, सिर के ऊपरी हिस्से से शुरू होने वाला फ़ेड।",draft,"Keep any <a href=""...""> link tags as they are."
+H92.faq.2.q,H92 High Fade Quiff,Is it too short at the sides?,क्या किनारे बहुत छोटे हो जाते हैं?,draft,
+H92.faq.2.a,H92 High Fade Quiff,"The sides are very short, so it is a bold look. A mid fade is softer.","किनारे बहुत छोटे होते हैं, इसलिए यह बोल्ड लुक है। मिड फ़ेड ज़्यादा नरम है।",draft,"Keep any <a href=""...""> link tags as they are."
+H92.faq.3.q,H92 High Fade Quiff,How often do I need a trim?,कितनी बार ट्रिम कराना चाहिए?,draft,
+H92.faq.3.a,H92 High Fade Quiff,Every 2–3 weeks. A high fade shows regrowth quickly.,हर 2–3 हफ़्ते में। हाई फ़ेड में बढ़े बाल जल्दी दिखते हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+H92.faq.4.q,H92 High Fade Quiff,Does it suit every face?,क्या यह हर चेहरे पर जँचता है?,draft,
+H92.faq.4.a,H92 High Fade Quiff,It suits oval and square faces best. The short sides can make a round face look wider.,अंडाकार और चौकोर चेहरे पर सबसे अच्छा। छोटे किनारे गोल चेहरे को चौड़ा दिखा सकते हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+H92.step.1,H92 High Fade Quiff,"Sides: high fade, starting high near the temple, skin to #2.","किनारे: हाई फ़ेड, कनपटी के पास से शुरू, त्वचा से #2।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H92.step.2,H92 High Fade Quiff,Top front: 4 fingers long.,ऊपर आगे: 4 उँगली लंबे।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H92.step.3,H92 High Fade Quiff,Top back: 2 fingers long.,ऊपर पीछे: 2 उँगली लंबे।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H92.step.4,H92 High Fade Quiff,Blend the fade into the top.,फ़ेड को ऊपर के बालों में मिलाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H92.step.5,H92 High Fade Quiff,Blow dry the front up and back.,आगे के बाल ऊपर और पीछे ब्लो ड्राई करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H92.step.6,H92 High Fade Quiff,Finish with wax. Clean neck and ears.,वैक्स लगाएँ। गर्दन और कान साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H92.callout.1.title,H92 High Fade Quiff,Lifted front,ऊपर उठा आगे का हिस्सा,draft,Photo label title.
+H92.callout.1.text,H92 High Fade Quiff,Blown up and back.,ऊपर और पीछे ब्लो ड्राई।,draft,Photo label line.
+H92.callout.2.title,H92 High Fade Quiff,High fade,हाई फ़ेड,draft,Photo label title.
+H92.callout.2.text,H92 High Fade Quiff,Starts near the temple.,कनपटी के पास से शुरू।,draft,Photo label line.
+H92.callout.3.title,H92 High Fade Quiff,Strong contrast,मज़बूत कंट्रास्ट,draft,Photo label title.
+H92.callout.3.text,H92 High Fade Quiff,"Short sides, tall top.","छोटे किनारे, ऊँचा टॉप।",draft,Photo label line.
+H92.callout.4.title,H92 High Fade Quiff,Clean blend,साफ़ मिलावट,draft,Photo label title.
+H92.callout.4.text,H92 High Fade Quiff,Fade into the top.,फ़ेड ऊपर में मिलता है।,draft,Photo label line.
+H93.name,H93 Taper Fade Quiff,Taper Fade Quiff,टेपर फ़ेड क्विफ़,draft,"Catalogue name. Keep it, or write the name customers use."
+H93.shortLine,H93 Taper Fade Quiff,A quiff with a clean taper at the sideburns and neck.,कलमों और गर्दन पर साफ़ टेपर के साथ क्विफ़।,draft,
+H93.description,H93 Taper Fade Quiff,"A Quiff on top with a taper fade at the sides. Only the sideburns and neck are tapered short, so the sides keep their length and look natural.","ऊपर Quiff और किनारों पर टेपर फ़ेड। सिर्फ़ कलमें और गर्दन छोटी टेपर की जाती हैं, इसलिए किनारे अपनी लंबाई रखते हैं और नेचुरल दिखते हैं।",draft,
+H93.pickIf,H93 Taper Fade Quiff,"you want height on top with a soft, tidy, office-friendly finish.","आप नरम, साफ़, ऑफ़िस-फ़्रेंडली फ़िनिश के साथ ऊपर ऊँचाई चाहते हैं।",draft,"Follows ""Pick this if""."
+H93.skipIf,H93 Taper Fade Quiff,"you have a long or heart-shaped face, thin hair, or no time to blow dry.","आपका चेहरा लंबा या दिल के आकार का है, बाल पतले हैं, या ब्लो ड्राई का समय नहीं है।",draft,"Follows ""Skip if""."
+H93.daily,H93 Taper Fade Quiff,"5 min: blow dry the front up and back, then wax.","5 मिनट: आगे के बाल ऊपर और पीछे ब्लो ड्राई करें, फिर वैक्स।",draft,
+H93.weekly,H93 Taper Fade Quiff,Nothing.,कुछ नहीं।,draft,
+H93.nextVisit,H93 Taper Fade Quiff,in 4 weeks,4 हफ़्ते में,draft,
+H93.alsoCalled,H93 Taper Fade Quiff,Taper quiff,टेपर क्विफ़,draft,Comma-separated names.
+H93.length,H93 Taper Fade Quiff,Medium,मध्यम,draft,
+H93.faq.1.q,H93 Taper Fade Quiff,What is a taper fade quiff?,टेपर फ़ेड क्विफ़ क्या है?,draft,
+H93.faq.1.a,H93 Taper Fade Quiff,A quiff on top with a gentle taper only at the sideburns and neck. The sides stay longer than in a skin fade.,ऊपर Quiff और सिर्फ़ कलमों व गर्दन पर हल्का टेपर। किनारे स्किन फ़ेड से लंबे रहते हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+H93.faq.2.q,H93 Taper Fade Quiff,How is it different from a low fade quiff?,यह लो फ़ेड क्विफ़ से कैसे अलग है?,draft,
+H93.faq.2.a,H93 Taper Fade Quiff,A taper is smaller and softer. A low fade shows more bare skin above the ear.,टेपर छोटा और नरम होता है। लो फ़ेड में कान के ऊपर ज़्यादा त्वचा दिखती है।,draft,"Keep any <a href=""...""> link tags as they are."
+H93.faq.3.q,H93 Taper Fade Quiff,Is it good for the office?,क्या यह ऑफ़िस के लिए अच्छा है?,draft,
+H93.faq.3.a,H93 Taper Fade Quiff,Yes. It is the most conservative of the quiffs.,हाँ। क्विफ़ों में यह सबसे पारंपरिक है।,draft,"Keep any <a href=""...""> link tags as they are."
+H93.faq.4.q,H93 Taper Fade Quiff,How often do I need a trim?,कितनी बार ट्रिम कराना चाहिए?,draft,
+H93.faq.4.a,H93 Taper Fade Quiff,Every 4 weeks. A taper grows out softly.,हर 4 हफ़्ते में। टेपर नरमी से बढ़ता है।,draft,"Keep any <a href=""...""> link tags as they are."
+H93.step.1,H93 Taper Fade Quiff,"Sides: taper, #3 at the sides blending to #1 at the sideburns and neck.","किनारे: टेपर, किनारों पर #3 से कलमों और गर्दन पर #1 तक मिलाएँ।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H93.step.2,H93 Taper Fade Quiff,Top front: 4 fingers long.,ऊपर आगे: 4 उँगली लंबे।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H93.step.3,H93 Taper Fade Quiff,Top back: 2 fingers long.,ऊपर पीछे: 2 उँगली लंबे।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H93.step.4,H93 Taper Fade Quiff,Blend the taper into the top.,टेपर को ऊपर के बालों में मिलाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H93.step.5,H93 Taper Fade Quiff,Blow dry the front up and back.,आगे के बाल ऊपर और पीछे ब्लो ड्राई करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H93.step.6,H93 Taper Fade Quiff,Finish with wax. Clean neck and ears.,वैक्स लगाएँ। गर्दन और कान साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H93.callout.1.title,H93 Taper Fade Quiff,Lifted front,ऊपर उठा आगे का हिस्सा,draft,Photo label title.
+H93.callout.1.text,H93 Taper Fade Quiff,Blown up and back.,ऊपर और पीछे ब्लो ड्राई।,draft,Photo label line.
+H93.callout.2.title,H93 Taper Fade Quiff,Soft taper,नरम टेपर,draft,Photo label title.
+H93.callout.2.text,H93 Taper Fade Quiff,Sideburns and neck only.,सिर्फ़ कलमें और गर्दन।,draft,Photo label line.
+H93.callout.3.title,H93 Taper Fade Quiff,Height at front,आगे की ऊँचाई,draft,Photo label title.
+H93.callout.3.text,H93 Taper Fade Quiff,About 8 cm.,लगभग 8 cm।,draft,Photo label line.
+H93.callout.4.title,H93 Taper Fade Quiff,Natural sides,नेचुरल किनारे,draft,Photo label title.
+H93.callout.4.text,H93 Taper Fade Quiff,"Short, but not skin.","छोटे, पर त्वचा नहीं।",draft,Photo label line.
+H94.name,H94 Textured Quiff,Textured Quiff,टेक्स्चर्ड क्विफ़,draft,"Catalogue name. Keep it, or write the name customers use."
+H94.shortLine,H94 Textured Quiff,"A loose, matte quiff with natural texture.","नेचुरल टेक्स्चर के साथ ढीला, मैट क्विफ़।",draft,
+H94.description,H94 Textured Quiff,"A relaxed Quiff with a matte, textured finish. The top is lifted but loose and a little messy, with short tapered sides. Less styling than a classic quiff.","मैट, टेक्स्चर्ड फ़िनिश वाला आरामदायक Quiff। ऊपर उठा हुआ पर ढीला और थोड़ा बिखरा, छोटे टेपर किए किनारों के साथ। क्लासिक क्विफ़ से कम स्टाइलिंग।",draft,
+H94.pickIf,H94 Textured Quiff,"you want height on top without a stiff, shiny look.","आप सख़्त, चमकदार लुक के बिना ऊपर ऊँचाई चाहते हैं।",draft,"Follows ""Pick this if""."
+H94.skipIf,H94 Textured Quiff,"you have a long or heart-shaped face, very thin hair, or want a slick, polished finish.","आपका चेहरा लंबा या दिल के आकार का है, बाल बहुत पतले हैं, या आप चिकना, पॉलिश्ड फ़िनिश चाहते हैं।",draft,"Follows ""Skip if""."
+H94.daily,H94 Textured Quiff,"3 min: sea-salt spray or clay, then push the top up with your fingers.","3 मिनट: सी-साल्ट स्प्रे या क्ले, फिर उँगलियों से ऊपर उठाएँ।",draft,
+H94.weekly,H94 Textured Quiff,Nothing.,कुछ नहीं।,draft,
+H94.nextVisit,H94 Textured Quiff,in 4 weeks,4 हफ़्ते में,draft,
+H94.alsoCalled,H94 Textured Quiff,Messy quiff,मेसी क्विफ़,draft,Comma-separated names.
+H94.length,H94 Textured Quiff,Medium,मध्यम,draft,
+H94.faq.1.q,H94 Textured Quiff,What is a textured quiff?,टेक्स्चर्ड क्विफ़ क्या है?,draft,
+H94.faq.1.a,H94 Textured Quiff,"A quiff with a loose, matte finish. The top is lifted and a little messy, not slick.","ढीले, मैट फ़िनिश वाला क्विफ़। ऊपर उठा और थोड़ा बिखरा होता है, चिकना नहीं।",draft,"Keep any <a href=""...""> link tags as they are."
+H94.faq.2.q,H94 Textured Quiff,Do I need a blow dryer?,क्या ब्लो ड्रायर चाहिए?,draft,
+H94.faq.2.a,H94 Textured Quiff,Not always. Clay or sea-salt spray and your fingers are enough for a relaxed look.,हमेशा नहीं। आरामदायक लुक के लिए क्ले या सी-साल्ट स्प्रे और उँगलियाँ काफ़ी हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+H94.faq.3.q,H94 Textured Quiff,Which product is best?,कौन सा प्रोडक्ट सबसे अच्छा है?,draft,
+H94.faq.3.a,H94 Textured Quiff,Matte clay or sea-salt spray. Avoid shiny pomade.,मैट क्ले या सी-साल्ट स्प्रे। चमकदार पोमेड से बचें।,draft,"Keep any <a href=""...""> link tags as they are."
+H94.faq.4.q,H94 Textured Quiff,Does it work on straight hair?,क्या यह सीधे बालों पर चलता है?,draft,
+H94.faq.4.a,H94 Textured Quiff,"Yes, but fine straight hair needs more spray or powder to hold the texture.","हाँ, पर पतले सीधे बालों में टेक्स्चर टिकाने के लिए ज़्यादा स्प्रे या पाउडर चाहिए।",draft,"Keep any <a href=""...""> link tags as they are."
+H94.step.1,H94 Textured Quiff,"Sides: taper, #2 blending to #1 at the neck.","किनारे: टेपर, #2 से गर्दन पर #1 तक मिलाएँ।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H94.step.2,H94 Textured Quiff,"Top front: 4 fingers long, cut with texture.","ऊपर आगे: 4 उँगली लंबे, टेक्स्चर के साथ कटे।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H94.step.3,H94 Textured Quiff,Top back: 2 fingers long.,ऊपर पीछे: 2 उँगली लंबे।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H94.step.4,H94 Textured Quiff,"Point-cut the top for a loose, textured finish.","ढीले, टेक्स्चर्ड फ़िनिश के लिए ऊपर पॉइंट-कट करें।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H94.step.5,H94 Textured Quiff,"Blow dry the front up, roughly.",आगे के बाल ऊपर उठाकर मोटा-मोटा ब्लो ड्राई करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H94.step.6,H94 Textured Quiff,Finish with clay. Clean neck and ears.,क्ले लगाएँ। गर्दन और कान साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H94.callout.1.title,H94 Textured Quiff,Loose lift,ढीला उठान,draft,Photo label title.
+H94.callout.1.text,H94 Textured Quiff,"Up and back, not stiff.","ऊपर और पीछे, सख़्त नहीं।",draft,Photo label line.
+H94.callout.2.title,H94 Textured Quiff,Matte texture,मैट टेक्स्चर,draft,Photo label title.
+H94.callout.2.text,H94 Textured Quiff,Visible separation.,अलग-अलग लटें।,draft,Photo label line.
+H94.callout.3.title,H94 Textured Quiff,Height at front,आगे की ऊँचाई,draft,Photo label title.
+H94.callout.3.text,H94 Textured Quiff,About 8 cm.,लगभग 8 cm।,draft,Photo label line.
+H94.callout.4.title,H94 Textured Quiff,Tapered sides,टेपर किए किनारे,draft,Photo label title.
+H94.callout.4.text,H94 Textured Quiff,#2 to #1.,#2 से #1।,draft,Photo label line.
 B01.name,B01 Clean Shave,Clean Shave,क्लिन सेभ,draft,"Catalogue name. Keep it, or write the name customers use."
 B01.shortLine,B01 Clean Shave,No hair on the face. Fresh and clean.,चेहरे पर कोई बाल नहीं। ताज़ा और साफ़।,draft,
 B01.description,B01 Clean Shave,A smooth face with no beard. Fresh and clean.,बिना दाढ़ी का चिकना चेहरा। ताज़ा और साफ़।,draft,
