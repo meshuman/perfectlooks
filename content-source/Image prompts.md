@@ -3166,22 +3166,6 @@ CALLOUTS:
 4. Healthy ends: Trimmed, no split ends.
 ```
 
-### L50 Grey-Free Beard
-
-```text
-ITEM: L50 Grey-Free Beard
-BACKDROP: Sand (#D8CDBF).
-PARTS:
-- Hair: Taper Fade: #3 sides with skin only at the sideburns and nape, 5 cm top.
-- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.
-- Colour: Jet Black on hair and beard, with full grey coverage and a glossy finish.
-CALLOUTS:
-1. Jet black: Hair and beard.
-2. Boxed beard: Sharp cheek lines.
-3. Taper fade: Small and clean.
-4. Grey covered: Even and glossy.
-```
-
 ### L51 Dark Brown Gentleman
 
 ```text
@@ -3196,22 +3180,6 @@ CALLOUTS:
 2. Full beard: Thick and rounded.
 3. Side part: Neat and classic.
 4. Warm and natural: Grey covered.
-```
-
-### L52 Chestnut Flow
-
-```text
-ITEM: L52 Chestnut Flow
-BACKDROP: Orange (#EC9465).
-PARTS:
-- Hair: Medium Flow: medium-to-long hair swept back and to the sides with light layers.
-- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.
-- Colour: Chestnut Brown on hair and beard, warm with a soft red-gold glow.
-CALLOUTS:
-1. Chestnut brown: Hair and beard.
-2. Flowing hair: Back and to the sides.
-3. Boxed beard: Sharp cheek lines.
-4. Red-gold glow: Shows in daylight.
 ```
 
 ### L53 Mahogany Quiff
@@ -3230,22 +3198,6 @@ CALLOUTS:
 4. Red shine: Glows in light.
 ```
 
-### L54 Blue-Black Edge
-
-```text
-ITEM: L54 Blue-Black Edge
-BACKDROP: Sky blue (#A9C9E8).
-PARTS:
-- Hair: Skin Fade: high fade to bare skin, 4 cm matte top.
-- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines, square corners.
-- Colour: Blue-Black on hair and beard, deep black with a cool blue sheen.
-CALLOUTS:
-1. Blue-black: Hair and beard.
-2. Skin fade: Bare skin up high.
-3. Boxed beard: Sharp cheek lines.
-4. Blue sheen: Glossy in light.
-```
-
 ### L55 Silver Fox
 
 ```text
@@ -3260,22 +3212,6 @@ CALLOUTS:
 2. Slick back: Combed with shine.
 3. Full beard: Thick and rounded.
 4. Cool tone: No yellow.
-```
-
-### L56 Charcoal Stubble
-
-```text
-ITEM: L56 Charcoal Stubble
-BACKDROP: Sand (#D8CDBF).
-PARTS:
-- Hair: Textured Fringe: choppy 6 cm top pushed forward over a low taper, #1 to #3.
-- Beard: Heavy Stubble, 5 mm.
-- Colour: Charcoal Grey on hair and stubble, dark, smoky and cool.
-CALLOUTS:
-1. Charcoal grey: Hair and stubble.
-2. Textured fringe: Choppy, forward.
-3. Heavy stubble: 5 mm.
-4. Low taper: #1 to #3.
 ```
 
 ### L57 Copper Ducktail
@@ -3308,22 +3244,6 @@ CALLOUTS:
 2. Van Dyke: Pointed chin, moustache.
 3. Pushed back: Matte, 8 cm.
 4. Clean cheeks: Shaved smooth.
-```
-
-### L59 Violet Edge
-
-```text
-ITEM: L59 Violet Edge
-BACKDROP: Blush (#F7D9CE).
-PARTS:
-- Hair: Edgar Cut: blunt 6 cm fringe cut straight across the forehead over a mid skin fade, #0 to #3.
-- Beard: Heavy Stubble, 5 mm.
-- Colour: Violet on hair and stubble, bold, vivid purple.
-CALLOUTS:
-1. Violet: Hair and stubble.
-2. Blunt fringe: Straight across.
-3. Mid skin fade: #0 to #3.
-4. Vivid colour: Bold and even.
 ```
 
 ### L60 Grey Blend Ivy
@@ -3632,4 +3552,217 @@ CALLOUTS:
 2. Messy fringe: Short and loose.
 3. Longer back: 9–10 cm.
 4. Light stubble: 1–2 mm.
+```
+
+### L80 Wolf and Stubble
+
+```text
+ITEM: L80 Wolf and Stubble
+BACKDROP: Blush (#F7D9CE).
+PARTS:
+- Hair: Wolf Cut: shaggy layers, messy fringe, longer back to the collar.
+- Beard: Light Stubble, 1–2 mm.
+CALLOUTS:
+1. Shaggy layers: Messy and light.
+2. Soft fringe: Loose over the brows.
+3. Longer back: To the collar.
+4. Light stubble: 1–2 mm.
+```
+
+### L81 Bleached Curtains
+
+```text
+ITEM: L81 Bleached Curtains
+BACKDROP: Sky blue (#A9C9E8).
+PARTS:
+- Hair: Curtain Fringe: 8 cm straight hair, centre parted, fringe falling past the brows; sides tapered tidy.
+- Beard and moustache: fully clean-shaven.
+- Colour: Platinum Blonde: bleached and toned, an even bright blonde from root to tip.
+CALLOUTS:
+1. Platinum blonde: Bleached and toned.
+2. Centre part: Even on both sides.
+3. Soft curtains: Fall past the brows.
+4. Clean face: No beard or moustache.
+```
+
+### L82 Platinum Buzz
+
+```text
+ITEM: L82 Platinum Buzz
+BACKDROP: Sage (#CADBD8).
+PARTS:
+- Hair: Buzz Cut: same length all over, #2, with a clean neck line.
+- Beard: Light Stubble, 1–2 mm.
+- Colour: Platinum Blonde: bleached and toned, an even bright blonde all over.
+CALLOUTS:
+1. Platinum buzz: Bleached and toned.
+2. Even length: One guard all over.
+3. Light stubble: 1–2 mm.
+4. Clean edges: Neck and ears.
+```
+
+### L83 Modern Slick
+
+```text
+ITEM: L83 Modern Slick
+BACKDROP: Sand (#D8CDBF).
+PARTS:
+- Hair: Slick Back: sides #2 tapering to #1 at the neck, 8–10 cm top combed straight back with a smooth shine.
+- Beard: Heavy Stubble, 5 mm.
+CALLOUTS:
+1. Slick back: Combed straight back.
+2. Smooth shine: Pomade finish.
+3. Tapered sides: Tight and neat.
+4. Heavy stubble: 5 mm.
+```
+
+### L84 Anchor Fade
+
+```text
+ITEM: L84 Anchor Fade
+BACKDROP: Plum (#B06A8F).
+PARTS:
+- Hair: Skin Fade: skin to #3 on the sides, textured top about 6 cm.
+- Beard: Anchor Beard: a pointed chin beard joined to the moustache, cheeks clean.
+CALLOUTS:
+1. Skin fade: Clean and smooth.
+2. Anchor beard: Chin beard and moustache.
+3. Defined jaw: Sharp lines.
+4. Textured top: Natural finish.
+```
+
+### L85 Blowout and Beard
+
+```text
+ITEM: L85 Blowout and Beard
+BACKDROP: Orange (#EC9465).
+PARTS:
+- Hair: Blowout Taper: full, lifted top of about 8 cm blow-dried up and back; sides tapered #2 to #1.
+- Beard: Short Boxed Beard: 6 mm sides, 9 mm chin, sharp cheek lines.
+CALLOUTS:
+1. Full volume: Blow-dried up and back.
+2. Taper: #2 down to #1.
+3. Boxed beard: 6 mm and 9 mm.
+4. Clean neck: Sharp line.
+```
+
+### L86 Korean Ivy
+
+```text
+ITEM: L86 Korean Ivy
+BACKDROP: Blush (#F7D9CE).
+PARTS:
+- Hair: Korean Ivy League: short top with a soft side part and light texture, tidy tapered sides.
+- Beard and moustache: fully clean-shaven.
+CALLOUTS:
+1. Soft part: Side swept.
+2. Light texture: Not stiff.
+3. Tidy sides: Short and neat.
+4. Clean face: No beard or moustache.
+```
+
+### L87 Garma Classic
+
+```text
+ITEM: L87 Garma Classic
+BACKDROP: Sky blue (#A9C9E8).
+PARTS:
+- Hair: Garma Perm: 9 cm top parted in the centre, soft waves falling to each side, sides #3 to #2.
+- Beard and moustache: fully clean-shaven.
+CALLOUTS:
+1. Centre part: Slightly off-centre.
+2. Soft waves: Fall to both sides.
+3. Tidy sides: #3 to #2.
+4. Clean face: No beard or moustache.
+```
+
+### L88 Iron Perm Stubble
+
+```text
+ITEM: L88 Iron Perm Stubble
+BACKDROP: Sage (#CADBD8).
+PARTS:
+- Hair: Iron Perm: 9 cm soft layers with loose gentle bends and root lift, light fringe, sides #3 to #2.
+- Beard: Light Stubble, 1–2 mm.
+CALLOUTS:
+1. Root lift: Soft volume.
+2. Gentle bends: Loose, not curly.
+3. Light fringe: To the brows.
+4. Light stubble: 1–2 mm.
+```
+
+### L89 Shaggy Casual
+
+```text
+ITEM: L89 Shaggy Casual
+BACKDROP: Sand (#D8CDBF).
+PARTS:
+- Hair: Shaggy Cut: choppy layers through the top and sides, loose fringe, natural movement.
+- Beard: Light Stubble, 1–2 mm.
+CALLOUTS:
+1. Choppy layers: Loose and messy.
+2. Easy flow: Falls naturally.
+3. Light stubble: 1–2 mm.
+4. Natural finish: Matte.
+```
+
+### L90 Low Fade Quiff Daily
+
+```text
+ITEM: L90 Low Fade Quiff Daily
+BACKDROP: Sky blue (#A9C9E8).
+PARTS:
+- Hair: Low Fade Quiff: low fade just above the ear, top about 8 cm lifted up and back.
+- Beard: Heavy Stubble, 5 mm.
+CALLOUTS:
+1. Lifted front: Blown up and back.
+2. Low fade: Starts above the ear.
+3. Heavy stubble: 5 mm.
+4. Clean blend: Fade into the top.
+```
+
+### L91 Messy Quiff Fade
+
+```text
+ITEM: L91 Messy Quiff Fade
+BACKDROP: Sage (#CADBD8).
+PARTS:
+- Hair: Textured Quiff: top about 8 cm lifted up and back with loose matte texture, sides #2 to #1.
+- Beard: Faded Beard: 1 mm at the sideburns blending to 6 mm along the jaw and chin.
+CALLOUTS:
+1. Loose lift: Up and back.
+2. Matte texture: No shine.
+3. Faded beard: Blends into the hair.
+4. Tapered sides: #2 to #1.
+```
+
+### L92 Blonde Fringe
+
+```text
+ITEM: L92 Blonde Fringe
+BACKDROP: Sand (#D8CDBF).
+PARTS:
+- Hair: Textured Fringe: choppy fringe to the eyebrows, tapered sides.
+- Beard and moustache: fully clean-shaven.
+- Colour: Light Blonde: lightened and toned to a soft, even light blonde.
+CALLOUTS:
+1. Light blonde: Soft and even.
+2. Textured fringe: Choppy, to the brows.
+3. Tapered sides: Short and neat.
+4. Clean face: No beard or moustache.
+```
+
+### L93 Buzz Fade Beard
+
+```text
+ITEM: L93 Buzz Fade Beard
+BACKDROP: Plum (#B06A8F).
+PARTS:
+- Hair: Buzz Fade: #2 on top, fading from skin at the sides.
+- Beard: Full Beard: about 4 cm at the chin and 12 mm on the sides, combed and lightly oiled.
+CALLOUTS:
+1. Buzz fade: Short and clean.
+2. Full beard: About 4 cm.
+3. Neat neckline: Two fingers up.
+4. Strong contrast: Short top, full beard.
 ```

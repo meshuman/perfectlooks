@@ -4,6 +4,156 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/men/looks/grey-free-beard",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/men/looks/chestnut-flow",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/men/looks/blue-black-edge",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/men/looks/charcoal-stubble",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/men/looks/violet-edge",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/men/looks/grey-free-beard",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/men/looks/chestnut-flow",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/men/looks/blue-black-edge",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/men/looks/charcoal-stubble",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/men/looks/violet-edge",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/men/looks/grey-free-beard",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/men/looks/chestnut-flow",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/men/looks/blue-black-edge",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/men/looks/charcoal-stubble",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/men/looks/violet-edge",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/looks/grey-free-beard",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/looks/chestnut-flow",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/looks/blue-black-edge",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/looks/charcoal-stubble",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/looks/violet-edge",
+      "destination": "/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/looks/grey-free-beard",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/looks/chestnut-flow",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/looks/blue-black-edge",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/looks/charcoal-stubble",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/ne/looks/violet-edge",
+      "destination": "/ne/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/looks/grey-free-beard",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/looks/chestnut-flow",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/looks/blue-black-edge",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/looks/charcoal-stubble",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
+      "source": "/hi/looks/violet-edge",
+      "destination": "/hi/men/looks",
+      "permanent": true
+    },
+    {
       "source": "/hair",
       "destination": "/men/hair",
       "permanent": true

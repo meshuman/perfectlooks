@@ -38,17 +38,17 @@ category.hair.seoTitle,Screen text: category,Men's haircuts: 99 styles and how t
 category.beards.seoTitle,Screen text: category,Beard styles: 16 shapes and how to ask your barber,दाढ़ी के स्टाइल: 16 आकार और बार्बर से कैसे कहें,draft,
 category.moustaches.seoTitle,Screen text: category,Moustache styles: 12 shapes and how to ask your barber,मूंछ के स्टाइल: 12 आकार और बार्बर से कैसे कहें,draft,
 category.colours.seoTitle,Screen text: category,"Men's hair colours: 12 shades, grey cover and care","पुरुषों के बालों के रंग: 12 शेड, सफ़ेद बाल छिपाना और देखभाल",draft,
-category.looks.seoTitle,Screen text: category,Ready Looks: 79 hair and beard combinations,रेडी लुक्स: बाल और दाढ़ी के 79 कॉम्बिनेशन,draft,
+category.looks.seoTitle,Screen text: category,Ready Looks: 88 hair and beard combinations,रेडी लुक्स: बाल और दाढ़ी के 88 कॉम्बिनेशन,draft,
 category.hair.seoDescription,Screen text: category,"99 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज़ कट से कंधे तक के बालों तक, पुरुषों के 99 हेयरकट। किस पर जंचता है, रोज़ स्टाइल करने में कितना समय लगता है, और बार्बर को दिखाने के सटीक स्टेप देखें।",draft,
 category.beards.seoDescription,Screen text: category,"16 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लीन शेव से लंबी दाढ़ी तक 16 दाढ़ी के स्टाइल। देखें कौन सा कम, मध्यम या घनी दाढ़ी पर जंचता है, ट्रिमर की लंबाई और बार्बर के स्टेप।",draft,
 category.moustaches.seoDescription,Screen text: category,"12 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटी ट्रिम से हैंडलबार और डाली तक 12 मूंछ के स्टाइल। देखें कितनी बढ़नी चाहिए, रोज़ की स्टाइलिंग और बार्बर के सटीक स्टेप।",draft,
 category.colours.seoDescription,Screen text: category,"12 men's hair colours from jet black to silver and henna. See grey coverage, time at the shop, skin tones that suit and how to stay safe.","जेट ब्लैक से सिल्वर और मेहंदी तक पुरुषों के 12 बालों के रंग। देखें सफ़ेद बाल कितने छिपते हैं, दुकान पर समय, कौन सी त्वचा पर जंचता है और सुरक्षित कैसे रहें।",draft,
-category.looks.seoDescription,Screen text: category,"79 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","ऑफ़िस, शादी, त्योहार और रोज़ के लिए बाल, दाढ़ी, मूंछ और रंग के 79 तैयार कॉम्बिनेशन। एक चुनें और अपने बार्बर को दिखाएँ।",draft,
+category.looks.seoDescription,Screen text: category,"88 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","ऑफ़िस, शादी, त्योहार और रोज़ के लिए बाल, दाढ़ी, मूंछ और रंग के 88 तैयार कॉम्बिनेशन। एक चुनें और अपने बार्बर को दिखाएँ।",draft,
 category.hair.tileCount,Screen text: category,99 styles,99 स्टाइल,draft,
 category.beards.tileCount,Screen text: category,16 styles,16 स्टाइल,draft,
 category.moustaches.tileCount,Screen text: category,12 styles,12 स्टाइल,draft,
 category.colours.tileCount,Screen text: category,33 colours,33 रंग,draft,
-category.looks.tileCount,Screen text: category,79 looks,79 लुक,draft,
+category.looks.tileCount,Screen text: category,88 looks,88 लुक,draft,
 home.title,Screen text: home,"{shop}, {area}: pick your look, for men and women","{shop}, {area}: अपना लुक चुनें, पुरुष और महिला दोनों के लिए",draft,Keep the {words in braces}: the app fills them in.
 home.description,Screen text: home,"Men's styles and women's beauty services at {shop}, {area}: haircuts, beards, colour, facials, nails and more. Pick yours and show the shop.","{shop}, {area} में पुरुषों के स्टाइल और महिलाओं की ब्यूटी सर्विस: हेयरकट, दाढ़ी, रंग, फ़ेशियल, नाखून और बहुत कुछ। अपनी पसंद चुनें।",draft,Keep the {words in braces}: the app fills them in.
 home.heading,Screen text: home,Pick your look. Show it to your stylist.,अपना लुक चुनें। स्टाइलिस्ट को दिखाएं।,draft,
@@ -357,7 +357,7 @@ shop.hoursValue,Screen text: shop,"Open daily, 7 am – 8 pm","रोज़ ख�
 shop.inTheShop,Screen text: shop,In the shop,दुकान में,draft,
 shop.flowTitle,Screen text: shop,Know what you want before you sit down.,कुर्सी पर बैठने से पहले ही जानें कि आपको क्या चाहिए।,draft,
 shop.step1.title,Screen text: shop,Pick your style,अपना स्टाइल चुनें,draft,
-shop.step1.text,Screen text: shop,"Browse 99 haircuts, 16 beards, 12 moustaches, 33 colours and 79 Ready Looks.","99 हेयरकट, 16 दाढ़ी, 12 मूंछ, 33 रंग और 79 रेडी लुक्स देखें।",draft,
+shop.step1.text,Screen text: shop,"Browse 99 haircuts, 16 beards, 12 moustaches, 33 colours and 88 Ready Looks.","99 हेयरकट, 16 दाढ़ी, 12 मूंछ, 33 रंग और 88 रेडी लुक्स देखें।",draft,
 shop.step2.title,Screen text: shop,Build My Look,मेरा लुक बनाएं,draft,
 shop.step2.text,Screen text: shop,"Save favourites, then choose one hair, beard, moustache and colour.","पसंदीदा सेव करें, फिर एक बाल, दाढ़ी, मूंछ और रंग चुनें।",draft,
 shop.step3.title,Screen text: shop,Show the barber,बार्बर को दिखाएं,draft,
@@ -8800,23 +8800,6 @@ L49.callout.3.title,L49 Long and Layered,Face-framing,चेहरे को फ
 L49.callout.3.text,L49 Long and Layered,Falls to the chin.,ठोड़ी तक गिरती।,draft,Photo label line.
 L49.callout.4.title,L49 Long and Layered,Healthy ends,स्वस्थ सिरे,draft,Photo label title.
 L49.callout.4.text,L49 Long and Layered,"Trimmed, no split ends.","ट्रिम किए, दोमुंहे बाल नहीं।",draft,Photo label line.
-L50.name,L50 Grey-Free Beard,Grey-Free Beard,ग्रे-फ्री बियर्ड,draft,"Catalogue name. Keep it, or write the name customers use."
-L50.shortLine,L50 Grey-Free Beard,"Taper fade and boxed beard, both in jet black.","टेपर फ़ेड और बॉक्स दाढ़ी, दोनों जेट ब्लैक में।",draft,
-L50.description,L50 Grey-Free Beard,"A neat Taper Fade and a Short Boxed Beard, with Jet Black on the hair and beard so every grey is covered. Sharp and even.","साफ़ Taper Fade और छोटी बॉक्स दाढ़ी, बालों और दाढ़ी पर Jet Black लगाकर सारे सफ़ेद बाल ढके हुए। शार्प और बराबर।",draft,
-L50.pickIf,L50 Grey-Free Beard,you have grey in your hair and beard and want both to look strong and even.,आपके बालों और दाढ़ी में सफ़ेदी है और आप दोनों को मज़बूत और बराबर दिखाना चाहते हैं।,draft,"Follows ""Pick this if""."
-L50.skipIf,L50 Grey-Free Beard,"you want to keep some grey, or your beard grows patchy.","आप कुछ सफ़ेद रखना चाहते हैं, या दाढ़ी कहीं-कहीं आती है।",draft,"Follows ""Skip if""."
-L50.daily,L50 Grey-Free Beard,"6 min: comb the top, beard oil.","6 मिनट: ऊपर कंघी करें, बियर्ड ऑयल।",draft,
-L50.weekly,L50 Grey-Free Beard,Colour-safe shampoo. Trim the beard to 6–9 mm.,कलर-सेफ़ शैम्पू। दाढ़ी 6–9 mm पर ट्रिम।,draft,
-L50.nextVisit,L50 Grey-Free Beard,"in 3–4 weeks, for the cut and roots together","3–4 हफ़्ते में, कट और जड़ें साथ",draft,
-L50.atShop,L50 Grey-Free Beard,60 min on colour day,रंग के दिन 60 मिनट,draft,
-L50.callout.1.title,L50 Grey-Free Beard,Jet black,जेट ब्लैक,draft,Photo label title.
-L50.callout.1.text,L50 Grey-Free Beard,Hair and beard.,बाल और दाढ़ी।,draft,Photo label line.
-L50.callout.2.title,L50 Grey-Free Beard,Boxed beard,बॉक्स दाढ़ी,draft,Photo label title.
-L50.callout.2.text,L50 Grey-Free Beard,Sharp cheek lines.,शार्प गाल लाइन।,draft,Photo label line.
-L50.callout.3.title,L50 Grey-Free Beard,Taper fade,टेपर फ़ेड,draft,Photo label title.
-L50.callout.3.text,L50 Grey-Free Beard,Small and clean.,छोटा और साफ़।,draft,Photo label line.
-L50.callout.4.title,L50 Grey-Free Beard,Grey covered,सफ़ेद ढका,draft,Photo label title.
-L50.callout.4.text,L50 Grey-Free Beard,Even and glossy.,बराबर और चमकदार।,draft,Photo label line.
 L51.name,L51 Dark Brown Gentleman,Dark Brown Gentleman,डार्क ब्राउन जेन्टलम्यान,draft,"Catalogue name. Keep it, or write the name customers use."
 L51.shortLine,L51 Dark Brown Gentleman,A classic part and full beard in rich dark brown.,गहरे भूरे रंग में क्लासिक मांग और भरी दाढ़ी।,draft,
 L51.description,L51 Dark Brown Gentleman,"A Classic Side Part and a thick Full Beard, both coloured Dark Brown. Warm, natural and polished.","Classic Side Part और घनी Full Beard, दोनों Dark Brown में रंगे। गर्म, नेचुरल और पॉलिश्ड।",draft,
@@ -8834,23 +8817,6 @@ L51.callout.3.title,L51 Dark Brown Gentleman,Side part,साइड पार्
 L51.callout.3.text,L51 Dark Brown Gentleman,Neat and classic.,साफ़ और क्लासिक।,draft,Photo label line.
 L51.callout.4.title,L51 Dark Brown Gentleman,Warm and natural,गर्म और नेचुरल,draft,Photo label title.
 L51.callout.4.text,L51 Dark Brown Gentleman,Grey covered.,सफ़ेद ढका।,draft,Photo label line.
-L52.name,L52 Chestnut Flow,Chestnut Flow,चेस्टनट फ्लो,draft,"Catalogue name. Keep it, or write the name customers use."
-L52.shortLine,L52 Chestnut Flow,Flowing hair and a boxed beard in warm chestnut.,गर्म चेस्टनट में बहते बाल और बॉक्स दाढ़ी।,draft,
-L52.description,L52 Chestnut Flow,"Medium Flow hair with a Short Boxed Beard, both coloured Chestnut Brown. A warm, rich colour that glows in daylight.","छोटी बॉक्स दाढ़ी के साथ Medium Flow बाल, दोनों Chestnut Brown में रंगे। दिन की रोशनी में चमकने वाला गर्म, गहरा रंग।",draft,
-L52.pickIf,L52 Chestnut Flow,"you want warm colour on both hair and beard, with an easy, flowing cut.","आप आसान, बहते कट के साथ बाल और दाढ़ी दोनों पर गर्म रंग चाहते हैं।",draft,"Follows ""Pick this if""."
-L52.skipIf,L52 Chestnut Flow,"you have lots of grey, or want a cool, ash colour.","आपके बहुत बाल सफ़ेद हैं, या आप ठंडा ऐश रंग चाहते हैं।",draft,"Follows ""Skip if""."
-L52.daily,L52 Chestnut Flow,"5 min: comb back, light cream, beard oil.","5 मिनट: पीछे कंघी करें, हल्की क्रीम, बियर्ड ऑयल।",draft,
-L52.weekly,L52 Chestnut Flow,Colour-safe shampoo. Conditioner 1–2 times.,कलर-सेफ़ शैम्पू। 1–2 बार कंडीशनर।,draft,
-L52.nextVisit,L52 Chestnut Flow,in 4–6 weeks,4–6 हफ़्ते में,draft,
-L52.atShop,L52 Chestnut Flow,60–90 min on colour day,रंग के दिन 60–90 मिनट,draft,
-L52.callout.1.title,L52 Chestnut Flow,Chestnut brown,चेस्टनट भूरा,draft,Photo label title.
-L52.callout.1.text,L52 Chestnut Flow,Hair and beard.,बाल और दाढ़ी।,draft,Photo label line.
-L52.callout.2.title,L52 Chestnut Flow,Flowing hair,बहते बाल,draft,Photo label title.
-L52.callout.2.text,L52 Chestnut Flow,Back and to the sides.,पीछे और साइड में।,draft,Photo label line.
-L52.callout.3.title,L52 Chestnut Flow,Boxed beard,बॉक्स दाढ़ी,draft,Photo label title.
-L52.callout.3.text,L52 Chestnut Flow,Sharp cheek lines.,शार्प गाल लाइन।,draft,Photo label line.
-L52.callout.4.title,L52 Chestnut Flow,Red-gold glow,लाल-सुनहरी आभा,draft,Photo label title.
-L52.callout.4.text,L52 Chestnut Flow,Shows in daylight.,रोशनी में दिखती है।,draft,Photo label line.
 L53.name,L53 Mahogany Quiff,Mahogany Quiff,महोगनी क्विफ,draft,"Catalogue name. Keep it, or write the name customers use."
 L53.shortLine,L53 Mahogany Quiff,A lifted quiff and faded beard in deep red-brown.,गहरे लाल-भूरे में उठा क्विफ़ और फ़ेड दाढ़ी।,draft,
 L53.description,L53 Mahogany Quiff,"A Quiff with a Faded Beard, both in rich Mahogany red-brown. Bold, warm and made for a celebration.","Faded Beard के साथ Quiff, दोनों गहरे Mahogany लाल-भूरे में। बोल्ड, गर्म और जश्न के लिए।",draft,
@@ -8868,23 +8834,6 @@ L53.callout.3.title,L53 Mahogany Quiff,Faded beard,फ़ेड दाढ़ी,
 L53.callout.3.text,L53 Mahogany Quiff,Flows into the fade.,फ़ेड में मिलती।,draft,Photo label line.
 L53.callout.4.title,L53 Mahogany Quiff,Red shine,लाल चमक,draft,Photo label title.
 L53.callout.4.text,L53 Mahogany Quiff,Glows in light.,रोशनी में चमकती है।,draft,Photo label line.
-L54.name,L54 Blue-Black Edge,Blue-Black Edge,ब्लु-ब्ल्याक एज,draft,"Catalogue name. Keep it, or write the name customers use."
-L54.shortLine,L54 Blue-Black Edge,A skin fade and boxed beard with a cool blue sheen.,ठंडी नीली चमक के साथ स्किन फ़ेड और बॉक्स दाढ़ी।,draft,
-L54.description,L54 Blue-Black Edge,"A Skin Fade with a Short Boxed Beard, both in Blue-Black. Deep black with a cool blue shine where the light hits.","छोटी बॉक्स दाढ़ी के साथ Skin Fade, दोनों Blue-Black में। रोशनी पड़ने पर ठंडी नीली चमक वाला गहरा काला।",draft,
-L54.pickIf,L54 Blue-Black Edge,"you want a very sharp look with deep, glossy black on hair and beard.","आप बालों और दाढ़ी पर गहरे, चमकदार काले के साथ बहुत शार्प लुक चाहते हैं।",draft,"Follows ""Pick this if""."
-L54.skipIf,L54 Blue-Black Edge,you cannot visit every 2–3 weeks.,आप हर 2–3 हफ़्ते में नहीं आ सकते।,draft,"Follows ""Skip if""."
-L54.daily,L54 Blue-Black Edge,"4 min: comb the top, beard oil.","4 मिनट: ऊपर कंघी करें, बियर्ड ऑयल।",draft,
-L54.weekly,L54 Blue-Black Edge,Colour-safe shampoo. Trim the beard to 6–9 mm.,कलर-सेफ़ शैम्पू। दाढ़ी 6–9 mm पर ट्रिम।,draft,
-L54.nextVisit,L54 Blue-Black Edge,in 2–3 weeks,2–3 हफ़्ते में,draft,
-L54.atShop,L54 Blue-Black Edge,45 min on colour day,रंग के दिन 45 मिनट,draft,
-L54.callout.1.title,L54 Blue-Black Edge,Blue-black,ब्लू-ब्लैक,draft,Photo label title.
-L54.callout.1.text,L54 Blue-Black Edge,Hair and beard.,बाल और दाढ़ी।,draft,Photo label line.
-L54.callout.2.title,L54 Blue-Black Edge,Skin fade,स्किन फ़ेड,draft,Photo label title.
-L54.callout.2.text,L54 Blue-Black Edge,Bare skin up high.,ऊपर तक त्वचा।,draft,Photo label line.
-L54.callout.3.title,L54 Blue-Black Edge,Boxed beard,बॉक्स दाढ़ी,draft,Photo label title.
-L54.callout.3.text,L54 Blue-Black Edge,Sharp cheek lines.,शार्प गाल लाइन।,draft,Photo label line.
-L54.callout.4.title,L54 Blue-Black Edge,Blue sheen,नीली चमक,draft,Photo label title.
-L54.callout.4.text,L54 Blue-Black Edge,Glossy in light.,रोशनी में चमकदार।,draft,Photo label line.
 L55.name,L55 Silver Fox,Silver Fox,सिल्भर फक्स,draft,"Catalogue name. Keep it, or write the name customers use."
 L55.shortLine,L55 Silver Fox,Slicked-back hair and a full beard in cool silver.,ठंडे सिल्वर में पीछे कंघी किए बाल और भरी दाढ़ी।,draft,
 L55.description,L55 Silver Fox,"A Slick Back with a thick Full Beard, both in cool Ash Grey / Silver. A bold, distinguished look.","घनी Full Beard के साथ Slick Back, दोनों ठंडे Ash Grey / Silver में। बोल्ड, प्रतिष्ठित लुक।",draft,
@@ -8902,23 +8851,6 @@ L55.callout.3.title,L55 Silver Fox,Full beard,भरी दाढ़ी,draft,Ph
 L55.callout.3.text,L55 Silver Fox,Thick and rounded.,घनी और गोल।,draft,Photo label line.
 L55.callout.4.title,L55 Silver Fox,Cool tone,ठंडा टोन,draft,Photo label title.
 L55.callout.4.text,L55 Silver Fox,No yellow.,पीला नहीं।,draft,Photo label line.
-L56.name,L56 Charcoal Stubble,Charcoal Stubble,चारकोल स्टबल,draft,"Catalogue name. Keep it, or write the name customers use."
-L56.shortLine,L56 Charcoal Stubble,A textured fringe and stubble in smoky charcoal.,धुएं जैसे चारकोल में टेक्सचर्ड फ़्रिंज और छोटी दाढ़ी।,draft,
-L56.description,L56 Charcoal Stubble,"A Textured Fringe with Heavy Stubble, both in dark, smoky Charcoal Grey. Moody, modern and easy to wear.","Heavy Stubble के साथ Textured Fringe, दोनों गहरे, धुएं जैसे Charcoal Grey में। रहस्यमयी, मॉडर्न और पहनने में आसान।",draft,
-L56.pickIf,L56 Charcoal Stubble,"you want a moody, modern grey on hair and stubble.","आप बालों और छोटी दाढ़ी पर रहस्यमयी, मॉडर्न ग्रे चाहते हैं।",draft,"Follows ""Pick this if""."
-L56.skipIf,L56 Charcoal Stubble,"your hair is dry or damaged, or you have a strict office.","आपके बाल रूखे या ख़राब हैं, या ऑफ़िस सख़्त है।",draft,"Follows ""Skip if""."
-L56.daily,L56 Charcoal Stubble,"3 min: push the fringe forward, a little clay.","3 मिनट: फ़्रिंज आगे करें, थोड़ा क्ले।",draft,
-L56.weekly,L56 Charcoal Stubble,Silver shampoo once. Trim the stubble once at 5 mm.,एक बार सिल्वर शैम्पू। दाढ़ी एक बार 5 mm पर ट्रिम।,draft,
-L56.nextVisit,L56 Charcoal Stubble,in 3–4 weeks,3–4 हफ़्ते में,draft,
-L56.atShop,L56 Charcoal Stubble,2–3 hours on colour day,रंग के दिन 2–3 घंटे,draft,
-L56.callout.1.title,L56 Charcoal Stubble,Charcoal grey,चारकोल ग्रे,draft,Photo label title.
-L56.callout.1.text,L56 Charcoal Stubble,Hair and stubble.,बाल और दाढ़ी।,draft,Photo label line.
-L56.callout.2.title,L56 Charcoal Stubble,Textured fringe,टेक्सचर्ड फ़्रिंज,draft,Photo label title.
-L56.callout.2.text,L56 Charcoal Stubble,"Choppy, forward.","कटी-कटी, आगे।",draft,Photo label line.
-L56.callout.3.title,L56 Charcoal Stubble,Heavy stubble,घनी छोटी दाढ़ी,draft,Photo label title.
-L56.callout.3.text,L56 Charcoal Stubble,5 mm.,5 mm।,draft,Photo label line.
-L56.callout.4.title,L56 Charcoal Stubble,Low taper,लो टेपर,draft,Photo label title.
-L56.callout.4.text,L56 Charcoal Stubble,#1 to #3.,#1 से #3।,draft,Photo label line.
 L57.name,L57 Copper Ducktail,Copper Ducktail,कपर डकटेल,draft,"Catalogue name. Keep it, or write the name customers use."
 L57.shortLine,L57 Copper Ducktail,An undercut and pointed beard in bright copper.,चमकदार कॉपर में अंडरकट और नुकीली दाढ़ी।,draft,
 L57.description,L57 Copper Ducktail,"An Undercut with a Ducktail beard, both coloured bright Copper. Warm, vivid and made to be noticed.","Ducktail दाढ़ी के साथ Undercut, दोनों चमकदार Copper में रंगे। गर्म, चटक और ध्यान खींचने वाला।",draft,
@@ -8953,23 +8885,6 @@ L58.callout.3.title,L58 Burgundy Van Dyke,Pushed back,पीछे कंघी 
 L58.callout.3.text,L58 Burgundy Van Dyke,"Matte, 8 cm.","मैट, 8 cm।",draft,Photo label line.
 L58.callout.4.title,L58 Burgundy Van Dyke,Clean cheeks,साफ़ गाल,draft,Photo label title.
 L58.callout.4.text,L58 Burgundy Van Dyke,Shaved smooth.,चिकनी शेव।,draft,Photo label line.
-L59.name,L59 Violet Edge,Violet Edge,भायोलेट एज,draft,"Catalogue name. Keep it, or write the name customers use."
-L59.shortLine,L59 Violet Edge,A blunt Edgar fringe and stubble in bold violet.,बोल्ड बैंगनी में सीधी Edgar फ़्रिंज और छोटी दाढ़ी।,draft,
-L59.description,L59 Violet Edge,"An Edgar Cut with Heavy Stubble, both in bold Violet. A creative, high-fashion look for people who want to be noticed.","Heavy Stubble के साथ Edgar Cut, दोनों बोल्ड Violet में। ध्यान खींचना चाहने वालों के लिए क्रिएटिव, हाई-फ़ैशन लुक।",draft,
-L59.pickIf,L59 Violet Edge,"you want a bold, creative look and can look after it.","आप बोल्ड, क्रिएटिव लुक चाहते हैं और उसकी देखभाल कर सकते हैं।",draft,"Follows ""Pick this if""."
-L59.skipIf,L59 Violet Edge,"you have a strict office, or do not want to keep topping up the colour.","आपका ऑफ़िस सख़्त है, या आप बार-बार रंग नहीं लगवाना चाहते।",draft,"Follows ""Skip if""."
-L59.daily,L59 Violet Edge,"3 min: comb the fringe forward, a little clay.","3 मिनट: फ़्रिंज आगे कंघी करें, थोड़ा क्ले।",draft,
-L59.weekly,L59 Violet Edge,Wash with cool water. Colour mask once.,ठंडे पानी से धोएं। एक बार कलर मास्क।,draft,
-L59.nextVisit,L59 Violet Edge,"in 2–3 weeks, to refresh the colour and fade","2–3 हफ़्ते में, रंग और फ़ेड ताज़ा करने के लिए",draft,
-L59.atShop,L59 Violet Edge,2–3 hours on colour day,रंग के दिन 2–3 घंटे,draft,
-L59.callout.1.title,L59 Violet Edge,Violet,वायलेट,draft,Photo label title.
-L59.callout.1.text,L59 Violet Edge,Hair and stubble.,बाल और दाढ़ी।,draft,Photo label line.
-L59.callout.2.title,L59 Violet Edge,Blunt fringe,सीधी फ़्रिंज,draft,Photo label title.
-L59.callout.2.text,L59 Violet Edge,Straight across.,आड़ी सीधी।,draft,Photo label line.
-L59.callout.3.title,L59 Violet Edge,Mid skin fade,मिड स्किन फ़ेड,draft,Photo label title.
-L59.callout.3.text,L59 Violet Edge,#0 to #3.,#0 से #3।,draft,Photo label line.
-L59.callout.4.title,L59 Violet Edge,Vivid colour,चटक रंग,draft,Photo label title.
-L59.callout.4.text,L59 Violet Edge,Bold and even.,बोल्ड और बराबर।,draft,Photo label line.
 L60.name,L60 Grey Blend Ivy,Grey Blend Ivy,ग्रे ब्लेन्ड आइवी,draft,"Catalogue name. Keep it, or write the name customers use."
 L60.shortLine,L60 Grey Blend Ivy,A smart Ivy League with grey softened on hair and beard.,बालों और दाढ़ी पर नरम किए सफ़ेद के साथ स्मार्ट Ivy League।,draft,
 L60.description,L60 Grey Blend Ivy,"An Ivy League with a Short Boxed Beard, with Grey Blending on both so the grey looks soft and natural. Distinguished, not hidden.","छोटी बॉक्स दाढ़ी के साथ Ivy League, दोनों पर Grey Blending ताकि सफ़ेद नरम और नेचुरल दिखे। प्रतिष्ठित, छिपा हुआ नहीं।",draft,
@@ -9298,6 +9213,233 @@ L79.callout.3.title,L79 Modern Mullet Casual,Longer back,लंबा पीछ�
 L79.callout.3.text,L79 Modern Mullet Casual,9–10 cm.,9–10 cm।,draft,Photo label line.
 L79.callout.4.title,L79 Modern Mullet Casual,Light stubble,हल्की दाढ़ी,draft,Photo label title.
 L79.callout.4.text,L79 Modern Mullet Casual,1–2 mm.,1–2 mm।,draft,Photo label line.
+L80.name,L80 Wolf and Stubble,Wolf and Stubble,वुल्फ एंड स्टबल,draft,"Catalogue name. Keep it, or write the name customers use."
+L80.shortLine,L80 Wolf and Stubble,Shaggy wolf layers with light stubble.,हल्की दाढ़ी के साथ शैगी वुल्फ लेयर।,draft,
+L80.description,L80 Wolf and Stubble,"A Wolf Cut with messy layers and a soft fringe, with Light Stubble. Relaxed and a little rebellious, and warmer than the clean-shaven version.","बिखरी लेयर और नरम फ्रिंज वाला Wolf Cut, Light Stubble के साथ। आरामदायक और थोड़ा बाग़ी, क्लीन-शेव वर्ज़न से ज़्यादा गर्म।",draft,
+L80.pickIf,L80 Wolf and Stubble,"you want a trendy, shaggy cut with a bit of an edge.","आप थोड़ी धार वाला, ट्रेंडी शैगी कट चाहते हैं।",draft,"Follows ""Pick this if""."
+L80.skipIf,L80 Wolf and Stubble,"your hair is very thin or very curly, or your workplace is strict.","आपके बाल बहुत पतले या बहुत घुंघराले हैं, या काम की जगह सख़्त है।",draft,"Follows ""Skip if""."
+L80.daily,L80 Wolf and Stubble,"3 min: sea-salt spray, scrunch and finger-style.","3 मिनट: सी-साल्ट स्प्रे, स्क्रंच करके उँगलियों से स्टाइल।",draft,
+L80.weekly,L80 Wolf and Stubble,Conditioner once. Trim the stubble with a 2 mm guard.,हफ़्ते में एक बार कंडीशनर। दाढ़ी 2 mm गार्ड से ट्रिम।,draft,
+L80.nextVisit,L80 Wolf and Stubble,in 5–6 weeks,5–6 हफ़्ते में,draft,
+L80.callout.1.title,L80 Wolf and Stubble,Shaggy layers,शैगी लेयर,draft,Photo label title.
+L80.callout.1.text,L80 Wolf and Stubble,Messy and light.,बिखरी और हल्की।,draft,Photo label line.
+L80.callout.2.title,L80 Wolf and Stubble,Soft fringe,नरम फ्रिंज,draft,Photo label title.
+L80.callout.2.text,L80 Wolf and Stubble,Loose over the brows.,भौंहों पर ढीला।,draft,Photo label line.
+L80.callout.3.title,L80 Wolf and Stubble,Longer back,लंबा पीछे का हिस्सा,draft,Photo label title.
+L80.callout.3.text,L80 Wolf and Stubble,To the collar.,कॉलर तक।,draft,Photo label line.
+L80.callout.4.title,L80 Wolf and Stubble,Light stubble,हल्की दाढ़ी,draft,Photo label title.
+L80.callout.4.text,L80 Wolf and Stubble,1–2 mm.,1–2 mm।,draft,Photo label line.
+L81.name,L81 Bleached Curtains,Bleached Curtains,ब्लीच्ड कर्टेन,draft,"Catalogue name. Keep it, or write the name customers use."
+L81.shortLine,L81 Bleached Curtains,Centre-parted curtains in bleached platinum blonde.,ब्लीच किए प्लैटिनम ब्लॉन्ड में बीच की मांग वाले कर्टेन।,draft,
+L81.description,L81 Bleached Curtains,"A Curtain Fringe parted in the centre and bleached to a bright platinum blonde, with a clean-shaven face. A bold, youthful, fashion-forward look.","बीच में मांग वाला और चमकदार प्लैटिनम ब्लॉन्ड में ब्लीच किया Curtain Fringe, क्लीन-शेव चेहरे के साथ। बोल्ड, जवान, फ़ैशन-फ़ॉरवर्ड लुक।",draft,
+L81.pickIf,L81 Bleached Curtains,"you want a high-impact, trendy colour change.","आप दमदार, ट्रेंडी रंग बदलाव चाहते हैं।",draft,"Follows ""Pick this if""."
+L81.skipIf,L81 Bleached Curtains,"your hair is already damaged, or you cannot keep up with toning and care.","आपके बाल पहले से ख़राब हैं, या आप टोनिंग और देखभाल नहीं कर सकते।",draft,"Follows ""Skip if""."
+L81.daily,L81 Bleached Curtains,"5 min: shave, part and finger-dry, a little light cream.","5 मिनट: शेव करें, मांग निकालकर उँगलियों से सुखाएँ, थोड़ी हल्की क्रीम।",draft,
+L81.weekly,L81 Bleached Curtains,Purple shampoo twice a week. Deep-condition once.,हफ़्ते में दो बार पर्पल शैम्पू। एक बार डीप कंडीशन।,draft,
+L81.nextVisit,L81 Bleached Curtains,in 4–6 weeks,4–6 हफ़्ते में,draft,
+L81.atShop,L81 Bleached Curtains,2–3 hours on colour day,रंग के दिन 2–3 घंटे,draft,
+L81.callout.1.title,L81 Bleached Curtains,Platinum blonde,प्लैटिनम ब्लॉन्ड,draft,Photo label title.
+L81.callout.1.text,L81 Bleached Curtains,Bleached and toned.,ब्लीच और टोन किया।,draft,Photo label line.
+L81.callout.2.title,L81 Bleached Curtains,Centre part,बीच की मांग,draft,Photo label title.
+L81.callout.2.text,L81 Bleached Curtains,Even on both sides.,दोनों तरफ़ बराबर।,draft,Photo label line.
+L81.callout.3.title,L81 Bleached Curtains,Soft curtains,नरम कर्टेन,draft,Photo label title.
+L81.callout.3.text,L81 Bleached Curtains,Fall past the brows.,भौंहों के पीछे गिरते।,draft,Photo label line.
+L81.callout.4.title,L81 Bleached Curtains,Clean face,साफ़ चेहरा,draft,Photo label title.
+L81.callout.4.text,L81 Bleached Curtains,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L82.name,L82 Platinum Buzz,Platinum Buzz,प्लैटिनम बज़,draft,"Catalogue name. Keep it, or write the name customers use."
+L82.shortLine,L82 Platinum Buzz,A bleached buzz cut with light stubble.,हल्की दाढ़ी के साथ ब्लीच किया बज़ कट।,draft,
+L82.description,L82 Platinum Buzz,"A Buzz Cut bleached to platinum blonde, with Light Stubble. Very short, very bold, and the colour does all the work.","प्लैटिनम ब्लॉन्ड में ब्लीच किया Buzz Cut, Light Stubble के साथ। बहुत छोटा, बहुत बोल्ड, और सारा काम रंग करता है।",draft,
+L82.pickIf,L82 Platinum Buzz,you want a dramatic change with almost no styling.,आप लगभग बिना स्टाइलिंग के नाटकीय बदलाव चाहते हैं।,draft,"Follows ""Pick this if""."
+L82.skipIf,L82 Platinum Buzz,"you have a sensitive scalp, or you want a natural look.","आपकी खोपड़ी की त्वचा संवेदनशील है, या आप नेचुरल लुक चाहते हैं।",draft,"Follows ""Skip if""."
+L82.daily,L82 Platinum Buzz,1 min: nothing to style. Moisturise the scalp.,1 मिनट: स्टाइल करने को कुछ नहीं। खोपड़ी पर मॉइस्चराइज़र।,draft,
+L82.weekly,L82 Platinum Buzz,Purple shampoo once. Re-buzz at the same guard.,हफ़्ते में एक बार पर्पल शैम्पू। उसी गार्ड पर दोबारा बज़।,draft,
+L82.nextVisit,L82 Platinum Buzz,in 3–4 weeks,3–4 हफ़्ते में,draft,
+L82.atShop,L82 Platinum Buzz,2–3 hours on colour day,रंग के दिन 2–3 घंटे,draft,
+L82.callout.1.title,L82 Platinum Buzz,Platinum buzz,प्लैटिनम बज़,draft,Photo label title.
+L82.callout.1.text,L82 Platinum Buzz,Bleached and toned.,ब्लीच और टोन किया।,draft,Photo label line.
+L82.callout.2.title,L82 Platinum Buzz,Even length,बराबर लंबाई,draft,Photo label title.
+L82.callout.2.text,L82 Platinum Buzz,One guard all over.,पूरे सिर पर एक गार्ड।,draft,Photo label line.
+L82.callout.3.title,L82 Platinum Buzz,Light stubble,हल्की दाढ़ी,draft,Photo label title.
+L82.callout.3.text,L82 Platinum Buzz,1–2 mm.,1–2 mm।,draft,Photo label line.
+L82.callout.4.title,L82 Platinum Buzz,Clean edges,साफ़ किनारे,draft,Photo label title.
+L82.callout.4.text,L82 Platinum Buzz,Neck and ears.,गर्दन और कान।,draft,Photo label line.
+L83.name,L83 Modern Slick,Modern Slick,मॉडर्न स्लिक,draft,"Catalogue name. Keep it, or write the name customers use."
+L83.shortLine,L83 Modern Slick,A tidy slick-back with heavy stubble.,हेवी स्टबल के साथ साफ़ स्लिक-बैक।,draft,
+L83.description,L83 Modern Slick,"A Slick Back with tapered sides and Heavy Stubble. Smart, polished and a little rough at the edges, so it works at work and at night.","टेपर किए किनारों और Heavy Stubble वाला Slick Back। स्मार्ट, चमकदार और किनारों पर थोड़ा खुरदरा, इसलिए काम और रात दोनों में चलता है।",draft,
+L83.pickIf,L83 Modern Slick,you want a polished look that is not too formal.,आप ज़्यादा औपचारिक न होने वाला चमकदार लुक चाहते हैं।,draft,"Follows ""Pick this if""."
+L83.skipIf,L83 Modern Slick,your hair is curly or very thin.,आपके बाल घुंघराले या बहुत पतले हैं।,draft,"Follows ""Skip if""."
+L83.daily,L83 Modern Slick,"5 min: blow dry back, pomade, comb, then a quick stubble check.","5 मिनट: पीछे ब्लो ड्राई, पोमेड, कंघी, फिर स्टबल की झटपट जाँच।",draft,
+L83.weekly,L83 Modern Slick,Wash and condition. Trim the stubble once at 5 mm.,वॉश और कंडीशन। दाढ़ी एक बार 5 mm पर ट्रिम।,draft,
+L83.nextVisit,L83 Modern Slick,in 3 weeks,3 हफ़्ते में,draft,
+L83.callout.1.title,L83 Modern Slick,Slick back,स्लिक बैक,draft,Photo label title.
+L83.callout.1.text,L83 Modern Slick,Combed straight back.,सीधा पीछे कंघी किया हुआ।,draft,Photo label line.
+L83.callout.2.title,L83 Modern Slick,Smooth shine,चिकनी चमक,draft,Photo label title.
+L83.callout.2.text,L83 Modern Slick,Pomade finish.,पोमेड फ़िनिश।,draft,Photo label line.
+L83.callout.3.title,L83 Modern Slick,Tapered sides,टेपर किए किनारे,draft,Photo label title.
+L83.callout.3.text,L83 Modern Slick,Tight and neat.,कसे और साफ़।,draft,Photo label line.
+L83.callout.4.title,L83 Modern Slick,Heavy stubble,हेवी स्टबल,draft,Photo label title.
+L83.callout.4.text,L83 Modern Slick,5 mm.,5 mm।,draft,Photo label line.
+L84.name,L84 Anchor Fade,Anchor Fade,एंकर फ़ेड,draft,"Catalogue name. Keep it, or write the name customers use."
+L84.shortLine,L84 Anchor Fade,"A skin fade with a sharp, trimmed anchor beard.","शार्प, ट्रिम की हुई एंकर दाढ़ी के साथ स्किन फ़ेड।",draft,
+L84.description,L84 Anchor Fade,"A Skin Fade paired with an Anchor Beard: a pointed chin beard joined to a trimmed moustache. A sharp, defined look that frames the jaw.","Skin Fade और Anchor Beard: मूंछ से जुड़ी नुकीली ठुड्डी की दाढ़ी। जबड़े को फ़्रेम करने वाला शार्प, साफ़ लुक।",draft,
+L84.pickIf,L84 Anchor Fade,"you want a defined jawline and a clean, modern shape.","आप साफ़ जबड़े की रेखा और साफ़, मॉडर्न आकार चाहते हैं।",draft,"Follows ""Pick this if""."
+L84.skipIf,L84 Anchor Fade,you do not want to trim every week.,आप हर हफ़्ते ट्रिम नहीं करना चाहते।,draft,"Follows ""Skip if""."
+L84.daily,L84 Anchor Fade,"3 min: style the top, beard oil.","3 मिनट: ऊपर स्टाइल, बियर्ड ऑयल।",draft,
+L84.weekly,L84 Anchor Fade,Trim and shape the anchor with a trimmer. Redo the neckline.,ट्रिमर से एंकर को ट्रिम और आकार दें। नेकलाइन दोबारा बनाएँ।,draft,
+L84.nextVisit,L84 Anchor Fade,in 2–3 weeks,2–3 हफ़्ते में,draft,
+L84.callout.1.title,L84 Anchor Fade,Skin fade,स्किन फ़ेड,draft,Photo label title.
+L84.callout.1.text,L84 Anchor Fade,Clean and smooth.,साफ़ और चिकना।,draft,Photo label line.
+L84.callout.2.title,L84 Anchor Fade,Anchor beard,एंकर दाढ़ी,draft,Photo label title.
+L84.callout.2.text,L84 Anchor Fade,Chin beard and moustache.,ठुड्डी की दाढ़ी और मूंछ।,draft,Photo label line.
+L84.callout.3.title,L84 Anchor Fade,Defined jaw,साफ़ जबड़ा,draft,Photo label title.
+L84.callout.3.text,L84 Anchor Fade,Sharp lines.,शार्प लाइनें।,draft,Photo label line.
+L84.callout.4.title,L84 Anchor Fade,Textured top,टेक्स्चर्ड टॉप,draft,Photo label title.
+L84.callout.4.text,L84 Anchor Fade,Natural finish.,नेचुरल फ़िनिश।,draft,Photo label line.
+L85.name,L85 Blowout and Beard,Blowout and Beard,ब्लोआउट एंड बियर्ड,draft,"Catalogue name. Keep it, or write the name customers use."
+L85.shortLine,L85 Blowout and Beard,A voluminous blowout taper with a boxed beard.,बॉक्स दाढ़ी के साथ भरा ब्लोआउट टेपर।,draft,
+L85.description,L85 Blowout and Beard,"A Blowout Taper with a full, lifted top, paired with a Short Boxed Beard. Big, soft body on top and a sharp, tidy beard.","ऊपर भरा, उठा हुआ Blowout Taper और छोटी बॉक्स दाढ़ी। ऊपर बड़ी, नरम बॉडी और शार्प, साफ़ दाढ़ी।",draft,
+L85.pickIf,L85 Blowout and Beard,you want volume on top and a neat beard.,आप ऊपर वॉल्यूम और साफ़ दाढ़ी चाहते हैं।,draft,"Follows ""Pick this if""."
+L85.skipIf,L85 Blowout and Beard,"your hair is thin or very curly, or you have no time to blow dry.","आपके बाल पतले या बहुत घुंघराले हैं, या ब्लो ड्राई का समय नहीं है।",draft,"Follows ""Skip if""."
+L85.daily,L85 Blowout and Beard,"6 min: blow dry the top up and back, light spray, beard oil.","6 मिनट: ऊपर और पीछे ब्लो ड्राई, हल्का स्प्रे, बियर्ड ऑयल।",draft,
+L85.weekly,L85 Blowout and Beard,Trim the beard to 6–9 mm.,दाढ़ी 6–9 mm पर ट्रिम।,draft,
+L85.nextVisit,L85 Blowout and Beard,in 3–4 weeks,3–4 हफ़्ते में,draft,
+L85.callout.1.title,L85 Blowout and Beard,Full volume,भरा वॉल्यूम,draft,Photo label title.
+L85.callout.1.text,L85 Blowout and Beard,Blow-dried up and back.,ऊपर और पीछे ब्लो ड्राई।,draft,Photo label line.
+L85.callout.2.title,L85 Blowout and Beard,Taper,टेपर,draft,Photo label title.
+L85.callout.2.text,L85 Blowout and Beard,#2 down to #1.,#2 से #1।,draft,Photo label line.
+L85.callout.3.title,L85 Blowout and Beard,Boxed beard,बॉक्स दाढ़ी,draft,Photo label title.
+L85.callout.3.text,L85 Blowout and Beard,6 mm and 9 mm.,6 mm और 9 mm।,draft,Photo label line.
+L85.callout.4.title,L85 Blowout and Beard,Clean neck,साफ़ गर्दन,draft,Photo label title.
+L85.callout.4.text,L85 Blowout and Beard,Sharp line.,शार्प लाइन।,draft,Photo label line.
+L86.name,L86 Korean Ivy,Korean Ivy,कोरियन आइवी,draft,"Catalogue name. Keep it, or write the name customers use."
+L86.shortLine,L86 Korean Ivy,"A short Korean Ivy League with a soft part, clean-shaven.","नरम मांग के साथ छोटा कोरियन आइवी लीग, क्लीन-शेव।",draft,
+L86.description,L86 Korean Ivy,"A Korean Ivy League: neat and short with a soft side part and a little more texture than the classic. A clean, smart, student-style look.","कोरियन आइवी लीग: नरम साइड पार्ट के साथ साफ़ और छोटा, क्लासिक से थोड़ा ज़्यादा टेक्स्चर के साथ। साफ़, स्मार्ट, स्टूडेंट-स्टाइल लुक।",draft,
+L86.pickIf,L86 Korean Ivy,"you want a neat, smart look for college or work.","आप कॉलेज या काम के लिए साफ़, स्मार्ट लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+L86.skipIf,L86 Korean Ivy,your hair is very curly.,आपके बाल बहुत घुंघराले हैं।,draft,"Follows ""Skip if""."
+L86.daily,L86 Korean Ivy,"3 min: shave, comb the part, light wax.","3 मिनट: शेव करें, मांग में कंघी, हल्का वैक्स।",draft,
+L86.weekly,L86 Korean Ivy,Nothing.,कुछ नहीं।,draft,
+L86.nextVisit,L86 Korean Ivy,in 3–4 weeks,3–4 हफ़्ते में,draft,
+L86.callout.1.title,L86 Korean Ivy,Soft part,नरम मांग,draft,Photo label title.
+L86.callout.1.text,L86 Korean Ivy,Side swept.,किनारे की ओर।,draft,Photo label line.
+L86.callout.2.title,L86 Korean Ivy,Light texture,हल्का टेक्स्चर,draft,Photo label title.
+L86.callout.2.text,L86 Korean Ivy,Not stiff.,सख़्त नहीं।,draft,Photo label line.
+L86.callout.3.title,L86 Korean Ivy,Tidy sides,साफ़ किनारे,draft,Photo label title.
+L86.callout.3.text,L86 Korean Ivy,Short and neat.,छोटे और साफ़।,draft,Photo label line.
+L86.callout.4.title,L86 Korean Ivy,Clean face,साफ़ चेहरा,draft,Photo label title.
+L86.callout.4.text,L86 Korean Ivy,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L87.name,L87 Garma Classic,Garma Classic,गार्मा क्लासिक,draft,"Catalogue name. Keep it, or write the name customers use."
+L87.shortLine,L87 Garma Classic,"A centre-parted Garma perm, clean-shaven.","बीच की मांग वाला गार्मा पर्म, क्लीन-शेव।",draft,
+L87.description,L87 Garma Classic,"A Garma Perm with soft waves falling from a centre part, with a clean-shaven face. The softest, most popular Korean look right now.","बीच की मांग से गिरती नरम लहरों वाला Garma Perm, क्लीन-शेव चेहरे के साथ। अभी का सबसे नरम, लोकप्रिय कोरियन लुक।",draft,
+L87.pickIf,L87 Garma Classic,you want the classic soft Korean look.,"आप क्लासिक, नरम कोरियन लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+L87.skipIf,L87 Garma Classic,"you have a very round face, or your hair is under 8 cm.","आपका चेहरा बहुत गोल है, या बाल 8 cm से छोटे हैं।",draft,"Follows ""Skip if""."
+L87.daily,L87 Garma Classic,"4 min: shave, part and blow dry sideways, light wax.","4 मिनट: शेव करें, मांग निकालकर किनारों की ओर ब्लो ड्राई, हल्का वैक्स।",draft,
+L87.weekly,L87 Garma Classic,Conditioner once.,हफ़्ते में एक बार कंडीशनर।,draft,
+L87.nextVisit,L87 Garma Classic,in 4 weeks,4 हफ़्ते में,draft,
+L87.callout.1.title,L87 Garma Classic,Centre part,बीच की मांग,draft,Photo label title.
+L87.callout.1.text,L87 Garma Classic,Slightly off-centre.,थोड़ा किनारे की ओर।,draft,Photo label line.
+L87.callout.2.title,L87 Garma Classic,Soft waves,नरम लहरें,draft,Photo label title.
+L87.callout.2.text,L87 Garma Classic,Fall to both sides.,दोनों तरफ़ गिरती हैं।,draft,Photo label line.
+L87.callout.3.title,L87 Garma Classic,Tidy sides,साफ़ किनारे,draft,Photo label title.
+L87.callout.3.text,L87 Garma Classic,#3 to #2.,#3 से #2।,draft,Photo label line.
+L87.callout.4.title,L87 Garma Classic,Clean face,साफ़ चेहरा,draft,Photo label title.
+L87.callout.4.text,L87 Garma Classic,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L88.name,L88 Iron Perm Stubble,Iron Perm Stubble,आयरन पर्म स्टबल,draft,"Catalogue name. Keep it, or write the name customers use."
+L88.shortLine,L88 Iron Perm Stubble,A soft iron perm with light stubble.,हल्की दाढ़ी के साथ नरम आयरन पर्म।,draft,
+L88.description,L88 Iron Perm Stubble,"An Iron Perm with root lift and gentle bends, with Light Stubble. Polished and easy, with a soft, modern feel.","जड़ों से उठान और हल्के बेंड वाला Iron Perm, Light Stubble के साथ। साफ़ और आसान, नरम, मॉडर्न एहसास।",draft,
+L88.pickIf,L88 Iron Perm Stubble,you want body and movement that styles itself.,आप खुद सेट होने वाली बॉडी और मूवमेंट चाहते हैं।,draft,"Follows ""Pick this if""."
+L88.skipIf,L88 Iron Perm Stubble,"your hair is very curly, or you cannot have a chemical treatment.","आपके बाल बहुत घुंघराले हैं, या केमिकल ट्रीटमेंट नहीं करा सकते।",draft,"Follows ""Skip if""."
+L88.daily,L88 Iron Perm Stubble,"3 min: blow dry with your fingers, light wax.","3 मिनट: उँगलियों से ब्लो ड्राई, हल्का वैक्स।",draft,
+L88.weekly,L88 Iron Perm Stubble,Conditioner once. Trim the stubble at 2 mm.,हफ़्ते में एक बार कंडीशनर। दाढ़ी 2 mm पर ट्रिम।,draft,
+L88.nextVisit,L88 Iron Perm Stubble,in 4 weeks,4 हफ़्ते में,draft,
+L88.callout.1.title,L88 Iron Perm Stubble,Root lift,जड़ों से उठान,draft,Photo label title.
+L88.callout.1.text,L88 Iron Perm Stubble,Soft volume.,नरम वॉल्यूम।,draft,Photo label line.
+L88.callout.2.title,L88 Iron Perm Stubble,Gentle bends,हल्के बेंड,draft,Photo label title.
+L88.callout.2.text,L88 Iron Perm Stubble,"Loose, not curly.","ढीले, घुंघराले नहीं।",draft,Photo label line.
+L88.callout.3.title,L88 Iron Perm Stubble,Light fringe,हल्का फ्रिंज,draft,Photo label title.
+L88.callout.3.text,L88 Iron Perm Stubble,To the brows.,भौंहों तक।,draft,Photo label line.
+L88.callout.4.title,L88 Iron Perm Stubble,Light stubble,हल्की दाढ़ी,draft,Photo label title.
+L88.callout.4.text,L88 Iron Perm Stubble,1–2 mm.,1–2 mm।,draft,Photo label line.
+L89.name,L89 Shaggy Casual,Shaggy Casual,शैगी कैज़ुअल,draft,"Catalogue name. Keep it, or write the name customers use."
+L89.shortLine,L89 Shaggy Casual,Messy shaggy layers with light stubble.,हल्की दाढ़ी के साथ बिखरी शैगी लेयर।,draft,
+L89.description,L89 Shaggy Casual,"A Shaggy Cut with choppy layers and Light Stubble. Low effort, lived-in and very easy to wear.","कटी-फटी लेयर और Light Stubble वाला Shaggy Cut। कम मेहनत, रचा-बसा और पहनने में बहुत आसान।",draft,
+L89.pickIf,L89 Shaggy Casual,you want a lived-in cut that needs almost no styling.,आप ऐसा रचा-बसा कट चाहते हैं जिसमें लगभग स्टाइलिंग न लगे।,draft,"Follows ""Pick this if""."
+L89.skipIf,L89 Shaggy Casual,"your hair is very fine and flat, or you need a neat look.","आपके बाल बहुत पतले और सपाट हैं, या साफ़ लुक चाहिए।",draft,"Follows ""Skip if""."
+L89.daily,L89 Shaggy Casual,2 min: scrunch in sea-salt spray.,2 मिनट: सी-साल्ट स्प्रे से स्क्रंच।,draft,
+L89.weekly,L89 Shaggy Casual,Conditioner once.,हफ़्ते में एक बार कंडीशनर।,draft,
+L89.nextVisit,L89 Shaggy Casual,in 6–8 weeks,6–8 हफ़्ते में,draft,
+L89.callout.1.title,L89 Shaggy Casual,Choppy layers,कटी-फटी लेयर,draft,Photo label title.
+L89.callout.1.text,L89 Shaggy Casual,Loose and messy.,ढीली और बिखरी।,draft,Photo label line.
+L89.callout.2.title,L89 Shaggy Casual,Easy flow,आसान बहाव,draft,Photo label title.
+L89.callout.2.text,L89 Shaggy Casual,Falls naturally.,प्राकृतिक रूप से गिरते हैं।,draft,Photo label line.
+L89.callout.3.title,L89 Shaggy Casual,Light stubble,हल्की दाढ़ी,draft,Photo label title.
+L89.callout.3.text,L89 Shaggy Casual,1–2 mm.,1–2 mm।,draft,Photo label line.
+L89.callout.4.title,L89 Shaggy Casual,Natural finish,नेचुरल फ़िनिश,draft,Photo label title.
+L89.callout.4.text,L89 Shaggy Casual,Matte.,मैट।,draft,Photo label line.
+L90.name,L90 Low Fade Quiff Daily,Low Fade Quiff Daily,लो फ़ेड क्विफ़ डेली,draft,"Catalogue name. Keep it, or write the name customers use."
+L90.shortLine,L90 Low Fade Quiff Daily,A low-fade quiff with heavy stubble.,हेवी स्टबल के साथ लो फ़ेड क्विफ़।,draft,
+L90.description,L90 Low Fade Quiff Daily,"A Low Fade Quiff with Heavy Stubble. Height on top and a soft fade at the sides, a smart look that is not too short.","Heavy Stubble वाला Low Fade Quiff। ऊपर ऊँचाई और किनारों पर नरम फ़ेड, स्मार्ट लुक जो बहुत छोटा नहीं है।",draft,
+L90.pickIf,L90 Low Fade Quiff Daily,you want height with a softer fade.,आप नरम फ़ेड के साथ ऊँचाई चाहते हैं।,draft,"Follows ""Pick this if""."
+L90.skipIf,L90 Low Fade Quiff Daily,"you have a long or heart-shaped face, or no time to blow dry.","आपका चेहरा लंबा या दिल के आकार का है, या ब्लो ड्राई का समय नहीं है।",draft,"Follows ""Skip if""."
+L90.daily,L90 Low Fade Quiff Daily,"5 min: blow dry the front up and back, wax.","5 मिनट: आगे के बाल ऊपर और पीछे ब्लो ड्राई, वैक्स।",draft,
+L90.weekly,L90 Low Fade Quiff Daily,Trim the stubble once at 5 mm.,दाढ़ी एक बार 5 mm पर ट्रिम।,draft,
+L90.nextVisit,L90 Low Fade Quiff Daily,in 3–4 weeks,3–4 हफ़्ते में,draft,
+L90.callout.1.title,L90 Low Fade Quiff Daily,Lifted front,ऊपर उठा आगे का हिस्सा,draft,Photo label title.
+L90.callout.1.text,L90 Low Fade Quiff Daily,Blown up and back.,ऊपर और पीछे ब्लो ड्राई।,draft,Photo label line.
+L90.callout.2.title,L90 Low Fade Quiff Daily,Low fade,लो फ़ेड,draft,Photo label title.
+L90.callout.2.text,L90 Low Fade Quiff Daily,Starts above the ear.,कान के ऊपर से शुरू।,draft,Photo label line.
+L90.callout.3.title,L90 Low Fade Quiff Daily,Heavy stubble,हेवी स्टबल,draft,Photo label title.
+L90.callout.3.text,L90 Low Fade Quiff Daily,5 mm.,5 mm।,draft,Photo label line.
+L90.callout.4.title,L90 Low Fade Quiff Daily,Clean blend,साफ़ मिलावट,draft,Photo label title.
+L90.callout.4.text,L90 Low Fade Quiff Daily,Fade into the top.,फ़ेड ऊपर में मिलता है।,draft,Photo label line.
+L91.name,L91 Messy Quiff Fade,Messy Quiff Fade,मेसी क्विफ़ फ़ेड,draft,"Catalogue name. Keep it, or write the name customers use."
+L91.shortLine,L91 Messy Quiff Fade,"A loose, matte quiff with a faded beard.","फ़ेडेड दाढ़ी के साथ ढीला, मैट क्विफ़।",draft,
+L91.description,L91 Messy Quiff Fade,"A Textured Quiff with a loose, matte lift, paired with a Faded Beard that blends into the hair. Relaxed on top, sharp on the sides.","ढीले, मैट उठान वाला Textured Quiff और बालों में मिलती Faded Beard। ऊपर आरामदायक, किनारों पर शार्प।",draft,
+L91.pickIf,L91 Messy Quiff Fade,"you want height without a stiff, shiny look.","आप सख़्त, चमकदार लुक के बिना ऊँचाई चाहते हैं।",draft,"Follows ""Pick this if""."
+L91.skipIf,L91 Messy Quiff Fade,"you have a long or heart-shaped face, or want a slick finish.","आपका चेहरा लंबा या दिल के आकार का है, या चिकना फ़िनिश चाहते हैं।",draft,"Follows ""Skip if""."
+L91.daily,L91 Messy Quiff Fade,"3 min: clay, push the top up with your fingers, beard oil.","3 मिनट: क्ले, उँगलियों से ऊपर उठाएँ, बियर्ड ऑयल।",draft,
+L91.weekly,L91 Messy Quiff Fade,Trim the neckline.,नेकलाइन ट्रिम।,draft,
+L91.nextVisit,L91 Messy Quiff Fade,in 3–4 weeks,3–4 हफ़्ते में,draft,
+L91.callout.1.title,L91 Messy Quiff Fade,Loose lift,ढीला उठान,draft,Photo label title.
+L91.callout.1.text,L91 Messy Quiff Fade,Up and back.,ऊपर और पीछे।,draft,Photo label line.
+L91.callout.2.title,L91 Messy Quiff Fade,Matte texture,मैट टेक्स्चर,draft,Photo label title.
+L91.callout.2.text,L91 Messy Quiff Fade,No shine.,चमक नहीं।,draft,Photo label line.
+L91.callout.3.title,L91 Messy Quiff Fade,Faded beard,फ़ेडेड दाढ़ी,draft,Photo label title.
+L91.callout.3.text,L91 Messy Quiff Fade,Blends into the hair.,बालों में मिलती है।,draft,Photo label line.
+L91.callout.4.title,L91 Messy Quiff Fade,Tapered sides,टेपर किए किनारे,draft,Photo label title.
+L91.callout.4.text,L91 Messy Quiff Fade,#2 to #1.,#2 से #1।,draft,Photo label line.
+L92.name,L92 Blonde Fringe,Blonde Fringe,ब्लॉन्ड फ्रिंज,draft,"Catalogue name. Keep it, or write the name customers use."
+L92.shortLine,L92 Blonde Fringe,A textured fringe in soft light blonde.,नरम हल्के ब्लॉन्ड में टेक्स्चर्ड फ्रिंज।,draft,
+L92.description,L92 Blonde Fringe,"A Textured Fringe lightened to a soft light blonde, with a clean-shaven face. Fresh, soft and very youthful.","नरम हल्के ब्लॉन्ड में लाइट किया Textured Fringe, क्लीन-शेव चेहरे के साथ। ताज़ा, नरम और बहुत जवान।",draft,
+L92.pickIf,L92 Blonde Fringe,"you want a bright, soft colour change that is easier than platinum.","आप प्लैटिनम से आसान, चमकदार, नरम रंग बदलाव चाहते हैं।",draft,"Follows ""Pick this if""."
+L92.skipIf,L92 Blonde Fringe,"your hair is damaged, or your workplace needs natural hair.","आपके बाल ख़राब हैं, या काम की जगह पर नेचुरल बाल चाहिए।",draft,"Follows ""Skip if""."
+L92.daily,L92 Blonde Fringe,"4 min: shave, style the fringe forward, matte clay.","4 मिनट: शेव करें, फ्रिंज आगे की ओर स्टाइल, मैट क्ले।",draft,
+L92.weekly,L92 Blonde Fringe,Purple shampoo once. Deep-condition once.,हफ़्ते में एक बार पर्पल शैम्पू। एक बार डीप कंडीशन।,draft,
+L92.nextVisit,L92 Blonde Fringe,in 5–6 weeks,5–6 हफ़्ते में,draft,
+L92.atShop,L92 Blonde Fringe,2 hours on colour day,रंग के दिन 2 घंटे,draft,
+L92.callout.1.title,L92 Blonde Fringe,Light blonde,हल्का ब्लॉन्ड,draft,Photo label title.
+L92.callout.1.text,L92 Blonde Fringe,Soft and even.,नरम और बराबर।,draft,Photo label line.
+L92.callout.2.title,L92 Blonde Fringe,Textured fringe,टेक्स्चर्ड फ्रिंज,draft,Photo label title.
+L92.callout.2.text,L92 Blonde Fringe,"Choppy, to the brows.","कटा-फटा, भौंहों तक।",draft,Photo label line.
+L92.callout.3.title,L92 Blonde Fringe,Tapered sides,टेपर किए किनारे,draft,Photo label title.
+L92.callout.3.text,L92 Blonde Fringe,Short and neat.,छोटे और साफ़।,draft,Photo label line.
+L92.callout.4.title,L92 Blonde Fringe,Clean face,साफ़ चेहरा,draft,Photo label title.
+L92.callout.4.text,L92 Blonde Fringe,No beard or moustache.,दाढ़ी या मूंछ नहीं।,draft,Photo label line.
+L93.name,L93 Buzz Fade Beard,Buzz Fade Beard,बज़ फ़ेड बियर्ड,draft,"Catalogue name. Keep it, or write the name customers use."
+L93.shortLine,L93 Buzz Fade Beard,A buzz fade with a full beard.,फुल दाढ़ी के साथ बज़ फ़ेड।,draft,
+L93.description,L93 Buzz Fade Beard,"A Buzz Fade, short and cleanly faded, with a Full Beard. A strong, tidy, low-fuss look that makes the beard the focus.","छोटा और साफ़ फ़ेड किया Buzz Fade, Full Beard के साथ। मज़बूत, साफ़, कम झंझट का लुक जिसमें दाढ़ी केंद्र में रहती है।",draft,
+L93.pickIf,L93 Buzz Fade Beard,you have a full beard and want a very low-effort cut.,आपकी पूरी दाढ़ी है और आप बहुत कम मेहनत वाला कट चाहते हैं।,draft,"Follows ""Pick this if""."
+L93.skipIf,L93 Buzz Fade Beard,"your beard grows patchy, or you want length on top.","आपकी दाढ़ी कहीं-कहीं आती है, या आप ऊपर लंबे बाल चाहते हैं।",draft,"Follows ""Skip if""."
+L93.daily,L93 Buzz Fade Beard,"4 min: comb the beard, beard oil.","4 मिनट: दाढ़ी में कंघी, बियर्ड ऑयल।",draft,
+L93.weekly,L93 Buzz Fade Beard,Wash the beard with beard shampoo. Trim the neckline.,दाढ़ी को बियर्ड शैम्पू से धोएँ। नेकलाइन ट्रिम।,draft,
+L93.nextVisit,L93 Buzz Fade Beard,in 3 weeks,3 हफ़्ते में,draft,
+L93.callout.1.title,L93 Buzz Fade Beard,Buzz fade,बज़ फ़ेड,draft,Photo label title.
+L93.callout.1.text,L93 Buzz Fade Beard,Short and clean.,छोटा और साफ़।,draft,Photo label line.
+L93.callout.2.title,L93 Buzz Fade Beard,Full beard,फुल दाढ़ी,draft,Photo label title.
+L93.callout.2.text,L93 Buzz Fade Beard,About 4 cm.,लगभग 4 cm।,draft,Photo label line.
+L93.callout.3.title,L93 Buzz Fade Beard,Neat neckline,साफ़ नेकलाइन,draft,Photo label title.
+L93.callout.3.text,L93 Buzz Fade Beard,Two fingers up.,दो उँगली ऊपर।,draft,Photo label line.
+L93.callout.4.title,L93 Buzz Fade Beard,Strong contrast,मज़बूत कंट्रास्ट,draft,Photo label title.
+L93.callout.4.text,L93 Buzz Fade Beard,"Short top, full beard.","छोटा टॉप, पूरी दाढ़ी।",draft,Photo label line.
 P01.title,P01 What is my face shape? A 30-second guide for men,What is my face shape? A 30-second guide for men,मेरे चेहरे का आकार क्या है? पुरुषों के लिए 30 सेकंड की गाइड,draft,"Page title: the question people search, about 60 characters."
 P01.description,P01 What is my face shape? A 30-second guide for men,"Find your face shape in 30 seconds with a mirror: oval, round, square, long or heart. See which haircuts and beards suit each one.","आईने से 30 सेकंड में अपने चेहरे का आकार जानें: अंडाकार, गोल, चौकोर, लंबा या दिल के आकार का। देखें किस पर कौन सा हेयरकट और दाढ़ी जंचती है।",draft,Search snippet: up to 155 characters.
 P01.shortAnswer,P01 What is my face shape? A 30-second guide for men,"Look straight into a mirror with your hair pulled back. Compare the width of your forehead, cheekbones and jaw, then compare length with width. Most men are oval, round, square, long or heart-shaped. Your shape decides where a haircut should add height, width or softness.","बाल पीछे करके आईने में सीधे देखें। माथे, गालों की हड्डी और जबड़े की चौड़ाई की तुलना करें, फिर लंबाई और चौड़ाई की। ज़्यादातर पुरुषों का चेहरा अंडाकार, गोल, चौकोर, लंबा या दिल के आकार का होता है। आपका आकार तय करता है कि हेयरकट कहां ऊंचाई, चौड़ाई या नरमी जोड़े।",draft,40–60 words that make sense on their own.

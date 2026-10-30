@@ -2901,67 +2901,6 @@
     "thinHairOk": false
   },
   {
-    "id": "L50",
-    "updated": "2026-10-30",
-    "slug": "grey-free-beard",
-    "name": "Grey-Free Beard",
-    "shortLine": "Taper fade and boxed beard, both in jet black.",
-    "description": "A neat Taper Fade and a Short Boxed Beard, with Jet Black on the hair and beard so every grey is covered. Sharp and even.",
-    "pickIf": "you have grey in your hair and beard and want both to look strong and even.",
-    "skipIf": "you want to keep some grey, or your beard grows patchy.",
-    "daily": "6 min: comb the top, beard oil.",
-    "weekly": "Colour-safe shampoo. Trim the beard to 6–9 mm.",
-    "nextVisit": "in 3–4 weeks, for the cut and roots together",
-    "atShop": "60 min on colour day",
-    "suitsText": "Oval, round, long and heart face · All hair types · Medium or full beard growth",
-    "alsoCalled": [],
-    "mainPhoto": "front",
-    "popular": false,
-    "callouts": [
-      {
-        "title": "Jet black",
-        "text": "Hair and beard."
-      },
-      {
-        "title": "Boxed beard",
-        "text": "Sharp cheek lines."
-      },
-      {
-        "title": "Taper fade",
-        "text": "Small and clean."
-      },
-      {
-        "title": "Grey covered",
-        "text": "Even and glossy."
-      }
-    ],
-    "upkeep": "Medium",
-    "face": [
-      "Oval",
-      "Round",
-      "Long",
-      "Heart"
-    ],
-    "growth": [
-      "Medium",
-      "Full"
-    ],
-    "hair": "H23",
-    "beard": "B04",
-    "moustache": null,
-    "moustacheMode": "no-change",
-    "colour": "C01",
-    "colourBeard": true,
-    "includesText": "H23 Taper Fade · B04 Short Boxed Beard · C01 Jet Black (hair and beard)",
-    "colourType": "full",
-    "hairType": [
-      "Straight",
-      "Wavy",
-      "Curly"
-    ],
-    "thinHairOk": true
-  },
-  {
     "id": "L51",
     "updated": "2026-10-30",
     "slug": "dark-brown-gentleman",
@@ -3018,63 +2957,6 @@
       "Wavy"
     ],
     "thinHairOk": true
-  },
-  {
-    "id": "L52",
-    "updated": "2026-10-30",
-    "slug": "chestnut-flow",
-    "name": "Chestnut Flow",
-    "shortLine": "Flowing hair and a boxed beard in warm chestnut.",
-    "description": "Medium Flow hair with a Short Boxed Beard, both coloured Chestnut Brown. A warm, rich colour that glows in daylight.",
-    "pickIf": "you want warm colour on both hair and beard, with an easy, flowing cut.",
-    "skipIf": "you have lots of grey, or want a cool, ash colour.",
-    "daily": "5 min: comb back, light cream, beard oil.",
-    "weekly": "Colour-safe shampoo. Conditioner 1–2 times.",
-    "nextVisit": "in 4–6 weeks",
-    "atShop": "60–90 min on colour day",
-    "suitsText": "Oval face · Straight or wavy hair · Medium or full beard growth",
-    "alsoCalled": [],
-    "mainPhoto": "front",
-    "popular": false,
-    "callouts": [
-      {
-        "title": "Chestnut brown",
-        "text": "Hair and beard."
-      },
-      {
-        "title": "Flowing hair",
-        "text": "Back and to the sides."
-      },
-      {
-        "title": "Boxed beard",
-        "text": "Sharp cheek lines."
-      },
-      {
-        "title": "Red-gold glow",
-        "text": "Shows in daylight."
-      }
-    ],
-    "upkeep": "Medium",
-    "face": [
-      "Oval"
-    ],
-    "growth": [
-      "Medium",
-      "Full"
-    ],
-    "hair": "H20",
-    "beard": "B04",
-    "moustache": null,
-    "moustacheMode": "no-change",
-    "colour": "C14",
-    "colourBeard": true,
-    "includesText": "H20 Medium Flow · B04 Short Boxed Beard · C14 Chestnut Brown (hair and beard)",
-    "colourType": "full",
-    "hairType": [
-      "Straight",
-      "Wavy"
-    ],
-    "thinHairOk": false
   },
   {
     "id": "L53",
@@ -3136,65 +3018,6 @@
     "thinHairOk": false
   },
   {
-    "id": "L54",
-    "updated": "2026-10-30",
-    "slug": "blue-black-edge",
-    "name": "Blue-Black Edge",
-    "shortLine": "A skin fade and boxed beard with a cool blue sheen.",
-    "description": "A Skin Fade with a Short Boxed Beard, both in Blue-Black. Deep black with a cool blue shine where the light hits.",
-    "pickIf": "you want a very sharp look with deep, glossy black on hair and beard.",
-    "skipIf": "you cannot visit every 2–3 weeks.",
-    "daily": "4 min: comb the top, beard oil.",
-    "weekly": "Colour-safe shampoo. Trim the beard to 6–9 mm.",
-    "nextVisit": "in 2–3 weeks",
-    "atShop": "45 min on colour day",
-    "suitsText": "Oval and round face · All hair types · Medium or full beard growth",
-    "alsoCalled": [],
-    "mainPhoto": "front",
-    "popular": false,
-    "callouts": [
-      {
-        "title": "Blue-black",
-        "text": "Hair and beard."
-      },
-      {
-        "title": "Skin fade",
-        "text": "Bare skin up high."
-      },
-      {
-        "title": "Boxed beard",
-        "text": "Sharp cheek lines."
-      },
-      {
-        "title": "Blue sheen",
-        "text": "Glossy in light."
-      }
-    ],
-    "upkeep": "High",
-    "face": [
-      "Oval",
-      "Round"
-    ],
-    "growth": [
-      "Medium",
-      "Full"
-    ],
-    "hair": "H09",
-    "beard": "B04",
-    "moustache": null,
-    "moustacheMode": "no-change",
-    "colour": "C09",
-    "colourBeard": true,
-    "includesText": "H09 Skin Fade · B04 Short Boxed Beard · C09 Blue-Black (hair and beard)",
-    "colourType": "full",
-    "hairType": [
-      "Straight",
-      "Wavy",
-      "Curly"
-    ],
-    "thinHairOk": true
-  },
-  {
     "id": "L55",
     "updated": "2026-10-30",
     "slug": "silver-fox",
@@ -3250,66 +3073,6 @@
       "Wavy"
     ],
     "thinHairOk": false
-  },
-  {
-    "id": "L56",
-    "updated": "2026-10-30",
-    "slug": "charcoal-stubble",
-    "name": "Charcoal Stubble",
-    "shortLine": "A textured fringe and stubble in smoky charcoal.",
-    "description": "A Textured Fringe with Heavy Stubble, both in dark, smoky Charcoal Grey. Moody, modern and easy to wear.",
-    "pickIf": "you want a moody, modern grey on hair and stubble.",
-    "skipIf": "your hair is dry or damaged, or you have a strict office.",
-    "daily": "3 min: push the fringe forward, a little clay.",
-    "weekly": "Silver shampoo once. Trim the stubble once at 5 mm.",
-    "nextVisit": "in 3–4 weeks",
-    "atShop": "2–3 hours on colour day",
-    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Medium or full beard growth",
-    "alsoCalled": [],
-    "mainPhoto": "front",
-    "popular": false,
-    "callouts": [
-      {
-        "title": "Charcoal grey",
-        "text": "Hair and stubble."
-      },
-      {
-        "title": "Textured fringe",
-        "text": "Choppy, forward."
-      },
-      {
-        "title": "Heavy stubble",
-        "text": "5 mm."
-      },
-      {
-        "title": "Low taper",
-        "text": "#1 to #3."
-      }
-    ],
-    "upkeep": "High",
-    "face": [
-      "Oval",
-      "Square",
-      "Long",
-      "Heart"
-    ],
-    "growth": [
-      "Medium",
-      "Full"
-    ],
-    "hair": "H52",
-    "beard": "B03",
-    "moustache": null,
-    "moustacheMode": "no-change",
-    "colour": "C28",
-    "colourBeard": true,
-    "includesText": "H52 Textured Fringe · B03 Heavy Stubble · C28 Charcoal Grey (hair and beard)",
-    "colourType": "full",
-    "hairType": [
-      "Straight",
-      "Wavy"
-    ],
-    "thinHairOk": true
   },
   {
     "id": "L57",
@@ -3429,67 +3192,6 @@
       "Wavy"
     ],
     "thinHairOk": false
-  },
-  {
-    "id": "L59",
-    "updated": "2026-10-30",
-    "slug": "violet-edge",
-    "name": "Violet Edge",
-    "shortLine": "A blunt Edgar fringe and stubble in bold violet.",
-    "description": "An Edgar Cut with Heavy Stubble, both in bold Violet. A creative, high-fashion look for people who want to be noticed.",
-    "pickIf": "you want a bold, creative look and can look after it.",
-    "skipIf": "you have a strict office, or do not want to keep topping up the colour.",
-    "daily": "3 min: comb the fringe forward, a little clay.",
-    "weekly": "Wash with cool water. Colour mask once.",
-    "nextVisit": "in 2–3 weeks, to refresh the colour and fade",
-    "atShop": "2–3 hours on colour day",
-    "suitsText": "Oval, square, long and heart face · All hair types · Medium or full beard growth",
-    "alsoCalled": [],
-    "mainPhoto": "front",
-    "popular": false,
-    "callouts": [
-      {
-        "title": "Violet",
-        "text": "Hair and stubble."
-      },
-      {
-        "title": "Blunt fringe",
-        "text": "Straight across."
-      },
-      {
-        "title": "Mid skin fade",
-        "text": "#0 to #3."
-      },
-      {
-        "title": "Vivid colour",
-        "text": "Bold and even."
-      }
-    ],
-    "upkeep": "High",
-    "face": [
-      "Oval",
-      "Square",
-      "Long",
-      "Heart"
-    ],
-    "growth": [
-      "Medium",
-      "Full"
-    ],
-    "hair": "H49",
-    "beard": "B03",
-    "moustache": null,
-    "moustacheMode": "no-change",
-    "colour": "C17",
-    "colourBeard": true,
-    "includesText": "H49 Edgar Cut · B03 Heavy Stubble · C17 Violet (hair and beard)",
-    "colourType": "full",
-    "hairType": [
-      "Straight",
-      "Wavy",
-      "Curly"
-    ],
-    "thinHairOk": true
   },
   {
     "id": "L60",
@@ -4680,5 +4382,836 @@
       "Wavy"
     ],
     "thinHairOk": false
+  },
+  {
+    "id": "L80",
+    "updated": "2026-10-30",
+    "slug": "wolf-and-stubble",
+    "name": "Wolf and Stubble",
+    "shortLine": "Shaggy wolf layers with light stubble.",
+    "description": "A Wolf Cut with messy layers and a soft fringe, with Light Stubble. Relaxed and a little rebellious, and warmer than the clean-shaven version.",
+    "pickIf": "you want a trendy, shaggy cut with a bit of an edge.",
+    "skipIf": "your hair is very thin or very curly, or your workplace is strict.",
+    "daily": "3 min: sea-salt spray, scrunch and finger-style.",
+    "weekly": "Conditioner once. Trim the stubble with a 2 mm guard.",
+    "nextVisit": "in 5–6 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Shaggy layers",
+        "text": "Messy and light."
+      },
+      {
+        "title": "Soft fringe",
+        "text": "Loose over the brows."
+      },
+      {
+        "title": "Longer back",
+        "text": "To the collar."
+      },
+      {
+        "title": "Light stubble",
+        "text": "1–2 mm."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H28",
+    "beard": "B02",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H28 Wolf Cut · B02 Light Stubble",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L81",
+    "updated": "2026-10-30",
+    "slug": "bleached-curtains",
+    "name": "Bleached Curtains",
+    "shortLine": "Centre-parted curtains in bleached platinum blonde.",
+    "description": "A Curtain Fringe parted in the centre and bleached to a bright platinum blonde, with a clean-shaven face. A bold, youthful, fashion-forward look.",
+    "pickIf": "you want a high-impact, trendy colour change.",
+    "skipIf": "your hair is already damaged, or you cannot keep up with toning and care.",
+    "daily": "5 min: shave, part and finger-dry, a little light cream.",
+    "weekly": "Purple shampoo twice a week. Deep-condition once.",
+    "nextVisit": "in 4–6 weeks",
+    "atShop": "2–3 hours on colour day",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Platinum blonde",
+        "text": "Bleached and toned."
+      },
+      {
+        "title": "Centre part",
+        "text": "Even on both sides."
+      },
+      {
+        "title": "Soft curtains",
+        "text": "Fall past the brows."
+      },
+      {
+        "title": "Clean face",
+        "text": "No beard or moustache."
+      }
+    ],
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H73",
+    "beard": "B01",
+    "moustache": null,
+    "moustacheMode": "shave-off",
+    "colour": "C20",
+    "colourBeard": false,
+    "includesText": "H73 Curtain Fringe · B01 Clean Shave · Moustache: Shave off · C20 Platinum Blonde",
+    "colourType": "full",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L82",
+    "updated": "2026-10-30",
+    "slug": "platinum-buzz",
+    "name": "Platinum Buzz",
+    "shortLine": "A bleached buzz cut with light stubble.",
+    "description": "A Buzz Cut bleached to platinum blonde, with Light Stubble. Very short, very bold, and the colour does all the work.",
+    "pickIf": "you want a dramatic change with almost no styling.",
+    "skipIf": "you have a sensitive scalp, or you want a natural look.",
+    "daily": "1 min: nothing to style. Moisturise the scalp.",
+    "weekly": "Purple shampoo once. Re-buzz at the same guard.",
+    "nextVisit": "in 3–4 weeks",
+    "atShop": "2–3 hours on colour day",
+    "suitsText": "Oval and square face · All hair types · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Platinum buzz",
+        "text": "Bleached and toned."
+      },
+      {
+        "title": "Even length",
+        "text": "One guard all over."
+      },
+      {
+        "title": "Light stubble",
+        "text": "1–2 mm."
+      },
+      {
+        "title": "Clean edges",
+        "text": "Neck and ears."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H01",
+    "beard": "B02",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": "C20",
+    "colourBeard": false,
+    "includesText": "H01 Buzz Cut · B02 Light Stubble · C20 Platinum Blonde",
+    "colourType": "full",
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "L83",
+    "updated": "2026-10-30",
+    "slug": "modern-slick",
+    "name": "Modern Slick",
+    "shortLine": "A tidy slick-back with heavy stubble.",
+    "description": "A Slick Back with tapered sides and Heavy Stubble. Smart, polished and a little rough at the edges, so it works at work and at night.",
+    "pickIf": "you want a polished look that is not too formal.",
+    "skipIf": "your hair is curly or very thin.",
+    "daily": "5 min: blow dry back, pomade, comb, then a quick stubble check.",
+    "weekly": "Wash and condition. Trim the stubble once at 5 mm.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, round and square face · Straight or wavy hair · Medium or full beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Slick back",
+        "text": "Combed straight back."
+      },
+      {
+        "title": "Smooth shine",
+        "text": "Pomade finish."
+      },
+      {
+        "title": "Tapered sides",
+        "text": "Tight and neat."
+      },
+      {
+        "title": "Heavy stubble",
+        "text": "5 mm."
+      }
+    ],
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Round",
+      "Square"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ],
+    "hair": "H13",
+    "beard": "B03",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H13 Slick Back · B03 Heavy Stubble",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L84",
+    "updated": "2026-10-30",
+    "slug": "anchor-fade",
+    "name": "Anchor Fade",
+    "shortLine": "A skin fade with a sharp, trimmed anchor beard.",
+    "description": "A Skin Fade paired with an Anchor Beard: a pointed chin beard joined to a trimmed moustache. A sharp, defined look that frames the jaw.",
+    "pickIf": "you want a defined jawline and a clean, modern shape.",
+    "skipIf": "you do not want to trim every week.",
+    "daily": "3 min: style the top, beard oil.",
+    "weekly": "Trim and shape the anchor with a trimmer. Redo the neckline.",
+    "nextVisit": "in 2–3 weeks",
+    "suitsText": "Oval, round and square face · All hair types · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Skin fade",
+        "text": "Clean and smooth."
+      },
+      {
+        "title": "Anchor beard",
+        "text": "Chin beard and moustache."
+      },
+      {
+        "title": "Defined jaw",
+        "text": "Sharp lines."
+      },
+      {
+        "title": "Textured top",
+        "text": "Natural finish."
+      }
+    ],
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Round",
+      "Square"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H09",
+    "beard": "B12",
+    "moustache": null,
+    "moustacheMode": "part-of-beard",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H09 Skin Fade · B12 Anchor Beard",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "L85",
+    "updated": "2026-10-30",
+    "slug": "blowout-and-beard",
+    "name": "Blowout and Beard",
+    "shortLine": "A voluminous blowout taper with a boxed beard.",
+    "description": "A Blowout Taper with a full, lifted top, paired with a Short Boxed Beard. Big, soft body on top and a sharp, tidy beard.",
+    "pickIf": "you want volume on top and a neat beard.",
+    "skipIf": "your hair is thin or very curly, or you have no time to blow dry.",
+    "daily": "6 min: blow dry the top up and back, light spray, beard oil.",
+    "weekly": "Trim the beard to 6–9 mm.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, round and heart face · Straight or wavy hair · Medium or full beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Full volume",
+        "text": "Blow-dried up and back."
+      },
+      {
+        "title": "Taper",
+        "text": "#2 down to #1."
+      },
+      {
+        "title": "Boxed beard",
+        "text": "6 mm and 9 mm."
+      },
+      {
+        "title": "Clean neck",
+        "text": "Sharp line."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Heart"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ],
+    "hair": "H72",
+    "beard": "B04",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H72 Blowout Taper · B04 Short Boxed Beard",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L86",
+    "updated": "2026-10-30",
+    "slug": "korean-ivy",
+    "name": "Korean Ivy",
+    "shortLine": "A short Korean Ivy League with a soft part, clean-shaven.",
+    "description": "A Korean Ivy League: neat and short with a soft side part and a little more texture than the classic. A clean, smart, student-style look.",
+    "pickIf": "you want a neat, smart look for college or work.",
+    "skipIf": "your hair is very curly.",
+    "daily": "3 min: shave, comb the part, light wax.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Soft part",
+        "text": "Side swept."
+      },
+      {
+        "title": "Light texture",
+        "text": "Not stiff."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "Short and neat."
+      },
+      {
+        "title": "Clean face",
+        "text": "No beard or moustache."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H88",
+    "beard": "B01",
+    "moustache": null,
+    "moustacheMode": "shave-off",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H88 Korean Ivy League · B01 Clean Shave · Moustache: Shave off",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "L87",
+    "updated": "2026-10-30",
+    "slug": "garma-classic",
+    "name": "Garma Classic",
+    "shortLine": "A centre-parted Garma perm, clean-shaven.",
+    "description": "A Garma Perm with soft waves falling from a centre part, with a clean-shaven face. The softest, most popular Korean look right now.",
+    "pickIf": "you want the classic soft Korean look.",
+    "skipIf": "you have a very round face, or your hair is under 8 cm.",
+    "daily": "4 min: shave, part and blow dry sideways, light wax.",
+    "weekly": "Conditioner once.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Centre part",
+        "text": "Slightly off-centre."
+      },
+      {
+        "title": "Soft waves",
+        "text": "Fall to both sides."
+      },
+      {
+        "title": "Tidy sides",
+        "text": "#3 to #2."
+      },
+      {
+        "title": "Clean face",
+        "text": "No beard or moustache."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H99",
+    "beard": "B01",
+    "moustache": null,
+    "moustacheMode": "shave-off",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H99 Garma Perm · B01 Clean Shave · Moustache: Shave off",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "L88",
+    "updated": "2026-10-30",
+    "slug": "iron-perm-stubble",
+    "name": "Iron Perm Stubble",
+    "shortLine": "A soft iron perm with light stubble.",
+    "description": "An Iron Perm with root lift and gentle bends, with Light Stubble. Polished and easy, with a soft, modern feel.",
+    "pickIf": "you want body and movement that styles itself.",
+    "skipIf": "your hair is very curly, or you cannot have a chemical treatment.",
+    "daily": "3 min: blow dry with your fingers, light wax.",
+    "weekly": "Conditioner once. Trim the stubble at 2 mm.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Root lift",
+        "text": "Soft volume."
+      },
+      {
+        "title": "Gentle bends",
+        "text": "Loose, not curly."
+      },
+      {
+        "title": "Light fringe",
+        "text": "To the brows."
+      },
+      {
+        "title": "Light stubble",
+        "text": "1–2 mm."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H95",
+    "beard": "B02",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H95 Iron Perm · B02 Light Stubble",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "L89",
+    "updated": "2026-10-30",
+    "slug": "shaggy-casual",
+    "name": "Shaggy Casual",
+    "shortLine": "Messy shaggy layers with light stubble.",
+    "description": "A Shaggy Cut with choppy layers and Light Stubble. Low effort, lived-in and very easy to wear.",
+    "pickIf": "you want a lived-in cut that needs almost no styling.",
+    "skipIf": "your hair is very fine and flat, or you need a neat look.",
+    "daily": "2 min: scrunch in sea-salt spray.",
+    "weekly": "Conditioner once.",
+    "nextVisit": "in 6–8 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Choppy layers",
+        "text": "Loose and messy."
+      },
+      {
+        "title": "Easy flow",
+        "text": "Falls naturally."
+      },
+      {
+        "title": "Light stubble",
+        "text": "1–2 mm."
+      },
+      {
+        "title": "Natural finish",
+        "text": "Matte."
+      }
+    ],
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H75",
+    "beard": "B02",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H75 Shaggy Cut · B02 Light Stubble",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L90",
+    "updated": "2026-10-30",
+    "slug": "low-fade-quiff-daily",
+    "name": "Low Fade Quiff Daily",
+    "shortLine": "A low-fade quiff with heavy stubble.",
+    "description": "A Low Fade Quiff with Heavy Stubble. Height on top and a soft fade at the sides, a smart look that is not too short.",
+    "pickIf": "you want height with a softer fade.",
+    "skipIf": "you have a long or heart-shaped face, or no time to blow dry.",
+    "daily": "5 min: blow dry the front up and back, wax.",
+    "weekly": "Trim the stubble once at 5 mm.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, round and square face · Straight or wavy hair · Medium or full beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Lifted front",
+        "text": "Blown up and back."
+      },
+      {
+        "title": "Low fade",
+        "text": "Starts above the ear."
+      },
+      {
+        "title": "Heavy stubble",
+        "text": "5 mm."
+      },
+      {
+        "title": "Clean blend",
+        "text": "Fade into the top."
+      }
+    ],
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Round",
+      "Square"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ],
+    "hair": "H90",
+    "beard": "B03",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H90 Low Fade Quiff · B03 Heavy Stubble",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L91",
+    "updated": "2026-10-30",
+    "slug": "messy-quiff-fade",
+    "name": "Messy Quiff Fade",
+    "shortLine": "A loose, matte quiff with a faded beard.",
+    "description": "A Textured Quiff with a loose, matte lift, paired with a Faded Beard that blends into the hair. Relaxed on top, sharp on the sides.",
+    "pickIf": "you want height without a stiff, shiny look.",
+    "skipIf": "you have a long or heart-shaped face, or want a slick finish.",
+    "daily": "3 min: clay, push the top up with your fingers, beard oil.",
+    "weekly": "Trim the neckline.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, round and square face · Straight or wavy hair · Medium or full beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Loose lift",
+        "text": "Up and back."
+      },
+      {
+        "title": "Matte texture",
+        "text": "No shine."
+      },
+      {
+        "title": "Faded beard",
+        "text": "Blends into the hair."
+      },
+      {
+        "title": "Tapered sides",
+        "text": "#2 to #1."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Round",
+      "Square"
+    ],
+    "growth": [
+      "Medium",
+      "Full"
+    ],
+    "hair": "H94",
+    "beard": "B10",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H94 Textured Quiff · B10 Faded Beard",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "L92",
+    "updated": "2026-10-30",
+    "slug": "blonde-fringe",
+    "name": "Blonde Fringe",
+    "shortLine": "A textured fringe in soft light blonde.",
+    "description": "A Textured Fringe lightened to a soft light blonde, with a clean-shaven face. Fresh, soft and very youthful.",
+    "pickIf": "you want a bright, soft colour change that is easier than platinum.",
+    "skipIf": "your hair is damaged, or your workplace needs natural hair.",
+    "daily": "4 min: shave, style the fringe forward, matte clay.",
+    "weekly": "Purple shampoo once. Deep-condition once.",
+    "nextVisit": "in 5–6 weeks",
+    "atShop": "2 hours on colour day",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Any beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Light blonde",
+        "text": "Soft and even."
+      },
+      {
+        "title": "Textured fringe",
+        "text": "Choppy, to the brows."
+      },
+      {
+        "title": "Tapered sides",
+        "text": "Short and neat."
+      },
+      {
+        "title": "Clean face",
+        "text": "No beard or moustache."
+      }
+    ],
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "growth": [
+      "Patchy",
+      "Medium",
+      "Full"
+    ],
+    "hair": "H52",
+    "beard": "B01",
+    "moustache": null,
+    "moustacheMode": "shave-off",
+    "colour": "C19",
+    "colourBeard": false,
+    "includesText": "H52 Textured Fringe · B01 Clean Shave · Moustache: Shave off · C19 Light Blonde",
+    "colourType": "full",
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "L93",
+    "updated": "2026-10-30",
+    "slug": "buzz-fade-beard",
+    "name": "Buzz Fade Beard",
+    "shortLine": "A buzz fade with a full beard.",
+    "description": "A Buzz Fade, short and cleanly faded, with a Full Beard. A strong, tidy, low-fuss look that makes the beard the focus.",
+    "pickIf": "you have a full beard and want a very low-effort cut.",
+    "skipIf": "your beard grows patchy, or you want length on top.",
+    "daily": "4 min: comb the beard, beard oil.",
+    "weekly": "Wash the beard with beard shampoo. Trim the neckline.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval and square face · All hair types · Full beard growth",
+    "alsoCalled": [],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Buzz fade",
+        "text": "Short and clean."
+      },
+      {
+        "title": "Full beard",
+        "text": "About 4 cm."
+      },
+      {
+        "title": "Neat neckline",
+        "text": "Two fingers up."
+      },
+      {
+        "title": "Strong contrast",
+        "text": "Short top, full beard."
+      }
+    ],
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "growth": [
+      "Full"
+    ],
+    "hair": "H21",
+    "beard": "B05",
+    "moustache": null,
+    "moustacheMode": "no-change",
+    "colour": null,
+    "colourBeard": false,
+    "includesText": "H21 Buzz Fade · B05 Full Beard",
+    "colourType": "normal",
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
   }
 ]
