@@ -64,7 +64,7 @@ function withFace(text: string, face: Face): string {
 }
 
 /**
- * The man's traits for one style. His eyes, skin and build never change: medium-brown skin suits
+ * The man's traits for one style. His eyes, skin and build never change: very fair, smooth skin suits
  * every item (checked in prompts.test.ts). His face shape, hair texture, hair density and beard
  * growth follow what the style suits, so every photo shows it on someone it is meant for.
  */
@@ -77,8 +77,8 @@ export function traitsFor({ category, match, older }: StyleTraits): string[] {
   ];
   lines.push(
     category === 'colours'
-      ? 'Skin: medium-brown with a strong warm olive undertone (his own; this shade suits medium skin).'
-      : 'Skin: medium-brown with a strong warm olive undertone (his own).',
+      ? 'Skin: very fair and smooth (his own; this shade suits fair skin).'
+      : 'Skin: very fair and smooth (his own).',
   );
 
   const types = match.hairType ?? [];
