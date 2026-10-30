@@ -509,7 +509,7 @@
     },
     "H100": {
       "name": "Shaolin Cut",
-      "block": "ITEM: H100 Shaolin Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with his head cut very close except one small tupi at the back of the crown.\nSTYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine, except one small tupi of black hair about 5 cm across and 8-10 cm long at the back of the crown, combed neatly with a clean outline around it; sharp even hairline; healthy matte scalp.\nCALLOUTS:\n1. Even shadow: 1 mm all over.\n2. Small tupi: At the back of the crown.\n3. Clean outline: Around the ears and tupi.\n4. Soft matte: Moisturised, not greasy.",
+      "block": "ITEM: H100 Shaolin Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with his head cut very close except one small tupi at the back of the crown.\nSTYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine, except one small tupi of black hair about 5 cm across and 8-10 cm long at the back of the crown, combed neatly with a clean outline around it; sharp even hairline; healthy matte scalp.\nCALLOUTS:\n1. Even shadow: 1 mm all over.\n2. Small tupi: At the back of the crown.\n3. Clean outline: Around the ears and tupi.\n4. Soft matte: Moisturised, not greasy.",
       "older": false
     },
     "H101": {

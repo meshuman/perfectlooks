@@ -1417,7 +1417,7 @@ CALLOUTS:
 ```text
 ITEM: H100 Shaolin Cut
 BACKDROP: Sky blue (#A9C9E8).
-MAIN VIEW: left side profile
+MAIN VIEW: straight front, head and shoulders
 CHARACTER NOTE: same man, with his head cut very close except one small tupi at the back of the crown.
 STYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine, except one small tupi of black hair about 5 cm across and 8-10 cm long at the back of the crown, combed neatly with a clean outline around it; sharp even hairline; healthy matte scalp.
 CALLOUTS:

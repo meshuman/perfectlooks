@@ -1,6 +1,6 @@
 # Hair styles
 
-101 hair styles, from a shaved head to long hair, including Korean styles. 63 use a front photo. 38 use a side photo because the cut only shows clearly from the side.
+101 hair styles, from a shaved head to long hair, including Korean styles. 64 use a front photo. 37 use a side photo because the cut only shows clearly from the side.
 
 ## At a glance
 
@@ -105,7 +105,7 @@
 | H97 C-Curl Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 | H98 S-Curl Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 | H99 Garma Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
-| H100 Shaolin Cut | Very short, small tupi | Medium | Oval, Square | All | Yes | Side |
+| H100 Shaolin Cut | Very short, small tupi | Medium | Oval, Square | All | Yes | Front |
 | H101 Brahmin Cut | No hair, small tuft | High | Oval, Square | All | Yes | Side |
 
 ## H01 Buzz Cut
@@ -3181,7 +3181,7 @@ A close monk-style shave, with a small tupi at the crown.
 - **Next barber visit:** in 2 weeks
 - **Suits:** Oval and square face · All hair types · Good for thin hair and hair loss
 - **Also called:** Monk cut with tupi, shadow shave
-- **Main photo:** Side
+- **Main photo:** Front
 
 **FAQ**
 

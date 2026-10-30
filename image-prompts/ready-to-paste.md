@@ -2388,7 +2388,7 @@ TRAITS FOR THIS STYLE (identity unchanged):
 - Skin: very fair and smooth (his own).
 - Hair texture: straight, as in the reference.
 HAIR IMAGE RULES: the beard and moustache are the same in every hair image: light even stubble, 1-2 mm, with a clean curved neck line. Main view as the item says. Second view: back of the head, showing the back of the cut and the nape.
-MAIN VIEW: left side profile
+MAIN VIEW: straight front, head and shoulders
 BACKDROP: Sky blue (#A9C9E8).
 LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
 BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.
