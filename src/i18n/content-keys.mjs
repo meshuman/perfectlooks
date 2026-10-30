@@ -58,4 +58,4 @@ export function postStrings(post) {
 }
 
 /** Keys of the barber steps and notes, which the Barber Card needs in the barber's language. */
-export const isBarberKey = (key) => /^[HBMC]\d{2}\.(step\.\d+|barberNote)$/.test(key);
+export const isBarberKey = (key) => /^[HBMC]\d{2,3}\.(step\.\d+|barberNote)$/.test(key);

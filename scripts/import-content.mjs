@@ -17,7 +17,7 @@ const SKINS = ['Light', 'Medium', 'Deep'];
 const GREYS = ['None', 'Some', 'Lots'];
 const UPKEEP = ['Low', 'Medium', 'High'];
 const TOPICS = ['Face shape', 'Haircuts', 'Beard', 'Colour', 'Care', 'Talk to your barber'];
-const EXPECTED = { hair: 99, beards: 21, moustaches: 17, colours: 33, looks: 94, learn: 13 };
+const EXPECTED = { hair: 101, beards: 21, moustaches: 17, colours: 33, looks: 94, learn: 13 };
 
 const errors = [];
 const warnings = [];
@@ -90,7 +90,7 @@ function glance(secs, file) {
   }
   const byId = {};
   for (const row of table(sec.lines)) {
-    const id = Object.values(row)[0].match(/^([HBMCL]\d{2})\b/)?.[1];
+    const id = Object.values(row)[0].match(/^([HBMCL]\d{2,3})\b/)?.[1];
     if (id) byId[id] = row;
   }
   return byId;
@@ -117,7 +117,7 @@ function oneOf(value, options, where) {
 
 /** Parses one "## H01 Buzz Cut" section into its raw parts. */
 function parseItem(sec, file) {
-  const m = sec.heading.match(/^([HBMCL]\d{2})\s+(.+)$/);
+  const m = sec.heading.match(/^([HBMCL]\d{2,3})\s+(.+)$/);
   if (!m) return null;
   const [, id, name] = m;
   const item = { id, name: unescape(name), fields: {}, faq: [], steps: [], notes: [] };
@@ -227,7 +227,7 @@ function parsePrompts() {
   const text = read('Image prompts.md');
   const prompts = {};
   for (const [, block] of text.matchAll(/```text\n([\s\S]*?)```/g)) {
-    const item = block.match(/^ITEM:\s*([HBMCL]\d{2})\s+(.+)$/m);
+    const item = block.match(/^ITEM:\s*([HBMCL]\d{2,3})\s+(.+)$/m);
     if (!item) continue;
     const callouts = [];
     const start = block.indexOf('CALLOUTS:');
@@ -334,7 +334,7 @@ function parseLearn() {
         mode = 'faq';
       } else if ((x = line.match(/^\*\*Related:\*\*\s*(.+)$/))) {
         post.related = x[1].split(/\s*·\s*/).map((r) => {
-          const ref = r.match(/^([HBMCL]\d{2})\s+(.+)$/);
+          const ref = r.match(/^([HBMCL]\d{2,3})\s+(.+)$/);
           if (!ref) err(`${where}: bad Related entry "${r}"`);
           return { id: ref?.[1] ?? r, name: ref?.[2] ?? r };
         });
@@ -425,7 +425,7 @@ const colours = parseCatalogue(
 
 const partId = (cell, prefix, where) => {
   if (!cell || cell === '—') return null;
-  const id = cell.match(/^([A-Z]\d{2})\b/)?.[1];
+  const id = cell.match(/^([A-Z]\d{2,3})\b/)?.[1];
   if (!id || id[0] !== prefix) err(`${where}: expected a ${prefix} item, got "${cell}"`);
   return id ?? null;
 };
@@ -484,7 +484,7 @@ for (const i of [...hair, ...beards]) {
 }
 
 const sides = hair.filter((h) => h.mainPhoto === 'side').length;
-if (sides !== 36) warn(`hair: ${sides} side photos (the document says 36)`);
+if (sides !== 37) warn(`hair: ${sides} side photos (the document says 37)`);
 
 const intersect = (lists) => lists.reduce((acc, l) => acc.filter((x) => l.includes(x)));
 for (const look of looks) {
@@ -529,7 +529,7 @@ for (const post of learn) {
   for (const item of byId.values()) {
     text = text.replaceAll(`${item.name} (${item.id})`, `[${item.name}](/${SEGMENT[item.id[0]]}/${item.slug})`);
   }
-  const left = [...new Set(text.match(/\S+ \([HBMCL]\d{2}[^)]*\)/g) ?? [])];
+  const left = [...new Set(text.match(/\S+ \([HBMCL]\d{2,3}[^)]*\)/g) ?? [])];
   for (const ref of left) warn(`Learn ${post.code}: not linked, name doesn't match the catalogue: "${ref}"`);
   post.body = text.split('\n');
 }

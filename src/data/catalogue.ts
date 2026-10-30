@@ -318,7 +318,7 @@ export async function getAllItems(i: I18n = makeI18n('en')): Promise<Item[]> {
     const order = 'HBMCL';
     const items = entries
       .map(toItem)
-      .sort((a, b) => order.indexOf(a.id[0]!) - order.indexOf(b.id[0]!) || a.id.localeCompare(b.id));
+      .sort((a, b) => order.indexOf(a.id[0]!) - order.indexOf(b.id[0]!) || a.id.localeCompare(b.id, undefined, { numeric: true }));
     const byId = new Map(items.map((it) => [it.id, it]));
     for (const look of items) {
       for (const part of look.parts ?? []) {

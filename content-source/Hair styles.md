@@ -1,6 +1,6 @@
 # Hair styles
 
-99 hair styles, from a shaved head to long hair, including Korean styles. 63 use a front photo. 36 use a side photo because the cut only shows clearly from the side.
+101 hair styles, from a shaved head to long hair, including Korean styles. 64 use a front photo. 37 use a side photo because the cut only shows clearly from the side.
 
 ## At a glance
 
@@ -105,6 +105,8 @@
 | H97 C-Curl Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 | H98 S-Curl Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 | H99 Garma Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H100 Shaolin Cut | Very short | Medium | Oval, Square | All | Yes | Front |
+| H101 Brahmin Cut | No hair, small tuft | High | Oval, Square | All | Yes | Side |
 
 ## H01 Buzz Cut
 
@@ -3165,3 +3167,65 @@ A centre-parted perm with soft waves that fall to both sides.
 4. Rinse, neutralise and dry.
 5. Blow dry the hair sideways from the part.
 6. Finish with light wax.
+
+## H100 Shaolin Cut
+
+A close monk-style shave, kept at a soft shadow.
+
+**Description:** A close shave inspired by the shaved heads of Shaolin monks. The whole head is cut to about 1 mm for an even, soft shadow: cleaner than a buzz cut and easier to keep than a razor shave.
+
+- **Pick this if:** you want a very clean, calm, low-fuss look, or you want to hide hair loss.
+- **Skip if:** you have a sensitive scalp, or you want any hair length.
+- **Daily:** 1 min: moisturiser, and sun cream outdoors.
+- **Weekly:** Clipper at #0 every 4–5 days to keep the shadow even.
+- **Next barber visit:** in 2 weeks
+- **Suits:** Oval and square face · All hair types · Good for thin hair and hair loss
+- **Also called:** Monk cut, shadow shave
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a Shaolin cut?** A close shave inspired by Shaolin monks: the whole head cut to about 1 mm for an even, soft shadow.
+- **How is it different from a head shave?** A head shave is razor-smooth. A Shaolin cut keeps a 1 mm shadow, so it needs no razor and has less risk of cuts.
+- **How often do I need to cut it?** Every 4–5 days with a clipper at #0, or the shadow turns into stubble.
+- **Do I need sun cream?** Yes, outdoors. A near-bare scalp burns easily.
+
+**Barber steps**
+
+1. Ask: sensitive skin or cuts on the scalp?
+2. Whole head: machine #0, in two passes.
+3. Go against the grain for an even finish.
+4. Clean the hairline and around the ears.
+5. Clean the nape.
+6. Moisturise the scalp.
+
+## H101 Brahmin Cut
+
+A shaved head with a small tuft (shikha) at the crown.
+
+**Description:** A traditional Hindu style: the head is shaved clean, leaving one small tuft of hair at the back of the crown. The tuft is called the shikha, or choti, and is kept as part of religious practice and for rituals.
+
+- **Pick this if:** you follow the shikha tradition, or need the look for a ritual or ceremony.
+- **Skip if:** you have a sensitive scalp, or you do not have enough hair at the crown to keep a tuft.
+- **Daily:** 2 min: moisturiser, comb or tie the tuft, sun cream outdoors.
+- **Weekly:** Shave the head every 2–3 days. Keep the tuft trimmed to one length.
+- **Next barber visit:** every 2–3 weeks for a barber shave
+- **Suits:** Oval and square face · All hair types · Good for thin hair and hair loss
+- **Also called:** Shikha, choti, tupi
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a shikha?** A small tuft of hair kept at the back of the crown in the Hindu tradition. It is also called a choti or tupi.
+- **Who wears it?** It is worn as part of religious practice and kept for rituals and ceremonies. If you are unsure, ask your family or priest.
+- **How big should the tuft be?** The size differs by family and tradition. Ask first. Many keep a tuft about 5 cm across.
+- **How do I keep it clean?** Wash and comb the tuft daily, and shave around it every 2–3 days.
+
+**Barber steps**
+
+1. Ask: how big should the tuft be?
+2. Mark the tuft at the back of the crown with a comb.
+3. Tie or clip the tuft out of the way.
+4. Whole head: machine #0 first, then shaving cream.
+5. Shave smooth with a new blade, with the hair growth.
+6. Trim the tuft to one length and comb it.

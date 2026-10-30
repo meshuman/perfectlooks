@@ -507,6 +507,16 @@
       "block": "ITEM: H99 Garma Perm\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm parted in the centre or slightly off-centre, with soft waves falling to each side and a gentle curve over the forehead; smooth natural shine.\nCALLOUTS:\n1. Centre part: Slightly off-centre.\n2. Soft waves: Fall to both sides.\n3. Gentle curve: Over the forehead.\n4. Tidy sides: #3 to #2.",
       "older": false
     },
+    "H100": {
+      "name": "Shaolin Cut",
+      "block": "ITEM: H100 Shaolin Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with his head cut very close.\nSTYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine; sharp even hairline and clean edges around the ears; healthy matte scalp.\nCALLOUTS:\n1. Even shadow: 1 mm all over.\n2. Clean outline: Around the ears.\n3. Soft matte: Moisturised, not greasy.\n4. Smooth nape: Clean and even.",
+      "older": false
+    },
+    "H101": {
+      "name": "Brahmin Cut",
+      "block": "ITEM: H101 Brahmin Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with his head shaved except one small tuft at the back of the crown.\nSTYLE: whole head shaved smooth with a razor except one small tuft of black hair about 5 cm across and 10 cm long at the back of the crown, combed neatly with a clean outline around it; even skin tone; healthy matte sheen; no stubble or nicks.\nCALLOUTS:\n1. Small tuft: At the back of the crown.\n2. Smooth scalp: Razor close.\n3. Clean outline: Around the tuft.\n4. Neat tuft: Combed and even.",
+      "older": false
+    },
     "B01": {
       "name": "Clean Shave",
       "block": "ITEM: B01 Clean Shave\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: completely clean-shaven face with smooth skin; no stubble shadow, redness or bumps; fresh, hot-towel finish.\nCALLOUTS:\n1. Smooth cheeks: No stubble shadow.\n2. Clean jaw: Close razor finish.\n3. Smooth neck: No bumps or redness.\n4. Fresh skin: Calm after aftershave.",

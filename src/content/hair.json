@@ -7517,5 +7517,158 @@
       "Wavy"
     ],
     "thinHairOk": true
+  },
+  {
+    "id": "H100",
+    "updated": "2026-10-30",
+    "slug": "shaolin-cut",
+    "name": "Shaolin Cut",
+    "shortLine": "A close monk-style shave, kept at a soft shadow.",
+    "description": "A close shave inspired by the shaved heads of Shaolin monks. The whole head is cut to about 1 mm for an even, soft shadow: cleaner than a buzz cut and easier to keep than a razor shave.",
+    "pickIf": "you want a very clean, calm, low-fuss look, or you want to hide hair loss.",
+    "skipIf": "you have a sensitive scalp, or you want any hair length.",
+    "daily": "1 min: moisturiser, and sun cream outdoors.",
+    "weekly": "Clipper at #0 every 4–5 days to keep the shadow even.",
+    "nextVisit": "in 2 weeks",
+    "suitsText": "Oval and square face · All hair types · Good for thin hair and hair loss",
+    "alsoCalled": [
+      "Monk cut",
+      "shadow shave"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Even shadow",
+        "text": "1 mm all over."
+      },
+      {
+        "title": "Clean outline",
+        "text": "Around the ears."
+      },
+      {
+        "title": "Soft matte",
+        "text": "Moisturised, not greasy."
+      },
+      {
+        "title": "Smooth nape",
+        "text": "Clean and even."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a Shaolin cut?",
+        "a": "A close shave inspired by Shaolin monks: the whole head cut to about 1 mm for an even, soft shadow."
+      },
+      {
+        "q": "How is it different from a head shave?",
+        "a": "A head shave is razor-smooth. A Shaolin cut keeps a 1 mm shadow, so it needs no razor and has less risk of cuts."
+      },
+      {
+        "q": "How often do I need to cut it?",
+        "a": "Every 4–5 days with a clipper at #0, or the shadow turns into stubble."
+      },
+      {
+        "q": "Do I need sun cream?",
+        "a": "Yes, outdoors. A near-bare scalp burns easily."
+      }
+    ],
+    "barberSteps": [
+      "Ask: sensitive skin or cuts on the scalp?",
+      "Whole head: machine #0, in two passes.",
+      "Go against the grain for an even finish.",
+      "Clean the hairline and around the ears.",
+      "Clean the nape.",
+      "Moisturise the scalp."
+    ],
+    "length": "Very short",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H101",
+    "updated": "2026-10-30",
+    "slug": "brahmin-cut",
+    "name": "Brahmin Cut",
+    "shortLine": "A shaved head with a small tuft (shikha) at the crown.",
+    "description": "A traditional Hindu style: the head is shaved clean, leaving one small tuft of hair at the back of the crown. The tuft is called the shikha, or choti, and is kept as part of religious practice and for rituals.",
+    "pickIf": "you follow the shikha tradition, or need the look for a ritual or ceremony.",
+    "skipIf": "you have a sensitive scalp, or you do not have enough hair at the crown to keep a tuft.",
+    "daily": "2 min: moisturiser, comb or tie the tuft, sun cream outdoors.",
+    "weekly": "Shave the head every 2–3 days. Keep the tuft trimmed to one length.",
+    "nextVisit": "every 2–3 weeks for a barber shave",
+    "suitsText": "Oval and square face · All hair types · Good for thin hair and hair loss",
+    "alsoCalled": [
+      "Shikha",
+      "choti",
+      "tupi"
+    ],
+    "mainPhoto": "side",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Small tuft",
+        "text": "At the back of the crown."
+      },
+      {
+        "title": "Smooth scalp",
+        "text": "Razor close."
+      },
+      {
+        "title": "Clean outline",
+        "text": "Around the tuft."
+      },
+      {
+        "title": "Neat tuft",
+        "text": "Combed and even."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a shikha?",
+        "a": "A small tuft of hair kept at the back of the crown in the Hindu tradition. It is also called a choti or tupi."
+      },
+      {
+        "q": "Who wears it?",
+        "a": "It is worn as part of religious practice and kept for rituals and ceremonies. If you are unsure, ask your family or priest."
+      },
+      {
+        "q": "How big should the tuft be?",
+        "a": "The size differs by family and tradition. Ask first. Many keep a tuft about 5 cm across."
+      },
+      {
+        "q": "How do I keep it clean?",
+        "a": "Wash and comb the tuft daily, and shave around it every 2–3 days."
+      }
+    ],
+    "barberSteps": [
+      "Ask: how big should the tuft be?",
+      "Mark the tuft at the back of the crown with a comb.",
+      "Tie or clip the tuft out of the way.",
+      "Whole head: machine #0 first, then shaving cream.",
+      "Shave smooth with a new blade, with the hair growth.",
+      "Trim the tuft to one length and comb it."
+    ],
+    "length": "No hair, small tuft",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
   }
 ]

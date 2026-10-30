@@ -20,10 +20,10 @@ const [character, older] = copies;
 const clean = copies.filter((text) => /^Photorealistic studio image/.test(text) && /No callouts, lines, dots or text\.$/.test(text));
 
 const items = clean.map((text) => {
-  const [, id, name] = text.match(/^ITEM: ([HBMCL]\d{2}) (.+)$/m);
+  const [, id, name] = text.match(/^ITEM: ([HBMCL]\d{2,3}) (.+)$/m);
   return { id, name, text, older: /OLDER VERSION/.test(text) };
 });
-if (items.length !== 264) throw new Error(`expected 264 clean prompts, found ${items.length}`);
+if (items.length !== 266) throw new Error(`expected 266 clean prompts, found ${items.length}`);
 
 const groups = { H: 'Hair styles', B: 'Beards', M: 'Moustaches', C: 'Hair colours', L: 'Ready Looks' };
 const out = [

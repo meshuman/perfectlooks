@@ -1412,6 +1412,36 @@ CALLOUTS:
 4. Glossy finish: Light wax.
 ```
 
+### H100 Shaolin Cut
+
+```text
+ITEM: H100 Shaolin Cut
+BACKDROP: Sky blue (#A9C9E8).
+MAIN VIEW: straight front, head and shoulders
+CHARACTER NOTE: same man, with his head cut very close.
+STYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine; sharp even hairline and clean edges around the ears; healthy matte scalp.
+CALLOUTS:
+1. Even shadow: 1 mm all over.
+2. Clean outline: Around the ears.
+3. Soft matte: Moisturised, not greasy.
+4. Smooth nape: Clean and even.
+```
+
+### H101 Brahmin Cut
+
+```text
+ITEM: H101 Brahmin Cut
+BACKDROP: Sage (#CADBD8).
+MAIN VIEW: left side profile
+CHARACTER NOTE: same man, with his head shaved except one small tuft at the back of the crown.
+STYLE: whole head shaved smooth with a razor except one small tuft of black hair about 5 cm across and 10 cm long at the back of the crown, combed neatly with a clean outline around it; even skin tone; healthy matte sheen; no stubble or nicks.
+CALLOUTS:
+1. Small tuft: At the back of the crown.
+2. Smooth scalp: Razor close.
+3. Clean outline: Around the tuft.
+4. Neat tuft: Combed and even.
+```
+
 ## Beard prompts
 
 Paste the fixed block, the beard category block, the item block below, then the avoid list. The haircut stays the same classic taper cut unless the item says otherwise.

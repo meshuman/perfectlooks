@@ -128,7 +128,7 @@ const learn = defineCollection({
     fromTheChair: text,
     faq,
     /** Catalogue IDs such as H07 or B04, across categories. */
-    related: z.array(z.string().regex(/^[HBMCL]\d{2}$/)),
+    related: z.array(z.string().regex(/^[HBMCL]\d{2,3}$/)),
     imageAlt: text,
     sources: z.array(text),
     updated: z.coerce.date(),

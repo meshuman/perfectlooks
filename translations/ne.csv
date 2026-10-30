@@ -34,17 +34,17 @@ category.beards.intro,Screen text: category,"For beards, growth matters more tha
 category.moustaches.intro,Screen text: category,"Pairs with any beard except Van Dyke, Circle Beard, Balbo and Anchor Beard, which have their own moustache.","Van Dyke, Circle Beard, Balbo र Anchor Beard बाहेक सबै दाह्रीसँग मिल्छ। ती चारवटामा आफ्नै जुँगा हुन्छ।",draft,
 category.colours.intro,Screen text: category,The level number tells the barber which shade to use from any brand. Every colour starts with an allergy question.,लेभल नम्बरले बार्बरलाई कुनै पनि ब्रान्डको कुन सेड प्रयोग गर्ने भनेर बताउँछ। हरेक रङ एलर्जीको प्रश्नबाट सुरु हुन्छ।,draft,
 category.looks.intro,Screen text: category,Complete hair and beard sets. Pick one and it fills My Look in one tap.,"कपाल र दाह्रीका पूरा सेट। एउटा छान्नुहोस्, एकै ट्यापमा मेरो लुक भरिन्छ।",draft,
-category.hair.seoTitle,Screen text: category,Men's haircuts: 99 styles and how to ask your barber,पुरुषको कपाल काटाइ: 99 स्टाइल र बार्बरलाई कसरी भन्ने,draft,
+category.hair.seoTitle,Screen text: category,Men's haircuts: 101 styles and how to ask your barber,पुरुषको कपाल काटाइ: 101 स्टाइल र बार्बरलाई कसरी भन्ने,draft,
 category.beards.seoTitle,Screen text: category,Beard styles: 21 shapes and how to ask your barber,दाह्रीका स्टाइल: 21 आकार र बार्बरलाई कसरी भन्ने,draft,
 category.moustaches.seoTitle,Screen text: category,Moustache styles: 17 shapes and how to ask your barber,जुँगाका स्टाइल: 17 आकार र बार्बरलाई कसरी भन्ने,draft,
 category.colours.seoTitle,Screen text: category,"Men's hair colours: 12 shades, grey cover and care","पुरुषको कपालको रङ: 12 सेड, फुलेको कपाल ढाक्ने र हेरचाह",draft,
 category.looks.seoTitle,Screen text: category,Ready Looks: 94 hair and beard combinations,रेडी लुक्स: कपाल र दाह्रीका 94 संयोजन,draft,
-category.hair.seoDescription,Screen text: category,"99 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज कटदेखि काँधसम्मको कपालसम्म पुरुषका 99 हेयरकट। कसलाई सुहाउँछ, दैनिक स्टाइल गर्न कति समय लाग्छ र बार्बरलाई देखाउने ठ्याक्कै चरणहरू हेर्नुहोस्।",draft,
+category.hair.seoDescription,Screen text: category,"101 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज कटदेखि काँधसम्मको कपालसम्म पुरुषका 101 हेयरकट। कसलाई सुहाउँछ, दैनिक स्टाइल गर्न कति समय लाग्छ र बार्बरलाई देखाउने ठ्याक्कै चरणहरू हेर्नुहोस्।",draft,
 category.beards.seoDescription,Screen text: category,"21 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लिन सेभदेखि लामो दाह्रीसम्म 21 दाह्रीका स्टाइल। कुन स्टाइल कम, मध्यम वा बाक्लो दाह्रीलाई सुहाउँछ, ट्रिमरको लम्बाइ र बार्बरका चरण हेर्नुहोस्।",draft,
 category.moustaches.seoDescription,Screen text: category,"17 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटो ट्रिमदेखि ह्यान्डलबार र डालीसम्म 17 जुँगाका स्टाइल। कति उम्रनुपर्छ, दैनिक स्टाइल र बार्बरका ठ्याक्कै चरण हेर्नुहोस्।",draft,
 category.colours.seoDescription,Screen text: category,"12 men's hair colours from jet black to silver and henna. See grey coverage, time at the shop, skin tones that suit and how to stay safe.","जेट ब्ल्याकदेखि सिल्भर र मेहन्दीसम्म पुरुषका 12 कपालको रङ। फुलेको कपाल कति ढाक्छ, पसलमा लाग्ने समय, सुहाउने छालाको रङ र सुरक्षित कसरी रहने हेर्नुहोस्।",draft,
 category.looks.seoDescription,Screen text: category,"94 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","अफिस, बिहे, चाडपर्व र दैनिकका लागि कपाल, दाह्री, जुँगा र रङका 94 तयारी संयोजन। एउटा छान्नुहोस् र बार्बरलाई देखाउनुहोस्।",draft,
-category.hair.tileCount,Screen text: category,99 styles,99 स्टाइल,draft,
+category.hair.tileCount,Screen text: category,101 styles,101 स्टाइल,draft,
 category.beards.tileCount,Screen text: category,21 styles,21 स्टाइल,draft,
 category.moustaches.tileCount,Screen text: category,17 styles,17 स्टाइल,draft,
 category.colours.tileCount,Screen text: category,33 colours,33 रङ,draft,
@@ -357,7 +357,7 @@ shop.hoursValue,Screen text: shop,"Open daily, 7 am – 8 pm","दैनिक �
 shop.inTheShop,Screen text: shop,In the shop,पसलमा,draft,
 shop.flowTitle,Screen text: shop,Know what you want before you sit down.,कुर्सीमा बस्नुअघि नै के चाहिन्छ थाहा पाउनुहोस्।,draft,
 shop.step1.title,Screen text: shop,Pick your style,आफ्नो स्टाइल छान्नुहोस्,draft,
-shop.step1.text,Screen text: shop,"Browse 99 haircuts, 21 beards, 17 moustaches, 33 colours and 94 Ready Looks.","99 हेयरकट, 21 दाह्री, 17 जुँगा, 33 रङ र 94 रेडी लुक्स हेर्नुहोस्।",draft,
+shop.step1.text,Screen text: shop,"Browse 101 haircuts, 21 beards, 17 moustaches, 33 colours and 94 Ready Looks.","101 हेयरकट, 21 दाह्री, 17 जुँगा, 33 रङ र 94 रेडी लुक्स हेर्नुहोस्।",draft,
 shop.step2.title,Screen text: shop,Build My Look,मेरो लुक बनाउनुहोस्,draft,
 shop.step2.text,Screen text: shop,"Save favourites, then choose one hair, beard, moustache and colour.","मनपर्ने सेभ गर्नुहोस्, अनि एउटा कपाल, दाह्री, जुँगा र रङ छान्नुहोस्।",draft,
 shop.step3.title,Screen text: shop,Show the barber,बार्बरलाई देखाउनुहोस्,draft,
@@ -5990,6 +5990,70 @@ H99.callout.3.title,H99 Garma Perm,Gentle curve,हल्का घुमाउ�
 H99.callout.3.text,H99 Garma Perm,Over the forehead.,निधारमाथि।,draft,Photo label line.
 H99.callout.4.title,H99 Garma Perm,Tidy sides,सफा छेउ,draft,Photo label title.
 H99.callout.4.text,H99 Garma Perm,#3 to #2.,#3 देखि #2।,draft,Photo label line.
+H100.name,H100 Shaolin Cut,Shaolin Cut,शाओलिन कट,draft,"Catalogue name. Keep it, or write the name customers use."
+H100.shortLine,H100 Shaolin Cut,"A close monk-style shave, kept at a soft shadow.",नरम छायामा राखिएको नजिकको भिक्षु-शैलीको कटाइ।,draft,
+H100.description,H100 Shaolin Cut,"A close shave inspired by the shaved heads of Shaolin monks. The whole head is cut to about 1 mm for an even, soft shadow: cleaner than a buzz cut and easier to keep than a razor shave.","शाओलिन भिक्षुहरूको खौरिएको टाउकोबाट प्रेरित नजिकको कटाइ। सबै टाउको लगभग 1 mm मा काटेर बराबर, नरम छाया बनाइन्छ: बज कटभन्दा सफा र रेजरले खौरेभन्दा सजिलो।",draft,
+H100.pickIf,H100 Shaolin Cut,"you want a very clean, calm, low-fuss look, or you want to hide hair loss.","तपाईं धेरै सफा, शान्त, कम झन्झटको लुक चाहनुहुन्छ, वा कपाल झर्ने कुरा लुकाउन चाहनुहुन्छ।",draft,"Follows ""Pick this if""."
+H100.skipIf,H100 Shaolin Cut,"you have a sensitive scalp, or you want any hair length.","तपाईंको टाउकोको छाला संवेदनशील छ, वा कुनै पनि लम्बाइको कपाल चाहनुहुन्छ।",draft,"Follows ""Skip if""."
+H100.daily,H100 Shaolin Cut,"1 min: moisturiser, and sun cream outdoors.","1 मिनेट: मोइस्चराइजर, र बाहिर सन क्रिम।",draft,
+H100.weekly,H100 Shaolin Cut,Clipper at #0 every 4–5 days to keep the shadow even.,छाया बराबर राख्न हरेक 4–5 दिनमा क्लिपर #0 मा।,draft,
+H100.nextVisit,H100 Shaolin Cut,in 2 weeks,2 हप्तामा,draft,
+H100.alsoCalled,H100 Shaolin Cut,"Monk cut, shadow shave","भिक्षु कट, छाया शेभ",draft,Comma-separated names.
+H100.length,H100 Shaolin Cut,Very short,धेरै छोटो,draft,
+H100.faq.1.q,H100 Shaolin Cut,What is a Shaolin cut?,शाओलिन कट भनेको के हो?,draft,
+H100.faq.1.a,H100 Shaolin Cut,"A close shave inspired by Shaolin monks: the whole head cut to about 1 mm for an even, soft shadow.","शाओलिन भिक्षुहरूबाट प्रेरित नजिकको कटाइ: सबै टाउको लगभग 1 mm मा काटेर बराबर, नरम छाया।",draft,"Keep any <a href=""...""> link tags as they are."
+H100.faq.2.q,H100 Shaolin Cut,How is it different from a head shave?,यो हेड शेभभन्दा कसरी फरक छ?,draft,
+H100.faq.2.a,H100 Shaolin Cut,"A head shave is razor-smooth. A Shaolin cut keeps a 1 mm shadow, so it needs no razor and has less risk of cuts.","हेड शेभ रेजरले चिल्लो हुन्छ। शाओलिन कटमा 1 mm को छाया रहन्छ, त्यसैले रेजर चाहिँदैन र काटिने जोखिम कम हुन्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H100.faq.3.q,H100 Shaolin Cut,How often do I need to cut it?,कति पटक काट्नुपर्छ?,draft,
+H100.faq.3.a,H100 Shaolin Cut,"Every 4–5 days with a clipper at #0, or the shadow turns into stubble.","हरेक 4–5 दिनमा क्लिपर #0 ले, नत्र छाया स्टबल बन्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H100.faq.4.q,H100 Shaolin Cut,Do I need sun cream?,के सन क्रिम चाहिन्छ?,draft,
+H100.faq.4.a,H100 Shaolin Cut,"Yes, outdoors. A near-bare scalp burns easily.","चाहिन्छ, बाहिर हुँदा। लगभग खाली टाउको छिट्टै पोल्छ।",draft,"Keep any <a href=""...""> link tags as they are."
+H100.step.1,H100 Shaolin Cut,Ask: sensitive skin or cuts on the scalp?,सोध्नुहोस्: छाला संवेदनशील छ वा टाउकोमा काटिएको छ?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.2,H100 Shaolin Cut,"Whole head: machine #0, in two passes.","सबै टाउको: मेसिन #0, दुई पटक।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.3,H100 Shaolin Cut,Go against the grain for an even finish.,बराबर फिनिशका लागि कपालको उल्टो दिशामा चलाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.4,H100 Shaolin Cut,Clean the hairline and around the ears.,हेयरलाइन र कान वरिपरि सफा गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.5,H100 Shaolin Cut,Clean the nape.,घाँटीको पछाडि सफा गर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.6,H100 Shaolin Cut,Moisturise the scalp.,टाउकोको छालामा मोइस्चराइजर लगाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.callout.1.title,H100 Shaolin Cut,Even shadow,बराबर छाया,draft,Photo label title.
+H100.callout.1.text,H100 Shaolin Cut,1 mm all over.,सबैतिर 1 mm।,draft,Photo label line.
+H100.callout.2.title,H100 Shaolin Cut,Clean outline,सफा किनारा,draft,Photo label title.
+H100.callout.2.text,H100 Shaolin Cut,Around the ears.,कान वरिपरि।,draft,Photo label line.
+H100.callout.3.title,H100 Shaolin Cut,Soft matte,नरम म्याट,draft,Photo label title.
+H100.callout.3.text,H100 Shaolin Cut,"Moisturised, not greasy.","मोइस्चराइज गरिएको, चिल्लो होइन।",draft,Photo label line.
+H100.callout.4.title,H100 Shaolin Cut,Smooth nape,चिल्लो घाँटी,draft,Photo label title.
+H100.callout.4.text,H100 Shaolin Cut,Clean and even.,सफा र बराबर।,draft,Photo label line.
+H101.name,H101 Brahmin Cut,Brahmin Cut,ब्राह्मण कट,draft,"Catalogue name. Keep it, or write the name customers use."
+H101.shortLine,H101 Brahmin Cut,A shaved head with a small tuft (shikha) at the crown.,शिरमा सानो शिखा (टुप्पी) भएको खौरिएको टाउको।,draft,
+H101.description,H101 Brahmin Cut,"A traditional Hindu style: the head is shaved clean, leaving one small tuft of hair at the back of the crown. The tuft is called the shikha, or choti, and is kept as part of religious practice and for rituals.","परम्परागत हिन्दू शैली: टाउको सफा खौरिन्छ र शिरको पछाडि कपालको एउटा सानो गुच्छा छाडिन्छ। यो गुच्छालाई शिखा वा चुल्ठी भनिन्छ, र धार्मिक अभ्यास तथा संस्कारको अंशका रूपमा राखिन्छ।",draft,
+H101.pickIf,H101 Brahmin Cut,"you follow the shikha tradition, or need the look for a ritual or ceremony.","तपाईं शिखाको परम्परा मान्नुहुन्छ, वा कुनै संस्कार वा समारोहका लागि यो लुक चाहिन्छ।",draft,"Follows ""Pick this if""."
+H101.skipIf,H101 Brahmin Cut,"you have a sensitive scalp, or you do not have enough hair at the crown to keep a tuft.","तपाईंको टाउकोको छाला संवेदनशील छ, वा गुच्छा राख्न पुग्ने कपाल शिरमा छैन।",draft,"Follows ""Skip if""."
+H101.daily,H101 Brahmin Cut,"2 min: moisturiser, comb or tie the tuft, sun cream outdoors.","2 मिनेट: मोइस्चराइजर, गुच्छा कोर्नुहोस् वा बाँध्नुहोस्, बाहिर सन क्रिम।",draft,
+H101.weekly,H101 Brahmin Cut,Shave the head every 2–3 days. Keep the tuft trimmed to one length.,हरेक 2–3 दिनमा टाउको खौर्नुहोस्। गुच्छालाई एउटै लम्बाइमा ट्रिम राख्नुहोस्।,draft,
+H101.nextVisit,H101 Brahmin Cut,every 2–3 weeks for a barber shave,बार्बरबाट खौर्न हरेक 2–3 हप्तामा,draft,
+H101.alsoCalled,H101 Brahmin Cut,"Shikha, choti, tupi","शिखा, चुल्ठी, टुप्पी",draft,Comma-separated names.
+H101.length,H101 Brahmin Cut,"No hair, small tuft","कपाल छैन, सानो गुच्छा",draft,
+H101.faq.1.q,H101 Brahmin Cut,What is a shikha?,शिखा भनेको के हो?,draft,
+H101.faq.1.a,H101 Brahmin Cut,A small tuft of hair kept at the back of the crown in the Hindu tradition. It is also called a choti or tupi.,हिन्दू परम्परामा शिरको पछाडि राखिने कपालको सानो गुच्छा। यसलाई चुल्ठी वा टुप्पी पनि भनिन्छ।,draft,"Keep any <a href=""...""> link tags as they are."
+H101.faq.2.q,H101 Brahmin Cut,Who wears it?,कसले राख्छन्?,draft,
+H101.faq.2.a,H101 Brahmin Cut,"It is worn as part of religious practice and kept for rituals and ceremonies. If you are unsure, ask your family or priest.",धार्मिक अभ्यासको अंशका रूपमा र संस्कार तथा समारोहका लागि राखिन्छ। निश्चित हुनुहुन्न भने परिवार वा पुरोहितसँग सोध्नुहोस्।,draft,"Keep any <a href=""...""> link tags as they are."
+H101.faq.3.q,H101 Brahmin Cut,How big should the tuft be?,गुच्छा कति ठूलो हुनुपर्छ?,draft,
+H101.faq.3.a,H101 Brahmin Cut,The size differs by family and tradition. Ask first. Many keep a tuft about 5 cm across.,परिवार र परम्परा अनुसार फरक हुन्छ। पहिले सोध्नुहोस्। धेरैले करिब 5 cm चौडाइको राख्छन्।,draft,"Keep any <a href=""...""> link tags as they are."
+H101.faq.4.q,H101 Brahmin Cut,How do I keep it clean?,कसरी सफा राख्ने?,draft,
+H101.faq.4.a,H101 Brahmin Cut,"Wash and comb the tuft daily, and shave around it every 2–3 days.","गुच्छालाई दैनिक धुनुहोस् र कोर्नुहोस्, र वरिपरि हरेक 2–3 दिनमा खौर्नुहोस्।",draft,"Keep any <a href=""...""> link tags as they are."
+H101.step.1,H101 Brahmin Cut,Ask: how big should the tuft be?,सोध्नुहोस्: गुच्छा कति ठूलो राख्ने?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H101.step.2,H101 Brahmin Cut,Mark the tuft at the back of the crown with a comb.,कंघीले शिरको पछाडि गुच्छाको ठाउँ चिन्ह लगाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H101.step.3,H101 Brahmin Cut,Tie or clip the tuft out of the way.,गुच्छालाई बाँधेर वा क्लिप गरेर बाटोबाट हटाउनुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H101.step.4,H101 Brahmin Cut,"Whole head: machine #0 first, then shaving cream.","सबै टाउको: पहिले मेसिन #0, अनि शेभिङ क्रिम।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H101.step.5,H101 Brahmin Cut,"Shave smooth with a new blade, with the hair growth.",नयाँ ब्लेडले कपाल बढ्ने दिशामा चिल्लो खौर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H101.step.6,H101 Brahmin Cut,Trim the tuft to one length and comb it.,गुच्छालाई एउटै लम्बाइमा ट्रिम गरी कोर्नुहोस्।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H101.callout.1.title,H101 Brahmin Cut,Small tuft,सानो गुच्छा,draft,Photo label title.
+H101.callout.1.text,H101 Brahmin Cut,At the back of the crown.,शिरको पछाडि।,draft,Photo label line.
+H101.callout.2.title,H101 Brahmin Cut,Smooth scalp,चिल्लो टाउको,draft,Photo label title.
+H101.callout.2.text,H101 Brahmin Cut,Razor close.,रेजर नजिक।,draft,Photo label line.
+H101.callout.3.title,H101 Brahmin Cut,Clean outline,सफा किनारा,draft,Photo label title.
+H101.callout.3.text,H101 Brahmin Cut,Around the tuft.,गुच्छा वरिपरि।,draft,Photo label line.
+H101.callout.4.title,H101 Brahmin Cut,Neat tuft,सफा गुच्छा,draft,Photo label title.
+H101.callout.4.text,H101 Brahmin Cut,Combed and even.,कोरिएको र बराबर।,draft,Photo label line.
 B01.name,B01 Clean Shave,Clean Shave,क्लिन सेभ,draft,"Catalogue name. Keep it, or write the name customers use."
 B01.shortLine,B01 Clean Shave,No hair on the face. Fresh and clean.,अनुहारमा रौं छैन। ताजा र सफा।,draft,
 B01.description,B01 Clean Shave,A smooth face with no beard. Fresh and clean.,दाह्रीबिनाको चिल्लो अनुहार। ताजा र सफा।,draft,
