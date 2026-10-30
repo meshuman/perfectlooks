@@ -1417,14 +1417,14 @@ CALLOUTS:
 ```text
 ITEM: H100 Shaolin Cut
 BACKDROP: Sky blue (#A9C9E8).
-MAIN VIEW: straight front, head and shoulders
-CHARACTER NOTE: same man, with his head cut very close.
-STYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine; sharp even hairline and clean edges around the ears; healthy matte scalp.
+MAIN VIEW: left side profile
+CHARACTER NOTE: same man, with his head cut very close except one small tupi at the back of the crown.
+STYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine, except one small tupi of black hair about 5 cm across and 8-10 cm long at the back of the crown, combed neatly with a clean outline around it; sharp even hairline; healthy matte scalp.
 CALLOUTS:
 1. Even shadow: 1 mm all over.
-2. Clean outline: Around the ears.
-3. Soft matte: Moisturised, not greasy.
-4. Smooth nape: Clean and even.
+2. Small tupi: At the back of the crown.
+3. Clean outline: Around the ears and tupi.
+4. Soft matte: Moisturised, not greasy.
 ```
 
 ### H101 Brahmin Cut

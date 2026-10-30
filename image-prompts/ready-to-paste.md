@@ -2380,15 +2380,15 @@ Save as `H100.jpg`
 ```text
 Photorealistic studio image for a barbershop style guide. Square 1:1, at least 1536 x 1536 px.
 ITEM: H100 Shaolin Cut
-STYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine; sharp even hairline and clean edges around the ears; healthy matte scalp.
+STYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine, except one small tupi of black hair about 5 cm across and 8-10 cm long at the back of the crown, combed neatly with a clean outline around it; sharp even hairline; healthy matte scalp.
 CHARACTER (the same man in every image): Arjun, a 28-year-old Nepali man with a very fair, smooth skin tone, a square face with a strong, wide, angular jaw; forehead, cheekbones and jaw about the same width, dark brown almond-shaped eyes, thick straight black eyebrows, a straight nose, medium-full lips, small ears close to the head, slim athletic build. Calm, confident expression, mouth closed. Plain black crew-neck T-shirt. No glasses, jewellery, tattoos, piercings or hats. Natural black hair unless the item says otherwise. Match the attached character reference for his eyes, eyebrows, nose, lips, ears, skin and build; only the face shape differs, as described here.
-CHARACTER NOTE: same man, with his head cut very close.
+CHARACTER NOTE: same man, with his head cut very close except one small tupi at the back of the crown.
 TRAITS FOR THIS STYLE (identity unchanged):
 - Face: square face with a strong, wide, angular jaw; forehead, cheekbones and jaw about the same width (this style suits a square face, so show it on one; keep every other feature of his identical).
 - Skin: very fair and smooth (his own).
 - Hair texture: straight, as in the reference.
 HAIR IMAGE RULES: the beard and moustache are the same in every hair image: light even stubble, 1-2 mm, with a clean curved neck line. Main view as the item says. Second view: back of the head, showing the back of the cut and the nape.
-MAIN VIEW: straight front, head and shoulders
+MAIN VIEW: left side profile
 BACKDROP: Sky blue (#A9C9E8).
 LIGHT: soft, diffused key light from the front left, gentle fill from the right, subtle rim light separating the hair from the background. True-to-life skin tones and natural skin texture. Sharp focus on hair and beard detail, 85 mm portrait lens look.
 BACKGROUND: one flat, seamless studio backdrop in the solid colour named in BACKDROP, evenly lit like a painted colour-block wall. No gradient, texture, props or background shadows.

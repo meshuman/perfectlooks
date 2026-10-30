@@ -1,6 +1,6 @@
 # Hair styles
 
-101 hair styles, from a shaved head to long hair, including Korean styles. 64 use a front photo. 37 use a side photo because the cut only shows clearly from the side.
+101 hair styles, from a shaved head to long hair, including Korean styles. 63 use a front photo. 38 use a side photo because the cut only shows clearly from the side.
 
 ## At a glance
 
@@ -105,7 +105,7 @@
 | H97 C-Curl Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 | H98 S-Curl Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 | H99 Garma Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
-| H100 Shaolin Cut | Very short | Medium | Oval, Square | All | Yes | Front |
+| H100 Shaolin Cut | Very short, small tupi | Medium | Oval, Square | All | Yes | Side |
 | H101 Brahmin Cut | No hair, small tuft | High | Oval, Square | All | Yes | Side |
 
 ## H01 Buzz Cut
@@ -3170,34 +3170,34 @@ A centre-parted perm with soft waves that fall to both sides.
 
 ## H100 Shaolin Cut
 
-A close monk-style shave, kept at a soft shadow.
+A close monk-style shave, with a small tupi at the crown.
 
-**Description:** A close shave inspired by the shaved heads of Shaolin monks. The whole head is cut to about 1 mm for an even, soft shadow: cleaner than a buzz cut and easier to keep than a razor shave.
+**Description:** A close shave inspired by the shaved heads of Shaolin monks, with one small tupi (tuft) left at the back of the crown. The head is cut to about 1 mm for an even, soft shadow, and the tupi stays longer.
 
-- **Pick this if:** you want a very clean, calm, low-fuss look, or you want to hide hair loss.
-- **Skip if:** you have a sensitive scalp, or you want any hair length.
-- **Daily:** 1 min: moisturiser, and sun cream outdoors.
-- **Weekly:** Clipper at #0 every 4–5 days to keep the shadow even.
+- **Pick this if:** you want a very clean, calm look with a small tupi, or you want to hide hair loss.
+- **Skip if:** you have a sensitive scalp, or you want hair length all over.
+- **Daily:** 2 min: moisturiser, comb the tupi, sun cream outdoors.
+- **Weekly:** Clipper at #0 every 4–5 days. Keep the tupi trimmed to one length.
 - **Next barber visit:** in 2 weeks
 - **Suits:** Oval and square face · All hair types · Good for thin hair and hair loss
-- **Also called:** Monk cut, shadow shave
-- **Main photo:** Front
+- **Also called:** Monk cut with tupi, shadow shave
+- **Main photo:** Side
 
 **FAQ**
 
-- **What is a Shaolin cut?** A close shave inspired by Shaolin monks: the whole head cut to about 1 mm for an even, soft shadow.
-- **How is it different from a head shave?** A head shave is razor-smooth. A Shaolin cut keeps a 1 mm shadow, so it needs no razor and has less risk of cuts.
-- **How often do I need to cut it?** Every 4–5 days with a clipper at #0, or the shadow turns into stubble.
-- **Do I need sun cream?** Yes, outdoors. A near-bare scalp burns easily.
+- **What is a Shaolin cut with a tupi?** A close monk-style shave to about 1 mm, with one small tuft (tupi) left at the back of the crown.
+- **How is it different from a head shave?** A head shave is razor-smooth. This keeps a 1 mm shadow, so it needs no razor.
+- **How big should the tupi be?** About 5 cm across and 8–10 cm long. Ask first if it is for a ritual or a family tradition.
+- **How often do I need to cut it?** Every 4–5 days at #0, or the shadow turns into stubble.
 
 **Barber steps**
 
-1. Ask: sensitive skin or cuts on the scalp?
-2. Whole head: machine #0, in two passes.
-3. Go against the grain for an even finish.
-4. Clean the hairline and around the ears.
-5. Clean the nape.
-6. Moisturise the scalp.
+1. Ask: how big should the tupi be?
+2. Mark the tupi at the back of the crown and clip it out of the way.
+3. Whole head: machine #0, in two passes.
+4. Go against the grain for an even finish.
+5. Clean the hairline, the ears and around the tupi.
+6. Trim the tupi to one length, comb it, and moisturise the scalp.
 
 ## H101 Brahmin Cut
 

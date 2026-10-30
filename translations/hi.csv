@@ -5991,37 +5991,37 @@ H99.callout.3.text,H99 Garma Perm,Over the forehead.,माथे के ऊप�
 H99.callout.4.title,H99 Garma Perm,Tidy sides,साफ़ किनारे,draft,Photo label title.
 H99.callout.4.text,H99 Garma Perm,#3 to #2.,#3 से #2।,draft,Photo label line.
 H100.name,H100 Shaolin Cut,Shaolin Cut,शाओलिन कट,draft,"Catalogue name. Keep it, or write the name customers use."
-H100.shortLine,H100 Shaolin Cut,"A close monk-style shave, kept at a soft shadow.",हल्की छाया में रखा नज़दीकी भिक्षु-शैली का कट।,draft,
-H100.description,H100 Shaolin Cut,"A close shave inspired by the shaved heads of Shaolin monks. The whole head is cut to about 1 mm for an even, soft shadow: cleaner than a buzz cut and easier to keep than a razor shave.","शाओलिन भिक्षुओं के मुंडे सिर से प्रेरित नज़दीकी कट। पूरा सिर लगभग 1 mm पर काटकर बराबर, नरम छाया बनाई जाती है: बज़ कट से साफ़ और रेज़र शेव से आसान।",draft,
-H100.pickIf,H100 Shaolin Cut,"you want a very clean, calm, low-fuss look, or you want to hide hair loss.","आप बहुत साफ़, शांत, कम झंझट वाला लुक चाहते हैं, या बालों का झड़ना छिपाना चाहते हैं।",draft,"Follows ""Pick this if""."
-H100.skipIf,H100 Shaolin Cut,"you have a sensitive scalp, or you want any hair length.","आपकी खोपड़ी की त्वचा संवेदनशील है, या आप किसी भी लंबाई के बाल चाहते हैं।",draft,"Follows ""Skip if""."
-H100.daily,H100 Shaolin Cut,"1 min: moisturiser, and sun cream outdoors.","1 मिनट: मॉइस्चराइज़र, और बाहर सन क्रीम।",draft,
-H100.weekly,H100 Shaolin Cut,Clipper at #0 every 4–5 days to keep the shadow even.,छाया बराबर रखने के लिए हर 4–5 दिन में क्लिपर #0 पर।,draft,
+H100.shortLine,H100 Shaolin Cut,"A close monk-style shave, with a small tupi at the crown.",सिर पर छोटी टुप्पी के साथ नज़दीकी भिक्षु-शैली का कट।,draft,
+H100.description,H100 Shaolin Cut,"A close shave inspired by the shaved heads of Shaolin monks, with one small tupi (tuft) left at the back of the crown. The head is cut to about 1 mm for an even, soft shadow, and the tupi stays longer.","शाओलिन भिक्षुओं के मुंडे सिर से प्रेरित नज़दीकी कट, सिर के पीछे एक छोटी टुप्पी (गुच्छा) छोड़ी हुई। सिर लगभग 1 mm पर काटकर बराबर, नरम छाया बनाई जाती है, और टुप्पी लंबी रहती है।",draft,
+H100.pickIf,H100 Shaolin Cut,"you want a very clean, calm look with a small tupi, or you want to hide hair loss.","आप छोटी टुप्पी के साथ बहुत साफ़, शांत लुक चाहते हैं, या बालों का झड़ना छिपाना चाहते हैं।",draft,"Follows ""Pick this if""."
+H100.skipIf,H100 Shaolin Cut,"you have a sensitive scalp, or you want hair length all over.","आपकी खोपड़ी की त्वचा संवेदनशील है, या आप हर जगह बालों की लंबाई चाहते हैं।",draft,"Follows ""Skip if""."
+H100.daily,H100 Shaolin Cut,"2 min: moisturiser, comb the tupi, sun cream outdoors.","2 मिनट: मॉइस्चराइज़र, टुप्पी में कंघी करें, बाहर सन क्रीम।",draft,
+H100.weekly,H100 Shaolin Cut,Clipper at #0 every 4–5 days. Keep the tupi trimmed to one length.,हर 4–5 दिन में क्लिपर #0 पर। टुप्पी को एक ही लंबाई में ट्रिम रखें।,draft,
 H100.nextVisit,H100 Shaolin Cut,in 2 weeks,2 हफ़्ते में,draft,
-H100.alsoCalled,H100 Shaolin Cut,"Monk cut, shadow shave","मॉन्क कट, शैडो शेव",draft,Comma-separated names.
-H100.length,H100 Shaolin Cut,Very short,बहुत छोटे,draft,
-H100.faq.1.q,H100 Shaolin Cut,What is a Shaolin cut?,शाओलिन कट क्या है?,draft,
-H100.faq.1.a,H100 Shaolin Cut,"A close shave inspired by Shaolin monks: the whole head cut to about 1 mm for an even, soft shadow.","शाओलिन भिक्षुओं से प्रेरित नज़दीकी कट: पूरा सिर लगभग 1 mm पर काटकर बराबर, नरम छाया।",draft,"Keep any <a href=""...""> link tags as they are."
+H100.alsoCalled,H100 Shaolin Cut,"Monk cut with tupi, shadow shave","टुप्पी के साथ मॉन्क कट, शैडो शेव",draft,Comma-separated names.
+H100.length,H100 Shaolin Cut,"Very short, small tupi","बहुत छोटे, छोटी टुप्पी",draft,
+H100.faq.1.q,H100 Shaolin Cut,What is a Shaolin cut with a tupi?,टुप्पी के साथ शाओलिन कट क्या है?,draft,
+H100.faq.1.a,H100 Shaolin Cut,"A close monk-style shave to about 1 mm, with one small tuft (tupi) left at the back of the crown.","लगभग 1 mm पर नज़दीकी भिक्षु-शैली का कट, सिर के पीछे एक छोटा गुच्छा (टुप्पी) छोड़ा हुआ।",draft,"Keep any <a href=""...""> link tags as they are."
 H100.faq.2.q,H100 Shaolin Cut,How is it different from a head shave?,यह हेड शेव से कैसे अलग है?,draft,
-H100.faq.2.a,H100 Shaolin Cut,"A head shave is razor-smooth. A Shaolin cut keeps a 1 mm shadow, so it needs no razor and has less risk of cuts.","हेड शेव रेज़र से चिकना होता है। शाओलिन कट में 1 mm की छाया रहती है, इसलिए रेज़र नहीं चाहिए और कटने का जोखिम कम होता है।",draft,"Keep any <a href=""...""> link tags as they are."
-H100.faq.3.q,H100 Shaolin Cut,How often do I need to cut it?,कितनी बार काटना चाहिए?,draft,
-H100.faq.3.a,H100 Shaolin Cut,"Every 4–5 days with a clipper at #0, or the shadow turns into stubble.","हर 4–5 दिन में क्लिपर #0 से, वरना छाया स्टबल बन जाती है।",draft,"Keep any <a href=""...""> link tags as they are."
-H100.faq.4.q,H100 Shaolin Cut,Do I need sun cream?,क्या सन क्रीम चाहिए?,draft,
-H100.faq.4.a,H100 Shaolin Cut,"Yes, outdoors. A near-bare scalp burns easily.","हाँ, बाहर होने पर। लगभग खाली खोपड़ी जल्दी जलती है।",draft,"Keep any <a href=""...""> link tags as they are."
-H100.step.1,H100 Shaolin Cut,Ask: sensitive skin or cuts on the scalp?,पूछें: त्वचा संवेदनशील है या खोपड़ी पर कट हैं?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
-H100.step.2,H100 Shaolin Cut,"Whole head: machine #0, in two passes.","पूरा सिर: मशीन #0, दो बार।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
-H100.step.3,H100 Shaolin Cut,Go against the grain for an even finish.,बराबर फ़िनिश के लिए बालों की उलटी दिशा में चलाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
-H100.step.4,H100 Shaolin Cut,Clean the hairline and around the ears.,हेयरलाइन और कानों के चारों ओर साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
-H100.step.5,H100 Shaolin Cut,Clean the nape.,गर्दन का पिछला हिस्सा साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
-H100.step.6,H100 Shaolin Cut,Moisturise the scalp.,खोपड़ी पर मॉइस्चराइज़र लगाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.faq.2.a,H100 Shaolin Cut,"A head shave is razor-smooth. This keeps a 1 mm shadow, so it needs no razor.","हेड शेव रेज़र से चिकना होता है। इसमें 1 mm की छाया रहती है, इसलिए रेज़र नहीं चाहिए।",draft,"Keep any <a href=""...""> link tags as they are."
+H100.faq.3.q,H100 Shaolin Cut,How big should the tupi be?,टुप्पी कितनी बड़ी होनी चाहिए?,draft,
+H100.faq.3.a,H100 Shaolin Cut,About 5 cm across and 8–10 cm long. Ask first if it is for a ritual or a family tradition.,लगभग 5 cm चौड़ी और 8–10 cm लंबी। संस्कार या पारिवारिक परंपरा के लिए हो तो पहले पूछें।,draft,"Keep any <a href=""...""> link tags as they are."
+H100.faq.4.q,H100 Shaolin Cut,How often do I need to cut it?,कितनी बार काटना चाहिए?,draft,
+H100.faq.4.a,H100 Shaolin Cut,"Every 4–5 days at #0, or the shadow turns into stubble.","हर 4–5 दिन में #0 पर, वरना छाया स्टबल बन जाती है।",draft,"Keep any <a href=""...""> link tags as they are."
+H100.step.1,H100 Shaolin Cut,Ask: how big should the tupi be?,पूछें: टुप्पी कितनी बड़ी रखनी है?,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.2,H100 Shaolin Cut,Mark the tupi at the back of the crown and clip it out of the way.,सिर के पीछे टुप्पी पर निशान लगाकर क्लिप करके रास्ते से हटाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.3,H100 Shaolin Cut,"Whole head: machine #0, in two passes.","पूरा सिर: मशीन #0, दो बार।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.4,H100 Shaolin Cut,Go against the grain for an even finish.,बराबर फ़िनिश के लिए बालों की उलटी दिशा में चलाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.5,H100 Shaolin Cut,"Clean the hairline, the ears and around the tupi.","हेयरलाइन, कानों और टुप्पी के चारों ओर साफ़ करें।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H100.step.6,H100 Shaolin Cut,"Trim the tupi to one length, comb it, and moisturise the scalp.","टुप्पी को एक ही लंबाई में ट्रिम करके कंघी करें, और खोपड़ी पर मॉइस्चराइज़र लगाएँ।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
 H100.callout.1.title,H100 Shaolin Cut,Even shadow,बराबर छाया,draft,Photo label title.
 H100.callout.1.text,H100 Shaolin Cut,1 mm all over.,हर जगह 1 mm।,draft,Photo label line.
-H100.callout.2.title,H100 Shaolin Cut,Clean outline,साफ़ किनारा,draft,Photo label title.
-H100.callout.2.text,H100 Shaolin Cut,Around the ears.,कानों के चारों ओर।,draft,Photo label line.
-H100.callout.3.title,H100 Shaolin Cut,Soft matte,नरम मैट,draft,Photo label title.
-H100.callout.3.text,H100 Shaolin Cut,"Moisturised, not greasy.","मॉइस्चराइज़्ड, चिकना नहीं।",draft,Photo label line.
-H100.callout.4.title,H100 Shaolin Cut,Smooth nape,चिकनी गर्दन,draft,Photo label title.
-H100.callout.4.text,H100 Shaolin Cut,Clean and even.,साफ़ और बराबर।,draft,Photo label line.
+H100.callout.2.title,H100 Shaolin Cut,Small tupi,छोटी टुप्पी,draft,Photo label title.
+H100.callout.2.text,H100 Shaolin Cut,At the back of the crown.,सिर के पीछे।,draft,Photo label line.
+H100.callout.3.title,H100 Shaolin Cut,Clean outline,साफ़ किनारा,draft,Photo label title.
+H100.callout.3.text,H100 Shaolin Cut,Around the ears and tupi.,कानों और टुप्पी के चारों ओर।,draft,Photo label line.
+H100.callout.4.title,H100 Shaolin Cut,Soft matte,नरम मैट,draft,Photo label title.
+H100.callout.4.text,H100 Shaolin Cut,"Moisturised, not greasy.","मॉइस्चराइज़्ड, चिकना नहीं।",draft,Photo label line.
 H101.name,H101 Brahmin Cut,Brahmin Cut,ब्राह्मण कट,draft,"Catalogue name. Keep it, or write the name customers use."
 H101.shortLine,H101 Brahmin Cut,A shaved head with a small tuft (shikha) at the crown.,सिर के ऊपर छोटी शिखा (चोटी) वाला मुंडा सिर।,draft,
 H101.description,H101 Brahmin Cut,"A traditional Hindu style: the head is shaved clean, leaving one small tuft of hair at the back of the crown. The tuft is called the shikha, or choti, and is kept as part of religious practice and for rituals.","पारंपरिक हिंदू शैली: सिर साफ़ मुंडा जाता है और सिर के पीछे बालों का एक छोटा गुच्छा छोड़ा जाता है। इस गुच्छे को शिखा या चोटी कहते हैं, और इसे धार्मिक परंपरा और संस्कारों के हिस्से के रूप में रखा जाता है।",draft,

@@ -484,7 +484,7 @@ for (const i of [...hair, ...beards]) {
 }
 
 const sides = hair.filter((h) => h.mainPhoto === 'side').length;
-if (sides !== 37) warn(`hair: ${sides} side photos (the document says 37)`);
+if (sides !== 38) warn(`hair: ${sides} side photos (the document says 38)`);
 
 const intersect = (lists) => lists.reduce((acc, l) => acc.filter((x) => l.includes(x)));
 for (const look of looks) {

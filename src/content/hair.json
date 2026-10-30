@@ -7523,19 +7523,19 @@
     "updated": "2026-10-30",
     "slug": "shaolin-cut",
     "name": "Shaolin Cut",
-    "shortLine": "A close monk-style shave, kept at a soft shadow.",
-    "description": "A close shave inspired by the shaved heads of Shaolin monks. The whole head is cut to about 1 mm for an even, soft shadow: cleaner than a buzz cut and easier to keep than a razor shave.",
-    "pickIf": "you want a very clean, calm, low-fuss look, or you want to hide hair loss.",
-    "skipIf": "you have a sensitive scalp, or you want any hair length.",
-    "daily": "1 min: moisturiser, and sun cream outdoors.",
-    "weekly": "Clipper at #0 every 4–5 days to keep the shadow even.",
+    "shortLine": "A close monk-style shave, with a small tupi at the crown.",
+    "description": "A close shave inspired by the shaved heads of Shaolin monks, with one small tupi (tuft) left at the back of the crown. The head is cut to about 1 mm for an even, soft shadow, and the tupi stays longer.",
+    "pickIf": "you want a very clean, calm look with a small tupi, or you want to hide hair loss.",
+    "skipIf": "you have a sensitive scalp, or you want hair length all over.",
+    "daily": "2 min: moisturiser, comb the tupi, sun cream outdoors.",
+    "weekly": "Clipper at #0 every 4–5 days. Keep the tupi trimmed to one length.",
     "nextVisit": "in 2 weeks",
     "suitsText": "Oval and square face · All hair types · Good for thin hair and hair loss",
     "alsoCalled": [
-      "Monk cut",
+      "Monk cut with tupi",
       "shadow shave"
     ],
-    "mainPhoto": "front",
+    "mainPhoto": "side",
     "popular": false,
     "callouts": [
       {
@@ -7543,45 +7543,45 @@
         "text": "1 mm all over."
       },
       {
+        "title": "Small tupi",
+        "text": "At the back of the crown."
+      },
+      {
         "title": "Clean outline",
-        "text": "Around the ears."
+        "text": "Around the ears and tupi."
       },
       {
         "title": "Soft matte",
         "text": "Moisturised, not greasy."
-      },
-      {
-        "title": "Smooth nape",
-        "text": "Clean and even."
       }
     ],
     "faq": [
       {
-        "q": "What is a Shaolin cut?",
-        "a": "A close shave inspired by Shaolin monks: the whole head cut to about 1 mm for an even, soft shadow."
+        "q": "What is a Shaolin cut with a tupi?",
+        "a": "A close monk-style shave to about 1 mm, with one small tuft (tupi) left at the back of the crown."
       },
       {
         "q": "How is it different from a head shave?",
-        "a": "A head shave is razor-smooth. A Shaolin cut keeps a 1 mm shadow, so it needs no razor and has less risk of cuts."
+        "a": "A head shave is razor-smooth. This keeps a 1 mm shadow, so it needs no razor."
+      },
+      {
+        "q": "How big should the tupi be?",
+        "a": "About 5 cm across and 8–10 cm long. Ask first if it is for a ritual or a family tradition."
       },
       {
         "q": "How often do I need to cut it?",
-        "a": "Every 4–5 days with a clipper at #0, or the shadow turns into stubble."
-      },
-      {
-        "q": "Do I need sun cream?",
-        "a": "Yes, outdoors. A near-bare scalp burns easily."
+        "a": "Every 4–5 days at #0, or the shadow turns into stubble."
       }
     ],
     "barberSteps": [
-      "Ask: sensitive skin or cuts on the scalp?",
+      "Ask: how big should the tupi be?",
+      "Mark the tupi at the back of the crown and clip it out of the way.",
       "Whole head: machine #0, in two passes.",
       "Go against the grain for an even finish.",
-      "Clean the hairline and around the ears.",
-      "Clean the nape.",
-      "Moisturise the scalp."
+      "Clean the hairline, the ears and around the tupi.",
+      "Trim the tupi to one length, comb it, and moisturise the scalp."
     ],
-    "length": "Very short",
+    "length": "Very short, small tupi",
     "upkeep": "Medium",
     "face": [
       "Oval",
