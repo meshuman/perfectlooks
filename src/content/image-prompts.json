@@ -14,532 +14,532 @@
   "items": {
     "H01": {
       "name": "Buzz Cut",
-      "block": "ITEM: H01 Buzz Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: one even length all over, machine #2 (about 6 mm); dense, uniform texture with the scalp faintly visible; soft natural hairline at the front; clean, trimmed edges around the ears; neat natural neck line.\nCALLOUTS:\n1. Even all over: Machine #2 on the whole head.\n2. Soft hairline: Natural front, not lined up.\n3. Clean around ears: Edges trimmed neat.\n4. Neat nape: Neck line cleaned with a trimmer.",
+      "block": "ITEM: H01 Buzz Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: one even length all over, machine #2 (about 6 mm); dense, uniform texture with the scalp faintly visible; soft natural hairline at the front; clean, trimmed edges around the ears; neat natural neck line. KEY DIFFERENCE: The same length everywhere, with no fade, no step and no longer top, so the head reads as one soft, even dark shape. Do not show a fringe, a fade line or a longer crown.\nCALLOUTS:\n1. Even all over: Machine #2 on the whole head.\n2. Soft hairline: Natural front, not lined up.\n3. Clean around ears: Edges trimmed neat.\n4. Neat nape: Neck line cleaned with a trimmer.",
       "older": false
     },
     "H02": {
       "name": "Crew Cut",
-      "block": "ITEM: H02 Crew Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides and back machine #2, blended smoothly into a short top about 2 cm long, slightly longer at the front and pushed forward and up; ears fully clear; neat natural neck line.\nCALLOUTS:\n1. Short sides: Machine #2, even and neat.\n2. Short top: About 2 cm, scissor cut.\n3. Longer front: Pushed forward and up.\n4. Smooth blend: No line between top and sides.\n5. Tidy nape: Natural, clean neck line.",
+      "block": "ITEM: H02 Crew Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides and back machine #2, blended smoothly into a short top about 2 cm long, slightly longer at the front and pushed forward and up; ears fully clear; neat natural neck line. KEY DIFFERENCE: A visible but gentle change in length from the 6 mm sides to a 2 cm top that stands slightly up at the front. Do not show bare skin, a fade line, a fringe or a part.\nCALLOUTS:\n1. Short sides: Machine #2, even and neat.\n2. Short top: About 2 cm, scissor cut.\n3. Longer front: Pushed forward and up.\n4. Smooth blend: No line between top and sides.\n5. Tidy nape: Natural, clean neck line.",
       "older": false
     },
     "H03": {
       "name": "Ivy League",
-      "block": "ITEM: H03 Ivy League\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2 blending to #3; top about 4 cm, slightly longer at the front, combed into a soft side part above the outer left eyebrow; light cream finish with a low natural shine.\nCALLOUTS:\n1. Soft side part: Above the outer eyebrow.\n2. Longer front: Combs neatly to the side.\n3. Short sides: #2 blending to #3.\n4. Natural finish: Light cream, low shine.",
+      "block": "ITEM: H03 Ivy League\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2 blending to #3; top about 4 cm, slightly longer at the front, combed into a soft side part above the outer left eyebrow; light cream finish with a low natural shine. KEY DIFFERENCE: The side part is the focus, and the 4 cm top lies flat and combed, with a tight taper at the sides. Do not show lift or a quiff at the front, a fade to skin, or a shaved part line.\nCALLOUTS:\n1. Soft side part: Above the outer eyebrow.\n2. Longer front: Combs neatly to the side.\n3. Short sides: #2 blending to #3.\n4. Natural finish: Light cream, low shine.",
       "older": false
     },
     "H04": {
       "name": "Caesar Cut",
-      "block": "ITEM: H04 Caesar Cut\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides and back machine #2; top about 2 cm, all combed forward; a short, straight, level fringe sitting high on the forehead; matte natural finish.\nCALLOUTS:\n1. Straight fringe: Short and level.\n2. Forward top: Combed toward the face.\n3. Even sides: Machine #2.\n4. Tidy nape: Clean natural neck line.",
+      "block": "ITEM: H04 Caesar Cut\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides and back machine #2; top about 2 cm, all combed forward; a short, straight, level fringe sitting high on the forehead; matte natural finish. KEY DIFFERENCE: The top is combed forward and cut in one level, horizontal line across the forehead; the sides are a uniform #2. Do not show a part, a fade, texture on top or any lift.\nCALLOUTS:\n1. Straight fringe: Short and level.\n2. Forward top: Combed toward the face.\n3. Even sides: Machine #2.\n4. Tidy nape: Clean natural neck line.",
       "older": false
     },
     "H05": {
       "name": "French Crop",
-      "block": "ITEM: H05 French Crop\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #1 blending to #3; top about 4 cm with choppy texture, pushed forward; short, slightly uneven fringe about 2 cm above the eyebrows; matte finish.\nCALLOUTS:\n1. Rough top: Choppy, pushed forward.\n2. Short fringe: Above the eyebrows.\n3. Tight sides: #1 blending to #3.\n4. Matte finish: Dry wax, no shine.",
+      "block": "ITEM: H05 French Crop\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #1 blending to #3; top about 4 cm with choppy texture, pushed forward; short, slightly uneven fringe about 2 cm above the eyebrows; matte finish. KEY DIFFERENCE: The fringe is rough and uneven, not a straight line, and the top is textured and pushed forward; the sides taper (#1 to #3) with hair still covering them. Do not show a skin fade or a level fringe.\nCALLOUTS:\n1. Rough top: Choppy, pushed forward.\n2. Short fringe: Above the eyebrows.\n3. Tight sides: #1 blending to #3.\n4. Matte finish: Dry wax, no shine.",
       "older": false
     },
     "H06": {
       "name": "Taper Cut",
-      "block": "ITEM: H06 Taper Cut\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: classic short cut; sides and back machine #3, getting gradually shorter to #1 near the ears and neck with no skin showing; top about 4 cm, combed loosely to the side; soft, natural rounded neck line.\nCALLOUTS:\n1. Gradual taper: Shorter toward ears and neck.\n2. No skin: Shortest point stays at #1.\n3. Natural top: Combed loosely to the side.\n4. Soft nape: Natural, not squared.",
+      "block": "ITEM: H06 Taper Cut\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: classic short cut; sides and back machine #3, getting gradually shorter to #1 near the ears and neck with no skin showing; top about 4 cm, combed loosely to the side; soft, natural rounded neck line. KEY DIFFERENCE: The sides shorten gradually with no skin showing at all, so there is no visible fade line, and the top is combed loosely. Do not show bare skin, a fade, a sharp line or any lift.\nCALLOUTS:\n1. Gradual taper: Shorter toward ears and neck.\n2. No skin: Shortest point stays at #1.\n3. Natural top: Combed loosely to the side.\n4. Soft nape: Natural, not squared.",
       "older": false
     },
     "H07": {
       "name": "Low Fade",
-      "block": "ITEM: H07 Low Fade\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: fade line one finger above the ear; bare skin (#0) below, blending smoothly up through #1 and #2; top about 4 cm, textured and pushed up and slightly to the side; crisp, clean line around the ear; faded nape.\nCALLOUTS:\n1. Low fade line: Starts just above the ear.\n2. Smooth blend: #0 up to #2, no lines.\n3. Textured top: About 4 cm, pushed up.\n4. Clean ear line: Sharp edge around the ear.\n5. Faded nape: Skin at the neck, blended up.",
+      "block": "ITEM: H07 Low Fade\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: fade line one finger above the ear; bare skin (#0) below, blending smoothly up through #1 and #2; top about 4 cm, textured and pushed up and slightly to the side; crisp, clean line around the ear; faded nape. KEY DIFFERENCE: Skin starts only one finger above the ear and the fade line stays low and level, wrapping round to the nape, with full hair length at the temples. Do not show a fade line at the temple or a high skin zone.\nCALLOUTS:\n1. Low fade line: Starts just above the ear.\n2. Smooth blend: #0 up to #2, no lines.\n3. Textured top: About 4 cm, pushed up.\n4. Clean ear line: Sharp edge around the ear.\n5. Faded nape: Skin at the neck, blended up.",
       "older": false
     },
     "H08": {
       "name": "Mid Fade",
-      "block": "ITEM: H08 Mid Fade\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nSTYLE: fade starts at the temple, halfway up the side of the head; bare skin at the bottom blending through #1, #2 and #3; top about 5 cm, pushed up and to the side; clean edges around the ears and neck.\nCALLOUTS:\n1. Mid fade line: At temple height.\n2. Even blend: #0 up to #3.\n3. Top shape: 5 cm, up and to the side.\n4. Clean edges: Around ears and neck.",
+      "block": "ITEM: H08 Mid Fade\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nSTYLE: fade starts at the temple, halfway up the side of the head; bare skin at the bottom blending through #1, #2 and #3; top about 5 cm, pushed up and to the side; clean edges around the ears and neck. KEY DIFFERENCE: The fade line sits level at the temple, halfway up the head, with a clear skin zone below and a smooth blend above it. Do not show a line that curves or drops, a low fade near the ear, or skin up to the crown.\nCALLOUTS:\n1. Mid fade line: At temple height.\n2. Even blend: #0 up to #3.\n3. Top shape: 5 cm, up and to the side.\n4. Clean edges: Around ears and neck.",
       "older": false
     },
     "H09": {
       "name": "Skin Fade",
-      "block": "ITEM: H09 Skin Fade\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: high skin fade; sides shaved to bare skin up to the top corner of the head, blending quickly through #0, #1 and #2 into a matte, textured top about 4 cm long; very clean, high-contrast outline.\nCALLOUTS:\n1. High skin fade: Bare skin up to the corner.\n2. Fast blend: Skin to #2, no lines.\n3. Matte top: About 4 cm, textured.\n4. Crisp outline: Sharp around ears and neck.",
+      "block": "ITEM: H09 Skin Fade\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: high skin fade; sides shaved to bare skin up to the top corner of the head, blending quickly through #0, #1 and #2 into a matte, textured top about 4 cm long; very clean, high-contrast outline. KEY DIFFERENCE: Bare skin reaches the top corner of the head and the jump from skin to the long textured top is sharp and fast, giving the highest contrast of all the fades. Do not show a gradual blend or hair-covered sides.\nCALLOUTS:\n1. High skin fade: Bare skin up to the corner.\n2. Fast blend: Skin to #2, no lines.\n3. Matte top: About 4 cm, textured.\n4. Crisp outline: Sharp around ears and neck.",
       "older": false
     },
     "H10": {
       "name": "Classic Side Part",
-      "block": "ITEM: H10 Classic Side Part\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 6 cm combed neatly to the side from a natural part above the outer left eyebrow; soft shine from light pomade; polished and neat.\nCALLOUTS:\n1. Clear part: Above the outer eyebrow.\n2. Combed top: 6 cm, smooth and neat.\n3. Tapered sides: #3 down to #2.\n4. Soft shine: Light pomade finish.",
+      "block": "ITEM: H10 Classic Side Part\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 6 cm combed neatly to the side from a natural part above the outer left eyebrow; soft shine from light pomade; polished and neat. KEY DIFFERENCE: A soft, natural part with the hair combed over neatly and lying flat, tapered sides and a polished, conservative look. Do not show a shaved part line, a fade to skin or any lift at the front.\nCALLOUTS:\n1. Clear part: Above the outer eyebrow.\n2. Combed top: 6 cm, smooth and neat.\n3. Tapered sides: #3 down to #2.\n4. Soft shine: Light pomade finish.",
       "older": false
     },
     "H11": {
       "name": "Comb Over Fade",
-      "block": "ITEM: H11 Comb Over Fade\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nSTYLE: mid fade from #0 to #2 on the sides; top about 6 cm combed over to one side from a part above the outer eyebrow; a thin shaved part line; polished shine.\nCALLOUTS:\n1. Shaved part: Thin line above the eyebrow.\n2. Combed over: 6 cm swept to the side.\n3. Mid fade: #0 to #2.\n4. Clean blend: Top flows into the fade.",
+      "block": "ITEM: H11 Comb Over Fade\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nSTYLE: mid fade from #0 to #2 on the sides; top about 6 cm combed over to one side from a part above the outer eyebrow; a thin shaved part line; polished shine. KEY DIFFERENCE: The sides are faded to bare skin and the top is combed over heavily with a high shine; a thin shaved line marks the part. Do not show tapered sides with no skin, or a soft matte top.\nCALLOUTS:\n1. Shaved part: Thin line above the eyebrow.\n2. Combed over: 6 cm swept to the side.\n3. Mid fade: #0 to #2.\n4. Clean blend: Top flows into the fade.",
       "older": false
     },
     "H12": {
       "name": "Undercut",
-      "block": "ITEM: H12 Undercut\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: sides and back cut to one length, machine #1, with a sharp disconnected line at the top corner of the head; top about 8 cm, swept back loosely; strong contrast between the long top and the short sides.\nCALLOUTS:\n1. Long top: About 8 cm, swept back.\n2. Hard line: Clear edge, no blend.\n3. Short sides: Machine #1 all round.\n4. Clean back: Tidy nape.",
+      "block": "ITEM: H12 Undercut\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: sides and back cut to one length, machine #1, with a sharp disconnected line at the top corner of the head; top about 8 cm, swept back loosely; strong contrast between the long top and the short sides. KEY DIFFERENCE: The disconnected line is the whole point: the short sides are one length with a sharp horizontal edge, and the long heavy top sits above it with no blend. Do not show a fade or any gradual transition.\nCALLOUTS:\n1. Long top: About 8 cm, swept back.\n2. Hard line: Clear edge, no blend.\n3. Short sides: Machine #1 all round.\n4. Clean back: Tidy nape.",
       "older": false
     },
     "H13": {
       "name": "Slick Back",
-      "block": "ITEM: H13 Slick Back\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2, tapering to #1 at the neck with a smooth blend; top 8-10 cm, longest at the front, combed straight back with a smooth, shiny pomade finish; neat, tidy back; clean nape tapering naturally into the neck line.\nCALLOUTS:\n1. Keep weight on top: Enough length to comb straight back.\n2. Sides kept short: Machine #2, neat and tight.\n3. Blend smooth: No harsh line between top and sides.\n4. Back kept neat: Tidy and well blended.\n5. Nape clean: Tapers naturally into the neck line.",
+      "block": "ITEM: H13 Slick Back\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2, tapering to #1 at the neck with a smooth blend; top 8-10 cm, longest at the front, combed straight back with a smooth, shiny pomade finish; neat, tidy back; clean nape tapering naturally into the neck line. KEY DIFFERENCE: The top lies completely flat and glossy with comb tracks visible and no lift at the front; the sides are tapered, not faded. Do not show volume, a quiff, a soft matte finish or flyaways.\nCALLOUTS:\n1. Keep weight on top: Enough length to comb straight back.\n2. Sides kept short: Machine #2, neat and tight.\n3. Blend smooth: No harsh line between top and sides.\n4. Back kept neat: Tidy and well blended.\n5. Nape clean: Tapers naturally into the neck line.",
       "older": false
     },
     "H14": {
       "name": "Quiff",
-      "block": "ITEM: H14 Quiff\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: sides faded from #1 to #3; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blow-dried up and back.\n2. Height at front: Longest hair at the front.\n3. Shorter crown: About 4 cm at the back.\n4. Faded sides: #1 to #3.",
+      "block": "ITEM: H14 Quiff\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: sides faded from #1 to #3; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish. KEY DIFFERENCE: The lift is at the front hairline only, with the hair falling lower toward the crown; the sides are faded #1 to #3. Do not show height across the whole top or a straight-up brush.\nCALLOUTS:\n1. Lifted front: Blow-dried up and back.\n2. Height at front: Longest hair at the front.\n3. Shorter crown: About 4 cm at the back.\n4. Faded sides: #1 to #3.",
       "older": false
     },
     "H15": {
       "name": "Pompadour",
-      "block": "ITEM: H15 Pompadour\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: big rounded height across the whole top, about 10 cm at the front and 6 cm at the back, swept up and back with a smooth pomade shine; sides machine #2, or faded #1 to #3.\nCALLOUTS:\n1. Big height: Rounded volume, up and back.\n2. Long front: About 10 cm.\n3. Smooth shine: Pomade finish.\n4. Short sides: Clean and tight.",
+      "block": "ITEM: H15 Pompadour\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: big rounded height across the whole top, about 10 cm at the front and 6 cm at the back, swept up and back with a smooth pomade shine; sides machine #2, or faded #1 to #3. KEY DIFFERENCE: Volume runs across the entire top, big and rounded from front to back, clearly taller than a quiff, with a glossy sweep. Do not show a low top, a flat crown or a matte finish.\nCALLOUTS:\n1. Big height: Rounded volume, up and back.\n2. Long front: About 10 cm.\n3. Smooth shine: Pomade finish.\n4. Short sides: Clean and tight.",
       "older": false
     },
     "H16": {
       "name": "Spiky",
-      "block": "ITEM: H16 Spiky\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2 blending to #3; top about 3 cm, pulled up into separate, defined spikes with gel; light wet-look shine.\nCALLOUTS:\n1. Defined spikes: Pulled up with gel.\n2. Short top: About 3 cm.\n3. Even sides: #2 blending to #3.\n4. Gel finish: Light wet shine.",
+      "block": "ITEM: H16 Spiky\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2 blending to #3; top about 3 cm, pulled up into separate, defined spikes with gel; light wet-look shine. KEY DIFFERENCE: Every strand is separated into a defined spike across the whole top with a wet-look shine, sides in a soft taper. Do not show a central ridge, a fade to skin or soft swept hair.\nCALLOUTS:\n1. Defined spikes: Pulled up with gel.\n2. Short top: About 3 cm.\n3. Even sides: #2 blending to #3.\n4. Gel finish: Light wet shine.",
       "older": false
     },
     "H17": {
       "name": "Faux Hawk",
-      "block": "ITEM: H17 Faux Hawk\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides faded from #1 to #3, short but not shaved bare; a centre strip of the top, about 6 cm, pushed up into a soft ridge; the edges of the top shorter, about 4 cm.\nCALLOUTS:\n1. Centre ridge: Middle pushed up to a point.\n2. Lower edges: Top sides kept shorter.\n3. Faded sides: Short, not shaved.\n4. Clean nape: Neat neck line.",
+      "block": "ITEM: H17 Faux Hawk\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides faded from #1 to #3, short but not shaved bare; a centre strip of the top, about 6 cm, pushed up into a soft ridge; the edges of the top shorter, about 4 cm. KEY DIFFERENCE: Only the centre strip is lifted into a soft ridge about 6 cm high, with its edges blending into short faded sides that are not shaved. Do not show a tall, stiff mohawk strip or bare-skin sides.\nCALLOUTS:\n1. Centre ridge: Middle pushed up to a point.\n2. Lower edges: Top sides kept shorter.\n3. Faded sides: Short, not shaved.\n4. Clean nape: Neat neck line.",
       "older": false
     },
     "H18": {
       "name": "Two-Block",
-      "block": "ITEM: H18 Two-Block\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: lower sides and back machine #3, one length, hidden under a soft, longer top of 8-10 cm that falls over them; soft fringe to the eyebrows, slightly parted; thinned for an airy, light texture; natural matte finish.\nCALLOUTS:\n1. Soft top: Falls over the short sides.\n2. Fringe to brows: Soft, not straight.\n3. Hidden sides: #3 underneath.\n4. Airy texture: Thinned and light.",
+      "block": "ITEM: H18 Two-Block\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: lower sides and back machine #3, one length, hidden under a soft, longer top of 8-10 cm that falls over them; soft fringe to the eyebrows, slightly parted; thinned for an airy, light texture; natural matte finish. KEY DIFFERENCE: The short block sits low and hidden under a longer, thinned top; the step between them is soft, not a sharp line. Do not show a hard disconnected edge, a round cap shape or a fade.\nCALLOUTS:\n1. Soft top: Falls over the short sides.\n2. Fringe to brows: Soft, not straight.\n3. Hidden sides: #3 underneath.\n4. Airy texture: Thinned and light.",
       "older": false
     },
     "H19": {
       "name": "Middle Part",
-      "block": "ITEM: H19 Middle Part\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: medium hair, 10-12 cm on top, parted in the centre; front pieces fall to both sides at about eye level like curtains; sides scissor cut, half covering the ears; soft natural movement.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Curtain front: Falls to eye level.\n3. Soft sides: Half over the ears.\n4. Natural movement: Light layers.",
+      "block": "ITEM: H19 Middle Part\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: medium hair, 10-12 cm on top, parted in the centre; front pieces fall to both sides at about eye level like curtains; sides scissor cut, half covering the ears; soft natural movement. KEY DIFFERENCE: The hair is 10 to 12 cm, parted exactly in the centre and falling to both sides to half cover the ears; the sides are scissor cut, not faded. Do not show a fade, a shaved line or a short side.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Curtain front: Falls to eye level.\n3. Soft sides: Half over the ears.\n4. Natural movement: Light layers.",
       "older": false
     },
     "H20": {
       "name": "Medium Flow",
-      "block": "ITEM: H20 Medium Flow\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: medium-length hair, 12-15 cm, pushed back, with the ends flowing behind the ears and touching the collar; natural slight wave; layered to remove weight; natural neck line.\nCALLOUTS:\n1. Pushed back: Natural, no shine.\n2. Behind the ears: Ends flow back.\n3. Collar length: Back touches the collar.\n4. Light layers: Weight removed.",
+      "block": "ITEM: H20 Medium Flow\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: medium-length hair, 12-15 cm, pushed back, with the ends flowing behind the ears and touching the collar; natural slight wave; layered to remove weight; natural neck line. KEY DIFFERENCE: Hair is pushed back with no part and the ends tuck behind the ears at 12 to 15 cm, layered and slightly wavy. Do not show hair past the collar, hair over the ears or a shiny slick finish.\nCALLOUTS:\n1. Pushed back: Natural, no shine.\n2. Behind the ears: Ends flow back.\n3. Collar length: Back touches the collar.\n4. Light layers: Weight removed.",
       "older": false
     },
     "H21": {
       "name": "Buzz Fade",
-      "block": "ITEM: H21 Buzz Fade\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: even buzz on top, machine #2; sides fade from bare skin one finger above the ear up through #1 to #2; clean edges around the ears and at the nape.\nCALLOUTS:\n1. Buzz top: Even machine #2.\n2. Skin fade: Starts above the ear.\n3. Smooth blend: Skin up to #2.\n4. Clean edges: Ears and nape sharp.",
+      "block": "ITEM: H21 Buzz Fade\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: even buzz on top, machine #2; sides fade from bare skin one finger above the ear up through #1 to #2; clean edges around the ears and at the nape. KEY DIFFERENCE: A skin fade on the sides with an even #2 buzz on top, no fringe and no texture on top; the fade is the only contrast. Do not show a longer top, a fringe or tapered sides without skin.\nCALLOUTS:\n1. Buzz top: Even machine #2.\n2. Skin fade: Starts above the ear.\n3. Smooth blend: Skin up to #2.\n4. Clean edges: Ears and nape sharp.",
       "older": false
     },
     "H22": {
       "name": "High and Tight",
-      "block": "ITEM: H22 High and Tight\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides and back machine #1, cut high up to the top corner of the head, with a short blend into a flat, even top about 2 cm long; neat military finish.\nCALLOUTS:\n1. High sides: #1 up to the corner.\n2. Flat top: Even, about 2 cm.\n3. Short blend: Small step into the top.\n4. Neat nape: Clean military finish.",
+      "block": "ITEM: H22 High and Tight\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides and back machine #1, cut high up to the top corner of the head, with a short blend into a flat, even top about 2 cm long; neat military finish. KEY DIFFERENCE: The sides are a tight #1 cut high up to the top corner, with a very short blend into a flat, even 2 cm top for a military look. Do not show a skin fade, a long top or a rounded crown.\nCALLOUTS:\n1. High sides: #1 up to the corner.\n2. Flat top: Even, about 2 cm.\n3. Short blend: Small step into the top.\n4. Neat nape: Clean military finish.",
       "older": false
     },
     "H23": {
       "name": "Taper Fade",
-      "block": "ITEM: H23 Taper Fade\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3; a small fade to skin only at the sideburn and at the back of the neck, blending up to #3; top about 5 cm, combed lightly.\nCALLOUTS:\n1. Faded sideburn: Skin, small area only.\n2. Faded nape: Clean at the neck.\n3. Natural sides: Machine #3.\n4. Neat top: About 5 cm.",
+      "block": "ITEM: H23 Taper Fade\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3; a small fade to skin only at the sideburn and at the back of the neck, blending up to #3; top about 5 cm, combed lightly. KEY DIFFERENCE: Only the sideburn and nape reach skin; the sides stay covered in hair at #3, so the fade is small and subtle. Do not show bare skin around the ear or a high fade line.\nCALLOUTS:\n1. Faded sideburn: Skin, small area only.\n2. Faded nape: Clean at the neck.\n3. Natural sides: Machine #3.\n4. Neat top: About 5 cm.",
       "older": false
     },
     "H24": {
       "name": "Drop Fade",
-      "block": "ITEM: H24 Drop Fade\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: fade line above the ear that curves down behind it and drops low at the back near the neck; skin below, blending through #1 to #3; textured top about 6 cm.\nCALLOUTS:\n1. Curved line: Drops behind the ear.\n2. Low at the back: Follows the head shape.\n3. Smooth blend: Skin up to #3.\n4. Textured top: About 6 cm.",
+      "block": "ITEM: H24 Drop Fade\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: fade line above the ear that curves down behind it and drops low at the back near the neck; skin below, blending through #1 to #3; textured top about 6 cm. KEY DIFFERENCE: The fade line curves down behind the ear and drops lower at the back, so it is not level; the nape is faded lower than the sides. Do not show a level line or a half-circle burst around the ear.\nCALLOUTS:\n1. Curved line: Drops behind the ear.\n2. Low at the back: Follows the head shape.\n3. Smooth blend: Skin up to #3.\n4. Textured top: About 6 cm.",
       "older": false
     },
     "H25": {
       "name": "Fade with Line Design",
-      "block": "ITEM: H25 Fade with Line Design\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: low fade; one clean straight line about 2 mm wide shaved diagonally across the side above the ear; top about 4 cm, textured.\nCALLOUTS:\n1. Shaved line: Clean, 2 mm wide.\n2. Low fade: Skin blended up.\n3. Sharp edges: Cleaned with a razor.\n4. Short top: About 4 cm.",
+      "block": "ITEM: H25 Fade with Line Design\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: low fade; one clean straight line about 2 mm wide shaved diagonally across the side above the ear; top about 4 cm, textured. KEY DIFFERENCE: The only addition to a low fade is one razor-sharp diagonal line about 2 mm wide above the ear. Do not show any other pattern, extra lines or colour.\nCALLOUTS:\n1. Shaved line: Clean, 2 mm wide.\n2. Low fade: Skin blended up.\n3. Sharp edges: Cleaned with a razor.\n4. Short top: About 4 cm.",
       "older": false
     },
     "H26": {
       "name": "Curly Top Fade",
-      "block": "ITEM: H26 Curly Top Fade\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with natural tight curls for this style.\nSTYLE: defined natural curls on top, 5-6 cm, shaped round and slightly higher in the middle; sides low-to-mid fade from #0 to #2; soft curl-cream definition, no frizz.\nCALLOUTS:\n1. Defined curls: Natural, shaped round.\n2. Higher middle: Soft rounded top.\n3. Faded sides: #0 to #2.\n4. Curl cream: Soft, no frizz.",
+      "block": "ITEM: H26 Curly Top Fade\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with natural tight curls for this style.\nSTYLE: defined natural curls on top, 5-6 cm, shaped round and slightly higher in the middle; sides low-to-mid fade from #0 to #2; soft curl-cream definition, no frizz. KEY DIFFERENCE: Defined curls 5 to 6 cm shaped round on top, with a visible fade from skin on the sides. Do not show tight afro curls, loose waves or a flat top.\nCALLOUTS:\n1. Defined curls: Natural, shaped round.\n2. Higher middle: Soft rounded top.\n3. Faded sides: #0 to #2.\n4. Curl cream: Soft, no frizz.",
       "older": false
     },
     "H27": {
       "name": "Side Fringe",
-      "block": "ITEM: H27 Side Fringe\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #3; top about 8 cm; a long fringe swept across the forehead to one side, reaching the eyebrows, longer on the swept side; smooth with a light shine.\nCALLOUTS:\n1. Swept fringe: Across the forehead.\n2. Longer on one side: Falls to the brow.\n3. Short sides: Machine #3.\n4. Smooth finish: Blow-dried, light wax.",
+      "block": "ITEM: H27 Side Fringe\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #3; top about 8 cm; a long fringe swept across the forehead to one side, reaching the eyebrows, longer on the swept side; smooth with a light shine. KEY DIFFERENCE: A long soft fringe curves across the forehead to one side, longer on the swept side, with both sides tapered at the same #3. Do not show a straight diagonal cut, one short side, or a side part line.\nCALLOUTS:\n1. Swept fringe: Across the forehead.\n2. Longer on one side: Falls to the brow.\n3. Short sides: Machine #3.\n4. Smooth finish: Blow-dried, light wax.",
       "older": false
     },
     "H28": {
       "name": "Wolf Cut",
-      "block": "ITEM: H28 Wolf Cut\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: shaggy layered cut; choppy short layers on the crown with volume; layered sides over the ears; longer back reaching the collar; messy fringe to the eyebrows; tousled natural wave.\nCALLOUTS:\n1. Shaggy top: Choppy layers with volume.\n2. Messy fringe: To the eyebrows.\n3. Layered sides: Over the ears.\n4. Longer back: Reaches the collar.",
+      "block": "ITEM: H28 Wolf Cut\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: shaggy layered cut; choppy short layers on the crown with volume; layered sides over the ears; longer back reaching the collar; messy fringe to the eyebrows; tousled natural wave. KEY DIFFERENCE: Heavy layering with volume at the crown and a longer layered back reaching the collar; the sides are layered over the ears, not clipped. Do not show short clipped sides, an even length or a fade.\nCALLOUTS:\n1. Shaggy top: Choppy layers with volume.\n2. Messy fringe: To the eyebrows.\n3. Layered sides: Over the ears.\n4. Longer back: Reaches the collar.",
       "older": false
     },
     "H29": {
       "name": "Man Bun",
-      "block": "ITEM: H29 Man Bun\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown long for this style.\nSTYLE: long hair, shoulder length when down, pulled back smoothly and tied into a neat bun at the back of the head at crown level; long sides, no undercut; soft natural texture.\nCALLOUTS:\n1. Smooth pull-back: No bumps on top.\n2. Neat bun: Back of the head.\n3. Healthy ends: Trimmed, no split ends.\n4. Soft tie: Loose, not tight.",
+      "block": "ITEM: H29 Man Bun\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown long for this style.\nSTYLE: long hair, shoulder length when down, pulled back smoothly and tied into a neat bun at the back of the head at crown level; long sides, no undercut; soft natural texture. KEY DIFFERENCE: All the hair is gathered into one bun at crown level and the length hangs mainly to the shoulders when loose; there is no undercut. Do not show a shaved side, a loose lower half or a ponytail.\nCALLOUTS:\n1. Smooth pull-back: No bumps on top.\n2. Neat bun: Back of the head.\n3. Healthy ends: Trimmed, no split ends.\n4. Soft tie: Loose, not tight.",
       "older": false
     },
     "H30": {
       "name": "Head Shave",
-      "block": "ITEM: H30 Head Shave\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with his head shaved.\nSTYLE: whole head shaved smooth with a razor; even skin tone; subtle, healthy sheen; no stubble or nicks.\nCALLOUTS:\n1. Smooth scalp: Razor close, no stubble.\n2. Even outline: Clean around the ears.\n3. Healthy sheen: Moisturised, not greasy.\n4. Smooth nape: Shaved clean.",
+      "block": "ITEM: H30 Head Shave\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with his head shaved.\nSTYLE: whole head shaved smooth with a razor; even skin tone; subtle, healthy sheen; no stubble or nicks. KEY DIFFERENCE: Razor-smooth with a faint healthy sheen and no stubble at all. Do not show any stubble, a tuft, a shadow or a hairline.\nCALLOUTS:\n1. Smooth scalp: Razor close, no stubble.\n2. Even outline: Clean around the ears.\n3. Healthy sheen: Moisturised, not greasy.\n4. Smooth nape: Shaved clean.",
       "older": false
     },
     "H31": {
       "name": "Crop Fade",
-      "block": "ITEM: H31 Crop Fade\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: French crop top about 4 cm, choppy and pushed forward, with a short, slightly uneven fringe; sides mid fade from skin to #2; matte finish.\nCALLOUTS:\n1. Rough top: Choppy, pushed forward.\n2. Short fringe: Above the eyebrows.\n3. Mid skin fade: #0 to #2.\n4. Matte finish: Dry wax.",
+      "block": "ITEM: H31 Crop Fade\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: French crop top about 4 cm, choppy and pushed forward, with a short, slightly uneven fringe; sides mid fade from skin to #2; matte finish. KEY DIFFERENCE: The French crop top is paired with a mid skin fade, so skin shows on the sides, and the fringe stays short and uneven. Do not show tapered sides with hair, or a straight level fringe.\nCALLOUTS:\n1. Rough top: Choppy, pushed forward.\n2. Short fringe: Above the eyebrows.\n3. Mid skin fade: #0 to #2.\n4. Matte finish: Dry wax.",
       "older": false
     },
     "H32": {
       "name": "Burst Fade",
-      "block": "ITEM: H32 Burst Fade\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: fade curving in a half circle around the ear, bare skin at the ear blending out to #3; back of the head left longer at #4; top about 6 cm.\nCALLOUTS:\n1. Half circle: Fade curves around the ear.\n2. Longer back: Machine #4 behind.\n3. Smooth blend: Skin to #3.\n4. Top length: About 6 cm.",
+      "block": "ITEM: H32 Burst Fade\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: fade curving in a half circle around the ear, bare skin at the ear blending out to #3; back of the head left longer at #4; top about 6 cm. KEY DIFFERENCE: The fade makes a half circle only around the ear, with bare skin at the ear, and the back of the head is left longer at #4. Do not show a level fade line or a back faded to skin.\nCALLOUTS:\n1. Half circle: Fade curves around the ear.\n2. Longer back: Machine #4 behind.\n3. Smooth blend: Skin to #3.\n4. Top length: About 6 cm.",
       "older": false
     },
     "H33": {
       "name": "Mohawk",
-      "block": "ITEM: H33 Mohawk\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: a strip about 4 cm wide (2 fingers) from forehead to crown, about 7 cm long, standing straight up with strong gel; sides very short, #0 to #1; strip edges slightly blended.\nCALLOUTS:\n1. Standing strip: 2 fingers wide.\n2. Straight up: Strong gel hold.\n3. Very short sides: #0 to #1.\n4. Blended edges: Soft strip line.",
+      "block": "ITEM: H33 Mohawk\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: a strip about 4 cm wide (2 fingers) from forehead to crown, about 7 cm long, standing straight up with strong gel; sides very short, #0 to #1; strip edges slightly blended. KEY DIFFERENCE: A narrow strip about 4 cm wide stands straight up about 7 cm tall with strong gel, and the sides are very short (#0 to #1). Do not show a soft ridge, a curved fade arc or hair on the sides.\nCALLOUTS:\n1. Standing strip: 2 fingers wide.\n2. Straight up: Strong gel hold.\n3. Very short sides: #0 to #1.\n4. Blended edges: Soft strip line.",
       "older": false
     },
     "H34": {
       "name": "Modern Mullet",
-      "block": "ITEM: H34 Modern Mullet\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: short sides with a low fade; textured top about 6 cm with a short, messy fringe; longer hair at the back of the neck, 9-10 cm, blended into the top.\nCALLOUTS:\n1. Short sides: Low fade.\n2. Textured top: About 6 cm.\n3. Long back: Blended, 4-5 fingers.\n4. Messy fringe: Short and loose.",
+      "block": "ITEM: H34 Modern Mullet\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: short sides with a low fade; textured top about 6 cm with a short, messy fringe; longer hair at the back of the neck, 9-10 cm, blended into the top. KEY DIFFERENCE: A low fade on the sides, a short messy fringe, and a back of 9 to 10 cm blending into the top and stopping above the collar. Do not show a back past the collar, a high fade or a long shaggy top.\nCALLOUTS:\n1. Short sides: Low fade.\n2. Textured top: About 6 cm.\n3. Long back: Blended, 4-5 fingers.\n4. Messy fringe: Short and loose.",
       "older": false
     },
     "H35": {
       "name": "Mushroom Cut",
-      "block": "ITEM: H35 Mushroom Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: rounded top about 10 cm that falls evenly all around like a cap; full fringe to the eyebrows; short #2 underneath at the lower sides and back; soft, smooth finish.\nCALLOUTS:\n1. Rounded shape: Falls evenly all round.\n2. Full fringe: To the eyebrows.\n3. Short underneath: #2 at the lower sides.\n4. Soft finish: Smooth, light spray.",
+      "block": "ITEM: H35 Mushroom Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: rounded top about 10 cm that falls evenly all around like a cap; full fringe to the eyebrows; short #2 underneath at the lower sides and back; soft, smooth finish. KEY DIFFERENCE: A smooth, round cap shape with a full, even fringe to the eyebrows and a short #2 underneath; no layers and no sharp edges. Do not show a step, texture, a part or any point-cutting.\nCALLOUTS:\n1. Rounded shape: Falls evenly all round.\n2. Full fringe: To the eyebrows.\n3. Short underneath: #2 at the lower sides.\n4. Soft finish: Smooth, light spray.",
       "older": false
     },
     "H36": {
       "name": "Comma Hair",
-      "block": "ITEM: H36 Comma Hair\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: top about 9 cm; fringe parted to one side and curled inward at the end like a comma, falling to the eyebrows; sides two-block at #3; soft, glossy finish.\nCALLOUTS:\n1. Comma curl: Fringe curls inward.\n2. Side part: Fringe falls to one side.\n3. Brow length: Reaches the eyebrows.\n4. Short sides: Two-block underneath.",
+      "block": "ITEM: H36 Comma Hair\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: top about 9 cm; fringe parted to one side and curled inward at the end like a comma, falling to the eyebrows; sides two-block at #3; soft, glossy finish. KEY DIFFERENCE: The fringe ends curl inward in a clear comma shape at the eyebrows, glossy, over two-block sides at #3. Do not show a straight fringe, a blunt edge or a matte finish.\nCALLOUTS:\n1. Comma curl: Fringe curls inward.\n2. Side part: Fringe falls to one side.\n3. Brow length: Reaches the eyebrows.\n4. Short sides: Two-block underneath.",
       "older": false
     },
     "H37": {
       "name": "Korean Perm",
-      "block": "ITEM: H37 Korean Perm\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: two-block base; top about 9 cm with soft, loose, even S-shaped perm waves; airy volume; wavy fringe to the eyebrows.\nCALLOUTS:\n1. Soft waves: Loose perm curls.\n2. Airy volume: Light, not frizzy.\n3. Wavy fringe: To the eyebrows.\n4. Short sides: Two-block base.",
+      "block": "ITEM: H37 Korean Perm\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: two-block base; top about 9 cm with soft, loose, even S-shaped perm waves; airy volume; wavy fringe to the eyebrows. KEY DIFFERENCE: Soft, even S-shaped waves through a 9 cm top on a two-block base, with a wavy fringe. Do not show spirals, tight curls, a flat top or a fade.\nCALLOUTS:\n1. Soft waves: Loose perm curls.\n2. Airy volume: Light, not frizzy.\n3. Wavy fringe: To the eyebrows.\n4. Short sides: Two-block base.",
       "older": false
     },
     "H38": {
       "name": "Brush Up",
-      "block": "ITEM: H38 Brush Up\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2 blending to #3; top about 5 cm, brushed straight up evenly from the forehead; light wax hold.\nCALLOUTS:\n1. Brushed up: Even height across the top.\n2. Top length: About 5 cm.\n3. Short sides: #2 to #3.\n4. Light hold: Wax, natural shine.",
+      "block": "ITEM: H38 Brush Up\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2 blending to #3; top about 5 cm, brushed straight up evenly from the forehead; light wax hold. KEY DIFFERENCE: The top is brushed straight up evenly from the forehead to a flat height of about 5 cm, with no sweep back. Do not show hair swept back, a front lift only, spikes or a shine.\nCALLOUTS:\n1. Brushed up: Even height across the top.\n2. Top length: About 5 cm.\n3. Short sides: #2 to #3.\n4. Light hold: Wax, natural shine.",
       "older": false
     },
     "H39": {
       "name": "Natural Curls",
-      "block": "ITEM: H39 Natural Curls\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with natural curls for this style.\nSTYLE: medium curls, 9-10 cm on top and about 6 cm on the sides, with a round, even outline; defined with curl cream; bulk removed.\nCALLOUTS:\n1. Defined curls: Curl cream, no frizz.\n2. Even outline: Round, balanced shape.\n3. Shorter sides: About 6 cm.\n4. Light weight: Bulk thinned out.",
+      "block": "ITEM: H39 Natural Curls\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with natural curls for this style.\nSTYLE: medium curls, 9-10 cm on top and about 6 cm on the sides, with a round, even outline; defined with curl cream; bulk removed. KEY DIFFERENCE: Medium curls with a round outline, 9 to 10 cm on top and 6 cm at the sides; the whole shape is full. Do not show a fade, tight afro coils or straight sections.\nCALLOUTS:\n1. Defined curls: Curl cream, no frizz.\n2. Even outline: Round, balanced shape.\n3. Shorter sides: About 6 cm.\n4. Light weight: Bulk thinned out.",
       "older": false
     },
     "H40": {
       "name": "Shoulder Length",
-      "block": "ITEM: H40 Shoulder Length\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with hair grown to his shoulders.\nSTYLE: long straight-to-wavy hair worn loose to the shoulders, with light face-framing layers and healthy ends.\nCALLOUTS:\n1. Shoulder length: Worn loose.\n2. Face-framing layers: Light around the face.\n3. Healthy ends: No split ends.\n4. Natural movement: Soft and light.",
+      "block": "ITEM: H40 Shoulder Length\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: three-quarter front, facing left\nCHARACTER NOTE: same man, with hair grown to his shoulders.\nSTYLE: long straight-to-wavy hair worn loose to the shoulders, with light face-framing layers and healthy ends. KEY DIFFERENCE: The hair is worn loose and stops at the shoulders with only light face-framing layers. Do not show hair below the shoulders, heavy layers or a tied-back style.\nCALLOUTS:\n1. Shoulder length: Worn loose.\n2. Face-framing layers: Light around the face.\n3. Healthy ends: No split ends.\n4. Natural movement: Soft and light.",
       "older": false
     },
     "H41": {
       "name": "School Cut",
-      "block": "ITEM: H41 School Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: neat, conservative short cut; sides and back machine #2; top about 3 cm, combed neatly; ears fully clear; fringe above the eyebrows; collar clear; no fade and no design.\nCALLOUTS:\n1. Ears clear: Sides short and neat.\n2. Above the brows: Front kept short.\n3. Collar clear: Tidy back.\n4. Neat top: About 3 cm, combed.",
+      "block": "ITEM: H41 School Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: neat, conservative short cut; sides and back machine #2; top about 3 cm, combed neatly; ears fully clear; fringe above the eyebrows; collar clear; no fade and no design. KEY DIFFERENCE: A plain, conservative cut: no fade, no design, ears clear, a plain fringe above the eyebrows and nothing styled. Do not show texture, a part, a fade or any sharp line.\nCALLOUTS:\n1. Ears clear: Sides short and neat.\n2. Above the brows: Front kept short.\n3. Collar clear: Tidy back.\n4. Neat top: About 3 cm, combed.",
       "older": false
     },
     "H42": {
       "name": "Pushed Back",
-      "block": "ITEM: H42 Pushed Back\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 8 cm pushed back from the forehead with a soft matte finish and natural movement; no shine.\nCALLOUTS:\n1. Pushed back: Soft and natural.\n2. Matte finish: No shine.\n3. Tapered sides: #3 to #2.\n4. Clean nape: Neat neck line.",
+      "block": "ITEM: H42 Pushed Back\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 8 cm pushed back from the forehead with a soft matte finish and natural movement; no shine. KEY DIFFERENCE: Soft, matte and natural, with visible movement and no shine; the top is pushed back but not combed flat. Do not show a glossy finish, comb tracks or a slick look.\nCALLOUTS:\n1. Pushed back: Soft and natural.\n2. Matte finish: No shine.\n3. Tapered sides: #3 to #2.\n4. Clean nape: Neat neck line.",
       "older": false
     },
     "H43": {
       "name": "Dandy Cut",
-      "block": "ITEM: H43 Dandy Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 7 cm swept softly to one side with natural volume at the roots; light fringe falling to the eyebrows; soft matte finish.\nCALLOUTS:\n1. Soft sweep: Top swept to one side.\n2. Light fringe: To the eyebrows.\n3. Tapered sides: #3 to #2.\n4. Natural volume: Lifted at the roots.",
+      "block": "ITEM: H43 Dandy Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 7 cm swept softly to one side with natural volume at the roots; light fringe falling to the eyebrows; soft matte finish. KEY DIFFERENCE: The top is swept to one side with soft root volume and a light fringe to the eyebrows, with a gentle matte finish. Do not show a long heavy fringe, a hard part or a fade.\nCALLOUTS:\n1. Soft sweep: Top swept to one side.\n2. Light fringe: To the eyebrows.\n3. Tapered sides: #3 to #2.\n4. Natural volume: Lifted at the roots.",
       "older": false
     },
     "H44": {
       "name": "See-Through Bangs",
-      "block": "ITEM: H44 See-Through Bangs\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3, clean and tidy; top about 7 cm; thin, wispy see-through fringe to the eyebrows with the forehead showing through the strands; airy, soft texture; light matte finish.\nCALLOUTS:\n1. Wispy fringe: Forehead shows through.\n2. Brow length: Reaches the eyebrows.\n3. Airy texture: Thinned and light.\n4. Short sides: Neat and tidy.",
+      "block": "ITEM: H44 See-Through Bangs\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3, clean and tidy; top about 7 cm; thin, wispy see-through fringe to the eyebrows with the forehead showing through the strands; airy, soft texture; light matte finish. KEY DIFFERENCE: The fringe is thin and wispy, with skin showing through the strands. Do not show a blunt, thick or heavy fringe.\nCALLOUTS:\n1. Wispy fringe: Forehead shows through.\n2. Brow length: Reaches the eyebrows.\n3. Airy texture: Thinned and light.\n4. Short sides: Neat and tidy.",
       "older": false
     },
     "H45": {
       "name": "Leaf Cut",
-      "block": "ITEM: H45 Leaf Cut\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: top about 9 cm, layered and parted in the centre; fringe in two soft pieces falling to the cheekbones with the ends flicking outward like leaves; sides short and tidy at #3; soft, airy finish.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Leaf flick: Ends curl outward.\n3. Face-framing: Falls to the cheekbones.\n4. Light layers: Soft and airy.",
+      "block": "ITEM: H45 Leaf Cut\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: top about 9 cm, layered and parted in the centre; fringe in two soft pieces falling to the cheekbones with the ends flicking outward like leaves; sides short and tidy at #3; soft, airy finish. KEY DIFFERENCE: Two fringe pieces fall to the cheekbones and flick outward at the ends like leaves, parted in the centre. Do not show a straight fringe, curtains tucked back or a fringe to the eyebrows.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Leaf flick: Ends curl outward.\n3. Face-framing: Falls to the cheekbones.\n4. Light layers: Soft and airy.",
       "older": false
     },
     "H46": {
       "name": "Down Perm",
-      "block": "ITEM: H46 Down Perm\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides about 1.5 cm lying flat and smooth against the head after a down perm; top about 7 cm, natural and full, pushed slightly up and back; slim, neat head shape with no puffy sides; soft matte finish.\nCALLOUTS:\n1. Flat sides: Lie close to the head.\n2. Full top: Natural volume.\n3. Neat shape: Slim, no puff.\n4. Easy daily: Almost no styling.",
+      "block": "ITEM: H46 Down Perm\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides about 1.5 cm lying flat and smooth against the head after a down perm; top about 7 cm, natural and full, pushed slightly up and back; slim, neat head shape with no puffy sides; soft matte finish. KEY DIFFERENCE: The sides lie flat and tight against the head, with a slim head shape, while the top keeps natural volume. Do not show waves, puffy sides or curl on the sides.\nCALLOUTS:\n1. Flat sides: Lie close to the head.\n2. Full top: Natural volume.\n3. Neat shape: Slim, no puff.\n4. Easy daily: Almost no styling.",
       "older": false
     },
     "H47": {
       "name": "Regent Cut",
-      "block": "ITEM: H47 Regent Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 9 cm swept back and slightly to the sides from a soft part; a little lift at the front; soft natural shine from light pomade; tidy nape.\nCALLOUTS:\n1. Swept back: Soft part, natural lift.\n2. Front lift: A little volume.\n3. Tapered sides: #3 to #2.\n4. Soft shine: Light pomade.",
+      "block": "ITEM: H47 Regent Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: sides machine #3, tapering to #2 at the neck; top about 9 cm swept back and slightly to the sides from a soft part; a little lift at the front; soft natural shine from light pomade; tidy nape. KEY DIFFERENCE: A 9 cm top is swept back and slightly outward from a soft part, with a little front lift and a light polished shine. Do not show a flat slick finish, a heavy fringe or a matte look.\nCALLOUTS:\n1. Swept back: Soft part, natural lift.\n2. Front lift: A little volume.\n3. Tapered sides: #3 to #2.\n4. Soft shine: Light pomade.",
       "older": false
     },
     "H48": {
       "name": "Hush Cut",
-      "block": "ITEM: H48 Hush Cut\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: medium-length layered cut; soft feathery layers around the face falling to the cheeks; top about 10 cm with light layers; back reaching the collar; ends lightly thinned; sides over the ears; smooth, airy, natural finish.\nCALLOUTS:\n1. Soft layers: Feathery, not choppy.\n2. Face-framing: Falls to the cheeks.\n3. Light ends: Thinned and airy.\n4. Natural flow: Easy movement.",
+      "block": "ITEM: H48 Hush Cut\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: medium-length layered cut; soft feathery layers around the face falling to the cheeks; top about 10 cm with light layers; back reaching the collar; ends lightly thinned; sides over the ears; smooth, airy, natural finish. KEY DIFFERENCE: Feathery face-framing layers fall to the cheeks and the back reaches the collar, smooth and airy. Do not show choppy, shaggy layers or hair past the collar.\nCALLOUTS:\n1. Soft layers: Feathery, not choppy.\n2. Face-framing: Falls to the cheeks.\n3. Light ends: Thinned and airy.\n4. Natural flow: Easy movement.",
       "older": false
     },
     "H49": {
       "name": "Edgar Cut",
-      "block": "ITEM: H49 Edgar Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: mid skin fade on the sides, #0 up to #3; top about 6 cm, thick and even, combed forward; blunt fringe cut dead straight across the forehead, just above the eyebrows; sharp, clean edges; matte finish.\nCALLOUTS:\n1. Blunt fringe: Straight across.\n2. Mid skin fade: #0 to #3.\n3. Thick top: Full and even.\n4. Sharp edges: Cleaned with a razor.",
+      "block": "ITEM: H49 Edgar Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: mid skin fade on the sides, #0 up to #3; top about 6 cm, thick and even, combed forward; blunt fringe cut dead straight across the forehead, just above the eyebrows; sharp, clean edges; matte finish. KEY DIFFERENCE: A mid skin fade with a dead-straight blunt fringe cut just above the eyebrows over a thick, even top. Do not show a textured fringe, a soft fringe, a diagonal cut or tapered sides.\nCALLOUTS:\n1. Blunt fringe: Straight across.\n2. Mid skin fade: #0 to #3.\n3. Thick top: Full and even.\n4. Sharp edges: Cleaned with a razor.",
       "older": false
     },
     "H50": {
       "name": "Flat Top",
-      "block": "ITEM: H50 Flat Top\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: top about 3 cm brushed straight up and trimmed perfectly flat and level; sides and back machine #1, short and tight; sharp square corners where the top meets the sides; clean neck line; matte finish.\nCALLOUTS:\n1. Flat top: Level like a table.\n2. Tight sides: Machine #1.\n3. Square corners: Sharp at the top edge.\n4. Clean nape: Neat neck line.",
+      "block": "ITEM: H50 Flat Top\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: top about 3 cm brushed straight up and trimmed perfectly flat and level; sides and back machine #1, short and tight; sharp square corners where the top meets the sides; clean neck line; matte finish. KEY DIFFERENCE: The top is brushed straight up and cut perfectly flat and level, 3 cm tall with sharp square corners; sides and back are a tight #1. Do not show a rounded top or any texture.\nCALLOUTS:\n1. Flat top: Level like a table.\n2. Tight sides: Machine #1.\n3. Square corners: Sharp at the top edge.\n4. Clean nape: Neat neck line.",
       "older": false
     },
     "H51": {
       "name": "Natural Afro",
-      "block": "ITEM: H51 Natural Afro\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: tight, natural curls about 9 cm long on top and sides, picked out into a full, round, even shape; neatly edged hairline and sideburns; defined curls with no frizz; soft sheen.\nCALLOUTS:\n1. Full curls: Round and even.\n2. Neat edges: Hairline lined up.\n3. Even outline: Balanced shape.\n4. Curl cream: Soft, no frizz.",
+      "block": "ITEM: H51 Natural Afro\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: tight, natural curls about 9 cm long on top and sides, picked out into a full, round, even shape; neatly edged hairline and sideburns; defined curls with no frizz; soft sheen. KEY DIFFERENCE: Tight curls are picked out into a full round shape about 9 cm all round, with no taper at the sides. Do not show a fade, short sides or a flat top.\nCALLOUTS:\n1. Full curls: Round and even.\n2. Neat edges: Hairline lined up.\n3. Even outline: Balanced shape.\n4. Curl cream: Soft, no frizz.",
       "older": false
     },
     "H52": {
       "name": "Textured Fringe",
-      "block": "ITEM: H52 Textured Fringe\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: low taper on the sides, #1 at the bottom blending to #3; top about 6 cm, choppy and textured, pushed forward into an uneven fringe that covers the upper forehead; matte finish.\nCALLOUTS:\n1. Textured fringe: Choppy, pushed forward.\n2. Low taper: #1 to #3.\n3. Messy top: Matte texture.\n4. Clean neck: Tidy nape.",
+      "block": "ITEM: H52 Textured Fringe\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: low taper on the sides, #1 at the bottom blending to #3; top about 6 cm, choppy and textured, pushed forward into an uneven fringe that covers the upper forehead; matte finish. KEY DIFFERENCE: An uneven fringe covers the upper forehead over a low taper, choppy and messy. Do not show a straight, level or diagonal fringe, or a fade to skin.\nCALLOUTS:\n1. Textured fringe: Choppy, pushed forward.\n2. Low taper: #1 to #3.\n3. Messy top: Matte texture.\n4. Clean neck: Tidy nape.",
       "older": false
     },
     "H53": {
       "name": "Hard Part",
-      "block": "ITEM: H53 Hard Part\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2, tapering to #1 at the neck; top about 6 cm combed neatly to the side; a thin, clean line shaved along the side parting; light pomade shine.\nCALLOUTS:\n1. Shaved part: Thin, sharp line.\n2. Side-combed top: Neat and smart.\n3. Tapered sides: #2 to #1.\n4. Light shine: Pomade.",
+      "block": "ITEM: H53 Hard Part\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: three-quarter front, facing left\nSTYLE: sides machine #2, tapering to #1 at the neck; top about 6 cm combed neatly to the side; a thin, clean line shaved along the side parting; light pomade shine. KEY DIFFERENCE: A thin shaved line along the side parting is the focus; the sides are tapered with no bare skin. Do not show a skin fade, a soft unmarked part or a quiff.\nCALLOUTS:\n1. Shaved part: Thin, sharp line.\n2. Side-combed top: Neat and smart.\n3. Tapered sides: #2 to #1.\n4. Light shine: Pomade.",
       "older": false
     },
     "H54": {
       "name": "Temple Fade",
-      "block": "ITEM: H54 Temple Fade\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: top about 4 cm and sides about 2 cm, at natural length; a small fade from skin to #2 only around the temples, sideburns and nape; sharp lined-up hairline at the forehead and temples; square sideburns; matte finish.\nCALLOUTS:\n1. Temple fade: Skin to #2.\n2. Line-up: Sharp hairline.\n3. Square sideburns: Clean edges.\n4. Faded nape: Neat back.",
+      "block": "ITEM: H54 Temple Fade\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: top about 4 cm and sides about 2 cm, at natural length; a small fade from skin to #2 only around the temples, sideburns and nape; sharp lined-up hairline at the forehead and temples; square sideburns; matte finish. KEY DIFFERENCE: Only a small fade at the temples, sideburns and nape, with a sharp lined-up hairline and square sideburns; the rest stays at natural length. Do not show a fade up the side or a rounded hairline.\nCALLOUTS:\n1. Temple fade: Skin to #2.\n2. Line-up: Sharp hairline.\n3. Square sideburns: Clean edges.\n4. Faded nape: Neat back.",
       "older": false
     },
     "H55": {
       "name": "V-Cut",
-      "block": "ITEM: H55 V-Cut\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2, tapering down; top about 5 cm combed back; the hairline at the back of the neck cut into a sharp V pointing down at the centre, with clean shaved skin below it; tidy, matte finish.\nCALLOUTS:\n1. V neckline: Sharp point at the back.\n2. Clean below: Shaved with a razor.\n3. Tapered sides: Short and neat.\n4. Easy top: Combed back.",
+      "block": "ITEM: H55 V-Cut\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2, tapering down; top about 5 cm combed back; the hairline at the back of the neck cut into a sharp V pointing down at the centre, with clean shaved skin below it; tidy, matte finish. KEY DIFFERENCE: The nape hairline is cut to a sharp V pointing down at the centre, clearly visible in the back view. Do not show a straight, curved or rounded nape.\nCALLOUTS:\n1. V neckline: Sharp point at the back.\n2. Clean below: Shaved with a razor.\n3. Tapered sides: Short and neat.\n4. Easy top: Combed back.",
       "older": false
     },
     "H56": {
       "name": "Ponytail",
-      "block": "ITEM: H56 Ponytail\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown to the shoulders for this style.\nSTYLE: shoulder-length hair pulled back smoothly and tied low at the nape, the ponytail hanging to the upper back; long sides, no undercut; soft natural texture.\nCALLOUTS:\n1. Low tie: At the nape.\n2. Smooth pull-back: No bumps on top.\n3. Healthy ends: Trimmed, no split ends.\n4. Soft tie: Loose, not tight.",
+      "block": "ITEM: H56 Ponytail\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown to the shoulders for this style.\nSTYLE: shoulder-length hair pulled back smoothly and tied low at the nape, the ponytail hanging to the upper back; long sides, no undercut; soft natural texture. KEY DIFFERENCE: All the hair is tied low at the nape and hangs down to the upper back, with long sides and no undercut. Do not show a bun, a high tie or shaved sides.\nCALLOUTS:\n1. Low tie: At the nape.\n2. Smooth pull-back: No bumps on top.\n3. Healthy ends: Trimmed, no split ends.\n4. Soft tie: Loose, not tight.",
       "older": false
     },
     "H57": {
       "name": "Top Knot",
-      "block": "ITEM: H57 Top Knot\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with long hair on top for this style.\nSTYLE: sides and back machine #1 with a clean line where they meet the top; top hair about 18 cm, pulled back smoothly and tied into a neat knot at the crown; soft natural texture.\nCALLOUTS:\n1. Crown knot: Tied high.\n2. Short sides: Machine #1.\n3. Clean line: Where sides meet the top.\n4. Smooth pull-back: No bumps.",
+      "block": "ITEM: H57 Top Knot\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with long hair on top for this style.\nSTYLE: sides and back machine #1 with a clean line where they meet the top; top hair about 18 cm, pulled back smoothly and tied into a neat knot at the crown; soft natural texture. KEY DIFFERENCE: The sides and back are machine #1 with a clean line, and only the top hair is pulled into a neat knot at the crown. Do not show long sides, a loose lower half or a ponytail.\nCALLOUTS:\n1. Crown knot: Tied high.\n2. Short sides: Machine #1.\n3. Clean line: Where sides meet the top.\n4. Smooth pull-back: No bumps.",
       "older": false
     },
     "H58": {
       "name": "Half Bun",
-      "block": "ITEM: H58 Half Bun\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown past the chin for this style.\nSTYLE: hair between chin and shoulder length; the top half, from the temples up, gathered back and tied into a small bun at the back of the crown; the lower half hangs loose over the ears and neck; light layers; soft natural texture.\nCALLOUTS:\n1. Half bun: Top half tied up.\n2. Hair down: Lower half loose.\n3. Light layers: Soft movement.\n4. Healthy ends: Trimmed.",
+      "block": "ITEM: H58 Half Bun\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown past the chin for this style.\nSTYLE: hair between chin and shoulder length; the top half, from the temples up, gathered back and tied into a small bun at the back of the crown; the lower half hangs loose over the ears and neck; light layers; soft natural texture. KEY DIFFERENCE: Only the top half, from the temples up, is tied in a small bun, while the lower half hangs loose over the ears and neck. Do not show a full bun, a ponytail or shaved sides.\nCALLOUTS:\n1. Half bun: Top half tied up.\n2. Hair down: Lower half loose.\n3. Light layers: Soft movement.\n4. Healthy ends: Trimmed.",
       "older": false
     },
     "H59": {
       "name": "Dreadlocks",
-      "block": "ITEM: H59 Dreadlocks\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with mature dreadlocks grown for this style.\nSTYLE: neat, even dreadlocks about 1 cm thick, reaching the shoulders; tidy roots in even square sections; clean hairline; healthy, matte locks.\nCALLOUTS:\n1. Even locks: About 1 cm thick.\n2. Neat roots: Square sections.\n3. Clean hairline: Tidy edges.\n4. Shoulder length: Healthy ends.",
+      "block": "ITEM: H59 Dreadlocks\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with mature dreadlocks grown for this style.\nSTYLE: neat, even dreadlocks about 1 cm thick, reaching the shoulders; tidy roots in even square sections; clean hairline; healthy, matte locks. KEY DIFFERENCE: Every lock is round, even and about 1 cm thick, set in tidy square sections at the root. Do not show uneven locks, twists, braids or loose hair.\nCALLOUTS:\n1. Even locks: About 1 cm thick.\n2. Neat roots: Square sections.\n3. Clean hairline: Tidy edges.\n4. Shoulder length: Healthy ends.",
       "older": false
     },
     "H60": {
       "name": "Tapered Afro",
-      "block": "ITEM: H60 Tapered Afro\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: tight natural curls about 5 cm long on top, picked out into a short, full, even shape; sides and nape tapered close from #3 down to #1; neat edged hairline and sideburns; defined curls with no frizz; soft sheen.\nCALLOUTS:\n1. Full top: Short, even curls.\n2. Tapered sides: #3 down to #1.\n3. Neat edges: Hairline lined up.\n4. Curl cream: Soft, no frizz.",
+      "block": "ITEM: H60 Tapered Afro\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: tight natural curls about 5 cm long on top, picked out into a short, full, even shape; sides and nape tapered close from #3 down to #1; neat edged hairline and sideburns; defined curls with no frizz; soft sheen. KEY DIFFERENCE: A short 5 cm top with the sides and nape tapered close from #3 to #1, neatly edged. Do not show a full round afro or a skin fade.\nCALLOUTS:\n1. Full top: Short, even curls.\n2. Tapered sides: #3 down to #1.\n3. Neat edges: Hairline lined up.\n4. Curl cream: Soft, no frizz.",
       "older": false
     },
     "H61": {
       "name": "Curly Curtains",
-      "block": "ITEM: H61 Curly Curtains\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-length natural curls, about 8 cm on top, parted in the centre and falling softly to each side of the face over the ears; sides tapered neatly at the nape; defined curls with no frizz; soft natural shine.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Soft curtains: Fall to the cheeks.\n3. Defined curls: No frizz.\n4. Neat nape: Tapered tidy.",
+      "block": "ITEM: H61 Curly Curtains\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-length natural curls, about 8 cm on top, parted in the centre and falling softly to each side of the face over the ears; sides tapered neatly at the nape; defined curls with no frizz; soft natural shine. KEY DIFFERENCE: Natural defined curls, parted in the centre and falling over the ears. Do not show straight hair, a fade or a flat top.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Soft curtains: Fall to the cheeks.\n3. Defined curls: No frizz.\n4. Neat nape: Tapered tidy.",
       "older": false
     },
     "H62": {
       "name": "Tousled Waves",
-      "block": "ITEM: H62 Tousled Waves\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-length natural waves, about 9 cm on top, left loose and tousled with soft texture; sides over the ears blended softly; tidy nape; matte, natural finish with no frizz.\nCALLOUTS:\n1. Loose waves: Natural movement.\n2. Messy top: Soft texture.\n3. Blended sides: Over the ears.\n4. Tidy nape: Neat at the collar.",
+      "block": "ITEM: H62 Tousled Waves\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-length natural waves, about 9 cm on top, left loose and tousled with soft texture; sides over the ears blended softly; tidy nape; matte, natural finish with no frizz. KEY DIFFERENCE: Loose natural waves about 9 cm with soft tousled texture and a tidy nape. Do not show long windswept hair, tight curls or a perm look.\nCALLOUTS:\n1. Loose waves: Natural movement.\n2. Messy top: Soft texture.\n3. Blended sides: Over the ears.\n4. Tidy nape: Neat at the collar.",
       "older": false
     },
     "H63": {
       "name": "Low Mullet",
-      "block": "ITEM: H63 Low Mullet\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown a little longer at the back for this style.\nSTYLE: sides machine #2 blending into a top of about 5 cm; the back left a little longer, 3–4 cm, falling softly to the nape in a subtle point; tidy ears; light matte finish.\nCALLOUTS:\n1. Longer back: Just a little extra.\n2. Short sides: Machine #2.\n3. Neat top: About 5 cm.\n4. Soft point: At the nape.",
+      "block": "ITEM: H63 Low Mullet\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown a little longer at the back for this style.\nSTYLE: sides machine #2 blending into a top of about 5 cm; the back left a little longer, 3–4 cm, falling softly to the nape in a subtle point; tidy ears; light matte finish. KEY DIFFERENCE: The back is only slightly longer, 3 to 4 cm, falling in a subtle point at the nape; the sides blend with no fade. Do not show length at the collar or a high fade.\nCALLOUTS:\n1. Longer back: Just a little extra.\n2. Short sides: Machine #2.\n3. Neat top: About 5 cm.\n4. Soft point: At the nape.",
       "older": false
     },
     "H64": {
       "name": "Mid Mullet",
-      "block": "ITEM: H64 Mid Mullet\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown longer at the back for this style.\nSTYLE: sides machine #2, blending up to a textured top of about 7 cm; the back left to the collar at 8–10 cm with soft layers; clean ears; natural matte finish.\nCALLOUTS:\n1. Balanced length: Back to the collar.\n2. Textured top: About 7 cm.\n3. Short sides: Machine #2.\n4. Soft layers: Top meets back.",
+      "block": "ITEM: H64 Mid Mullet\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown longer at the back for this style.\nSTYLE: sides machine #2, blending up to a textured top of about 7 cm; the back left to the collar at 8–10 cm with soft layers; clean ears; natural matte finish. KEY DIFFERENCE: The back reaches the collar at 8 to 10 cm with soft layers, with the sides at #2 and no skin fade. Do not show a back to the shoulders or faded sides.\nCALLOUTS:\n1. Balanced length: Back to the collar.\n2. Textured top: About 7 cm.\n3. Short sides: Machine #2.\n4. Soft layers: Top meets back.",
       "older": false
     },
     "H65": {
       "name": "High Mullet",
-      "block": "ITEM: H65 High Mullet\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown long at the back for this style.\nSTYLE: sides faded high from #0 to #3 up to the temples; textured top of about 8 cm; the back left long at 12–15 cm, reaching the collar with soft layers; strong contrast between sides and back; matte finish.\nCALLOUTS:\n1. High fade: Sides #0 to #3.\n2. Long back: To the collar.\n3. Textured top: About 8 cm.\n4. Strong contrast: Short to long.",
+      "block": "ITEM: H65 High Mullet\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown long at the back for this style.\nSTYLE: sides faded high from #0 to #3 up to the temples; textured top of about 8 cm; the back left long at 12–15 cm, reaching the collar with soft layers; strong contrast between sides and back; matte finish. KEY DIFFERENCE: The sides are faded high to skin up to the temples, giving strong contrast with a long back of 12 to 15 cm. Do not show tapered sides or a short back.\nCALLOUTS:\n1. High fade: Sides #0 to #3.\n2. Long back: To the collar.\n3. Textured top: About 8 cm.\n4. Strong contrast: Short to long.",
       "older": false
     },
     "H66": {
       "name": "Full Mullet",
-      "block": "ITEM: H66 Full Mullet\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown long for this style.\nSTYLE: short top of about 6 cm and sides at machine #2; the back left long, reaching the shoulders with soft long layers; clean ears; relaxed natural texture.\nCALLOUTS:\n1. Long back: To the shoulders.\n2. Short top: About 6 cm.\n3. Short sides: Machine #2.\n4. Long layers: Soft movement.",
+      "block": "ITEM: H66 Full Mullet\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with hair grown long for this style.\nSTYLE: short top of about 6 cm and sides at machine #2; the back left long, reaching the shoulders with soft long layers; clean ears; relaxed natural texture. KEY DIFFERENCE: The back reaches the shoulders with long soft layers over a short top and #2 sides. Do not show a back at the collar, a fade or a long top.\nCALLOUTS:\n1. Long back: To the shoulders.\n2. Short top: About 6 cm.\n3. Short sides: Machine #2.\n4. Long layers: Soft movement.",
       "older": false
     },
     "H67": {
       "name": "Korean Mullet",
-      "block": "ITEM: H67 Korean Mullet\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with hair grown out at the back for this style.\nSTYLE: soft layered mullet: sides machine #3 tapering to #2; top about 8 cm in light layers; a thin wispy fringe to the eyebrows; the back left to the collar with feathered layers; airy, natural finish.\nCALLOUTS:\n1. Wispy fringe: Thin and light.\n2. Soft layers: Airy, not choppy.\n3. Longer back: To the collar.\n4. Tapered sides: #3 to #2.",
+      "block": "ITEM: H67 Korean Mullet\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with hair grown out at the back for this style.\nSTYLE: soft layered mullet: sides machine #3 tapering to #2; top about 8 cm in light layers; a thin wispy fringe to the eyebrows; the back left to the collar with feathered layers; airy, natural finish. KEY DIFFERENCE: Soft, wispy, feathered layers with a thin see-through fringe, airy rather than choppy. Do not show a heavy fringe, a fade or tough textured layers.\nCALLOUTS:\n1. Wispy fringe: Thin and light.\n2. Soft layers: Airy, not choppy.\n3. Longer back: To the collar.\n4. Tapered sides: #3 to #2.",
       "older": false
     },
     "H68": {
       "name": "Greaser",
-      "block": "ITEM: H68 Greaser\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nSTYLE: sides machine #1, tight and tapered; top about 9 cm combed back and slightly up from the forehead, with a small lift at the front and a high-shine pomade finish; clean neck line.\nCALLOUTS:\n1. Combed-back top: High and shiny.\n2. Front lift: A little height.\n3. Tight sides: Machine #1.\n4. Pomade shine: Strong hold.",
+      "block": "ITEM: H68 Greaser\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nSTYLE: sides machine #1, tight and tapered; top about 9 cm combed back and slightly up from the forehead, with a small lift at the front and a high-shine pomade finish; clean neck line. KEY DIFFERENCE: A high-shine pomade finish, combed back and slightly up with a small front lift, over tight #1 sides. Do not show a matte finish, tall volume or fade lines.\nCALLOUTS:\n1. Combed-back top: High and shiny.\n2. Front lift: A little height.\n3. Tight sides: Machine #1.\n4. Pomade shine: Strong hold.",
       "older": false
     },
     "H69": {
       "name": "Curly Crop",
-      "block": "ITEM: H69 Curly Crop\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: short, tight natural curls about 3–4 cm on top in a neat round crop; sides tapered from #2 down to #1; clean edged hairline; defined curls with no frizz; soft sheen.\nCALLOUTS:\n1. Cropped curls: Short and defined.\n2. Neat taper: #2 down to #1.\n3. Round shape: Even outline.\n4. Clean edges: Hairline lined up.",
+      "block": "ITEM: H69 Curly Crop\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: short, tight natural curls about 3–4 cm on top in a neat round crop; sides tapered from #2 down to #1; clean edged hairline; defined curls with no frizz; soft sheen. KEY DIFFERENCE: A short, tight round crop of curls, 3 to 4 cm, with sides tapered but not faded to skin. Do not show a fade, long curls or an afro.\nCALLOUTS:\n1. Cropped curls: Short and defined.\n2. Neat taper: #2 down to #1.\n3. Round shape: Even outline.\n4. Clean edges: Hairline lined up.",
       "older": false
     },
     "H70": {
       "name": "Angular Fringe",
-      "block": "ITEM: H70 Angular Fringe\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #2 tapering to #1; top about 5 cm; the fringe combed across the forehead and cut at a sharp diagonal angle, longer to the eyebrow on one side; clean neck line; matte finish.\nCALLOUTS:\n1. Angled fringe: Sharp diagonal cut.\n2. Short sides: Machine #2.\n3. Matte finish: A little clay.\n4. Clean nape: Neat neck line.",
+      "block": "ITEM: H70 Angular Fringe\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #2 tapering to #1; top about 5 cm; the fringe combed across the forehead and cut at a sharp diagonal angle, longer to the eyebrow on one side; clean neck line; matte finish. KEY DIFFERENCE: The fringe is cut at a sharp diagonal angle, longer to one eyebrow, while both sides taper at the same length. Do not show a soft curved fringe, a very short side or one-sided volume.\nCALLOUTS:\n1. Angled fringe: Sharp diagonal cut.\n2. Short sides: Machine #2.\n3. Matte finish: A little clay.\n4. Clean nape: Neat neck line.",
       "older": false
     },
     "H71": {
       "name": "Asymmetrical Cut",
-      "block": "ITEM: H71 Asymmetrical Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: asymmetrical cut: one side short at machine #2 and tapered, the other side left long at about 7 cm and swept diagonally across the forehead; textured top; clean neck line; matte finish.\nCALLOUTS:\n1. Swept side: Long and diagonal.\n2. Short side: Machine #2.\n3. Textured top: Soft and light.\n4. Clean nape: Neat neck line.",
+      "block": "ITEM: H71 Asymmetrical Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: asymmetrical cut: one side short at machine #2 and tapered, the other side left long at about 7 cm and swept diagonally across the forehead; textured top; clean neck line; matte finish. KEY DIFFERENCE: One side is clearly short and tapered at #2, the other long at 7 cm and swept diagonally across the forehead. Do not show matching lengths on both sides.\nCALLOUTS:\n1. Swept side: Long and diagonal.\n2. Short side: Machine #2.\n3. Textured top: Soft and light.\n4. Clean nape: Neat neck line.",
       "older": false
     },
     "H72": {
       "name": "Blowout Taper",
-      "block": "ITEM: H72 Blowout Taper\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: full, voluminous top of about 8 cm blow-dried up and back with soft body; sides tapered from #2 down to #1; clean neck line; natural light shine.\nCALLOUTS:\n1. Full top: Blow-dried up and back.\n2. Soft body: Light layers.\n3. Clean taper: #2 down to #1.\n4. Light shine: Natural finish.",
+      "block": "ITEM: H72 Blowout Taper\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: full, voluminous top of about 8 cm blow-dried up and back with soft body; sides tapered from #2 down to #1; clean neck line; natural light shine. KEY DIFFERENCE: Soft, full body blown up and back with a gentle natural shine over a light taper. Do not show a hard shine, a slick finish or a fade to skin.\nCALLOUTS:\n1. Full top: Blow-dried up and back.\n2. Soft body: Light layers.\n3. Clean taper: #2 down to #1.\n4. Light shine: Natural finish.",
       "older": false
     },
     "H73": {
       "name": "Curtain Fringe",
-      "block": "ITEM: H73 Curtain Fringe\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-length straight hair about 8 cm on top, parted in the centre, the fringe falling softly to each side past the eyebrows like curtains; sides tapered tidy; soft natural finish.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Soft curtains: Fall past the brows.\n3. Tapered sides: Tidy and short.\n4. Natural finish: Light cream.",
+      "block": "ITEM: H73 Curtain Fringe\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-length straight hair about 8 cm on top, parted in the centre, the fringe falling softly to each side past the eyebrows like curtains; sides tapered tidy; soft natural finish. KEY DIFFERENCE: Straight hair parted in the centre, with the fringe falling past the eyebrows on both sides and the sides tapered tidy. Do not show curls, a fade or hair covering the ears.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Soft curtains: Fall past the brows.\n3. Tapered sides: Tidy and short.\n4. Natural finish: Light cream.",
       "older": false
     },
     "H74": {
       "name": "Layered Long Cut",
-      "block": "ITEM: H74 Layered Long Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: long hair reaching below the shoulders with soft, even layers for movement; face-framing layers falling to the chin; healthy, smooth ends; natural shine.\nCALLOUTS:\n1. Long layers: Soft movement.\n2. Face-framing: Falls to the chin.\n3. Healthy ends: Trimmed, no split ends.\n4. Natural shine: Smooth finish.",
+      "block": "ITEM: H74 Layered Long Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: long hair reaching below the shoulders with soft, even layers for movement; face-framing layers falling to the chin; healthy, smooth ends; natural shine. KEY DIFFERENCE: The hair falls below the shoulders with soft, even layers and chin-length face-framing. Do not show hair at the shoulders, a tie or choppy layers.\nCALLOUTS:\n1. Long layers: Soft movement.\n2. Face-framing: Falls to the chin.\n3. Healthy ends: Trimmed, no split ends.\n4. Natural shine: Smooth finish.",
       "older": false
     },
     "H75": {
       "name": "Shaggy Cut",
-      "block": "ITEM: H75 Shaggy Cut\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: shaggy cut with choppy, uneven layers all over, about 9 cm on top; a loose fringe to the eyebrows; the sides and back falling over the ears and collar; messy, lived-in matte texture.\nCALLOUTS:\n1. Choppy layers: Uneven and messy.\n2. Loose fringe: To the eyebrows.\n3. Lived-in texture: Matte, not neat.\n4. Easy shape: Relaxed outline.",
+      "block": "ITEM: H75 Shaggy Cut\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: shaggy cut with choppy, uneven layers all over, about 9 cm on top; a loose fringe to the eyebrows; the sides and back falling over the ears and collar; messy, lived-in matte texture. KEY DIFFERENCE: Choppy, uneven layers all over with no distinct longer back, and a loose messy fringe. Do not show short clipped sides or a longer layered back.\nCALLOUTS:\n1. Choppy layers: Uneven and messy.\n2. Loose fringe: To the eyebrows.\n3. Lived-in texture: Matte, not neat.\n4. Easy shape: Relaxed outline.",
       "older": false
     },
     "H76": {
       "name": "Bro Flow",
-      "block": "ITEM: H76 Bro Flow\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-to-long hair of about 14 cm, swept back off the forehead and flowing over the ears towards the collar, with light layers; healthy shine; natural, relaxed finish.\nCALLOUTS:\n1. Flowing length: Back over the ears.\n2. Light layers: Soft movement.\n3. Healthy shine: Smooth, not dry.\n4. Neat ends: Trimmed tidy.",
+      "block": "ITEM: H76 Bro Flow\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: medium-to-long hair of about 14 cm, swept back off the forehead and flowing over the ears towards the collar, with light layers; healthy shine; natural, relaxed finish. KEY DIFFERENCE: About 14 cm swept back off the forehead and flowing over the ears toward the collar, with natural movement. Do not show hair tucked behind the ears, a part or a slick finish.\nCALLOUTS:\n1. Flowing length: Back over the ears.\n2. Light layers: Soft movement.\n3. Healthy shine: Smooth, not dry.\n4. Neat ends: Trimmed tidy.",
       "older": false
     },
     "H77": {
       "name": "Broccoli Cut",
-      "block": "ITEM: H77 Broccoli Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: full, rounded top of about 8 cm with light layers, like the head of a broccoli, over short tapered sides at machine #2; a soft fringe to the eyebrows; natural, fluffy finish.\nCALLOUTS:\n1. Round top: Full and even.\n2. Short sides: Machine #2.\n3. Soft fringe: To the eyebrows.\n4. Light layers: Body and movement.",
+      "block": "ITEM: H77 Broccoli Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: full, rounded top of about 8 cm with light layers, like the head of a broccoli, over short tapered sides at machine #2; a soft fringe to the eyebrows; natural, fluffy finish. KEY DIFFERENCE: A full, round top like a broccoli head, light layers, over short tapered sides and a soft fringe. Do not show a flat top, a mushroom cap or a long fringe.\nCALLOUTS:\n1. Round top: Full and even.\n2. Short sides: Machine #2.\n3. Soft fringe: To the eyebrows.\n4. Light layers: Body and movement.",
       "older": false
     },
     "H78": {
       "name": "Fluffy Hair",
-      "block": "ITEM: H78 Fluffy Hair\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: soft, airy top of about 7 cm with natural volume and light layers; a gentle fringe to the eyebrows; short tapered sides; light, fluffy finish with no heavy product.\nCALLOUTS:\n1. Fluffy top: Soft and airy.\n2. Light layers: Natural body.\n3. Gentle fringe: To the eyebrows.\n4. Tidy sides: Short and tapered.",
+      "block": "ITEM: H78 Fluffy Hair\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: soft, airy top of about 7 cm with natural volume and light layers; a gentle fringe to the eyebrows; short tapered sides; light, fluffy finish with no heavy product. KEY DIFFERENCE: A lighter, airier top of about 7 cm with a gentle fringe and soft volume. Do not show a heavy round top, strong shape or a firm hold.\nCALLOUTS:\n1. Fluffy top: Soft and airy.\n2. Light layers: Natural body.\n3. Gentle fringe: To the eyebrows.\n4. Tidy sides: Short and tapered.",
       "older": false
     },
     "H79": {
       "name": "Surfer Hair",
-      "block": "ITEM: H79 Surfer Hair\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: loose natural waves about 12 cm long on top, with a windswept, beachy texture; long sides falling over the ears; light layers; soft, sun-kissed matte finish.\nCALLOUTS:\n1. Loose waves: Natural and beachy.\n2. Windswept top: Messy, relaxed.\n3. Long sides: Over the ears.\n4. Salt texture: Matte, not oily.",
+      "block": "ITEM: H79 Surfer Hair\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: loose natural waves about 12 cm long on top, with a windswept, beachy texture; long sides falling over the ears; light layers; soft, sun-kissed matte finish. KEY DIFFERENCE: Long 12 cm loose waves with a windswept beachy texture and long sides falling over the ears. Do not show a tidy nape, short sides or tight curls.\nCALLOUTS:\n1. Loose waves: Natural and beachy.\n2. Windswept top: Messy, relaxed.\n3. Long sides: Over the ears.\n4. Salt texture: Matte, not oily.",
       "older": false
     },
     "H80": {
       "name": "Warrior Cut",
-      "block": "ITEM: H80 Warrior Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: long, heavy fringe of about 9 cm falling over the forehead to the eyebrows, over short tidy sides at machine #2; thick, straight hair; strong shape; matte finish.\nCALLOUTS:\n1. Heavy fringe: Long and bold.\n2. Short sides: Machine #2.\n3. Strong shape: Sharp outline.\n4. Matte finish: A little clay.",
+      "block": "ITEM: H80 Warrior Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: long, heavy fringe of about 9 cm falling over the forehead to the eyebrows, over short tidy sides at machine #2; thick, straight hair; strong shape; matte finish. KEY DIFFERENCE: A heavy, long straight fringe of about 9 cm over short tidy #2 sides, with a strong, solid shape. Do not show a wispy fringe, soft layers or a round cap.\nCALLOUTS:\n1. Heavy fringe: Long and bold.\n2. Short sides: Machine #2.\n3. Strong shape: Sharp outline.\n4. Matte finish: A little clay.",
       "older": false
     },
     "H81": {
       "name": "Spin Swallow Perm",
-      "block": "ITEM: H81 Spin Swallow Perm\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: Korean spin swallow perm: top about 9 cm in loose spiral curls swept out to the sides with a soft fringe; sides machine #3, tapered; airy volume, no frizz; soft natural shine.\nCALLOUTS:\n1. Spiral curls: Swirled to the sides.\n2. Airy volume: Full and soft.\n3. Soft fringe: To the eyebrows.\n4. Tapered sides: Short and tidy.",
+      "block": "ITEM: H81 Spin Swallow Perm\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: Korean spin swallow perm: top about 9 cm in loose spiral curls swept out to the sides with a soft fringe; sides machine #3, tapered; airy volume, no frizz; soft natural shine. KEY DIFFERENCE: Loose spiral curls swept outward at the sides of the top, with airy volume. Do not show even S-waves, flat sides or tight curls.\nCALLOUTS:\n1. Spiral curls: Swirled to the sides.\n2. Airy volume: Full and soft.\n3. Soft fringe: To the eyebrows.\n4. Tapered sides: Short and tidy.",
       "older": false
     },
     "H82": {
       "name": "Off-Centre Part",
-      "block": "ITEM: H82 Off-Centre Part\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 7 cm with a part set just off the middle, hair sweeping softly to both sides; natural shine; neat, relaxed finish.\nCALLOUTS:\n1. Off-centre part: Just off the middle.\n2. Soft sweep: Falls to both sides.\n3. Tapered sides: #3 to #2.\n4. Natural shine: Light cream.",
+      "block": "ITEM: H82 Off-Centre Part\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 7 cm with a part set just off the middle, hair sweeping softly to both sides; natural shine; neat, relaxed finish. KEY DIFFERENCE: The part sits just off the middle and the hair sweeps softly to both sides, with a neat finish. Do not show a centre part or a hard side part.\nCALLOUTS:\n1. Off-centre part: Just off the middle.\n2. Soft sweep: Falls to both sides.\n3. Tapered sides: #3 to #2.\n4. Natural shine: Light cream.",
       "older": false
     },
     "H83": {
       "name": "Shadow Perm",
-      "block": "ITEM: H83 Shadow Perm\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: Korean shadow perm: top about 8 cm with soft, subtle waves and natural volume at the roots; a light see-through fringe; sides machine #3, tapered; soft matte shine, no frizz.\nCALLOUTS:\n1. Subtle waves: Soft and loose.\n2. Root volume: Natural body.\n3. Light fringe: See-through.\n4. Tapered sides: Short and tidy.",
+      "block": "ITEM: H83 Shadow Perm\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: Korean shadow perm: top about 8 cm with soft, subtle waves and natural volume at the roots; a light see-through fringe; sides machine #3, tapered; soft matte shine, no frizz. KEY DIFFERENCE: Subtle waves with soft root volume and a light see-through fringe. Do not show defined curls or a heavy perm.\nCALLOUTS:\n1. Subtle waves: Soft and loose.\n2. Root volume: Natural body.\n3. Light fringe: See-through.\n4. Tapered sides: Short and tidy.",
       "older": false
     },
     "H84": {
       "name": "Nerd Perm",
-      "block": "ITEM: H84 Nerd Perm\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: Korean round perm: top about 8 cm in soft, even, rounded curls forming a neat boyish outline, with a light fringe to the eyebrows; sides machine #3, tapered; soft shine, no frizz.\nCALLOUTS:\n1. Round curls: Soft and even.\n2. Neat outline: Boyish shape.\n3. Light fringe: To the eyebrows.\n4. Tapered sides: Short and tidy.",
+      "block": "ITEM: H84 Nerd Perm\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: Korean round perm: top about 8 cm in soft, even, rounded curls forming a neat boyish outline, with a light fringe to the eyebrows; sides machine #3, tapered; soft shine, no frizz. KEY DIFFERENCE: Soft, even, rounded curls forming a neat boyish outline with a light fringe. Do not show loose waves or spirals.\nCALLOUTS:\n1. Round curls: Soft and even.\n2. Neat outline: Boyish shape.\n3. Light fringe: To the eyebrows.\n4. Tapered sides: Short and tidy.",
       "older": false
     },
     "H85": {
       "name": "Korean Fade",
-      "block": "ITEM: H85 Korean Fade\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: clean mid fade on the sides and back from #0 to #3; soft textured top of about 7 cm falling slightly forward with a light see-through fringe; clean neck line; soft matte finish.\nCALLOUTS:\n1. Clean fade: #0 to #3.\n2. Soft top: Textured, falls forward.\n3. Light fringe: See-through.\n4. Clean nape: Sharp neck line.",
+      "block": "ITEM: H85 Korean Fade\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: clean mid fade on the sides and back from #0 to #3; soft textured top of about 7 cm falling slightly forward with a light see-through fringe; clean neck line; soft matte finish. KEY DIFFERENCE: A clean mid fade with a soft, textured top falling slightly forward and a light see-through fringe. Do not show a blunt fringe, a high fade or a heavy product look.\nCALLOUTS:\n1. Clean fade: #0 to #3.\n2. Soft top: Textured, falls forward.\n3. Light fringe: See-through.\n4. Clean nape: Sharp neck line.",
       "older": false
     },
     "H86": {
       "name": "Permed Waves",
-      "block": "ITEM: H86 Permed Waves\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: loose permed waves about 10 cm long on top and over the ears, with natural movement and body; light layers; soft shine, no frizz; relaxed finish.\nCALLOUTS:\n1. Loose waves: Natural movement.\n2. Soft body: Light layers.\n3. Smooth shine: No frizz.\n4. Easy length: Over the ears.",
+      "block": "ITEM: H86 Permed Waves\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: loose permed waves about 10 cm long on top and over the ears, with natural movement and body; light layers; soft shine, no frizz; relaxed finish. KEY DIFFERENCE: Looser, longer waves of about 10 cm on top and over the ears with natural movement. Do not show tight perm curls or a short top.\nCALLOUTS:\n1. Loose waves: Natural movement.\n2. Soft body: Light layers.\n3. Smooth shine: No frizz.\n4. Easy length: Over the ears.",
       "older": false
     },
     "H87": {
       "name": "Layered Undercut Sweep",
-      "block": "ITEM: H87 Layered Undercut Sweep\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: sides machine #1 with a clean undercut line; top about 9 cm in light layers swept to one side across the forehead with texture and movement; clean neck line; matte finish.\nCALLOUTS:\n1. Swept top: Layered, to one side.\n2. Undercut sides: Machine #1.\n3. Light layers: Texture and movement.\n4. Matte finish: Clay or paste.",
+      "block": "ITEM: H87 Layered Undercut Sweep\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: sides machine #1 with a clean undercut line; top about 9 cm in light layers swept to one side across the forehead with texture and movement; clean neck line; matte finish. KEY DIFFERENCE: A clean undercut line with a layered top swept to one side across the forehead. Do not show a blended fade or a flat slick finish.\nCALLOUTS:\n1. Swept top: Layered, to one side.\n2. Undercut sides: Machine #1.\n3. Light layers: Texture and movement.\n4. Matte finish: Clay or paste.",
       "older": false
     },
     "H88": {
       "name": "Korean Ivy League",
-      "block": "ITEM: H88 Korean Ivy League\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #2 tapering to #1; top about 5 cm with a soft side part and a light see-through fringe; soft, natural texture; neat, smart finish with a gentle matte shine.\nCALLOUTS:\n1. Soft side part: Neat and natural.\n2. Light fringe: See-through.\n3. Tapered sides: #2 to #1.\n4. Soft finish: Light wax.",
+      "block": "ITEM: H88 Korean Ivy League\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #2 tapering to #1; top about 5 cm with a soft side part and a light see-through fringe; soft, natural texture; neat, smart finish with a gentle matte shine. KEY DIFFERENCE: A short top of about 5 cm with a soft side part and a light see-through fringe over sides tapering #2 to #1. Do not show a blunt fringe or a heavy part.\nCALLOUTS:\n1. Soft side part: Neat and natural.\n2. Light fringe: See-through.\n3. Tapered sides: #2 to #1.\n4. Soft finish: Light wax.",
       "older": false
     },
     "H89": {
       "name": "K-Pop Cut",
-      "block": "ITEM: H89 K-Pop Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: soft layered Korean idol cut: sides machine #3 tapering to #2; top about 8 cm in smooth layers; a light see-through fringe to the eyebrows; tidy neck line; smooth, glossy natural finish.\nCALLOUTS:\n1. Soft layers: Smooth and light.\n2. See-through fringe: To the eyebrows.\n3. Tidy sides: #3 to #2.\n4. Glossy finish: Light wax.",
+      "block": "ITEM: H89 K-Pop Cut\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: soft layered Korean idol cut: sides machine #3 tapering to #2; top about 8 cm in smooth layers; a light see-through fringe to the eyebrows; tidy neck line; smooth, glossy natural finish. KEY DIFFERENCE: Smooth, glossy layers to the eyebrows with a light see-through fringe over tidy #3 sides. Do not show textured, messy layers or a fade.\nCALLOUTS:\n1. Soft layers: Smooth and light.\n2. See-through fringe: To the eyebrows.\n3. Tidy sides: #3 to #2.\n4. Glossy finish: Light wax.",
       "older": false
     },
     "H90": {
       "name": "Low Fade Quiff",
-      "block": "ITEM: H90 Low Fade Quiff\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: low fade: bare skin to #1 at the nape and just above the ear, blending to #3 low on the sides; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. Low fade: Starts above the ear.\n3. Height at front: About 8 cm.\n4. Clean blend: Fade into the top.",
+      "block": "ITEM: H90 Low Fade Quiff\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: left side profile\nSTYLE: low fade: bare skin to #1 at the nape and just above the ear, blending to #3 low on the sides; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish. KEY DIFFERENCE: The fade line stays low, just above the ear, with a soft blend, and the quiff lifts at the front. Do not show a fade up at the temple.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. Low fade: Starts above the ear.\n3. Height at front: About 8 cm.\n4. Clean blend: Fade into the top.",
       "older": false
     },
     "H91": {
       "name": "Mid Fade Quiff",
-      "block": "ITEM: H91 Mid Fade Quiff\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: mid fade starting at the temple, halfway up the side of the head, bare skin at the bottom blending through #1, #2 and #3; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. Mid fade: Starts at the temple.\n3. Height at front: About 8 cm.\n4. Clean blend: Fade into the top.",
+      "block": "ITEM: H91 Mid Fade Quiff\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: mid fade starting at the temple, halfway up the side of the head, bare skin at the bottom blending through #1, #2 and #3; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish. KEY DIFFERENCE: The fade starts at the temple with a clear skin zone below it, and the quiff lifts at the front. Do not show a fade near the ear or one that rises to the crown.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. Mid fade: Starts at the temple.\n3. Height at front: About 8 cm.\n4. Clean blend: Fade into the top.",
       "older": false
     },
     "H92": {
       "name": "High Fade Quiff",
-      "block": "ITEM: H92 High Fade Quiff\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: high fade starting high near the temple line, bare skin at the bottom blending quickly through #1 and #2; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. High fade: Starts near the temple.\n3. Strong contrast: Short sides, tall top.\n4. Clean blend: Fade into the top.",
+      "block": "ITEM: H92 High Fade Quiff\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: left side profile\nSTYLE: high fade starting high near the temple line, bare skin at the bottom blending quickly through #1 and #2; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish. KEY DIFFERENCE: The fade starts high near the temple line with the strongest contrast to a tall quiff. Do not show a low or soft blend.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. High fade: Starts near the temple.\n3. Strong contrast: Short sides, tall top.\n4. Clean blend: Fade into the top.",
       "older": false
     },
     "H93": {
       "name": "Taper Fade Quiff",
-      "block": "ITEM: H93 Taper Fade Quiff\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: taper fade: sides machine #3, tapering to #1 only at the sideburns and nape with a smooth blend and no bare skin; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. Soft taper: Sideburns and neck only.\n3. Height at front: About 8 cm.\n4. Natural sides: Short, but not skin.",
+      "block": "ITEM: H93 Taper Fade Quiff\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: left side profile\nSTYLE: taper fade: sides machine #3, tapering to #1 only at the sideburns and nape with a smooth blend and no bare skin; top about 8 cm at the front, lifted up and back with volume, shorter (about 4 cm) toward the crown; natural wax finish. KEY DIFFERENCE: Only the sideburn and nape taper, with no bare skin around the ears, under a front-lifted quiff. Do not show a skin fade.\nCALLOUTS:\n1. Lifted front: Blown up and back.\n2. Soft taper: Sideburns and neck only.\n3. Height at front: About 8 cm.\n4. Natural sides: Short, but not skin.",
       "older": false
     },
     "H94": {
       "name": "Textured Quiff",
-      "block": "ITEM: H94 Textured Quiff\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2 tapering to #1 at the neck; top about 8 cm at the front, lifted up and back with loose, messy texture and visible separation, shorter toward the crown; dry, matte clay finish with no shine.\nCALLOUTS:\n1. Loose lift: Up and back, not stiff.\n2. Matte texture: Visible separation.\n3. Height at front: About 8 cm.\n4. Tapered sides: #2 to #1.",
+      "block": "ITEM: H94 Textured Quiff\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: left side profile\nSTYLE: sides machine #2 tapering to #1 at the neck; top about 8 cm at the front, lifted up and back with loose, messy texture and visible separation, shorter toward the crown; dry, matte clay finish with no shine. KEY DIFFERENCE: A loose, matte, messy lift with visible strand separation over tapered sides. Do not show shine, comb tracks or a neat styled finish.\nCALLOUTS:\n1. Loose lift: Up and back, not stiff.\n2. Matte texture: Visible separation.\n3. Height at front: About 8 cm.\n4. Tapered sides: #2 to #1.",
       "older": false
     },
     "H95": {
       "name": "Iron Perm",
-      "block": "ITEM: H95 Iron Perm\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm in soft layers with loose, gentle bends and lift at the roots; a light fringe to the eyebrows; natural, soft sheen.\nCALLOUTS:\n1. Root lift: Soft volume at the roots.\n2. Gentle bends: Loose, not curly.\n3. Light fringe: To the brows.\n4. Tidy sides: #3 to #2.",
+      "block": "ITEM: H95 Iron Perm\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm in soft layers with loose, gentle bends and lift at the roots; a light fringe to the eyebrows; natural, soft sheen. KEY DIFFERENCE: Soft root lift with a few gentle bends and an almost straight look. Do not show tight curls, S-waves or spirals.\nCALLOUTS:\n1. Root lift: Soft volume at the roots.\n2. Gentle bends: Loose, not curly.\n3. Light fringe: To the brows.\n4. Tidy sides: #3 to #2.",
       "older": false
     },
     "H96": {
       "name": "Baby Perm",
-      "block": "ITEM: H96 Baby Perm\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 6 cm of small, soft, loose curls with airy volume and a short fringe to the forehead; natural matte finish with no frizz.\nCALLOUTS:\n1. Small curls: Soft and loose.\n2. Airy volume: Fluffy top.\n3. Short fringe: Above the brows.\n4. Tidy sides: #3 to #2.",
+      "block": "ITEM: H96 Baby Perm\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 6 cm of small, soft, loose curls with airy volume and a short fringe to the forehead; natural matte finish with no frizz. KEY DIFFERENCE: Small, soft, loose curls on a short 6 cm top with airy volume. Do not show long curls or flat hair.\nCALLOUTS:\n1. Small curls: Soft and loose.\n2. Airy volume: Fluffy top.\n3. Short fringe: Above the brows.\n4. Tidy sides: #3 to #2.",
       "older": false
     },
     "H97": {
       "name": "C-Curl Perm",
-      "block": "ITEM: H97 C-Curl Perm\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 8–9 cm with the ends and the fringe curling gently inward in a soft C shape; a medium fringe to the eyebrows; smooth natural shine.\nCALLOUTS:\n1. C-curve ends: Curl inward.\n2. Soft fringe: To the brows.\n3. Smooth top: Even layers.\n4. Tidy sides: #3 to #2.",
+      "block": "ITEM: H97 C-Curl Perm\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 8–9 cm with the ends and the fringe curling gently inward in a soft C shape; a medium fringe to the eyebrows; smooth natural shine. KEY DIFFERENCE: The ends of the fringe and top curl inward in a soft C shape. Do not show S-waves or tight curls.\nCALLOUTS:\n1. C-curve ends: Curl inward.\n2. Soft fringe: To the brows.\n3. Smooth top: Even layers.\n4. Tidy sides: #3 to #2.",
       "older": false
     },
     "H98": {
       "name": "S-Curl Perm",
-      "block": "ITEM: H98 S-Curl Perm\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm in soft, flowing S-shaped waves with natural movement, pushed slightly off the forehead with a light fringe; matte natural finish.\nCALLOUTS:\n1. S-waves: Flowing and soft.\n2. Natural movement: Not tight.\n3. Light fringe: Parted gently.\n4. Tidy sides: #3 to #2.",
+      "block": "ITEM: H98 S-Curl Perm\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm in soft, flowing S-shaped waves with natural movement, pushed slightly off the forehead with a light fringe; matte natural finish. KEY DIFFERENCE: Flowing S-shaped waves run through the whole top. Do not show a single inward curl at the ends or straight hair.\nCALLOUTS:\n1. S-waves: Flowing and soft.\n2. Natural movement: Not tight.\n3. Light fringe: Parted gently.\n4. Tidy sides: #3 to #2.",
       "older": false
     },
     "H99": {
       "name": "Garma Perm",
-      "block": "ITEM: H99 Garma Perm\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm parted in the centre or slightly off-centre, with soft waves falling to each side and a gentle curve over the forehead; smooth natural shine.\nCALLOUTS:\n1. Centre part: Slightly off-centre.\n2. Soft waves: Fall to both sides.\n3. Gentle curve: Over the forehead.\n4. Tidy sides: #3 to #2.",
+      "block": "ITEM: H99 Garma Perm\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides machine #3 tapering to #2; top about 9 cm parted in the centre or slightly off-centre, with soft waves falling to each side and a gentle curve over the forehead; smooth natural shine. KEY DIFFERENCE: A centre part (or just off centre) with soft waves falling to both sides and a gentle curve over the forehead. Do not show a hard part or straight hair.\nCALLOUTS:\n1. Centre part: Slightly off-centre.\n2. Soft waves: Fall to both sides.\n3. Gentle curve: Over the forehead.\n4. Tidy sides: #3 to #2.",
       "older": false
     },
     "H100": {
       "name": "Shaolin Cut",
-      "block": "ITEM: H100 Shaolin Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with his head cut very close except one small tupi at the back of the crown.\nSTYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine, except one small tupi of black hair about 5 cm across and 8-10 cm long at the back of the crown, combed neatly with a clean outline around it; sharp even hairline; healthy matte scalp.\nCALLOUTS:\n1. Even shadow: 1 mm all over.\n2. Small tupi: At the back of the crown.\n3. Clean outline: Around the ears and tupi.\n4. Soft matte: Moisturised, not greasy.",
+      "block": "ITEM: H100 Shaolin Cut\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nCHARACTER NOTE: same man, with his head cut very close except one small tupi at the back of the crown.\nSTYLE: whole head cut to an even 1 mm shadow with no razor-smooth shine, except one small tupi of black hair about 5 cm across and 8-10 cm long at the back of the crown, combed neatly with a clean outline around it; sharp even hairline; healthy matte scalp. KEY DIFFERENCE: A fine 1 mm shadow, not razor smooth, with a small tupi at the crown. Do not show a shine, a razor-smooth scalp or a large tuft.\nCALLOUTS:\n1. Even shadow: 1 mm all over.\n2. Small tupi: At the back of the crown.\n3. Clean outline: Around the ears and tupi.\n4. Soft matte: Moisturised, not greasy.",
       "older": false
     },
     "H101": {
       "name": "Brahmin Cut",
-      "block": "ITEM: H101 Brahmin Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with his head shaved except one small tuft at the back of the crown.\nSTYLE: whole head shaved smooth with a razor except one small tuft of black hair about 5 cm across and 10 cm long at the back of the crown, combed neatly with a clean outline around it; even skin tone; healthy matte sheen; no stubble or nicks.\nCALLOUTS:\n1. Small tuft: At the back of the crown.\n2. Smooth scalp: Razor close.\n3. Clean outline: Around the tuft.\n4. Neat tuft: Combed and even.",
+      "block": "ITEM: H101 Brahmin Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with his head shaved except one small tuft at the back of the crown.\nSTYLE: whole head shaved smooth with a razor except one small tuft of black hair about 5 cm across and 10 cm long at the back of the crown, combed neatly with a clean outline around it; even skin tone; healthy matte sheen; no stubble or nicks. KEY DIFFERENCE: A razor-smooth scalp with a small neat tuft at the crown. Do not show stubble, a shadow or a large tuft.\nCALLOUTS:\n1. Small tuft: At the back of the crown.\n2. Smooth scalp: Razor close.\n3. Clean outline: Around the tuft.\n4. Neat tuft: Combed and even.",
       "older": false
     },
     "H102": {
       "name": "Mod Cut",
-      "block": "ITEM: H102 Mod Cut\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: straight blunt fringe resting on the eyebrows; top about 8-10 cm with layered sides covering the top of the ears; sharp point-cut edges; smooth glossy finish; neat nape.\nCALLOUTS:\n1. Straight fringe: At the brows.\n2. Layered sides: Over the ears.\n3. Sharp edges: Point-cut.\n4. Glossy finish: Light serum.",
+      "block": "ITEM: H102 Mod Cut\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: straight blunt fringe resting on the eyebrows; top about 8-10 cm with layered sides covering the top of the ears; sharp point-cut edges; smooth glossy finish; neat nape. KEY DIFFERENCE: A blunt straight fringe on the eyebrows, layered sides over the top of the ears, and sharp point-cut edges. Do not show a rounded cap, a wispy fringe or a fade.\nCALLOUTS:\n1. Straight fringe: At the brows.\n2. Layered sides: Over the ears.\n3. Sharp edges: Point-cut.\n4. Glossy finish: Light serum.",
       "older": false
     },
     "H103": {
       "name": "Burst Fade Mohawk",
-      "block": "ITEM: H103 Burst Fade Mohawk\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: narrow central strip about 6 cm long swept up and back; sides faded from bare skin in a sharp half-circle arc around each ear, blending to #2; back left slightly longer at #3; strong contrast; matte finish.\nCALLOUTS:\n1. Narrow strip: Swept up and back.\n2. Burst fade: Arc around the ear.\n3. Skin sides: Short and sharp.\n4. Matte hold: Clay or wax.",
+      "block": "ITEM: H103 Burst Fade Mohawk\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: narrow central strip about 6 cm long swept up and back; sides faded from bare skin in a sharp half-circle arc around each ear, blending to #2; back left slightly longer at #3; strong contrast; matte finish. KEY DIFFERENCE: A narrow central strip with a sharp half-circle fade arc around each ear and a slightly longer back. Do not show a soft ridge, a level fade or a wide strip.\nCALLOUTS:\n1. Narrow strip: Swept up and back.\n2. Burst fade: Arc around the ear.\n3. Skin sides: Short and sharp.\n4. Matte hold: Clay or wax.",
       "older": false
     },
     "H104": {
       "name": "Wavy Two-Block",
-      "block": "ITEM: H104 Wavy Two-Block\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: short clipped sides and back at machine #2; longer top about 8-9 cm with choppy layers and soft perm waves; a soft fringe to the eyebrows; clear step between sides and top; natural shine.\nCALLOUTS:\n1. Soft waves: Perm on top.\n2. Short sides: #2 clipped.\n3. Soft fringe: To the brows.\n4. Clear block: Top over sides.",
+      "block": "ITEM: H104 Wavy Two-Block\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: short clipped sides and back at machine #2; longer top about 8-9 cm with choppy layers and soft perm waves; a soft fringe to the eyebrows; clear step between sides and top; natural shine. KEY DIFFERENCE: A clear soft step between short clipped sides and a longer top with choppy perm waves. Do not show straight hair, tight curls or a fade.\nCALLOUTS:\n1. Soft waves: Perm on top.\n2. Short sides: #2 clipped.\n3. Soft fringe: To the brows.\n4. Clear block: Top over sides.",
       "older": false
     },
     "H105": {
       "name": "Caesar Fade",
-      "block": "ITEM: H105 Caesar Fade\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides and back faded from bare skin to #2; top about 3-4 cm, textured; short straight blunt fringe about 1-2 cm above the eyebrows; clean neck line; matte finish.\nCALLOUTS:\n1. Short fringe: Straight across.\n2. Textured top: 3–4 cm.\n3. Clean fade: Skin to #2.\n4. Matte finish: Light clay.",
+      "block": "ITEM: H105 Caesar Fade\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides and back faded from bare skin to #2; top about 3-4 cm, textured; short straight blunt fringe about 1-2 cm above the eyebrows; clean neck line; matte finish. KEY DIFFERENCE: A short, straight, blunt Caesar fringe 1 to 2 cm above the eyebrows over a clean skin fade. Do not show a long or messy fringe or tapered sides.\nCALLOUTS:\n1. Short fringe: Straight across.\n2. Textured top: 3–4 cm.\n3. Clean fade: Skin to #2.\n4. Matte finish: Light clay.",
       "older": false
     },
     "H106": {
       "name": "Middle Part Fade",
-      "block": "ITEM: H106 Middle Part Fade\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: centre-parted top of about 8-10 cm falling to each side over the forehead in light layers; sides and back tapered #3 to #1; tidy neck line; soft natural finish.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Curtain top: 8–10 cm.\n3. Tapered sides: #3 to #1.\n4. Soft finish: Light cream.",
+      "block": "ITEM: H106 Middle Part Fade\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: centre-parted top of about 8-10 cm falling to each side over the forehead in light layers; sides and back tapered #3 to #1; tidy neck line; soft natural finish. KEY DIFFERENCE: A centre-parted 8 to 10 cm top falling to both sides over a taper or fade. Do not show covered ears, curls or a heavy fringe.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Curtain top: 8–10 cm.\n3. Tapered sides: #3 to #1.\n4. Soft finish: Light cream.",
       "older": false
     },
     "B01": {
