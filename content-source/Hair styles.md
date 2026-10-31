@@ -1,6 +1,6 @@
 # Hair styles
 
-101 hair styles, from a shaved head to long hair, including Korean styles. 64 use a front photo. 37 use a side photo because the cut only shows clearly from the side.
+106 hair styles, from a shaved head to long hair, including Korean styles. 68 use a front photo. 38 use a side photo because the cut only shows clearly from the side.
 
 ## At a glance
 
@@ -107,6 +107,11 @@
 | H99 Garma Perm | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
 | H100 Shaolin Cut | Very short, small tupi | Medium | Oval, Square | All | Yes | Front |
 | H101 Brahmin Cut | No hair, small tuft | High | Oval, Square | All | Yes | Side |
+| H102 Mod Cut | Medium | Medium | Oval, Square, Long, Heart | Straight | No | Front |
+| H103 Burst Fade Mohawk | Short | High | Oval, Square | All | No | Side |
+| H104 Wavy Two-Block | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | Yes | Front |
+| H105 Caesar Fade | Short | Low | Oval, Square, Long, Heart | All | Yes | Front |
+| H106 Middle Part Fade | Medium | Medium | Oval, Square, Long, Heart | Straight, Wavy | No | Front |
 
 ## H01 Buzz Cut
 
@@ -3229,3 +3234,158 @@ A shaved head with a small tuft (shikha) at the crown.
 4. Whole head: machine #0 first, then shaving cream.
 5. Shave smooth with a new blade, with the hair growth.
 6. Trim the tuft to one length and comb it.
+
+## H102 Mod Cut
+
+A straight fringe with layered sides and sharp edges.
+
+**Description:** A 1960s-inspired cut: a straight, blunt fringe on the brows, layered sides that cover the top of the ears, and sharp edges made by point-cutting. Neat, retro and very graphic.
+
+- **Pick this if:** you have straight, thick hair and want a clean retro shape.
+- **Skip if:** your hair is curly or thin, or you do not like hair over your forehead.
+- **Daily:** 3 min: comb the fringe straight, a little light cream or serum.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 4 weeks
+- **Suits:** Oval, square, long and heart face · Straight hair
+- **Also called:** Mod, mop top
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a mod cut?** A straight-fringe cut with layered sides and sharp edges, inspired by 1960s style.
+- **How is it different from a mushroom cut?** A mod cut has layers and sharp point-cut edges. A mushroom cut is a soft, rounded cap.
+- **How often do I need a trim?** Trim the fringe every 4 weeks so it stays at the brows.
+- **Which product should I use?** A light cream and a little serum, for shine without weight.
+
+**Barber steps**
+
+1. Sides: layer to cover the top of the ears.
+2. Top: 8–10 cm, cut with scissors.
+3. Fringe: cut straight across at the brows.
+4. Point-cut the ends for sharp, soft edges.
+5. Check the line is even on both sides.
+6. Finish with a little cream or serum.
+
+## H103 Burst Fade Mohawk
+
+A narrow mohawk strip with a burst fade around the ears.
+
+**Description:** A Mohawk with a Burst Fade: the sides are faded from skin in a sharp arc around each ear, leaving a narrow strip of longer hair through the centre that is swept up and back.
+
+- **Pick this if:** you want a bold, edgy look with a sharp, modern fade.
+- **Skip if:** you have thin hair, or your workplace is strict.
+- **Daily:** 5 min: blow dry the strip up and back, medium-hold wax or clay.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 2 weeks
+- **Suits:** Oval and square face · All hair types
+- **Also called:** Fade mohawk, burst mohawk
+- **Main photo:** Side
+
+**FAQ**
+
+- **What is a burst fade mohawk?** A mohawk with the sides faded in a sharp half-circle arc around each ear, and a narrow strip of longer hair on top.
+- **How is it different from a plain mohawk?** The burst fade gives the sides a curved, sharp shape, so the strip stands out more.
+- **How often do I need a trim?** Every 2 weeks. The fade grows out quickly.
+- **Which product should I use?** Medium-hold wax or matte clay, with sea-salt spray first for thick hair.
+
+**Barber steps**
+
+1. Mark the strip: 3–4 fingers wide down the centre of the head.
+2. Sides: burst fade in an arc around each ear, skin to #2.
+3. Back: leave longer at #3.
+4. Strip: 6 cm, blended into the fade.
+5. Blow dry the strip up and back.
+6. Finish with wax or clay.
+
+## H104 Wavy Two-Block
+
+A two-block cut with soft perm waves through the top.
+
+**Description:** A Two-Block with a perm through the longer top, giving soft, choppy waves over short, clipped sides and back. Korean-inspired, with a soft fringe and lots of movement.
+
+- **Pick this if:** you have straight hair and want body, movement and a soft fringe.
+- **Skip if:** your hair is already very curly, or you cannot have a chemical treatment.
+- **Daily:** 4 min: scrunch in cream, blow dry the top, light wax.
+- **Weekly:** Conditioner once.
+- **Next barber visit:** in 4–5 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair · Thin hair OK
+- **Also called:** Two-block perm
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a wavy two-block?** A two-block cut with a perm on the top, so the longer top falls in soft waves over short sides.
+- **Do I need a perm?** For straight hair, yes. Naturally wavy hair can skip it.
+- **How long does it last?** About 3–5 months.
+- **Is it high maintenance?** A little. Scrunch in cream and blow dry the top.
+
+**Barber steps**
+
+1. Sides and back: machine #2, clipped short.
+2. Top: 8–9 cm, scissors, choppy layers.
+3. Wrap the top on rods and apply the perm lotion.
+4. Rinse, neutralise and dry.
+5. Cut a soft fringe to the brows.
+6. Scrunch in cream, blow dry, light wax.
+
+## H105 Caesar Fade
+
+A short Caesar fringe with faded sides.
+
+**Description:** A Caesar Cut with a short, straight fringe and textured top, finished with a clean fade on the sides and back. Sharper and more modern than the classic Caesar.
+
+- **Pick this if:** you want a short, neat cut with a bold fringe and clean sides.
+- **Skip if:** you want length on top.
+- **Daily:** 2 min: a little matte clay, fringe forward.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3 weeks
+- **Suits:** Oval, square, long and heart face · All hair types · Good for thin hair and a receding hairline
+- **Also called:** Textured Caesar fade
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a Caesar fade?** A Caesar cut with a short, straight fringe and textured top, with a fade on the sides and back.
+- **Does it hide a receding hairline?** Yes. The short fringe covers the front hairline.
+- **How often do I need a trim?** Every 3 weeks to keep the fade clean.
+- **Which product should I use?** Matte clay or paste.
+
+**Barber steps**
+
+1. Sides and back: fade from skin to #2.
+2. Top: 3–4 cm, scissors, point-cut for texture.
+3. Fringe: short and straight, 1–2 cm above the brows.
+4. Blend the top into the fade.
+5. Clean the neck and ears.
+6. Finish with matte clay, fringe forward.
+
+## H106 Middle Part Fade
+
+A centre part with the sides tapered or faded.
+
+**Description:** A Middle Part with longer hair falling to each side over the forehead, and the sides and back tapered or faded short. A clean, tidy version of the curtains look.
+
+- **Pick this if:** you want curtains on top with a tidy, short finish at the sides.
+- **Skip if:** your hair is very curly, or you want length at the sides.
+- **Daily:** 3 min: part in the centre, blow dry sideways, light cream.
+- **Weekly:** Nothing.
+- **Next barber visit:** in 3–4 weeks
+- **Suits:** Oval, square, long and heart face · Straight or wavy hair
+- **Also called:** Curtain fade, fade curtains
+- **Main photo:** Front
+
+**FAQ**
+
+- **What is a middle part fade?** Longer hair parted in the centre, with tapered or faded sides and back.
+- **Which hair works best?** Straight or slightly wavy hair, about 8–10 cm on top.
+- **How is it different from a curtain fringe?** The sides are faded short. A curtain fringe keeps more length at the sides.
+- **Which product should I use?** A styling cream or light mousse.
+
+**Barber steps**
+
+1. Sides and back: taper or fade, #3 to #1.
+2. Top: 8–10 cm, scissors, light layers.
+3. Part the hair in the centre.
+4. Shape the fringe to fall over the brows on both sides.
+5. Blend the top into the sides.
+6. Blow dry sideways, then a little light cream.

@@ -23,7 +23,7 @@ const items = clean.map((text) => {
   const [, id, name] = text.match(/^ITEM: ([HBMCL]\d{2,3}) (.+)$/m);
   return { id, name, text, older: /OLDER VERSION/.test(text) };
 });
-if (items.length !== 266) throw new Error(`expected 266 clean prompts, found ${items.length}`);
+if (items.length !== 271) throw new Error(`expected 271 clean prompts, found ${items.length}`);
 
 const groups = { H: 'Hair styles', B: 'Beards', M: 'Moustaches', C: 'Hair colours', L: 'Ready Looks' };
 const out = [

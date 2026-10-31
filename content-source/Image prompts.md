@@ -1442,6 +1442,76 @@ CALLOUTS:
 4. Neat tuft: Combed and even.
 ```
 
+### H102 Mod Cut
+
+```text
+ITEM: H102 Mod Cut
+BACKDROP: Sand (#D8CDBF).
+MAIN VIEW: straight front, head and shoulders
+STYLE: straight blunt fringe resting on the eyebrows; top about 8-10 cm with layered sides covering the top of the ears; sharp point-cut edges; smooth glossy finish; neat nape.
+CALLOUTS:
+1. Straight fringe: At the brows.
+2. Layered sides: Over the ears.
+3. Sharp edges: Point-cut.
+4. Glossy finish: Light serum.
+```
+
+### H103 Burst Fade Mohawk
+
+```text
+ITEM: H103 Burst Fade Mohawk
+BACKDROP: Plum (#B06A8F).
+MAIN VIEW: left side profile
+STYLE: narrow central strip about 6 cm long swept up and back; sides faded from bare skin in a sharp half-circle arc around each ear, blending to #2; back left slightly longer at #3; strong contrast; matte finish.
+CALLOUTS:
+1. Narrow strip: Swept up and back.
+2. Burst fade: Arc around the ear.
+3. Skin sides: Short and sharp.
+4. Matte hold: Clay or wax.
+```
+
+### H104 Wavy Two-Block
+
+```text
+ITEM: H104 Wavy Two-Block
+BACKDROP: Orange (#EC9465).
+MAIN VIEW: straight front, head and shoulders
+STYLE: short clipped sides and back at machine #2; longer top about 8-9 cm with choppy layers and soft perm waves; a soft fringe to the eyebrows; clear step between sides and top; natural shine.
+CALLOUTS:
+1. Soft waves: Perm on top.
+2. Short sides: #2 clipped.
+3. Soft fringe: To the brows.
+4. Clear block: Top over sides.
+```
+
+### H105 Caesar Fade
+
+```text
+ITEM: H105 Caesar Fade
+BACKDROP: Blush (#F7D9CE).
+MAIN VIEW: straight front, head and shoulders
+STYLE: sides and back faded from bare skin to #2; top about 3-4 cm, textured; short straight blunt fringe about 1-2 cm above the eyebrows; clean neck line; matte finish.
+CALLOUTS:
+1. Short fringe: Straight across.
+2. Textured top: 3–4 cm.
+3. Clean fade: Skin to #2.
+4. Matte finish: Light clay.
+```
+
+### H106 Middle Part Fade
+
+```text
+ITEM: H106 Middle Part Fade
+BACKDROP: Sky blue (#A9C9E8).
+MAIN VIEW: straight front, head and shoulders
+STYLE: centre-parted top of about 8-10 cm falling to each side over the forehead in light layers; sides and back tapered #3 to #1; tidy neck line; soft natural finish.
+CALLOUTS:
+1. Centre part: Even on both sides.
+2. Curtain top: 8–10 cm.
+3. Tapered sides: #3 to #1.
+4. Soft finish: Light cream.
+```
+
 ## Beard prompts
 
 Paste the fixed block, the beard category block, the item block below, then the avoid list. The haircut stays the same classic taper cut unless the item says otherwise.

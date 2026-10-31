@@ -7670,5 +7670,387 @@
       "Curly"
     ],
     "thinHairOk": true
+  },
+  {
+    "id": "H102",
+    "updated": "2026-10-30",
+    "slug": "mod-cut",
+    "name": "Mod Cut",
+    "shortLine": "A straight fringe with layered sides and sharp edges.",
+    "description": "A 1960s-inspired cut: a straight, blunt fringe on the brows, layered sides that cover the top of the ears, and sharp edges made by point-cutting. Neat, retro and very graphic.",
+    "pickIf": "you have straight, thick hair and want a clean retro shape.",
+    "skipIf": "your hair is curly or thin, or you do not like hair over your forehead.",
+    "daily": "3 min: comb the fringe straight, a little light cream or serum.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight hair",
+    "alsoCalled": [
+      "Mod",
+      "mop top"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Straight fringe",
+        "text": "At the brows."
+      },
+      {
+        "title": "Layered sides",
+        "text": "Over the ears."
+      },
+      {
+        "title": "Sharp edges",
+        "text": "Point-cut."
+      },
+      {
+        "title": "Glossy finish",
+        "text": "Light serum."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a mod cut?",
+        "a": "A straight-fringe cut with layered sides and sharp edges, inspired by 1960s style."
+      },
+      {
+        "q": "How is it different from a mushroom cut?",
+        "a": "A mod cut has layers and sharp point-cut edges. A mushroom cut is a soft, rounded cap."
+      },
+      {
+        "q": "How often do I need a trim?",
+        "a": "Trim the fringe every 4 weeks so it stays at the brows."
+      },
+      {
+        "q": "Which product should I use?",
+        "a": "A light cream and a little serum, for shine without weight."
+      }
+    ],
+    "barberSteps": [
+      "Sides: layer to cover the top of the ears.",
+      "Top: 8–10 cm, cut with scissors.",
+      "Fringe: cut straight across at the brows.",
+      "Point-cut the ends for sharp, soft edges.",
+      "Check the line is even on both sides.",
+      "Finish with a little cream or serum."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H103",
+    "updated": "2026-10-30",
+    "slug": "burst-fade-mohawk",
+    "name": "Burst Fade Mohawk",
+    "shortLine": "A narrow mohawk strip with a burst fade around the ears.",
+    "description": "A Mohawk with a Burst Fade: the sides are faded from skin in a sharp arc around each ear, leaving a narrow strip of longer hair through the centre that is swept up and back.",
+    "pickIf": "you want a bold, edgy look with a sharp, modern fade.",
+    "skipIf": "you have thin hair, or your workplace is strict.",
+    "daily": "5 min: blow dry the strip up and back, medium-hold wax or clay.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 2 weeks",
+    "suitsText": "Oval and square face · All hair types",
+    "alsoCalled": [
+      "Fade mohawk",
+      "burst mohawk"
+    ],
+    "mainPhoto": "side",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Narrow strip",
+        "text": "Swept up and back."
+      },
+      {
+        "title": "Burst fade",
+        "text": "Arc around the ear."
+      },
+      {
+        "title": "Skin sides",
+        "text": "Short and sharp."
+      },
+      {
+        "title": "Matte hold",
+        "text": "Clay or wax."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a burst fade mohawk?",
+        "a": "A mohawk with the sides faded in a sharp half-circle arc around each ear, and a narrow strip of longer hair on top."
+      },
+      {
+        "q": "How is it different from a plain mohawk?",
+        "a": "The burst fade gives the sides a curved, sharp shape, so the strip stands out more."
+      },
+      {
+        "q": "How often do I need a trim?",
+        "a": "Every 2 weeks. The fade grows out quickly."
+      },
+      {
+        "q": "Which product should I use?",
+        "a": "Medium-hold wax or matte clay, with sea-salt spray first for thick hair."
+      }
+    ],
+    "barberSteps": [
+      "Mark the strip: 3–4 fingers wide down the centre of the head.",
+      "Sides: burst fade in an arc around each ear, skin to #2.",
+      "Back: leave longer at #3.",
+      "Strip: 6 cm, blended into the fade.",
+      "Blow dry the strip up and back.",
+      "Finish with wax or clay."
+    ],
+    "length": "Short",
+    "upkeep": "High",
+    "face": [
+      "Oval",
+      "Square"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": false
+  },
+  {
+    "id": "H104",
+    "updated": "2026-10-30",
+    "slug": "wavy-two-block",
+    "name": "Wavy Two-Block",
+    "shortLine": "A two-block cut with soft perm waves through the top.",
+    "description": "A Two-Block with a perm through the longer top, giving soft, choppy waves over short, clipped sides and back. Korean-inspired, with a soft fringe and lots of movement.",
+    "pickIf": "you have straight hair and want body, movement and a soft fringe.",
+    "skipIf": "your hair is already very curly, or you cannot have a chemical treatment.",
+    "daily": "4 min: scrunch in cream, blow dry the top, light wax.",
+    "weekly": "Conditioner once.",
+    "nextVisit": "in 4–5 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair · Thin hair OK",
+    "alsoCalled": [
+      "Two-block perm"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Soft waves",
+        "text": "Perm on top."
+      },
+      {
+        "title": "Short sides",
+        "text": "#2 clipped."
+      },
+      {
+        "title": "Soft fringe",
+        "text": "To the brows."
+      },
+      {
+        "title": "Clear block",
+        "text": "Top over sides."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a wavy two-block?",
+        "a": "A two-block cut with a perm on the top, so the longer top falls in soft waves over short sides."
+      },
+      {
+        "q": "Do I need a perm?",
+        "a": "For straight hair, yes. Naturally wavy hair can skip it."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "About 3–5 months."
+      },
+      {
+        "q": "Is it high maintenance?",
+        "a": "A little. Scrunch in cream and blow dry the top."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: machine #2, clipped short.",
+      "Top: 8–9 cm, scissors, choppy layers.",
+      "Wrap the top on rods and apply the perm lotion.",
+      "Rinse, neutralise and dry.",
+      "Cut a soft fringe to the brows.",
+      "Scrunch in cream, blow dry, light wax."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H105",
+    "updated": "2026-10-30",
+    "slug": "caesar-fade",
+    "name": "Caesar Fade",
+    "shortLine": "A short Caesar fringe with faded sides.",
+    "description": "A Caesar Cut with a short, straight fringe and textured top, finished with a clean fade on the sides and back. Sharper and more modern than the classic Caesar.",
+    "pickIf": "you want a short, neat cut with a bold fringe and clean sides.",
+    "skipIf": "you want length on top.",
+    "daily": "2 min: a little matte clay, fringe forward.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3 weeks",
+    "suitsText": "Oval, square, long and heart face · All hair types · Good for thin hair and a receding hairline",
+    "alsoCalled": [
+      "Textured Caesar fade"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Short fringe",
+        "text": "Straight across."
+      },
+      {
+        "title": "Textured top",
+        "text": "3–4 cm."
+      },
+      {
+        "title": "Clean fade",
+        "text": "Skin to #2."
+      },
+      {
+        "title": "Matte finish",
+        "text": "Light clay."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a Caesar fade?",
+        "a": "A Caesar cut with a short, straight fringe and textured top, with a fade on the sides and back."
+      },
+      {
+        "q": "Does it hide a receding hairline?",
+        "a": "Yes. The short fringe covers the front hairline."
+      },
+      {
+        "q": "How often do I need a trim?",
+        "a": "Every 3 weeks to keep the fade clean."
+      },
+      {
+        "q": "Which product should I use?",
+        "a": "Matte clay or paste."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: fade from skin to #2.",
+      "Top: 3–4 cm, scissors, point-cut for texture.",
+      "Fringe: short and straight, 1–2 cm above the brows.",
+      "Blend the top into the fade.",
+      "Clean the neck and ears.",
+      "Finish with matte clay, fringe forward."
+    ],
+    "length": "Short",
+    "upkeep": "Low",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy",
+      "Curly"
+    ],
+    "thinHairOk": true
+  },
+  {
+    "id": "H106",
+    "updated": "2026-10-30",
+    "slug": "middle-part-fade",
+    "name": "Middle Part Fade",
+    "shortLine": "A centre part with the sides tapered or faded.",
+    "description": "A Middle Part with longer hair falling to each side over the forehead, and the sides and back tapered or faded short. A clean, tidy version of the curtains look.",
+    "pickIf": "you want curtains on top with a tidy, short finish at the sides.",
+    "skipIf": "your hair is very curly, or you want length at the sides.",
+    "daily": "3 min: part in the centre, blow dry sideways, light cream.",
+    "weekly": "Nothing.",
+    "nextVisit": "in 3–4 weeks",
+    "suitsText": "Oval, square, long and heart face · Straight or wavy hair",
+    "alsoCalled": [
+      "Curtain fade",
+      "fade curtains"
+    ],
+    "mainPhoto": "front",
+    "popular": false,
+    "callouts": [
+      {
+        "title": "Centre part",
+        "text": "Even on both sides."
+      },
+      {
+        "title": "Curtain top",
+        "text": "8–10 cm."
+      },
+      {
+        "title": "Tapered sides",
+        "text": "#3 to #1."
+      },
+      {
+        "title": "Soft finish",
+        "text": "Light cream."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a middle part fade?",
+        "a": "Longer hair parted in the centre, with tapered or faded sides and back."
+      },
+      {
+        "q": "Which hair works best?",
+        "a": "Straight or slightly wavy hair, about 8–10 cm on top."
+      },
+      {
+        "q": "How is it different from a curtain fringe?",
+        "a": "The sides are faded short. A curtain fringe keeps more length at the sides."
+      },
+      {
+        "q": "Which product should I use?",
+        "a": "A styling cream or light mousse."
+      }
+    ],
+    "barberSteps": [
+      "Sides and back: taper or fade, #3 to #1.",
+      "Top: 8–10 cm, scissors, light layers.",
+      "Part the hair in the centre.",
+      "Shape the fringe to fall over the brows on both sides.",
+      "Blend the top into the sides.",
+      "Blow dry sideways, then a little light cream."
+    ],
+    "length": "Medium",
+    "upkeep": "Medium",
+    "face": [
+      "Oval",
+      "Square",
+      "Long",
+      "Heart"
+    ],
+    "hairType": [
+      "Straight",
+      "Wavy"
+    ],
+    "thinHairOk": false
   }
 ]

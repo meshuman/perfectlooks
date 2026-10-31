@@ -517,6 +517,31 @@
       "block": "ITEM: H101 Brahmin Cut\nBACKDROP: Sage (#CADBD8).\nMAIN VIEW: left side profile\nCHARACTER NOTE: same man, with his head shaved except one small tuft at the back of the crown.\nSTYLE: whole head shaved smooth with a razor except one small tuft of black hair about 5 cm across and 10 cm long at the back of the crown, combed neatly with a clean outline around it; even skin tone; healthy matte sheen; no stubble or nicks.\nCALLOUTS:\n1. Small tuft: At the back of the crown.\n2. Smooth scalp: Razor close.\n3. Clean outline: Around the tuft.\n4. Neat tuft: Combed and even.",
       "older": false
     },
+    "H102": {
+      "name": "Mod Cut",
+      "block": "ITEM: H102 Mod Cut\nBACKDROP: Sand (#D8CDBF).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: straight blunt fringe resting on the eyebrows; top about 8-10 cm with layered sides covering the top of the ears; sharp point-cut edges; smooth glossy finish; neat nape.\nCALLOUTS:\n1. Straight fringe: At the brows.\n2. Layered sides: Over the ears.\n3. Sharp edges: Point-cut.\n4. Glossy finish: Light serum.",
+      "older": false
+    },
+    "H103": {
+      "name": "Burst Fade Mohawk",
+      "block": "ITEM: H103 Burst Fade Mohawk\nBACKDROP: Plum (#B06A8F).\nMAIN VIEW: left side profile\nSTYLE: narrow central strip about 6 cm long swept up and back; sides faded from bare skin in a sharp half-circle arc around each ear, blending to #2; back left slightly longer at #3; strong contrast; matte finish.\nCALLOUTS:\n1. Narrow strip: Swept up and back.\n2. Burst fade: Arc around the ear.\n3. Skin sides: Short and sharp.\n4. Matte hold: Clay or wax.",
+      "older": false
+    },
+    "H104": {
+      "name": "Wavy Two-Block",
+      "block": "ITEM: H104 Wavy Two-Block\nBACKDROP: Orange (#EC9465).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: short clipped sides and back at machine #2; longer top about 8-9 cm with choppy layers and soft perm waves; a soft fringe to the eyebrows; clear step between sides and top; natural shine.\nCALLOUTS:\n1. Soft waves: Perm on top.\n2. Short sides: #2 clipped.\n3. Soft fringe: To the brows.\n4. Clear block: Top over sides.",
+      "older": false
+    },
+    "H105": {
+      "name": "Caesar Fade",
+      "block": "ITEM: H105 Caesar Fade\nBACKDROP: Blush (#F7D9CE).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: sides and back faded from bare skin to #2; top about 3-4 cm, textured; short straight blunt fringe about 1-2 cm above the eyebrows; clean neck line; matte finish.\nCALLOUTS:\n1. Short fringe: Straight across.\n2. Textured top: 3–4 cm.\n3. Clean fade: Skin to #2.\n4. Matte finish: Light clay.",
+      "older": false
+    },
+    "H106": {
+      "name": "Middle Part Fade",
+      "block": "ITEM: H106 Middle Part Fade\nBACKDROP: Sky blue (#A9C9E8).\nMAIN VIEW: straight front, head and shoulders\nSTYLE: centre-parted top of about 8-10 cm falling to each side over the forehead in light layers; sides and back tapered #3 to #1; tidy neck line; soft natural finish.\nCALLOUTS:\n1. Centre part: Even on both sides.\n2. Curtain top: 8–10 cm.\n3. Tapered sides: #3 to #1.\n4. Soft finish: Light cream.",
+      "older": false
+    },
     "B01": {
       "name": "Clean Shave",
       "block": "ITEM: B01 Clean Shave\nBACKDROP: Sky blue (#A9C9E8).\nSTYLE: completely clean-shaven face with smooth skin; no stubble shadow, redness or bumps; fresh, hot-towel finish.\nCALLOUTS:\n1. Smooth cheeks: No stubble shadow.\n2. Clean jaw: Close razor finish.\n3. Smooth neck: No bumps or redness.\n4. Fresh skin: Calm after aftershave.",

@@ -34,17 +34,17 @@ category.beards.intro,Screen text: category,"For beards, growth matters more tha
 category.moustaches.intro,Screen text: category,"Pairs with any beard except Van Dyke, Circle Beard, Balbo and Anchor Beard, which have their own moustache.","Van Dyke, Circle Beard, Balbo और Anchor Beard को छोड़कर हर दाढ़ी के साथ चलती है। इन चारों में अपनी मूंछ होती है।",draft,
 category.colours.intro,Screen text: category,The level number tells the barber which shade to use from any brand. Every colour starts with an allergy question.,लेवल नंबर से बार्बर को पता चलता है कि किसी भी ब्रांड का कौन सा शेड लगाना है। हर रंग एलर्जी के सवाल से शुरू होता है।,draft,
 category.looks.intro,Screen text: category,Complete hair and beard sets. Pick one and it fills My Look in one tap.,"बाल और दाढ़ी के पूरे सेट। एक चुनें, एक टैप में मेरा लुक भर जाएगा।",draft,
-category.hair.seoTitle,Screen text: category,Men's haircuts: 101 styles and how to ask your barber,पुरुषों के हेयरकट: 101 स्टाइल और बार्बर से कैसे कहें,draft,
+category.hair.seoTitle,Screen text: category,Men's haircuts: 106 styles and how to ask your barber,पुरुषों के हेयरकट: 106 स्टाइल और बार्बर से कैसे कहें,draft,
 category.beards.seoTitle,Screen text: category,Beard styles: 21 shapes and how to ask your barber,दाढ़ी के स्टाइल: 21 आकार और बार्बर से कैसे कहें,draft,
 category.moustaches.seoTitle,Screen text: category,Moustache styles: 17 shapes and how to ask your barber,मूंछ के स्टाइल: 17 आकार और बार्बर से कैसे कहें,draft,
 category.colours.seoTitle,Screen text: category,"Men's hair colours: 12 shades, grey cover and care","पुरुषों के बालों के रंग: 12 शेड, सफ़ेद बाल छिपाना और देखभाल",draft,
 category.looks.seoTitle,Screen text: category,Ready Looks: 94 hair and beard combinations,रेडी लुक्स: बाल और दाढ़ी के 94 कॉम्बिनेशन,draft,
-category.hair.seoDescription,Screen text: category,"101 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज़ कट से कंधे तक के बालों तक, पुरुषों के 101 हेयरकट। किस पर जंचता है, रोज़ स्टाइल करने में कितना समय लगता है, और बार्बर को दिखाने के सटीक स्टेप देखें।",draft,
+category.hair.seoDescription,Screen text: category,"106 men's haircuts from buzz cut to shoulder length. See who each one suits, daily styling time, and the exact steps to show your barber.","बज़ कट से कंधे तक के बालों तक, पुरुषों के 106 हेयरकट। किस पर जंचता है, रोज़ स्टाइल करने में कितना समय लगता है, और बार्बर को दिखाने के सटीक स्टेप देखें।",draft,
 category.beards.seoDescription,Screen text: category,"21 beard styles from clean shave to long beard. See which suit patchy, medium or full growth, trimmer lengths and the steps for your barber.","क्लीन शेव से लंबी दाढ़ी तक 21 दाढ़ी के स्टाइल। देखें कौन सा कम, मध्यम या घनी दाढ़ी पर जंचता है, ट्रिमर की लंबाई और बार्बर के स्टेप।",draft,
 category.moustaches.seoDescription,Screen text: category,"17 moustache styles from short trimmed to handlebar and Dali. See growth needed, daily styling and the exact steps for your barber.","छोटी ट्रिम से हैंडलबार और डाली तक 17 मूंछ के स्टाइल। देखें कितनी बढ़नी चाहिए, रोज़ की स्टाइलिंग और बार्बर के सटीक स्टेप।",draft,
 category.colours.seoDescription,Screen text: category,"12 men's hair colours from jet black to silver and henna. See grey coverage, time at the shop, skin tones that suit and how to stay safe.","जेट ब्लैक से सिल्वर और मेहंदी तक पुरुषों के 12 बालों के रंग। देखें सफ़ेद बाल कितने छिपते हैं, दुकान पर समय, कौन सी त्वचा पर जंचता है और सुरक्षित कैसे रहें।",draft,
 category.looks.seoDescription,Screen text: category,"94 ready-made hair, beard, moustache and colour combinations for office, weddings, festivals and everyday. Pick one and show your barber.","ऑफ़िस, शादी, त्योहार और रोज़ के लिए बाल, दाढ़ी, मूंछ और रंग के 94 तैयार कॉम्बिनेशन। एक चुनें और अपने बार्बर को दिखाएँ।",draft,
-category.hair.tileCount,Screen text: category,101 styles,101 स्टाइल,draft,
+category.hair.tileCount,Screen text: category,106 styles,106 स्टाइल,draft,
 category.beards.tileCount,Screen text: category,21 styles,21 स्टाइल,draft,
 category.moustaches.tileCount,Screen text: category,17 styles,17 स्टाइल,draft,
 category.colours.tileCount,Screen text: category,33 colours,33 रंग,draft,
@@ -357,7 +357,7 @@ shop.hoursValue,Screen text: shop,"Open daily, 7 am – 8 pm","रोज़ ख�
 shop.inTheShop,Screen text: shop,In the shop,दुकान में,draft,
 shop.flowTitle,Screen text: shop,Know what you want before you sit down.,कुर्सी पर बैठने से पहले ही जानें कि आपको क्या चाहिए।,draft,
 shop.step1.title,Screen text: shop,Pick your style,अपना स्टाइल चुनें,draft,
-shop.step1.text,Screen text: shop,"Browse 101 haircuts, 21 beards, 17 moustaches, 33 colours and 94 Ready Looks.","101 हेयरकट, 21 दाढ़ी, 17 मूंछ, 33 रंग और 94 रेडी लुक्स देखें।",draft,
+shop.step1.text,Screen text: shop,"Browse 106 haircuts, 21 beards, 17 moustaches, 33 colours and 94 Ready Looks.","106 हेयरकट, 21 दाढ़ी, 17 मूंछ, 33 रंग और 94 रेडी लुक्स देखें।",draft,
 shop.step2.title,Screen text: shop,Build My Look,मेरा लुक बनाएं,draft,
 shop.step2.text,Screen text: shop,"Save favourites, then choose one hair, beard, moustache and colour.","पसंदीदा सेव करें, फिर एक बाल, दाढ़ी, मूंछ और रंग चुनें।",draft,
 shop.step3.title,Screen text: shop,Show the barber,बार्बर को दिखाएं,draft,
@@ -6054,6 +6054,166 @@ H101.callout.3.title,H101 Brahmin Cut,Clean outline,साफ़ किनार
 H101.callout.3.text,H101 Brahmin Cut,Around the tuft.,गुच्छे के चारों ओर।,draft,Photo label line.
 H101.callout.4.title,H101 Brahmin Cut,Neat tuft,सलीक़ेदार गुच्छा,draft,Photo label title.
 H101.callout.4.text,H101 Brahmin Cut,Combed and even.,कंघी किया और बराबर।,draft,Photo label line.
+H102.name,H102 Mod Cut,Mod Cut,मॉड कट,draft,"Catalogue name. Keep it, or write the name customers use."
+H102.shortLine,H102 Mod Cut,A straight fringe with layered sides and sharp edges.,"सीधा फ्रिंज, लेयर वाले किनारे और शार्प एज।",draft,
+H102.description,H102 Mod Cut,"A 1960s-inspired cut: a straight, blunt fringe on the brows, layered sides that cover the top of the ears, and sharp edges made by point-cutting. Neat, retro and very graphic.","1960 के दशक से प्रेरित कट: भौंहों पर सीधा, कुंद फ्रिंज, कानों का ऊपरी हिस्सा ढकते लेयर वाले किनारे, और पॉइंट-कटिंग से बने शार्प एज। साफ़, रेट्रो और बहुत ग्राफ़िक।",draft,
+H102.pickIf,H102 Mod Cut,"you have straight, thick hair and want a clean retro shape.","आपके बाल सीधे, घने हैं और आप साफ़ रेट्रो आकार चाहते हैं।",draft,"Follows ""Pick this if""."
+H102.skipIf,H102 Mod Cut,"your hair is curly or thin, or you do not like hair over your forehead.","आपके बाल घुंघराले या पतले हैं, या माथे पर बाल पसंद नहीं।",draft,"Follows ""Skip if""."
+H102.daily,H102 Mod Cut,"3 min: comb the fringe straight, a little light cream or serum.","3 मिनट: फ्रिंज को सीधा कंघी करें, थोड़ी हल्की क्रीम या सीरम।",draft,
+H102.weekly,H102 Mod Cut,Nothing.,कुछ नहीं।,draft,
+H102.nextVisit,H102 Mod Cut,in 4 weeks,4 हफ़्ते में,draft,
+H102.alsoCalled,H102 Mod Cut,"Mod, mop top","मॉड, मॉप टॉप",draft,Comma-separated names.
+H102.length,H102 Mod Cut,Medium,मध्यम,draft,
+H102.faq.1.q,H102 Mod Cut,What is a mod cut?,मॉड कट क्या है?,draft,
+H102.faq.1.a,H102 Mod Cut,"A straight-fringe cut with layered sides and sharp edges, inspired by 1960s style.","1960 की शैली से प्रेरित सीधे फ्रिंज, लेयर वाले किनारों और शार्प एज वाला कट।",draft,"Keep any <a href=""...""> link tags as they are."
+H102.faq.2.q,H102 Mod Cut,How is it different from a mushroom cut?,यह मशरूम कट से कैसे अलग है?,draft,
+H102.faq.2.a,H102 Mod Cut,"A mod cut has layers and sharp point-cut edges. A mushroom cut is a soft, rounded cap.","मॉड कट में लेयर और शार्प पॉइंट-कट एज होते हैं। मशरूम कट नरम, गोल टोपी जैसा होता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H102.faq.3.q,H102 Mod Cut,How often do I need a trim?,कितनी बार ट्रिम कराना चाहिए?,draft,
+H102.faq.3.a,H102 Mod Cut,Trim the fringe every 4 weeks so it stays at the brows.,"फ्रिंज भौंहों पर रहे, इसलिए हर 4 हफ़्ते में ट्रिम करें।",draft,"Keep any <a href=""...""> link tags as they are."
+H102.faq.4.q,H102 Mod Cut,Which product should I use?,कौन सा प्रोडक्ट इस्तेमाल करें?,draft,
+H102.faq.4.a,H102 Mod Cut,"A light cream and a little serum, for shine without weight.","हल्की क्रीम और थोड़ा सीरम, बिना भार के चमक के लिए।",draft,"Keep any <a href=""...""> link tags as they are."
+H102.step.1,H102 Mod Cut,Sides: layer to cover the top of the ears.,किनारे: कानों का ऊपरी हिस्सा ढकते हुए लेयर।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H102.step.2,H102 Mod Cut,"Top: 8–10 cm, cut with scissors.","ऊपर: 8–10 cm, कैंची से काटें।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H102.step.3,H102 Mod Cut,Fringe: cut straight across at the brows.,फ्रिंज: भौंहों पर सीधा काटें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H102.step.4,H102 Mod Cut,"Point-cut the ends for sharp, soft edges.","शार्प, नरम एज के लिए सिरों को पॉइंट-कट करें।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H102.step.5,H102 Mod Cut,Check the line is even on both sides.,जाँचें कि दोनों तरफ़ लाइन बराबर है।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H102.step.6,H102 Mod Cut,Finish with a little cream or serum.,थोड़ी क्रीम या सीरम लगाकर फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H102.callout.1.title,H102 Mod Cut,Straight fringe,सीधा फ्रिंज,draft,Photo label title.
+H102.callout.1.text,H102 Mod Cut,At the brows.,भौंहों पर।,draft,Photo label line.
+H102.callout.2.title,H102 Mod Cut,Layered sides,लेयर वाले किनारे,draft,Photo label title.
+H102.callout.2.text,H102 Mod Cut,Over the ears.,कानों के ऊपर।,draft,Photo label line.
+H102.callout.3.title,H102 Mod Cut,Sharp edges,शार्प एज,draft,Photo label title.
+H102.callout.3.text,H102 Mod Cut,Point-cut.,पॉइंट-कट।,draft,Photo label line.
+H102.callout.4.title,H102 Mod Cut,Glossy finish,चमकदार फ़िनिश,draft,Photo label title.
+H102.callout.4.text,H102 Mod Cut,Light serum.,हल्का सीरम।,draft,Photo label line.
+H103.name,H103 Burst Fade Mohawk,Burst Fade Mohawk,बर्स्ट फ़ेड मोहॉक,draft,"Catalogue name. Keep it, or write the name customers use."
+H103.shortLine,H103 Burst Fade Mohawk,A narrow mohawk strip with a burst fade around the ears.,कानों के चारों ओर बर्स्ट फ़ेड के साथ पतली मोहॉक पट्टी।,draft,
+H103.description,H103 Burst Fade Mohawk,"A Mohawk with a Burst Fade: the sides are faded from skin in a sharp arc around each ear, leaving a narrow strip of longer hair through the centre that is swept up and back.","बर्स्ट फ़ेड वाला मोहॉक: किनारे हर कान के चारों ओर शार्प चाप में त्वचा से फ़ेड होते हैं, और बीच में ऊपर और पीछे सँवारी हुई लंबे बालों की पतली पट्टी रहती है।",draft,
+H103.pickIf,H103 Burst Fade Mohawk,"you want a bold, edgy look with a sharp, modern fade.","आप शार्प, मॉडर्न फ़ेड के साथ बोल्ड, तेज़ लुक चाहते हैं।",draft,"Follows ""Pick this if""."
+H103.skipIf,H103 Burst Fade Mohawk,"you have thin hair, or your workplace is strict.","आपके बाल पतले हैं, या काम की जगह सख़्त है।",draft,"Follows ""Skip if""."
+H103.daily,H103 Burst Fade Mohawk,"5 min: blow dry the strip up and back, medium-hold wax or clay.","5 मिनट: पट्टी को ऊपर और पीछे ब्लो ड्राई करें, मीडियम-होल्ड वैक्स या क्ले।",draft,
+H103.weekly,H103 Burst Fade Mohawk,Nothing.,कुछ नहीं।,draft,
+H103.nextVisit,H103 Burst Fade Mohawk,in 2 weeks,2 हफ़्ते में,draft,
+H103.alsoCalled,H103 Burst Fade Mohawk,"Fade mohawk, burst mohawk","फ़ेड मोहॉक, बर्स्ट मोहॉक",draft,Comma-separated names.
+H103.length,H103 Burst Fade Mohawk,Short,छोटे,draft,
+H103.faq.1.q,H103 Burst Fade Mohawk,What is a burst fade mohawk?,बर्स्ट फ़ेड मोहॉक क्या है?,draft,
+H103.faq.1.a,H103 Burst Fade Mohawk,"A mohawk with the sides faded in a sharp half-circle arc around each ear, and a narrow strip of longer hair on top.",हर कान के चारों ओर शार्प अर्धवृत्त चाप में फ़ेड किए किनारों और ऊपर लंबे बालों की पतली पट्टी वाला मोहॉक।,draft,"Keep any <a href=""...""> link tags as they are."
+H103.faq.2.q,H103 Burst Fade Mohawk,How is it different from a plain mohawk?,यह सादे मोहॉक से कैसे अलग है?,draft,
+H103.faq.2.a,H103 Burst Fade Mohawk,"The burst fade gives the sides a curved, sharp shape, so the strip stands out more.","बर्स्ट फ़ेड किनारों को घुमावदार, शार्प आकार देता है, इसलिए पट्टी ज़्यादा उभरती है।",draft,"Keep any <a href=""...""> link tags as they are."
+H103.faq.3.q,H103 Burst Fade Mohawk,How often do I need a trim?,कितनी बार ट्रिम कराना चाहिए?,draft,
+H103.faq.3.a,H103 Burst Fade Mohawk,Every 2 weeks. The fade grows out quickly.,हर 2 हफ़्ते में। फ़ेड जल्दी बढ़ता है।,draft,"Keep any <a href=""...""> link tags as they are."
+H103.faq.4.q,H103 Burst Fade Mohawk,Which product should I use?,कौन सा प्रोडक्ट इस्तेमाल करें?,draft,
+H103.faq.4.a,H103 Burst Fade Mohawk,"Medium-hold wax or matte clay, with sea-salt spray first for thick hair.","मीडियम-होल्ड वैक्स या मैट क्ले, घने बालों में पहले सी-साल्ट स्प्रे।",draft,"Keep any <a href=""...""> link tags as they are."
+H103.step.1,H103 Burst Fade Mohawk,Mark the strip: 3–4 fingers wide down the centre of the head.,पट्टी पर निशान लगाएँ: सिर के बीच में 3–4 उँगली चौड़ी।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H103.step.2,H103 Burst Fade Mohawk,"Sides: burst fade in an arc around each ear, skin to #2.","किनारे: हर कान के चारों ओर चाप में बर्स्ट फ़ेड, त्वचा से #2।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H103.step.3,H103 Burst Fade Mohawk,Back: leave longer at #3.,पीछे: #3 पर लंबा छोड़ें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H103.step.4,H103 Burst Fade Mohawk,"Strip: 6 cm, blended into the fade.","पट्टी: 6 cm, फ़ेड में मिलाई हुई।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H103.step.5,H103 Burst Fade Mohawk,Blow dry the strip up and back.,पट्टी को ऊपर और पीछे ब्लो ड्राई करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H103.step.6,H103 Burst Fade Mohawk,Finish with wax or clay.,वैक्स या क्ले लगाकर फ़िनिश करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H103.callout.1.title,H103 Burst Fade Mohawk,Narrow strip,पतली पट्टी,draft,Photo label title.
+H103.callout.1.text,H103 Burst Fade Mohawk,Swept up and back.,ऊपर और पीछे सँवारी।,draft,Photo label line.
+H103.callout.2.title,H103 Burst Fade Mohawk,Burst fade,बर्स्ट फ़ेड,draft,Photo label title.
+H103.callout.2.text,H103 Burst Fade Mohawk,Arc around the ear.,कान के चारों ओर चाप।,draft,Photo label line.
+H103.callout.3.title,H103 Burst Fade Mohawk,Skin sides,त्वचा तक किनारे,draft,Photo label title.
+H103.callout.3.text,H103 Burst Fade Mohawk,Short and sharp.,छोटे और शार्प।,draft,Photo label line.
+H103.callout.4.title,H103 Burst Fade Mohawk,Matte hold,मैट होल्ड,draft,Photo label title.
+H103.callout.4.text,H103 Burst Fade Mohawk,Clay or wax.,क्ले या वैक्स।,draft,Photo label line.
+H104.name,H104 Wavy Two-Block,Wavy Two-Block,वेवी टू-ब्लॉक,draft,"Catalogue name. Keep it, or write the name customers use."
+H104.shortLine,H104 Wavy Two-Block,A two-block cut with soft perm waves through the top.,ऊपर नरम पर्म लहरों वाला टू-ब्लॉक कट।,draft,
+H104.description,H104 Wavy Two-Block,"A Two-Block with a perm through the longer top, giving soft, choppy waves over short, clipped sides and back. Korean-inspired, with a soft fringe and lots of movement.","ऊपर के लंबे हिस्से में पर्म वाला Two-Block, छोटे, क्लिप किए किनारों और पीछे के ऊपर नरम, कटी-फटी लहरें। कोरियन शैली से प्रेरित, नरम फ्रिंज और खूब मूवमेंट के साथ।",draft,
+H104.pickIf,H104 Wavy Two-Block,"you have straight hair and want body, movement and a soft fringe.","आपके बाल सीधे हैं और आप बॉडी, मूवमेंट और नरम फ्रिंज चाहते हैं।",draft,"Follows ""Pick this if""."
+H104.skipIf,H104 Wavy Two-Block,"your hair is already very curly, or you cannot have a chemical treatment.","आपके बाल पहले से बहुत घुंघराले हैं, या केमिकल ट्रीटमेंट नहीं करा सकते।",draft,"Follows ""Skip if""."
+H104.daily,H104 Wavy Two-Block,"4 min: scrunch in cream, blow dry the top, light wax.","4 मिनट: क्रीम से स्क्रंच, ऊपर ब्लो ड्राई, हल्का वैक्स।",draft,
+H104.weekly,H104 Wavy Two-Block,Conditioner once.,हफ़्ते में एक बार कंडीशनर।,draft,
+H104.nextVisit,H104 Wavy Two-Block,in 4–5 weeks,4–5 हफ़्ते में,draft,
+H104.alsoCalled,H104 Wavy Two-Block,Two-block perm,टू-ब्लॉक पर्म,draft,Comma-separated names.
+H104.length,H104 Wavy Two-Block,Medium,मध्यम,draft,
+H104.faq.1.q,H104 Wavy Two-Block,What is a wavy two-block?,वेवी टू-ब्लॉक क्या है?,draft,
+H104.faq.1.a,H104 Wavy Two-Block,"A two-block cut with a perm on the top, so the longer top falls in soft waves over short sides.","ऊपर पर्म वाला टू-ब्लॉक कट, जिसमें लंबा ऊपरी हिस्सा छोटे किनारों पर नरम लहरों में गिरता है।",draft,"Keep any <a href=""...""> link tags as they are."
+H104.faq.2.q,H104 Wavy Two-Block,Do I need a perm?,क्या पर्म चाहिए?,draft,
+H104.faq.2.a,H104 Wavy Two-Block,"For straight hair, yes. Naturally wavy hair can skip it.",सीधे बालों के लिए हाँ। प्राकृतिक रूप से लहरदार बाल इसे छोड़ सकते हैं।,draft,"Keep any <a href=""...""> link tags as they are."
+H104.faq.3.q,H104 Wavy Two-Block,How long does it last?,यह कितने दिन चलता है?,draft,
+H104.faq.3.a,H104 Wavy Two-Block,About 3–5 months.,लगभग 3–5 महीने।,draft,"Keep any <a href=""...""> link tags as they are."
+H104.faq.4.q,H104 Wavy Two-Block,Is it high maintenance?,क्या इसमें ज़्यादा मेहनत लगती है?,draft,
+H104.faq.4.a,H104 Wavy Two-Block,A little. Scrunch in cream and blow dry the top.,थोड़ी। क्रीम से स्क्रंच करें और ऊपर ब्लो ड्राई करें।,draft,"Keep any <a href=""...""> link tags as they are."
+H104.step.1,H104 Wavy Two-Block,"Sides and back: machine #2, clipped short.","किनारे और पीछे: मशीन #2, छोटा क्लिप।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H104.step.2,H104 Wavy Two-Block,"Top: 8–9 cm, scissors, choppy layers.","ऊपर: 8–9 cm, कैंची, कटी-फटी लेयर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H104.step.3,H104 Wavy Two-Block,Wrap the top on rods and apply the perm lotion.,ऊपर के बालों को रॉड पर लपेटकर पर्म लोशन लगाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H104.step.4,H104 Wavy Two-Block,"Rinse, neutralise and dry.","धोएँ, न्यूट्रलाइज़ करें और सुखाएँ।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H104.step.5,H104 Wavy Two-Block,Cut a soft fringe to the brows.,भौंहों तक नरम फ्रिंज काटें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H104.step.6,H104 Wavy Two-Block,"Scrunch in cream, blow dry, light wax.","क्रीम से स्क्रंच, ब्लो ड्राई, हल्का वैक्स।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H104.callout.1.title,H104 Wavy Two-Block,Soft waves,नरम लहरें,draft,Photo label title.
+H104.callout.1.text,H104 Wavy Two-Block,Perm on top.,ऊपर पर्म।,draft,Photo label line.
+H104.callout.2.title,H104 Wavy Two-Block,Short sides,छोटे किनारे,draft,Photo label title.
+H104.callout.2.text,H104 Wavy Two-Block,#2 clipped.,#2 क्लिप।,draft,Photo label line.
+H104.callout.3.title,H104 Wavy Two-Block,Soft fringe,नरम फ्रिंज,draft,Photo label title.
+H104.callout.3.text,H104 Wavy Two-Block,To the brows.,भौंहों तक।,draft,Photo label line.
+H104.callout.4.title,H104 Wavy Two-Block,Clear block,साफ़ ब्लॉक,draft,Photo label title.
+H104.callout.4.text,H104 Wavy Two-Block,Top over sides.,किनारों पर ऊपर का हिस्सा।,draft,Photo label line.
+H105.name,H105 Caesar Fade,Caesar Fade,सीज़र फ़ेड,draft,"Catalogue name. Keep it, or write the name customers use."
+H105.shortLine,H105 Caesar Fade,A short Caesar fringe with faded sides.,फ़ेड किए किनारों के साथ छोटा सीज़र फ्रिंज।,draft,
+H105.description,H105 Caesar Fade,"A Caesar Cut with a short, straight fringe and textured top, finished with a clean fade on the sides and back. Sharper and more modern than the classic Caesar.","छोटे, सीधे फ्रिंज और टेक्स्चर्ड टॉप वाला Caesar Cut, किनारों और पीछे साफ़ फ़ेड के साथ। क्लासिक सीज़र से ज़्यादा शार्प और मॉडर्न।",draft,
+H105.pickIf,H105 Caesar Fade,"you want a short, neat cut with a bold fringe and clean sides.","आप बोल्ड फ्रिंज और साफ़ किनारों के साथ छोटा, साफ़ कट चाहते हैं।",draft,"Follows ""Pick this if""."
+H105.skipIf,H105 Caesar Fade,you want length on top.,आप ऊपर लंबाई चाहते हैं।,draft,"Follows ""Skip if""."
+H105.daily,H105 Caesar Fade,"2 min: a little matte clay, fringe forward.","2 मिनट: थोड़ा मैट क्ले, फ्रिंज आगे की ओर।",draft,
+H105.weekly,H105 Caesar Fade,Nothing.,कुछ नहीं।,draft,
+H105.nextVisit,H105 Caesar Fade,in 3 weeks,3 हफ़्ते में,draft,
+H105.alsoCalled,H105 Caesar Fade,Textured Caesar fade,टेक्स्चर्ड सीज़र फ़ेड,draft,Comma-separated names.
+H105.length,H105 Caesar Fade,Short,छोटे,draft,
+H105.faq.1.q,H105 Caesar Fade,What is a Caesar fade?,सीज़र फ़ेड क्या है?,draft,
+H105.faq.1.a,H105 Caesar Fade,"A Caesar cut with a short, straight fringe and textured top, with a fade on the sides and back.","छोटे, सीधे फ्रिंज और टेक्स्चर्ड टॉप वाला Caesar Cut, किनारों और पीछे फ़ेड के साथ।",draft,"Keep any <a href=""...""> link tags as they are."
+H105.faq.2.q,H105 Caesar Fade,Does it hide a receding hairline?,क्या यह पीछे हटती हेयरलाइन छिपाता है?,draft,
+H105.faq.2.a,H105 Caesar Fade,Yes. The short fringe covers the front hairline.,हाँ। छोटा फ्रिंज आगे की हेयरलाइन ढकता है।,draft,"Keep any <a href=""...""> link tags as they are."
+H105.faq.3.q,H105 Caesar Fade,How often do I need a trim?,कितनी बार ट्रिम कराना चाहिए?,draft,
+H105.faq.3.a,H105 Caesar Fade,Every 3 weeks to keep the fade clean.,फ़ेड साफ़ रखने के लिए हर 3 हफ़्ते में।,draft,"Keep any <a href=""...""> link tags as they are."
+H105.faq.4.q,H105 Caesar Fade,Which product should I use?,कौन सा प्रोडक्ट इस्तेमाल करें?,draft,
+H105.faq.4.a,H105 Caesar Fade,Matte clay or paste.,मैट क्ले या पेस्ट।,draft,"Keep any <a href=""...""> link tags as they are."
+H105.step.1,H105 Caesar Fade,Sides and back: fade from skin to #2.,किनारे और पीछे: त्वचा से #2 तक फ़ेड।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H105.step.2,H105 Caesar Fade,"Top: 3–4 cm, scissors, point-cut for texture.","ऊपर: 3–4 cm, कैंची, टेक्स्चर के लिए पॉइंट-कट।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H105.step.3,H105 Caesar Fade,"Fringe: short and straight, 1–2 cm above the brows.","फ्रिंज: छोटा और सीधा, भौंहों से 1–2 cm ऊपर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H105.step.4,H105 Caesar Fade,Blend the top into the fade.,ऊपर के बालों को फ़ेड में मिलाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H105.step.5,H105 Caesar Fade,Clean the neck and ears.,गर्दन और कान साफ़ करें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H105.step.6,H105 Caesar Fade,"Finish with matte clay, fringe forward.","मैट क्ले लगाकर, फ्रिंज आगे की ओर, फ़िनिश करें।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H105.callout.1.title,H105 Caesar Fade,Short fringe,छोटा फ्रिंज,draft,Photo label title.
+H105.callout.1.text,H105 Caesar Fade,Straight across.,सीधा।,draft,Photo label line.
+H105.callout.2.title,H105 Caesar Fade,Textured top,टेक्स्चर्ड टॉप,draft,Photo label title.
+H105.callout.2.text,H105 Caesar Fade,3–4 cm.,3–4 cm।,draft,Photo label line.
+H105.callout.3.title,H105 Caesar Fade,Clean fade,साफ़ फ़ेड,draft,Photo label title.
+H105.callout.3.text,H105 Caesar Fade,Skin to #2.,त्वचा से #2।,draft,Photo label line.
+H105.callout.4.title,H105 Caesar Fade,Matte finish,मैट फ़िनिश,draft,Photo label title.
+H105.callout.4.text,H105 Caesar Fade,Light clay.,हल्का क्ले।,draft,Photo label line.
+H106.name,H106 Middle Part Fade,Middle Part Fade,मिडिल पार्ट फ़ेड,draft,"Catalogue name. Keep it, or write the name customers use."
+H106.shortLine,H106 Middle Part Fade,A centre part with the sides tapered or faded.,किनारों पर टेपर या फ़ेड के साथ बीच की मांग।,draft,
+H106.description,H106 Middle Part Fade,"A Middle Part with longer hair falling to each side over the forehead, and the sides and back tapered or faded short. A clean, tidy version of the curtains look.","लंबे बाल माथे पर दोनों तरफ़ गिरने वाली बीच की मांग के साथ Middle Part, और किनारे व पीछे छोटे टेपर या फ़ेड किए हुए। कर्टेन लुक का साफ़, सलीक़ेदार रूप।",draft,
+H106.pickIf,H106 Middle Part Fade,"you want curtains on top with a tidy, short finish at the sides.","आप ऊपर कर्टेन और किनारों पर साफ़, छोटा फ़िनिश चाहते हैं।",draft,"Follows ""Pick this if""."
+H106.skipIf,H106 Middle Part Fade,"your hair is very curly, or you want length at the sides.","आपके बाल बहुत घुंघराले हैं, या किनारों पर लंबाई चाहते हैं।",draft,"Follows ""Skip if""."
+H106.daily,H106 Middle Part Fade,"3 min: part in the centre, blow dry sideways, light cream.","3 मिनट: बीच में मांग, किनारों की ओर ब्लो ड्राई, हल्की क्रीम।",draft,
+H106.weekly,H106 Middle Part Fade,Nothing.,कुछ नहीं।,draft,
+H106.nextVisit,H106 Middle Part Fade,in 3–4 weeks,3–4 हफ़्ते में,draft,
+H106.alsoCalled,H106 Middle Part Fade,"Curtain fade, fade curtains","कर्टेन फ़ेड, फ़ेड कर्टेन",draft,Comma-separated names.
+H106.length,H106 Middle Part Fade,Medium,मध्यम,draft,
+H106.faq.1.q,H106 Middle Part Fade,What is a middle part fade?,मिडिल पार्ट फ़ेड क्या है?,draft,
+H106.faq.1.a,H106 Middle Part Fade,"Longer hair parted in the centre, with tapered or faded sides and back.","बीच में मांग वाले लंबे बाल, और टेपर या फ़ेड किए किनारे व पीछे।",draft,"Keep any <a href=""...""> link tags as they are."
+H106.faq.2.q,H106 Middle Part Fade,Which hair works best?,कौन से बाल सबसे अच्छे रहते हैं?,draft,
+H106.faq.2.a,H106 Middle Part Fade,"Straight or slightly wavy hair, about 8–10 cm on top.","सीधे या थोड़े लहरदार बाल, ऊपर लगभग 8–10 cm।",draft,"Keep any <a href=""...""> link tags as they are."
+H106.faq.3.q,H106 Middle Part Fade,How is it different from a curtain fringe?,यह कर्टेन फ्रिंज से कैसे अलग है?,draft,
+H106.faq.3.a,H106 Middle Part Fade,The sides are faded short. A curtain fringe keeps more length at the sides.,इसमें किनारे छोटे फ़ेड होते हैं। कर्टेन फ्रिंज किनारों पर ज़्यादा लंबाई रखता है।,draft,"Keep any <a href=""...""> link tags as they are."
+H106.faq.4.q,H106 Middle Part Fade,Which product should I use?,कौन सा प्रोडक्ट इस्तेमाल करें?,draft,
+H106.faq.4.a,H106 Middle Part Fade,A styling cream or light mousse.,स्टाइलिंग क्रीम या हल्का मूस।,draft,"Keep any <a href=""...""> link tags as they are."
+H106.step.1,H106 Middle Part Fade,"Sides and back: taper or fade, #3 to #1.",किनारे और पीछे: #3 से #1 तक टेपर या फ़ेड।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H106.step.2,H106 Middle Part Fade,"Top: 8–10 cm, scissors, light layers.","ऊपर: 8–10 cm, कैंची, हल्की लेयर।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H106.step.3,H106 Middle Part Fade,Part the hair in the centre.,बालों में बीच में मांग निकालें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H106.step.4,H106 Middle Part Fade,Shape the fringe to fall over the brows on both sides.,फ्रिंज को दोनों तरफ़ भौंहों पर गिरने का आकार दें।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H106.step.5,H106 Middle Part Fade,Blend the top into the sides.,ऊपर के बालों को किनारों में मिलाएँ।,draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H106.step.6,H106 Middle Part Fade,"Blow dry sideways, then a little light cream.","किनारों की ओर ब्लो ड्राई करें, फिर थोड़ी हल्की क्रीम।",draft,"Barber step: short command. Keep machine numbers, mm, fingers and words like trimmer, razor, fade."
+H106.callout.1.title,H106 Middle Part Fade,Centre part,बीच की मांग,draft,Photo label title.
+H106.callout.1.text,H106 Middle Part Fade,Even on both sides.,दोनों तरफ़ बराबर।,draft,Photo label line.
+H106.callout.2.title,H106 Middle Part Fade,Curtain top,कर्टेन टॉप,draft,Photo label title.
+H106.callout.2.text,H106 Middle Part Fade,8–10 cm.,8–10 cm।,draft,Photo label line.
+H106.callout.3.title,H106 Middle Part Fade,Tapered sides,टेपर किए किनारे,draft,Photo label title.
+H106.callout.3.text,H106 Middle Part Fade,#3 to #1.,#3 से #1।,draft,Photo label line.
+H106.callout.4.title,H106 Middle Part Fade,Soft finish,नरम फ़िनिश,draft,Photo label title.
+H106.callout.4.text,H106 Middle Part Fade,Light cream.,हल्की क्रीम।,draft,Photo label line.
 B01.name,B01 Clean Shave,Clean Shave,क्लिन सेभ,draft,"Catalogue name. Keep it, or write the name customers use."
 B01.shortLine,B01 Clean Shave,No hair on the face. Fresh and clean.,चेहरे पर कोई बाल नहीं। ताज़ा और साफ़।,draft,
 B01.description,B01 Clean Shave,A smooth face with no beard. Fresh and clean.,बिना दाढ़ी का चिकना चेहरा। ताज़ा और साफ़।,draft,
