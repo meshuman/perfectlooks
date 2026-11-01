@@ -6,7 +6,7 @@
     "H": "HAIR IMAGE RULES: the beard and moustache are the same in every hair image: light even stubble, 1-2 mm, with a clean curved neck line. Main view as the item says. Second view: back of the head, showing the back of the cut and the nape. Callouts point to the top, the sides, the blend or line, the back and the nape.",
     "B": "BEARD IMAGE RULES: the haircut is the same in every beard image unless the item says otherwise: a classic taper cut, short tapered sides, about 4 cm on top combed neatly to the side, natural black. Main view: three-quarter front facing left, showing the cheek line and chin. Second view: left side profile from chin to ear, showing the jaw and neck line. Callouts point to the cheek line, sideburn, chin, moustache and neck line.",
     "M": "MOUSTACHE IMAGE RULES: the haircut is the same classic taper cut as in beard images. Cheeks, chin and neck are clean-shaven unless the moustache itself runs down to the jaw. Main view: straight front, head and shoulders. Second view: close-up of the mouth area at a three-quarter angle. Callouts point to the lip line, the ends, the shape and any shaved areas.",
-    "C": "COLOUR IMAGE RULES: the haircut is the same in every colour image: a classic side part, about 6 cm on top combed to the side, tapered sides, so the colour shows across the top. Face clean-shaven. Backdrop always Sand (#D8CDBF), so the shade reads true. Main view: three-quarter front facing left, in soft daylight-balanced light so the true tone shows. Second view: close-up of the top of the head in brighter light, showing the shine and the roots. Add a small round colour swatch in the top right corner with the shade name and level below it. Callouts point to the shade, grey coverage, shine and hairline.",
+    "C": "COLOUR IMAGE RULES: the haircut is the one named in the item's HAIRCUT line, chosen to show that shade at its best (length, texture and shine suit the colour), and it is the only change from one colour image to the next. Only the hair is coloured, and the eyebrows stay natural black. Face clean-shaven. Backdrop always Sand (#D8CDBF), so the shade reads true. Main view: three-quarter front facing left, in soft daylight-balanced light so the true tone shows. Second view: close-up of the top of the head in brighter light, showing the shine and the roots. Add a small round colour swatch in the top right corner with the shade name and level below it. Callouts point to the shade, grey coverage, shine and hairline.",
     "L": "READY LOOK IMAGE RULES: show every part listed in the item, and nothing else changes. Main view: three-quarter front facing left. Second view: left side profile. One callout for each part (hair, beard, moustache, colour), plus one finishing note."
   },
   "avoid": "AVOID: any text other than the callout labels, misspelled words, logos, watermarks, brand names, extra people, hands in frame, hats, glasses, jewellery, tattoos, props, gradient, busy or textured backgrounds, harsh shadows, distorted or extra ears, mismatched eyes, a different face from the reference, blurry or smudged hair edges, cartoon or illustration style, 3D render look, plastic skin, oversharpening.",
@@ -734,167 +734,167 @@
     },
     "C01": {
       "name": "Jet Black",
-      "block": "ITEM: C01 Jet Black\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 1 - Jet Black\nSTYLE: deep, solid, even jet black with a glossy finish; no brown or blue tones; full grey coverage; clean hairline with no dye on the skin.\nCALLOUTS:\n1. Deep black: Level 1, even all over.\n2. Full grey cover: No grey showing.\n3. Glossy finish: Healthy shine.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C01 Jet Black\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 1 - Jet Black\nHAIRCUT: Slick Back: sides tapered #2 to #1, top 8 cm combed straight back with a glossy finish, so the even black and its shine read clearly.\nSTYLE: deep, solid, even jet black with a glossy finish; no brown or blue tones; full grey coverage; clean hairline with no dye on the skin.\nCALLOUTS:\n1. Deep black: Level 1, even all over.\n2. Full grey cover: No grey showing.\n3. Glossy finish: Healthy shine.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C02": {
       "name": "Natural Black",
-      "block": "ITEM: C02 Natural Black\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 2 - Natural Black\nSTYLE: soft natural black, a very dark brown that looks like natural dark hair and is slightly softer than jet black; full grey coverage; natural shine.\nCALLOUTS:\n1. Soft black: Level 2, natural look.\n2. Full grey cover: Even from roots to ends.\n3. Natural shine: Not flat.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C02 Natural Black\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 2 - Natural Black\nHAIRCUT: Classic Side Part: sides tapered, top about 6 cm combed to the side with a natural finish, a neat everyday cut that makes natural black look real.\nSTYLE: soft natural black, a very dark brown that looks like natural dark hair and is slightly softer than jet black; full grey coverage; natural shine.\nCALLOUTS:\n1. Soft black: Level 2, natural look.\n2. Full grey cover: Even from roots to ends.\n3. Natural shine: Not flat.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C03": {
       "name": "Dark Brown",
-      "block": "ITEM: C03 Dark Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 3 - Dark Brown\nSTYLE: rich dark brown that looks natural, with warm brown showing in daylight; full grey coverage.\nCALLOUTS:\n1. Rich brown: Level 3.\n2. Warm in daylight: Brown shows in the sun.\n3. Full grey cover: Even colour.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C03 Dark Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 3 - Dark Brown\nHAIRCUT: Ivy League: tapered sides, top about 4 cm with a soft side part, so the warm brown shows evenly across the top.\nSTYLE: rich dark brown that looks natural, with warm brown showing in daylight; full grey coverage.\nCALLOUTS:\n1. Rich brown: Level 3.\n2. Warm in daylight: Brown shows in the sun.\n3. Full grey cover: Even colour.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C04": {
       "name": "Medium Brown",
-      "block": "ITEM: C04 Medium Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4 - Medium Brown\nSTYLE: medium brown that is clearly brown in daylight, with a natural tone; even colour from roots to ends.\nCALLOUTS:\n1. Medium brown: Level 4.\n2. Shows in sunlight: Clear brown tone.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C04 Medium Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4 - Medium Brown\nHAIRCUT: Middle Part Curtains: top about 9 cm parted in the centre and falling to both sides, so the medium brown shows in the light and in the shadow.\nSTYLE: medium brown that is clearly brown in daylight, with a natural tone; even colour from roots to ends.\nCALLOUTS:\n1. Medium brown: Level 4.\n2. Shows in sunlight: Clear brown tone.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C05": {
       "name": "Burgundy",
-      "block": "ITEM: C05 Burgundy\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4 - Burgundy\nSTYLE: deep wine burgundy with red-violet tones; dark in the main view, glowing red-purple where light hits the top in the close-up; even colour.\nCALLOUTS:\n1. Wine tone: Red-violet.\n2. Glows in light: Red shine on top.\n3. Dark indoors: Deep base colour.\n4. Even colour: Roots to ends.",
+      "block": "ITEM: C05 Burgundy\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4 - Burgundy\nHAIRCUT: Textured Quiff: sides faded #1 to #3, top about 8 cm lifted up and back with loose texture, so the red-violet glow shows on the raised hair.\nSTYLE: deep wine burgundy with red-violet tones; dark in the main view, glowing red-purple where light hits the top in the close-up; even colour.\nCALLOUTS:\n1. Wine tone: Red-violet.\n2. Glows in light: Red shine on top.\n3. Dark indoors: Deep base colour.\n4. Even colour: Roots to ends.",
       "older": false
     },
     "C06": {
       "name": "Golden Brown Highlights",
-      "block": "ITEM: C06 Golden Brown Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6-7 - Golden Brown\nSTYLE: natural black base with thin, fine golden-brown streaks woven through the top, soft and blended, not chunky; sides stay dark.\nCALLOUTS:\n1. Fine streaks: Thin, golden brown.\n2. On top only: Sides stay dark.\n3. Soft blend: Not chunky.\n4. Natural base: Black underneath.",
+      "block": "ITEM: C06 Golden Brown Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6-7 - Golden Brown\nHAIRCUT: Middle Part: top 9 cm parted in the centre and falling softly to each side with tapered sides, so the fine golden streaks catch the light.\nSTYLE: natural black base with thin, fine golden-brown streaks woven through the top, soft and blended, not chunky; sides stay dark.\nCALLOUTS:\n1. Fine streaks: Thin, golden brown.\n2. On top only: Sides stay dark.\n3. Soft blend: Not chunky.\n4. Natural base: Black underneath.",
       "older": false
     },
     "C07": {
       "name": "Ash Grey / Silver",
-      "block": "ITEM: C07 Ash Grey / Silver\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 10 - Silver\nSTYLE: even, cool silver-grey all over, with no yellow or orange tones and a healthy shine; eyebrows stay natural black.\nCALLOUTS:\n1. Cool silver: No yellow tones.\n2. Even colour: Roots to ends.\n3. Healthy shine: Well conditioned.\n4. Natural brows: Dark contrast.",
+      "block": "ITEM: C07 Ash Grey / Silver\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 10 - Silver\nHAIRCUT: Pushed Back: tapered sides, top about 8 cm pushed back with a soft matte finish, so the silver reads cleanly with no shine hiding the tone.\nSTYLE: even, cool silver-grey all over, with no yellow or orange tones and a healthy shine; eyebrows stay natural black.\nCALLOUTS:\n1. Cool silver: No yellow tones.\n2. Even colour: Roots to ends.\n3. Healthy shine: Well conditioned.\n4. Natural brows: Dark contrast.",
       "older": false
     },
     "C08": {
       "name": "Grey Blending",
-      "block": "ITEM: C08 Grey Blending\nBACKDROP: Sand (#D8CDBF).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nSWATCH: Level 3-4 - Grey Blending\nSTYLE: natural salt-and-pepper look; grey softened into a natural mix, with about half the grey toned to dark brown-black; soft, gradual, no hard root line.\nCALLOUTS:\n1. Softened grey: Natural mix, not hidden.\n2. Salt and pepper: Some grey still shows.\n3. No hard line: Soft and gradual.\n4. Natural shine: Fresh, not dyed.",
+      "block": "ITEM: C08 Grey Blending\nBACKDROP: Sand (#D8CDBF).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nSWATCH: Level 3-4 - Grey Blending\nHAIRCUT: Taper Fade: sides tapered to #2, top about 5 cm combed lightly to the side, so the grey mixes visibly into the dark hair.\nSTYLE: natural salt-and-pepper look; grey softened into a natural mix, with about half the grey toned to dark brown-black; soft, gradual, no hard root line.\nCALLOUTS:\n1. Softened grey: Natural mix, not hidden.\n2. Salt and pepper: Some grey still shows.\n3. No hard line: Soft and gradual.\n4. Natural shine: Fresh, not dyed.",
       "older": true
     },
     "C09": {
       "name": "Blue-Black",
-      "block": "ITEM: C09 Blue-Black\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 1 - Blue-Black\nSTYLE: deep black with a cool blue sheen where the light hits the top; full grey coverage; glossy.\nCALLOUTS:\n1. Blue sheen: Shows in the light.\n2. Deep black: Level 1 base.\n3. Full grey cover: Even colour.\n4. Glossy finish: Rich shine.",
+      "block": "ITEM: C09 Blue-Black\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 1 - Blue-Black\nHAIRCUT: Slick Back: tapered sides, top 8 cm combed straight back with a smooth finish, so the cool blue sheen runs along the hair.\nSTYLE: deep black with a cool blue sheen where the light hits the top; full grey coverage; glossy.\nCALLOUTS:\n1. Blue sheen: Shows in the light.\n2. Deep black: Level 1 base.\n3. Full grey cover: Even colour.\n4. Glossy finish: Rich shine.",
       "older": false
     },
     "C10": {
       "name": "Ash Brown",
-      "block": "ITEM: C10 Ash Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Ash Brown\nSTYLE: cool, soft ash brown with no red or orange tones; natural, modern Korean-style finish; even colour.\nCALLOUTS:\n1. Cool brown: Level 5, ash.\n2. No orange: Neutral, cool tone.\n3. Soft finish: Natural and modern.\n4. Even colour: Roots to ends.",
+      "block": "ITEM: C10 Ash Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Ash Brown\nHAIRCUT: Two-Block: short #3 sides under a soft 8 cm top with a light fringe to the eyebrows, a modern Korean cut that suits the cool ash tone.\nSTYLE: cool, soft ash brown with no red or orange tones; natural, modern Korean-style finish; even colour.\nCALLOUTS:\n1. Cool brown: Level 5, ash.\n2. No orange: Neutral, cool tone.\n3. Soft finish: Natural and modern.\n4. Even colour: Roots to ends.",
       "older": false
     },
     "C11": {
       "name": "Copper",
-      "block": "ITEM: C11 Copper\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6-7 - Copper\nSTYLE: bright, warm copper orange-brown, vivid where the light hits; even colour from roots to ends.\nCALLOUTS:\n1. Bright copper: Warm orange-brown.\n2. Vivid in light: Glows on top.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C11 Copper\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6-7 - Copper\nHAIRCUT: Textured Quiff: sides faded, top about 8 cm lifted with loose texture, so the copper brightens where the hair is raised.\nSTYLE: bright, warm copper orange-brown, vivid where the light hits; even colour from roots to ends.\nCALLOUTS:\n1. Bright copper: Warm orange-brown.\n2. Vivid in light: Glows on top.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C12": {
       "name": "Henna (Mehndi)",
-      "block": "ITEM: C12 Henna (Mehndi)\nBACKDROP: Sand (#D8CDBF).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nSWATCH: Henna - Plant colour\nSTYLE: henna on greying hair: grey strands turned warm red-orange, dark strands with a red shine; natural plant-colour look with slightly varied tone; clean scalp and hairline.\nCALLOUTS:\n1. Red-orange grey: Henna on grey hair.\n2. Red shine: On the dark strands.\n3. Natural variation: Plant colour look.\n4. Clean hairline: No stains on the skin.",
+      "block": "ITEM: C12 Henna (Mehndi)\nBACKDROP: Sand (#D8CDBF).\nCHARACTER: OLDER VERSION (Arjun at about 50).\nSWATCH: Henna - Plant colour\nHAIRCUT: Classic Side Part: tapered sides, top about 6 cm combed to the side, so the red-orange henna on the grey strands is easy to judge.\nSTYLE: henna on greying hair: grey strands turned warm red-orange, dark strands with a red shine; natural plant-colour look with slightly varied tone; clean scalp and hairline.\nCALLOUTS:\n1. Red-orange grey: Henna on grey hair.\n2. Red shine: On the dark strands.\n3. Natural variation: Plant colour look.\n4. Clean hairline: No stains on the skin.",
       "older": true
     },
     "C13": {
       "name": "Light Brown",
-      "block": "ITEM: C13 Light Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Light Brown\nSTYLE: soft, light brown that looks natural, clearly brown in daylight and a little lighter than medium brown; even colour from roots to ends.\nCALLOUTS:\n1. Light brown: Soft and natural.\n2. Clear in daylight: Brown, not black.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C13 Light Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Light Brown\nHAIRCUT: Curtain Fringe: top about 8 cm parted in the centre and falling past the brows, so the light brown shows its soft tone.\nSTYLE: soft, light brown that looks natural, clearly brown in daylight and a little lighter than medium brown; even colour from roots to ends.\nCALLOUTS:\n1. Light brown: Soft and natural.\n2. Clear in daylight: Brown, not black.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C14": {
       "name": "Chestnut Brown",
-      "block": "ITEM: C14 Chestnut Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Chestnut Brown\nSTYLE: warm chestnut brown with a soft red-gold glow in daylight; rich and natural, even colour from roots to ends.\nCALLOUTS:\n1. Chestnut brown: Warm and rich.\n2. Red-gold glow: Shows in daylight.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C14 Chestnut Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Chestnut Brown\nHAIRCUT: Medium Flow: 12 cm hair pushed back with ends behind the ears and slight wave, so the red-gold glow moves through the length.\nSTYLE: warm chestnut brown with a soft red-gold glow in daylight; rich and natural, even colour from roots to ends.\nCALLOUTS:\n1. Chestnut brown: Warm and rich.\n2. Red-gold glow: Shows in daylight.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C15": {
       "name": "Mahogany",
-      "block": "ITEM: C15 Mahogany\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4-5 - Mahogany\nSTYLE: dark brown with a deep red shine like polished mahogany wood, subtle in shade and richer where the light hits; even colour from roots to ends.\nCALLOUTS:\n1. Mahogany: Dark red-brown.\n2. Red shine: Glows in light.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C15 Mahogany\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4-5 - Mahogany\nHAIRCUT: Pompadour Sweep: tapered sides, top about 9 cm swept up and back, so the deep red shine shows on the raised hair.\nSTYLE: dark brown with a deep red shine like polished mahogany wood, subtle in shade and richer where the light hits; even colour from roots to ends.\nCALLOUTS:\n1. Mahogany: Dark red-brown.\n2. Red shine: Glows in light.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C16": {
       "name": "Dark Blonde",
-      "block": "ITEM: C16 Dark Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 7 - Dark Blonde\nSTYLE: golden, neutral dark blonde, a clear step lighter than brown and softer than full blonde; even colour from roots to ends with a healthy shine.\nCALLOUTS:\n1. Dark blonde: Golden, not yellow.\n2. Even lift: No orange patches.\n3. Healthy shine: Soft and smooth.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C16 Dark Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 7 - Dark Blonde\nHAIRCUT: Pushed Back: tapered sides, top about 8 cm pushed back with natural movement, so the dark blonde shows its golden depth.\nSTYLE: golden, neutral dark blonde, a clear step lighter than brown and softer than full blonde; even colour from roots to ends with a healthy shine.\nCALLOUTS:\n1. Dark blonde: Golden, not yellow.\n2. Even lift: No orange patches.\n3. Healthy shine: Soft and smooth.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C17": {
       "name": "Violet",
-      "block": "ITEM: C17 Violet\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Violet\nSTYLE: bold, vivid violet purple, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid violet: Bold and even.\n2. Glows in light: Rich purple.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C17 Violet\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Violet\nHAIRCUT: Textured Fringe: low taper, top about 6 cm choppy and pushed forward, so the violet shows over the whole top.\nSTYLE: bold, vivid violet purple, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid violet: Bold and even.\n2. Glows in light: Rich purple.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C18": {
       "name": "Blue",
-      "block": "ITEM: C18 Blue\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Blue\nSTYLE: bold, vivid blue, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid blue: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C18 Blue\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Blue\nHAIRCUT: Two-Block: short sides and a soft 8 cm top with a fringe, so the vivid blue covers a clear block of hair.\nSTYLE: bold, vivid blue, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid blue: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C19": {
       "name": "Light Blonde",
-      "block": "ITEM: C19 Light Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 8 - Light Blonde\nSTYLE: clean, bright light blonde with a soft gold glow, even from roots to ends; healthy, smooth hair with shine.\nCALLOUTS:\n1. Light blonde: Clean and bright.\n2. Soft gold glow: Not brassy.\n3. Even lift: No orange patches.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C19 Light Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 8 - Light Blonde\nHAIRCUT: Curtain Fringe: top about 8 cm parted in the centre and falling past the brows, so the light blonde reads soft and bright.\nSTYLE: clean, bright light blonde with a soft gold glow, even from roots to ends; healthy, smooth hair with shine.\nCALLOUTS:\n1. Light blonde: Clean and bright.\n2. Soft gold glow: Not brassy.\n3. Even lift: No orange patches.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C20": {
       "name": "Platinum Blonde",
-      "block": "ITEM: C20 Platinum Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 10 - Platinum Blonde\nSTYLE: pale platinum blonde, almost white with a soft cream tone, even from roots to ends; healthy shine with no yellow or orange patches.\nCALLOUTS:\n1. Platinum blonde: Pale and even.\n2. No brassy tones: No yellow or orange.\n3. Healthy shine: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C20 Platinum Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 10 - Platinum Blonde\nHAIRCUT: Textured Fringe: low taper, top about 6 cm with a choppy fringe, so the pale platinum shows clearly with no yellow patches.\nSTYLE: pale platinum blonde, almost white with a soft cream tone, even from roots to ends; healthy shine with no yellow or orange patches.\nCALLOUTS:\n1. Platinum blonde: Pale and even.\n2. No brassy tones: No yellow or orange.\n3. Healthy shine: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C21": {
       "name": "Gold Blonde",
-      "block": "ITEM: C21 Gold Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 7-8 - Gold Blonde\nSTYLE: warm, golden blonde like honey in sunlight, rich and even from roots to ends; healthy shine, no orange patches.\nCALLOUTS:\n1. Gold blonde: Warm and sunny.\n2. Rich glow: Like honey in light.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C21 Gold Blonde\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 7-8 - Gold Blonde\nHAIRCUT: Surfer Hair: loose waves about 12 cm with a windswept finish, so the golden blonde shows like honey in sunlight.\nSTYLE: warm, golden blonde like honey in sunlight, rich and even from roots to ends; healthy shine, no orange patches.\nCALLOUTS:\n1. Gold blonde: Warm and sunny.\n2. Rich glow: Like honey in light.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C22": {
       "name": "Gold Brown",
-      "block": "ITEM: C22 Gold Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6 - Gold Brown\nSTYLE: warm light brown with a golden glow across the whole head, bright in sunlight, even from roots to ends.\nCALLOUTS:\n1. Gold brown: Warm and bright.\n2. Golden glow: Shows in light.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C22 Gold Brown\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6 - Gold Brown\nHAIRCUT: Textured Fringe: low taper, top about 6 cm pushed forward, so the golden glow shows across the whole top.\nSTYLE: warm light brown with a golden glow across the whole head, bright in sunlight, even from roots to ends.\nCALLOUTS:\n1. Gold brown: Warm and bright.\n2. Golden glow: Shows in light.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C23": {
       "name": "Dark Chestnut",
-      "block": "ITEM: C23 Dark Chestnut\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4 - Dark Chestnut\nSTYLE: deep, natural dark brown with a warm red-gold glow in daylight; full grey coverage, even colour from roots to ends.\nCALLOUTS:\n1. Dark chestnut: Deep and warm.\n2. Red-gold glow: Shows in daylight.\n3. Grey covered: Even colour.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C23 Dark Chestnut\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 4 - Dark Chestnut\nHAIRCUT: Classic Side Part: tapered sides, top about 6 cm combed neatly to the side, so full grey coverage and an even dark chestnut are easy to judge.\nSTYLE: deep, natural dark brown with a warm red-gold glow in daylight; full grey coverage, even colour from roots to ends.\nCALLOUTS:\n1. Dark chestnut: Deep and warm.\n2. Red-gold glow: Shows in daylight.\n3. Grey covered: Even colour.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C24": {
       "name": "Wine Red",
-      "block": "ITEM: C24 Wine Red\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Wine Red\nSTYLE: rich, deep wine red, brighter and redder than burgundy, glowing where the light hits; even colour from roots to ends.\nCALLOUTS:\n1. Wine red: Rich and deep.\n2. Glows in light: Clear red shine.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C24 Wine Red\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5 - Wine Red\nHAIRCUT: Slick Back: tapered sides, top about 8 cm combed straight back with a smooth finish, so the deep wine red runs along the hair.\nSTYLE: rich, deep wine red, brighter and redder than burgundy, glowing where the light hits; even colour from roots to ends.\nCALLOUTS:\n1. Wine red: Rich and deep.\n2. Glows in light: Clear red shine.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C25": {
       "name": "Red",
-      "block": "ITEM: C25 Red\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Red\nSTYLE: bold, vivid red, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid red: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C25 Red\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Red\nHAIRCUT: Textured Quiff: sides faded, top about 8 cm lifted with loose texture, so the vivid red stands out on the raised hair.\nSTYLE: bold, vivid red, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid red: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C26": {
       "name": "Orange",
-      "block": "ITEM: C26 Orange\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Orange\nSTYLE: bold, vivid orange, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid orange: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C26 Orange\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Orange\nHAIRCUT: Crop Fade: French crop top about 4 cm over a mid fade, so the vivid orange fills the top clearly.\nSTYLE: bold, vivid orange, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid orange: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C27": {
       "name": "Dark Grape",
-      "block": "ITEM: C27 Dark Grape\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 3 - Dark Grape\nSTYLE: deep, dark violet that looks almost black, with a clear violet shine where the light hits; full grey coverage, even colour from roots to ends.\nCALLOUTS:\n1. Dark grape: Almost black.\n2. Violet shine: Shows in sunlight.\n3. Grey covered: Even colour.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C27 Dark Grape\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 3 - Dark Grape\nHAIRCUT: Tousled Waves: medium-length natural waves about 9 cm left loose, so the violet shine shows in the curves of the hair.\nSTYLE: deep, dark violet that looks almost black, with a clear violet shine where the light hits; full grey coverage, even colour from roots to ends.\nCALLOUTS:\n1. Dark grape: Almost black.\n2. Violet shine: Shows in sunlight.\n3. Grey covered: Even colour.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C28": {
       "name": "Charcoal Grey",
-      "block": "ITEM: C28 Charcoal Grey\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6-7 - Charcoal Grey\nSTYLE: dark, smoky charcoal grey with a cool blue undertone, deeper than silver, even from roots to ends; healthy shine.\nCALLOUTS:\n1. Charcoal grey: Dark and smoky.\n2. Cool undertone: No yellow.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C28 Charcoal Grey\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 6-7 - Charcoal Grey\nHAIRCUT: Textured Fringe: low taper, top about 6 cm choppy and pushed forward, so the smoky charcoal shows its cool undertone.\nSTYLE: dark, smoky charcoal grey with a cool blue undertone, deeper than silver, even from roots to ends; healthy shine.\nCALLOUTS:\n1. Charcoal grey: Dark and smoky.\n2. Cool undertone: No yellow.\n3. Even colour: Roots to ends.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C29": {
       "name": "Green",
-      "block": "ITEM: C29 Green\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Green\nSTYLE: bold, vivid green, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid green: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C29 Green\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Green\nHAIRCUT: Broccoli Cut: full rounded top about 8 cm over short tapered sides, so the vivid green covers a full round shape.\nSTYLE: bold, vivid green, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid green: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C30": {
       "name": "Yellow",
-      "block": "ITEM: C30 Yellow\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Yellow\nSTYLE: bold, vivid yellow, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid yellow: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
+      "block": "ITEM: C30 Yellow\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Fashion - Yellow\nHAIRCUT: Fluffy Hair: soft airy top about 7 cm with a gentle fringe, so the vivid yellow reads bright and even.\nSTYLE: bold, vivid yellow, even and saturated, glowing where the light hits; healthy, smooth hair.\nCALLOUTS:\n1. Vivid yellow: Bold and even.\n2. Glows in light: Rich colour.\n3. Healthy hair: Smooth, not dry.\n4. Clean hairline: No dye on the skin.",
       "older": false
     },
     "C31": {
       "name": "Caramel Highlights",
-      "block": "ITEM: C31 Caramel Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 7-8 - Caramel Highlights\nSTYLE: natural black base with fine, warm caramel streaks woven through the top, soft and blended, not chunky; sides stay dark.\nCALLOUTS:\n1. Caramel streaks: Fine and warm.\n2. On top only: Sides stay dark.\n3. Soft blend: Not chunky.\n4. Natural base: Dark underneath.",
+      "block": "ITEM: C31 Caramel Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 7-8 - Caramel Highlights\nHAIRCUT: Tousled Waves: medium-length natural waves about 9 cm with soft texture, so the warm caramel streaks show through the movement.\nSTYLE: natural black base with fine, warm caramel streaks woven through the top, soft and blended, not chunky; sides stay dark.\nCALLOUTS:\n1. Caramel streaks: Fine and warm.\n2. On top only: Sides stay dark.\n3. Soft blend: Not chunky.\n4. Natural base: Dark underneath.",
       "older": false
     },
     "C32": {
       "name": "Ash Highlights",
-      "block": "ITEM: C32 Ash Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 8-9 - Ash Highlights\nSTYLE: natural black base with fine, cool ash-grey streaks woven through the top, soft and blended, not chunky; sides stay dark; modern Korean-style finish.\nCALLOUTS:\n1. Ash streaks: Fine and cool.\n2. On top only: Sides stay dark.\n3. Cool tone: No orange.\n4. Natural base: Dark underneath.",
+      "block": "ITEM: C32 Ash Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 8-9 - Ash Highlights\nHAIRCUT: Korean Two-Block: short #3 sides under a soft 8 cm top with a light see-through fringe, so the cool ash streaks show on the longer top.\nSTYLE: natural black base with fine, cool ash-grey streaks woven through the top, soft and blended, not chunky; sides stay dark; modern Korean-style finish.\nCALLOUTS:\n1. Ash streaks: Fine and cool.\n2. On top only: Sides stay dark.\n3. Cool tone: No orange.\n4. Natural base: Dark underneath.",
       "older": false
     },
     "C33": {
       "name": "Burgundy Highlights",
-      "block": "ITEM: C33 Burgundy Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5-6 - Burgundy Highlights\nSTYLE: natural black base with fine, deep burgundy wine-red streaks woven through the top, soft and blended, not chunky; sides stay dark; glossy finish.\nCALLOUTS:\n1. Burgundy streaks: Fine and deep.\n2. On top only: Sides stay dark.\n3. Red shine: Glows in light.\n4. Natural base: Dark underneath.",
+      "block": "ITEM: C33 Burgundy Highlights\nBACKDROP: Sand (#D8CDBF).\nSWATCH: Level 5-6 - Burgundy Highlights\nHAIRCUT: Wolf Cut: shaggy layers with a messy fringe and a longer back to the collar, so the deep burgundy streaks show through the layers.\nSTYLE: natural black base with fine, deep burgundy wine-red streaks woven through the top, soft and blended, not chunky; sides stay dark; glossy finish.\nCALLOUTS:\n1. Burgundy streaks: Fine and deep.\n2. On top only: Sides stay dark.\n3. Red shine: Glows in light.\n4. Natural base: Dark underneath.",
       "older": false
     },
     "L01": {

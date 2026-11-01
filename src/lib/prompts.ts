@@ -158,7 +158,7 @@ export function buildPrompt(parts: PromptParts, id: string, itemBlock: string, c
   const sections = [
     // 1. What the image is, and the style it shows.
     pick(fixed, ''),
-    pick(item, 'ITEM', 'STYLE', 'PARTS', 'HAIR FOR THIS ITEM', 'SWATCH'),
+    pick(item, 'ITEM', 'STYLE', 'HAIRCUT', 'PARTS', 'HAIR FOR THIS ITEM', 'SWATCH'),
     // 2. Who: the same man, with the traits this style needs.
     pick(fixed, 'CHARACTER').map((t) => (traits ? withFace(t, faceFor(traits.match)) : t)),
     pick(item, 'CHARACTER', 'CHARACTER NOTE'),
@@ -173,7 +173,7 @@ export function buildPrompt(parts: PromptParts, id: string, itemBlock: string, c
     pick(fixed, 'LAYOUT'),
     clean ? [] : pick(item, 'CALLOUTS'),
     // Anything the document adds later that isn't placed above.
-    item.filter((f) => !['ITEM', 'STYLE', 'PARTS', 'HAIR FOR THIS ITEM', 'SWATCH', 'CHARACTER', 'CHARACTER NOTE', 'MAIN VIEW', 'BACKDROP', 'CALLOUTS'].includes(f.key)).map((f) => f.text),
+    item.filter((f) => !['ITEM', 'STYLE', 'HAIRCUT', 'PARTS', 'HAIR FOR THIS ITEM', 'SWATCH', 'CHARACTER', 'CHARACTER NOTE', 'MAIN VIEW', 'BACKDROP', 'CALLOUTS'].includes(f.key)).map((f) => f.text),
     // 6. What to avoid, last.
     [clean ? parts.avoid.replace('any text other than the callout labels', 'any text') : parts.avoid],
     clean ? [`Keep the right side as clean background: the app adds its own labels. ${parts.cleanSuffix}`] : [],

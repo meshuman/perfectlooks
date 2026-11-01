@@ -106,7 +106,7 @@ MOUSTACHE IMAGE RULES: the haircut is the same classic taper cut as in beard ima
 **Hair colours**
 
 ```text
-COLOUR IMAGE RULES: the haircut is the same in every colour image: a classic side part, about 6 cm on top combed to the side, tapered sides, so the colour shows across the top. Face clean-shaven. Backdrop always Sand (#D8CDBF), so the shade reads true. Main view: three-quarter front facing left, in soft daylight-balanced light so the true tone shows. Second view: close-up of the top of the head in brighter light, showing the shine and the roots. Add a small round colour swatch in the top right corner with the shade name and level below it. Callouts point to the shade, grey coverage, shine and hairline.
+COLOUR IMAGE RULES: the haircut is the one named in the item's HAIRCUT line, chosen to show that shade at its best (length, texture and shine suit the colour), and it is the only change from one colour image to the next. Only the hair is coloured, and the eyebrows stay natural black. Face clean-shaven. Backdrop always Sand (#D8CDBF), so the shade reads true. Main view: three-quarter front facing left, in soft daylight-balanced light so the true tone shows. Second view: close-up of the top of the head in brighter light, showing the shine and the roots. Add a small round colour swatch in the top right corner with the shade name and level below it. Callouts point to the shade, grey coverage, shine and hairline.
 ```
 
 **Ready Looks**
@@ -2176,6 +2176,7 @@ Paste the fixed block, the colour category block, the item block below, then the
 ITEM: C01 Jet Black
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 1 - Jet Black
+HAIRCUT: Slick Back: sides tapered #2 to #1, top 8 cm combed straight back with a glossy finish, so the even black and its shine read clearly.
 STYLE: deep, solid, even jet black with a glossy finish; no brown or blue tones; full grey coverage; clean hairline with no dye on the skin.
 CALLOUTS:
 1. Deep black: Level 1, even all over.
@@ -2190,6 +2191,7 @@ CALLOUTS:
 ITEM: C02 Natural Black
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 2 - Natural Black
+HAIRCUT: Classic Side Part: sides tapered, top about 6 cm combed to the side with a natural finish, a neat everyday cut that makes natural black look real.
 STYLE: soft natural black, a very dark brown that looks like natural dark hair and is slightly softer than jet black; full grey coverage; natural shine.
 CALLOUTS:
 1. Soft black: Level 2, natural look.
@@ -2204,6 +2206,7 @@ CALLOUTS:
 ITEM: C03 Dark Brown
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 3 - Dark Brown
+HAIRCUT: Ivy League: tapered sides, top about 4 cm with a soft side part, so the warm brown shows evenly across the top.
 STYLE: rich dark brown that looks natural, with warm brown showing in daylight; full grey coverage.
 CALLOUTS:
 1. Rich brown: Level 3.
@@ -2218,6 +2221,7 @@ CALLOUTS:
 ITEM: C04 Medium Brown
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 4 - Medium Brown
+HAIRCUT: Middle Part Curtains: top about 9 cm parted in the centre and falling to both sides, so the medium brown shows in the light and in the shadow.
 STYLE: medium brown that is clearly brown in daylight, with a natural tone; even colour from roots to ends.
 CALLOUTS:
 1. Medium brown: Level 4.
@@ -2232,6 +2236,7 @@ CALLOUTS:
 ITEM: C05 Burgundy
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 4 - Burgundy
+HAIRCUT: Textured Quiff: sides faded #1 to #3, top about 8 cm lifted up and back with loose texture, so the red-violet glow shows on the raised hair.
 STYLE: deep wine burgundy with red-violet tones; dark in the main view, glowing red-purple where light hits the top in the close-up; even colour.
 CALLOUTS:
 1. Wine tone: Red-violet.
@@ -2246,6 +2251,7 @@ CALLOUTS:
 ITEM: C06 Golden Brown Highlights
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 6-7 - Golden Brown
+HAIRCUT: Middle Part: top 9 cm parted in the centre and falling softly to each side with tapered sides, so the fine golden streaks catch the light.
 STYLE: natural black base with thin, fine golden-brown streaks woven through the top, soft and blended, not chunky; sides stay dark.
 CALLOUTS:
 1. Fine streaks: Thin, golden brown.
@@ -2260,6 +2266,7 @@ CALLOUTS:
 ITEM: C07 Ash Grey / Silver
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 10 - Silver
+HAIRCUT: Pushed Back: tapered sides, top about 8 cm pushed back with a soft matte finish, so the silver reads cleanly with no shine hiding the tone.
 STYLE: even, cool silver-grey all over, with no yellow or orange tones and a healthy shine; eyebrows stay natural black.
 CALLOUTS:
 1. Cool silver: No yellow tones.
@@ -2275,6 +2282,7 @@ ITEM: C08 Grey Blending
 BACKDROP: Sand (#D8CDBF).
 CHARACTER: OLDER VERSION (Arjun at about 50).
 SWATCH: Level 3-4 - Grey Blending
+HAIRCUT: Taper Fade: sides tapered to #2, top about 5 cm combed lightly to the side, so the grey mixes visibly into the dark hair.
 STYLE: natural salt-and-pepper look; grey softened into a natural mix, with about half the grey toned to dark brown-black; soft, gradual, no hard root line.
 CALLOUTS:
 1. Softened grey: Natural mix, not hidden.
@@ -2289,6 +2297,7 @@ CALLOUTS:
 ITEM: C09 Blue-Black
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 1 - Blue-Black
+HAIRCUT: Slick Back: tapered sides, top 8 cm combed straight back with a smooth finish, so the cool blue sheen runs along the hair.
 STYLE: deep black with a cool blue sheen where the light hits the top; full grey coverage; glossy.
 CALLOUTS:
 1. Blue sheen: Shows in the light.
@@ -2303,6 +2312,7 @@ CALLOUTS:
 ITEM: C10 Ash Brown
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 5 - Ash Brown
+HAIRCUT: Two-Block: short #3 sides under a soft 8 cm top with a light fringe to the eyebrows, a modern Korean cut that suits the cool ash tone.
 STYLE: cool, soft ash brown with no red or orange tones; natural, modern Korean-style finish; even colour.
 CALLOUTS:
 1. Cool brown: Level 5, ash.
@@ -2317,6 +2327,7 @@ CALLOUTS:
 ITEM: C11 Copper
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 6-7 - Copper
+HAIRCUT: Textured Quiff: sides faded, top about 8 cm lifted with loose texture, so the copper brightens where the hair is raised.
 STYLE: bright, warm copper orange-brown, vivid where the light hits; even colour from roots to ends.
 CALLOUTS:
 1. Bright copper: Warm orange-brown.
@@ -2332,6 +2343,7 @@ ITEM: C12 Henna (Mehndi)
 BACKDROP: Sand (#D8CDBF).
 CHARACTER: OLDER VERSION (Arjun at about 50).
 SWATCH: Henna - Plant colour
+HAIRCUT: Classic Side Part: tapered sides, top about 6 cm combed to the side, so the red-orange henna on the grey strands is easy to judge.
 STYLE: henna on greying hair: grey strands turned warm red-orange, dark strands with a red shine; natural plant-colour look with slightly varied tone; clean scalp and hairline.
 CALLOUTS:
 1. Red-orange grey: Henna on grey hair.
@@ -2346,6 +2358,7 @@ CALLOUTS:
 ITEM: C13 Light Brown
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 5 - Light Brown
+HAIRCUT: Curtain Fringe: top about 8 cm parted in the centre and falling past the brows, so the light brown shows its soft tone.
 STYLE: soft, light brown that looks natural, clearly brown in daylight and a little lighter than medium brown; even colour from roots to ends.
 CALLOUTS:
 1. Light brown: Soft and natural.
@@ -2360,6 +2373,7 @@ CALLOUTS:
 ITEM: C14 Chestnut Brown
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 5 - Chestnut Brown
+HAIRCUT: Medium Flow: 12 cm hair pushed back with ends behind the ears and slight wave, so the red-gold glow moves through the length.
 STYLE: warm chestnut brown with a soft red-gold glow in daylight; rich and natural, even colour from roots to ends.
 CALLOUTS:
 1. Chestnut brown: Warm and rich.
@@ -2374,6 +2388,7 @@ CALLOUTS:
 ITEM: C15 Mahogany
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 4-5 - Mahogany
+HAIRCUT: Pompadour Sweep: tapered sides, top about 9 cm swept up and back, so the deep red shine shows on the raised hair.
 STYLE: dark brown with a deep red shine like polished mahogany wood, subtle in shade and richer where the light hits; even colour from roots to ends.
 CALLOUTS:
 1. Mahogany: Dark red-brown.
@@ -2388,6 +2403,7 @@ CALLOUTS:
 ITEM: C16 Dark Blonde
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 7 - Dark Blonde
+HAIRCUT: Pushed Back: tapered sides, top about 8 cm pushed back with natural movement, so the dark blonde shows its golden depth.
 STYLE: golden, neutral dark blonde, a clear step lighter than brown and softer than full blonde; even colour from roots to ends with a healthy shine.
 CALLOUTS:
 1. Dark blonde: Golden, not yellow.
@@ -2402,6 +2418,7 @@ CALLOUTS:
 ITEM: C17 Violet
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Fashion - Violet
+HAIRCUT: Textured Fringe: low taper, top about 6 cm choppy and pushed forward, so the violet shows over the whole top.
 STYLE: bold, vivid violet purple, even and saturated, glowing where the light hits; healthy, smooth hair.
 CALLOUTS:
 1. Vivid violet: Bold and even.
@@ -2416,6 +2433,7 @@ CALLOUTS:
 ITEM: C18 Blue
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Fashion - Blue
+HAIRCUT: Two-Block: short sides and a soft 8 cm top with a fringe, so the vivid blue covers a clear block of hair.
 STYLE: bold, vivid blue, even and saturated, glowing where the light hits; healthy, smooth hair.
 CALLOUTS:
 1. Vivid blue: Bold and even.
@@ -2430,6 +2448,7 @@ CALLOUTS:
 ITEM: C19 Light Blonde
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 8 - Light Blonde
+HAIRCUT: Curtain Fringe: top about 8 cm parted in the centre and falling past the brows, so the light blonde reads soft and bright.
 STYLE: clean, bright light blonde with a soft gold glow, even from roots to ends; healthy, smooth hair with shine.
 CALLOUTS:
 1. Light blonde: Clean and bright.
@@ -2444,6 +2463,7 @@ CALLOUTS:
 ITEM: C20 Platinum Blonde
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 10 - Platinum Blonde
+HAIRCUT: Textured Fringe: low taper, top about 6 cm with a choppy fringe, so the pale platinum shows clearly with no yellow patches.
 STYLE: pale platinum blonde, almost white with a soft cream tone, even from roots to ends; healthy shine with no yellow or orange patches.
 CALLOUTS:
 1. Platinum blonde: Pale and even.
@@ -2458,6 +2478,7 @@ CALLOUTS:
 ITEM: C21 Gold Blonde
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 7-8 - Gold Blonde
+HAIRCUT: Surfer Hair: loose waves about 12 cm with a windswept finish, so the golden blonde shows like honey in sunlight.
 STYLE: warm, golden blonde like honey in sunlight, rich and even from roots to ends; healthy shine, no orange patches.
 CALLOUTS:
 1. Gold blonde: Warm and sunny.
@@ -2472,6 +2493,7 @@ CALLOUTS:
 ITEM: C22 Gold Brown
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 6 - Gold Brown
+HAIRCUT: Textured Fringe: low taper, top about 6 cm pushed forward, so the golden glow shows across the whole top.
 STYLE: warm light brown with a golden glow across the whole head, bright in sunlight, even from roots to ends.
 CALLOUTS:
 1. Gold brown: Warm and bright.
@@ -2486,6 +2508,7 @@ CALLOUTS:
 ITEM: C23 Dark Chestnut
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 4 - Dark Chestnut
+HAIRCUT: Classic Side Part: tapered sides, top about 6 cm combed neatly to the side, so full grey coverage and an even dark chestnut are easy to judge.
 STYLE: deep, natural dark brown with a warm red-gold glow in daylight; full grey coverage, even colour from roots to ends.
 CALLOUTS:
 1. Dark chestnut: Deep and warm.
@@ -2500,6 +2523,7 @@ CALLOUTS:
 ITEM: C24 Wine Red
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 5 - Wine Red
+HAIRCUT: Slick Back: tapered sides, top about 8 cm combed straight back with a smooth finish, so the deep wine red runs along the hair.
 STYLE: rich, deep wine red, brighter and redder than burgundy, glowing where the light hits; even colour from roots to ends.
 CALLOUTS:
 1. Wine red: Rich and deep.
@@ -2514,6 +2538,7 @@ CALLOUTS:
 ITEM: C25 Red
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Fashion - Red
+HAIRCUT: Textured Quiff: sides faded, top about 8 cm lifted with loose texture, so the vivid red stands out on the raised hair.
 STYLE: bold, vivid red, even and saturated, glowing where the light hits; healthy, smooth hair.
 CALLOUTS:
 1. Vivid red: Bold and even.
@@ -2528,6 +2553,7 @@ CALLOUTS:
 ITEM: C26 Orange
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Fashion - Orange
+HAIRCUT: Crop Fade: French crop top about 4 cm over a mid fade, so the vivid orange fills the top clearly.
 STYLE: bold, vivid orange, even and saturated, glowing where the light hits; healthy, smooth hair.
 CALLOUTS:
 1. Vivid orange: Bold and even.
@@ -2542,6 +2568,7 @@ CALLOUTS:
 ITEM: C27 Dark Grape
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 3 - Dark Grape
+HAIRCUT: Tousled Waves: medium-length natural waves about 9 cm left loose, so the violet shine shows in the curves of the hair.
 STYLE: deep, dark violet that looks almost black, with a clear violet shine where the light hits; full grey coverage, even colour from roots to ends.
 CALLOUTS:
 1. Dark grape: Almost black.
@@ -2556,6 +2583,7 @@ CALLOUTS:
 ITEM: C28 Charcoal Grey
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 6-7 - Charcoal Grey
+HAIRCUT: Textured Fringe: low taper, top about 6 cm choppy and pushed forward, so the smoky charcoal shows its cool undertone.
 STYLE: dark, smoky charcoal grey with a cool blue undertone, deeper than silver, even from roots to ends; healthy shine.
 CALLOUTS:
 1. Charcoal grey: Dark and smoky.
@@ -2570,6 +2598,7 @@ CALLOUTS:
 ITEM: C29 Green
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Fashion - Green
+HAIRCUT: Broccoli Cut: full rounded top about 8 cm over short tapered sides, so the vivid green covers a full round shape.
 STYLE: bold, vivid green, even and saturated, glowing where the light hits; healthy, smooth hair.
 CALLOUTS:
 1. Vivid green: Bold and even.
@@ -2584,6 +2613,7 @@ CALLOUTS:
 ITEM: C30 Yellow
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Fashion - Yellow
+HAIRCUT: Fluffy Hair: soft airy top about 7 cm with a gentle fringe, so the vivid yellow reads bright and even.
 STYLE: bold, vivid yellow, even and saturated, glowing where the light hits; healthy, smooth hair.
 CALLOUTS:
 1. Vivid yellow: Bold and even.
@@ -2598,6 +2628,7 @@ CALLOUTS:
 ITEM: C31 Caramel Highlights
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 7-8 - Caramel Highlights
+HAIRCUT: Tousled Waves: medium-length natural waves about 9 cm with soft texture, so the warm caramel streaks show through the movement.
 STYLE: natural black base with fine, warm caramel streaks woven through the top, soft and blended, not chunky; sides stay dark.
 CALLOUTS:
 1. Caramel streaks: Fine and warm.
@@ -2612,6 +2643,7 @@ CALLOUTS:
 ITEM: C32 Ash Highlights
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 8-9 - Ash Highlights
+HAIRCUT: Korean Two-Block: short #3 sides under a soft 8 cm top with a light see-through fringe, so the cool ash streaks show on the longer top.
 STYLE: natural black base with fine, cool ash-grey streaks woven through the top, soft and blended, not chunky; sides stay dark; modern Korean-style finish.
 CALLOUTS:
 1. Ash streaks: Fine and cool.
@@ -2626,6 +2658,7 @@ CALLOUTS:
 ITEM: C33 Burgundy Highlights
 BACKDROP: Sand (#D8CDBF).
 SWATCH: Level 5-6 - Burgundy Highlights
+HAIRCUT: Wolf Cut: shaggy layers with a messy fringe and a longer back to the collar, so the deep burgundy streaks show through the layers.
 STYLE: natural black base with fine, deep burgundy wine-red streaks woven through the top, soft and blended, not chunky; sides stay dark; glossy finish.
 CALLOUTS:
 1. Burgundy streaks: Fine and deep.
