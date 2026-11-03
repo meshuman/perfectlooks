@@ -23,6 +23,9 @@ const { t, l } = useI18n(Astro.url);
 const styleCount = (await getAllItems()).filter((it) => it.category !== 'looks').length;
 const womenServices = womenCategories.reduce((sum, category) => sum + category.items.length, 0);
 
+// The deployed site has a quieter hero: no Men button (the card below does the job), a smaller logo and smaller text.
+// Local development keeps the full hero.
+const launch = !import.meta.env.DEV;
 const notifyHref = `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(t('who.womenNotifyMessage', { shop: shop.name }))}`;
 
 // One nested frame for both cards: a hairline shell around the card, so each reads as a mounted print.
@@ -40,8 +43,8 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
     <section class="md:grid md:min-h-[18rem] md:grid-cols-2">
       <div class="relative aspect-[16/4] overflow-hidden md:aspect-auto">
         <div class="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-brand p-3 text-white md:gap-4">
-          <svg viewBox="0 0 100 100" class="h-10 max-h-[48%] w-auto md:h-24" aria-hidden="true" set:html={scissorsMark()} />
-          <div class="w-20 max-w-[55%] md:w-32" set:html={kgfBlock()} />
+          <svg viewBox="0 0 100 100" class:list={['max-h-[48%] w-auto', launch ? 'h-[1.875rem] md:h-[4.5rem]' : 'h-10 md:h-24']} aria-hidden="true" set:html={scissorsMark()} />
+          <div class:list={['max-w-[55%]', launch ? 'w-[3.75rem] md:w-24' : 'w-20 md:w-32']} set:html={kgfBlock()} />
         </div>
       </div>
       <div class="wrap flex flex-col justify-center py-5 md:max-w-xl md:px-12 md:py-10">
@@ -49,8 +52,10 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
           <Icon name="mapPin" size={12} />
           {shop.name} · {shop.area}
         </p>
-        <h1 class="rise mt-2 text-[1.75rem] leading-[1.05] md:text-[2.25rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
-        <p class="rise mt-2 max-w-md text-[0.875rem] leading-snug text-muted" style="--rise-delay:160ms">{t('home.intro')}</p>
+        <h1 class:list={['rise mt-2 leading-[1.05]', launch ? 'text-[1.3125rem] md:text-[1.6875rem]' : 'text-[1.75rem] md:text-[2.25rem]']} style="--rise-delay:80ms">{t('home.heading')}</h1>
+        <p class:list={['rise mt-2 max-w-md leading-snug text-muted', launch ? 'text-[0.75rem]' : 'text-[0.875rem]']} style="--rise-delay:160ms">{t('home.intro')}</p>
+        {
+          !launch && (
         <div class="rise mt-4 flex flex-wrap gap-3" style="--rise-delay:240ms">
           {
             [
@@ -74,6 +79,8 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
             ))
           }
         </div>
+          )
+        }
       </div>
     </section>
 
