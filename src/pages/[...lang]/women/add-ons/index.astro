@@ -1,9 +1,10 @@
 ---
+import { WOMEN_LIVE } from '@/data/flags';
 import AddonsIndex from '@/components/AddonsIndex.astro';
 import { langParams } from '@/i18n';
 
 export function getStaticPaths() {
-  return langParams().map((params) => ({ params }));
+  return WOMEN_LIVE ? langParams().map((params) => ({ params })) : [];
 }
 ---
 

@@ -5,6 +5,9 @@ import { readdirSync, readFileSync, statSync, writeFileSync, existsSync } from '
 import { join, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+/** The women's pages exist only in a build with the section switched on (see src/data/flags.ts). */
+const WOMEN_LIVE = process.env.PUBLIC_WOMEN_LIVE === 'true';
+
 /** Pages stored on install: the ones a customer needs mid-visit if the Wi-Fi drops. */
 const PAGES = [
   '/',
@@ -25,7 +28,7 @@ const PAGES = [
   '/barber-card',
   '/about-you',
   '/offline',
-];
+].filter((page) => WOMEN_LIVE || !page.startsWith('/women'));
 
 function walk(dir, out = []) {
   for (const name of readdirSync(dir)) {

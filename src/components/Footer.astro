@@ -1,6 +1,7 @@
 ---
 import Logo from './Logo.astro';
 import { defaultShop as shop } from '@/data/shop';
+import { WOMEN_LIVE } from '@/data/flags';
 import { womenCategories } from '@/data/women';
 import { useI18n, type UiKey } from '@/i18n';
 const { t, l } = useI18n(Astro.url);
@@ -26,10 +27,10 @@ const womenLinks = [
 ];
 const columns = [
   ...(inWomen ? [] : [{ title: t('who.men'), href: l('/men'), links: menLinks }]),
-  ...(inMen ? [] : [{ title: t('who.women'), href: l('/women'), links: womenLinks }]),
+  ...(inMen || !WOMEN_LIVE ? [] : [{ title: t('who.women'), href: l('/women'), links: womenLinks }]),
 ];
 // Inside one side, a single link crosses over to the other.
-const crossOver = inMen ? { href: l('/women'), label: t('who.women') } : inWomen ? { href: l('/men'), label: t('who.men') } : undefined;
+const crossOver = inMen && WOMEN_LIVE ? { href: l('/women'), label: t('who.women') } : inWomen ? { href: l('/men'), label: t('who.men') } : undefined;
 ---
 
 <footer class="bg-ink pt-14 pb-28 text-white">

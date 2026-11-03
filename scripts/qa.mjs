@@ -4,6 +4,7 @@ import { chromium, devices } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
 const base = process.argv[2] ?? 'http://localhost:4321';
+const womenLive = (await fetch(base + '/women')).ok;
 const PAGES = [
   '/',
   '/men',
@@ -61,7 +62,7 @@ const rows = [];
 const a11y = [];
 let failed = 0;
 
-for (const path of PAGES) {
+for (const path of PAGES.filter((p) => womenLive || !p.startsWith("/women"))) {
   // A fresh context per page: nothing cached, like a first visit from the QR code.
   const context = await browser.newContext(PHONE);
   const page = await context.newPage();

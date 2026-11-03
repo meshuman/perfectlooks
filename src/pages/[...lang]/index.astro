@@ -6,6 +6,7 @@ import Icon from '@/components/Icon.astro';
 import ItemPhoto from '@/components/ItemPhoto.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import { getAllItems } from '@/data/catalogue';
+import { WOMEN_LIVE, womenNotifyNumber } from '@/data/flags';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
 import { womenCategories } from '@/data/women';
@@ -21,6 +22,8 @@ const { t, l } = useI18n(Astro.url);
 // Hair, beards, moustaches and colours; Ready Looks are counted on their own.
 const styleCount = (await getAllItems()).filter((it) => it.category !== 'looks').length;
 const womenServices = womenCategories.reduce((sum, category) => sum + category.items.length, 0);
+
+const notifyHref = `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(t('who.womenNotifyMessage', { shop: shop.name }))}`;
 
 // One nested frame for both cards: a hairline shell around the card, so each reads as a mounted print.
 const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-500 ease-out-soft hover:shadow-[inset_0_0_0_2px_var(--color-ink)]';
@@ -53,7 +56,9 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
             [
               { href: l('/men'), label: t('who.men'), dark: true },
               { href: l('/women'), label: t('who.women'), dark: false },
-            ].map((cta) => (
+            ]
+              .filter((cta) => WOMEN_LIVE || cta.dark)
+              .map((cta) => (
               <a
                 href={cta.href}
                 class:list={[
@@ -99,6 +104,7 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
             </span>
           </span>
         </a>
+        {WOMEN_LIVE ? (
         <a href={l('/women')} class={shell} data-reveal style="--reveal-delay:160ms">
           <span class="relative block aspect-[4/3] overflow-hidden">
             <ItemPhoto
@@ -119,6 +125,26 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
             </span>
           </span>
         </a>
+        ) : (
+        <div class={shell.replace('group ', '').replace(/hover:\S+/, '')} data-reveal style="--reveal-delay:160ms">
+          <span class="relative block aspect-[4/3] overflow-hidden">
+            <ItemPhoto
+              item={{ id: 'W05', name: 'Blow Dry & Styling', mainPhoto: 'front' }}
+              decorative
+              block="bg-block-blush"
+              class="absolute inset-0 size-full object-[center_20%] opacity-60 saturate-50"
+            />
+            <span class="absolute top-3 left-3 rounded-full bg-ink px-3 py-1.5 text-[0.6875rem] font-semibold tracking-[0.14em] text-white uppercase">{t('who.womenSoon')}</span>
+          </span>
+          <span class="block p-4 md:p-5">
+            <span class="block text-[1.625rem] leading-tight font-semibold">{t('who.women')}</span>
+            <span class="mt-1 block text-[0.875rem] leading-snug text-muted">{t('who.womenSoonText')}</span>
+            <span class="mt-4 block">
+              <Button href={notifyHref} variant="dark" size="lg" arrow target="_blank" rel="noopener">{t('who.womenNotify')}</Button>
+            </span>
+          </span>
+        </div>
+        )}
       </div>
     </section>
 

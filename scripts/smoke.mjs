@@ -25,6 +25,9 @@ const toast = (text) => expectText(page.locator('#pl-toast:not([hidden])'), text
 const counter = (name) => page.locator(`[data-counter="${name}"]`).textContent();
 const go = (path) => page.goto(base + path, { waitUntil: 'load' });
 
+// The women's section is built only when PUBLIC_WOMEN_LIVE=true; otherwise the landing page shows "Coming soon".
+const womenLive = (await fetch(base + '/women')).ok;
+
 await go('/men/hair/low-fade');
 
 await check('Add to My Look fills the hair slot', async () => {
@@ -273,18 +276,26 @@ await check('The landing page asks Men or Women and opens that section', async (
   const h1 = await page.locator('h1').first().textContent();
   if (!/look/i.test(h1)) throw new Error('landing heading: ' + h1);
   await page.locator('#who a[href="/men"]').waitFor({ timeout: 3000 });
-  await page.locator('#who a[href="/women"]').waitFor({ timeout: 3000 });
+  if (womenLive) await page.locator('#who a[href="/women"]').waitFor({ timeout: 3000 });
+  else {
+    await expectText(page.locator('#who'), 'Coming soon');
+    if (await page.locator('a[href^="/women"]').count()) throw new Error('a link to /women is still on the page');
+    const wa = await page.getAttribute('#who a[href^="https://wa.me/9779801033828"]', 'href');
+    if (!wa) throw new Error('no WhatsApp notify link');
+  }
   await page.locator('main a[href="/feedback"]').first().waitFor({ timeout: 3000 });
   if (await page.locator('main a[href*="add-ons"], main a[href^="/men/learn/"]').count()) throw new Error('landing should not carry add-ons or reads');
-  await Promise.all([page.waitForURL(/\/women$/), page.click('#who a[href="/women"]')]);
-  const tiles = await page.locator('main a[href^="/women/"]').count();
-  if (tiles < 9) throw new Error('expected 9 women categories, found ' + tiles);
+  if (womenLive) {
+    await Promise.all([page.waitForURL(/\/women$/), page.click('#who a[href="/women"]')]);
+    const tiles = await page.locator('main a[href^="/women/"]').count();
+    if (tiles < 9) throw new Error('expected 9 women categories, found ' + tiles);
+  }
   await Promise.all([page.waitForURL(/\/men$/), page.click('header nav a[href="/men"]')]);
   for (const href of ['/men/hair', '/men/beards', '/men/moustaches', '/men/colours', '/men/looks', '/men/add-ons'])
     await page.locator('main a[href="' + href + '"]').first().waitFor({ timeout: 3000 });
 });
 
-await check('Women: search and filters narrow the list', async () => {
+if (womenLive) await check('Women: search and filters narrow the list', async () => {
   await go('/women/hair');
   const visible = () => page.locator('[data-item-list] > li:not([hidden])').count();
   const total = await visible();
@@ -301,7 +312,7 @@ await check('Women: search and filters narrow the list', async () => {
   if ((await visible()) !== total) throw new Error('reset did not restore the list');
 });
 
-await check('Women: each category lists its services and a service explains itself', async () => {
+if (womenLive) await check('Women: each category lists its services and a service explains itself', async () => {
   await go('/women/nails');
   const rows = await page.locator('main ul a[href^="/women/nails/"]').count();
   if (rows < 9) throw new Error('expected at least 9 services, found ' + rows);

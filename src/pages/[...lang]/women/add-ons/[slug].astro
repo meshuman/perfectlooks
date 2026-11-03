@@ -1,10 +1,11 @@
 ---
+import { WOMEN_LIVE } from '@/data/flags';
 import AddonDetail from '@/components/AddonDetail.astro';
 import { addonsFor } from '@/data/addons';
 import { langParams } from '@/i18n';
 
 export function getStaticPaths() {
-  return langParams().flatMap(({ lang }) => addonsFor('women').map((addon) => ({ params: { lang, slug: addon.slug }, props: { addon } })));
+  return (WOMEN_LIVE ? langParams() : []).flatMap(({ lang }) => addonsFor('women').map((addon) => ({ params: { lang, slug: addon.slug }, props: { addon } })));
 }
 
 const { addon } = Astro.props;

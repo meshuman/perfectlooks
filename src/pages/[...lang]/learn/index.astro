@@ -4,6 +4,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Icon from '@/components/Icon.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import { getPosts } from '@/data/learn';
+import { WOMEN_LIVE } from '@/data/flags';
 import { womenGuides } from '@/data/women-learn';
 import { breadcrumbs } from '@/data/seo';
 import { langParams, useI18n } from '@/i18n';
@@ -17,7 +18,7 @@ const menGuides = (await getPosts()).length;
 const cards = [
   { href: l('/men/learn'), title: t('learn.hubMen'), text: t('learn.hubMenText'), count: menGuides, icon: 'scissors' as const },
   { href: l('/women/learn'), title: t('learn.hubWomen'), text: t('learn.hubWomenText'), count: womenGuides.length, icon: 'sparkle' as const },
-];
+].filter((c) => WOMEN_LIVE || !c.href.includes('/women/'));
 ---
 
 <BaseLayout title={t('learn.hubTitle')} description={t('learn.hubDescription')} tab="learn">

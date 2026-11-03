@@ -2,6 +2,7 @@
 import Icon from './Icon.astro';
 import Logo from './Logo.astro';
 import LangSwitch from './LangSwitch.astro';
+import { WOMEN_LIVE } from '@/data/flags';
 import { useI18n } from '@/i18n';
 
 interface Props {
@@ -19,7 +20,7 @@ const path = Astro.url.pathname.replace(/^\/(ne|hi)(?=\/|$)/, '');
 const sections = [
   { key: 'men', href: l('/men'), label: t('who.men'), on: path === '/men' || path.startsWith('/men/') },
   { key: 'women', href: l('/women'), label: t('who.women'), on: path === '/women' || path.startsWith('/women/') },
-];
+].filter((s) => WOMEN_LIVE || s.key !== 'women');
 ---
 
 {/* Logo centred, as in the reference header. */}
