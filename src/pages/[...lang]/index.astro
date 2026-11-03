@@ -37,21 +37,21 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
   <JsonLd slot="head" data={website(Astro.site!)} />
   <main>
     {/* Hero: the brand on crimson, then the message and the one choice, so Men and Women are on the first screen. */}
-    <section class="md:grid md:min-h-[36rem] md:grid-cols-2">
-      <div class="relative aspect-[16/8] overflow-hidden md:aspect-auto">
-        <div class="absolute inset-0 flex flex-col items-center justify-center gap-5 bg-brand p-6 text-white md:gap-8">
-          <svg viewBox="0 0 100 100" class="h-20 max-h-[48%] w-auto md:h-48" aria-hidden="true" set:html={scissorsMark()} />
-          <div class="w-36 max-w-[55%] md:w-56" set:html={kgfBlock()} />
+    <section class="md:grid md:min-h-[18rem] md:grid-cols-2">
+      <div class="relative aspect-[16/4] overflow-hidden md:aspect-auto">
+        <div class="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-brand p-3 text-white md:gap-4">
+          <svg viewBox="0 0 100 100" class="h-10 max-h-[48%] w-auto md:h-24" aria-hidden="true" set:html={scissorsMark()} />
+          <div class="w-20 max-w-[55%] md:w-32" set:html={kgfBlock()} />
         </div>
       </div>
-      <div class="wrap flex flex-col justify-center py-9 md:max-w-xl md:px-12 md:py-20">
+      <div class="wrap flex flex-col justify-center py-5 md:max-w-xl md:px-12 md:py-10">
         <p class="rise inline-flex w-max items-center gap-2 rounded-full bg-paper-2 px-3 py-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
           <Icon name="mapPin" size={12} />
           {shop.name} · {shop.area}
         </p>
-        <h1 class="rise mt-4 text-[2.5rem] leading-[1.05] md:text-[3.5rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
-        <p class="rise mt-4 max-w-md text-[0.9375rem] leading-relaxed text-muted" style="--rise-delay:160ms">{t('home.intro')}</p>
-        <div class="rise mt-7 flex flex-wrap gap-3" style="--rise-delay:240ms">
+        <h1 class="rise mt-2 text-[1.75rem] leading-[1.05] md:text-[2.25rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
+        <p class="rise mt-2 max-w-md text-[0.875rem] leading-snug text-muted" style="--rise-delay:160ms">{t('home.intro')}</p>
+        <div class="rise mt-4 flex flex-wrap gap-3" style="--rise-delay:240ms">
           {
             [
               { href: l('/men'), label: t('who.men'), dark: true },
@@ -78,7 +78,7 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
     </section>
 
     {/* The choice, in full: a photo card for men and a colour card for women. */}
-    <section id="who" class="wrap scroll-mt-20 py-16 md:py-28" aria-labelledby="who-title">
+    <section id="who" class="wrap scroll-mt-20 py-8 md:py-14" aria-labelledby="who-title">
       <div data-reveal>
         <p class="inline-flex rounded-full bg-paper-2 px-3 py-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">{t('who.label')}</p>
         <h2 id="who-title" class="mt-4 text-[2rem] leading-tight md:text-[2.75rem]">{t('who.title')}</h2>
