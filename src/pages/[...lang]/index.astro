@@ -26,15 +26,25 @@ const styleCount = allItems.filter((it) => it.category !== 'looks').length;
 const countOf = (category: string) => allItems.filter((it) => it.category === category).length;
 const womenServices = womenCategories.reduce((sum, category) => sum + category.items.length, 0);
 
-// The hero is a menu: the looks to browse and the services that go with them, each with its count.
-const menuLooks = ['hair', 'beards', 'moustaches', 'colours', 'looks'].map((key) => ({
+// The hero is a menu: both sides' looks and services, each with its count. Women's rows link only once that section is live.
+const menuMen = ['hair', 'beards', 'moustaches', 'colours', 'looks'].map((key) => ({
   href: l(`/men/${key}`),
   label: t(`category.${key}.label` as UiKey),
   count: String(countOf(key)),
 }));
-const menuServices = [
-  { href: l('/men/add-ons'), label: t('addons.link'), count: String(addons.length) },
-  { href: WOMEN_LIVE ? l('/women') : undefined, label: t('who.women'), count: WOMEN_LIVE ? String(womenServices) : t('site.comingSoon') },
+const menuWomen = ['hair', 'hair-colour', 'brows', 'facials', 'nails'].map((key) => ({
+  href: WOMEN_LIVE ? l(`/women/${key}`) : undefined,
+  label: t(`wcat.${key}.label` as UiKey),
+  count: String(womenCategories.find((c) => c.key === key)?.items.length ?? 0),
+}));
+const menuGroups = [
+  { title: t('menu.men'), rows: menuMen, more: { href: l('/men'), label: t('menu.allMen', { count: String(allItems.length) }) }, soon: false },
+  {
+    title: t('menu.women'),
+    rows: menuWomen,
+    more: WOMEN_LIVE ? { href: l('/women'), label: t('menu.allWomen', { count: String(womenServices) }) } : undefined,
+    soon: !WOMEN_LIVE,
+  },
 ];
 const contactWhatsapp = `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(t('contact.whatsappMessage', { shop: shop.name }))}`;
 const notifyHref = `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(t('who.womenNotifyMessage', { shop: shop.name }))}`;
@@ -52,13 +62,13 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
   <main>
     {/* Hero: says what this is (a menu of looks and the services that go with them) and shows the menu itself. */}
     <section class="wrap pt-6 pb-2 md:pt-12 md:pb-4">
-      <div class="grid gap-6 md:grid-cols-[1fr_26rem] md:items-center md:gap-14">
+      <div class="grid gap-6 md:grid-cols-[1fr_35rem] md:items-center md:gap-10">
         <div>
           <p class="rise inline-flex items-center gap-2 rounded-full bg-paper-2 px-3 py-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
             <Icon name="sparkle" size={12} />
             {shop.name}
           </p>
-          <h1 class="rise mt-3 text-[2.25rem] leading-[1.05] md:text-[3.5rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
+          <h1 class="rise mt-3 text-[2.25rem] leading-[1.05] md:text-[3rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
           <p class="rise mt-3 max-w-md text-[0.9375rem] leading-relaxed text-muted" style="--rise-delay:160ms">{t('home.intro')}</p>
           <div class="rise mt-5 flex flex-wrap gap-3" style="--rise-delay:240ms">
             <Button href="#who" size="lg" arrow>{t('home.browseMenu')}</Button>
@@ -70,35 +80,49 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
               <span class="text-[1.5rem] leading-none font-bold tracking-[-0.02em]">looks<span class="text-brand">menu</span></span>
               <svg viewBox="0 0 100 100" class="size-8 rounded-[0.3rem] bg-brand" aria-hidden="true" set:html={menuMark()} />
             </div>
-            {
-              [
-                { title: t('menu.looks'), rows: menuLooks },
-                { title: t('menu.services'), rows: menuServices },
-              ].map((group) => (
-                <div class="mt-4 border-t border-line pt-3">
-                  <p class="text-[0.625rem] font-semibold tracking-[0.2em] text-muted uppercase">{group.title}</p>
-                  <ul class="mt-1">
-                    {group.rows.map((row) => (
-                      <li>
-                        {row.href ? (
-                          <a href={row.href} class="group flex min-h-11 items-baseline gap-2 py-2.5 text-[1rem] font-medium">
-                            <span class="underline-offset-4 group-hover:underline">{row.label}</span>
-                            <span class="mb-1 flex-1 border-b border-dotted border-ink/30" aria-hidden="true" />
-                            <span class="text-[0.875rem] text-muted tabular-nums">{row.count}</span>
+            <div class="mt-4 grid gap-x-8 border-t border-line pt-3 sm:grid-cols-2">
+              {
+                menuGroups.map((group) => (
+                  <div class="mt-1">
+                    <p class="flex items-center gap-2 text-[0.625rem] font-semibold tracking-[0.2em] text-muted uppercase">
+                      {group.title}
+                      {group.soon && <span class="rounded-full bg-paper-2 px-2 py-0.5 tracking-[0.1em] text-ink">{t('site.comingSoon')}</span>}
+                    </p>
+                    <ul class="mt-1">
+                      {group.rows.map((row) => (
+                        <li>
+                          {row.href ? (
+                            <a href={row.href} class="group flex min-h-11 items-baseline gap-2 py-2.5 text-[1rem] font-medium">
+                              <span class="underline-offset-4 group-hover:underline">{row.label}</span>
+                              <span class="mb-1 flex-1 border-b border-dotted border-ink/30" aria-hidden="true" />
+                              <span class="text-[0.875rem] text-muted tabular-nums">{row.count}</span>
+                            </a>
+                          ) : (
+                            <div class="flex min-h-11 items-baseline gap-2 py-2.5 text-[1rem] font-medium text-muted">
+                              <span>{row.label}</span>
+                              <span class="mb-1 flex-1 border-b border-dotted border-ink/20" aria-hidden="true" />
+                            </div>
+                          )}
+                        </li>
+                      ))}
+                      {group.more && (
+                        <li>
+                          <a href={group.more.href} class="flex min-h-11 items-center gap-1.5 py-2 text-[0.875rem] font-semibold text-gold-ink underline-offset-4 hover:underline">
+                            {group.more.label}
+                            <Icon name="arrowRight" size={16} strokeWidth={1.5} />
                           </a>
-                        ) : (
-                          <div class="flex min-h-11 items-baseline gap-2 py-2.5 text-[1rem] font-medium text-muted">
-                            <span>{row.label}</span>
-                            <span class="mb-1 flex-1 border-b border-dotted border-ink/20" aria-hidden="true" />
-                            <span class="text-[0.75rem] font-semibold tracking-[0.08em] uppercase">{row.count}</span>
-                          </div>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))
-            }
+                        </li>
+                      )}
+                    </ul>
+                  </div>
+                ))
+              }
+            </div>
+            <a href={l('/men/add-ons')} class="group mt-2 flex min-h-11 items-baseline gap-2 border-t border-line pt-3 pb-1 text-[1rem] font-medium">
+              <span class="underline-offset-4 group-hover:underline">{t('addons.link')}</span>
+              <span class="mb-1 flex-1 border-b border-dotted border-ink/30" aria-hidden="true" />
+              <span class="text-[0.875rem] text-muted tabular-nums">{addons.length}</span>
+            </a>
           </div>
         </div>
       </div>
@@ -173,6 +197,22 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
         </div>
         )}
       </div>
+    </section>
+
+    {/* A small break: the Merge puzzle. */}
+    <section class="wrap pb-8 md:pb-12" data-reveal>
+      <a href={l('/play')} class="group flex items-center gap-4 bg-paper-2 p-5 transition duration-500 ease-out-soft hover:bg-line md:p-7">
+        <span class="grid size-12 shrink-0 place-items-center bg-brand">
+          <svg viewBox="0 0 100 100" class="size-9" aria-hidden="true" set:html={menuMark()} />
+        </span>
+        <span class="min-w-0 flex-1">
+          <span class="block text-[1.125rem] leading-snug font-semibold">{t('home.playTitle')}</span>
+          <span class="mt-0.5 block text-[0.875rem] leading-snug text-muted">{t('home.playText')}</span>
+        </span>
+        <span class="grid size-11 shrink-0 place-items-center rounded-full bg-ink text-white transition duration-500 ease-out-soft group-hover:translate-x-1">
+          <Icon name="arrowRight" size={18} strokeWidth={1.5} />
+        </span>
+      </a>
     </section>
 
     {/* Visit: address, hours and the two actions people want. */}

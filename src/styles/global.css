@@ -386,3 +386,18 @@
     border-bottom: 0;
   }
 }
+
+/* Merge puzzle: a tile pops when it is new or has just merged. */
+@keyframes merge-pop {
+  0% { transform: scale(0.6); }
+  60% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+.merge-pop {
+  animation: merge-pop 220ms ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .merge-pop {
+    animation: none;
+  }
+}

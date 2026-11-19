@@ -1,0 +1,47 @@
+---
+// /play: the games hub. Each card opens a game with its rules on the page.
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { games } from '@/data/games';
+import { breadcrumbs } from '@/data/seo';
+import { langParams, useI18n, type UiKey } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const { t, l } = useI18n(Astro.url);
+---
+
+<BaseLayout title={t('play.hubTitle')} description={t('play.hubIntro')} tab="play" back={{ href: l('/'), label: t('site.home') }}>
+  <JsonLd slot="head" data={breadcrumbs([{ name: t('site.home'), path: l('/') }, { name: t('play.hubTitle'), path: l('/play') }], Astro.site!)} />
+  <main class="wrap max-w-3xl pt-6 pb-24">
+    <p class="tag">{t('play.hubHeading')}</p>
+    <h1 class="mt-3 text-[2.25rem] leading-tight">{t('play.hubTitle')}</h1>
+    <p class="mt-3 max-w-xl text-[1.0625rem] leading-relaxed text-muted">{t('play.hubIntro')}</p>
+
+    <ul class="mt-8 grid gap-4 sm:grid-cols-2">
+      {
+        games.map((game, n) => (
+          <li data-reveal style={`--reveal-delay:${n * 70}ms`}>
+            <a href={l(`/play/${game.slug}`)} class="group block bg-card shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_2px_var(--color-ink)]">
+              <span class:list={['grid aspect-[16/9] place-items-center', game.block]}>
+                <span class="text-[4rem] leading-none transition-transform duration-500 ease-out-soft group-hover:scale-110" aria-hidden="true">{game.emoji}</span>
+              </span>
+              <span class="flex items-center justify-between gap-4 p-4">
+                <span>
+                  <span class="block text-[1.25rem] font-semibold">{t(`game.${game.slug}.title` as UiKey)}</span>
+                  <span class="mt-0.5 block text-[0.875rem] leading-snug text-muted">{t(`game.${game.slug}.line` as UiKey)}</span>
+                </span>
+                <span class="grid size-11 shrink-0 place-items-center rounded-full bg-ink text-white transition duration-500 ease-out-soft group-hover:translate-x-1">
+                  <Icon name="arrowRight" size={18} strokeWidth={1.5} />
+                </span>
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</BaseLayout>

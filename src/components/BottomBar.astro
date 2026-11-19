@@ -4,7 +4,7 @@ import type { IconName } from '@/data/icons';
 import { useI18n } from '@/i18n';
 const { t, l } = useI18n(Astro.url);
 
-export type Tab = 'home' | 'learn' | 'favourites' | 'my-look';
+export type Tab = 'home' | 'play' | 'learn' | 'favourites' | 'my-look';
 
 interface Props {
   active?: Tab;
@@ -12,12 +12,23 @@ interface Props {
 
 const { active } = Astro.props;
 
-const tabs: { id: Tab; label: string; href: string; icon: IconName; counter?: string }[] = [
+// Home, Play and Learn are pages. My Choice opens a small menu with Favourites and My Look.
+const tabs: { id: Tab; label: string; href: string; icon: IconName }[] = [
   { id: 'home', label: t('nav.home'), href: l('/'), icon: 'home' },
+  { id: 'play', label: t('nav.play'), href: l('/play'), icon: 'puzzle' },
   { id: 'learn', label: t('nav.learn'), href: l('/learn'), icon: 'book' },
+];
+const choices: { id: Tab; label: string; href: string; icon: IconName; counter: string }[] = [
   { id: 'favourites', label: t('nav.favourites'), href: l('/favourites'), icon: 'heart', counter: 'favourites' },
   { id: 'my-look', label: t('nav.myLook'), href: l('/my-look'), icon: 'user', counter: 'my-look' },
 ];
+const choiceActive = choices.some((c) => c.id === active);
+const tabClass = (on: boolean) => [
+  'relative flex h-full w-full flex-col items-center justify-center gap-1 text-[0.6875rem] tracking-wide transition-colors duration-300',
+  on ? 'font-semibold text-ink' : 'text-muted hover:text-ink',
+];
+const counterClass =
+  'absolute -top-1.5 -right-2.5 grid h-4 min-w-4 place-items-center rounded-full bg-ink px-1 text-[0.625rem] leading-none font-semibold text-white';
 ---
 
 {/* Flat tab bar with a hairline top edge. Pages keep 5rem clear at the bottom. */}
@@ -28,30 +39,50 @@ const tabs: { id: Tab; label: string; href: string; icon: IconName; counter?: st
         const isActive = tab.id === active;
         return (
           <li>
-            <a
-              href={tab.href}
-              aria-current={isActive ? 'page' : undefined}
-              class:list={[
-                'relative flex h-full flex-col items-center justify-center gap-1 text-[0.6875rem] tracking-wide transition-colors duration-300',
-                isActive ? 'font-semibold text-ink' : 'text-muted hover:text-ink',
-              ]}
-            >
+            <a href={tab.href} aria-current={isActive ? 'page' : undefined} class:list={tabClass(isActive)}>
               {isActive && <span class="absolute top-0 h-0.5 w-10 bg-ink" />}
-              <span class="relative">
-                <Icon name={tab.icon} size={21} strokeWidth={isActive ? 1.75 : 1.4} />
-                {tab.counter && (
-                  <span
-                    data-counter={tab.counter}
-                    hidden
-                    class="absolute -top-1.5 -right-2.5 grid h-4 min-w-4 place-items-center rounded-full bg-ink px-1 text-[0.625rem] leading-none font-semibold text-white"
-                  />
-                )}
-              </span>
+              <Icon name={tab.icon} size={21} strokeWidth={isActive ? 1.75 : 1.4} />
               {tab.label}
             </a>
           </li>
         );
       })
     }
+    <li>
+      <button type="button" popovertarget="my-choice-menu" aria-haspopup="true" class:list={tabClass(choiceActive)}>
+        {choiceActive && <span class="absolute top-0 h-0.5 w-10 bg-ink" />}
+        <Icon name="heart" size={21} strokeWidth={choiceActive ? 1.75 : 1.4} />
+        {t('nav.myChoice')}
+      </button>
+      {/* The menu sits above the bar and closes when you tap outside it, press Escape or choose a link. */}
+      <div
+        id="my-choice-menu"
+        popover
+        class="pb-safe fixed inset-auto right-3 bottom-[calc(4.5rem+env(safe-area-inset-bottom))] m-0 w-56 bg-card p-1.5 shadow-[0_8px_30px_rgb(0_0_0/0.16),inset_0_0_0_1px_var(--color-line)]"
+      >
+        <ul>
+          {
+            choices.map((choice) => {
+              const isActive = choice.id === active;
+              return (
+                <li>
+                  <a
+                    href={choice.href}
+                    aria-current={isActive ? 'page' : undefined}
+                    class:list={['flex min-h-12 items-center gap-3 px-3 text-[0.9375rem] hover:bg-paper-2', isActive ? 'font-semibold text-ink' : 'text-text']}
+                  >
+                    <span class="relative">
+                      <Icon name={choice.icon} size={20} strokeWidth={isActive ? 1.75 : 1.4} />
+                      <span data-counter={choice.counter} hidden class={counterClass} />
+                    </span>
+                    {choice.label}
+                  </a>
+                </li>
+              );
+            })
+          }
+        </ul>
+      </div>
+    </li>
   </ul>
 </nav>

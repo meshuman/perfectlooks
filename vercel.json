@@ -4,6 +4,26 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/women/add-ons",
+      "destination": "/men/add-ons",
+      "permanent": true
+    },
+    {
+      "source": "/women/add-ons/:slug",
+      "destination": "/men/add-ons/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(ne|hi)/women/add-ons",
+      "destination": "/:lang/men/add-ons",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(ne|hi)/women/add-ons/:slug",
+      "destination": "/:lang/men/add-ons/:slug",
+      "permanent": true
+    },
+    {
       "source": "/shops/kgf-unisex-saloon",
       "destination": "/",
       "permanent": true

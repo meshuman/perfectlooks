@@ -19,7 +19,6 @@ const PAGES = [
   '/men/looks',
   '/women',
   '/men/add-ons',
-  '/women/add-ons',
   '/learn',
   '/men/learn',
   '/women/learn',

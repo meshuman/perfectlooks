@@ -23,7 +23,6 @@ const menLinks = [
 ];
 const womenLinks = [
   ...womenCategories.map((c) => ({ href: l(`/women/${c.key}`), label: t(`wcat.${c.key}.label` as UiKey) })),
-  { href: l('/women/add-ons'), label: t('addons.link') },
   { href: l('/women/learn'), label: t('nav.learn') },
 ];
 const columns = [
@@ -75,6 +74,9 @@ const crossOver = inMen && WOMEN_LIVE ? { href: l('/women'), label: t('who.women
         </ul>
         <a href={whatsappHref} target="_blank" rel="noopener" class="mt-2 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-gold underline-offset-4 hover:underline">
           {t('contact.whatsapp')}
+        </a>
+        <a href={l('/play')} class="flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-white underline-offset-4 hover:underline">
+          {t('footer.play')}
         </a>
         <a href={l('/feedback')} class="flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-white underline underline-offset-4">
           {t('feedback.link')}
