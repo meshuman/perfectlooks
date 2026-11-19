@@ -4,6 +4,16 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/shops/kgf-unisex-saloon",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(ne|hi)/shops/kgf-unisex-saloon",
+      "destination": "/:lang",
+      "permanent": true
+    },
+    {
       "source": "/men/looks/grey-free-beard",
       "destination": "/men/looks",
       "permanent": true

@@ -1,4 +1,4 @@
-import { scissorsMark } from '@/data/brand-marks.mjs';
+import { menuMark } from '@/data/brand-marks.mjs';
 import { backdropFor } from '@/lib/backdrop';
 
 interface Props {
@@ -23,7 +23,7 @@ export default function Thumb({ id = '', swatch, src, alt = '', class: className
   }
   return (
     <div class={`grid place-items-center text-ink ${backdropFor(id).className} ${className}`}>
-      <svg viewBox="0 0 100 100" class="w-[40%] max-w-16 text-ink/25" aria-hidden="true" dangerouslySetInnerHTML={{ __html: scissorsMark('currentColor') }} />
+      <svg viewBox="0 0 100 100" class="w-[40%] max-w-16 text-ink/25" aria-hidden="true" dangerouslySetInnerHTML={{ __html: menuMark('currentColor') }} />
     </div>
   );
 }

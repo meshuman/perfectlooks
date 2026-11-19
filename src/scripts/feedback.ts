@@ -34,7 +34,7 @@ if (form) {
       language: lang,
     };
     const lines = [
-      'KGF Unisex Saloon: customer feedback',
+      'looksmenu: customer feedback',
       `Rating: ${rating}/5`,
       answers.goals.length && `Hoping to: ${answers.goals.join(', ')}`,
       answers.helped && `Helped me decide: ${answers.helped}`,

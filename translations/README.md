@@ -1,4 +1,4 @@
-# Translating the KGF Unisex Saloon website
+# Translating the looksmenu website
 
 There is one sheet per language: `ne.csv` (Nepali) and `hi.csv` (Hindi). Open it in Excel or Google Sheets, fill in the **translation** column, and save it as CSV (UTF-8) with the same name.
 

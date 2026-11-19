@@ -10,8 +10,9 @@ import { WOMEN_LIVE, womenNotifyNumber } from '@/data/flags';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
 import { womenCategories } from '@/data/women';
-import { kgfBlock, scissorsMark } from '@/data/brand-marks.mjs';
-import { langParams, useI18n } from '@/i18n';
+import { addons } from '@/data/addons';
+import { menuMark } from '@/data/brand-marks.mjs';
+import { langParams, useI18n, type UiKey } from '@/i18n';
 
 export function getStaticPaths() {
   return langParams().map((params) => ({ params }));
@@ -20,11 +21,22 @@ export function getStaticPaths() {
 const { t, l } = useI18n(Astro.url);
 
 // Hair, beards, moustaches and colours; Ready Looks are counted on their own.
-const styleCount = (await getAllItems()).filter((it) => it.category !== 'looks').length;
+const allItems = await getAllItems();
+const styleCount = allItems.filter((it) => it.category !== 'looks').length;
+const countOf = (category: string) => allItems.filter((it) => it.category === category).length;
 const womenServices = womenCategories.reduce((sum, category) => sum + category.items.length, 0);
 
-// The deployed site has no hero: it opens straight on the Men and Women cards. Local development keeps the hero.
-const launch = !import.meta.env.DEV;
+// The hero is a menu: the looks to browse and the services that go with them, each with its count.
+const menuLooks = ['hair', 'beards', 'moustaches', 'colours', 'looks'].map((key) => ({
+  href: l(`/men/${key}`),
+  label: t(`category.${key}.label` as UiKey),
+  count: String(countOf(key)),
+}));
+const menuServices = [
+  { href: l('/men/add-ons'), label: t('addons.link'), count: String(addons.length) },
+  { href: WOMEN_LIVE ? l('/women') : undefined, label: t('who.women'), count: WOMEN_LIVE ? String(womenServices) : t('site.comingSoon') },
+];
+const contactWhatsapp = `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(t('contact.whatsappMessage', { shop: shop.name }))}`;
 const notifyHref = `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(t('who.womenNotifyMessage', { shop: shop.name }))}`;
 
 // One nested frame for both cards: a hairline shell around the card, so each reads as a mounted print.
@@ -32,64 +44,65 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
 ---
 
 <BaseLayout
-  title={t('home.title', { shop: shop.name, area: shop.area })}
-  description={t('home.description', { shop: shop.name, area: shop.area })}
+  title={t('home.title', { shop: shop.name })}
+  description={t('home.description', { shop: shop.name })}
   tab="home"
 >
   <JsonLd slot="head" data={website(Astro.site!)} />
   <main>
-    {
-      launch ? (
-        <h1 class="sr-only">{t('home.heading')}</h1>
-      ) : (
-        <>
-        {/* Hero: the brand on crimson, then the message and the one choice, so Men and Women are on the first screen. */}
-        <section class="md:grid md:min-h-[18rem] md:grid-cols-2">
-          <div class="relative aspect-[16/4] overflow-hidden md:aspect-auto">
-            <div class="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-brand p-3 text-white md:gap-4">
-              <svg viewBox="0 0 100 100" class:list={['max-h-[48%] w-auto', launch ? 'h-[1.875rem] md:h-[4.5rem]' : 'h-10 md:h-24']} aria-hidden="true" set:html={scissorsMark()} />
-              <div class:list={['max-w-[55%]', launch ? 'w-[3.75rem] md:w-24' : 'w-20 md:w-32']} set:html={kgfBlock()} />
-            </div>
+    {/* Hero: says what this is (a menu of looks and the services that go with them) and shows the menu itself. */}
+    <section class="wrap pt-6 pb-2 md:pt-12 md:pb-4">
+      <div class="grid gap-6 md:grid-cols-[1fr_26rem] md:items-center md:gap-14">
+        <div>
+          <p class="rise inline-flex items-center gap-2 rounded-full bg-paper-2 px-3 py-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
+            <Icon name="sparkle" size={12} />
+            {shop.name}
+          </p>
+          <h1 class="rise mt-3 text-[2.25rem] leading-[1.05] md:text-[3.5rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
+          <p class="rise mt-3 max-w-md text-[0.9375rem] leading-relaxed text-muted" style="--rise-delay:160ms">{t('home.intro')}</p>
+          <div class="rise mt-5 flex flex-wrap gap-3" style="--rise-delay:240ms">
+            <Button href="#who" size="lg" arrow>{t('home.browseMenu')}</Button>
           </div>
-          <div class="wrap flex flex-col justify-center py-5 md:max-w-xl md:px-12 md:py-10">
-            <p class="rise inline-flex w-max items-center gap-2 rounded-full bg-paper-2 px-3 py-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
-              <Icon name="mapPin" size={12} />
-              {shop.name} · {shop.area}
-            </p>
-            <h1 class:list={['rise mt-2 leading-[1.05]', launch ? 'text-[1.3125rem] md:text-[1.6875rem]' : 'text-[1.75rem] md:text-[2.25rem]']} style="--rise-delay:80ms">{t('home.heading')}</h1>
-            <p class:list={['rise mt-2 max-w-md leading-snug text-muted', launch ? 'text-[0.75rem]' : 'text-[0.875rem]']} style="--rise-delay:160ms">{t('home.intro')}</p>
-            {
-              !launch && (
-            <div class="rise mt-4 flex flex-wrap gap-3" style="--rise-delay:240ms">
-              {
-                [
-                  { href: l('/men'), label: t('who.men'), dark: true },
-                  { href: l('/women'), label: t('who.women'), dark: false },
-                ]
-                  .filter((cta) => WOMEN_LIVE || cta.dark)
-                  .map((cta) => (
-                  <a
-                    href={cta.href}
-                    class:list={[
-                      'group inline-flex h-14 items-center gap-4 rounded-full py-2 pr-2 pl-6 text-[1rem] font-semibold tracking-[0.02em] transition duration-500 ease-out-soft active:scale-[0.98]',
-                      cta.dark ? 'bg-ink text-white' : 'text-ink shadow-[inset_0_0_0_1px_var(--color-ink)] hover:bg-paper-2',
-                    ]}
-                  >
-                    {cta.label}
-                    <span class:list={['grid size-10 place-items-center rounded-full transition duration-500 ease-out-soft group-hover:translate-x-0.5 group-hover:scale-105', cta.dark ? 'bg-white/15' : 'bg-ink/5']}>
-                      <Icon name="arrowRight" size={18} strokeWidth={1.5} />
-                    </span>
-                  </a>
-                ))
-              }
+        </div>
+        <div class="rise bg-brand p-3 md:p-4" style="--rise-delay:200ms">
+          <div class="bg-card p-5 shadow-[inset_0_0_0_1px_var(--color-line)] md:p-6">
+            <div class="flex items-center justify-between">
+              <span class="text-[1.5rem] leading-none font-bold tracking-[-0.02em]">looks<span class="text-brand">menu</span></span>
+              <svg viewBox="0 0 100 100" class="size-8 rounded-[0.3rem] bg-brand" aria-hidden="true" set:html={menuMark()} />
             </div>
-              )
+            {
+              [
+                { title: t('menu.looks'), rows: menuLooks },
+                { title: t('menu.services'), rows: menuServices },
+              ].map((group) => (
+                <div class="mt-4 border-t border-line pt-3">
+                  <p class="text-[0.625rem] font-semibold tracking-[0.2em] text-muted uppercase">{group.title}</p>
+                  <ul class="mt-1">
+                    {group.rows.map((row) => (
+                      <li>
+                        {row.href ? (
+                          <a href={row.href} class="group flex min-h-11 items-baseline gap-2 py-2.5 text-[1rem] font-medium">
+                            <span class="underline-offset-4 group-hover:underline">{row.label}</span>
+                            <span class="mb-1 flex-1 border-b border-dotted border-ink/30" aria-hidden="true" />
+                            <span class="text-[0.875rem] text-muted tabular-nums">{row.count}</span>
+                          </a>
+                        ) : (
+                          <div class="flex min-h-11 items-baseline gap-2 py-2.5 text-[1rem] font-medium text-muted">
+                            <span>{row.label}</span>
+                            <span class="mb-1 flex-1 border-b border-dotted border-ink/20" aria-hidden="true" />
+                            <span class="text-[0.75rem] font-semibold tracking-[0.08em] uppercase">{row.count}</span>
+                          </div>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))
             }
           </div>
-        </section>
-        </>
-      )
-    }
+        </div>
+      </div>
+    </section>
 
     {/* The choice, in full: a photo card for men and a colour card for women. */}
     <section id="who" class="wrap scroll-mt-20 py-8 md:py-14" aria-labelledby="who-title">
@@ -169,14 +182,11 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
           <div>
             <p class="inline-flex rounded-full bg-white/10 px-3 py-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">{t('footer.visit')}</p>
             <h2 class="mt-4 text-[1.75rem] leading-tight md:text-[2.25rem]">{shop.name}</h2>
-            <ul class="mt-4 space-y-2 text-[0.9375rem] text-muted-dark">
-              <li class="flex items-start gap-3"><Icon name="mapPin" size={18} class="mt-0.5 shrink-0" /><span>{t('shop.addressValue')}</span></li>
-              <li class="flex items-start gap-3"><Icon name="clock" size={18} class="mt-0.5 shrink-0" /><span>{t('shop.hoursValue')}</span></li>
-            </ul>
+            <p class="mt-4 max-w-sm text-[0.9375rem] text-muted-dark">{t('contact.tagline')}</p>
           </div>
           <div class="flex flex-wrap gap-3 md:justify-end">
             <Button href={`tel:${shop.phone}`} icon="phone" variant="outline-dark" size="lg">{shop.phoneDisplay}</Button>
-            <Button href={shop.mapUrl} variant="outline-dark" size="lg" arrow>{t('footer.directions')}</Button>
+            <Button href={contactWhatsapp} variant="outline-dark" size="lg" arrow target="_blank" rel="noopener">{t('contact.whatsapp')}</Button>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-// KGF Unisex Saloon service worker. Generated from integrations/sw-template.js at build time;
+// looksmenu service worker. Generated from integrations/sw-template.js at build time;
 // edit the template, not dist/sw.js.
 const VERSION = '__VERSION__';
 const PRECACHE = /* __PRECACHE__ */ [];

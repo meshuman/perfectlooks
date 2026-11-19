@@ -5,6 +5,7 @@ import { WOMEN_LIVE } from '@/data/flags';
 import { womenCategories } from '@/data/women';
 import { useI18n, type UiKey } from '@/i18n';
 const { t, l } = useI18n(Astro.url);
+const whatsappHref = `https://wa.me/${shop.phone.replace(/\D/g, '')}?text=${encodeURIComponent(t('contact.whatsappMessage', { shop: shop.name }))}`;
 
 // Links follow the section you are in: both sides on the landing page, one side inside /men or /women.
 const path = Astro.url.pathname.replace(/^\/(ne|hi)(?=\/|$)/, '');
@@ -70,12 +71,10 @@ const crossOver = inMen && WOMEN_LIVE ? { href: l('/women'), label: t('who.women
         <h2 class="text-sm font-medium tracking-wide text-muted-dark">{t('footer.visit')}</h2>
         <p class="mt-4 text-[1.0625rem] font-semibold">{shop.name}</p>
         <ul class="mt-1 text-[0.9375rem] text-muted-dark">
-          <li><a href={l(`/shops/${shop.slug}`)} class="flex min-h-11 items-center underline-offset-4 hover:text-white hover:underline">{t('shop.addressValue')}</a></li>
-          <li class="py-2">{t('shop.hoursValue')}</li>
           <li><a href={`tel:${shop.phone}`} class="flex min-h-11 items-center underline-offset-4 hover:text-white hover:underline">{shop.phoneDisplay}</a></li>
         </ul>
-        <a href={shop.mapUrl} target="_blank" rel="noopener" class="mt-2 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-gold underline-offset-4 hover:underline">
-          {t('footer.directions')}
+        <a href={whatsappHref} target="_blank" rel="noopener" class="mt-2 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-gold underline-offset-4 hover:underline">
+          {t('contact.whatsapp')}
         </a>
         <a href={l('/feedback')} class="flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-white underline underline-offset-4">
           {t('feedback.link')}

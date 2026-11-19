@@ -1,7 +1,7 @@
 ---
 // The one placeholder for any style, look or category without a photo yet: its colour block with a
-// tone-on-tone KGF scissors mark, so a list of mixed photos and placeholders reads as one set.
-import { scissorsMark } from '@/data/brand-marks.mjs';
+// tone-on-tone looksmenu mark, so a list of mixed photos and placeholders reads as one set.
+import { menuMark } from '@/data/brand-marks.mjs';
 import { backdropFor } from '@/lib/backdrop';
 
 interface Props {
@@ -22,6 +22,6 @@ const block = forced ?? backdropFor(seed).className;
 ---
 
 <div class:list={['relative flex flex-col items-center justify-center gap-3 text-ink', block, className]}>
-  <svg viewBox="0 0 100 100" class="w-[34%] max-w-32 text-ink/25" aria-hidden="true" set:html={scissorsMark('currentColor')} />
+  <svg viewBox="0 0 100 100" class="w-[34%] max-w-32 text-ink/25" aria-hidden="true" set:html={menuMark('currentColor')} />
   {label && <span class="text-[0.6875rem] font-semibold tracking-[0.14em] text-ink uppercase">{label}</span>}
 </div>

@@ -1,38 +1,33 @@
 ---
-// KGF Unisex Saloon logo: the KGF block, with "Unisex Saloon" beside it where there's room.
-import { kgfBlock, scissorsMark } from '@/data/brand-marks.mjs';
+// looksmenu logo: the menu mark on a crimson badge, then the name. The footer version is larger.
+import { menuMark } from '@/data/brand-marks.mjs';
 import { defaultShop as shop } from '@/data/shop';
 import { useI18n } from '@/i18n';
 const { t, l } = useI18n(Astro.url);
 
 interface Props {
   tone?: 'dark' | 'light';
-  /** md: header. lg: footer, with the scissors mark and the full name. */
+  /** md: header. lg: footer, larger. */
   size?: 'md' | 'lg';
 }
 
 const { tone = 'light', size = 'md' } = Astro.props;
-// On dark backgrounds the logo is all white: the KGF block reversed, the scissors mark without its crimson square.
+// On dark backgrounds the badge is white with the mark cut out in ink, and the name is white.
 const dark = tone === 'dark';
-const block = kgfBlock({ title: '', white: dark }).replace('role="img" aria-label=""', 'aria-hidden="true"');
 ---
 
-<a href={l('/')} class:list={['inline-flex items-center', size === 'md' && 'min-h-11', size === 'lg' ? 'gap-4' : 'gap-2.5']}>
-  {
-    size === 'lg' && (
-      <svg viewBox="0 0 100 100" class:list={['size-16 shrink-0', !dark && 'bg-brand']} aria-hidden="true" set:html={scissorsMark()} />
-    )
-  }
-  <span class:list={['block shrink-0', size === 'lg' ? 'w-28' : 'w-[3.75rem]']} set:html={block} />
+<a href={l('/')} class:list={['inline-flex items-center', size === 'md' && 'min-h-11', size === 'lg' ? 'gap-3.5' : 'gap-2.5']}>
+  <svg
+    viewBox="0 0 100 100"
+    class:list={['shrink-0 rounded-[0.35rem]', size === 'lg' ? 'size-14' : 'size-9', dark ? 'bg-white' : 'bg-brand']}
+    aria-hidden="true"
+    set:html={menuMark(dark ? '#111111' : '#ffffff')}
+  />
   <span
     aria-hidden="true"
-    class:list={[
-      'font-semibold tracking-[0.16em] uppercase leading-none',
-      size === 'lg' ? 'text-[0.9375rem]' : 'max-sm:hidden text-[0.75rem] sm:text-[0.8125rem]',
-      tone === 'dark' ? 'text-white' : 'text-ink',
-    ]}
+    class:list={['font-bold leading-none tracking-[-0.02em]', size === 'lg' ? 'text-[1.75rem]' : 'text-[1.3125rem]', dark ? 'text-white' : 'text-ink']}
   >
-    Saloon
+    looks<span class={dark ? 'text-gold' : 'text-brand'}>menu</span>
   </span>
   <span class="sr-only">{t('site.homeLink', { shop: shop.name })}</span>
 </a>

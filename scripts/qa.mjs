@@ -27,7 +27,6 @@ const PAGES = [
   '/favourites',
   '/my-look',
   '/barber-card',
-  '/shops/kgf-unisex-saloon',
   '/offline',
   // Nepali and Hindi: longer words and Devanagari can break layouts that English doesn't.
   '/men/beards',
@@ -46,7 +45,6 @@ const PAGES = [
   '/hi',
   '/hi/men/colours/natural-black',
   '/hi/my-look',
-  '/hi/shops/kgf-unisex-saloon',
 ];
 
 // Budgets from the plan: LCP under 2.5 s on 4G, under 40 KB of JavaScript per page.

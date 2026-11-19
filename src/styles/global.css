@@ -5,8 +5,8 @@
 @import "@fontsource/mukta/devanagari-700.css";
 
 /*
- * KGF Unisex Saloon design tokens: flat, calm salon editorial.
- * Warm off-white, true black for type and actions, KGF crimson as the one accent, colour-block photo backgrounds.
+ * looksmenu design tokens: flat, calm salon editorial.
+ * Warm off-white, true black for type and actions, the brand crimson as the one accent, colour-block photo backgrounds.
  * Contrast notes are for text on the colour it's used against.
  *
  * Token names are kept from the earlier gold theme so components didn't need renaming:
@@ -22,7 +22,7 @@
   --color-card: #fbfaf8;
   /* Option and card outlines. */
   --color-line: #dcd7d1;
-  /* KGF crimson, from the logo block on the shop sign. White on it is 5.8:1. */
+  /* Brand crimson, from the looksmenu badge. White on it is 5.8:1. */
   --color-brand: #e0284f;
   /* Accent on dark backgrounds (lighter crimson): 6.2:1 as text on ink. */
   --color-gold: #f2667f;
