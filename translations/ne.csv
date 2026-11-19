@@ -56,12 +56,9 @@ category.looks.tileCount,Screen text: category,94 looks,94 लुक,draft,
 home.title,Screen text: home,"{shop}: pick your look, for men and women","{shop}: आफ्नो लुक रोज्नुहोस्, पुरुष र महिला दुवैका लागि",draft,Keep the {words in braces}: the app fills them in.
 home.description,Screen text: home,"{shop} is a style catalogue for men's and women's beauty parlours: haircuts, beards, colour, facials, nails and more. Pick yours and show your stylist.","{shop} पुरुष र महिला ब्यूटी पार्लरका लागि स्टाइल क्याटलग हो: कपाल काट्ने तरिका, दाह्री, रङ, फेसियल, नङ र धेरै। आफ्नो रोज्नुहोस् र स्टाइलिस्टलाई देखाउनुहोस्।",draft,Keep the {words in braces}: the app fills them in.
 home.heading,Screen text: home,What are you looking for?,तपाईं के खोज्दै हुनुहुन्छ?,draft,
-home.intro,Screen text: home,"Pick a menu, then tap any item to go inside. Save what you like and show it to your stylist.","एउटा मेनु रोज्नुहोस्, अनि भित्र जान कुनै पनि वस्तुमा ट्याप गर्नुहोस्। मनपरेको सेभ गरी स्टाइलिस्टलाई देखाउनुहोस्।",draft,
 home.menuMen,Screen text: home,Men's menu,पुरुषको मेनु,draft,
 home.menuWomen,Screen text: home,Women's menu,महिलाको मेनु,draft,
 home.seeAll,Screen text: home,See all,सबै हेर्नुहोस्,draft,
-home.playTitle,Screen text: home,Take a break. Play a game.,आराम गर्नुहोस्। एउटा खेल खेल्नुहोस्।,draft,
-home.playText,Screen text: home,"Merge, match and guess: quick games with a salon twist.","जोड्नुहोस्, मिलाउनुहोस् र अनुमान गर्नुहोस्: सैलुनको झल्को भएका छिटो खेलहरू।",draft,
 home.playButton,Screen text: home,Play,खेल्नुहोस्,draft,
 footer.play,Screen text: footer,Play games,खेल खेल्नुहोस्,draft,
 play.how,Screen text: play,"Swipe the board, use the arrow keys, or tap the arrows.","बोर्डमा स्वाइप गर्नुहोस्, एरो कुञ्जी प्रयोग गर्नुहोस्, वा एरोमा ट्याप गर्नुहोस्।",draft,

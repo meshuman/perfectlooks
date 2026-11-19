@@ -2,7 +2,6 @@
 // The landing page: choose a menu (men or women) and go straight inside. The same tile grids as /men and /women.
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Button from '@/components/Button.astro';
-import FaceShapes from '@/components/FaceShapes.astro';
 import Icon from '@/components/Icon.astro';
 import ItemPhoto from '@/components/ItemPhoto.astro';
 import JsonLd from '@/components/JsonLd.astro';
@@ -23,14 +22,6 @@ const waLink = (message: string) => `https://wa.me/${womenNotifyNumber}?text=${e
 const contactWhatsapp = waLink(t('contact.whatsappMessage', { shop: shop.name }));
 const notifyHref = waLink(t('who.womenNotifyMessage', { shop: shop.name }));
 
-// Quick jumps under the heading: the two menus on this page, then the other places people look for.
-const jumps = [
-  { href: '#men', label: t('who.men') },
-  ...(WOMEN_LIVE ? [{ href: '#women', label: t('who.women') }] : []),
-  { href: l('/men/add-ons'), label: t('addons.link') },
-  { href: l('/learn'), label: t('nav.learn') },
-  { href: l('/play'), label: t('nav.play') },
-];
 const sectionHead = 'flex items-end justify-between gap-4';
 const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0.9375rem] font-semibold underline-offset-4 hover:underline';
 ---
@@ -44,24 +35,6 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         {shop.name}
       </p>
       <h1 class="rise mt-4 max-w-2xl text-[2.25rem] leading-[1.05] md:text-[3.25rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
-      <p class="rise mt-3 max-w-xl text-[1rem] leading-relaxed text-muted" style="--rise-delay:160ms">{t('home.intro')}</p>
-      <ul class="rise -mx-4 mt-5 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:flex-wrap md:px-0 [&::-webkit-scrollbar]:hidden" style="--rise-delay:240ms">
-        {
-          jumps.map((jump, n) => (
-            <li class="shrink-0">
-              <a
-                href={jump.href}
-                class:list={[
-                  'inline-flex h-11 items-center px-5 text-[0.9375rem] font-semibold transition duration-300 ease-out-soft',
-                  n === 0 ? 'bg-ink text-white' : 'bg-paper-2 hover:bg-line',
-                ]}
-              >
-                {jump.label}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
     </section>
 
     <div id="menu">
@@ -80,9 +53,6 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         </div>
         <div class="mt-6">
           <MenuTiles who="men" compact />
-        </div>
-        <div class="mt-8">
-          <FaceShapes />
         </div>
       </section>
 
@@ -130,22 +100,6 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         }
       </section>
     </div>
-
-    {/* A small break: the games. */}
-    <section class="wrap pb-8 md:pb-12" data-reveal>
-      <a href={l('/play')} class="group flex items-center gap-4 bg-paper-2 p-5 transition duration-500 ease-out-soft hover:bg-line md:p-7">
-        <span class="grid size-12 shrink-0 place-items-center bg-brand">
-          <svg viewBox="0 0 100 100" class="size-9" aria-hidden="true" set:html={menuMark()} />
-        </span>
-        <span class="min-w-0 flex-1">
-          <span class="block text-[1.125rem] leading-snug font-semibold">{t('home.playTitle')}</span>
-          <span class="mt-0.5 block text-[0.875rem] leading-snug text-muted">{t('home.playText')}</span>
-        </span>
-        <span class="grid size-11 shrink-0 place-items-center rounded-full bg-ink text-white transition duration-500 ease-out-soft group-hover:translate-x-1">
-          <Icon name="arrowRight" size={18} strokeWidth={1.5} />
-        </span>
-      </a>
-    </section>
 
     {/* Contact. */}
     <section class="wrap pb-12 md:pb-16" data-reveal>
