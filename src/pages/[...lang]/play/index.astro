@@ -26,8 +26,8 @@ const { t, l } = useI18n(Astro.url);
         games.map((game, n) => (
           <li data-reveal style={`--reveal-delay:${n * 70}ms`}>
             <a href={l(`/play/${game.slug}`)} class="group block bg-card shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:shadow-[inset_0_0_0_2px_var(--color-ink)]">
-              <span class:list={['grid aspect-[16/9] place-items-center', game.block]}>
-                <span class="text-[4rem] leading-none transition-transform duration-500 ease-out-soft group-hover:scale-110" aria-hidden="true">{game.emoji}</span>
+              <span class:list={['grid aspect-[16/9] place-items-center text-ink', game.block]}>
+                <Icon name={game.icon} size={64} strokeWidth={1.25} class="transition-transform duration-500 ease-out-soft group-hover:scale-110" />
               </span>
               <span class="flex items-center justify-between gap-4 p-4">
                 <span>
