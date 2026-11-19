@@ -28,6 +28,8 @@ if (form) {
       goals: checked('goal'),
       helped: checked('helped')[0] ?? '',
       better: checked('better'),
+      suggestionKinds: checked('kind'),
+      suggestion: value('suggestion'),
       comment: value('comment'),
       name: value('name'),
       phone: value('phone'),
@@ -35,10 +37,11 @@ if (form) {
     };
     const lines = [
       'looksmenu: customer feedback',
-      `Rating: ${rating}/5`,
+      rating && `Rating: ${rating}/5`,
       answers.goals.length && `Hoping to: ${answers.goals.join(', ')}`,
       answers.helped && `Helped me decide: ${answers.helped}`,
       answers.better.length && `Could be better: ${answers.better.join(', ')}`,
+      answers.suggestion && `Suggestion${answers.suggestionKinds.length ? ` (${answers.suggestionKinds.join(', ')})` : ''}: ${answers.suggestion}`,
       answers.comment && `Comment: ${answers.comment}`,
       (answers.name || answers.phone) && `Reply to: ${[answers.name, answers.phone].filter(Boolean).join(' · ')}`,
       `Page language: ${lang}`,
@@ -62,7 +65,8 @@ if (form) {
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
-    if (!checked('rating').length) {
+    // A rating or a suggestion is enough: someone with only an idea should not have to rate first.
+    if (!checked('rating').length && !value('suggestion')) {
       say(msgNeedRating, true);
       form.querySelector<HTMLElement>('[data-rating-group]')?.scrollIntoView({ block: 'center' });
       return;

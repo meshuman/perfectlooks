@@ -42,6 +42,17 @@ const better = [
   { v: 'languages', en: 'More languages', label: t('feedback.betterLanguages') },
 ];
 
+const kinds = [
+  { v: 'haircut', en: 'Haircut', label: t('feedback.kindHaircut') },
+  { v: 'beard', en: 'Beard or moustache', label: t('feedback.kindBeard') },
+  { v: 'colour', en: 'Hair colour', label: t('feedback.kindColour') },
+  { v: 'women', en: "Women's service", label: t('feedback.kindWomen') },
+  { v: 'addon', en: 'Add-on service', label: t('feedback.kindAddon') },
+  { v: 'game', en: 'Game', label: t('feedback.kindGame') },
+  { v: 'feature', en: 'App feature or design', label: t('feedback.kindFeature') },
+  { v: 'other', en: 'Something else', label: t('feedback.kindOther') },
+];
+
 const chip =
   'flex min-h-11 items-center justify-center bg-card px-4 text-center text-[0.875rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft peer-checked:bg-ink peer-checked:text-white peer-checked:shadow-none peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-ink';
 const field =
@@ -125,6 +136,31 @@ const field =
             ))
           }
         </div>
+      </fieldset>
+
+      {/* Ideas for things that are not in the app yet. */}
+      <fieldset id="suggest" class="scroll-mt-20 bg-paper-2 p-4 md:p-5">
+        <legend class="px-1 text-[1.125rem] font-semibold">{t('feedback.suggestQ')}</legend>
+        <p class="mt-1 text-sm text-muted">{t('feedback.suggestNote')}</p>
+        <div class="mt-3 flex flex-wrap gap-1.5">
+          {
+            kinds.map((k) => (
+              <label class="relative">
+                <input type="checkbox" name="kind" value={k.v} data-en={k.en} class="peer sr-only" />
+                <span class={chip}>{k.label}</span>
+              </label>
+            ))
+          }
+        </div>
+        <label for="feedback-suggestion" class="sr-only">{t('feedback.suggestLabel')}</label>
+        <textarea
+          id="feedback-suggestion"
+          name="suggestion"
+          rows="4"
+          maxlength="800"
+          placeholder={t('feedback.suggestHint')}
+          class="mt-3 block w-full bg-card p-4 text-base shadow-[inset_0_0_0_1px_var(--color-line)] placeholder:text-muted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+        ></textarea>
       </fieldset>
 
       <div>
