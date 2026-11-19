@@ -1,0 +1,79 @@
+---
+// The menu: one grid of category tiles, the same on /men, /women and the home page, so the three always match.
+// Men: five style categories and the add-on services. Women: the nine service categories.
+import CategoryTile from './CategoryTile.astro';
+import { addons } from '@/data/addons';
+import type { IconName } from '@/data/icons';
+import { categoryText, type CategoryKey } from '@/data/catalogue';
+import { photoFor } from '@/data/photos';
+import { swatches } from '@/data/swatches';
+import { womenCategories, womenServiceId } from '@/data/women';
+import { useI18n, type UiKey } from '@/i18n';
+
+interface Props {
+  who: 'men' | 'women';
+  /** Shorter pictures, for the home page. */
+  compact?: boolean;
+}
+
+const { who, compact = false } = Astro.props;
+const i = useI18n(Astro.url);
+const { t, l } = i;
+
+type Photo = { id: string; name: string; mainPhoto: 'front' | 'side'; swatch?: string };
+interface Tile {
+  href: string;
+  title: string;
+  count: string;
+  photo?: Photo;
+  block?: string;
+  icon?: IconName;
+}
+
+const menTiles: { key: CategoryKey; photo: Photo; block?: string }[] = [
+  { key: 'hair', photo: { id: 'H28', name: 'Wolf Cut', mainPhoto: 'front' } },
+  { key: 'beards', photo: { id: 'B03', name: 'Heavy Stubble', mainPhoto: 'front' } },
+  { key: 'moustaches', photo: { id: 'M04', name: 'Handlebar', mainPhoto: 'front' } },
+  { key: 'colours', block: 'bg-block-sand', photo: { id: 'C06', name: 'Golden Brown Highlights', mainPhoto: 'front', swatch: swatches.C06 } },
+  { key: 'looks', photo: { id: 'L17', name: 'Modern Moustache', mainPhoto: 'front' } },
+];
+
+const tiles: Tile[] =
+  who === 'men'
+    ? [
+        ...menTiles.map(({ key, photo, block }) => {
+          const text = categoryText(key, i);
+          return { href: l(`/men/${key}`), title: text.label, count: text.tileCount, photo, block };
+        }),
+        {
+          href: l('/men/add-ons'),
+          title: t('addons.heading'),
+          count: t('addons.tileCount', { count: String(addons.length) }),
+          photo: { id: 'A04', name: 'Facial', mainPhoto: 'front' as const },
+          block: 'bg-block-plum',
+          icon: 'sparkle' as const,
+        },
+      ]
+    : womenCategories.map((c) => {
+        // The first service in the category that already has a photo stands for it; otherwise its colour block and icon.
+        const slug = c.items.find((s) => photoFor(womenServiceId(s)));
+        return {
+          href: l(`/women/${c.key}`),
+          title: t(`wcat.${c.key}.label` as UiKey),
+          count: t('women.tileCount', { count: String(c.items.length) }),
+          photo: slug ? { id: womenServiceId(slug), name: t(`wcat.${c.key}.label` as UiKey), mainPhoto: 'front' as const } : undefined,
+          block: c.block,
+          icon: c.icon,
+        };
+      });
+---
+
+<ul class="grid grid-cols-2 gap-x-3 gap-y-6 md:grid-cols-3 md:gap-x-5 md:gap-y-8">
+  {
+    tiles.map((tile, n) => (
+      <li data-reveal style={`--reveal-delay:${(n % 3) * 60}ms`}>
+        <CategoryTile href={tile.href} title={tile.title} count={tile.count} photo={tile.photo} block={tile.block} fallbackIcon={tile.icon} compact={compact} />
+      </li>
+    ))
+  }
+</ul>

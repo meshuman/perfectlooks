@@ -275,18 +275,17 @@ await check('The landing page asks Men or Women and opens that section', async (
   await go('/');
   const h1 = await page.locator('h1').first().textContent();
   if (!/look/i.test(h1)) throw new Error('landing heading: ' + h1);
-  await page.locator('#who a[href="/men"]').waitFor({ timeout: 3000 });
-  if (womenLive) await page.locator('#who a[href="/women"]').waitFor({ timeout: 3000 });
+  await page.locator('#menu a[href="/men"]').waitFor({ timeout: 3000 });
+  if (womenLive) await page.locator('#menu a[href="/women"]').waitFor({ timeout: 3000 });
   else {
-    await expectText(page.locator('#who'), 'Coming soon');
+    await expectText(page.locator('#menu'), 'Coming soon');
     if (await page.locator('a[href^="/women"]').count()) throw new Error('a link to /women is still on the page');
-    const wa = await page.getAttribute('#who a[href^="https://wa.me/9779801033828"]', 'href');
+    const wa = await page.getAttribute('#menu a[href^="https://wa.me/9779801033828"]', 'href');
     if (!wa) throw new Error('no WhatsApp notify link');
   }
   await page.locator('main a[href="/feedback"]').first().waitFor({ timeout: 3000 });
-  if (await page.locator('main a[href^="/men/learn/"]').count()) throw new Error('landing should not carry reads');
   if (womenLive) {
-    await Promise.all([page.waitForURL(/\/women$/), page.click('#who a[href="/women"]')]);
+    await Promise.all([page.waitForURL(/\/women$/), page.click('#menu a[href="/women"]')]);
     const tiles = await page.locator('main a[href^="/women/"]').count();
     if (tiles < 9) throw new Error('expected 9 women categories, found ' + tiles);
   }

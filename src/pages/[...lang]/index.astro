@@ -1,18 +1,17 @@
 ---
-// The landing page: the brand, one question (men or women?), and the shop's details.
+// The landing page: choose a menu (men or women) and go straight inside. The same tile grids as /men and /women.
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Button from '@/components/Button.astro';
+import FaceShapes from '@/components/FaceShapes.astro';
 import Icon from '@/components/Icon.astro';
 import ItemPhoto from '@/components/ItemPhoto.astro';
 import JsonLd from '@/components/JsonLd.astro';
-import { getAllItems } from '@/data/catalogue';
+import MenuTiles from '@/components/MenuTiles.astro';
 import { WOMEN_LIVE, womenNotifyNumber } from '@/data/flags';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
-import { womenCategories } from '@/data/women';
-import { addons } from '@/data/addons';
 import { menuMark } from '@/data/brand-marks.mjs';
-import { langParams, useI18n, type UiKey } from '@/i18n';
+import { langParams, useI18n } from '@/i18n';
 
 export function getStaticPaths() {
   return langParams().map((params) => ({ params }));
@@ -20,186 +19,119 @@ export function getStaticPaths() {
 
 const { t, l } = useI18n(Astro.url);
 
-// Hair, beards, moustaches and colours; Ready Looks are counted on their own.
-const allItems = await getAllItems();
-const styleCount = allItems.filter((it) => it.category !== 'looks').length;
-const countOf = (category: string) => allItems.filter((it) => it.category === category).length;
-const womenServices = womenCategories.reduce((sum, category) => sum + category.items.length, 0);
+const waLink = (message: string) => `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(message)}`;
+const contactWhatsapp = waLink(t('contact.whatsappMessage', { shop: shop.name }));
+const notifyHref = waLink(t('who.womenNotifyMessage', { shop: shop.name }));
 
-// The hero is a menu: both sides' looks and services, each with its count. Women's rows link only once that section is live.
-const menuMen = ['hair', 'beards', 'moustaches', 'colours', 'looks'].map((key) => ({
-  href: l(`/men/${key}`),
-  label: t(`category.${key}.label` as UiKey),
-  count: String(countOf(key)),
-}));
-const menuWomen = ['hair', 'hair-colour', 'brows', 'facials', 'nails'].map((key) => ({
-  href: WOMEN_LIVE ? l(`/women/${key}`) : undefined,
-  label: t(`wcat.${key}.label` as UiKey),
-  count: String(womenCategories.find((c) => c.key === key)?.items.length ?? 0),
-}));
-const menuGroups = [
-  { title: t('menu.men'), rows: menuMen, more: { href: l('/men'), label: t('menu.allMen', { count: String(allItems.length) }) }, soon: false },
-  {
-    title: t('menu.women'),
-    rows: menuWomen,
-    more: WOMEN_LIVE ? { href: l('/women'), label: t('menu.allWomen', { count: String(womenServices) }) } : undefined,
-    soon: !WOMEN_LIVE,
-  },
+// Quick jumps under the heading: the two menus on this page, then the other places people look for.
+const jumps = [
+  { href: '#men', label: t('who.men') },
+  ...(WOMEN_LIVE ? [{ href: '#women', label: t('who.women') }] : []),
+  { href: l('/men/add-ons'), label: t('addons.link') },
+  { href: l('/learn'), label: t('nav.learn') },
+  { href: l('/play'), label: t('nav.play') },
 ];
-const contactWhatsapp = `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(t('contact.whatsappMessage', { shop: shop.name }))}`;
-const notifyHref = `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(t('who.womenNotifyMessage', { shop: shop.name }))}`;
-
-// One nested frame for both cards: a hairline shell around the card, so each reads as a mounted print.
-const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-500 ease-out-soft hover:shadow-[inset_0_0_0_2px_var(--color-ink)]';
+const sectionHead = 'flex items-end justify-between gap-4';
+const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0.9375rem] font-semibold underline-offset-4 hover:underline';
 ---
 
-<BaseLayout
-  title={t('home.title', { shop: shop.name })}
-  description={t('home.description', { shop: shop.name })}
-  tab="home"
->
+<BaseLayout title={t('home.title', { shop: shop.name })} description={t('home.description', { shop: shop.name })} tab="home">
   <JsonLd slot="head" data={website(Astro.site!)} />
   <main>
-    {/* Hero: says what this is (a menu of looks and the services that go with them) and shows the menu itself. */}
-    <section class="wrap pt-6 pb-2 md:pt-12 md:pb-4">
-      <div class="grid gap-6 md:grid-cols-[1fr_35rem] md:items-center md:gap-10">
-        <div>
-          <p class="rise inline-flex items-center gap-2 rounded-full bg-paper-2 px-3 py-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
-            <Icon name="sparkle" size={12} />
-            {shop.name}
-          </p>
-          <h1 class="rise mt-3 text-[2.25rem] leading-[1.05] md:text-[3rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
-          <p class="rise mt-3 max-w-md text-[0.9375rem] leading-relaxed text-muted" style="--rise-delay:160ms">{t('home.intro')}</p>
-          <div class="rise mt-5 flex flex-wrap gap-3" style="--rise-delay:240ms">
-            <Button href="#who" size="lg" arrow>{t('home.browseMenu')}</Button>
-          </div>
-        </div>
-        <div class="rise bg-brand p-3 md:p-4" style="--rise-delay:200ms">
-          <div class="bg-card p-5 shadow-[inset_0_0_0_1px_var(--color-line)] md:p-6">
-            <div class="flex items-center justify-between">
-              <span class="text-[1.5rem] leading-none font-bold tracking-[-0.02em]">looks<span class="text-brand">menu</span></span>
-              <svg viewBox="0 0 100 100" class="size-8 rounded-[0.3rem] bg-brand" aria-hidden="true" set:html={menuMark()} />
-            </div>
-            <div class="mt-4 grid gap-x-8 border-t border-line pt-3 sm:grid-cols-2">
-              {
-                menuGroups.map((group) => (
-                  <div class="mt-1">
-                    <p class="flex items-center gap-2 text-[0.625rem] font-semibold tracking-[0.2em] text-muted uppercase">
-                      {group.title}
-                      {group.soon && <span class="rounded-full bg-paper-2 px-2 py-0.5 tracking-[0.1em] text-ink">{t('site.comingSoon')}</span>}
-                    </p>
-                    <ul class="mt-1">
-                      {group.rows.map((row) => (
-                        <li>
-                          {row.href ? (
-                            <a href={row.href} class="group flex min-h-11 items-baseline gap-2 py-2.5 text-[1rem] font-medium">
-                              <span class="underline-offset-4 group-hover:underline">{row.label}</span>
-                              <span class="mb-1 flex-1 border-b border-dotted border-ink/30" aria-hidden="true" />
-                              <span class="text-[0.875rem] text-muted tabular-nums">{row.count}</span>
-                            </a>
-                          ) : (
-                            <div class="flex min-h-11 items-baseline gap-2 py-2.5 text-[1rem] font-medium text-muted">
-                              <span>{row.label}</span>
-                              <span class="mb-1 flex-1 border-b border-dotted border-ink/20" aria-hidden="true" />
-                            </div>
-                          )}
-                        </li>
-                      ))}
-                      {group.more && (
-                        <li>
-                          <a href={group.more.href} class="flex min-h-11 items-center gap-1.5 py-2 text-[0.875rem] font-semibold text-gold-ink underline-offset-4 hover:underline">
-                            {group.more.label}
-                            <Icon name="arrowRight" size={16} strokeWidth={1.5} />
-                          </a>
-                        </li>
-                      )}
-                    </ul>
-                  </div>
-                ))
-              }
-            </div>
-            <a href={l('/men/add-ons')} class="group mt-2 flex min-h-11 items-baseline gap-2 border-t border-line pt-3 pb-1 text-[1rem] font-medium">
-              <span class="underline-offset-4 group-hover:underline">{t('addons.link')}</span>
-              <span class="mb-1 flex-1 border-b border-dotted border-ink/30" aria-hidden="true" />
-              <span class="text-[0.875rem] text-muted tabular-nums">{addons.length}</span>
-            </a>
-          </div>
-        </div>
-      </div>
+    <section class="wrap pt-7 pb-6 md:pt-12 md:pb-10">
+      <p class="rise inline-flex items-center gap-2 rounded-full bg-paper-2 py-1 pr-3 pl-1 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
+        <svg viewBox="0 0 100 100" class="size-6 rounded-full bg-brand" aria-hidden="true" set:html={menuMark()} />
+        {shop.name}
+      </p>
+      <h1 class="rise mt-4 max-w-2xl text-[2.25rem] leading-[1.05] md:text-[3.25rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
+      <p class="rise mt-3 max-w-xl text-[1rem] leading-relaxed text-muted" style="--rise-delay:160ms">{t('home.intro')}</p>
+      <ul class="rise -mx-4 mt-5 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:flex-wrap md:px-0 [&::-webkit-scrollbar]:hidden" style="--rise-delay:240ms">
+        {
+          jumps.map((jump, n) => (
+            <li class="shrink-0">
+              <a
+                href={jump.href}
+                class:list={[
+                  'inline-flex h-11 items-center px-5 text-[0.9375rem] font-semibold transition duration-300 ease-out-soft',
+                  n === 0 ? 'bg-ink text-white' : 'bg-paper-2 hover:bg-line',
+                ]}
+              >
+                {jump.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
     </section>
 
-    {/* The choice, in full: a photo card for men and a colour card for women. */}
-    <section id="who" class="wrap scroll-mt-20 py-8 md:py-14" aria-labelledby="who-title">
-      <div data-reveal>
-        <p class="inline-flex rounded-full bg-paper-2 px-3 py-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">{t('who.label')}</p>
-        <h2 id="who-title" class="mt-4 text-[2rem] leading-tight md:text-[2.75rem]">{t('who.title')}</h2>
-        <p class="mt-2 max-w-md text-[0.9375rem] text-muted">{t('who.text')}</p>
-      </div>
-      <div class="mt-8 grid gap-4 md:mt-12 md:grid-cols-2 md:gap-6">
-        <a href={l('/men')} class={shell} data-reveal style="--reveal-delay:80ms">
-          <span class="relative block aspect-[4/3] overflow-hidden">
-            <ItemPhoto
-              item={{ id: 'L41', name: 'Skater Mullet', mainPhoto: 'front' }}
-              decorative
-              class="absolute inset-0 size-full object-[center_28%] transition-transform duration-700 ease-out-soft group-hover:scale-[1.04]"
-            />
-          </span>
-          <span class="flex items-center justify-between gap-4 p-4 md:p-5">
-            <span>
-              <span class="block text-[1.625rem] leading-tight font-semibold">{t('who.men')}</span>
-              <span class="mt-1 block text-[0.875rem] leading-snug text-muted">{t('who.menText')}</span>
-              <span class="mt-3 inline-flex rounded-full bg-paper-2 px-3 py-1 text-[0.6875rem] font-semibold tracking-[0.1em] uppercase">{t('men.styleCount', { count: String(styleCount) })}</span>
-            </span>
-            <span class="grid size-12 shrink-0 place-items-center rounded-full bg-ink text-white transition duration-500 ease-out-soft group-hover:translate-x-1">
-              <Icon name="arrowRight" size={20} strokeWidth={1.5} />
-            </span>
-          </span>
-        </a>
-        {WOMEN_LIVE ? (
-        <a href={l('/women')} class={shell} data-reveal style="--reveal-delay:160ms">
-          <span class="relative block aspect-[4/3] overflow-hidden">
-            <ItemPhoto
-              item={{ id: 'W05', name: 'Blow Dry & Styling', mainPhoto: 'front' }}
-              decorative
-              block="bg-block-blush"
-              class="absolute inset-0 size-full object-[center_20%] transition-transform duration-700 ease-out-soft group-hover:scale-[1.04]"
-            />
-          </span>
-          <span class="flex items-center justify-between gap-4 p-4 md:p-5">
-            <span>
-              <span class="block text-[1.625rem] leading-tight font-semibold">{t('who.women')}</span>
-              <span class="mt-1 block text-[0.875rem] leading-snug text-muted">{t('who.womenText')}</span>
-              <span class="mt-3 inline-flex rounded-full bg-paper-2 px-3 py-1 text-[0.6875rem] font-semibold tracking-[0.1em] uppercase">{t('women.tileCount', { count: String(womenServices) })}</span>
-            </span>
-            <span class="grid size-12 shrink-0 place-items-center rounded-full bg-ink text-white transition duration-500 ease-out-soft group-hover:translate-x-1">
-              <Icon name="arrowRight" size={20} strokeWidth={1.5} />
-            </span>
-          </span>
-        </a>
-        ) : (
-        <div class={shell.replace('group ', '').replace(/hover:\S+/, '')} data-reveal style="--reveal-delay:160ms">
-          <span class="relative block aspect-[4/3] overflow-hidden">
-            <ItemPhoto
-              item={{ id: 'W05', name: 'Blow Dry & Styling', mainPhoto: 'front' }}
-              decorative
-              block="bg-block-blush"
-              class="absolute inset-0 size-full object-[center_20%] opacity-60 saturate-50"
-            />
-            <span class="absolute top-3 left-3 rounded-full bg-ink px-3 py-1.5 text-[0.6875rem] font-semibold tracking-[0.14em] text-white uppercase">{t('who.womenSoon')}</span>
-          </span>
-          <span class="block p-4 md:p-5">
-            <span class="block text-[1.625rem] leading-tight font-semibold">{t('who.women')}</span>
-            <span class="mt-1 block text-[0.875rem] leading-snug text-muted">{t('who.womenSoonText')}</span>
-            <span class="mt-4 block">
-              <Button href={notifyHref} variant="dark" size="lg" arrow target="_blank" rel="noopener">{t('who.womenNotify')}</Button>
-            </span>
-          </span>
+    <div id="menu">
+      {/* Men's menu: the same tiles as /men. */}
+      <section id="men" class="wrap scroll-mt-20 pb-12 md:pb-16" aria-labelledby="men-title">
+        <div class={sectionHead} data-reveal>
+          <div>
+            <p class="tag">{t('men.kicker')}</p>
+            <h2 id="men-title" class="mt-2 text-[1.75rem] leading-tight md:text-[2.25rem]">{t('home.menuMen')}</h2>
+            <p class="mt-1 text-[0.9375rem] text-muted">{t('who.menText')}</p>
+          </div>
+          <a href={l('/men')} class={seeAll}>
+            {t('home.seeAll')}
+            <Icon name="arrowRight" size={18} strokeWidth={1.5} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+          </a>
         </div>
-        )}
-      </div>
-    </section>
+        <div class="mt-6">
+          <MenuTiles who="men" compact />
+        </div>
+        <div class="mt-8">
+          <FaceShapes />
+        </div>
+      </section>
 
-    {/* A small break: the Merge puzzle. */}
+      {/* Women's menu: the same tiles as /women once that section is live; until then a Coming soon card. */}
+      <section id="women" class="wrap scroll-mt-20 pb-12 md:pb-16" aria-labelledby="women-title">
+        {
+          WOMEN_LIVE ? (
+            <>
+              <div class={sectionHead} data-reveal>
+                <div>
+                  <p class="tag">{t('women.kicker')}</p>
+                  <h2 id="women-title" class="mt-2 text-[1.75rem] leading-tight md:text-[2.25rem]">{t('home.menuWomen')}</h2>
+                  <p class="mt-1 text-[0.9375rem] text-muted">{t('who.womenText')}</p>
+                </div>
+                <a href={l('/women')} class={seeAll}>
+                  {t('home.seeAll')}
+                  <Icon name="arrowRight" size={18} strokeWidth={1.5} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+                </a>
+              </div>
+              <div class="mt-6">
+                <MenuTiles who="women" compact />
+              </div>
+            </>
+          ) : (
+            <div class="grid gap-5 bg-paper-2 p-4 md:grid-cols-[18rem_1fr] md:items-center md:gap-8 md:p-5" data-reveal>
+              <span class="relative block aspect-[3/2] overflow-hidden md:aspect-[4/3]">
+                <ItemPhoto
+                  item={{ id: 'W05', name: 'Blow Dry & Styling', mainPhoto: 'front' }}
+                  decorative
+                  block="bg-block-blush"
+                  class="absolute inset-0 size-full object-[center_20%] opacity-60 saturate-50"
+                />
+                <span class="absolute top-3 left-3 rounded-full bg-ink px-3 py-1.5 text-[0.6875rem] font-semibold tracking-[0.14em] text-white uppercase">{t('who.womenSoon')}</span>
+              </span>
+              <div>
+                <h2 id="women-title" class="text-[1.75rem] leading-tight">{t('home.menuWomen')}</h2>
+                <p class="mt-1 text-[0.9375rem] text-muted">{t('who.womenText')}</p>
+                <p class="mt-3 max-w-md text-[0.9375rem] text-text">{t('who.womenSoonText')}</p>
+                <div class="mt-4">
+                  <Button href={notifyHref} variant="dark" size="lg" arrow target="_blank" rel="noopener">{t('who.womenNotify')}</Button>
+                </div>
+              </div>
+            </div>
+          )
+        }
+      </section>
+    </div>
+
+    {/* A small break: the games. */}
     <section class="wrap pb-8 md:pb-12" data-reveal>
       <a href={l('/play')} class="group flex items-center gap-4 bg-paper-2 p-5 transition duration-500 ease-out-soft hover:bg-line md:p-7">
         <span class="grid size-12 shrink-0 place-items-center bg-brand">
@@ -215,8 +147,8 @@ const shell = 'group block p-1.5 shadow-[inset_0_0_0_1px_var(--color-line)] tran
       </a>
     </section>
 
-    {/* Visit: address, hours and the two actions people want. */}
-    <section class="wrap pb-16 md:pb-24" data-reveal>
+    {/* Contact. */}
+    <section class="wrap pb-12 md:pb-16" data-reveal>
       <div class="bg-ink p-1.5">
         <div class="grid gap-8 bg-ink p-6 text-white shadow-[inset_0_0_0_1px_rgb(255_255_255/0.14)] md:grid-cols-2 md:items-center md:p-10">
           <div>

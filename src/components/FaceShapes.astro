@@ -1,0 +1,41 @@
+---
+// A quick way in for men: pick a face shape and land on the hair list already filtered to what suits it.
+import Icon from './Icon.astro';
+import { getPosts, postHref } from '@/data/learn';
+import { FACE_SHAPES } from '@/data/faces';
+import { useI18n } from '@/i18n';
+
+const { t, l } = useI18n(Astro.url);
+// "What is my face shape?", linked under the row for anyone who isn't sure of theirs.
+const faceGuide = (await getPosts()).find((post) => post.data.code === 'P01');
+---
+
+<section data-reveal aria-labelledby="face-start">
+  <p class="tag">{t('home.faceTitle')}</p>
+  <h2 id="face-start" class="mt-2 text-[1.125rem] leading-snug">{t('home.faceHint')}</h2>
+  <ul class="-mx-4 mt-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:px-0 [&::-webkit-scrollbar]:hidden">
+    {
+      FACE_SHAPES.map((face) => (
+        <li class="shrink-0">
+          <a
+            href={`${l('/men/hair')}?face=${face.value}`}
+            class="flex h-[4.5rem] w-[4.25rem] flex-col items-center justify-center gap-1.5 bg-card text-[0.75rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft hover:bg-ink hover:text-white active:bg-ink active:text-white md:w-24"
+          >
+            <svg viewBox="0 0 40 48" class="h-7 w-6" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true">
+              <path d={face.shape} />
+            </svg>
+            {t(`face.${face.value}`)}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  {
+    faceGuide && (
+      <a href={l(postHref(faceGuide))} class="group mt-2 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-semibold underline decoration-brand decoration-2 underline-offset-[5px]">
+        {t('home.faceFind')}
+        <Icon name="arrowRight" size={16} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+      </a>
+    )
+  }
+</section>
