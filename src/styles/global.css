@@ -162,21 +162,23 @@
 
 /* ---------- Labels ---------- */
 
-/* Small grey label above titles, like "Step 2/7". */
+/* Eyebrow above titles: small bold capitals with wide tracking, in the deep accent (10:1 on paper). */
 @utility tag {
   display: inline-block;
-  font-size: 0.875rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: var(--color-muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-gold-ink);
 }
 
 @utility tag-dark {
   display: inline-block;
-  font-size: 0.875rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: var(--color-muted-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-gold);
 }
 
 /* One chip for every short fact: lengths, hair types, growth, skin tones. */

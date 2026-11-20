@@ -275,7 +275,7 @@ await check('The landing page asks Men or Women and opens that section', async (
   await go('/');
   const h1 = await page.locator('h1').first().textContent();
   if (!/look/i.test(h1)) throw new Error('landing heading: ' + h1);
-  await page.locator('#menu a[href="/men"]').waitFor({ timeout: 3000 });
+  await page.locator('#menu a[href="/men"]').first().waitFor({ timeout: 3000 });
   if (womenLive) await page.locator('#menu a[href="/women"]').waitFor({ timeout: 3000 });
   else {
     await expectText(page.locator('#menu'), 'Coming soon');

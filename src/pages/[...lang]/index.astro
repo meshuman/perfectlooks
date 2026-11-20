@@ -6,6 +6,7 @@ import Icon from '@/components/Icon.astro';
 import ItemPhoto from '@/components/ItemPhoto.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import MenuTiles from '@/components/MenuTiles.astro';
+import { getAllItems } from '@/data/catalogue';
 import { WOMEN_LIVE, womenNotifyNumber } from '@/data/flags';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
@@ -17,6 +18,13 @@ export function getStaticPaths() {
 }
 
 const { t, l } = useI18n(Astro.url);
+
+const styleCount = (await getAllItems()).length;
+const steps = [
+  { href: '#men', icon: 'scissors' as const, label: t('home.strip1') },
+  { href: l('/men/hair'), icon: 'eye' as const, label: t('home.strip2') },
+  { href: l('/my-look'), icon: 'user' as const, label: t('home.strip3') },
+];
 
 const waLink = (message: string) => `https://wa.me/${womenNotifyNumber}?text=${encodeURIComponent(message)}`;
 const contactWhatsapp = waLink(t('contact.whatsappMessage', { shop: shop.name }));
@@ -37,13 +45,31 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
       <h1 class="rise mt-4 max-w-2xl text-[2.25rem] leading-[1.05] md:text-[3.25rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
     </section>
 
+    {/* Three steps, as a tinted strip of links. */}
+    <section class="bg-block-sky/60" aria-label={t('home.stripLabel')}>
+      <ul class="wrap grid sm:grid-cols-3">
+        {
+          steps.map((step) => (
+            <li>
+              <a href={step.href} class="flex min-h-14 items-center justify-center gap-2.5 py-3 text-[0.75rem] font-bold tracking-[0.14em] uppercase underline underline-offset-[6px] decoration-ink/40 transition duration-300 ease-out-soft hover:decoration-ink">
+                <Icon name={step.icon} size={18} strokeWidth={1.5} />
+                {step.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <div class="pt-10 md:pt-14"></div>
+
     <div id="menu">
       {/* Men's menu: the same tiles as /men. */}
       <section id="men" class="wrap scroll-mt-20 pb-12 md:pb-16" aria-labelledby="men-title">
         <div class={sectionHead} data-reveal>
           <div>
             <p class="tag">{t('men.kicker')}</p>
-            <h2 id="men-title" class="mt-2 text-[1.75rem] leading-tight md:text-[2.25rem]">{t('home.menuMen')}</h2>
+            <h2 id="men-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('home.menuMen')}</h2>
             <p class="mt-1 text-[0.9375rem] text-muted">{t('who.menText')}</p>
           </div>
           <a href={l('/men')} class={seeAll}>
@@ -52,7 +78,19 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
           </a>
         </div>
         <div class="mt-6">
-          <MenuTiles who="men" compact />
+          <MenuTiles who="men" compact carousel />
+        </div>
+      </section>
+
+      {/* A number to lean on, and the way in. */}
+      <section class="wrap pb-12 md:pb-16" data-reveal>
+        <div class="grid gap-6 bg-brand p-6 text-white md:grid-cols-[1fr_auto] md:items-center md:p-10">
+          <div>
+            <p class="tag-dark !text-white">{t('home.statKicker')}</p>
+            <p class="mt-3 text-[2rem] leading-tight font-light tracking-[0.02em] uppercase md:text-[2.75rem]">{t('home.statTitle', { count: String(styleCount) })}</p>
+            <p class="mt-2 max-w-lg text-[0.9375rem] text-white">{t('home.statText')}</p>
+          </div>
+          <Button href={l('/men')} variant="dark" size="lg" arrow>{t('home.statButton')}</Button>
         </div>
       </section>
 
@@ -64,7 +102,7 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
               <div class={sectionHead} data-reveal>
                 <div>
                   <p class="tag">{t('women.kicker')}</p>
-                  <h2 id="women-title" class="mt-2 text-[1.75rem] leading-tight md:text-[2.25rem]">{t('home.menuWomen')}</h2>
+                  <h2 id="women-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('home.menuWomen')}</h2>
                   <p class="mt-1 text-[0.9375rem] text-muted">{t('who.womenText')}</p>
                 </div>
                 <a href={l('/women')} class={seeAll}>
@@ -73,7 +111,7 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
                 </a>
               </div>
               <div class="mt-6">
-                <MenuTiles who="women" compact />
+                <MenuTiles who="women" compact carousel />
               </div>
             </>
           ) : (
