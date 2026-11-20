@@ -8,10 +8,12 @@ import JsonLd from '@/components/JsonLd.astro';
 import MenuTiles from '@/components/MenuTiles.astro';
 import { getAllItems } from '@/data/catalogue';
 import { WOMEN_LIVE, womenNotifyNumber } from '@/data/flags';
+import { photoFor } from '@/data/photos';
+import { trendRank } from '@/data/trending';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
 import { menuMark } from '@/data/brand-marks.mjs';
-import { langParams, useI18n } from '@/i18n';
+import { langParams, useI18n, type UiKey } from '@/i18n';
 
 export function getStaticPaths() {
   return langParams().map((params) => ({ params }));
@@ -19,7 +21,17 @@ export function getStaticPaths() {
 
 const { t, l } = useI18n(Astro.url);
 
-const styleCount = (await getAllItems()).length;
+const allItems = await getAllItems();
+const styleCount = allItems.length;
+// Popular right now: the most-asked-for haircuts and ready looks that already have a photo.
+const popularNow = ['hair', 'looks']
+  .flatMap((category) =>
+    allItems
+      .filter((it) => it.category === category && it.popular && photoFor(it.id))
+      .sort((a, b) => trendRank(a.id) - trendRank(b.id))
+      .slice(0, 5),
+  )
+  .sort((a, b) => (trendRank(a.id) % 5) - (trendRank(b.id) % 5));
 const steps = [
   { href: '#men', icon: 'scissors' as const, label: t('home.strip1') },
   { href: l('/men/hair'), icon: 'eye' as const, label: t('home.strip2') },
@@ -37,6 +49,15 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
 <BaseLayout title={t('home.title', { shop: shop.name })} description={t('home.description', { shop: shop.name })} tab="home">
   <JsonLd slot="head" data={website(Astro.site!)} />
   <main>
+    {/* Announcement bar, as on the reference: one line and one link. */}
+    {
+      !WOMEN_LIVE && (
+        <p class="bg-brand px-4 py-2.5 text-center text-[0.75rem] font-semibold tracking-[0.1em] text-white uppercase">
+          {t('home.announce')}{' '}
+          <a href={notifyHref} target="_blank" rel="noopener" class="underline underline-offset-4">{t('home.announceLink')}</a>
+        </p>
+      )
+    }
     <section class="wrap pt-7 pb-6 md:pt-12 md:pb-10">
       <p class="rise inline-flex items-center gap-2 rounded-full bg-paper-2 py-1 pr-3 pl-1 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
         <svg viewBox="0 0 100 100" class="size-6 rounded-full bg-brand" aria-hidden="true" set:html={menuMark()} />
@@ -61,7 +82,28 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
       </ul>
     </section>
 
-    <div class="pt-10 md:pt-14"></div>
+    {/* Popular right now: a row of photo cards that go straight to the style. */}
+    <section class="wrap pt-10 pb-10 md:pt-14 md:pb-14" aria-labelledby="popular-title">
+      <div data-reveal>
+        <p class="tag">{t('home.popularKicker')}</p>
+        <h2 id="popular-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('home.popularTitle')}</h2>
+      </div>
+      <ul class="-mx-4 mt-6 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:none] md:mx-0 md:gap-4 md:px-0 [&::-webkit-scrollbar]:hidden">
+        {
+          popularNow.map((item) => (
+            <li class="w-[44%] shrink-0 snap-start sm:w-[30%] md:w-[calc((100%-4rem)/5)]">
+              <a href={l(item.href)} class="group block">
+                <span class="relative block aspect-[4/5] overflow-hidden">
+                  <ItemPhoto item={item} decorative class="absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.04]" />
+                </span>
+                <span class="mt-2.5 block text-[0.9375rem] leading-snug font-semibold">{item.name}</span>
+                <span class="block text-[0.6875rem] font-bold tracking-[0.14em] text-muted uppercase">{t(`category.${item.category}.label` as UiKey)}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
 
     <div id="menu">
       {/* Men's menu: the same tiles as /men. */}
@@ -138,6 +180,43 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         }
       </section>
     </div>
+
+    {/* More to explore: three image cards, each with a text link. */}
+    <section class="wrap pb-12 md:pb-16" aria-labelledby="more-title">
+      <div data-reveal>
+        <p class="tag">{t('home.moreKicker')}</p>
+        <h2 id="more-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('home.moreTitle')}</h2>
+      </div>
+      <ul class="mt-6 grid gap-5 md:grid-cols-3">
+        {
+          [
+            { href: l('/men/add-ons'), title: t('addons.heading'), text: t('home.cardAddons'), photo: { id: 'A04', name: 'Facial', mainPhoto: 'front' as const }, block: 'bg-block-plum' },
+            { href: l('/learn'), title: t('nav.learn'), text: t('learn.hubMenText'), photo: { id: 'B05', name: 'Full Beard', mainPhoto: 'front' as const }, block: 'bg-block-sand' },
+            { href: l('/play'), title: t('play.hubTitle'), text: t('home.cardPlay'), icon: 'puzzle' as const, block: 'bg-block-sky' },
+          ].map((card, n) => (
+            <li data-reveal style={`--reveal-delay:${n * 70}ms`}>
+              <a href={card.href} class="group block">
+                <span class:list={['relative block aspect-[3/2] overflow-hidden', card.icon && card.block]}>
+                  {card.photo ? (
+                    <ItemPhoto item={card.photo} decorative block={card.block} class="absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.04]" />
+                  ) : (
+                    <span class="absolute inset-0 grid place-items-center text-ink">
+                      <Icon name={card.icon!} size={56} strokeWidth={1.25} class="transition-transform duration-500 ease-out-soft group-hover:scale-110" />
+                    </span>
+                  )}
+                </span>
+                <span class="mt-3 block text-[1.25rem] font-semibold">{card.title}</span>
+                <span class="mt-1 block text-[0.9375rem] leading-snug text-muted">{card.text}</span>
+                <span class="mt-2 inline-flex min-h-11 items-center gap-1.5 text-[0.75rem] font-bold tracking-[0.14em] uppercase underline decoration-brand decoration-2 underline-offset-[6px]">
+                  {t('home.explore')}
+                  <Icon name="arrowRight" size={16} strokeWidth={1.5} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
 
     {/* Contact. */}
     <section class="wrap pb-12 md:pb-16" data-reveal>
