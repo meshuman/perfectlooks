@@ -43,9 +43,9 @@ const sections = [
           sections.map((o) =>
             o.key === 'women' && !WOMEN_LIVE ? (
               // Not live yet: shown in the bar as Coming soon, with no link.
-              <span class="inline-flex h-11 items-center gap-1.5 border-b-2 border-transparent text-[0.75rem] font-semibold tracking-[0.12em] uppercase opacity-60">
+              <span class:list={['inline-flex h-11 items-center gap-1.5 border-b-2 border-transparent text-[0.75rem] font-semibold tracking-[0.12em] uppercase', tone === 'dark' ? 'text-muted-dark' : 'text-muted']}>
                 {o.label}
-                <span class="max-sm:sr-only rounded-full bg-ink/10 px-1.5 py-0.5 text-[0.5625rem] tracking-[0.08em]">{t('site.soonShort')}</span>
+                <span class:list={['max-sm:sr-only rounded-full px-1.5 py-0.5 text-[0.5625rem] tracking-[0.08em]', tone === 'dark' ? 'bg-white/10 text-white' : 'bg-ink/10 text-ink']}>{t('site.soonShort')}</span>
               </span>
             ) : (
             <a

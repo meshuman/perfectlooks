@@ -1,5 +1,5 @@
 ---
-// looksmenu logo: the menu mark on a crimson badge, then the name. The footer version is larger.
+// looksmenu logo: the comb-and-scissors mark, then the name. The footer version is larger.
 import { menuMark } from '@/data/brand-marks.mjs';
 import { defaultShop as shop } from '@/data/shop';
 import { useI18n } from '@/i18n';
@@ -12,22 +12,14 @@ interface Props {
 }
 
 const { tone = 'light', size = 'md' } = Astro.props;
-// On dark backgrounds the badge is white with the mark cut out in ink, and the name is white.
+// On navy the name is mint and cream, as in the logo; on light backgrounds a deeper mint and navy keep the contrast.
 const dark = tone === 'dark';
 ---
 
 <a href={l('/')} class:list={['inline-flex items-center', size === 'md' && 'min-h-11', size === 'lg' ? 'gap-3.5' : 'gap-2.5']}>
-  <svg
-    viewBox="0 0 100 100"
-    class:list={['shrink-0 rounded-[0.35rem]', size === 'lg' ? 'size-14' : 'size-9', dark ? 'bg-white' : 'bg-brand']}
-    aria-hidden="true"
-    set:html={menuMark(dark ? '#111111' : '#ffffff')}
-  />
-  <span
-    aria-hidden="true"
-    class:list={['font-bold leading-none tracking-[-0.02em]', size === 'lg' ? 'text-[1.75rem]' : 'text-[1.3125rem]', dark ? 'text-white' : 'text-ink']}
-  >
-    looks<span class={dark ? 'text-gold' : 'text-brand'}>menu</span>
+  <svg viewBox="0 0 100 100" class:list={['shrink-0', size === 'lg' ? 'size-14' : 'size-9']} aria-hidden="true" set:html={menuMark()} />
+  <span aria-hidden="true" class:list={['font-bold leading-none tracking-[-0.02em]', size === 'lg' ? 'text-[1.75rem]' : 'text-[1.3125rem]']}>
+    <span class={dark ? 'text-teal' : 'text-teal-ink'}>looks</span><span class={dark ? 'text-cream font-medium' : 'text-ink font-medium'}>menu</span>
   </span>
   <span class="sr-only">{t('site.homeLink', { shop: shop.name })}</span>
 </a>

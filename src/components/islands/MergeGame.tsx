@@ -11,11 +11,11 @@ const TIERS: { emoji: string; bg: string; fg: string }[] = [
   { emoji: '💈', bg: '#CADBD8', fg: '#111111' },
   { emoji: '💄', bg: '#D8CDBF', fg: '#111111' },
   { emoji: '💅', bg: '#B06A8F', fg: '#ffffff' },
-  { emoji: '🪞', bg: '#F2667F', fg: '#111111' },
-  { emoji: '💇', bg: '#E0284F', fg: '#ffffff' },
-  { emoji: '💆', bg: '#B0163A', fg: '#ffffff' },
-  { emoji: '👑', bg: '#111111', fg: '#ffffff' },
-  { emoji: '', bg: '#E0284F', fg: '#ffffff' },
+  { emoji: '🪞', bg: '#FC8A86', fg: '#0F2032' },
+  { emoji: '💇', bg: '#FC5F5A', fg: '#0F2032' },
+  { emoji: '💆', bg: '#CF3E39', fg: '#ffffff' },
+  { emoji: '👑', bg: '#0F2032', fg: '#ffffff' },
+  { emoji: '', bg: '#0F2032', fg: '#FC5F5A' },
 ];
 
 const KEY = 'pl:merge';
@@ -168,7 +168,7 @@ export default function MergeGame() {
                 style={{ background: t?.bg ?? 'rgba(255,255,255,0.08)', color: t?.fg }}
               >
                 {tier === TOP_TIER ? (
-                  <svg viewBox="0 0 100 100" class="size-[70%]" aria-hidden="true" dangerouslySetInnerHTML={{ __html: menuMark('#ffffff') }} />
+                  <svg viewBox="0 0 100 100" class="size-[70%]" aria-hidden="true" dangerouslySetInnerHTML={{ __html: menuMark() }} />
                 ) : tier ? (
                   <span class="flex flex-col items-center gap-0.5 leading-none">
                     <span class="text-[1.875rem] sm:text-[2.25rem]" aria-hidden="true">{t!.emoji}</span>
@@ -227,7 +227,7 @@ export default function MergeGame() {
               title={name(i + 1)}
             >
               {i + 1 === TOP_TIER ? (
-                <svg viewBox="0 0 100 100" class="size-8" aria-hidden="true" dangerouslySetInnerHTML={{ __html: menuMark('#ffffff') }} />
+                <svg viewBox="0 0 100 100" class="size-8" aria-hidden="true" dangerouslySetInnerHTML={{ __html: menuMark() }} />
               ) : (
                 <span class="text-[1.375rem]" aria-hidden="true">{t.emoji}</span>
               )}

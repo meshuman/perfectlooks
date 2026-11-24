@@ -1,6 +1,7 @@
 ---
 // /play/<game>: one game, with how to play and its rules above the board.
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Icon from '@/components/Icon.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import MergeGame from '@/components/islands/MergeGame';
 import MemoryGame from '@/components/islands/MemoryGame';
@@ -8,6 +9,7 @@ import StyleQuiz from '@/components/islands/StyleQuiz';
 import BarberRush from '@/components/islands/BarberRush';
 import BeardSculptor from '@/components/islands/BeardSculptor';
 import StyleRunner from '@/components/islands/StyleRunner';
+import StyleMatch from '@/components/islands/StyleMatch';
 import { getClientItems } from '@/data/catalogue';
 import { games, type Game } from '@/data/games';
 import { breadcrumbs } from '@/data/seo';
@@ -55,10 +57,11 @@ if (game.slug === 'quiz') {
       <h1 class="mt-3 text-[2.25rem] leading-tight">{title}</h1>
       <p class="mt-2 text-[0.9375rem] text-muted">{t(k('line'))}</p>
 
-      {/* How to play: open on arrival, and it folds away once you know the game. */}
-      <details open class="mt-5 bg-paper-2">
-        <summary class="flex min-h-12 cursor-pointer items-center justify-between gap-3 px-4 text-[0.9375rem] font-semibold">
+      {/* How to play: closed to start, a tap opens the rules. */}
+      <details class="group mt-5 bg-paper-2">
+        <summary class="flex min-h-12 cursor-pointer list-none items-center justify-between gap-3 px-4 text-[0.9375rem] font-semibold [&::-webkit-details-marker]:hidden">
           {t('play.howTitle')}
+          <Icon name="chevronDown" size={20} strokeWidth={1.5} class="transition-transform duration-300 ease-out-soft group-open:rotate-180" />
         </summary>
         <ol class="space-y-2 px-4 pb-4 text-[0.9375rem] leading-snug">
           {
@@ -78,6 +81,7 @@ if (game.slug === 'quiz') {
     {game.slug === 'rush' && <BarberRush client:only="preact" />}
     {game.slug === 'sculptor' && <BeardSculptor client:only="preact" />}
     {game.slug === 'runner' && <StyleRunner client:only="preact" />}
+    {game.slug === 'match' && <StyleMatch client:only="preact" />}
     {game.slug === 'quiz' && <StyleQuiz client:only="preact" pool={pool} browseHref={l('/men/hair')} />}
   </main>
 </BaseLayout>

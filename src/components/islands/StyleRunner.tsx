@@ -12,8 +12,8 @@ const KEYS: Record<string, keyof Input> = {
 };
 
 // Brand colours, drawn straight onto the canvas.
-const INK = '#111111';
-const CRIMSON = '#E0284F';
+const INK = '#0F2032';
+const CRIMSON = '#FC5F5A';
 const SKIN = '#EBCBB5';
 const SKY = '#A9C9E8';
 const SAND = '#D8CDBF';
@@ -134,7 +134,7 @@ export default function StyleRunner() {
     }
     // The looksmenu mark, drawn on the mirror at the end.
     const img = new Image();
-    img.src = `data:image/svg+xml;utf8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="${CRIMSON}"/>${menuMark()}</svg>`)}`;
+    img.src = `data:image/svg+xml;utf8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="14" fill="#0F2032"/>${menuMark()}</svg>`)}`;
     img.onload = () => (mirror.current = img);
   }, []);
 
@@ -220,7 +220,8 @@ export default function StyleRunner() {
     onPointerLeave: () => (input.current[k] = false),
     onPointerCancel: () => (input.current[k] = false),
   });
-  const padClass = 'grid min-h-14 touch-none select-none place-items-center bg-paper-2 text-[1.375rem] font-bold active:bg-line';
+  const padBase = 'grid min-h-14 touch-none select-none place-items-center text-[1.375rem] font-bold';
+  const padClass = `${padBase} bg-paper-2 active:bg-line`;
 
   return (
     <div class="mx-auto mt-6 max-w-xl">
@@ -263,7 +264,7 @@ export default function StyleRunner() {
       <div class="mt-2 grid grid-cols-[1fr_1fr_1.4fr] gap-1.5">
         <button type="button" aria-label={text('runner.left')} class={padClass} {...hold('left')}>←</button>
         <button type="button" aria-label={text('runner.right')} class={padClass} {...hold('right')}>→</button>
-        <button type="button" aria-label={text('runner.jump')} class={`${padClass} bg-ink text-white active:bg-ink-3`} {...hold('jump')}>
+        <button type="button" aria-label={text('runner.jump')} class={`${padBase} bg-ink text-white active:bg-ink-3`} {...hold('jump')}>
           {text('runner.jump')}
         </button>
       </div>

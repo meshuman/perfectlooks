@@ -63,6 +63,10 @@ home.seeAll,Screen text: home,See all,सभी देखें,draft,
 home.strip1,Screen text: home,Pick a style,स्टाइल चुनें,draft,
 home.strip2,Screen text: home,See what suits you,देखें क्या सूट करता है,draft,
 home.strip3,Screen text: home,Show your stylist,स्टाइलिस्ट को दिखाएँ,draft,
+home.barberAlt,Screen text: home,The barber at KGF UniSex Salon,KGF UniSex Salon के नाई,draft,
+home.welcomeLabel,Screen text: home,Welcome,स्वागत है,draft,
+home.welcome,Screen text: home,"Welcome, {shop}","स्वागत है, {shop}",draft,Keep the {words in braces}: the app fills them in.
+home.welcomeText,Screen text: home,"Show your clients this menu. They pick a style, you get one clear Barber Card.","अपने ग्राहकों को यह मेन्यू दिखाएँ। वे स्टाइल चुनते हैं, और आपको एक साफ़ बार्बर कार्ड मिलता है।",draft,
 home.stripLabel,Screen text: home,How it works,यह कैसे काम करता है,draft,
 home.statKicker,Screen text: home,The men's menu,पुरुषों का मेन्यू,draft,
 home.statTitle,Screen text: home,{count} styles to choose from,चुनने के लिए {count} स्टाइल,draft,Keep the {words in braces}: the app fills them in.
@@ -191,6 +195,23 @@ runner.hint,Screen text: runner,Move with the arrow keys or the buttons. Jump on
 runner.left,Screen text: runner,Move left,बाएँ चलें,draft,
 runner.right,Screen text: runner,Move right,दाएँ चलें,draft,
 runner.jump,Screen text: runner,Jump,कूदें,draft,
+game.match.title,Screen text: game,Style Match,स्टाइल मैच,draft,
+game.match.line,Screen text: game,Swap salon items to match three or more.,सैलून की चीज़ें बदलकर तीन या ज़्यादा मिलाएँ।,draft,
+game.match.r1,Screen text: game,"Tap a tile, then tap a tile next to it to swap them. You can also swipe a tile toward its neighbour.","एक टाइल पर टैप करें, फिर उसके बगल वाले टाइल पर टैप करके उन्हें बदलें। आप टाइल को पड़ोसी की ओर स्वाइप भी कर सकते हैं।",draft,
+game.match.r2,Screen text: game,Line up three or more of the same item in a row or a column to clear them. Longer lines score more.,एक जैसी तीन या ज़्यादा चीज़ें पंक्ति या स्तंभ में मिलाकर हटाएँ। लंबी लाइन के ज़्यादा अंक मिलते हैं।,draft,
+game.match.r3,Screen text: game,A swap that makes no match slides back and does not use a move.,"जिस अदला-बदली से मेल न बने, वह वापस हो जाती है और चाल खर्च नहीं होती।",draft,
+game.match.r4,Screen text: game,New tiles drop in as others clear. Chains that start by themselves score extra.,दूसरे हटने पर नए टाइल गिरते हैं। अपने आप शुरू होने वाली श्रृंखला के अतिरिक्त अंक मिलते हैं।,draft,
+game.match.r5,Screen text: game,"Reach the level goal before your moves run out to move up a level. If no swaps are left, the board is dealt again.",चालें खत्म होने से पहले स्तर का लक्ष्य पूरा करके अगले स्तर पर जाएँ। कोई अदला-बदली न बचे तो बोर्ड फिर से बाँटा जाता है।,draft,
+match.level,Screen text: match,Level {n},स्तर {n},draft,Keep the {words in braces}: the app fills them in.
+match.moves,Screen text: match,Moves left,बची चालें,draft,
+match.board,Screen text: match,"Style Match board, 8 by 8","स्टाइल मैच बोर्ड, 8 गुणा 8",draft,
+match.cell,Screen text: match,"row {row}, column {col}","पंक्ति {row}, स्तंभ {col}",draft,Keep the {words in braces}: the app fills them in.
+match.hint,Screen text: match,"Tap a tile, then a neighbour, or swipe.","एक टाइल पर, फिर पड़ोसी पर टैप करें, या स्वाइप करें।",draft,
+match.noMatch,Screen text: match,No match there. Try another swap.,वहाँ मेल नहीं बना। दूसरी अदला-बदली आज़माएँ।,draft,
+match.shuffled,Screen text: match,No swaps left. A fresh board is dealt.,कोई अदला-बदली नहीं बची। नया बोर्ड बाँटा गया।,draft,
+match.won,Screen text: match,Level {n} complete!,स्तर {n} पूरा हुआ!,draft,Keep the {words in braces}: the app fills them in.
+match.lost,Screen text: match,Out of moves.,चालें खत्म।,draft,
+match.next,Screen text: match,Next level,अगला स्तर,draft,
 play.scoreNow,Screen text: play,Score {score},स्कोर {score},draft,Keep the {words in braces}: the app fills them in.
 play.tier1,Screen text: play,Shampoo,शैम्पू,draft,
 play.tier2,Screen text: play,Razor,रेज़र,draft,

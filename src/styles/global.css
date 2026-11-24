@@ -5,7 +5,7 @@
 @import "@fontsource/mukta/devanagari-700.css";
 
 /*
- * looksmenu design tokens: flat, calm salon editorial.
+ * looksmenu design tokens (colours from the logo: coral, mint, cream, navy): flat, calm salon editorial.
  * Warm off-white, true black for type and actions, the brand crimson as the one accent, colour-block photo backgrounds.
  * Contrast notes are for text on the colour it's used against.
  *
@@ -13,9 +13,9 @@
  * "gold" is now the crimson accent and "gold-fill" is the black primary fill.
  */
 @theme {
-  --color-ink: #111111;
-  --color-ink-2: #1c1c1c;
-  --color-ink-3: #2b2b2b;
+  --color-ink: #0f2032;
+  --color-ink-2: #162b42;
+  --color-ink-3: #213a54;
   --color-line-dark: rgb(255 255 255 / 0.16);
   --color-paper: #f7f4f0;
   --color-paper-2: #ede8e2;
@@ -23,14 +23,19 @@
   /* Option and card outlines. */
   --color-line: #dcd7d1;
   /* Brand crimson, from the looksmenu badge. White on it is 5.8:1. */
-  --color-brand: #e0284f;
+  --color-brand: #cf3e39;
   /* Accent on dark backgrounds (lighter crimson): 6.2:1 as text on ink. */
-  --color-gold: #f2667f;
-  --color-gold-2: #e0284f;
-  --color-gold-soft: #fad4dc;
+  --color-gold: #fc5f5a;
+  --color-gold-2: #cf3e39;
+  --color-gold-soft: #ffd9d6;
   /* Accent for text on light backgrounds (deep crimson): 10:1 on paper. */
-  --color-gold-ink: #b0163a;
-  --color-text: #111111;
+  --color-gold-ink: #b8302c;
+  /* The logo's mint, and a deep version of it for text on light backgrounds (4.8:1 on paper). */
+  --color-teal: #10e7c6;
+  --color-teal-ink: #0a7a6a;
+  --color-cream: #f6e4d6;
+  --color-coral: #fc5f5a;
+  --color-text: #0f2032;
   /* 5.1:1 on paper. */
   --color-muted: #67625d;
   /* 7.4:1 on ink. */
@@ -169,7 +174,7 @@
   font-weight: 700;
   letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: var(--color-gold-ink);
+  color: var(--color-teal-ink);
 }
 
 @utility tag-dark {
@@ -178,7 +183,7 @@
   font-weight: 700;
   letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: var(--color-gold);
+  color: var(--color-teal);
 }
 
 /* One chip for every short fact: lengths, hair types, growth, skin tones. */

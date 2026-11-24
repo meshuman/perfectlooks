@@ -2,7 +2,7 @@ import type { IconName } from './icons';
 
 // The games on /play. Each one has a page at /play/<slug>; its words live in en.json (game.<slug>.*).
 export interface Game {
-  slug: 'merge' | 'memory' | 'quiz' | 'rush' | 'sculptor' | 'runner';
+  slug: 'merge' | 'memory' | 'quiz' | 'rush' | 'sculptor' | 'runner' | 'match';
   /** Shown on the hub card, from the site's own icon set. */
   icon: IconName;
   /** Colour block class for the hub card. */
@@ -18,6 +18,7 @@ export const games: Game[] = [
   { slug: 'rush', icon: 'clock', block: 'bg-block-orange', rules: 4 },
   { slug: 'sculptor', icon: 'beard', block: 'bg-block-sand', rules: 4 },
   { slug: 'runner', icon: 'star', block: 'bg-block-plum', rules: 5 },
+  { slug: 'match', icon: 'heart', block: 'bg-block-blush', rules: 5 },
 ];
 
 export const gameBySlug = (slug: string) => games.find((g) => g.slug === slug);

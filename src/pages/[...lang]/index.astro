@@ -1,5 +1,7 @@
 ---
 // The landing page: choose a menu (men or women) and go straight inside. The same tile grids as /men and /women.
+import { Image } from 'astro:assets';
+import barberPhoto from '@/assets/barber-round.jpg';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Button from '@/components/Button.astro';
 import Icon from '@/components/Icon.astro';
@@ -11,7 +13,7 @@ import { WOMEN_LIVE, womenNotifyNumber } from '@/data/flags';
 import { photoFor } from '@/data/photos';
 import { trendRank } from '@/data/trending';
 import { website } from '@/data/seo';
-import { defaultShop as shop } from '@/data/shop';
+import { defaultShop as shop, partnerBarber } from '@/data/shop';
 import { menuMark } from '@/data/brand-marks.mjs';
 import { langParams, useI18n, type UiKey } from '@/i18n';
 
@@ -61,8 +63,8 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
       )
     }
     <section class="wrap pt-5 pb-5 md:pt-12 md:pb-10">
-      <p class="rise inline-flex items-center gap-2 rounded-full bg-paper-2 py-1 pr-3 pl-1 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
-        <svg viewBox="0 0 100 100" class="size-6 rounded-full bg-brand" aria-hidden="true" set:html={menuMark()} />
+      <p class="rise inline-flex items-center gap-2 rounded-full bg-paper-2 py-1 pr-3 pl-2 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
+        <svg viewBox="0 0 100 100" class="size-6" aria-hidden="true" set:html={menuMark()} />
         {shop.name}
       </p>
       <h1 class="rise mt-4 max-w-2xl text-[2.25rem] leading-[1.05] md:text-[3.25rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
@@ -84,8 +86,19 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
       </ul>
     </section>
 
+    {/* A welcome for the partner barber: a small round photo and a line that makes the menu theirs to show. */}
+    <section class="wrap pt-6 md:pt-8" aria-label={t('home.welcomeLabel')}>
+      <div class="flex items-center gap-4 bg-paper-2 p-3 pr-4 md:p-4" data-reveal>
+        <Image src={barberPhoto} alt={t('home.barberAlt')} widths={[112, 224]} sizes="64px" class="size-14 shrink-0 rounded-full object-cover object-center ring-2 ring-teal md:size-16" loading="eager" />
+        <div class="min-w-0">
+          <p class="text-[1.0625rem] leading-snug font-semibold">{t('home.welcome', { shop: partnerBarber })}</p>
+          <p class="mt-0.5 text-[0.875rem] leading-snug text-muted">{t('home.welcomeText')}</p>
+        </div>
+      </div>
+    </section>
+
     {/* Popular right now: a row of photo cards that go straight to the style. */}
-    <section class="wrap pt-8 pb-8 md:pt-14 md:pb-14" aria-labelledby="popular-title">
+    <section class="wrap pt-6 pb-8 md:pt-10 md:pb-14" aria-labelledby="popular-title">
       <div data-reveal>
         <p class="tag">{t('home.popularKicker')}</p>
         <h2 id="popular-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('home.popularTitle')}</h2>
