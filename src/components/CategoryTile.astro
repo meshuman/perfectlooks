@@ -29,7 +29,7 @@ const showIcon = Boolean(fallbackIcon) && !(photo && (photoFor(photo.id) || phot
 ---
 
 <a href={href} class:list={['group flex flex-col', feature && 'col-span-2 md:row-span-2', className]} {...rest}>
-  <div class:list={['relative overflow-hidden', feature ? 'aspect-[16/10] md:aspect-auto md:flex-1 md:min-h-80' : compact ? 'aspect-[3/2]' : 'aspect-[5/4]', showIcon && block]}>
+  <div class:list={['relative overflow-hidden', feature ? 'aspect-[16/10] md:aspect-auto md:flex-1 md:min-h-80' : 'aspect-square', showIcon && block]}>
     {showIcon ? (
       <span class="absolute inset-0 grid place-items-center text-ink">
         <Icon name={fallbackIcon!} size={44} strokeWidth={1.25} class="transition-transform duration-500 ease-out-soft group-hover:scale-110" />
