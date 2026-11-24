@@ -63,10 +63,10 @@ home.seeAll,Screen text: home,See all,सबै हेर्नुहोस्,d
 home.strip1,Screen text: home,Pick a style,स्टाइल रोज्नुहोस्,draft,
 home.strip2,Screen text: home,See what suits you,के सुहाउँछ हेर्नुहोस्,draft,
 home.strip3,Screen text: home,Show your stylist,स्टाइलिस्टलाई देखाउनुहोस्,draft,
-home.barberAlt,Screen text: home,The barber at KGF UniSex Salon,KGF UniSex Salon का नाइ,draft,
+home.barberAlt,Screen text: home,{name} of {shop},{shop} का {name},draft,Keep the {words in braces}: the app fills them in.
 home.welcomeLabel,Screen text: home,Welcome,स्वागत छ,draft,
-home.welcome,Screen text: home,"Welcome, {shop}","स्वागत छ, {shop}",draft,Keep the {words in braces}: the app fills them in.
-home.welcomeText,Screen text: home,"Show your clients this menu. They pick a style, you get one clear Barber Card.","आफ्ना ग्राहकलाई यो मेनु देखाउनुहोस्। उनीहरूले स्टाइल रोज्छन्, तपाईंले एउटा स्पष्ट बार्बर कार्ड पाउनुहुन्छ।",draft,
+home.welcome,Screen text: home,{name} welcomes you to {shop},{name} तपाईंलाई {shop} मा स्वागत गर्नुहुन्छ,draft,Keep the {words in braces}: the app fills them in.
+home.welcomeText,Screen text: home,Choose your look. We’ll make it a reality.,आफ्नो लुक रोज्नुहोस्। हामी त्यसलाई साकार बनाउँछौं।,draft,
 home.stripLabel,Screen text: home,How it works,यो कसरी काम गर्छ,draft,
 home.statKicker,Screen text: home,The men's menu,पुरुषको मेनु,draft,
 home.statTitle,Screen text: home,{count} styles to choose from,रोज्न मिल्ने {count} स्टाइल,draft,Keep the {words in braces}: the app fills them in.

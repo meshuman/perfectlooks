@@ -13,8 +13,7 @@ import { WOMEN_LIVE, womenNotifyNumber } from '@/data/flags';
 import { photoFor } from '@/data/photos';
 import { trendRank } from '@/data/trending';
 import { website } from '@/data/seo';
-import { defaultShop as shop, partnerBarber } from '@/data/shop';
-import { menuMark } from '@/data/brand-marks.mjs';
+import { defaultShop as shop, partnerBarber, partnerBarberName } from '@/data/shop';
 import { langParams, useI18n, type UiKey } from '@/i18n';
 
 export function getStaticPaths() {
@@ -53,6 +52,17 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
 <BaseLayout title={t('home.title', { shop: shop.name })} description={t('home.description', { shop: shop.name })} tab="home">
   <JsonLd slot="head" data={website(Astro.site!)} />
   <main>
+    {/* A welcome for the partner barber: a small round photo and a line that makes the menu theirs to show. */}
+    <section class="wrap pt-4 md:pt-6" aria-label={t('home.welcomeLabel')}>
+      <div class="flex items-center gap-4 bg-paper-2 p-3 pr-4 md:p-4" data-reveal>
+        <Image src={barberPhoto} alt={t('home.barberAlt', { name: partnerBarberName, shop: partnerBarber })} widths={[112, 224]} sizes="64px" class="size-14 shrink-0 rounded-full object-cover object-center ring-2 ring-teal md:size-16" loading="eager" />
+        <div class="min-w-0">
+          <p class="text-[1.0625rem] leading-snug font-semibold">{t('home.welcome', { name: partnerBarberName, shop: partnerBarber })}</p>
+          <p class="mt-0.5 text-[0.875rem] leading-snug text-muted">{t('home.welcomeText')}</p>
+        </div>
+      </div>
+    </section>
+
     {/* Announcement bar, as on the reference: one line and one link. */}
     {
       !WOMEN_LIVE && (
@@ -62,12 +72,24 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         </p>
       )
     }
-    <section class="wrap pt-5 pb-5 md:pt-12 md:pb-10">
-      <p class="rise inline-flex items-center gap-2 rounded-full bg-paper-2 py-1 pr-3 pl-2 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">
-        <svg viewBox="0 0 100 100" class="size-6" aria-hidden="true" set:html={menuMark()} />
-        {shop.name}
-      </p>
-      <h1 class="rise mt-4 max-w-2xl text-[2.25rem] leading-[1.05] md:text-[3.25rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
+    <section class="wrap pt-5 pb-5 md:grid md:grid-cols-[1fr_1.15fr] md:items-center md:gap-12 md:pt-10 md:pb-12">
+      <h1 class="rise max-w-xl text-[2.25rem] leading-[1.05] md:text-[3.75rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
+      {/* A collage of the menu's photos, for wider screens. */}
+      <ul class="rise hidden grid-cols-3 gap-3 md:grid" style="--rise-delay:160ms" aria-hidden="true">
+        {
+          [
+            { id: 'H28', name: 'Wolf Cut', lift: '' },
+            { id: 'L74', name: 'Drop Fade Beard', lift: 'mt-10' },
+            { id: 'B19', name: 'Extended Goatee', lift: 'mt-4' },
+          ].map((photo) => (
+            <li class={photo.lift}>
+              <span class="relative block aspect-[4/5] overflow-hidden">
+                <ItemPhoto item={{ id: photo.id, name: photo.name, mainPhoto: 'front' }} decorative class="absolute inset-0 size-full" />
+              </span>
+            </li>
+          ))
+        }
+      </ul>
     </section>
 
     {/* Three steps, as a tinted strip of links. */}
@@ -84,17 +106,6 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
           ))
         }
       </ul>
-    </section>
-
-    {/* A welcome for the partner barber: a small round photo and a line that makes the menu theirs to show. */}
-    <section class="wrap pt-6 md:pt-8" aria-label={t('home.welcomeLabel')}>
-      <div class="flex items-center gap-4 bg-paper-2 p-3 pr-4 md:p-4" data-reveal>
-        <Image src={barberPhoto} alt={t('home.barberAlt')} widths={[112, 224]} sizes="64px" class="size-14 shrink-0 rounded-full object-cover object-center ring-2 ring-teal md:size-16" loading="eager" />
-        <div class="min-w-0">
-          <p class="text-[1.0625rem] leading-snug font-semibold">{t('home.welcome', { shop: partnerBarber })}</p>
-          <p class="mt-0.5 text-[0.875rem] leading-snug text-muted">{t('home.welcomeText')}</p>
-        </div>
-      </div>
     </section>
 
     {/* Popular right now: a row of photo cards that go straight to the style. */}
@@ -141,11 +152,11 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
 
       {/* A number to lean on, and the way in. */}
       <section class="wrap pb-8 md:pb-16" data-reveal>
-        <div class="grid gap-5 bg-brand p-5 text-white md:grid-cols-[1fr_auto] md:items-center md:gap-6 md:p-10">
+        <div class="grid gap-5 bg-paper-2 p-5 md:grid-cols-[1fr_auto] md:items-center md:gap-6 md:p-10">
           <div>
-            <p class="tag-dark !text-white">{t('home.statKicker')}</p>
+            <p class="tag">{t('home.statKicker')}</p>
             <p class="mt-2 text-[1.625rem] leading-tight font-light tracking-[0.02em] uppercase md:mt-3 md:text-[2.75rem]">{t('home.statTitle', { count: String(styleCount) })}</p>
-            <p class="mt-2 max-w-lg text-[0.9375rem] text-white">{t('home.statText')}</p>
+            <p class="mt-2 max-w-lg text-[0.9375rem] text-muted">{t('home.statText')}</p>
           </div>
           <Button href={l('/men')} variant="dark" size="lg" arrow class="w-full md:w-auto">{t('home.statButton')}</Button>
         </div>
@@ -202,28 +213,30 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         <p class="tag">{t('home.moreKicker')}</p>
         <h2 id="more-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('home.moreTitle')}</h2>
       </div>
-      <ul class="mt-6 grid gap-5 md:grid-cols-2">
+      <ul class="mt-6 grid gap-3 md:grid-cols-2 md:gap-5">
         {
           [
             { href: l('/learn'), title: t('nav.learn'), text: t('learn.hubMenText'), photo: { id: 'B05', name: 'Full Beard', mainPhoto: 'front' as const }, block: 'bg-block-sand' },
             { href: l('/play'), title: t('play.hubTitle'), text: t('home.cardPlay'), icon: 'puzzle' as const, block: 'bg-block-sky' },
           ].map((card, n) => (
             <li data-reveal style={`--reveal-delay:${n * 70}ms`}>
-              <a href={card.href} class="group block">
-                <span class:list={['relative block aspect-[3/2] overflow-hidden', card.icon && card.block]}>
+              <a href={card.href} class="group flex items-center gap-4 bg-paper-2 p-3 transition duration-300 ease-out-soft hover:bg-line md:p-4">
+                <span class:list={['relative block size-20 shrink-0 overflow-hidden md:size-24', card.icon && card.block]}>
                   {card.photo ? (
-                    <ItemPhoto item={card.photo} decorative block={card.block} class="absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.04]" />
+                    <ItemPhoto item={card.photo} decorative block={card.block} class="absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.06]" />
                   ) : (
                     <span class="absolute inset-0 grid place-items-center text-ink">
-                      <Icon name={card.icon!} size={56} strokeWidth={1.25} class="transition-transform duration-500 ease-out-soft group-hover:scale-110" />
+                      <Icon name={card.icon!} size={36} strokeWidth={1.25} class="transition-transform duration-500 ease-out-soft group-hover:scale-110" />
                     </span>
                   )}
                 </span>
-                <span class="mt-3 block text-[1.25rem] font-semibold">{card.title}</span>
-                <span class="mt-1 block text-[0.9375rem] leading-snug text-muted">{card.text}</span>
-                <span class="mt-2 inline-flex min-h-11 items-center gap-1.5 text-[0.75rem] font-bold tracking-[0.14em] uppercase underline decoration-brand decoration-2 underline-offset-[6px]">
-                  {t('home.explore')}
-                  <Icon name="arrowRight" size={16} strokeWidth={1.5} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+                <span class="min-w-0 flex-1">
+                  <span class="block text-[1.125rem] font-semibold">{card.title}</span>
+                  <span class="mt-0.5 block text-[0.875rem] leading-snug text-muted">{card.text}</span>
+                  <span class="mt-1.5 inline-flex items-center gap-1.5 text-[0.6875rem] font-bold tracking-[0.14em] uppercase">
+                    {t('home.explore')}
+                    <Icon name="arrowRight" size={14} strokeWidth={1.5} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+                  </span>
                 </span>
               </a>
             </li>
