@@ -7,7 +7,11 @@ interface Props {
 const { items, label } = Astro.props;
 ---
 
-<nav aria-label={label} class="-mx-4 overflow-x-auto px-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+{/* Sticks under the header, so you can switch category from anywhere down the list. */}
+<nav
+  aria-label={label}
+  class="sticky top-16 z-20 -mx-4 overflow-x-auto bg-paper px-4 py-2 shadow-[0_1px_0_var(--color-line)] [scrollbar-width:none] md:mx-0 md:px-0 [&::-webkit-scrollbar]:hidden"
+>
   <ul class="flex w-max gap-2">
     {
       items.map((item) => (
