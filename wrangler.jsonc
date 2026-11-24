@@ -1,0 +1,13 @@
+{
+  // looksmenu is a fully static site: the build writes plain files to ./dist and Cloudflare serves them as static
+  // assets. This file is committed so wrangler does not auto-configure the Astro adapter and rebuild the site a
+  // second time at deploy. The name must match the Worker you deploy to in the Cloudflare dashboard.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "looksmenu",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

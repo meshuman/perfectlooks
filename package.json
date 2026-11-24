@@ -16,6 +16,7 @@
     "qa": "node scripts/qa.mjs",
     "prompts": "node scripts/export-prompts.mjs",
     "brand": "node scripts/brand-assets.mjs",
+    "redirects": "node scripts/redirects.mjs",
     "i18n": "node scripts/i18n-export.mjs"
   },
   "dependencies": {

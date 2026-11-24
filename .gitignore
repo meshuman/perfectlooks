@@ -6,3 +6,4 @@ dist-review/
 .env.*
 !.env.example
 .DS_Store
+.wrangler/
