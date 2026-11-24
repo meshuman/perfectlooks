@@ -57,7 +57,7 @@ const alternates = (['en', ...publishedLocales()] as const).map((l) => ({ lang: 
 const OG_LOCALE = { en: 'en', ne: 'ne_NP', hi: 'hi_IN' } as const;
 
 // Screen text the browser scripts and islands need (toasts, buttons, Barber Card), in this language.
-const CLIENT_PREFIXES = ['look.', 'fav.', 'card.', 'list.', 'slot.', 'action.', 'barberLine.', 'myLook.', 'barber.', 'favourites.', 'site.', 'suits.', 'detail.verdict', 'play.', 'memory.', 'quiz.', 'rush.', 'sculptor.'];
+const CLIENT_PREFIXES = ['look.', 'fav.', 'card.', 'list.', 'slot.', 'action.', 'barberLine.', 'myLook.', 'barber.', 'favourites.', 'site.', 'suits.', 'detail.verdict', 'play.', 'memory.', 'quiz.', 'rush.', 'sculptor.', 'runner.'];
 const clientStrings = Object.fromEntries(
   (Object.keys(en) as UiKey[]).filter((k) => CLIENT_PREFIXES.some((p) => k.startsWith(p))).map((k) => [k, t(k)]),
 );

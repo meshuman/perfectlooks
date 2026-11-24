@@ -20,7 +20,7 @@ const path = Astro.url.pathname.replace(/^\/(ne|hi)(?=\/|$)/, '');
 const sections = [
   { key: 'men', href: l('/men'), label: t('who.men'), on: path === '/men' || path.startsWith('/men/') },
   { key: 'women', href: l('/women'), label: t('who.women'), on: path === '/women' || path.startsWith('/women/') },
-].filter((s) => WOMEN_LIVE || s.key !== 'women');
+];
 ---
 
 {/* Logo centred, as in the reference header. */}
@@ -40,7 +40,14 @@ const sections = [
     <div class="ml-auto flex items-center justify-end sm:ml-0">
       <nav aria-label={t('who.title')} class="mr-0.5 flex gap-2.5 sm:mr-3 sm:gap-5">
         {
-          sections.map((o) => (
+          sections.map((o) =>
+            o.key === 'women' && !WOMEN_LIVE ? (
+              // Not live yet: shown in the bar as Coming soon, with no link.
+              <span class="inline-flex h-11 items-center gap-1.5 border-b-2 border-transparent text-[0.75rem] font-semibold tracking-[0.12em] uppercase opacity-60">
+                {o.label}
+                <span class="max-sm:sr-only rounded-full bg-ink/10 px-1.5 py-0.5 text-[0.5625rem] tracking-[0.08em]">{t('site.soonShort')}</span>
+              </span>
+            ) : (
             <a
               href={o.href}
               aria-current={o.on ? 'page' : undefined}
@@ -48,7 +55,8 @@ const sections = [
             >
               {o.label}
             </a>
-          ))
+            ),
+          )
         }
       </nav>
       <LangSwitch tone={tone} localized={localized} />

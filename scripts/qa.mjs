@@ -28,6 +28,7 @@ const PAGES = [
   '/play/quiz',
   '/play/rush',
   '/play/sculptor',
+  '/play/runner',
   '/about-you',
   '/favourites',
   '/my-look',
