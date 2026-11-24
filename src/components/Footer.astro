@@ -55,7 +55,7 @@ const crossOver = inMen && WOMEN_LIVE ? { href: l('/women'), label: t('who.women
             columns.map((col) => (
               <nav aria-label={col.title}>
                 <h2 class="text-sm font-medium tracking-wide text-muted-dark"><a href={col.href} class="underline-offset-4 hover:underline">{col.title}</a></h2>
-                <ul class="mt-2 text-[0.9375rem]">
+                <ul class="mt-2 grid grid-cols-2 gap-x-4 text-[0.9375rem] sm:block">
                   {col.links.map((link) => (
                     <li><a href={link.href} class="flex min-h-11 items-center underline-offset-4 hover:underline">{link.label}</a></li>
                   ))}
