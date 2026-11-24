@@ -187,10 +187,9 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         <p class="tag">{t('home.moreKicker')}</p>
         <h2 id="more-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('home.moreTitle')}</h2>
       </div>
-      <ul class="mt-6 grid gap-5 md:grid-cols-3">
+      <ul class="mt-6 grid gap-5 md:grid-cols-2">
         {
           [
-            { href: l('/men/add-ons'), title: t('addons.heading'), text: t('home.cardAddons'), photo: { id: 'A04', name: 'Facial', mainPhoto: 'front' as const }, block: 'bg-block-plum' },
             { href: l('/learn'), title: t('nav.learn'), text: t('learn.hubMenText'), photo: { id: 'B05', name: 'Full Beard', mainPhoto: 'front' as const }, block: 'bg-block-sand' },
             { href: l('/play'), title: t('play.hubTitle'), text: t('home.cardPlay'), icon: 'puzzle' as const, block: 'bg-block-sky' },
           ].map((card, n) => (
