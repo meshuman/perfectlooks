@@ -72,8 +72,10 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         </p>
       )
     }
-    <section class="wrap pt-5 pb-5 md:grid md:grid-cols-[1fr_1.15fr] md:items-center md:gap-12 md:pt-10 md:pb-12">
-      <h1 class="rise max-w-xl text-[2.25rem] leading-[1.05] md:text-[3.75rem]" style="--rise-delay:80ms">{t('home.heading')}</h1>
+    <section class="wrap md:grid md:grid-cols-[1fr_1.15fr] md:items-center md:gap-12 md:pt-10 md:pb-12">
+      {/* On a phone the heading and strip are left out to keep the menu high on the screen; the page still has its heading for screen readers. */}
+      <h1 class="sr-only md:hidden">{t('home.heading')}</h1>
+      <h1 class="rise hidden max-w-xl text-[3.75rem] leading-[1.05] md:block" style="--rise-delay:80ms">{t('home.heading')}</h1>
       {/* A collage of the menu's photos, for wider screens. */}
       <ul class="rise hidden grid-cols-3 gap-3 md:grid" style="--rise-delay:160ms" aria-hidden="true">
         {
@@ -93,7 +95,7 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
     </section>
 
     {/* Three steps, as a tinted strip of links. */}
-    <section class="bg-block-sky/60" aria-label={t('home.stripLabel')}>
+    <section class="hidden bg-block-sky/60 md:block" aria-label={t('home.stripLabel')}>
       <ul class="wrap grid grid-cols-3">
         {
           steps.map((step) => (
