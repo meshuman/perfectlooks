@@ -31,7 +31,9 @@ const popularNow = ['hair', 'looks']
       .sort((a, b) => trendRank(a.id) - trendRank(b.id))
       .slice(0, 5),
   )
-  .sort((a, b) => (trendRank(a.id) % 5) - (trendRank(b.id) % 5));
+  .sort((a, b) => (trendRank(a.id) % 5) - (trendRank(b.id) % 5))
+  // Full Mullet takes the slot Trendy Wolf (L11) would have had.
+  .map((it) => (it.id === 'L11' ? (allItems.find((x) => x.id === 'H66') ?? it) : it));
 const steps = [
   { href: '#men', icon: 'scissors' as const, label: t('home.strip1') },
   { href: l('/men/hair'), icon: 'eye' as const, label: t('home.strip2') },
