@@ -58,20 +58,26 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
 <BaseLayout title={t('home.title', { shop: shop.name })} description={t('home.description', { shop: shop.name })} tab="home">
   <JsonLd slot="head" data={website(Astro.site!)} />
   <main>
-    {/* A welcome for the partner barber: a small round photo and a line that makes the menu theirs to show. */}
-    <section class="wrap pt-4 md:pt-6" aria-label={t('home.welcomeLabel')}>
-      <div class="flex items-center gap-4 bg-paper-2 p-3 pr-4 md:p-4" data-reveal>
-        <Image src={barberPhoto} alt={t('home.barberAlt', { name: partnerBarberName, shop: partnerBarber })} widths={[112, 224]} sizes="64px" class="size-14 shrink-0 rounded-full object-cover object-center ring-2 ring-teal md:size-16" loading="eager" />
-        <div class="min-w-0">
-          <p class="text-[1.0625rem] leading-snug font-semibold">{t('home.welcome', { name: partnerBarberName, shop: partnerBarber })}</p>
-          <p class="mt-0.5 text-[0.875rem] leading-snug text-muted">{t('home.welcomeText')}</p>
-        </div>
-      </div>
-    </section>
+    {/* The welcome card and the announcement bar are shown in local development only; the live site leaves them out. */}
+    {
+      import.meta.env.DEV && (
+        <>
+        <section class="wrap pt-4 md:pt-6" aria-label={t('home.welcomeLabel')}>
+          <div class="flex items-center gap-4 bg-paper-2 p-3 pr-4 md:p-4" data-reveal>
+            <Image src={barberPhoto} alt={t('home.barberAlt', { name: partnerBarberName, shop: partnerBarber })} widths={[112, 224]} sizes="64px" class="size-14 shrink-0 rounded-full object-cover object-center ring-2 ring-teal md:size-16" loading="eager" />
+            <div class="min-w-0">
+              <p class="text-[1.0625rem] leading-snug font-semibold">{t('home.welcome', { name: partnerBarberName, shop: partnerBarber })}</p>
+              <p class="mt-0.5 text-[0.875rem] leading-snug text-muted">{t('home.welcomeText')}</p>
+            </div>
+          </div>
+        </section>
 
+        </>
+      )
+    }
     {/* Announcement bar, as on the reference: one line and one link. */}
     {
-      !WOMEN_LIVE && (
+      import.meta.env.DEV && !WOMEN_LIVE && (
         <p class="bg-brand px-3 py-2 text-center text-[0.6875rem] font-semibold tracking-[0.04em] text-white uppercase sm:px-4 sm:py-2.5 sm:text-[0.75rem] sm:tracking-[0.1em]">
           {t('home.announce')}{' '}
           <a href={notifyHref} target="_blank" rel="noopener" class="underline underline-offset-4">{t('home.announceLink')}</a>
