@@ -122,7 +122,7 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         <p class="tag">{t('home.popularKicker')}</p>
         <h2 id="popular-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('home.popularTitle')}</h2>
       </div>
-      <ul class="-mx-4 mt-6 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:none] md:mx-0 md:grid md:grid-cols-5 md:gap-x-4 md:gap-y-8 md:overflow-visible md:px-0 md:pb-0 [&::-webkit-scrollbar]:hidden">
+      <ul data-keep-scroll class="-mx-4 mt-6 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:none] md:mx-0 md:grid md:grid-cols-5 md:gap-x-4 md:gap-y-8 md:overflow-visible md:px-0 md:pb-0 [&::-webkit-scrollbar]:hidden">
         {
           popularRow.map((item, n) => (
             <li class:list={['w-[44%] shrink-0 snap-start sm:w-[30%] md:w-auto', n >= 10 && 'md:hidden']}>

@@ -13,7 +13,7 @@ const faceGuide = (await getPosts()).find((post) => post.data.code === 'P01');
 <section data-reveal aria-labelledby="face-start">
   <p class="tag">{t('home.faceTitle')}</p>
   <h2 id="face-start" class="mt-2 text-[1.125rem] leading-snug">{t('home.faceHint')}</h2>
-  <ul class="-mx-4 mt-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:px-0 [&::-webkit-scrollbar]:hidden">
+  <ul data-keep-scroll class="-mx-4 mt-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:px-0 [&::-webkit-scrollbar]:hidden">
     {
       FACE_SHAPES.map((face) => (
         <li class="shrink-0">

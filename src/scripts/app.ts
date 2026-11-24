@@ -4,6 +4,7 @@ import { filledCount, inLook, type AddData } from '@/lib/look';
 import { answeredCount, mismatches, suits, type Match, type MatchCategory, type Question } from '@/lib/match';
 import { $answers, $faceFilter, $favourites, $look, addItem, toggleFavourite, useReadyLook } from '@/lib/stores';
 import { text } from '@/lib/ui';
+import './scroll';
 
 const all = <T extends Element>(selector: string) => Array.from(document.querySelectorAll<T>(selector));
 
