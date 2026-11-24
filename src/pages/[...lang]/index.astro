@@ -35,6 +35,12 @@ const popularNow = ['hair', 'looks']
   .sort((a, b) => (trendRank(a.id) % 5) - (trendRank(b.id) % 5))
   // Full Mullet takes the slot Trendy Wolf (L11) would have had.
   .map((it) => (it.id === 'L11' ? (allItems.find((x) => x.id === 'H66') ?? it) : it));
+// Chosen additions: ready looks barbers ask for, and a few hair colours. They follow the first two picks, so wider
+// screens (which show ten) include them, and phones can scroll on through the rest.
+const picked = ['L75', 'L79', 'L25', 'L41', 'C06', 'C31', 'C07', 'C20']
+  .map((id) => allItems.find((x) => x.id === id))
+  .filter((it): it is NonNullable<typeof it> => Boolean(it && photoFor(it.id)));
+const popularRow = [...popularNow.slice(0, 2), ...picked, ...popularNow.slice(2)].filter((it, n, all) => all.findIndex((x) => x.id === it.id) === n);
 const steps = [
   { href: '#men', icon: 'scissors' as const, label: t('home.strip1') },
   { href: l('/men/hair'), icon: 'eye' as const, label: t('home.strip2') },
@@ -116,10 +122,10 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         <p class="tag">{t('home.popularKicker')}</p>
         <h2 id="popular-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('home.popularTitle')}</h2>
       </div>
-      <ul class="-mx-4 mt-6 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:none] md:mx-0 md:gap-4 md:px-0 [&::-webkit-scrollbar]:hidden">
+      <ul class="-mx-4 mt-6 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:none] md:mx-0 md:grid md:grid-cols-5 md:gap-x-4 md:gap-y-8 md:overflow-visible md:px-0 md:pb-0 [&::-webkit-scrollbar]:hidden">
         {
-          popularNow.map((item) => (
-            <li class="w-[44%] shrink-0 snap-start sm:w-[30%] md:w-[calc((100%-4rem)/5)]">
+          popularRow.map((item, n) => (
+            <li class:list={['w-[44%] shrink-0 snap-start sm:w-[30%] md:w-auto', n >= 10 && 'md:hidden']}>
               <a href={l(item.href)} class="group block">
                 <span class="relative block aspect-[4/5] overflow-hidden">
                   <ItemPhoto item={item} decorative class="absolute inset-0 size-full transition-transform duration-700 ease-out-soft group-hover:scale-[1.04]" />
