@@ -5,6 +5,8 @@ import JsonLd from '@/components/JsonLd.astro';
 import MergeGame from '@/components/islands/MergeGame';
 import MemoryGame from '@/components/islands/MemoryGame';
 import StyleQuiz from '@/components/islands/StyleQuiz';
+import BarberRush from '@/components/islands/BarberRush';
+import BeardSculptor from '@/components/islands/BeardSculptor';
 import { getClientItems } from '@/data/catalogue';
 import { games, type Game } from '@/data/games';
 import { breadcrumbs } from '@/data/seo';
@@ -72,6 +74,8 @@ if (game.slug === 'quiz') {
 
     {game.slug === 'merge' && <MergeGame client:only="preact" />}
     {game.slug === 'memory' && <MemoryGame client:only="preact" />}
+    {game.slug === 'rush' && <BarberRush client:only="preact" />}
+    {game.slug === 'sculptor' && <BeardSculptor client:only="preact" />}
     {game.slug === 'quiz' && <StyleQuiz client:only="preact" pool={pool} browseHref={l('/men/hair')} />}
   </main>
 </BaseLayout>

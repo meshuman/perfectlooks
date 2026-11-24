@@ -131,6 +131,50 @@ quiz.finish,Screen text: quiz,See result,नतिजा हेर्नुह�
 quiz.score,Screen text: quiz,Score,स्कोर,draft,
 quiz.result,Screen text: quiz,You scored {score} out of {total}.,तपाईंले {total} मा {score} अंक ल्याउनुभयो।,draft,Keep the {words in braces}: the app fills them in.
 quiz.browse,Screen text: quiz,Browse the catalogue,क्याटलग हेर्नुहोस्,draft,
+game.rush.title,Screen text: game,Barber Shop Rush,बार्बर शप रस,draft,
+game.rush.line,Screen text: game,Serve customers before they lose patience.,ग्राहकको धैर्य सकिनुअघि सेवा दिनुहोस्।,draft,
+game.rush.r1,Screen text: game,"Customers line up with a request: haircut, beard trim, colour, facial or nails.","ग्राहकहरू लाइनमा आउँछन् र एउटा सेवा माग्छन्: कपाल काट्ने, दाह्री ट्रिम, रङ, फेसियल वा नङ।",draft,
+game.rush.r2,Screen text: game,"Tap the matching service button to serve the one who asked. The fresher the customer, the more points.","माग्ने ग्राहकलाई सेवा दिन मिल्ने सेवाको बटनमा ट्याप गर्नुहोस्। ग्राहक जति ताजा, उति धेरै अंक।",draft,
+game.rush.r3,Screen text: game,Serve one after another to build a combo bonus. The shop gets busier every five customers.,एकपछि अर्को सेवा दिंदै कम्बो बोनस बनाउनुहोस्। हरेक पाँच ग्राहकपछि पसल बढी व्यस्त हुन्छ।,draft,
+game.rush.r4,Screen text: game,"A customer who waits too long leaves, and a wrong tap costs a heart too. Three hearts and the shop closes.","धेरै कुर्नुपरेको ग्राहक फर्किन्छ, र गलत ट्यापले पनि एउटा मुटु घटाउँछ। तीनवटा मुटु सकिएपछि पसल बन्द हुन्छ।",draft,
+game.sculptor.title,Screen text: game,Fade & Beard Sculptor,फेड र दाह्री मूर्तिकार,draft,
+game.sculptor.line,Screen text: game,Trim the beard to match the style.,दाह्री ट्रिम गरेर स्टाइलसँग मिलाउनुहोस्।,draft,
+game.sculptor.r1,Screen text: game,Look at the target style at the top. Each square is a patch of hair.,माथि लक्ष्य स्टाइल हेर्नुहोस्। हरेक वर्ग कपालको एउटा टुक्रा हो।,draft,
+game.sculptor.r2,Screen text: game,"Pick a clipper length: shave, short, medium or long.","क्लिपरको लम्बाइ रोज्नुहोस्: सेभ, छोटो, मध्यम वा लामो।",draft,
+game.sculptor.r3,Screen text: game,"Tap or drag across the squares to trim them, and match the target as closely as you can.","वर्गहरूमा ट्याप गर्नुहोस् वा तान्नुहोस्, र लक्ष्यसँग सकेसम्म मिलाउनुहोस्।",draft,
+game.sculptor.r4,Screen text: game,Tap Check to see your score. Three stars means a near-perfect match.,स्कोर हेर्न जाँच गर्नुहोस् थिच्नुहोस्। तीन तारा भनेको लगभग पूर्ण मेल हो।,draft,
+rush.start,Screen text: rush,Open the shop,पसल खोल्नुहोस्,draft,
+rush.hearts,Screen text: rush,Hearts,मुटु,draft,
+rush.combo,Screen text: rush,Combo x{n},कम्बो x{n},draft,Keep the {words in braces}: the app fills them in.
+rush.queue,Screen text: rush,Waiting customers,कुरिरहेका ग्राहक,draft,
+rush.over,Screen text: rush,Shop closed!,पसल बन्द भयो!,draft,
+rush.overText,Screen text: rush,You served {n} customers and scored {score}.,तपाईंले {n} ग्राहकलाई सेवा दिनुभयो र {score} अंक ल्याउनुभयो।,draft,Keep the {words in braces}: the app fills them in.
+rush.level,Screen text: rush,Busy level {n},व्यस्तता स्तर {n},draft,Keep the {words in braces}: the app fills them in.
+rush.hint,Screen text: rush,Tap Open the shop to start. Tap the service each customer asks for.,सुरु गर्न पसल खोल्नुहोस् थिच्नुहोस्। हरेक ग्राहकले मागेको सेवामा ट्याप गर्नुहोस्।,draft,
+rush.need1,Screen text: rush,Haircut,कपाल काट्ने,draft,
+rush.need2,Screen text: rush,Beard trim,दाह्री ट्रिम,draft,
+rush.need3,Screen text: rush,Colour,रङ,draft,
+rush.need4,Screen text: rush,Facial,फेसियल,draft,
+rush.need5,Screen text: rush,Nails,नङ,draft,
+sculptor.target,Screen text: sculptor,Target: {name},लक्ष्य: {name},draft,Keep the {words in braces}: the app fills them in.
+sculptor.yours,Screen text: sculptor,Your trim,तपाईंको ट्रिम,draft,
+sculptor.board,Screen text: sculptor,Beard board: tap or drag to trim,दाह्री बोर्ड: ट्रिम गर्न ट्याप गर्नुहोस् वा तान्नुहोस्,draft,
+sculptor.cell,Screen text: sculptor,"Row {row}, column {col}, {level}","पङ्क्ति {row}, स्तम्भ {col}, {level}",draft,Keep the {words in braces}: the app fills them in.
+sculptor.clipper,Screen text: sculptor,Clipper length,क्लिपरको लम्बाइ,draft,
+sculptor.tool0,Screen text: sculptor,Shave,सेभ,draft,
+sculptor.tool1,Screen text: sculptor,Short,छोटो,draft,
+sculptor.tool2,Screen text: sculptor,Medium,मध्यम,draft,
+sculptor.tool3,Screen text: sculptor,Long,लामो,draft,
+sculptor.reset,Screen text: sculptor,Reset,रिसेट,draft,
+sculptor.check,Screen text: sculptor,Check,जाँच गर्नुहोस्,draft,
+sculptor.next,Screen text: sculptor,Next style,अर्को स्टाइल,draft,
+sculptor.result,Screen text: sculptor,{pct}% match,{pct}% मेल,draft,Keep the {words in braces}: the app fills them in.
+sculptor.stars,Screen text: sculptor,{n} of 3 stars,३ मध्ये {n} तारा,draft,Keep the {words in braces}: the app fills them in.
+sculptor.p.goatee,Screen text: sculptor,Goatee,गोटी,draft,
+sculptor.p.chinstrap,Screen text: sculptor,Chin Strap,चिन स्ट्र्याप,draft,
+sculptor.p.fade,Screen text: sculptor,Faded Full Beard,फेड गरिएको पूरा दाह्री,draft,
+sculptor.p.stubble,Screen text: sculptor,Even Stubble,समान खुर्पे दाह्री,draft,
+sculptor.p.vandyke,Screen text: sculptor,Van Dyke,भ्यान डाइक,draft,
 play.scoreNow,Screen text: play,Score {score},स्कोर {score},draft,Keep the {words in braces}: the app fills them in.
 play.tier1,Screen text: play,Shampoo,सेम्पु,draft,
 play.tier2,Screen text: play,Razor,रेजर,draft,

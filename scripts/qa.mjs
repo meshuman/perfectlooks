@@ -26,6 +26,8 @@ const PAGES = [
   '/play/merge',
   '/play/memory',
   '/play/quiz',
+  '/play/rush',
+  '/play/sculptor',
   '/about-you',
   '/favourites',
   '/my-look',
