@@ -1,0 +1,7 @@
+# Shop addresses are kept out of search results: every subdomain of looksmenu.com (kgf.looksmenu.com and the rest),
+# and the workers.dev preview address. Only looksmenu.com itself is indexed.
+https://:shop.looksmenu.com/*
+  X-Robots-Tag: noindex, nofollow
+
+https://:name.:account.workers.dev/*
+  X-Robots-Tag: noindex, nofollow

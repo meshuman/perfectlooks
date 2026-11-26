@@ -271,8 +271,19 @@ await check('Add-ons: the list links to pages that explain why and what changes'
   await page.locator('h1').filter({ hasText: 'ग्लो फेसियल' }).waitFor({ timeout: 3000 });
 });
 
-await check('The landing page asks Men or Women and opens that section', async () => {
+// The home page is the product page: what looksmenu is, three plans (two coming soon) and the shop registration form.
+await check('The home page is the product page with plans and a registration form', async () => {
   await go('/');
+  const h1 = await page.locator('h1:visible').first().textContent();
+  if (!/menu/i.test(h1)) throw new Error('home heading: ' + h1);
+  if ((await page.locator('#plans :text("Coming soon")').count()) < 2) throw new Error('Standard and Premium should say Coming soon');
+  await page.locator('#register form [name="shop"]').waitFor({ timeout: 3000 });
+  for (const t of ['men', 'women', 'unisex']) await page.locator(`#register input[name="type"][value="${t}"]`).waitFor({ state: 'attached', timeout: 3000 });
+  if (await page.locator('meta[name="robots"]').count()) throw new Error('the main address must be indexable');
+});
+
+await check('The catalogue home asks Men or Women and opens that section', async () => {
+  await go('/menu');
   const h1 = await page.locator('h1').first().textContent();
   if (!/look/i.test(h1)) throw new Error('landing heading: ' + h1);
   await page.locator('#menu a[href="/men"]').first().waitFor({ timeout: 3000 });

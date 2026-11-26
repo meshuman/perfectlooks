@@ -1,0 +1,618 @@
+---
+// The product page: what looksmenu is, how it works, the plans, and the shop registration form.
+// Shown as the home page on looksmenu.com. (A shop's own address, kgf.looksmenu.com, shows the catalogue home instead.)
+import Button from '@/components/Button.astro';
+import Icon from '@/components/Icon.astro';
+import ItemPhoto from '@/components/ItemPhoto.astro';
+import { getAllItems } from '@/data/catalogue';
+import { defaultShop as brand } from '@/data/shop';
+import { publicShops } from '@/data/shops-public';
+import { womenCategories } from '@/data/women';
+import type { IconName } from '@/data/icons';
+import { useI18n, type UiKey } from '@/i18n';
+
+const { t, l } = useI18n(Astro.url);
+const styleCount = (await getAllItems()).length;
+const womenCount = womenCategories.reduce((sum, c) => sum + c.items.length, 0);
+const sales = brand.phone.replace(/\D/g, '');
+const takenKeys = Object.keys(publicShops);
+
+const k = (key: string) => key as UiKey;
+const chip =
+  'flex min-h-11 items-center justify-center bg-card px-4 text-center text-[0.875rem] font-semibold shadow-[inset_0_0_0_1px_var(--color-line)] transition duration-300 ease-out-soft peer-checked:bg-ink peer-checked:text-white peer-checked:shadow-none peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-ink';
+const field =
+  'block h-12 w-full bg-card px-4 text-base shadow-[inset_0_0_0_1px_var(--color-line)] placeholder:text-muted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink aria-[invalid=true]:shadow-[inset_0_0_0_2px_var(--color-gold-ink)]';
+const labelClass = 'mb-1.5 block text-[0.875rem] font-semibold';
+const legendClass = 'text-[1rem] font-semibold';
+
+const features: { icon: IconName; title: string; text: string }[] = [1, 2, 3, 4, 5, 6].map((n) => ({
+  icon: (['scissors', 'check', 'globe', 'phone', 'book', 'cloud'] as IconName[])[n - 1]!,
+  title: t(k(`prod.feat${n}Title`)),
+  text: t(k(`prod.feat${n}Text`)),
+}));
+const services = [
+  { v: 'haircuts', en: 'Haircuts', label: t('prod.f.svcHaircut') },
+  { v: 'beard', en: 'Beard and shave', label: t('prod.f.svcBeard') },
+  { v: 'colour', en: 'Hair colour', label: t('prod.f.svcColour') },
+  { v: 'facials', en: 'Facials and skin', label: t('prod.f.svcFacial') },
+  { v: 'nails', en: 'Nails', label: t('prod.f.svcNails') },
+  { v: 'makeup', en: 'Makeup and bridal', label: t('prod.f.svcMakeup') },
+  { v: 'spa', en: 'Hair spa and massage', label: t('prod.f.svcSpa') },
+  { v: 'waxing', en: 'Waxing and threading', label: t('prod.f.svcWaxing') },
+];
+const languages = [
+  { v: 'nepali', en: 'Nepali', label: t('prod.f.langNepali') },
+  { v: 'hindi', en: 'Hindi', label: t('prod.f.langHindi') },
+  { v: 'english', en: 'English', label: t('prod.f.langEnglish') },
+  { v: 'other', en: 'Other', label: t('prod.f.langOther') },
+];
+const free = [1, 2, 3, 4, 5, 6].map((n) => t(k(`prod.free${n}`)));
+const faqs = [1, 2, 3, 4, 5].map((n) => ({ q: t(k(`prod.faq${n}Q`)), a: t(k(`prod.faq${n}A`)) }));
+// The steps of the registration form, each with a few lines of help.
+const steps = [
+  { title: t('prod.f.shopTitle'), help: ['s1a', 's1b', 's1c'] },
+  { title: t('prod.s.locationTitle'), help: ['s2a', 's2b', 's2c'] },
+  { title: t('prod.f.ownerTitle'), help: ['s3a', 's3b', 's3c'] },
+  { title: t('prod.f.businessTitle'), help: ['s4a', 's4b', 's4c'] },
+  { title: t('prod.f.planTitle'), help: ['s5a', 's5b', 's5c'] },
+  { title: t('prod.s.reviewTitle'), help: ['s6a', 's6b', 's6c'] },
+].map((step) => ({ title: step.title, short: step.title, help: step.help.map((h) => t(('prod.help.' + h) as UiKey)) }));
+const helpWhatsapp = `https://wa.me/${sales}?text=${encodeURIComponent(t('prod.help.message'))}`;
+const waNotice = `https://wa.me/${sales}?text=${encodeURIComponent(t('contact.whatsappMessage', { shop: brand.name }))}`;
+---
+
+{/* ---------- Introduction ---------- */}
+<section class="wrap pt-6 pb-10 md:grid md:grid-cols-[1.05fr_1fr] md:items-center md:gap-12 md:pt-14 md:pb-16">
+  <div>
+    <p class="tag rise">{t('prod.kicker')}</p>
+    <h1 class="rise mt-3 max-w-xl text-[2.375rem] leading-[1.05] md:text-[3.5rem]" style="--rise-delay:80ms">{t('prod.heading')}</h1>
+    <p class="rise mt-4 max-w-lg text-[1.0625rem] leading-relaxed text-muted" style="--rise-delay:160ms">{t('prod.intro')}</p>
+    <div class="rise mt-6 grid gap-3 sm:flex sm:flex-wrap" style="--rise-delay:240ms">
+      <Button href="#register" size="lg" arrow class="w-full sm:w-auto">{t('prod.ctaRegister')}</Button>
+      <Button href="https://kgf.looksmenu.com" variant="outline" size="lg" class="w-full sm:w-auto" target="_blank" rel="noopener">{t('prod.ctaLive')}</Button>
+    </div>
+  </div>
+  <ul class="rise mt-8 grid grid-cols-4 gap-2 md:mt-0 md:grid-cols-2 md:gap-3" style="--rise-delay:160ms" aria-hidden="true">
+    {
+      [
+        { id: 'H28', name: 'Wolf Cut', lift: '' },
+        { id: 'W05', name: 'Blow Dry and Styling', lift: 'mt-4 md:mt-8' },
+        { id: 'W10', name: 'Tong Curls', lift: 'md:-mt-8' },
+        { id: 'L74', name: 'Drop Fade Beard', lift: 'mt-4 md:mt-0' },
+      ].map((photo) => (
+        <li class={photo.lift}>
+          <span class="relative block aspect-[4/5] overflow-hidden">
+            <ItemPhoto item={{ id: photo.id, name: photo.name, mainPhoto: 'front' }} decorative class="absolute inset-0 size-full" />
+          </span>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<section class="bg-block-sky/60" aria-label={t('prod.aboutKicker')}>
+  <ul class="wrap grid grid-cols-2 gap-y-4 py-4 text-center md:grid-cols-4 md:divide-x md:divide-ink/15">
+    <li class="px-2"><span class="block text-[1.5rem] leading-none font-bold md:text-[2rem]">{styleCount}+</span><span class="mt-1 block text-[0.6875rem] font-semibold tracking-[0.1em] uppercase md:text-[0.75rem]">{t('prod.statStyles')}</span></li>
+    <li class="px-2"><span class="block text-[1.5rem] leading-none font-bold md:text-[2rem]">{womenCount}</span><span class="mt-1 block text-[0.6875rem] font-semibold tracking-[0.1em] uppercase md:text-[0.75rem]">{t('prod.statWomen')} · {t('prod.statWomenText')}</span></li>
+    <li class="px-2"><span class="block text-[1.5rem] leading-none font-bold md:text-[2rem]">3</span><span class="mt-1 block text-[0.6875rem] font-semibold tracking-[0.1em] uppercase md:text-[0.75rem]">{t('prod.statLanguages')}</span></li>
+    <li class="px-2"><span class="block text-[1.5rem] leading-none font-bold md:text-[2rem]">{t('prod.statFree')}</span><span class="mt-1 block text-[0.6875rem] font-semibold tracking-[0.1em] uppercase md:text-[0.75rem]">{t('prod.statFreeText')}</span></li>
+  </ul>
+</section>
+
+{/* ---------- About ---------- */}
+<section id="about" class="wrap scroll-mt-20 py-12 md:py-20" aria-labelledby="about-title">
+  <div class="md:grid md:grid-cols-[1fr_1.2fr] md:gap-14" data-reveal>
+    <div>
+      <p class="tag">{t('prod.aboutKicker')}</p>
+      <h2 id="about-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('prod.aboutTitle')}</h2>
+    </div>
+    <div class="mt-4 space-y-3 text-[1rem] leading-relaxed text-muted md:mt-0">
+      <p>{t('prod.about1')}</p>
+      <p>{t('prod.about2')}</p>
+      <p>{t('prod.about3')}</p>
+    </div>
+  </div>
+</section>
+
+{/* ---------- For every kind of salon ---------- */}
+<section id="for" class="wrap scroll-mt-20 pb-12 md:pb-20" aria-labelledby="for-title">
+  <div data-reveal>
+    <p class="tag">{t('prod.forKicker')}</p>
+    <h2 id="for-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('prod.forTitle')}</h2>
+  </div>
+  <ul class="mt-6 grid gap-5 md:grid-cols-3">
+    {
+      [
+        { type: 'men', title: t('prod.forMenTitle'), text: t('prod.forMenText', { count: String(styleCount) }), photos: ['H28'], label: t('prod.f.typeMen') },
+        { type: 'women', title: t('prod.forWomenTitle'), text: t('prod.forWomenText'), photos: ['W01'], label: t('prod.f.typeWomen') },
+        { type: 'unisex', title: t('prod.forUnisexTitle'), text: t('prod.forUnisexText'), photos: ['H28', 'W05'], label: t('prod.f.typeUnisex') },
+      ].map((c, n) => (
+        <li class="flex flex-col" data-reveal style={`--reveal-delay:${n * 70}ms`}>
+          <span class:list={['grid aspect-[4/3] gap-1', c.photos.length > 1 && 'grid-cols-2']}>
+            {c.photos.map((id) => (
+              <span class="relative block overflow-hidden">
+                <ItemPhoto item={{ id, name: c.title, mainPhoto: 'front' }} decorative class="absolute inset-0 size-full object-[center_20%]" />
+              </span>
+            ))}
+          </span>
+          <h3 class="mt-3 text-[1.25rem] font-semibold">{c.title}</h3>
+          <p class="mt-1 flex-1 text-[0.9375rem] leading-snug text-muted">{c.text}</p>
+          <a href="#register" data-type={c.type} class="mt-2 inline-flex min-h-11 items-center gap-1.5 text-[0.75rem] font-bold tracking-[0.12em] uppercase underline decoration-brand decoration-2 underline-offset-[6px]">
+            {t('prod.forCta', { type: c.label })}
+            <Icon name="arrowRight" size={14} strokeWidth={1.5} />
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+{/* ---------- How it works ---------- */}
+<section id="how" class="wrap scroll-mt-20 pb-12 md:pb-20" aria-labelledby="how-title">
+  <div data-reveal>
+    <p class="tag">{t('prod.howKicker')}</p>
+    <h2 id="how-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('prod.howTitle')}</h2>
+  </div>
+  <ol class="mt-6 grid gap-3 md:grid-cols-3 md:gap-5">
+    {
+      [1, 2, 3].map((n) => (
+        <li class="bg-paper-2 p-5 md:p-6" data-reveal style={`--reveal-delay:${(n - 1) * 70}ms`}>
+          <span class="grid size-10 place-items-center rounded-full bg-ink text-[1rem] font-bold text-white" aria-hidden="true">{n}</span>
+          <h3 class="mt-4 text-[1.25rem] font-semibold">{t(k(`prod.how${n}Title`))}</h3>
+          <p class="mt-1.5 text-[0.9375rem] leading-snug text-muted">{t(k(`prod.how${n}Text`))}</p>
+        </li>
+      ))
+    }
+  </ol>
+</section>
+
+{/* ---------- Features ---------- */}
+<section id="features" class="wrap scroll-mt-20 pb-12 md:pb-20" aria-labelledby="feat-title">
+  <div data-reveal>
+    <p class="tag">{t('prod.featKicker')}</p>
+    <h2 id="feat-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('prod.featTitle')}</h2>
+  </div>
+  <ul class="mt-6 grid gap-x-8 gap-y-6 sm:grid-cols-2 md:grid-cols-3">
+    {
+      features.map((f, n) => (
+        <li class="flex gap-4" data-reveal style={`--reveal-delay:${(n % 3) * 60}ms`}>
+          <span class="grid size-12 shrink-0 place-items-center rounded-full bg-ink text-white">
+            <Icon name={f.icon} size={22} strokeWidth={1.5} />
+          </span>
+          <span>
+            <span class="block text-[1.0625rem] font-semibold">{f.title}</span>
+            <span class="mt-0.5 block text-[0.9375rem] leading-snug text-muted">{f.text}</span>
+          </span>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+{/* ---------- The catalogue ---------- */}
+<section class="wrap pb-12 md:pb-20" data-reveal>
+  <div class="grid gap-5 bg-paper-2 p-5 md:grid-cols-[1fr_auto] md:items-center md:p-10">
+    <div>
+      <h2 class="text-[1.625rem] leading-tight font-light tracking-[0.02em] uppercase md:text-[2.25rem]">{t('prod.catTitle')}</h2>
+      <p class="mt-2 max-w-lg text-[0.9375rem] text-muted">{t('prod.catText', { count: String(styleCount) })}</p>
+    </div>
+    <Button href={l('/menu')} variant="dark" size="lg" arrow class="w-full md:w-auto">{t('prod.catButton')}</Button>
+  </div>
+</section>
+
+{/* ---------- Plans ---------- */}
+<section id="plans" class="wrap scroll-mt-20 pb-12 md:pb-20" aria-labelledby="plans-title">
+  <div data-reveal>
+    <p class="tag">{t('prod.priceKicker')}</p>
+    <h2 id="plans-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('prod.priceTitle')}</h2>
+  </div>
+  <div class="mt-6 grid gap-4 md:grid-cols-3 md:gap-5">
+    <article class="flex flex-col bg-ink p-6 text-white md:p-7" data-reveal>
+      <h3 class="text-[1.25rem] font-semibold">{t('prod.freeName')}</h3>
+      <p class="mt-1 text-[0.875rem] text-muted-dark">{t('prod.freeFor')}</p>
+      <p class="mt-4 text-[2.25rem] leading-none font-bold">{t('prod.freePrice')}</p>
+      <ul class="mt-5 flex-1 space-y-2.5 text-[0.9375rem]">
+        {
+          free.map((line) => (
+            <li class="flex gap-2.5">
+              <Icon name="check" size={18} strokeWidth={2} class="mt-0.5 shrink-0 text-teal" />
+              <span>{line}</span>
+            </li>
+          ))
+        }
+      </ul>
+      <Button href="#register" variant="gold" size="lg" arrow class="mt-6 w-full bg-white !text-ink" data-plan="free">{t('prod.start')}</Button>
+    </article>
+    {
+      [
+        { key: 'std', plan: 'standard', name: t('prod.stdName'), forWho: t('prod.stdFor') },
+        { key: 'prem', plan: 'premium', name: t('prod.premName'), forWho: t('prod.premFor') },
+      ].map((p, n) => (
+        <article class="flex flex-col bg-paper-2 p-6 md:p-7" data-reveal style={`--reveal-delay:${(n + 1) * 70}ms`}>
+          <div class="flex items-center justify-between gap-3">
+            <h3 class="text-[1.25rem] font-semibold">{p.name}</h3>
+            <span class="rounded-full bg-ink px-3 py-1 text-[0.6875rem] font-semibold tracking-[0.12em] text-white uppercase">{t('prod.soon')}</span>
+          </div>
+          <p class="mt-1 text-[0.875rem] text-muted">{p.forWho}</p>
+          <p class="mt-4 text-[1.5rem] leading-tight font-light uppercase">{t('prod.soon')}</p>
+          <p class="mt-3 flex-1 text-[0.9375rem] text-muted">{t('prod.soonText')}</p>
+          <Button href="#register" variant="outline" size="lg" class="mt-6 w-full" data-plan={p.plan}>{t('prod.notify')}</Button>
+        </article>
+      ))
+    }
+  </div>
+</section>
+
+{/* ---------- Register your shop ---------- */}
+<section id="register" class="wrap scroll-mt-20 pb-12 md:pb-20" aria-labelledby="reg-title">
+  <div class="mx-auto max-w-3xl">
+    <div data-reveal>
+      <p class="tag">{t('prod.regKicker')}</p>
+      <h2 id="reg-title" class="mt-2 text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]">{t('prod.regTitle')}</h2>
+      <p class="mt-3 text-[1rem] leading-relaxed text-muted">{t('prod.regIntro')}</p>
+    </div>
+
+    <form
+      data-register-form
+      novalidate
+      class="mt-8"
+      data-whatsapp={sales}
+      data-taken={JSON.stringify(takenKeys)}
+      data-total={String(steps.length)}
+      data-msg-progress={t('prod.s.progress', { n: '{n}', total: '{total}' })}
+      data-msg-title={t('prod.f.registrationMessage')}
+      data-msg-sending={t('prod.f.sending')}
+      data-msg-need={t('prod.f.needFields')}
+      data-msg-number={t('prod.f.badNumber')}
+      data-msg-email={t('prod.f.badEmail')}
+      data-msg-year={t('prod.f.badYear')}
+      data-msg-location={t('prod.f.badLocation')}
+      data-msg-sub-ok={t('prod.f.subdomainOk', { name: '{name}' })}
+      data-msg-sub-taken={t('prod.f.subdomainTaken')}
+      data-msg-sub-bad={t('prod.f.subdomainBad')}
+      data-msg-locating={t('prod.f.locating')}
+      data-msg-located={t('prod.f.located')}
+      data-msg-location-failed={t('prod.f.locationFailed')}
+      data-msg-empty={t('prod.s.empty')}
+      data-msg-yes={t('prod.s.yes')}
+      data-msg-no={t('prod.s.no')}
+      data-msg-edit={t('prod.s.edit')}
+    >
+      {/* Only bots fill this in. */}
+      <input type="text" name="website_url" tabindex="-1" autocomplete="off" aria-hidden="true" class="hidden" />
+
+      {/* Progress: where you are, and the steps you can go back to. */}
+      <div class="bg-paper-2 p-4">
+        <p data-step-count aria-live="polite" class="text-[0.75rem] font-bold tracking-[0.18em] uppercase">{t('prod.s.progress', { n: '1', total: String(steps.length) })}</p>
+        <div class="mt-2 h-1.5 bg-line" aria-hidden="true"><div data-progress-bar class="h-full bg-ink transition-[width] duration-500 ease-out-soft" style={`width:${100 / steps.length}%`}></div></div>
+        <nav aria-label={t('prod.s.steps')} class="mt-3">
+          <ol class="flex gap-1.5">
+            {
+              steps.map((s, n) => (
+                <li class="min-w-0 flex-1">
+                  <button
+                    type="button"
+                    data-goto={n}
+                    aria-current={n === 0 ? 'step' : undefined}
+                    aria-label={`${n + 1}. ${s.title}`}
+                    class="flex h-11 w-full flex-col items-center justify-center gap-0.5 text-[0.6875rem] font-bold transition duration-300 ease-out-soft data-[state=done]:bg-ink data-[state=done]:text-white data-[state=current]:shadow-[inset_0_0_0_2px_var(--color-ink)] data-[state=todo]:text-muted disabled:cursor-not-allowed"
+                    data-state={n === 0 ? 'current' : 'todo'}
+                    disabled={n !== 0}
+                  >
+                    <span aria-hidden="true">{n + 1}</span>
+                    <span class="hidden w-full truncate px-1 text-[0.5625rem] font-semibold tracking-[0.06em] uppercase md:block" aria-hidden="true">{s.short}</span>
+                  </button>
+                </li>
+              ))
+            }
+          </ol>
+        </nav>
+      </div>
+
+      {
+        steps.map((s, n) => (
+          <section data-step={n} hidden={n !== 0} tabindex="-1" aria-labelledby={`step-title-${n}`} class="mt-7 space-y-5 outline-none">
+            <h3 id={`step-title-${n}`} class="text-[1.375rem] leading-tight font-semibold">{s.title}</h3>
+            <details class="bg-paper-2">
+              <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 px-4 text-[0.875rem] font-semibold [&::-webkit-details-marker]:hidden">
+                <span class="inline-flex items-center gap-2">
+                  <Icon name="eye" size={18} strokeWidth={1.5} />
+                  {t('prod.help.title')}
+                </span>
+                <Icon name="chevronDown" size={18} strokeWidth={1.5} class="shrink-0" />
+              </summary>
+              <ul class="space-y-2 px-4 pb-4 text-[0.875rem] leading-snug text-muted">
+                {s.help.map((line) => <li class="flex gap-2"><span aria-hidden="true">•</span><span>{line}</span></li>)}
+                <li>
+                  <a href={helpWhatsapp} target="_blank" rel="noopener" class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-ink underline underline-offset-4">
+                    <Icon name="message" size={16} />
+                    {t('prod.help.whatsapp')}
+                  </a>
+                </li>
+              </ul>
+            </details>
+
+            {n === 0 && (
+              <>
+                <div>
+                  <label for="r-shop" class={labelClass}>{t('prod.f.shopName')}</label>
+                  <input id="r-shop" name="shop" type="text" required autocomplete="organization" class={field} />
+                </div>
+                <fieldset>
+                  <legend class={legendClass}>{t('prod.f.typeLegend')}</legend>
+                  <div class="mt-2 grid grid-cols-3 gap-1.5">
+                    {
+                      [
+                        { v: 'men', en: 'Men', label: t('prod.f.typeMen') },
+                        { v: 'women', en: 'Women', label: t('prod.f.typeWomen') },
+                        { v: 'unisex', en: 'Unisex (men and women)', label: t('prod.f.typeUnisex') },
+                      ].map((o) => (
+                        <label class="relative">
+                          <input type="radio" name="type" value={o.v} data-en={o.en} class="peer sr-only" />
+                          <span class={chip}>{o.label}</span>
+                        </label>
+                      ))
+                    }
+                  </div>
+                </fieldset>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div>
+                    <label for="r-address" class={labelClass}>{t('prod.f.address')}</label>
+                    <input id="r-address" name="address" type="text" autocomplete="street-address" class={field} />
+                  </div>
+                  <div>
+                    <label for="r-area" class={labelClass}>{t('prod.f.area')}</label>
+                    <input id="r-area" name="area" type="text" class={field} />
+                  </div>
+                  <div>
+                    <label for="r-city" class={labelClass}>{t('prod.f.city')}</label>
+                    <input id="r-city" name="city" type="text" required autocomplete="address-level2" class={field} />
+                  </div>
+                  <div>
+                    <label for="r-district" class={labelClass}>{t('prod.f.district')}</label>
+                    <input id="r-district" name="district" type="text" class={field} />
+                  </div>
+                  <div>
+                    <label for="r-year" class={labelClass}>{t('prod.f.established')}</label>
+                    <input id="r-year" name="established" type="text" inputmode="numeric" maxlength="4" placeholder="2016" class={field} />
+                  </div>
+                </div>
+              </>
+            )}
+
+            {n === 1 && (
+              <>
+                <p class="text-[0.9375rem] text-muted">{t('prod.f.locationHint')}</p>
+                <button type="button" data-use-location class="inline-flex min-h-11 items-center gap-2 bg-ink px-4 text-[0.8125rem] font-semibold tracking-[0.08em] text-white uppercase">
+                  <Icon name="mapPin" size={18} />
+                  {t('prod.f.useLocation')}
+                </button>
+                <p data-location-status role="status" class="min-h-5 text-[0.875rem] text-muted"></p>
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <label for="r-lat" class={labelClass}>{t('prod.f.lat')}</label>
+                    <input id="r-lat" name="lat" type="text" inputmode="decimal" placeholder="27.7172" class={field} />
+                  </div>
+                  <div>
+                    <label for="r-lng" class={labelClass}>{t('prod.f.lng')}</label>
+                    <input id="r-lng" name="lng" type="text" inputmode="decimal" placeholder="85.3240" class={field} />
+                  </div>
+                </div>
+                <div>
+                  <label for="r-maps" class={labelClass}>{t('prod.f.mapsUrl')}</label>
+                  <input id="r-maps" name="mapsUrl" type="url" placeholder="https://maps.app.goo.gl/..." class={field} />
+                </div>
+              </>
+            )}
+
+            {n === 2 && (
+              <div class="grid gap-4 sm:grid-cols-2">
+                <div>
+                  <label for="r-owner" class={labelClass}>{t('prod.f.ownerName')}</label>
+                  <input id="r-owner" name="owner" type="text" required autocomplete="name" class={field} />
+                </div>
+                <div>
+                  <label for="r-wa" class={labelClass}>{t('prod.f.whatsapp')}</label>
+                  <input id="r-wa" name="whatsapp" type="tel" required inputmode="tel" autocomplete="tel" placeholder="+977 98..." class={field} aria-describedby="r-wa-hint" />
+                  <p id="r-wa-hint" class="mt-1 text-[0.8125rem] text-muted">{t('prod.f.whatsappHint')}</p>
+                </div>
+                <div>
+                  <label for="r-mobile" class={labelClass}>{t('prod.f.mobile')}</label>
+                  <input id="r-mobile" name="mobile" type="tel" inputmode="tel" class={field} />
+                </div>
+                <div>
+                  <label for="r-email" class={labelClass}>{t('prod.f.email')}</label>
+                  <input id="r-email" name="email" type="email" autocomplete="email" class={field} />
+                </div>
+              </div>
+            )}
+
+            {n === 3 && (
+              <>
+                <fieldset>
+                  <legend class={legendClass}>{t('prod.f.servicesLegend')}</legend>
+                  <div class="mt-2 flex flex-wrap gap-1.5">
+                    {
+                      services.map((sv) => (
+                        <label class="relative">
+                          <input type="checkbox" name="service" value={sv.v} data-en={sv.en} class="peer sr-only" />
+                          <span class={chip}>{sv.label}</span>
+                        </label>
+                      ))
+                    }
+                  </div>
+                </fieldset>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div>
+                    <label for="r-staff" class={labelClass}>{t('prod.f.staff')}</label>
+                    <input id="r-staff" name="staff" type="text" inputmode="numeric" maxlength="3" class={field} />
+                  </div>
+                  <div>
+                    <label for="r-chairs" class={labelClass}>{t('prod.f.chairs')}</label>
+                    <input id="r-chairs" name="chairs" type="text" inputmode="numeric" maxlength="3" class={field} />
+                  </div>
+                </div>
+                <fieldset>
+                  <legend class={legendClass}>{t('prod.f.languagesLegend')}</legend>
+                  <div class="mt-2 flex flex-wrap gap-1.5">
+                    {
+                      languages.map((lg) => (
+                        <label class="relative">
+                          <input type="checkbox" name="language" value={lg.v} data-en={lg.en} class="peer sr-only" />
+                          <span class={chip}>{lg.label}</span>
+                        </label>
+                      ))
+                    }
+                  </div>
+                </fieldset>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div>
+                    <label for="r-fb" class={labelClass}>{t('prod.f.facebook')}</label>
+                    <input id="r-fb" name="facebook" type="text" class={field} />
+                  </div>
+                  <div>
+                    <label for="r-ig" class={labelClass}>{t('prod.f.instagram')}</label>
+                    <input id="r-ig" name="instagram" type="text" class={field} />
+                  </div>
+                </div>
+              </>
+            )}
+
+            {n === 4 && (
+              <>
+                <div>
+                  <label for="r-sub" class={labelClass}>{t('prod.f.subdomain')}</label>
+                  <div class="flex items-stretch">
+                    <input id="r-sub" name="subdomain" type="text" required autocapitalize="none" autocomplete="off" spellcheck="false" maxlength="30" placeholder="yourshop" class={`${field} min-w-0 flex-1`} aria-describedby="r-sub-hint r-sub-status" />
+                    <span class="flex items-center bg-paper-2 px-3 text-[0.9375rem] font-semibold text-muted" aria-hidden="true">.looksmenu.com</span>
+                  </div>
+                  <p id="r-sub-hint" class="mt-1 text-[0.8125rem] text-muted">{t('prod.f.subdomainHint')}</p>
+                  <p id="r-sub-status" data-sub-status role="status" class="mt-1 min-h-5 text-[0.875rem] font-semibold"></p>
+                </div>
+                <fieldset>
+                  <legend class={legendClass}>{t('prod.f.planLegend')}</legend>
+                  <div class="mt-2 grid gap-1.5 sm:grid-cols-3">
+                    {
+                      [
+                        { v: 'free', en: 'Free', label: t('prod.f.planFree') },
+                        { v: 'standard', en: 'Standard (tell me when ready)', label: t('prod.f.planStandard') },
+                        { v: 'premium', en: 'Premium (tell me when ready)', label: t('prod.f.planPremium') },
+                      ].map((o, i) => (
+                        <label class="relative">
+                          <input type="radio" name="plan" value={o.v} data-en={o.en} checked={i === 0} class="peer sr-only" />
+                          <span class={chip}>{o.label}</span>
+                        </label>
+                      ))
+                    }
+                  </div>
+                </fieldset>
+              </>
+            )}
+
+            {n === 5 && (
+              <>
+                <p class="text-[0.9375rem] text-muted">{t('prod.s.reviewIntro')}</p>
+                <div data-review class="space-y-4"></div>
+                <div class="space-y-3 pt-2">
+                  <label class="flex items-start gap-3 text-[0.9375rem]">
+                    <input type="checkbox" name="consent" required class="mt-1 size-5 shrink-0 accent-[var(--color-ink)]" />
+                    <span>{t('prod.f.consent')}</span>
+                  </label>
+                  <label class="flex items-start gap-3 text-[0.9375rem]">
+                    <input type="checkbox" name="marketing" class="mt-1 size-5 shrink-0 accent-[var(--color-ink)]" />
+                    <span>{t('prod.f.marketing')}</span>
+                  </label>
+                  <p class="text-[0.875rem] text-muted">{t('prod.f.photosNote')}</p>
+                </div>
+              </>
+            )}
+          </section>
+        ))
+      }
+
+      <div class="mt-7">
+        <p data-register-status hidden role="status" class="mb-3 text-[0.9375rem] font-semibold data-[error=true]:text-gold-ink"></p>
+        <div class="flex gap-3">
+          <button type="button" data-back hidden class="inline-flex h-14 items-center justify-center gap-2 bg-paper-2 px-6 text-[0.875rem] font-semibold tracking-[0.1em] uppercase transition duration-300 ease-out-soft hover:bg-line">
+            <Icon name="arrowLeft" size={18} />
+            {t('prod.s.back')}
+          </button>
+          <button
+            type="submit"
+            data-register-submit
+            data-label-next={t('prod.s.next')}
+            data-label-send={t('prod.f.submit')}
+            class="gold-fill group inline-flex h-14 flex-1 items-center justify-center gap-2 text-base font-medium tracking-[0.04em] transition duration-300 ease-out-soft active:scale-[0.99] disabled:opacity-60"
+          >
+            <span data-submit-label>{t('prod.s.next')}</span>
+            <Icon name="arrowRight" size={18} class="transition-transform duration-300 ease-out-soft group-hover:translate-x-1" />
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <section data-register-done hidden tabindex="-1" class="mt-9 outline-none" aria-live="polite">
+      <div class="bg-ink p-6 text-white">
+        <span class="grid size-12 place-items-center rounded-full bg-teal text-ink">
+          <Icon name="check" size={24} strokeWidth={3} />
+        </span>
+        <h3 class="mt-5 text-[1.75rem] leading-tight font-semibold">{t('prod.f.thanks')}</h3>
+        <p class="mt-2 text-[1.0625rem] text-white/90">{t('prod.f.thanksText')}</p>
+        <a data-register-wa href="https://wa.me/" target="_blank" rel="noopener" class="mt-4 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-semibold text-gold underline underline-offset-[5px]">
+          <Icon name="message" size={18} />
+          {t('prod.f.openAgain')}
+        </a>
+      </div>
+    </section>
+  </div>
+</section>
+
+{/* ---------- Questions ---------- */}
+<section id="faq" class="wrap scroll-mt-20 pb-12 md:pb-20" aria-labelledby="faq-title">
+  <div class="mx-auto max-w-3xl">
+    <h2 id="faq-title" class="text-[1.75rem] leading-tight font-light tracking-[0.04em] uppercase md:text-[2.25rem]" data-reveal>{t('prod.faqTitle')}</h2>
+    <div class="mt-6 divide-y divide-line shadow-[inset_0_1px_0_var(--color-line)]">
+      {
+        faqs.map((f) => (
+          <details class="group py-1">
+            <summary class="flex min-h-14 cursor-pointer list-none items-center justify-between gap-3 text-[1.0625rem] font-semibold [&::-webkit-details-marker]:hidden">
+              {f.q}
+              <Icon name="chevronDown" size={20} strokeWidth={1.5} class="shrink-0 transition-transform duration-300 ease-out-soft group-open:rotate-180" />
+            </summary>
+            <p class="pr-8 pb-4 text-[0.9375rem] leading-relaxed text-muted">{f.a}</p>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+{/* ---------- Contact ---------- */}
+<section class="wrap pb-12 md:pb-16" data-reveal>
+  <div class="bg-ink p-1.5">
+    <div class="grid gap-6 bg-ink p-5 text-white shadow-[inset_0_0_0_1px_rgb(255_255_255/0.14)] md:grid-cols-2 md:items-center md:gap-8 md:p-10">
+      <div>
+        <p class="inline-flex rounded-full bg-white/10 px-3 py-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase">{t('footer.visit')}</p>
+        <h2 class="mt-4 text-[1.75rem] leading-tight md:text-[2.25rem]">{brand.name}</h2>
+        <p class="mt-4 max-w-sm text-[0.9375rem] text-muted-dark">{t('contact.tagline')}</p>
+      </div>
+      <div class="grid gap-3 md:flex md:flex-wrap md:justify-end">
+        <Button href={`tel:${brand.phone}`} icon="phone" variant="outline-dark" size="lg" class="w-full md:w-auto">{brand.phoneDisplay}</Button>
+        <Button href={waNotice} variant="outline-dark" size="lg" arrow target="_blank" rel="noopener" class="w-full md:w-auto">{t('contact.whatsapp')}</Button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap pb-16 md:pb-24" data-reveal>
+  <a href={l('/feedback')} class="group flex items-center gap-4 bg-paper-2 p-5 transition duration-500 ease-out-soft hover:bg-line md:p-7">
+    <span class="grid size-12 shrink-0 place-items-center rounded-full bg-brand text-white">
+      <Icon name="message" size={22} />
+    </span>
+    <span class="min-w-0 flex-1">
+      <span class="block text-[1.125rem] leading-snug font-semibold">{t('feedback.ctaTitle')}</span>
+      <span class="block text-sm text-muted">{t('feedback.ctaText')}</span>
+    </span>
+    <Icon name="arrowRight" size={20} strokeWidth={1.25} class="shrink-0 transition-transform duration-500 ease-out-soft group-hover:translate-x-1" />
+  </a>
+</section>

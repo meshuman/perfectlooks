@@ -91,6 +91,19 @@ const installShops = Object.fromEntries(Object.entries(publicShops).map(([key, s
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="looksmenu" id="pl-app-title" />
+    <script is:inline>
+      // Shop addresses (kgf.looksmenu.com, any other subdomain, the workers.dev preview) are kept out of search results.
+      // The same is sent as a header (public/_headers); this covers the page itself.
+      (function () {
+        var parts = location.hostname.toLowerCase().split('.');
+        if (parts.length >= 3 || (parts.length === 2 && parts[1] === 'localhost')) {
+          var meta = document.createElement('meta');
+          meta.name = 'robots';
+          meta.content = 'noindex, nofollow';
+          document.head.appendChild(meta);
+        }
+      })();
+    </script>
     <script is:inline define:vars={{ installShops }}>
       // kgf.looksmenu.com installs as "KGF" with the KGF logo: the first part of the address picks the shop's files.
       (function () {

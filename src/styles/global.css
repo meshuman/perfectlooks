@@ -413,3 +413,13 @@
 html[data-shop-host] [data-main-only] {
   display: none !important;
 }
+
+/* The home page holds both the product page and a shop's catalogue home; the address decides which one shows.
+   BaseLayout sets data-shop-host on <html> for a shop's own address before the page is drawn. */
+html:not([data-shop-host]) .only-shop {
+  display: none !important;
+}
+html[data-shop-host] .only-main {
+  display: none !important;
+}
+

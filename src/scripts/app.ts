@@ -7,6 +7,7 @@ import { text } from '@/lib/ui';
 import './scroll';
 import './shop';
 import './install';
+import './register';
 
 const all = <T extends Element>(selector: string) => Array.from(document.querySelectorAll<T>(selector));
 

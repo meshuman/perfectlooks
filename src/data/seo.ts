@@ -53,6 +53,20 @@ export function organization(shop: Shop, site: URL) {
   };
 }
 
+/** looksmenu as a product: free to start, for barber shops and salons. */
+export function product(site: URL, description: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: BRAND,
+    url: site.href,
+    description,
+    applicationCategory: 'BusinessApplication',
+    operatingSystem: 'Web',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'NPR', description: 'Free plan' },
+  };
+}
+
 export function website(site: URL) {
   return { '@context': 'https://schema.org', '@type': 'WebSite', name: BRAND, url: site.href };
 }

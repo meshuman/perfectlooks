@@ -1,0 +1,21 @@
+---
+// /menu: the catalogue home. (On a shop's own address the home page shows this too.)
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import MenuHome from '@/components/MenuHome.astro';
+import { website } from '@/data/seo';
+import { langParams, useI18n } from '@/i18n';
+
+export function getStaticPaths() {
+  return langParams().map((params) => ({ params }));
+}
+
+const { t } = useI18n(Astro.url);
+---
+
+<BaseLayout title={t('menu.title')} description={t('menu.description')} tab="home">
+  <JsonLd slot="head" data={website(Astro.site!)} />
+  <main>
+    <MenuHome />
+  </main>
+</BaseLayout>
