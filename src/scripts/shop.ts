@@ -1,11 +1,10 @@
-// A barber opens the menu with a link like https://looksmenu.example/?shop=kgf and sees their own shop: their name and
-// photo in the welcome card, their logo, and their WhatsApp number on every call, WhatsApp and feedback button.
-// The shop is remembered on the phone for 24 hours, so every page the client opens (and the landing page when they
-// come back to it) stays in that shop's version. Another shop link replaces it and restarts the 24 hours;
-// ?shop=reset (or ?shop=) clears it at once. The details come from public/shops/shops.json.
+// Each barber shop has its own address: kgf.looksmenu.com shows the KGF UniSex Salon welcome card, logo and WhatsApp
+// number on every page. The first part of the address is the shop's key in public/shops/shops.json. An address with
+// no matching key (looksmenu.com itself, www, or a name that is not in the file) shows the standard menu with no
+// welcome card. Nothing is stored on the phone: the address alone decides the shop.
 
-const STORE = 'pl:shop';
 const SLUG = /^[a-z0-9][a-z0-9-]{0,40}$/;
+const RESERVED = new Set(['www', 'app', 'api', 'admin', 'staging', 'preview']);
 const IMAGE_PATH = /^[\w\-./]+\.(png|jpe?g|webp|svg|avif)$/i;
 
 interface Entry {
@@ -19,7 +18,7 @@ interface Entry {
 
 declare global {
   interface Window {
-    /** The shop chosen with ?shop=, for scripts that send messages (the feedback form). */
+    /** The shop whose address this is, for scripts that send messages (the feedback form). */
     __plShop?: { slug: string; shop: string; whatsapp: string };
   }
 }
@@ -27,27 +26,11 @@ declare global {
 const safePath = (p: string | undefined) => (p && IMAGE_PATH.test(p) && !p.includes('..') && !p.startsWith('/') ? `/shops/${p}` : undefined);
 const fill = (template: string, vars: Record<string, string>) => template.replace(/\{(\w+)\}/g, (m, k: string) => vars[k] ?? m);
 
-/** How long a phone keeps a shop after its link was opened. */
-const KEEP_MS = 24 * 60 * 60 * 1000;
-
-function chosen(): string | undefined {
-  const param = new URLSearchParams(location.search).get('shop');
-  const fromLink = param === null ? undefined : param.trim().toLowerCase();
-  try {
-    if (fromLink !== undefined) {
-      if (fromLink === '' || fromLink === 'reset') localStorage.removeItem(STORE);
-      else if (SLUG.test(fromLink)) localStorage.setItem(STORE, JSON.stringify({ slug: fromLink, at: Date.now() }));
-    }
-    const saved = JSON.parse(localStorage.getItem(STORE) ?? 'null') as { slug?: string; at?: number } | null;
-    if (!saved?.slug || typeof saved.at !== 'number' || Date.now() - saved.at > KEEP_MS || !SLUG.test(saved.slug)) {
-      localStorage.removeItem(STORE);
-      return undefined;
-    }
-    return saved.slug;
-  } catch {
-    // Storage blocked or unreadable: the link still works for this page.
-    return fromLink && SLUG.test(fromLink) ? fromLink : undefined;
-  }
+/** "kgf" from kgf.looksmenu.com (or kgf.localhost while testing). */
+function shopKey(): string | undefined {
+  const parts = location.hostname.toLowerCase().split('.');
+  const sub = parts.length >= 3 || (parts.length === 2 && parts[1] === 'localhost') ? parts[0] : undefined;
+  return sub && SLUG.test(sub) && !RESERVED.has(sub) ? sub : undefined;
 }
 
 function apply(slug: string, entry: Entry) {
@@ -58,10 +41,9 @@ function apply(slug: string, entry: Entry) {
   // Names of the shop (the contact block, the footer).
   for (const el of document.querySelectorAll<HTMLElement>('[data-shop-name]')) el.textContent = entry.shop;
 
-  // The welcome card.
+  // The welcome card, hidden on the standard menu.
   const card = document.querySelector<HTMLElement>('[data-shop-welcome]');
   if (card) {
-    // The card shows for as long as the phone remembers the shop (24 hours).
     const section = card.closest<HTMLElement>('[data-shop-section]');
     if (section) section.hidden = false;
     const title = card.querySelector<HTMLElement>('[data-shop-title]');
@@ -113,16 +95,17 @@ function apply(slug: string, entry: Entry) {
   for (const form of document.querySelectorAll<HTMLElement>('[data-feedback-form]')) form.dataset.whatsapp = digits;
 }
 
-const slug = chosen();
+const slug = shopKey();
 if (slug) {
   fetch('/shops/shops.json')
     .then((r) => (r.ok ? (r.json() as Promise<{ shops?: Record<string, Entry> }>) : undefined))
     .then((json) => {
       const entry = json?.shops?.[slug];
+      // A name that is not in the file (an unknown subdomain) leaves the standard menu as it is.
       if (entry?.shop) apply(slug, entry);
     })
     .catch(() => {
-      // Offline or file missing: the standard version stays.
+      // Offline or file missing: the standard menu stays.
     });
 }
 

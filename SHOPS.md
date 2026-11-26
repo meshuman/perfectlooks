@@ -23,7 +23,7 @@ Name them after the shop, for example `photos/kgf.jpg` and `logos/kgf.svg`. You 
 
 | Field | What it is |
 | --- | --- |
-| `"kgf"` (the key) | The shop's short name in the link: lowercase letters, numbers and dashes only. |
+| `"kgf"` (the key) | The shop's name in its address (`kgf` in `kgf.looksmenu.com`): lowercase letters, numbers and dashes only. |
 | `barber` | The barber's name, shown in the welcome card. Leave it out to show "Welcome to {shop}". |
 | `shop` | The shop's name. |
 | `whatsapp` | The shop's WhatsApp number with country code. Every call, WhatsApp and feedback button uses it. |
@@ -34,18 +34,27 @@ Name them after the shop, for example `photos/kgf.jpg` and `logos/kgf.svg`. You 
 
 Run `npm run check:shops` to make sure every file and number is in order.
 
-## 3. Give the barber their link
+## 3. The barber's address
 
-The barber opens the menu with their shop name in the link:
+Each shop opens at its own address, made from its key in `shops.json`:
 
 ```
-https://YOUR-SITE/?shop=kgf
+https://kgf.looksmenu.com
 ```
 
-That phone then shows their welcome card, logo and numbers on every page, including the landing page when the client comes back to it, even after the browser is closed. Put the link in a QR code at the counter and clients get the same.
+That address shows the KGF welcome card, logo and WhatsApp number on every page. Put it in a QR code at the counter.
 
-The phone keeps the shop for **24 hours**. Opening another shop's link replaces it and starts the 24 hours again. To go back to the standard menu at once, open `https://YOUR-SITE/?shop=reset`.
+- `looksmenu.com` itself, `www.looksmenu.com` and any name that is not in `shops.json` (for example `foo.looksmenu.com`) show the standard menu with no welcome card.
+- Nothing is saved on the phone: the address alone decides the shop.
+
+### One-time setup in Cloudflare (looksmenu.com)
+
+1. **DNS:** add a record of type `AAAA`, name `*`, value `100::`, with the orange cloud (Proxied) switched on.
+2. **Route:** in Workers & Pages, open the looksmenu Worker, then Settings, Domains & Routes, and add the route `*.looksmenu.com/*` for the zone `looksmenu.com`. Keep the existing custom domain for `looksmenu.com` itself.
+3. After that, every new shop needs nothing in Cloudflare: add it to `shops.json` and deploy.
+
+To try a shop on your own computer, open `http://kgf.localhost:4500` (Chrome opens `*.localhost` addresses on your machine).
 
 ## 4. Publish
 
-Commit the changes and deploy. The shop's link works as soon as the new build is live.
+Commit the changes and deploy. The shop's address works as soon as the new build is live.

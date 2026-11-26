@@ -5,8 +5,8 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import serviceWorker from './integrations/service-worker.mjs';
 
-// TODO: replace with the real domain once it is chosen.
-const SITE = 'https://perfectlooks.example';
+// The main address. Shop subdomains (kgf.looksmenu.com) show the same pages, and their canonical links point back here.
+const SITE = 'https://looksmenu.com';
 
 export default defineConfig({
   site: SITE,
