@@ -86,6 +86,8 @@ const crossOver = inMen && WOMEN_LIVE ? { href: l('/women'), label: t('who.women
         <a href={whatsappHref} target="_blank" rel="noopener" class="mt-2 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-gold underline-offset-4 hover:underline">
           {t('contact.whatsapp')}
         </a>
+        <button type="button" data-install hidden class="flex min-h-11 items-center gap-2 text-left text-[0.9375rem] font-medium text-white underline underline-offset-4">{t('install.button')}</button>
+        <p data-install-hint hidden class="max-w-xs pb-2 text-[0.8125rem] leading-snug text-muted-dark">{t('install.iosHint')}</p>
         <a href={l('/play')} class="flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-white underline-offset-4 hover:underline">
           {t('footer.play')}
         </a>

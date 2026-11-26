@@ -23,6 +23,8 @@
   "contact.tagline": "A style and service catalogue for men's and women's beauty parlours.",
   "contact.whatsapp": "Message on WhatsApp",
   "contact.whatsappMessage": "Hello {shop}, I would like to know more.",
+  "install.button": "Install the app",
+  "install.iosHint": "On iPhone: tap the Share button, then Add to Home Screen.",
   "footer.catalogue": "Catalogue",
   "category.hair.label": "Hair",
   "category.beards.label": "Beard",

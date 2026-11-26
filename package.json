@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "import": "node scripts/import-content.mjs",
+    "predev": "node scripts/pwa-assets.mjs",
     "dev": "astro dev",
+    "prebuild": "node scripts/pwa-assets.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",

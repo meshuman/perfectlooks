@@ -53,6 +53,18 @@ That address shows the KGF welcome card, logo and WhatsApp number on every page.
 
 To try a shop on your own computer, open `http://kgf.localhost:4500` (Chrome opens `*.localhost` addresses on your machine).
 
-## 4. Publish
+## 4. QR code and installing the app
+
+Make a QR code that opens the shop's address (`https://kgf.looksmenu.com`) and put it at the counter. When a client scans it:
+
+- **Android and Chrome:** the page offers to install, and the page's **Install the app** button does the same. The app appears on the home screen with the shop's own logo and name (for example "KGF").
+- **iPhone (Safari):** tap **Install the app** for the steps: Share, then Add to Home Screen. The icon and name are the shop's.
+- The installed app opens straight to that shop's menu, with the shop's welcome card and WhatsApp number, and works offline once it has been opened.
+
+The icons come from the shop's logo, and the app name is the shop's name. For a shorter name under the icon, add `"short": "KGF"` to the entry (12 letters or fewer). A shop without a logo gets the looksmenu icon. The install files are made automatically at every build by `scripts/pwa-assets.mjs`.
+
+For the best icon, use a logo that is square or wide, on a transparent or plain background, at least 400 px wide.
+
+## 5. Publish
 
 Commit the changes and deploy. The shop's address works as soon as the new build is live.

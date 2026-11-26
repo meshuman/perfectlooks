@@ -7,3 +7,8 @@ dist-review/
 !.env.example
 .DS_Store
 .wrangler/
+# Made by scripts/pwa-assets.mjs before every build
+public/manifest.webmanifest
+public/icons/
+public/shops/icons/
+public/shops/manifests/

@@ -6,6 +6,7 @@ import { $answers, $faceFilter, $favourites, $look, addItem, toggleFavourite, us
 import { text } from '@/lib/ui';
 import './scroll';
 import './shop';
+import './install';
 
 const all = <T extends Element>(selector: string) => Array.from(document.querySelectorAll<T>(selector));
 

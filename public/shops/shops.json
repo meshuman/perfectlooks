@@ -4,13 +4,15 @@
       "barber": "Karan Thakur",
       "shop": "KGF UniSex Salon",
       "whatsapp": "+977 9818879895",
-      "logo": "logos/kgf.svg",
-      "photo": "photos/kgf.jpg"
+      "logo": "logos/kgf.png",
+      "photo": "photos/kgf.jpg",
+      "short": "KGF"
     },
     "aakash": {
       "barber": "Aakash Kandel",
       "shop": "Kandel Hair Studio",
-      "whatsapp": "+977 9800000001"
+      "whatsapp": "+977 9800000001",
+      "short": "Kandel"
     }
   }
 }

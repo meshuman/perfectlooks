@@ -23,6 +23,8 @@ footer.visit,Screen text: footer,Contact,संपर्क,draft,
 contact.tagline,Screen text: contact,A style and service catalogue for men's and women's beauty parlours.,पुरुष और महिला ब्यूटी पार्लरों के लिए स्टाइल और सेवा कैटलॉग।,draft,
 contact.whatsapp,Screen text: contact,Message on WhatsApp,WhatsApp पर संदेश भेजें,draft,
 contact.whatsappMessage,Screen text: contact,"Hello {shop}, I would like to know more.","नमस्ते {shop}, मैं और जानना चाहता/चाहती हूँ।",draft,Keep the {words in braces}: the app fills them in.
+install.button,Screen text: install,Install the app,ऐप इंस्टॉल करें,draft,
+install.iosHint,Screen text: install,"On iPhone: tap the Share button, then Add to Home Screen.","आईफ़ोन पर: Share बटन दबाएँ, फिर Add to Home Screen चुनें।",draft,
 footer.catalogue,Screen text: footer,Catalogue,कैटलॉग,draft,
 category.hair.label,Screen text: category,Hair,बाल,draft,
 category.beards.label,Screen text: category,Beard,दाढ़ी,draft,

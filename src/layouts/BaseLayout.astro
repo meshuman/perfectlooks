@@ -6,6 +6,7 @@ import Footer from '@/components/Footer.astro';
 import Icon from '@/components/Icon.astro';
 import { OG_IMAGE } from '@/data/seo';
 import { defaultShop } from '@/data/shop';
+import shopStore from '../../public/shops/shops.json';
 import en from '@/i18n/en.json';
 import { pagePath, pathIn, publishedLocales, useI18n, type UiKey } from '@/i18n';
 // The one Latin font file every page uses, preloaded so text doesn't swap late.
@@ -62,6 +63,10 @@ const clientStrings = Object.fromEntries(
   (Object.keys(en) as UiKey[]).filter((k) => CLIENT_PREFIXES.some((p) => k.startsWith(p))).map((k) => [k, t(k)]),
 );
 const ogImage = new URL(og.src, Astro.site).href;
+// Shops that have their own install files (scripts/pwa-assets.mjs): their key in the address picks the manifest and icons.
+const installShops = Object.fromEntries(
+  Object.entries(shopStore.shops as Record<string, { shop: string; short?: string }>).map(([key, s]) => [key, { name: s.shop, short: s.short ?? s.shop.split(/\s+/)[0] }]),
+);
 ---
 
 <!doctype html>
@@ -83,7 +88,26 @@ const ogImage = new URL(og.src, Astro.site).href;
     <meta name="theme-color" content={dark ? "#111111" : "#f7f4f0"} />
     <script is:inline>document.documentElement.classList.add('js');</script>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="/icons/looksmenu-apple.png" />
+    <link rel="manifest" href="/manifest.webmanifest" id="pl-manifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="looksmenu" id="pl-app-title" />
+    <script is:inline define:vars={{ installShops }}>
+      // kgf.looksmenu.com installs as "KGF" with the KGF logo: the first part of the address picks the shop's files.
+      (function () {
+        var parts = location.hostname.toLowerCase().split('.');
+        var key = parts.length >= 3 || (parts.length === 2 && parts[1] === 'localhost') ? parts[0] : '';
+        var shop = installShops[key];
+        if (!shop) return;
+        document.getElementById('pl-manifest').href = '/shops/manifests/' + key + '.webmanifest';
+        document.querySelector('link[rel="apple-touch-icon"]').href = '/shops/icons/' + key + '-apple.png';
+        var icon = document.querySelector('link[rel="icon"]');
+        icon.href = '/shops/icons/' + key + '-192.png';
+        icon.type = 'image/png';
+        document.getElementById('pl-app-title').content = shop.short;
+      })();
+    </script>
     <link rel="preload" href={sansFont} as="font" type="font/woff2" crossorigin />
     {
       locale !== 'en' && (
