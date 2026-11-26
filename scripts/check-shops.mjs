@@ -5,7 +5,6 @@ import { existsSync, readFileSync } from 'node:fs';
 const store = JSON.parse(readFileSync('public/shops/shops.json', 'utf8'));
 const problems = [];
 const slugs = Object.keys(store.shops ?? {});
-if (!store.shops?.[store.default]) problems.push(`"default" (${store.default}) is not one of the shops`);
 for (const slug of slugs) {
   const s = store.shops[slug];
   const at = `${slug}:`;

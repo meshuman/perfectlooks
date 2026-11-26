@@ -12,7 +12,6 @@ import { photoFor } from '@/data/photos';
 import { trendRank } from '@/data/trending';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
-import { defaultShopEntry as barberShop } from '@/data/shops-store';
 import { langParams, useI18n, type UiKey } from '@/i18n';
 
 export function getStaticPaths() {
@@ -58,8 +57,8 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
   <JsonLd slot="head" data={website(Astro.site!)} />
   <main>
     {/* A welcome for the partner barber: a small round photo and a line that makes the menu theirs to show. */}
-    {/* The details come from public/shops/shops.json: the default shop here, and any shop opened with ?shop=name (see src/scripts/shop.ts). */}
-    {/* Hidden for everyone by default; it appears only when a barber's own link (?shop=name) is used. */}
+    {/* An empty welcome card, filled in and shown by src/scripts/shop.ts only on a shop's own address (kgf.looksmenu.com),
+        with that shop's details from public/shops/shops.json. The standard menu never shows it. */}
     <section data-shop-section hidden class="wrap pt-4 md:pt-6" aria-label={t('home.welcomeLabel')}>
       <div
         data-shop-welcome
@@ -67,25 +66,14 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
         data-tpl-shop={t('home.welcomeShop', { shop: '{shop}' })}
         data-default-sub={t('home.welcomeText')}
         class="flex items-center gap-4 bg-paper-2 p-3 pr-4 md:p-4"
-        data-reveal
       >
-        <img
-          data-shop-photo
-          src={barberShop.photo ? `/shops/${barberShop.photo}` : undefined}
-          alt={barberShop.barber ? `${barberShop.barber}, ${barberShop.shop}` : barberShop.shop}
-          width="112"
-          height="112"
-          hidden={!barberShop.photo}
-          class="size-14 shrink-0 rounded-full object-cover object-center ring-2 ring-teal md:size-16"
-        />
+        <img data-shop-photo hidden alt="" width="112" height="112" class="size-14 shrink-0 rounded-full object-cover object-center ring-2 ring-teal md:size-16" />
         <span data-shop-initials hidden class="grid size-14 shrink-0 place-items-center rounded-full bg-ink text-[1.125rem] font-bold text-white ring-2 ring-teal md:size-16"></span>
         <div class="min-w-0 flex-1">
-          <p data-shop-title class="text-[1.0625rem] leading-snug font-semibold">
-            {barberShop.barber ? t('home.welcome', { name: barberShop.barber, shop: barberShop.shop }) : t('home.welcomeShop', { shop: barberShop.shop })}
-          </p>
-          <p data-shop-sub class="mt-0.5 text-[0.875rem] leading-snug text-muted">{barberShop.welcome ?? t('home.welcomeText')}</p>
+          <p data-shop-title class="text-[1.0625rem] leading-snug font-semibold"></p>
+          <p data-shop-sub class="mt-0.5 text-[0.875rem] leading-snug text-muted"></p>
         </div>
-        <img data-shop-logo src={barberShop.logo ? `/shops/${barberShop.logo}` : undefined} alt={barberShop.shop} hidden={!barberShop.logo} class="hidden h-10 max-w-24 shrink-0 object-contain sm:block md:h-12" />
+        <img data-shop-logo hidden alt="" class="hidden h-10 max-w-24 shrink-0 object-contain sm:block md:h-12" />
       </div>
     </section>
 

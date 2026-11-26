@@ -30,8 +30,6 @@ Name them after the shop, for example `photos/kgf.jpg` and `logos/kgf.svg`. You 
 | `logo`, `photo` | Paths inside `public/shops/`. Without a photo the card shows the shop's initials. |
 | `welcome` | Optional. A welcome line (English only) that replaces "Choose your look. We'll make it a reality." |
 
-`"default"` at the top of the file is the shop shown to everyone who opens the menu without a shop link.
-
 Run `npm run check:shops` to make sure every file and number is in order.
 
 ## 3. The barber's address
