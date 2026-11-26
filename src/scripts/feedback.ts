@@ -36,7 +36,7 @@ if (form) {
       language: lang,
     };
     const lines = [
-      'looksmenu: customer feedback',
+      `${window.__plShop?.shop ?? 'looksmenu'}: customer feedback`,
       rating && `Rating: ${rating}/5`,
       answers.goals.length && `Hoping to: ${answers.goals.join(', ')}`,
       answers.helped && `Helped me decide: ${answers.helped}`,
@@ -49,7 +49,8 @@ if (form) {
     return { answers, message: lines.join('\n') };
   };
 
-  const whatsappUrl = (message: string) => `https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`;
+  // A barber's own number (from ?shop=) wins over the standard one.
+  const whatsappUrl = (message: string) => `https://wa.me/${window.__plShop?.whatsapp || form.dataset.whatsapp || whatsapp}?text=${encodeURIComponent(message)}`;
 
   const finish = (viaWhatsApp: boolean, url: string) => {
     form.hidden = true;

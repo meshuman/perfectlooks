@@ -5,6 +5,7 @@ import { answeredCount, mismatches, suits, type Match, type MatchCategory, type 
 import { $answers, $faceFilter, $favourites, $look, addItem, toggleFavourite, useReadyLook } from '@/lib/stores';
 import { text } from '@/lib/ui';
 import './scroll';
+import './shop';
 
 const all = <T extends Element>(selector: string) => Array.from(document.querySelectorAll<T>(selector));
 

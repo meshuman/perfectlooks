@@ -1,0 +1,12 @@
+{
+  "default": "kgf",
+  "shops": {
+    "kgf": {
+      "barber": "Karan Thakur",
+      "shop": "KGF UniSex Salon",
+      "whatsapp": "+977 9818879895",
+      "logo": "logos/kgf.svg",
+      "photo": "photos/kgf.jpg"
+    }
+  }
+}

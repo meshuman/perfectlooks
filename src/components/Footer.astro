@@ -79,7 +79,7 @@ const crossOver = inMen && WOMEN_LIVE ? { href: l('/women'), label: t('who.women
 
       <div>
         <h2 class="text-sm font-medium tracking-wide text-muted-dark">{t('footer.visit')}</h2>
-        <p class="mt-4 text-[1.0625rem] font-semibold">{shop.name}</p>
+        <p data-shop-name class="mt-4 text-[1.0625rem] font-semibold">{shop.name}</p>
         <ul class="mt-1 text-[0.9375rem] text-muted-dark">
           <li><a href={`tel:${shop.phone}`} class="flex min-h-11 items-center underline-offset-4 hover:text-white hover:underline">{shop.phoneDisplay}</a></li>
         </ul>

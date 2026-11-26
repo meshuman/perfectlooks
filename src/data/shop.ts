@@ -20,7 +20,3 @@ export const shops: Shop[] = [
 
 export const defaultShop = shops[0]!;
 
-/** The partner barber welcomed on the landing page. */
-export const partnerBarber = 'KGF UniSex Salon';
-/** The barber shown in the welcome card. */
-export const partnerBarberName = 'Karan Thakur';
