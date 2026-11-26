@@ -1,5 +1,5 @@
 // A barber opens the menu with a link like https://looksmenu.example/?shop=kgf and sees their own shop: their name and
-// photo in the welcome card, their logo, and their WhatsApp number on every call, WhatsApp and feedback button.
+// photo in the welcome card (hidden on the standard menu), their logo, and their WhatsApp number on every call, WhatsApp and feedback button.
 // The choice is remembered on the phone, so every page the client opens afterwards stays in that shop's version.
 // ?shop=reset (or ?shop=) goes back to the standard version. The details come from public/shops/shops.json.
 
@@ -53,6 +53,9 @@ function apply(slug: string, entry: Entry) {
   // The welcome card.
   const card = document.querySelector<HTMLElement>('[data-shop-welcome]');
   if (card) {
+    // The card is hidden on the standard menu; a barber's link shows it.
+    const section = card.closest<HTMLElement>('[data-shop-section]');
+    if (section) section.hidden = false;
     const title = card.querySelector<HTMLElement>('[data-shop-title]');
     const sub = card.querySelector<HTMLElement>('[data-shop-sub]');
     const photo = card.querySelector<HTMLImageElement>('[data-shop-photo]');

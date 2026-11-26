@@ -59,7 +59,8 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
   <main>
     {/* A welcome for the partner barber: a small round photo and a line that makes the menu theirs to show. */}
     {/* The details come from public/shops/shops.json: the default shop here, and any shop opened with ?shop=name (see src/scripts/shop.ts). */}
-    <section class="wrap pt-4 md:pt-6" aria-label={t('home.welcomeLabel')}>
+    {/* Hidden for everyone by default; it appears only when a barber's own link (?shop=name) is used. */}
+    <section data-shop-section hidden class="wrap pt-4 md:pt-6" aria-label={t('home.welcomeLabel')}>
       <div
         data-shop-welcome
         data-tpl-barber={t('home.welcome', { name: '{name}', shop: '{shop}' })}
