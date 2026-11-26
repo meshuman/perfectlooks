@@ -13,6 +13,8 @@ interface Entry {
   logo?: string;
   photo?: string;
   welcome?: string;
+  contact?: string;
+  contactWhatsapp?: boolean;
 }
 
 declare global {
@@ -92,6 +94,23 @@ function apply(slug: string, entry: Entry) {
     if (own?.hasAttribute('data-brand-default')) own.hidden = true;
   }
   for (const el of document.querySelectorAll<HTMLElement>('[data-powered]')) el.hidden = false;
+
+  // The shop's own contact number, only if it chose to show one.
+  const digits = (entry.contact ?? '').replace(/\D/g, '');
+  if (digits.length >= 8 && digits.length <= 15) {
+    for (const block of document.querySelectorAll<HTMLElement>('[data-shop-contact]')) {
+      for (const el of block.querySelectorAll<HTMLElement>('[data-shop-contact-name]')) el.textContent = entry.shop;
+      for (const a of block.querySelectorAll<HTMLAnchorElement>('[data-shop-contact-call]')) {
+        a.href = `tel:+${digits}`;
+        (a.querySelector('span') ?? a).textContent = entry.contact ?? `+${digits}`;
+      }
+      for (const a of block.querySelectorAll<HTMLAnchorElement>('[data-shop-contact-wa]')) {
+        if (entry.contactWhatsapp === false) a.hidden = true;
+        else a.href = `https://wa.me/${digits}?text=${encodeURIComponent(fill(a.dataset.msgTpl ?? '', { shop: entry.shop }))}`;
+      }
+      block.hidden = false;
+    }
+  }
 }
 
 const slug = shopKey();

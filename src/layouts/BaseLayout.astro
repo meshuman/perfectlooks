@@ -98,6 +98,7 @@ const installShops = Object.fromEntries(Object.entries(publicShops).map(([key, s
         var key = parts.length >= 3 || (parts.length === 2 && parts[1] === 'localhost') ? parts[0] : '';
         var shop = installShops[key];
         if (!shop) return;
+        document.documentElement.setAttribute('data-shop-host', key);
         document.getElementById('pl-manifest').href = '/shops/manifests/' + key + '.webmanifest';
         document.querySelector('link[rel="apple-touch-icon"]').href = '/shops/icons/' + key + '-apple.png';
         var icon = document.querySelector('link[rel="icon"]');

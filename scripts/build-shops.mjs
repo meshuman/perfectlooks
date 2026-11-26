@@ -14,6 +14,9 @@ for (const [slug, s] of Object.entries(full.shops ?? {})) {
     logo: s.logo || undefined,
     photo: owner.photo || undefined,
     welcome: s.welcome || undefined,
+    // Only when the shop chose to show a contact number on its own address.
+    contact: s.publicContact?.number || undefined,
+    contactWhatsapp: s.publicContact?.number ? s.publicContact.whatsapp !== false : undefined,
   };
   shops[slug] = Object.fromEntries(Object.entries(entry).filter(([, v]) => v !== undefined));
 }

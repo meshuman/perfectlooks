@@ -6,6 +6,10 @@
       "type": "unisex",
       "logo": "logos/kgf.png",
       "whatsapp": "+977 9818879895",
+      "publicContact": {
+        "number": "",
+        "whatsapp": true
+      },
       "mobile": "+977 9818879895",
       "phone": "",
       "email": "",
@@ -35,8 +39,15 @@
       "services": [],
       "staff": null,
       "chairs": null,
-      "languages": ["Nepali"],
-      "social": { "facebook": "", "instagram": "", "tiktok": "", "youtube": "" },
+      "languages": [
+        "Nepali"
+      ],
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "tiktok": "",
+        "youtube": ""
+      },
       "lead": {
         "status": "active",
         "source": "direct",
@@ -53,19 +64,46 @@
       "type": "men",
       "logo": "",
       "whatsapp": "+977 9800000001",
+      "publicContact": {
+        "number": "",
+        "whatsapp": true
+      },
       "mobile": "",
       "phone": "",
       "email": "",
       "website": "",
-      "owners": [{ "name": "Aakash Kandel", "role": "Owner", "photo": "", "whatsapp": "", "mobile": "", "email": "" }],
-      "location": { "address": "", "area": "", "city": "", "district": "", "country": "NP", "lat": null, "lng": null, "mapsUrl": "" },
+      "owners": [
+        {
+          "name": "Aakash Kandel",
+          "role": "Owner",
+          "photo": "",
+          "whatsapp": "",
+          "mobile": "",
+          "email": ""
+        }
+      ],
+      "location": {
+        "address": "",
+        "area": "",
+        "city": "",
+        "district": "",
+        "country": "NP",
+        "lat": null,
+        "lng": null,
+        "mapsUrl": ""
+      },
       "established": null,
       "openingHours": "",
       "services": [],
       "staff": null,
       "chairs": null,
       "languages": [],
-      "social": { "facebook": "", "instagram": "", "tiktok": "", "youtube": "" },
+      "social": {
+        "facebook": "",
+        "instagram": "",
+        "tiktok": "",
+        "youtube": ""
+      },
       "lead": {
         "status": "test",
         "source": "placeholder",

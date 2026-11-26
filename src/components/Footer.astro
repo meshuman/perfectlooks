@@ -79,14 +79,24 @@ const crossOver = inMen && WOMEN_LIVE ? { href: l('/women'), label: t('who.women
       </div>
 
       <div>
-        <h2 class="text-sm font-medium tracking-wide text-muted-dark">{t('footer.visit')}</h2>
-        <p data-shop-name class="mt-4 text-[1.0625rem] font-semibold">{shop.name}</p>
-        <ul class="mt-1 text-[0.9375rem] text-muted-dark">
+        {/* The contact details (name, phone, WhatsApp) are for looksmenu's own pages; a shop's address leaves them out. */}
+        <h2 data-main-only class="text-sm font-medium tracking-wide text-muted-dark">{t('footer.visit')}</h2>
+        <p data-main-only class="mt-4 text-[1.0625rem] font-semibold">{shop.name}</p>
+        <ul data-main-only class="mt-1 text-[0.9375rem] text-muted-dark">
           <li><a href={`tel:${shop.phone}`} class="flex min-h-11 items-center underline-offset-4 hover:text-white hover:underline">{shop.phoneDisplay}</a></li>
         </ul>
-        <a href={whatsappHref} target="_blank" rel="noopener" class="mt-2 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-gold underline-offset-4 hover:underline">
+        <a data-main-only href={whatsappHref} target="_blank" rel="noopener" class="mt-2 inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-gold underline-offset-4 hover:underline">
           {t('contact.whatsapp')}
         </a>
+        {/* The shop's own contact, if it chose to show one (see data/shops.json, publicContact). */}
+        <div data-shop-contact hidden>
+          <h2 class="text-sm font-medium tracking-wide text-muted-dark">{t('footer.visit')}</h2>
+          <p data-shop-contact-name class="mt-4 text-[1.0625rem] font-semibold"></p>
+          <a data-shop-contact-call href="tel:" class="flex min-h-11 items-center text-[0.9375rem] text-muted-dark underline-offset-4 hover:text-white hover:underline"></a>
+          <a data-shop-contact-wa href="https://wa.me/" data-msg-tpl={t('contact.whatsappMessage', { shop: '{shop}' })} target="_blank" rel="noopener" class="inline-flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-gold underline-offset-4 hover:underline">
+            {t('contact.whatsapp')}
+          </a>
+        </div>
         <button type="button" data-install hidden class="flex min-h-11 items-center gap-2 text-left text-[0.9375rem] font-medium text-white underline underline-offset-4">{t('install.button')}</button>
         <p data-install-hint hidden class="max-w-xs pb-2 text-[0.8125rem] leading-snug text-muted-dark">{t('install.iosHint')}</p>
         <a href={l('/play')} class="flex min-h-11 items-center gap-2 text-[0.9375rem] font-medium text-white underline-offset-4 hover:underline">

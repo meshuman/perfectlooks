@@ -408,3 +408,8 @@
     animation: none;
   }
 }
+
+/* On a shop's own address (kgf.looksmenu.com) the parts marked data-main-only, looksmenu's contact details, are left out. */
+html[data-shop-host] [data-main-only] {
+  display: none !important;
+}

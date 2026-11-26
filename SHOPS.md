@@ -42,6 +42,7 @@ Name them after the shop, for example `photos/kgf.jpg` and `logos/kgf.png`. You 
 | `shop`, `short` | Full name; short name (12 letters or fewer) under the app icon. | yes |
 | `logo` | Path inside `public/shops/`. Header logo and app icon. Without it the shop's name is shown. | yes |
 | `whatsapp` | The shop's WhatsApp number, for your records. The website does not show or use it: contact, WhatsApp and feedback on every address go to looksmenu's number. | **no** |
+| `publicContact` | **Optional.** `{ "number": "+977 9812345678", "whatsapp": true }`. Leave `number` empty (the default) and the shop's address shows no contact. Fill it in and the shop's address shows a Contact block (landing page and footer) with that number, a Call button, and a WhatsApp button unless `whatsapp` is `false`. | only if filled in |
 | `owners[0]` | `name` and `photo` appear in the welcome card. More owners can be added to the list. | name and photo only |
 | `mobile`, `phone`, `email`, `website`, `owners[].mobile / email / whatsapp` | Contact details for you. | **no** |
 | `location` (address, area, city, district, country, `lat`, `lng`, `mapsUrl`) | Where the shop is. Use `lat` and `lng` as numbers, e.g. `27.7172` and `85.3240`. | **no** |

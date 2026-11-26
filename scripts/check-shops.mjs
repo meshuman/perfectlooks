@@ -29,6 +29,7 @@ for (const slug of slugs) {
     file(at, `owners[${i}].photo`, o.photo);
   }
   file(at, 'logo', s.logo);
+  if (s.publicContact?.number && !phone.test(s.publicContact.number)) problems.push(`${at} publicContact.number should look like +977 9812345678`);
   const loc = s.location ?? {};
   if ((loc.lat === null) !== (loc.lng === null)) problems.push(`${at} location needs both lat and lng, or neither`);
   if (loc.lat !== null && loc.lat !== undefined && !(typeof loc.lat === 'number' && loc.lat >= -90 && loc.lat <= 90)) problems.push(`${at} location.lat must be a number from -90 to 90`);
