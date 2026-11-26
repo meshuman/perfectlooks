@@ -42,9 +42,9 @@ The barber opens the menu with their shop name in the link:
 https://YOUR-SITE/?shop=kgf
 ```
 
-That phone then shows their welcome card, logo and numbers on every page, even after the browser is closed. Put the link in a QR code at the counter and clients get the same.
+That phone then shows their welcome card, logo and numbers on every page, including the landing page when the client comes back to it, even after the browser is closed. Put the link in a QR code at the counter and clients get the same.
 
-To go back to the standard menu on a phone, open `https://YOUR-SITE/?shop=reset`.
+The phone keeps the shop for **24 hours**. Opening another shop's link replaces it and starts the 24 hours again. To go back to the standard menu at once, open `https://YOUR-SITE/?shop=reset`.
 
 ## 4. Publish
 

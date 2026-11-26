@@ -1,7 +1,8 @@
 // A barber opens the menu with a link like https://looksmenu.example/?shop=kgf and sees their own shop: their name and
-// photo in the welcome card (hidden on the standard menu), their logo, and their WhatsApp number on every call, WhatsApp and feedback button.
-// The choice is remembered on the phone, so every page the client opens afterwards stays in that shop's version.
-// ?shop=reset (or ?shop=) goes back to the standard version. The details come from public/shops/shops.json.
+// photo in the welcome card, their logo, and their WhatsApp number on every call, WhatsApp and feedback button.
+// The shop is remembered on the phone for 24 hours, so every page the client opens (and the landing page when they
+// come back to it) stays in that shop's version. Another shop link replaces it and restarts the 24 hours;
+// ?shop=reset (or ?shop=) clears it at once. The details come from public/shops/shops.json.
 
 const STORE = 'pl:shop';
 const SLUG = /^[a-z0-9][a-z0-9-]{0,40}$/;
@@ -26,19 +27,26 @@ declare global {
 const safePath = (p: string | undefined) => (p && IMAGE_PATH.test(p) && !p.includes('..') && !p.startsWith('/') ? `/shops/${p}` : undefined);
 const fill = (template: string, vars: Record<string, string>) => template.replace(/\{(\w+)\}/g, (m, k: string) => vars[k] ?? m);
 
+/** How long a phone keeps a shop after its link was opened. */
+const KEEP_MS = 24 * 60 * 60 * 1000;
+
 function chosen(): string | undefined {
+  const param = new URLSearchParams(location.search).get('shop');
+  const fromLink = param === null ? undefined : param.trim().toLowerCase();
   try {
-    const param = new URLSearchParams(location.search).get('shop');
-    if (param !== null) {
-      const slug = param.trim().toLowerCase();
-      if (slug === '' || slug === 'reset') localStorage.removeItem(STORE);
-      else if (SLUG.test(slug)) localStorage.setItem(STORE, slug);
+    if (fromLink !== undefined) {
+      if (fromLink === '' || fromLink === 'reset') localStorage.removeItem(STORE);
+      else if (SLUG.test(fromLink)) localStorage.setItem(STORE, JSON.stringify({ slug: fromLink, at: Date.now() }));
     }
-    return localStorage.getItem(STORE) ?? undefined;
+    const saved = JSON.parse(localStorage.getItem(STORE) ?? 'null') as { slug?: string; at?: number } | null;
+    if (!saved?.slug || typeof saved.at !== 'number' || Date.now() - saved.at > KEEP_MS || !SLUG.test(saved.slug)) {
+      localStorage.removeItem(STORE);
+      return undefined;
+    }
+    return saved.slug;
   } catch {
-    // Storage blocked: the link still works for this page.
-    const param = new URLSearchParams(location.search).get('shop')?.trim().toLowerCase();
-    return param && SLUG.test(param) ? param : undefined;
+    // Storage blocked or unreadable: the link still works for this page.
+    return fromLink && SLUG.test(fromLink) ? fromLink : undefined;
   }
 }
 
@@ -53,11 +61,9 @@ function apply(slug: string, entry: Entry) {
   // The welcome card.
   const card = document.querySelector<HTMLElement>('[data-shop-welcome]');
   if (card) {
-    // The card shows only on the page opened with the ?shop= link itself. Coming back to the plain landing page later,
-    // it stays hidden (the shop's name and number are still remembered on the other pages).
+    // The card shows for as long as the phone remembers the shop (24 hours).
     const section = card.closest<HTMLElement>('[data-shop-section]');
-    const param = (new URLSearchParams(location.search).get('shop') ?? '').trim().toLowerCase();
-    if (section) section.hidden = param === '' || param === 'reset';
+    if (section) section.hidden = false;
     const title = card.querySelector<HTMLElement>('[data-shop-title]');
     const sub = card.querySelector<HTMLElement>('[data-shop-sub]');
     const photo = card.querySelector<HTMLImageElement>('[data-shop-photo]');
