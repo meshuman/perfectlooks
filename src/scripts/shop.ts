@@ -53,9 +53,11 @@ function apply(slug: string, entry: Entry) {
   // The welcome card.
   const card = document.querySelector<HTMLElement>('[data-shop-welcome]');
   if (card) {
-    // The card is hidden on the standard menu; a barber's link shows it.
+    // The card shows only on the page opened with the ?shop= link itself. Coming back to the plain landing page later,
+    // it stays hidden (the shop's name and number are still remembered on the other pages).
     const section = card.closest<HTMLElement>('[data-shop-section]');
-    if (section) section.hidden = false;
+    const param = (new URLSearchParams(location.search).get('shop') ?? '').trim().toLowerCase();
+    if (section) section.hidden = param === '' || param === 'reset';
     const title = card.querySelector<HTMLElement>('[data-shop-title]');
     const sub = card.querySelector<HTMLElement>('[data-shop-sub]');
     const photo = card.querySelector<HTMLImageElement>('[data-shop-photo]');
