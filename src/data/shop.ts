@@ -13,8 +13,8 @@ export const shops: Shop[] = [
   {
     slug: 'looksmenu',
     name: 'looksmenu',
-    phone: '+9779818879895',
-    phoneDisplay: '+977 9818879895',
+    phone: '+9779801033828',
+    phoneDisplay: '+977 9801033828',
   },
 ];
 

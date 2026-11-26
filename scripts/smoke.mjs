@@ -266,7 +266,7 @@ await check('Add-ons: the list links to pages that explain why and what changes'
   await page.locator('h1').filter({ hasText: 'Glow Facial' }).waitFor({ timeout: 3000 });
   for (const heading of ['What it is', 'Why it matters', 'What changes', 'Ask first if']) await page.locator('h2', { hasText: heading }).first().waitFor({ timeout: 3000 });
   const wa = await page.getAttribute('a[href^="https://wa.me/"]', 'href');
-  if (!wa.includes('9779818879895') || !decodeURIComponent(wa).includes('Glow Facial')) throw new Error('ask link: ' + wa);
+  if (!wa.includes('9779801033828') || !decodeURIComponent(wa).includes('Glow Facial')) throw new Error('ask link: ' + wa);
   await go('/ne/men/add-ons/glow-facial');
   await page.locator('h1').filter({ hasText: 'ग्लो फेसियल' }).waitFor({ timeout: 3000 });
 });
@@ -280,7 +280,7 @@ await check('The landing page asks Men or Women and opens that section', async (
   else {
     await expectText(page.locator('#menu'), 'Coming soon');
     if (await page.locator('a[href^="/women"]').count()) throw new Error('a link to /women is still on the page');
-    const wa = await page.getAttribute('#menu a[href^="https://wa.me/9779818879895"]', 'href');
+    const wa = await page.getAttribute('#menu a[href^="https://wa.me/9779801033828"]', 'href');
     if (!wa) throw new Error('no WhatsApp notify link');
   }
   await page.locator('main a[href="/feedback"]').first().waitFor({ timeout: 3000 });
@@ -373,7 +373,7 @@ await check('Feedback form sends the answers to the shop on WhatsApp', async () 
   const url = decodeURIComponent(sent);
   await popup.close().catch(() => {});
   await page.context().unroute('https://wa.me/**');
-  for (const part of ['wa.me/9779818879895', 'Rating: 4/5', 'Hoping to: Show my barber', 'Helped me decide: A little', 'Could be better: More photos', 'Comment: Please add prices', 'Reply to: Test'])
+  for (const part of ['wa.me/9779801033828', 'Rating: 4/5', 'Hoping to: Show my barber', 'Helped me decide: A little', 'Could be better: More photos', 'Comment: Please add prices', 'Reply to: Test'])
     if (!url.includes(part)) throw new Error(`message is missing "${part}"`);
   await page.locator('[data-feedback-done]:not([hidden])').waitFor({ timeout: 3000 });
 });
