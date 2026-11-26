@@ -12,3 +12,7 @@ public/manifest.webmanifest
 public/icons/
 public/shops/icons/
 public/shops/manifests/
+public/shops/shops.json
+# Personal contact details exported for follow-up: never committed
+exports/
+

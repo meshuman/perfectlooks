@@ -1,5 +1,5 @@
 // Makes the install files for the app: an icon set and a web app manifest for looksmenu itself, and for every shop in
-// public/shops/shops.json (so a shop's QR code installs an app with that shop's logo and name).
+// data/shops.json (so a shop's QR code installs an app with that shop's logo and name).
 //   public/manifest.webmanifest, public/icons/looksmenu-*.png
 //   public/shops/manifests/<shop>.webmanifest, public/shops/icons/<shop>-*.png
 // Runs before every build and dev start (npm scripts "prebuild" and "predev"). The output is not committed.
@@ -65,7 +65,7 @@ writeFileSync(
 );
 
 // Every shop: its logo on white (or the looksmenu mark if it has no logo yet).
-const store = JSON.parse(readFileSync('public/shops/shops.json', 'utf8'));
+const store = JSON.parse(readFileSync('data/shops.json', 'utf8'));
 let count = 0;
 for (const [slug, shop] of Object.entries(store.shops ?? {})) {
   const logoFile = shop.logo ? `public/shops/${shop.logo}` : undefined;

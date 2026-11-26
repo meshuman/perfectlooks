@@ -25,6 +25,9 @@ contact.whatsapp,Screen text: contact,Message on WhatsApp,WhatsApp मा सन
 contact.whatsappMessage,Screen text: contact,"Hello {shop}, I would like to know more.","नमस्ते {shop}, म थप जान्न चाहन्छु।",draft,Keep the {words in braces}: the app fills them in.
 install.button,Screen text: install,Install the app,एप इन्स्टल गर्नुहोस्,draft,
 install.iosHint,Screen text: install,"On iPhone: tap the Share button, then Add to Home Screen.","आइफोनमा: Share बटन थिच्नुहोस्, अनि Add to Home Screen छान्नुहोस्।",draft,
+powered.by,Screen text: powered,Powered by,द्वारा सञ्चालित,draft,
+powered.cta,Screen text: powered,Want this menu for your salon?,तपाईंको सैलुनका लागि पनि यो मेनु चाहिन्छ?,draft,
+powered.button,Screen text: powered,Visit looksmenu.com,looksmenu.com हेर्नुहोस्,draft,
 footer.catalogue,Screen text: footer,Catalogue,क्याटलग,draft,
 category.hair.label,Screen text: category,Hair,कपाल,draft,
 category.beards.label,Screen text: category,Beard,दाह्री,draft,

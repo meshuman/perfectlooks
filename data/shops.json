@@ -1,0 +1,80 @@
+{
+  "shops": {
+    "kgf": {
+      "shop": "KGF UniSex Salon",
+      "short": "KGF",
+      "type": "unisex",
+      "logo": "logos/kgf.png",
+      "whatsapp": "+977 9818879895",
+      "mobile": "+977 9818879895",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "owners": [
+        {
+          "name": "Karan Thakur",
+          "role": "Owner",
+          "photo": "photos/kgf.jpg",
+          "whatsapp": "+977 9818879895",
+          "mobile": "",
+          "email": ""
+        }
+      ],
+      "location": {
+        "address": "Jadibuti-32, Narephat",
+        "area": "Narephat",
+        "city": "Kathmandu",
+        "district": "Kathmandu",
+        "country": "NP",
+        "lat": null,
+        "lng": null,
+        "mapsUrl": "https://share.google/9SL0tbgf0oUuEPHt0"
+      },
+      "established": null,
+      "openingHours": "Open daily, 7 am – 8 pm",
+      "services": [],
+      "staff": null,
+      "chairs": null,
+      "languages": ["Nepali"],
+      "social": { "facebook": "", "instagram": "", "tiktok": "", "youtube": "" },
+      "lead": {
+        "status": "active",
+        "source": "direct",
+        "handledBy": "",
+        "firstContact": "",
+        "lastContact": "",
+        "consentToMarketing": null,
+        "notes": ""
+      }
+    },
+    "aakash": {
+      "shop": "Kandel Hair Studio",
+      "short": "Kandel",
+      "type": "men",
+      "logo": "",
+      "whatsapp": "+977 9800000001",
+      "mobile": "",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "owners": [{ "name": "Aakash Kandel", "role": "Owner", "photo": "", "whatsapp": "", "mobile": "", "email": "" }],
+      "location": { "address": "", "area": "", "city": "", "district": "", "country": "NP", "lat": null, "lng": null, "mapsUrl": "" },
+      "established": null,
+      "openingHours": "",
+      "services": [],
+      "staff": null,
+      "chairs": null,
+      "languages": [],
+      "social": { "facebook": "", "instagram": "", "tiktok": "", "youtube": "" },
+      "lead": {
+        "status": "test",
+        "source": "placeholder",
+        "handledBy": "",
+        "firstContact": "",
+        "lastContact": "",
+        "consentToMarketing": null,
+        "notes": "Made-up entry for testing. The number is not real."
+      }
+    }
+  }
+}

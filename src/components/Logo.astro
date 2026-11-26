@@ -16,10 +16,33 @@ const { tone = 'light', size = 'md' } = Astro.props;
 const dark = tone === 'dark';
 ---
 
-<a href={l('/')} class:list={['inline-flex items-center', size === 'md' && 'min-h-11', size === 'lg' ? 'gap-3.5' : 'gap-2.5']}>
+{/* On looksmenu itself: the looksmenu logo. */}
+<a href={l('/')} data-brand-default class:list={['inline-flex items-center', size === 'md' && 'min-h-11', size === 'lg' ? 'gap-3.5' : 'gap-2.5']}>
   <svg viewBox="0 0 100 100" class:list={['shrink-0', size === 'lg' ? 'size-14' : 'size-9']} aria-hidden="true" set:html={menuMark()} />
   <span aria-hidden="true" class:list={['font-bold leading-none tracking-[-0.02em]', size === 'lg' ? 'text-[1.75rem]' : 'text-[1.3125rem]']}>
     <span class={dark ? 'text-teal' : 'text-teal-ink'}>looks</span><span class={dark ? 'text-cream font-medium' : 'text-ink font-medium'}>menu</span>
   </span>
   <span class="sr-only">{t('site.homeLink', { shop: shop.name })}</span>
 </a>
+
+{/* On a shop's own address (kgf.looksmenu.com): the shop's logo comes first, or just its name when it has no logo yet,
+    and looksmenu appears beside it as "powered by". src/scripts/shop.ts fills this in and shows it. */}
+<span data-brand-shop hidden class:list={['items-center gap-3', size === 'md' && 'min-h-11']}>
+  <a href={l('/')} class="inline-flex items-center">
+    <img data-brand-shop-logo hidden alt="" class:list={['w-auto max-w-[9.5rem] object-contain', size === 'lg' ? 'h-14 max-w-[14rem]' : 'h-9']} />
+    <span data-brand-shop-name hidden aria-hidden="true" class:list={['font-bold leading-none tracking-[-0.02em]', size === 'lg' ? 'text-[1.75rem]' : 'text-[1.25rem]', dark ? 'text-white' : 'text-ink']}></span>
+    <span data-brand-shop-sr class="sr-only"></span>
+  </a>
+  {
+    size === 'md' && (
+      <a
+        href={Astro.site?.href ?? 'https://looksmenu.com'}
+        class:list={['hidden items-center gap-1.5 border-l pl-3 text-[0.625rem] leading-tight font-semibold tracking-[0.1em] uppercase md:inline-flex', dark ? 'border-white/25 text-muted-dark' : 'border-line text-muted']}
+      >
+        {t('powered.by')}
+        <svg viewBox="0 0 100 100" class="size-5" aria-hidden="true" set:html={menuMark()} />
+        <span class:list={['normal-case tracking-normal', dark ? 'text-white' : 'text-ink']}>looksmenu</span>
+      </a>
+    )
+  }
+</span>

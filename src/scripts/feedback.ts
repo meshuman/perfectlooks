@@ -11,6 +11,11 @@ if (form) {
   const waLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>('[data-wa-link]'));
   const { endpoint = '', whatsapp = '', lang = 'en', msgSending = '', msgNeedRating = '', msgError = '' } = form.dataset;
 
+  // On a shop's own address (kgf.looksmenu.com) the answers say which shop's QR code the customer scanned.
+  const host = location.hostname.toLowerCase();
+  const parts = host.split('.');
+  const scanned = (parts.length >= 3 || (parts.length === 2 && parts[1] === 'localhost')) && parts[0] !== 'www' ? host : '';
+
   const label = (input: HTMLInputElement) => input.dataset.en ?? input.value;
   const checked = (name: string) => Array.from(form.querySelectorAll<HTMLInputElement>(`input[name="${name}"]:checked`)).map(label);
   const value = (name: string) => (form.elements.namedItem(name) as HTMLInputElement | HTMLTextAreaElement | null)?.value.trim() ?? '';
@@ -36,7 +41,8 @@ if (form) {
       language: lang,
     };
     const lines = [
-      `${window.__plShop?.shop ?? 'looksmenu'}: customer feedback`,
+      'looksmenu: customer feedback',
+      scanned && `Scanned at: ${scanned}`,
       rating && `Rating: ${rating}/5`,
       answers.goals.length && `Hoping to: ${answers.goals.join(', ')}`,
       answers.helped && `Helped me decide: ${answers.helped}`,
@@ -49,8 +55,7 @@ if (form) {
     return { answers, message: lines.join('\n') };
   };
 
-  // A barber's own number (from ?shop=) wins over the standard one.
-  const whatsappUrl = (message: string) => `https://wa.me/${window.__plShop?.whatsapp || form.dataset.whatsapp || whatsapp}?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = (message: string) => `https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`;
 
   const finish = (viaWhatsApp: boolean, url: string) => {
     form.hidden = true;

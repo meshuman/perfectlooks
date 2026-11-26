@@ -12,6 +12,7 @@ import { photoFor } from '@/data/photos';
 import { trendRank } from '@/data/trending';
 import { website } from '@/data/seo';
 import { defaultShop as shop } from '@/data/shop';
+import { menuMark } from '@/data/brand-marks.mjs';
 import { langParams, useI18n, type UiKey } from '@/i18n';
 
 export function getStaticPaths() {
@@ -73,9 +74,13 @@ const seeAll = 'group inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[0
           <p data-shop-title class="text-[1.0625rem] leading-snug font-semibold"></p>
           <p data-shop-sub class="mt-0.5 text-[0.875rem] leading-snug text-muted"></p>
           <button type="button" data-install hidden class="mt-1.5 inline-flex min-h-11 items-center text-[0.75rem] font-bold tracking-[0.12em] uppercase underline decoration-brand decoration-2 underline-offset-[6px]">{t('install.button')}</button>
+          <a data-powered hidden href={Astro.site?.href ?? 'https://looksmenu.com'} class="mt-1.5 inline-flex items-center gap-1.5 text-[0.6875rem] font-semibold tracking-[0.1em] text-muted uppercase">
+            {t('powered.by')}
+            <svg viewBox="0 0 100 100" class="size-5" aria-hidden="true" set:html={menuMark()} />
+            <span class="text-ink normal-case tracking-normal">looksmenu.com</span>
+          </a>
           <p data-install-hint hidden class="mt-1 text-[0.8125rem] leading-snug text-muted">{t('install.iosHint')}</p>
         </div>
-        <img data-shop-logo hidden alt="" class="hidden h-10 max-w-24 shrink-0 object-contain sm:block md:h-12" />
       </div>
     </section>
 

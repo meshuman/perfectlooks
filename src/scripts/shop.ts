@@ -1,5 +1,5 @@
-// Each barber shop has its own address: kgf.looksmenu.com shows the KGF UniSex Salon welcome card, logo and WhatsApp
-// number on every page. The first part of the address is the shop's key in public/shops/shops.json. An address with
+// Each barber shop has its own address: kgf.looksmenu.com shows the KGF UniSex Salon welcome card and logo on every
+// page. Contact details, WhatsApp and feedback stay exactly as on the landing page (looksmenu's number). The first part of the address is the shop's key in public/shops/shops.json. An address with
 // no matching key (looksmenu.com itself, www, or a name that is not in the file) shows the standard menu with no
 // welcome card. Nothing is stored on the phone: the address alone decides the shop.
 
@@ -10,7 +10,6 @@ const IMAGE_PATH = /^[\w\-./]+\.(png|jpe?g|webp|svg|avif)$/i;
 interface Entry {
   barber?: string;
   shop: string;
-  whatsapp?: string;
   logo?: string;
   photo?: string;
   welcome?: string;
@@ -19,7 +18,7 @@ interface Entry {
 declare global {
   interface Window {
     /** The shop whose address this is, for scripts that send messages (the feedback form). */
-    __plShop?: { slug: string; shop: string; whatsapp: string };
+    __plShop?: { slug: string; shop: string };
   }
 }
 
@@ -34,12 +33,7 @@ function shopKey(): string | undefined {
 }
 
 function apply(slug: string, entry: Entry) {
-  const digits = (entry.whatsapp ?? '').replace(/\D/g, '');
-  const hasNumber = digits.length >= 8 && digits.length <= 15;
-  window.__plShop = { slug, shop: entry.shop, whatsapp: hasNumber ? digits : '' };
-
-  // Names of the shop (the contact block, the footer).
-  for (const el of document.querySelectorAll<HTMLElement>('[data-shop-name]')) el.textContent = entry.shop;
+  window.__plShop = { slug, shop: entry.shop };
 
   // The welcome card, hidden on the standard menu.
   const card = document.querySelector<HTMLElement>('[data-shop-welcome]');
@@ -50,7 +44,6 @@ function apply(slug: string, entry: Entry) {
     const sub = card.querySelector<HTMLElement>('[data-shop-sub]');
     const photo = card.querySelector<HTMLImageElement>('[data-shop-photo]');
     const initials = card.querySelector<HTMLElement>('[data-shop-initials]');
-    const logo = card.querySelector<HTMLImageElement>('[data-shop-logo]');
     const withBarber = card.dataset.tplBarber ?? '{name} welcomes you to {shop}';
     const shopOnly = card.dataset.tplShop ?? 'Welcome to {shop}';
     if (title) title.textContent = fill(entry.barber ? withBarber : shopOnly, { name: entry.barber ?? '', shop: entry.shop });
@@ -75,24 +68,30 @@ function apply(slug: string, entry: Entry) {
         }
       }
     }
-    const logoPath = safePath(entry.logo);
-    if (logo) {
-      logo.hidden = !logoPath;
-      if (logoPath) {
-        logo.src = logoPath;
-        logo.alt = entry.shop;
-      }
-    }
   }
 
-  if (!hasNumber) return;
-  // Every WhatsApp and call link, and the number shown beside them, goes to this shop.
-  for (const a of document.querySelectorAll<HTMLAnchorElement>('a[href^="https://wa.me/"]')) a.href = a.href.replace(/wa\.me\/\d+/, `wa.me/${digits}`);
-  for (const a of document.querySelectorAll<HTMLAnchorElement>('a[href^="tel:"]')) {
-    a.href = `tel:+${digits}`;
-    (a.querySelector('span') ?? a).textContent = entry.whatsapp ?? `+${digits}`;
+  // The header and footer brand: the shop's logo first, or its name when it has no logo yet. looksmenu moves to "powered by".
+  const logoPath = safePath(entry.logo);
+  for (const holder of document.querySelectorAll<HTMLElement>('[data-brand-shop]')) {
+    const logo = holder.querySelector<HTMLImageElement>('[data-brand-shop-logo]');
+    const name = holder.querySelector<HTMLElement>('[data-brand-shop-name]');
+    const sr = holder.querySelector<HTMLElement>('[data-brand-shop-sr]');
+    if (logo && logoPath) {
+      logo.src = logoPath;
+      logo.hidden = false;
+      if (name) name.hidden = true;
+    } else if (name) {
+      name.textContent = entry.shop;
+      name.hidden = false;
+      if (logo) logo.hidden = true;
+    }
+    if (sr) sr.textContent = entry.shop;
+    holder.hidden = false;
+    holder.classList.add('inline-flex');
+    const own = holder.previousElementSibling as HTMLElement | null;
+    if (own?.hasAttribute('data-brand-default')) own.hidden = true;
   }
-  for (const form of document.querySelectorAll<HTMLElement>('[data-feedback-form]')) form.dataset.whatsapp = digits;
+  for (const el of document.querySelectorAll<HTMLElement>('[data-powered]')) el.hidden = false;
 }
 
 const slug = shopKey();
